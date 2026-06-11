@@ -30,7 +30,7 @@ jobs:
           restore-keys: |
             seen-
 
-      - name: Revisar Behance
+      - name: Revisar plataformas
         run: node vigilante.js
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
