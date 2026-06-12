@@ -1,9 +1,11 @@
 name: Vigilante Behance
 
 on:
-  # Cron de hora en punto: GitHub dispara los crons horarios de forma mucho más
-  # fiable que los de alta frecuencia (*/10), que suele despriorizar o saltarse.
-  # La densidad real (revisar cada pocos minutos) la da el bucle interno del job.
+  # Cron de hora en punto: solo sirve para (re)arrancar la vigilancia. Como cada
+  # ejecución vigila en bucle ~5,5 h, basta con que GitHub dispare el cron unas
+  # pocas veces al día para tener cobertura casi continua. Los crons horarios son
+  # mucho más fiables que los de alta frecuencia (*/10), que GitHub suele saltarse,
+  # y 'concurrency' garantiza que nunca haya dos ejecuciones a la vez.
   schedule:
     - cron: '7 * * * *'
   workflow_dispatch:           # permite lanzarlo a mano desde la pestaña Actions
@@ -18,7 +20,7 @@ concurrency:
 jobs:
   revisar:
     runs-on: ubuntu-latest
-    timeout-minutes: 70
+    timeout-minutes: 345
     steps:
       - uses: actions/checkout@v4
 
@@ -34,19 +36,24 @@ jobs:
           restore-keys: |
             seen-
 
-      # Una sola ejecución vigila durante ~50 min, revisando cada 3 min. Así no
-      # dependemos de que el cron se dispare muchas veces por hora: con que arranque
-      # una vez, cubre casi toda la hora y avisa a los pocos minutos de cada oferta.
-      - name: Revisar Behance en bucle (~50 min, cada 3 min)
+      # Una sola ejecución vigila durante ~5,5 h, revisando cada 3 min. Así basta
+      # con que el cron arranque unas pocas veces al día para cubrir el día casi
+      # entero, y avisa a los pocos minutos de cada nueva oferta. La protección de
+      # 'concurrency' evita que se solapen o acumulen ejecuciones.
+      - name: Revisar Behance en bucle (~5,5 h, cada 3 min)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          for i in $(seq 1 17); do
-            echo "── Pasada $i de 17 ($(date -u +%H:%M:%S) UTC) ──"
+          fin=$(( $(date +%s) + 19800 ))   # vigilar durante 5 h 30 min
+          i=0
+          while [ "$(date +%s)" -lt "$fin" ]; do
+            i=$((i+1))
+            echo "── Pasada $i ($(date -u +%H:%M:%S) UTC) ──"
             node vigilante.js || echo "Pasada $i fallida; se reintenta en la siguiente."
-            if [ "$i" -lt 17 ]; then sleep 180; fi
+            sleep 180
           done
+          echo "Fin del ciclo de vigilancia tras $i pasadas."
 
       - name: Guardar estado
         if: always()
