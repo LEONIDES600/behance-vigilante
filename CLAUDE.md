@@ -80,17 +80,20 @@ no hace falta tocar la lógica.
 
 ## Workflow de Actions (`vigilante.yml`)
 
-La vigilancia es **continua** y casi no depende del planificador de GitHub (que en
-la práctica no disparaba el cron `*/10`):
+La vigilancia es **continua**. Mecanismo principal = cron horario + bucle largo;
+el auto-encadenado es una mejora opcional:
 
 - **Bucle largo**: cada ejecución revisa Behance en bucle durante ~5,5 h (cada
   3 min), con `timeout-minutes: 345`. Así una sola ejecución cubre casi todo el día.
-- **Auto-encadenado**: al terminar el ciclo (paso final, tras guardar el estado),
-  el workflow se relanza a sí mismo vía la API usando `DISPATCH_PAT`. Se usa un PAT
-  porque el `GITHUB_TOKEN` por defecto **no** puede disparar workflows. Si el
-  secreto falta, el paso no hace nada y se cae al cron.
-- `schedule: '7 */6 * * *'` (cada 6 h) = **red de seguridad** por si la cadena se
-  rompe; ya no es el mecanismo principal. + `workflow_dispatch` (lanzar a mano).
+- `schedule: '7 * * * *'` (cada hora) = **mecanismo principal** que arranca la
+  vigilancia. Con el bucle de 5,5 h + `concurrency` (una pendiente), el relevo entre
+  ciclos es continuo, sin huecos. + `workflow_dispatch` (lanzar a mano).
+  - Nota histórica: el `*/10` original no se disparaba en repo recién creado; tras
+    actividad de commits el planificador empezó a disparar el cron con normalidad.
+- **Auto-encadenado (opcional)**: si existe el secreto `DISPATCH_PAT`, el paso final
+  (tras guardar el estado) relanza el workflow vía API, quedando 100% independiente
+  del cron. Se usa un PAT porque el `GITHUB_TOKEN` por defecto **no** puede disparar
+  workflows. Si el secreto falta, el paso no hace nada y manda el cron horario.
 - `concurrency: vigilante` con `cancel-in-progress: false`: nunca hay dos runs a la
   vez; un run encadenado/cron queda pendiente hasta que termina el actual.
 - Restaura/guarda el cache `seen-*` (carpeta `estado`) antes y después del bucle.
