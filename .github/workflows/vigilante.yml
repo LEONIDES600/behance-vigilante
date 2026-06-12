@@ -1,13 +1,11 @@
 name: Vigilante Behance
 
 on:
-  # Cron de hora en punto: solo sirve para (re)arrancar la vigilancia. Como cada
-  # ejecución vigila en bucle ~5,5 h, basta con que GitHub dispare el cron unas
-  # pocas veces al día para tener cobertura casi continua. Los crons horarios son
-  # mucho más fiables que los de alta frecuencia (*/10), que GitHub suele saltarse,
-  # y 'concurrency' garantiza que nunca haya dos ejecuciones a la vez.
+  # Respaldo: con el secreto DISPATCH_PAT, el workflow se reencadena solo (ver el
+  # paso final), así que NO depende del cron. Este cron cada 6 h es solo una red de
+  # seguridad por si la cadena se rompiera alguna vez (p. ej. runner desalojado).
   schedule:
-    - cron: '7 * * * *'
+    - cron: '7 */6 * * *'
   workflow_dispatch:           # permite lanzarlo a mano desde la pestaña Actions
 
 permissions:
@@ -61,6 +59,34 @@ jobs:
         with:
           path: estado
           key: seen-${{ github.run_id }}
+
+      # Auto-encadenado: al terminar el ciclo, el workflow se lanza a sí mismo para
+      # que la vigilancia sea continua sin depender del cron de GitHub. Usa un token
+      # personal (secreto DISPATCH_PAT) porque el GITHUB_TOKEN por defecto NO puede
+      # disparar nuevos workflows (GitHub lo bloquea para evitar bucles). Se ejecuta
+      # tras guardar el estado, de modo que la siguiente ejecución parte de los IDs
+      # ya vistos. Si el secreto no existe, no hace nada y se depende del cron.
+      - name: Encadenar la siguiente vigilancia
+        if: success()
+        env:
+          GH_PAT: ${{ secrets.DISPATCH_PAT }}
+        run: |
+          if [ -z "$GH_PAT" ]; then
+            echo "Sin DISPATCH_PAT: no se reencadena (la red de seguridad es el cron)."
+            echo "Añade el secreto DISPATCH_PAT para vigilancia continua a prueba de balas."
+            exit 0
+          fi
+          code=$(curl -sS -o /tmp/resp.txt -w '%{http_code}' -X POST \
+            -H "Authorization: Bearer $GH_PAT" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/vigilante.yml/dispatches" \
+            -d '{"ref":"main"}')
+          if [ "$code" = "204" ]; then
+            echo "Siguiente vigilancia encadenada correctamente."
+          else
+            echo "No se pudo reencadenar (HTTP $code): $(cat /tmp/resp.txt). El cron lo retomará."
+          fi
 
   # GitHub pausa los crons en repositorios sin actividad durante 60 días.
   # Este trabajo hace un commit vacío semanal para mantenerlo vivo.
