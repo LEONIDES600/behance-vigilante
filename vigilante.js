@@ -12,7 +12,9 @@ const path = require('path');
 
 const SEARCHES = ['', 'branding', 'logo', 'social media', 'motion graphics', 'graphic design'];
 const INCLUDE = ['brand', 'logo', 'graphic', 'design', 'social', 'motion', 'video', 'content', 'instagram', 'tiktok', 'youtube', 'identity', 'visual', 'creative', 'ai', 'marketing'];
-const EXCLUDE = ['software engineer', 'backend', 'frontend developer', 'fullstack', 'drafter', 'copywriter', 'accountant'];
+const EXCLUDE = ['software engineer', 'backend', 'frontend developer', 'fullstack', 'drafter', 'copywriter', 'accountant', 'adult content', 'adult', 'nsfw', 'onlyfans', 'porn', 'escort', 'webcam', 'sexual'];
+// Títulos que en realidad son el muro de aviso de Behance, no la oferta real.
+const GATE_TITLES = /^(adult content|content warning|mature content|sensitive content)$/i;
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36';
 const STATE_FILE = path.join(__dirname, 'estado', 'seen.json');
 const MAX_SEEN = 3000;
@@ -46,10 +48,16 @@ Leo Gomez Silva
 Leo Visual — https://leovisual.nl/`;
 }
 
+// Coincidencia por palabra completa: evita falsos positivos como 'ai' dentro de
+// "email"/"available" o 'content' dentro de "Adult content".
+function hasKeyword(text, keywords) {
+  return keywords.some((k) => new RegExp(`\\b${k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i').test(text));
+}
+
 function passesFilters(title, description) {
-  const text = `${title} ${description || ''}`.toLowerCase();
-  if (EXCLUDE.some((k) => text.includes(k))) return false;
-  return INCLUDE.some((k) => text.includes(k));
+  const text = `${title} ${description || ''}`;
+  if (hasKeyword(text, EXCLUDE)) return false;
+  return hasKeyword(text, INCLUDE);
 }
 
 async function tryFetch(url, label) {
@@ -101,9 +109,15 @@ async function enrichJob(job) {
     const { html } = await fetchPage(job.url);
     if (!html) return job;
     const t = html.match(/"title":"((?:[^"\\]|\\.){5,200}?)"/);
-    if (t) job.title = unescapeJson(t[1]);
+    if (t) {
+      const title = unescapeJson(t[1]).trim();
+      // Behance a veces sirve un muro de aviso ("Adult content") en lugar de la
+      // oferta. Si lo detectamos, conservamos el título derivado del slug.
+      if (GATE_TITLES.test(title)) job.gated = true;
+      else job.title = title;
+    }
     const d = html.match(/"description":"((?:[^"\\]|\\.){60,})?"/);
-    if (d && d[1]) job.description = unescapeJson(d[1]);
+    if (d && d[1] && !job.gated) job.description = unescapeJson(d[1]);
     const b = html.match(/"budgetMin":(\d+),"budgetMax":(\d+)/);
     const c = html.match(/"salaryCurrency":"([A-Z]+)"/);
     if (b) job.budget = `${Math.round(b[1] / 100).toLocaleString('en-US')}–${Math.round(b[2] / 100).toLocaleString('en-US')} ${c ? c[1] : 'USD'}`;
