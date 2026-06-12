@@ -6,7 +6,8 @@ hacer cambios.
 ## Qué es este proyecto
 
 **Vigilante de ofertas de Behance** para Leo Visual. Un único script de Node.js
-que corre en GitHub Actions cada ~10 minutos: revisa el
+que corre en GitHub Actions de forma continua (en bucle, con auto-encadenado):
+revisa cada ~3 minutos el
 [Job Board de Behance](https://www.behance.net/joblist), detecta ofertas nuevas,
 las filtra por relevancia (diseño/branding/social/motion/AI) y envía cada una a
 Telegram con una propuesta personalizada lista para copiar y pegar. Funciona en
@@ -71,16 +72,34 @@ no hace falta tocar la lógica.
 - `TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID` se leen de `process.env` y se inyectan
   desde los **Secretos del repositorio** en el workflow. Nunca los pongas en el
   código ni en commits.
+- `DISPATCH_PAT` (secreto del repo): token personal usado **solo en el workflow**
+  para que la vigilancia se auto-encadene (ver abajo). Si no existe, el workflow
+  sigue funcionando pero depende del cron de respaldo. Permiso necesario: Actions
+  read/write sobre este repo (fine-grained) o scopes `repo`+`workflow` (clásico).
 - El estado (`estado/`) se persiste entre runs con `actions/cache` (no con commits).
 
 ## Workflow de Actions (`vigilante.yml`)
 
-- `schedule: '*/10 * * * *'` + `workflow_dispatch` (lanzar a mano).
-- `concurrency: vigilante` con `cancel-in-progress: false` para no solapar runs.
-- Restaura/guarda el cache `seen-*` (carpeta `estado`) antes y después del script.
-- Job `keepalive`: hace un commit vacío semanal para que GitHub no pause el cron
-  por inactividad (los crons se pausan tras 60 días sin actividad en el repo).
+La vigilancia es **continua** y casi no depende del planificador de GitHub (que en
+la práctica no disparaba el cron `*/10`):
+
+- **Bucle largo**: cada ejecución revisa Behance en bucle durante ~5,5 h (cada
+  3 min), con `timeout-minutes: 345`. Así una sola ejecución cubre casi todo el día.
+- **Auto-encadenado**: al terminar el ciclo (paso final, tras guardar el estado),
+  el workflow se relanza a sí mismo vía la API usando `DISPATCH_PAT`. Se usa un PAT
+  porque el `GITHUB_TOKEN` por defecto **no** puede disparar workflows. Si el
+  secreto falta, el paso no hace nada y se cae al cron.
+- `schedule: '7 */6 * * *'` (cada 6 h) = **red de seguridad** por si la cadena se
+  rompe; ya no es el mecanismo principal. + `workflow_dispatch` (lanzar a mano).
+- `concurrency: vigilante` con `cancel-in-progress: false`: nunca hay dos runs a la
+  vez; un run encadenado/cron queda pendiente hasta que termina el actual.
+- Restaura/guarda el cache `seen-*` (carpeta `estado`) antes y después del bucle.
+  El reencadenado va **después** de guardar, para que el siguiente run parta de los
+  IDs ya vistos y no duplique avisos.
+- Job `keepalive`: commit vacío semanal para que GitHub no pause el cron de respaldo
+  por inactividad (se pausa tras 60 días sin actividad en el repo).
 - `permissions: contents: write` (necesario para el push del keepalive).
+- Minutos de Actions: el repo es **público**, así que correr ~24/7 es gratis.
 
 ## Convenciones
 
