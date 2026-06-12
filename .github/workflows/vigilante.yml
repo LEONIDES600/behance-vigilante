@@ -1,11 +1,12 @@
 name: Vigilante Behance
 
 on:
-  # Respaldo: con el secreto DISPATCH_PAT, el workflow se reencadena solo (ver el
-  # paso final), así que NO depende del cron. Este cron cada 6 h es solo una red de
-  # seguridad por si la cadena se rompiera alguna vez (p. ej. runner desalojado).
+  # Mecanismo principal: el cron de hora en punto arranca la vigilancia. Como cada
+  # ejecución dura ~5,5 h y 'concurrency' mantiene una pendiente, el relevo entre
+  # ciclos es continuo (sin huecos). Si además existe el secreto DISPATCH_PAT, el
+  # paso final reencadena solo y deja de depender del cron (ver más abajo).
   schedule:
-    - cron: '7 */6 * * *'
+    - cron: '7 * * * *'
   workflow_dispatch:           # permite lanzarlo a mano desde la pestaña Actions
 
 permissions:
