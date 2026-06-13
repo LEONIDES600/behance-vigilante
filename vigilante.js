@@ -10,8 +10,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const SEARCHES = ['', 'branding', 'logo', 'social media', 'motion graphics', 'graphic design'];
-const INCLUDE = ['brand', 'logo', 'graphic', 'design', 'social', 'motion', 'video', 'content', 'instagram', 'tiktok', 'youtube', 'identity', 'visual', 'creative', 'ai', 'marketing'];
+const SEARCHES = ['', 'branding', 'logo', 'social media', 'motion graphics', 'graphic design', 'video', 'advertising', 'ugc', 'amazon'];
+const INCLUDE = ['brand', 'logo', 'graphic', 'design', 'social', 'motion', 'video', 'content', 'instagram', 'tiktok', 'youtube', 'identity', 'visual', 'creative', 'ai', 'marketing', 'advertising', 'advertisement', 'commercial', 'commercials', 'ads', 'ugc', 'amazon', 'promo', 'promotional', 'ecommerce', 'e-commerce', 'reel', 'reels', 'product'];
 const EXCLUDE = ['software engineer', 'backend', 'frontend developer', 'fullstack', 'drafter', 'copywriter', 'accountant', 'adult content', 'adult', 'nsfw', 'onlyfans', 'porn', 'escort', 'webcam', 'sexual'];
 // Títulos que en realidad son el muro de aviso de Behance, no la oferta real.
 const GATE_TITLES = /^(adult content|content warning|mature content|sensitive content)$/i;
@@ -24,6 +24,7 @@ const TOPIC_LINES = [
   { match: /instagram|tiktok|social media|social-media|reels/i, line: 'I create social media content daily for Instagram, TikTok and LinkedIn, combining design, motion and AI tools to keep feeds consistent and fast-moving.' },
   { match: /logo|brand|identity|naming/i, line: 'Branding and visual identity are the core of my studio: logo systems, brand guidelines and full identity rollouts.' },
   { match: /motion|animation|animated|video edit|video-edit|after effects/i, line: 'Motion graphics and video are part of my daily toolkit, from short-form social clips to full animated brand pieces.' },
+  { match: /advertis|commercial|\bads?\b|ugc|amazon|ecommerce|e-commerce|product video|promo/i, line: 'I produce advertising and product videos for brands, social media and e-commerce (including Amazon listings and UGC-style ads), handling concept, editing and motion end to end.' },
   { match: /\bai\b|artificial intelligence|midjourney|generative/i, line: 'I work with AI image and video generation in production every day, which lets me deliver more concepts, faster, without losing craft.' },
 ];
 
