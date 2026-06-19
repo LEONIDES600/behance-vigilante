@@ -1,0 +1,46 @@
+name: Vigilante Vuelos AMS-BCN
+
+on:
+  # Los precios de vuelo no cambian al minuto y la cuota gratis de Amadeus es
+  # limitada, así que basta revisar unas pocas veces al día (cada 6 h).
+  schedule:
+    - cron: '13 */6 * * *'
+  workflow_dispatch:           # permite lanzarlo a mano desde la pestaña Actions
+
+concurrency:
+  group: vuelos
+  cancel-in-progress: false
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Restaurar estado (findes ya avisados)
+        uses: actions/cache/restore@v4
+        with:
+          path: estado
+          key: vuelos-${{ github.run_id }}
+          restore-keys: |
+            vuelos-
+
+      - name: Revisar vuelos AMS → BCN
+        env:
+          AMADEUS_CLIENT_ID: ${{ secrets.AMADEUS_CLIENT_ID }}
+          AMADEUS_CLIENT_SECRET: ${{ secrets.AMADEUS_CLIENT_SECRET }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node vuelos.js
+
+      - name: Guardar estado
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: estado
+          key: vuelos-${{ github.run_id }}

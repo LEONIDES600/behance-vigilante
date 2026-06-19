@@ -1,0 +1,2 @@
+# Estado de runtime (se persiste con actions/cache, nunca en git)
+estado/

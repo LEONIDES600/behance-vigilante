@@ -21,10 +21,19 @@ archivo ejecutado por un cron de Actions.
 ```
 vigilante.js                      Toda la lógica (scraping, filtros, propuesta, Telegram, estado)
 .github/workflows/vigilante.yml   Cron de Actions (cada ~10 min) + keepalive semanal
+vuelos.js                         Vigilante de vuelos baratos AMS→BCN de finde (Amadeus + Telegram)
+.github/workflows/vuelos.yml      Cron de Actions cada 6 h para vuelos.js
 README.md                         Documentación de operación (en español)
 estado/seen.json                  Estado en runtime: IDs de ofertas ya vistas (NO en git;
                                   lo crea el script y lo persiste actions/cache)
+estado/vuelos.json                Estado en runtime: findes ya avisados (NO en git; vía cache)
 ```
+
+> Nota: además del vigilante de Behance, el repo incluye un **vigilante de vuelos
+> baratos** (`vuelos.js`) que revisa los próximos 8 fines de semana (viernes ida →
+> domingo vuelta) AMS→BCN vía la API gratuita de Amadeus y avisa por Telegram
+> cuando un billete de ida y vuelta baja del objetivo (150 €). Config al inicio del
+> archivo. Secretos: `AMADEUS_CLIENT_ID`, `AMADEUS_CLIENT_SECRET` (+ los de Telegram).
 
 No hay `package.json`, `node_modules`, build, tests ni linter. El script usa solo
 módulos nativos de Node (`fs`, `path`) y el `fetch` global (requiere Node 18+; el
