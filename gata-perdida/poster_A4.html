@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Gevonden kat / Found cat — Overamstel</title>
+<style>
+  @page { size: A4 portrait; margin: 12mm; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #111;
+    background: #fff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .sheet {
+    width: 186mm;
+    min-height: 273mm;
+    margin: 0 auto;
+    padding: 6mm 4mm;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner {
+    background: #ffd500;
+    border: 3px solid #111;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 8px;
+  }
+  .banner h1 { margin: 0; font-size: 40px; letter-spacing: 1px; text-transform: uppercase; }
+  .banner h2 { margin: 2px 0 0; font-size: 20px; font-weight: 600; color: #333; }
+  .sub { text-align:center; font-size: 15px; margin: 6px 0 10px; color:#222; }
+  .photo {
+    flex: 0 0 auto;
+    height: 92mm;
+    border: 3px dashed #999;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    text-align: center; color: #888; font-size: 15px;
+    margin: 4px 0 12px;
+  }
+  .photo span { padding: 0 12px; }
+  .grid { display: flex; gap: 14px; }
+  .col { flex: 1; }
+  .card {
+    border: 2px solid #111; border-radius: 8px; padding: 10px 12px; margin-bottom: 10px;
+  }
+  .card h3 { margin: 0 0 6px; font-size: 15px; text-transform: uppercase; border-bottom: 2px solid #ffd500; padding-bottom: 3px; }
+  ul { margin: 0; padding-left: 18px; font-size: 13.5px; line-height: 1.5; }
+  .highlight { background: #fff3b0; font-weight: 700; padding: 0 3px; border-radius: 3px; }
+  .whitemark {
+    display:inline-block; background:#111; color:#fff; border-radius:6px;
+    padding:2px 8px; font-weight:700; font-size:13.5px; margin-top:4px;
+  }
+  .contact {
+    margin-top: auto;
+    border: 3px solid #111; border-radius: 10px; background:#111; color:#fff;
+    padding: 12px 14px; text-align:center;
+  }
+  .contact .label { font-size: 15px; letter-spacing:.5px; text-transform:uppercase; color:#ffd500; }
+  .phoneline { font-size: 30px; font-weight: 800; letter-spacing: 1px; margin: 6px 0 2px; }
+  .fill { display:inline-block; min-width: 62%; border-bottom: 3px solid #ffd500; height: 30px; }
+  .foot { font-size: 11px; color:#444; text-align:center; margin-top:8px; }
+  .flag { font-size: 12px; font-weight:700; color:#666; text-transform:uppercase; letter-spacing:1px; }
+  @media screen {
+    body { background:#eee; padding: 20px 0; }
+    .sheet { background:#fff; box-shadow: 0 2px 16px rgba(0,0,0,.2); }
+  }
+</style>
+</head>
+<body>
+  <div class="sheet">
+    <div class="banner">
+      <h1>Ken jij deze poes?</h1>
+      <h2>Do you know this cat?</h2>
+    </div>
+    <p class="sub">
+      <strong>NL:</strong> Deze lieve zwarte kat loopt sinds ~half juli rond bij de
+      H.J.E.&nbsp;Wenckebachweg (Overamstel / Amstelkwartier).<br>
+      <strong>EN:</strong> This friendly black cat has been around H.J.E.&nbsp;Wenckebachweg
+      (Overamstel / Amstelkwartier) since ~mid-July. Is she yours or do you know the owner?
+    </p>
+
+    <div class="photo">
+      <span>📷 Plak hier de foto van de kat<br><em>Paste the cat's photo here</em></span>
+    </div>
+
+    <div class="grid">
+      <div class="col">
+        <div class="card">
+          <h3>Kenmerken · Features</h3>
+          <ul>
+            <li>Volledig <strong>zwart</strong>, kort haar / all <strong>black</strong>, short hair</li>
+            <li><span class="highlight">Kleine witte vlek op de borst</span><br>
+                <span class="highlight">Small white spot on the chest</span>
+                <span class="whitemark">◀ dé herkenning / key mark</span></li>
+            <li><strong>Groene</strong> ogen / <strong>green</strong> eyes</li>
+            <li>Vrouwtje · female · zeer aanhankelijk / very affectionate</li>
+            <li>Gezond, goed gevoed / healthy, well-fed</li>
+            <li>Geen chip, geen halsband / no chip, no collar</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <h3>Waar · Where</h3>
+          <ul>
+            <li>H.J.E. Wenckebachweg 133, 1096 AM</li>
+            <li>Overamstel / Omval / Amstelkwartier</li>
+            <li>Sinds ~half juli 2026 / since ~mid-July 2026</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Wat te doen · What to do</h3>
+          <ul>
+            <li>Herken je haar? Bel of app me!</li>
+            <li>Recognise her? Call or text me!</li>
+            <li>Deel deze poster a.u.b. / please share</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="label">Bel / App — Call / Text</div>
+      <div class="phoneline">📞 <span class="fill">&nbsp;</span></div>
+      <div style="font-size:13px;color:#ccc;margin-top:4px;">
+        Vul hier je telefoonnummer in · Write your phone number here
+      </div>
+    </div>
+
+    <div class="foot">
+      Gevonden dier ook gemeld bij Amivedi (020-6121295) · Found cat also reported to Amivedi.
+      &nbsp;•&nbsp; <span class="flag">print A4 · zwart-wit werkt ook / b&amp;w is fine</span>
+    </div>
+  </div>
+</body>
+</html>
