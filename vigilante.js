@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /*
  * Vigilante de ofertas — versión GitHub Actions (Leo Visual)
- * Corre en la nube cada ~10 minutos: detecta ofertas nuevas en varias
- * plataformas (Behance, We Work Remotely, Remote OK) y las envía a Telegram
- * con una propuesta personalizada, aunque el PC esté apagado.
+ * Corre en la nube en bucle (una pasada cada ~3 min): detecta ofertas nuevas en
+ * varias plataformas (Behance, We Work Remotely, Remote OK) y las envía a
+ * Telegram con una propuesta personalizada, aunque el PC esté apagado.
  *
  * Secretos del repositorio: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
  * Estado: estado/seen.json (persistido entre ejecuciones con actions/cache)
@@ -11,9 +11,11 @@
 const fs = require('fs');
 const path = require('path');
 
-const SEARCHES = ['', 'branding', 'logo', 'social media', 'motion graphics', 'graphic design'];
-const INCLUDE = ['brand', 'logo', 'graphic', 'design', 'social', 'motion', 'video', 'content', 'instagram', 'tiktok', 'youtube', 'identity', 'visual', 'creative', 'ai', 'marketing'];
-const EXCLUDE = ['software engineer', 'backend', 'frontend developer', 'fullstack', 'drafter', 'copywriter', 'accountant'];
+const SEARCHES = ['', 'branding', 'logo', 'social media', 'motion graphics', 'graphic design', 'video', 'advertising', 'ugc', 'amazon'];
+const INCLUDE = ['brand', 'logo', 'graphic', 'design', 'social', 'motion', 'video', 'content', 'instagram', 'tiktok', 'youtube', 'identity', 'visual', 'creative', 'ai', 'marketing', 'advertising', 'advertisement', 'commercial', 'commercials', 'ads', 'ugc', 'amazon', 'promo', 'promotional', 'ecommerce', 'e-commerce', 'reel', 'reels', 'product'];
+const EXCLUDE = ['software engineer', 'backend', 'frontend developer', 'fullstack', 'drafter', 'copywriter', 'accountant', 'adult content', 'adult', 'nsfw', 'onlyfans', 'porn', 'escort', 'webcam', 'sexual'];
+// Títulos que en realidad son el muro de aviso de Behance, no la oferta real.
+const GATE_TITLES = /^(adult content|content warning|mature content|sensitive content)$/i;
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36';
 const STATE_FILE = path.join(__dirname, 'estado', 'seen.json');
 const MAX_SEEN = 3000;
@@ -23,6 +25,7 @@ const TOPIC_LINES = [
   { match: /instagram|tiktok|social media|social-media|reels/i, line: 'I create social media content daily for Instagram, TikTok and LinkedIn, combining design, motion and AI tools to keep feeds consistent and fast-moving.' },
   { match: /logo|brand|identity|naming/i, line: 'Branding and visual identity are the core of my studio: logo systems, brand guidelines and full identity rollouts.' },
   { match: /motion|animation|animated|video edit|video-edit|after effects/i, line: 'Motion graphics and video are part of my daily toolkit, from short-form social clips to full animated brand pieces.' },
+  { match: /advertis|commercial|\bads?\b|ugc|amazon|ecommerce|e-commerce|product video|promo/i, line: 'I produce advertising and product videos for brands, social media and e-commerce (including Amazon listings and UGC-style ads), handling concept, editing and motion end to end.' },
   { match: /\bai\b|artificial intelligence|midjourney|generative/i, line: 'I work with AI image and video generation in production every day, which lets me deliver more concepts, faster, without losing craft.' },
 ];
 
@@ -47,10 +50,16 @@ Leo Gomez Silva
 Leo Visual — https://leovisual.nl/`;
 }
 
+// Coincidencia por palabra completa: evita falsos positivos como 'ai' dentro de
+// "email"/"available" o 'content' dentro de "Adult content".
+function hasKeyword(text, keywords) {
+  return keywords.some((k) => new RegExp(`\\b${k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i').test(text));
+}
+
 function passesFilters(title, description) {
-  const text = `${title} ${description || ''}`.toLowerCase();
-  if (EXCLUDE.some((k) => text.includes(k))) return false;
-  return INCLUDE.some((k) => text.includes(k));
+  const text = `${title} ${description || ''}`;
+  if (hasKeyword(text, EXCLUDE)) return false;
+  return hasKeyword(text, INCLUDE);
 }
 
 async function tryFetch(url, label, opts = {}) {
@@ -116,9 +125,15 @@ async function enrichBehance(job) {
     const { body: html } = await fetchBehancePage(job.url);
     if (!html) return job;
     const t = html.match(/"title":"((?:[^"\\]|\\.){5,200}?)"/);
-    if (t) job.title = unescapeJson(t[1]);
+    if (t) {
+      const title = unescapeJson(t[1]).trim();
+      // Behance a veces sirve un muro de aviso ("Adult content") en lugar de la
+      // oferta. Si lo detectamos, conservamos el título derivado del slug.
+      if (GATE_TITLES.test(title)) job.gated = true;
+      else job.title = title;
+    }
     const d = html.match(/"description":"((?:[^"\\]|\\.){60,})?"/);
-    if (d && d[1]) job.description = unescapeJson(d[1]);
+    if (d && d[1] && !job.gated) job.description = unescapeJson(d[1]);
     const b = html.match(/"budgetMin":(\d+),"budgetMax":(\d+)/);
     const c = html.match(/"salaryCurrency":"([A-Z]+)"/);
     if (b) job.budget = `${Math.round(b[1] / 100).toLocaleString('en-US')}–${Math.round(b[2] / 100).toLocaleString('en-US')} ${c ? c[1] : 'USD'}`;
@@ -300,6 +315,9 @@ async function main() {
 
   console.log(`${newJobs.length} oferta(s) nueva(s) de ${all.size} vigiladas.`);
   for (const job of newJobs) {
+    // Se marca como vista aunque luego la descarten los filtros: si no, cada
+    // pasada volvería a analizarla (y a abrir su página en Behance).
+    state.seen.add(job.id);
     if (job.enrich) await enrichBehance(job);
     if (!passesFilters(job.title, job.description)) {
       console.log(`  Descartada por filtros [${job.source}]: ${job.title}`);
@@ -308,7 +326,6 @@ async function main() {
     const proposal = buildProposal(job.title, job.description);
     const msg = `🔔 Nueva oferta en ${job.source} (${job.type})\n${job.title}${job.budget ? '\n💰 ' + job.budget : ''}\n${job.url}\n\n--- Propuesta sugerida ---\n${proposal}`;
     const ok = await sendTelegram(msg);
-    state.seen.add(job.id);
     console.log(`  ${ok ? 'Enviada a Telegram' : 'ERROR Telegram'} [${job.source}]: ${job.title}`);
   }
 
