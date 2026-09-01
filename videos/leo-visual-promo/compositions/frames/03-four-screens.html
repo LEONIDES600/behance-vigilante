@@ -1,0 +1,400 @@
+<template>
+  <style>
+    @font-face { font-family: 'DM Mono'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/dm-mono-400.woff2) format('woff2'); }
+    @font-face { font-family: 'Hanken Grotesk'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/hanken-grotesk-400.woff2) format('woff2'); }
+    @font-face { font-family: 'Hanken Grotesk'; font-style: normal; font-weight: 600; font-display: block; src: url(assets/fonts/hanken-grotesk-600.woff2) format('woff2'); }
+    @font-face { font-family: 'Newsreader'; font-style: italic; font-weight: 400; font-display: block; src: url(assets/fonts/newsreader-400-italic.woff2) format('woff2'); }
+    @font-face { font-family: 'Newsreader'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/newsreader-400.woff2) format('woff2'); }
+
+    /* Frame 03 — One brand, every channel. Root is the 1920×1080 cqw container; the ground is its own clip. */
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      container-type: size;
+      color: #1F2BE0;
+    }
+
+    /* ---- ground: paper + graph-paper grid + top/bottom hairlines (full-duration clip) ---- */
+    .\30 3-four-screens-ground {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #F0EBDE;
+      background-image:
+        linear-gradient(to right, rgba(31,43,224,0.10) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(31,43,224,0.10) 1px, transparent 1px);
+      background-size: 2cqw 2cqw;
+    }
+    .\30 3-four-screens-hair {
+      position: absolute;
+      left: 4cqw;
+      right: 4cqw;
+      height: 1.5px;
+      background: #1F2BE0;
+    }
+
+    /* ---- stage clip ---- */
+    .\30 3-four-screens-stage {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .\30 3-four-screens-chrome {
+      position: absolute;
+      left: 4cqw;
+      top: 36px;
+      font-family: 'DM Mono', 'Courier New', monospace;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 13px;
+      letter-spacing: 0.06em;
+      color: #1F2BE0;
+      white-space: nowrap;
+    }
+
+    /* ---- the four 9:16 screens (handoff geometry: 280×498, top 300, lefts 310/650/990/1330) ---- */
+    .\30 3-four-screens-screen {
+      position: absolute;
+      top: 300px;
+      width: 280px;
+      height: 498px;
+      overflow: hidden;
+    }
+    .\30 3-four-screens-fill {
+      position: absolute;
+      inset: 0;
+      background: #E6E0CE;
+    }
+    .\30 3-four-screens-field {
+      position: absolute;
+      inset: 0;
+      background: rgba(31,43,224,0.18);
+    }
+    .\30 3-four-screens-outline {
+      position: absolute;
+      inset: 0;
+      width: 280px;
+      height: 498px;
+      pointer-events: none;
+    }
+    .\30 3-four-screens-outline rect {
+      fill: none;
+      stroke: #1F2BE0;
+      stroke-width: 1.5;
+      stroke-linecap: butt;
+      stroke-linejoin: miter;
+    }
+
+    /* center-outward-expansion (short-path form): items self-center at the screen center, x/y are offsets */
+    .\30 3-four-screens-burst {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .\30 3-four-screens-item {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      will-change: transform;
+    }
+    .\30 3-four-screens-cell { background: #1F2BE0; }
+    .\30 3-four-screens-bar { background: rgba(31,43,224,0.18); }
+    .\30 3-four-screens-name {
+      font-family: 'Newsreader', Georgia, serif;
+      font-weight: 400;
+      font-size: 1.5cqw;
+      line-height: 1.15;
+      letter-spacing: -0.005em;
+      color: #1F2BE0;
+      white-space: nowrap;
+    }
+    .\30 3-four-screens-play {
+      position: absolute;
+      left: 106px;
+      top: 53px;
+      width: 28px;
+      height: 28px;
+      background: #F0EBDE;
+    }
+
+    /* LinkedIn text bars: type on left→right (dynamic-content-sequencing drives the starts) */
+    .\30 3-four-screens-type {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .\30 3-four-screens-tbar {
+      position: absolute;
+      left: 20px;
+      height: 12px;
+      background: rgba(31,43,224,0.18);
+      transform-origin: 0% 50%;
+      will-change: transform;
+    }
+
+    /* channel labels — Hanken micro-strong, centered under each screen at y≈830 */
+    .\30 3-four-screens-label {
+      position: absolute;
+      top: 822px;
+      width: 280px;
+      height: 16px;
+      padding-left: 0.18em;
+      box-sizing: border-box;
+      font-family: 'Hanken Grotesk', 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      text-align: center;
+      color: #1F2BE0;
+      white-space: nowrap;
+      will-change: transform;
+    }
+
+    /* headline — Newsreader `headline`, centered at x=960, baseline ≈215px (0.71em from the line-box top) */
+    .\30 3-four-screens-headline {
+      position: absolute;
+      left: 0;
+      top: 152px;
+      width: 1920px;
+      text-align: center;
+      font-family: 'Newsreader', Georgia, serif;
+      font-weight: 400;
+      font-size: 4.6cqw;
+      line-height: 0.95;
+      letter-spacing: -0.005em;
+      color: #1F2BE0;
+      white-space: nowrap;
+    }
+    .\30 3-four-screens-word {
+      display: inline-block;
+      will-change: transform;
+    }
+  </style>
+
+  <div id="root" data-composition-id="03-four-screens">
+
+    <!-- ground layer: paper + grid + hairlines -->
+    <div class="clip 03-four-screens-ground" data-start="0" data-duration="6.5" data-track-index="0">
+      <div class="03-four-screens-hair" style="top: 3cqw;"></div>
+      <div class="03-four-screens-hair" style="bottom: 3cqw;"></div>
+    </div>
+
+    <!-- stage -->
+    <div class="clip 03-four-screens-stage" data-start="0" data-duration="6.5" data-track-index="1">
+
+      <div class="03-four-screens-chrome" id="03-four-screens-chrome">003 — DEPLOY</div>
+
+      <!-- screen 1 — Instagram -->
+      <div class="03-four-screens-screen" style="left: 310px;">
+        <div class="03-four-screens-fill" data-fill="0"></div>
+        <div class="03-four-screens-burst" data-burst="0">
+          <div class="03-four-screens-item 03-four-screens-name" data-box="20 24 240 33">Your Brand</div>
+          <div class="03-four-screens-item 03-four-screens-cell" data-box="20 68 240 240"></div>
+          <div class="03-four-screens-item 03-four-screens-bar" data-box="20 330 200 12"></div>
+          <div class="03-four-screens-item 03-four-screens-bar" data-box="20 354 160 12"></div>
+          <div class="03-four-screens-item 03-four-screens-bar" data-box="20 378 120 12"></div>
+        </div>
+        <svg class="03-four-screens-outline" viewBox="0 0 280 498" xmlns="http://www.w3.org/2000/svg">
+          <rect data-draw="0" x="0.75" y="0.75" width="278.5" height="496.5"></rect>
+        </svg>
+      </div>
+
+      <!-- screen 2 — TikTok -->
+      <div class="03-four-screens-screen" style="left: 650px;">
+        <div class="03-four-screens-fill" data-fill="1"></div>
+        <div class="03-four-screens-field" data-field="1"></div>
+        <div class="03-four-screens-burst" data-burst="1">
+          <div class="03-four-screens-item 03-four-screens-cell" data-box="65 60 150 300"></div>
+          <div class="03-four-screens-item 03-four-screens-name" data-box="20 390 240 33">Your Brand</div>
+          <div class="03-four-screens-item 03-four-screens-bar" data-box="20 432 180 12"></div>
+          <div class="03-four-screens-item 03-four-screens-bar" data-box="20 454 130 12"></div>
+        </div>
+        <svg class="03-four-screens-outline" viewBox="0 0 280 498" xmlns="http://www.w3.org/2000/svg">
+          <rect data-draw="1" x="0.75" y="0.75" width="278.5" height="496.5"></rect>
+        </svg>
+      </div>
+
+      <!-- screen 3 — LinkedIn -->
+      <div class="03-four-screens-screen" style="left: 990px;">
+        <div class="03-four-screens-fill" data-fill="2"></div>
+        <div class="03-four-screens-type">
+          <div class="03-four-screens-tbar" data-tbar="0" style="top: 80px; width: 240px;"></div>
+          <div class="03-four-screens-tbar" data-tbar="1" style="top: 104px; width: 210px;"></div>
+          <div class="03-four-screens-tbar" data-tbar="2" style="top: 128px; width: 230px;"></div>
+          <div class="03-four-screens-tbar" data-tbar="3" style="top: 152px; width: 180px;"></div>
+          <div class="03-four-screens-tbar" data-tbar="4" style="top: 176px; width: 120px;"></div>
+        </div>
+        <div class="03-four-screens-burst" data-burst="2">
+          <div class="03-four-screens-item 03-four-screens-name" data-box="20 24 240 33" data-role="author">Your Brand</div>
+          <div class="03-four-screens-item 03-four-screens-cell" data-box="20 372 100 100" data-role="attachment"></div>
+        </div>
+        <svg class="03-four-screens-outline" viewBox="0 0 280 498" xmlns="http://www.w3.org/2000/svg">
+          <rect data-draw="2" x="0.75" y="0.75" width="278.5" height="496.5"></rect>
+        </svg>
+      </div>
+
+      <!-- screen 4 — YouTube -->
+      <div class="03-four-screens-screen" style="left: 1330px;">
+        <div class="03-four-screens-fill" data-fill="3"></div>
+        <div class="03-four-screens-burst" data-burst="3">
+          <div class="03-four-screens-item 03-four-screens-cell" data-box="20 40 240 135" data-role="thumb"><div class="03-four-screens-play"></div></div>
+          <div class="03-four-screens-item 03-four-screens-name" data-box="20 195 240 33">Your Brand</div>
+          <div class="03-four-screens-item 03-four-screens-bar" data-box="20 240 200 12"></div>
+        </div>
+        <svg class="03-four-screens-outline" viewBox="0 0 280 498" xmlns="http://www.w3.org/2000/svg">
+          <rect data-draw="3" x="0.75" y="0.75" width="278.5" height="496.5"></rect>
+        </svg>
+      </div>
+
+      <!-- channel labels -->
+      <div class="03-four-screens-label" data-label="0" style="left: 310px;">Instagram</div>
+      <div class="03-four-screens-label" data-label="1" style="left: 650px;">TikTok</div>
+      <div class="03-four-screens-label" data-label="2" style="left: 990px;">LinkedIn</div>
+      <div class="03-four-screens-label" data-label="3" style="left: 1330px;">YouTube</div>
+
+      <!-- payoff headline -->
+      <div class="03-four-screens-headline" id="03-four-screens-headline"><span class="03-four-screens-word" data-word="0">One</span> <span class="03-four-screens-word" data-word="1">brand.</span> <span class="03-four-screens-word" data-word="2">Every</span> <span class="03-four-screens-word" data-word="3">channel.</span></div>
+
+    </div>
+  </div>
+
+  <script src="assets/gsap.min.js"></script>
+  <script>
+    (function () {
+      const ID = "03-four-screens";
+      const root = document.querySelector('[data-composition-id="' + ID + '"]');
+      const q = (sel) => Array.from(root.querySelectorAll(sel));
+
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      window.__timelines[ID] = tl;
+
+      // Screen geometry (handoff): 280×498, centers at (140, 249) inside each screen.
+      const SCREEN_CX = 140, SCREEN_CY = 249;
+      const DURATION = 6.5;
+
+      /* ---------- Scene 1 (0.0–1.0s): chrome + the four outlines draw themselves (svg-path-draw) ---------- */
+      const chrome = root.querySelector('#' + CSS.escape(ID + '-chrome'));
+      tl.fromTo(chrome, { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power1.out" }, 0);
+
+      const DRAW_DUR = 0.45, DRAW_STAGGER = 0.1, DRAW_START = 0.08;
+      const FILL_DUR = 0.22;
+      q('rect[data-draw]').forEach((r) => {
+        const i = Number(r.dataset.draw);
+        const measured = typeof r.getTotalLength === "function" ? r.getTotalLength() : 0;
+        const len = (measured > 0 ? measured : 1550) * 1.02; // rect perimeter ≈ 2 × (278.5 + 496.5)
+        r.style.strokeDasharray = String(len);
+        r.style.strokeDashoffset = String(len);
+        const at = DRAW_START + i * DRAW_STAGGER;
+        tl.fromTo(r, { strokeDashoffset: len }, { strokeDashoffset: 0, duration: DRAW_DUR, ease: "power2.out" }, at);
+        // paper-2 fill fades in as each outline closes
+        const fill = root.querySelector('[data-fill="' + i + '"]');
+        tl.fromTo(fill, { opacity: 0 }, { opacity: 1, duration: FILL_DUR, ease: "power1.out" }, at + DRAW_DUR - 0.05);
+      });
+
+      /* ---------- dynamic-content-sequencing: content-driven starts, pre-computed once ---------- */
+      // Reduces an array of {text|len, ...} into a flat TIMELINE of {start, end}; durations grow with content length.
+      function sequence(items, base, perUnit) {
+        let cumulative = 0;
+        return items.map((entry) => {
+          const dur = base + entry.len * perUnit;
+          const start = cumulative;
+          cumulative += dur;
+          return { ...entry, start, end: cumulative, total: cumulative };
+        });
+      }
+      // Map the computed starts into a Scene window [winStart, winStart + span] (longer words earn longer gaps).
+      function fitStarts(timeline, winStart, span) {
+        const last = timeline[timeline.length - 1].start || 1;
+        return timeline.map((e) => ({ ...e, at: winStart + (e.start / last) * span }));
+      }
+
+      /* ---------- Scene 2 (1.0–1.8s): channel labels, per-word staggered reveal left→right ---------- */
+      const labels = q('[data-label]').sort((a, b) => Number(a.dataset.label) - Number(b.dataset.label));
+      const LABEL_REVEAL = 0.35;
+      const labelSeq = fitStarts(
+        sequence(labels.map((el) => ({ el, len: el.textContent.trim().length })), 0.12, 0.012),
+        1.0, 0.8 - LABEL_REVEAL
+      );
+      labelSeq.forEach((e) => {
+        tl.fromTo(e.el, { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: LABEL_REVEAL, ease: "power2.out" }, e.at);
+      });
+
+      /* ---------- center-outward-expansion (short-path form) — per-screen item stagger-assemble ---------- */
+      const START_PROGRESS = 0.5; // partially-spread start: half the path to the slot
+      const EXPAND_EASE = "power3.out";
+      function prepItems(burstIndex) {
+        const wrap = root.querySelector('[data-burst="' + burstIndex + '"]');
+        return Array.from(wrap.querySelectorAll('[data-box]')).map((el) => {
+          const [x, y, w, h] = el.dataset.box.split(/\s+/).map(Number);
+          el.style.width = w + "px";
+          el.style.height = h + "px";
+          return { el, tx: x + w / 2 - SCREEN_CX, ty: y + h / 2 - SCREEN_CY };
+        });
+      }
+      function burst(item, at, dur, ease, scaleFrom) {
+        tl.fromTo(
+          item.el,
+          { xPercent: -50, yPercent: -50, x: item.tx * START_PROGRESS, y: item.ty * START_PROGRESS, scale: scaleFrom, opacity: 0 },
+          { xPercent: -50, yPercent: -50, x: item.tx, y: item.ty, scale: 1, opacity: 1, duration: dur, ease: ease },
+          at
+        );
+      }
+
+      /* ---------- Scene 3 (1.8–2.6s): screen 1 (Instagram) populates ---------- */
+      prepItems(0).forEach((item, i) => burst(item, 1.8 + i * 0.06, 0.5, EXPAND_EASE, 0.7));
+
+      /* ---------- Scene 4 (2.6–3.4s): screen 2 (TikTok) populates ---------- */
+      const field = root.querySelector('[data-field="1"]');
+      tl.fromTo(field, { opacity: 0 }, { opacity: 1, duration: 0.25, ease: "power1.out" }, 2.6);
+      prepItems(1).forEach((item, i) => burst(item, 2.65 + i * 0.06, 0.5, EXPAND_EASE, 0.7));
+
+      /* ---------- Scene 5 (3.4–4.2s): screen 3 (LinkedIn) populates ---------- */
+      const liItems = prepItems(2);
+      const author = liItems.find((it) => it.el.dataset.role === "author");
+      const attachment = liItems.find((it) => it.el.dataset.role === "attachment");
+      burst(author, 3.4, 0.45, EXPAND_EASE, 0.7);
+      // five text bars type on line by line — starts computed from each bar's width (content length)
+      const tbars = q('[data-tbar]').sort((a, b) => Number(a.dataset.tbar) - Number(b.dataset.tbar));
+      const tbarSeq = sequence(tbars.map((el) => ({ el, len: parseFloat(el.style.width) })), 0.03, 0.0004);
+      const TBAR_AT = 3.5;
+      tbarSeq.forEach((e) => {
+        tl.fromTo(e.el, { scaleX: 0 }, { scaleX: 1, duration: e.end - e.start, ease: "none" }, TBAR_AT + e.start);
+      });
+      burst(attachment, 3.95, 0.25, EXPAND_EASE, 0.7);
+
+      /* ---------- Scene 6 (4.2–5.0s): screen 4 (YouTube) populates ---------- */
+      const ytItems = prepItems(3);
+      ytItems.forEach((item, i) => {
+        if (item.el.dataset.role === "thumb") {
+          burst(item, 4.2, 0.7, "back.out(1.7)", 0.6); // pop-in on a long-tail settle
+        } else {
+          burst(item, 4.4 + (i - 1) * 0.1, 0.45, EXPAND_EASE, 0.7);
+        }
+      });
+
+      /* ---------- Scene 7 (5.0–5.9s): payoff headline, per-word staggered reveal ---------- */
+      const words = q('[data-word]').sort((a, b) => Number(a.dataset.word) - Number(b.dataset.word));
+      const WORD_REVEAL = 0.5;
+      const wordSeq = fitStarts(
+        sequence(words.map((el) => ({ el, len: el.textContent.trim().length })), 0.2, 0.03),
+        5.0, 0.9 - WORD_REVEAL
+      );
+      wordSeq.forEach((e) => {
+        tl.fromTo(e.el, { opacity: 0, y: 22 }, { opacity: 1, y: 0, duration: WORD_REVEAL, ease: "power3.out" }, e.at);
+      });
+
+      /* ---------- Scene 8 (5.9–6.5s): held read — dead still at the handoff geometry ---------- */
+      tl.set({}, {}, DURATION);
+    })();
+  </script>
+</template>
