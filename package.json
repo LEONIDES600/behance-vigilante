@@ -1,4 +1,12 @@
 {
+  "private": true,
+  "scripts": {
+    "setup": "npm install && npx hyperframes browser ensure && npx hyperframes doctor",
+    "promo:preview": "cd videos/leo-visual-promo && npx hyperframes preview",
+    "promo:check": "cd videos/leo-visual-promo && npx hyperframes check",
+    "promo:render": "cd videos/leo-visual-promo && npx hyperframes render --quality high --output renders/video.mp4",
+    "hf:login": "npx hyperframes auth login"
+  },
   "devDependencies": {
     "gsap": "^3.14.2",
     "hyperframes": "^0.8.23"

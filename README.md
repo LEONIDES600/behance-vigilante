@@ -60,14 +60,27 @@ Qué se instaló:
 
 Requisitos: Node 22+, FFmpeg y el Chrome headless que instala el propio CLI.
 
+Puesta en marcha en un PC nuevo (necesita Node 22+ y FFmpeg instalados):
+
 ```bash
-npm install                                   # CLI de hyperframes
-npx hyperframes browser ensure                # Chrome headless para renderizar
-cd demo/hyperframes
+npm run setup           # instala el CLI, descarga el Chrome headless y pasa `doctor`
+npm run promo:preview   # abre el promo de Leo Visual en Studio (localhost)
+npm run promo:check     # lint + runtime + layout + motion + contraste del promo
+npm run promo:render    # renderiza videos/leo-visual-promo/renders/video.mp4
+npm run hf:login        # (opcional) API key de HeyGen para voz y música
+```
+
+Bucle manual dentro de cualquier proyecto de vídeo (p. ej. `demo/hyperframes/`):
+
+```bash
 npx hyperframes check                         # lint + runtime + layout + contraste
 npx hyperframes preview                       # previsualizar en el navegador
 npx hyperframes render                        # renderizar a renders/*.mp4
 ```
+
+Proyectos de vídeo: `demo/hyperframes/` (prueba mínima) y `videos/leo-visual-promo/`
+(promo de 20 s hecho con la workflow `/product-launch-video`: `BRIEF.md` → `STORYBOARD.md`
+→ `frame.md` → `compositions/frames/*.html`).
 
 Prueba realizada: `demo/hyperframes/index.html` → `check` sin hallazgos y render
 de 7 s a 1920x1080 / 30 fps en ~30 s. Los MP4 van a `demo/hyperframes/renders/`,
