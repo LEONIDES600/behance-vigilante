@@ -51,7 +51,7 @@ Scene 5 (3.1–3.5s): held read — "A brand." still, caret blinking; the mono t
 - duration: 6.5s
 - poster: 5.8s
 - transition_in: crossfade 0.4s
-- status: outline
+- status: animated
 - src: compositions/frames/02-brand-build.html
 - type: product_intro
 - persuasion: Mechanism as spectacle — watch the deliverable come into existence
