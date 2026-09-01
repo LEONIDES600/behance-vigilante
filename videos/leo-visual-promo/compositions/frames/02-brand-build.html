@@ -1,0 +1,379 @@
+<template>
+  <style>
+    @font-face { font-family: 'DM Mono'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/dm-mono-400.woff2) format('woff2'); }
+    @font-face { font-family: 'Hanken Grotesk'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/hanken-grotesk-400.woff2) format('woff2'); }
+    @font-face { font-family: 'Hanken Grotesk'; font-style: normal; font-weight: 600; font-display: block; src: url(assets/fonts/hanken-grotesk-600.woff2) format('woff2'); }
+    @font-face { font-family: 'Newsreader'; font-style: italic; font-weight: 400; font-display: block; src: url(assets/fonts/newsreader-400-italic.woff2) format('woff2'); }
+    @font-face { font-family: 'Newsreader'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/newsreader-400.woff2) format('woff2'); }
+
+    /* ---- root (styled via #root, never a class on the composition element) ---- */
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      container-type: size;
+      --paper: #F0EBDE;
+      --paper-2: #E6E0CE;
+      --ink: #1F2BE0;
+      --ink-soft: #5560E5;
+      --grid: rgba(31,43,224,0.10);
+      --ink-faint: rgba(31,43,224,0.18);
+    }
+    #root .clip { position: absolute; inset: 0; }
+
+    /* ---- ground: paper + graph-paper grid + hairlines (own clip layer) ---- */
+    .02-brand-build-ground-ignored {}
+    #\30 2-brand-build-ground {
+      background-color: var(--paper);
+      background-image:
+        linear-gradient(to right, var(--grid) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--grid) 1px, transparent 1px);
+      background-size: 2cqw 2cqw;
+      background-position: 0 0;
+    }
+    .02-brand-build-hairline-ignored {}
+    #root .brand-build-hairline {
+      position: absolute;
+      left: 4cqw;
+      right: 4cqw;
+      height: 0.12cqw;
+      background: var(--ink);
+    }
+    #root .brand-build-hairline-top { top: 3cqw; }
+    #root .brand-build-hairline-bottom { bottom: 3cqw; }
+
+    /* ---- chrome ---- */
+    #root .brand-build-chrome {
+      position: absolute;
+      left: 4cqw;
+      top: 1.55cqw;
+      font-family: 'DM Mono', 'Courier New', monospace;
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      color: var(--ink);
+      white-space: nowrap;
+    }
+
+    /* ---- ledger (left 30%) ---- */
+    #root .brand-build-ledger {
+      position: absolute;
+      left: 4cqw;
+      top: 420px;
+      width: 400px;
+      border-top: 1px solid var(--ink-faint);
+    }
+    #root .brand-build-row {
+      display: grid;
+      grid-template-columns: 52px 1fr 28px;
+      align-items: center;
+      height: 66px;
+      border-bottom: 1px solid var(--ink-faint);
+      color: var(--ink);
+      opacity: 0.35;
+    }
+    #root .brand-build-ord {
+      font-family: 'DM Mono', 'Courier New', monospace;
+      font-size: 0.78cqw;
+      letter-spacing: 0.05em;
+    }
+    #root .brand-build-label {
+      font-family: 'Hanken Grotesk', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+    #root .brand-build-check {
+      justify-self: end;
+      width: 14px;
+      height: 8px;
+      margin-top: -5px;
+      border-left: 1.5px solid var(--ink);
+      border-bottom: 1.5px solid var(--ink);
+      transform: rotate(-45deg);
+      opacity: 0;
+    }
+
+    /* ---- right region column (x 710–1710, centered on the right 70%) ---- */
+    #root .brand-build-wordmark {
+      position: absolute;
+      left: 710px;
+      top: 260px;
+      width: 1000px;
+      text-align: center;
+      white-space: nowrap;
+      font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
+      font-weight: 400;
+      font-size: 10.4cqw;
+      line-height: 0.9;
+      letter-spacing: -0.008em;
+      color: var(--ink);
+    }
+    #root .brand-build-letter { display: inline-block; }
+    #root .brand-build-space { display: inline-block; width: 0.26em; }
+
+    #root .brand-build-cells {
+      position: absolute;
+      left: 710px;
+      top: 500px;
+      display: flex;
+      gap: 1.2cqw;
+    }
+    #root .brand-build-cell { width: 5cqw; }
+    #root .brand-build-swatch {
+      width: 5cqw;
+      height: 5cqw;
+      background: var(--ink);
+    }
+    #root .brand-build-swatch-soft { background: var(--ink-soft); }
+    #root .brand-build-swatch-faint { background: var(--ink-faint); }
+    #root .brand-build-swatch-grid { background: var(--grid); }
+    #root .brand-build-hex {
+      margin-top: 10px;
+      font-family: 'DM Mono', 'Courier New', monospace;
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      color: var(--ink);
+      white-space: nowrap;
+    }
+
+    #root .brand-build-spec {
+      position: absolute;
+      left: 1236px;
+      top: 500px;
+      width: 470px;
+      min-width: 470px;
+      color: var(--ink);
+      white-space: nowrap;
+    }
+    #root .brand-build-spec-1 {
+      font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
+      font-weight: 400;
+      font-size: 1.5cqw;
+      line-height: 1.15;
+      letter-spacing: -0.005em;
+      min-height: 1.73cqw;
+    }
+    #root .brand-build-spec-2 {
+      margin-top: 10px;
+      font-family: 'Hanken Grotesk', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      min-height: 20px;
+    }
+    #root .brand-build-caret {
+      display: inline-block;
+      width: 0.45em;
+      height: 0.82em;
+      margin-left: 3px;
+      vertical-align: -0.06em;
+      background: var(--ink);
+      opacity: 0;
+    }
+
+    #root .brand-build-card {
+      position: absolute;
+      left: 1350px;
+      top: 680px;
+      width: 360px;
+      height: 196px;
+      box-sizing: border-box;
+      border: 1.5px solid var(--ink);
+      padding: 22px 24px;
+      color: var(--ink);
+    }
+    #root .brand-build-card-wm {
+      font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
+      font-weight: 400;
+      font-size: 1.5cqw;
+      line-height: 1.15;
+      letter-spacing: -0.005em;
+      white-space: nowrap;
+    }
+    #root .brand-build-bar {
+      height: 8px;
+      background: var(--ink-faint);
+    }
+    #root .brand-build-bar-1 { width: 70%; margin-top: 22px; }
+    #root .brand-build-bar-2 { width: 46%; margin-top: 12px; }
+  </style>
+
+  <div id="root" data-composition-id="02-brand-build">
+    <!-- ground layer: paper + grid + hairlines, full duration -->
+    <div id="02-brand-build-ground" class="clip" data-start="0" data-duration="6.5" data-track-index="0">
+      <div class="brand-build-hairline brand-build-hairline-top"></div>
+      <div class="brand-build-hairline brand-build-hairline-bottom"></div>
+    </div>
+
+    <!-- content layer -->
+    <div id="02-brand-build-content" class="clip" data-start="0" data-duration="6.5" data-track-index="1">
+      <div class="brand-build-chrome" id="02-brand-build-chrome">002 — BUILD</div>
+
+      <div class="brand-build-ledger" id="02-brand-build-ledger">
+        <div class="brand-build-row" id="02-brand-build-row-0">
+          <span class="brand-build-ord">01</span><span class="brand-build-label">wordmark</span><span class="brand-build-check" id="02-brand-build-check-0"></span>
+        </div>
+        <div class="brand-build-row" id="02-brand-build-row-1">
+          <span class="brand-build-ord">02</span><span class="brand-build-label">palette</span><span class="brand-build-check" id="02-brand-build-check-1"></span>
+        </div>
+        <div class="brand-build-row" id="02-brand-build-row-2">
+          <span class="brand-build-ord">03</span><span class="brand-build-label">type</span><span class="brand-build-check" id="02-brand-build-check-2"></span>
+        </div>
+        <div class="brand-build-row" id="02-brand-build-row-3">
+          <span class="brand-build-ord">04</span><span class="brand-build-label">layout</span><span class="brand-build-check" id="02-brand-build-check-3"></span>
+        </div>
+      </div>
+
+      <div class="brand-build-wordmark" id="02-brand-build-wordmark"><span class="brand-build-letter">Y</span><span class="brand-build-letter">o</span><span class="brand-build-letter">u</span><span class="brand-build-letter">r</span><span class="brand-build-space"></span><span class="brand-build-letter">B</span><span class="brand-build-letter">r</span><span class="brand-build-letter">a</span><span class="brand-build-letter">n</span><span class="brand-build-letter">d</span></div>
+
+      <div class="brand-build-cells" id="02-brand-build-cells">
+        <div class="brand-build-cell"><div class="brand-build-swatch"></div><div class="brand-build-hex">#1F2BE0</div></div>
+        <div class="brand-build-cell"><div class="brand-build-swatch brand-build-swatch-soft"></div><div class="brand-build-hex">#5560E5</div></div>
+        <div class="brand-build-cell"><div class="brand-build-swatch brand-build-swatch-faint"></div><div class="brand-build-hex">18%</div></div>
+        <div class="brand-build-cell"><div class="brand-build-swatch brand-build-swatch-grid"></div><div class="brand-build-hex">10%</div></div>
+      </div>
+
+      <div class="brand-build-spec" id="02-brand-build-spec">
+        <div class="brand-build-spec-1"><span id="02-brand-build-spec-text-1"></span><span class="brand-build-caret" id="02-brand-build-caret-1"></span></div>
+        <div class="brand-build-spec-2"><span id="02-brand-build-spec-text-2"></span><span class="brand-build-caret" id="02-brand-build-caret-2"></span></div>
+      </div>
+
+      <div class="brand-build-card" id="02-brand-build-card">
+        <div class="brand-build-card-wm" id="02-brand-build-card-wm">Your Brand</div>
+        <div class="brand-build-bar brand-build-bar-1" id="02-brand-build-bar-1"></div>
+        <div class="brand-build-bar brand-build-bar-2" id="02-brand-build-bar-2"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/gsap.min.js"></script>
+  <script>
+    (function () {
+      const $ = (id) => document.getElementById(id);
+      const $$ = (sel) => Array.from(document.querySelectorAll(sel));
+      const DURATION = 6.5;
+
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      window.__timelines['02-brand-build'] = tl;
+
+      /* ===== Scene 1 (0.0–0.6s): chrome + ledger per-row staggered reveal (unchecked, 35%) ===== */
+      tl.fromTo($('02-brand-build-chrome'), { opacity: 0 }, { opacity: 1, duration: 0.3, ease: 'none' }, 0);
+      tl.fromTo($('02-brand-build-ledger'), { opacity: 0 }, { opacity: 1, duration: 0.3, ease: 'none' }, 0);
+
+      // dynamic-content-sequencing: rows get absolute start times from one config, pre-computed once
+      const ROW_BASE = 0.05, ROW_STEP = 0.09, ROW_DUR = 0.3;
+      const rows = [0, 1, 2, 3].map((i) => $('02-brand-build-row-' + i));
+      const ROW_TIMES = rows.map((_, i) => ROW_BASE + i * ROW_STEP);
+      rows.forEach((row, i) => {
+        tl.fromTo(row, { opacity: 0, y: 14 }, { opacity: 0.35, y: 0, duration: ROW_DUR, ease: 'power3.out' }, ROW_TIMES[i]);
+      });
+
+      /* ===== Scene 2 (0.6–2.2s): sequential per-letter slide-in, terminal letter lands, word settles ===== */
+      const letters = $$('#02-brand-build-wordmark .brand-build-letter');
+      const LETTER_BASE = 0.5, LETTER_STEP = 0.14;
+      letters.forEach((el, i) => {
+        const last = i === letters.length - 1;
+        tl.fromTo(
+          el,
+          { opacity: 0, y: last ? 52 : 36 },
+          { opacity: 1, y: 0, duration: last ? 0.6 : 0.55, ease: last ? 'power4.out' : 'expo.out' },
+          LETTER_BASE + i * LETTER_STEP
+        );
+      });
+      // whole-word settle once the terminal letter has landed
+      tl.fromTo($('02-brand-build-wordmark'), { y: 3 }, { y: 0, duration: 0.4, ease: 'expo.out' }, 2.15);
+
+      /* ===== Scene 3 (2.2–3.6s): palette cells item stagger-assemble (~0.12s apart) + hex labels ===== */
+      const cells = $$('#02-brand-build-cells .brand-build-cell');
+      const CELL_BASE = 2.35, CELL_STEP = 0.12;
+      cells.forEach((cell, i) => {
+        const t = CELL_BASE + i * CELL_STEP;
+        tl.fromTo(cell.querySelector('.brand-build-swatch'), { opacity: 0, y: 22 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power3.out' }, t);
+        tl.fromTo(cell.querySelector('.brand-build-hex'), { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.35, ease: 'power2.out' }, t + 0.12);
+      });
+
+      /* ===== Scene 5 (4.8–5.7s): first-layout card stagger-assemble ===== */
+      tl.fromTo($('02-brand-build-card'), { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power3.out' }, 4.85);
+      tl.fromTo($('02-brand-build-card-wm'), { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.35, ease: 'power3.out' }, 5.1);
+      tl.fromTo($('02-brand-build-bar-1'), { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.3, ease: 'power3.out' }, 5.25);
+      tl.fromTo($('02-brand-build-bar-2'), { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.3, ease: 'power3.out' }, 5.4);
+
+      /* ===== Ledger ticks: rows snap 35% → 100% as each part lands ===== */
+      const TICKS = [2.2, 3.4, 4.76, 5.68];
+      rows.forEach((row, i) => {
+        tl.fromTo(row, { opacity: 0.35 }, { opacity: 1, duration: 0.02, ease: 'none' }, TICKS[i]);
+      });
+
+      /* ===== Scene 4 (3.6–4.8s): type spec types on with caret (discrete-text-sequence) ===== */
+      const L1 = 'Newsreader 400';
+      const L2_CHUNKS = ['HANKEN ', 'GROTESK ', '600 ', '· ', 'DM ', 'MONO'];
+      const SEQUENCE = [{ t: 0, l1: '', l2: '', caret: 0 }];
+      const T1 = 3.65, K1 = 0.045;
+      for (let i = 1; i <= L1.length; i++) {
+        SEQUENCE.push({ t: T1 + i * K1, l1: L1.slice(0, i), l2: '', caret: 1 });
+      }
+      // pause at the line break, then line 2 lands in word clusters (bulk entries)
+      const T2 = T1 + L1.length * K1 + 0.08, K2 = 0.06;
+      let acc = '';
+      L2_CHUNKS.forEach((chunk, i) => {
+        acc += chunk;
+        SEQUENCE.push({ t: T2 + i * K2, l1: L1, l2: acc, caret: 2 });
+      });
+      const T_TYPE_DONE = T2 + (L2_CHUNKS.length - 1) * K2; // ≈ 4.66
+      const T_CARET_OFF = T_TYPE_DONE + 0.08;               // ≈ 4.74
+      SEQUENCE.push({ t: T_CARET_OFF, l1: L1, l2: L2_CHUNKS.join(''), caret: 0 });
+
+      function stateAt(time) {
+        for (let i = SEQUENCE.length - 1; i >= 0; i--) {
+          if (time >= SEQUENCE[i].t) return SEQUENCE[i];
+        }
+        return SEQUENCE[0];
+      }
+
+      const text1 = $('02-brand-build-spec-text-1');
+      const text2 = $('02-brand-build-spec-text-2');
+      const caret1 = $('02-brand-build-caret-1');
+      const caret2 = $('02-brand-build-caret-2');
+      const checks = [0, 1, 2, 3].map((i) => $('02-brand-build-check-' + i));
+      const checkShown = [null, null, null, null];
+      let lastState = null;
+      const BLINK_HZ = 1 / 0.6; // one blink cycle per 0.6s
+
+      /* one linear driver across the whole shot: discrete text states, caret blink, ✓ hard-swaps.
+         Also fixes the timeline length at exactly DURATION (Scene 6 = held read, nothing moves). */
+      const driver = { t: 0 };
+      tl.to(
+        driver,
+        {
+          t: DURATION,
+          duration: DURATION,
+          ease: 'none',
+          onUpdate: () => {
+            const t = driver.t;
+            const s = stateAt(t);
+            if (s !== lastState) {
+              text1.textContent = s.l1;
+              text2.textContent = s.l2;
+              lastState = s;
+            }
+            const on = Math.sin(Math.PI * 2 * BLINK_HZ * t) > -0.2 ? '1' : '0';
+            caret1.style.opacity = s.caret === 1 ? on : '0';
+            caret2.style.opacity = s.caret === 2 ? on : '0';
+            for (let i = 0; i < checks.length; i++) {
+              const shown = t >= TICKS[i];
+              if (shown !== checkShown[i]) {
+                checks[i].style.opacity = shown ? '1' : '0';
+                checkShown[i] = shown;
+              }
+            }
+          },
+        },
+        0
+      );
+    })();
+  </script>
+</template>

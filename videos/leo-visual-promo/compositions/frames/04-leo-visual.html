@@ -1,0 +1,361 @@
+<template>
+  <style>
+    @font-face { font-family: 'DM Mono'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/dm-mono-400.woff2) format('woff2'); }
+    @font-face { font-family: 'Hanken Grotesk'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/hanken-grotesk-400.woff2) format('woff2'); }
+    @font-face { font-family: 'Hanken Grotesk'; font-style: normal; font-weight: 600; font-display: block; src: url(assets/fonts/hanken-grotesk-600.woff2) format('woff2'); }
+    @font-face { font-family: 'Newsreader'; font-style: italic; font-weight: 400; font-display: block; src: url(assets/fonts/newsreader-400-italic.woff2) format('woff2'); }
+    @font-face { font-family: 'Newsreader'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/newsreader-400.woff2) format('woff2'); }
+
+    /* Root: 1920×1080, styled via #root only (no class on the composition root). */
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      container-type: size;
+      color: #1F2BE0;
+    }
+
+    .clip {
+      position: absolute;
+      inset: 0;
+      width: 1920px;
+      height: 1080px;
+    }
+
+    /* ---- Ground: paper + permanent graph-paper grid + top/bottom hairlines ---- */
+    [id="04-leo-visual-ground"] {
+      background-color: #F0EBDE;
+      background-image:
+        linear-gradient(to right, rgba(31,43,224,0.10) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(31,43,224,0.10) 1px, transparent 1px);
+      background-size: 38.4px 38.4px; /* ~2cqw cells */
+      background-position: 0 0;
+    }
+    [class~="04-leo-visual-hairline"] {
+      position: absolute;
+      left: 76.8px;   /* edge = 4cqw */
+      right: 76.8px;
+      height: 1.5px;
+      background: #1F2BE0;
+    }
+    [id="04-leo-visual-hairline-top"] { top: 57.6px; }      /* ≈3cqw from top */
+    [id="04-leo-visual-hairline-bottom"] { top: 1022.4px; } /* ≈3cqw from bottom */
+
+    /* ---- Chrome (mono, top-left) ---- */
+    [id="04-leo-visual-chrome"] {
+      position: absolute;
+      left: 76.8px;
+      top: 72px;
+      font-family: 'DM Mono', 'Courier New', monospace;
+      font-weight: 400;
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      line-height: 1;
+      color: #1F2BE0;
+      white-space: nowrap;
+    }
+
+    /* ---- Inherited state from Frame 3 (hard-cut boundary) ---- */
+    [id="04-leo-visual-headline"] {
+      position: absolute;
+      left: 0;
+      width: 1920px;
+      top: 142px;              /* baseline lands ≈ y=215 at 88.32px / 0.95 lh */
+      text-align: center;
+      font-family: 'Newsreader', Georgia, serif;
+      font-weight: 400;
+      font-size: 88.32px;      /* headline: 4.6cqw */
+      line-height: 0.95;
+      letter-spacing: -0.005em;
+      color: #1F2BE0;
+      white-space: nowrap;
+    }
+
+    [class~="04-leo-visual-screen"] {
+      position: absolute;
+      top: 300px;
+      width: 280px;
+      height: 498px;
+      box-sizing: border-box;
+      background: #E6E0CE;             /* paper-2 fill */
+      border: 1.5px solid #1F2BE0;     /* cobalt outline */
+      transform-origin: 50% 50%;
+      overflow: hidden;
+    }
+    [id="04-leo-visual-screen-1"] { left: 310px; }
+    [id="04-leo-visual-screen-2"] { left: 650px; }
+    [id="04-leo-visual-screen-3"] { left: 990px; }
+    [id="04-leo-visual-screen-4"] { left: 1330px; }
+
+    /* Screen contents: one cobalt cell + bars */
+    [class~="04-leo-visual-cell"] {
+      position: absolute;
+      left: 30.5px;
+      top: 34.5px;
+      width: 216px;
+      height: 150px;
+      background: #1F2BE0;
+    }
+    [class~="04-leo-visual-bar"] {
+      position: absolute;
+      left: 30.5px;
+      height: 8px;
+      background: #1F2BE0;
+    }
+    [class~="04-leo-visual-bar-a"] { top: 214.5px; width: 216px; }
+    [class~="04-leo-visual-bar-b"] { top: 238.5px; width: 152px; }
+    [class~="04-leo-visual-bar-c"] { top: 262.5px; width: 184px; }
+    [class~="04-leo-visual-bar-d"] { top: 318.5px; width: 96px; }
+    [id="04-leo-visual-screen-2"] [class~="04-leo-visual-bar-b"] { width: 184px; }
+    [id="04-leo-visual-screen-2"] [class~="04-leo-visual-bar-c"] { width: 120px; }
+    [id="04-leo-visual-screen-3"] [class~="04-leo-visual-bar-b"] { width: 200px; }
+    [id="04-leo-visual-screen-3"] [class~="04-leo-visual-bar-c"] { width: 140px; }
+    [id="04-leo-visual-screen-4"] [class~="04-leo-visual-bar-b"] { width: 128px; }
+    [id="04-leo-visual-screen-4"] [class~="04-leo-visual-bar-c"] { width: 208px; }
+    [class~="04-leo-visual-offcell"] {
+      position: absolute;
+      left: 30.5px;
+      top: 358.5px;
+      width: 216px;
+      height: 96px;
+      background: rgba(31,43,224,0.10);  /* grid "off" cell */
+    }
+
+    [class~="04-leo-visual-label"] {
+      position: absolute;
+      top: 822px;                         /* label centre ≈ y=830 */
+      width: 280px;
+      text-align: center;
+      font-family: 'Hanken Grotesk', Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 16px;                    /* micro-strong */
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      line-height: 1;
+      color: #1F2BE0;
+      white-space: nowrap;
+    }
+    [id="04-leo-visual-label-1"] { left: 310px; }
+    [id="04-leo-visual-label-2"] { left: 650px; }
+    [id="04-leo-visual-label-3"] { left: 990px; }
+    [id="04-leo-visual-label-4"] { left: 1330px; }
+
+    /* ---- The lockup ---- */
+    [id="04-leo-visual-wordmark"] {
+      position: absolute;
+      left: 0;
+      width: 1920px;
+      top: 450px;               /* baseline ≈ y=600 at 180.48px / 0.96 lh */
+      text-align: center;
+      font-family: 'Newsreader', Georgia, serif;
+      font-weight: 400;
+      font-size: 180.48px;      /* display-closing: 9.4cqw */
+      line-height: 0.96;
+      letter-spacing: -0.005em;
+      color: #1F2BE0;
+      white-space: pre;
+    }
+    [class~="04-leo-visual-letter"] {
+      display: inline-block;
+      opacity: 0;
+    }
+
+    [id="04-leo-visual-kicker"] {
+      position: absolute;
+      left: 0;
+      width: 1920px;
+      top: 404px;
+      text-align: center;
+      font-family: 'Hanken Grotesk', Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 16px;          /* micro-strong */
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      line-height: 1;
+      color: #1F2BE0;
+      white-space: pre;
+    }
+    [class~="04-leo-visual-kword"] {
+      display: inline-block;
+      opacity: 0;
+    }
+
+    [id="04-leo-visual-rule"] {
+      position: absolute;
+      left: 710.4px;            /* centred on x=960 */
+      top: 652px;
+      width: 499.2px;           /* ~26cqw */
+      height: 1.5px;
+      background: #1F2BE0;
+      transform-origin: 0% 50%; /* grows from its left edge */
+    }
+
+    [id="04-leo-visual-url"] {
+      position: absolute;
+      left: 0;
+      width: 1920px;
+      top: 676px;
+      text-align: center;
+      font-family: 'DM Mono', 'Courier New', monospace;
+      font-weight: 400;
+      font-size: 14.976px;      /* mono-tag: 0.78cqw */
+      letter-spacing: 0.05em;
+      line-height: 1;
+      color: #1F2BE0;
+      opacity: 0;
+      white-space: nowrap;
+    }
+  </style>
+
+  <div id="root" data-composition-id="04-leo-visual">
+    <!-- Track 0: the ground (paper + grid + hairlines), full duration -->
+    <div id="04-leo-visual-ground" class="clip" data-start="0" data-duration="3.5" data-track-index="0">
+      <div id="04-leo-visual-hairline-top" class="04-leo-visual-hairline"></div>
+      <div id="04-leo-visual-hairline-bottom" class="04-leo-visual-hairline"></div>
+    </div>
+
+    <!-- Track 1: the shot -->
+    <div id="04-leo-visual-stage" class="clip" data-start="0" data-duration="3.5" data-track-index="1">
+      <div id="04-leo-visual-chrome">004 — STUDIO</div>
+
+      <!-- Inherited from Frame 3 at t=0 -->
+      <div id="04-leo-visual-headline">One brand. Every channel.</div>
+
+      <div id="04-leo-visual-screen-1" class="04-leo-visual-screen">
+        <div class="04-leo-visual-cell"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-a"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-b"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-c"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-d"></div>
+        <div class="04-leo-visual-offcell"></div>
+      </div>
+      <div id="04-leo-visual-screen-2" class="04-leo-visual-screen">
+        <div class="04-leo-visual-cell"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-a"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-b"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-c"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-d"></div>
+        <div class="04-leo-visual-offcell"></div>
+      </div>
+      <div id="04-leo-visual-screen-3" class="04-leo-visual-screen">
+        <div class="04-leo-visual-cell"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-a"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-b"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-c"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-d"></div>
+        <div class="04-leo-visual-offcell"></div>
+      </div>
+      <div id="04-leo-visual-screen-4" class="04-leo-visual-screen">
+        <div class="04-leo-visual-cell"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-a"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-b"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-c"></div>
+        <div class="04-leo-visual-bar 04-leo-visual-bar-d"></div>
+        <div class="04-leo-visual-offcell"></div>
+      </div>
+
+      <div id="04-leo-visual-label-1" class="04-leo-visual-label">INSTAGRAM</div>
+      <div id="04-leo-visual-label-2" class="04-leo-visual-label">TIKTOK</div>
+      <div id="04-leo-visual-label-3" class="04-leo-visual-label">LINKEDIN</div>
+      <div id="04-leo-visual-label-4" class="04-leo-visual-label">YOUTUBE</div>
+
+      <!-- The lockup -->
+      <div id="04-leo-visual-kicker"><span class="04-leo-visual-kword">BRAND</span> <span class="04-leo-visual-kword">·</span> <span class="04-leo-visual-kword">CONTENT</span> <span class="04-leo-visual-kword">·</span> <span class="04-leo-visual-kword">MOTION</span></div>
+      <div id="04-leo-visual-wordmark"><span class="04-leo-visual-letter">L</span><span class="04-leo-visual-letter">e</span><span class="04-leo-visual-letter">o</span> <span class="04-leo-visual-letter">V</span><span class="04-leo-visual-letter">i</span><span class="04-leo-visual-letter">s</span><span class="04-leo-visual-letter">u</span><span class="04-leo-visual-letter">a</span><span class="04-leo-visual-letter">l</span></div>
+      <div id="04-leo-visual-rule"></div>
+      <div id="04-leo-visual-url">leovisual.nl</div>
+    </div>
+  </div>
+
+  <script src="assets/gsap.min.js"></script>
+  <script>
+    (function () {
+      var ID = "04-leo-visual";
+      var DURATION = 3.5;
+      var CENTER_X = 960;      // shared collapse centre
+      var CENTER_Y = 549;
+
+      var $ = function (id) { return document.getElementById(id); };
+      var $$ = function (cls) { return Array.prototype.slice.call(document.querySelectorAll('[class~="' + cls + '"]')); };
+
+      var tl = gsap.timeline({ paused: true });
+
+      /* ---------- Phase 1 (0.0–0.7s): clear + collapse ---------- */
+      // Inherited headline + labels fade out fast.
+      tl.fromTo([$(ID + "-headline")].concat($$(ID + "-label")),
+        { opacity: 1 },
+        { opacity: 0, duration: 0.3, ease: "power2.in" },
+        0);
+
+      // scale-swap-transition (exit half): each screen rushes toward the
+      // shared centre while shrinking to ~0 and fading, on power2.in.
+      // The outer pair leads the inner pair by a hair.
+      var EXIT_DUR = 0.4;
+      var EXIT_SCALE = 0.02;
+      var LEAD = 0.06;
+      var screens = [
+        { id: ID + "-screen-1", cx: 450,  start: 0.05 },
+        { id: ID + "-screen-2", cx: 790,  start: 0.05 + LEAD },
+        { id: ID + "-screen-3", cx: 1130, start: 0.05 + LEAD },
+        { id: ID + "-screen-4", cx: 1470, start: 0.05 },
+      ];
+      screens.forEach(function (s) {
+        tl.fromTo($(s.id),
+          { x: 0, y: 0, scale: 1, opacity: 1 },
+          { x: CENTER_X - s.cx, y: CENTER_Y - 549, scale: EXIT_SCALE, opacity: 0,
+            duration: EXIT_DUR, ease: "power2.in" },
+          s.start);
+      });
+      // Collapse completes by ~0.51s; the centre point sits empty on the bare grid until 0.6s.
+
+      /* ---------- Phase 2 (0.6–2.0s): wordmark assembles letter by letter ---------- */
+      // dynamic-content-sequencing: per-letter starts computed once from a
+      // window + per-item config, never hardcoded per glyph.
+      var letters = $$(ID + "-letter");
+      var LETTERS_START = 0.6;
+      var LETTER_DUR = 0.7;                       // long-tail settle per glyph
+      var LETTERS_WINDOW_END = 2.0;
+      var LETTER_STAGGER = (LETTERS_WINDOW_END - LETTERS_START - LETTER_DUR) / (letters.length - 1);
+      var mid = (letters.length - 1) / 2;
+      letters.forEach(function (el, i) {
+        var at = LETTERS_START + i * LETTER_STAGGER;
+        tl.fromTo(el,
+          { opacity: 0, y: 46, x: (mid - i) * 9 },   // rises a short distance, drawn out of the centre
+          { opacity: 1, y: 0, x: 0, duration: LETTER_DUR, ease: "expo.out" },
+          at);
+      });
+
+      /* ---------- Phase 3 (1.8–2.4s): kicker · rule · URL ---------- */
+      // Per-word staggered reveal of the kicker above the wordmark.
+      var kwords = $$(ID + "-kword");
+      var KICKER_START = 1.8;
+      var KICKER_STAGGER = 0.07;
+      kwords.forEach(function (el, i) {
+        tl.fromTo(el,
+          { opacity: 0, y: 10 },
+          { opacity: 1, y: 0, duration: 0.38, ease: "power3.out" },
+          KICKER_START + i * KICKER_STAGGER);
+      });
+
+      // 1.5px cobalt rule grows from its left edge to full width on a long-tail settle.
+      tl.fromTo($(ID + "-rule"),
+        { scaleX: 0 },
+        { scaleX: 1, duration: 0.55, ease: "expo.out" },
+        1.85);
+
+      // URL fades + slides a short distance up into place beneath the rule.
+      tl.fromTo($(ID + "-url"),
+        { opacity: 0, y: 14 },
+        { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" },
+        2.0);
+
+      /* ---------- Phase 4 (2.4–3.5s): the long hold ---------- */
+      // Dead static to the final frame; no fade-out. Pad the timeline to the full duration.
+      tl.set({}, {}, DURATION);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines[ID] = tl;
+    })();
+  </script>
+</template>

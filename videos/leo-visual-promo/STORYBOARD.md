@@ -106,7 +106,7 @@ Scene 8 (5.9–6.5s): held read — everything dead still at the handoff geometr
 - duration: 3.5s
 - poster: 3.0s
 - transition_in: cut
-- status: outline
+- status: animated
 - src: compositions/frames/04-leo-visual.html
 - type: branding
 - persuasion: Attribution — the studio behind the transformation
