@@ -77,7 +77,7 @@ Scene 6 (5.7–6.5s): held read — the whole brand system sits still (wordmark,
 - duration: 6.5s
 - poster: 5.6s
 - transition_in: push-slide LEFT
-- status: outline
+- status: animated
 - src: compositions/frames/03-four-screens.html
 - type: benefit_highlight
 - persuasion: Breadth as one gesture — the brand deploys everywhere at once

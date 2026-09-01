@@ -199,15 +199,15 @@
     #root .brand-build-bar-2 { width: 46%; margin-top: 12px; }
   </style>
 
-  <div id="root" data-composition-id="02-brand-build">
+  <div id="root" data-composition-id="02-brand-build" data-start="0" data-duration="7" data-width="1920" data-height="1080">
     <!-- ground layer: paper + grid + hairlines, full duration -->
-    <div id="02-brand-build-ground" class="clip brand-build-ground" data-start="0" data-duration="6.5" data-track-index="0">
+    <div id="02-brand-build-ground" class="clip brand-build-ground" data-start="0" data-duration="7" data-track-index="0">
       <div class="brand-build-hairline brand-build-hairline-top"></div>
       <div class="brand-build-hairline brand-build-hairline-bottom"></div>
     </div>
 
     <!-- content layer -->
-    <div id="02-brand-build-content" class="clip" data-start="0" data-duration="6.5" data-track-index="1">
+    <div id="02-brand-build-content" class="clip" data-start="0" data-duration="7" data-track-index="1">
       <div class="brand-build-chrome" id="02-brand-build-chrome">002 — BUILD</div>
 
       <div class="brand-build-ledger" id="02-brand-build-ledger">
@@ -271,7 +271,7 @@
       });
 
       /* ===== Scene 2 (0.6–2.2s): sequential per-letter slide-in, terminal letter lands, word settles ===== */
-      const letters = $$('#02-brand-build-wordmark .brand-build-letter');
+      const letters = $$('[id="02-brand-build-wordmark"] .brand-build-letter');
       const LETTER_BASE = 0.45, LETTER_STEP = 0.14;
       letters.forEach((el, i) => {
         const last = i === letters.length - 1;
@@ -286,7 +286,7 @@
       tl.fromTo($('02-brand-build-wordmark'), { y: 3 }, { y: 0, duration: 0.4, ease: 'expo.out' }, 2.15);
 
       /* ===== Scene 3 (2.2–3.6s): palette cells item stagger-assemble (~0.12s apart) + hex labels ===== */
-      const cells = $$('#02-brand-build-cells .brand-build-cell');
+      const cells = $$('[id="02-brand-build-cells"] .brand-build-cell');
       const CELL_BASE = 2.35, CELL_STEP = 0.12;
       cells.forEach((cell, i) => {
         const t = CELL_BASE + i * CELL_STEP;

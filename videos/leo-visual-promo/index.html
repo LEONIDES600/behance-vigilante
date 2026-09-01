@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, height=1080" />
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script src="assets/gsap.min.js"></script>
     <style>
       * {
         margin: 0;
@@ -12,19 +12,23 @@
       }
       html,
       body {
-        margin: 0;
         width: 1920px;
         height: 1080px;
         overflow: hidden;
         background: #000;
       }
-      body {
-        font-family: "Inter", sans-serif;
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #F0EBDE;
       }
-      code,
-      pre,
-      .monospace {
-        font-family: "JetBrains Mono", monospace;
+      .scene {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
       }
     </style>
   </head>
@@ -33,27 +37,63 @@
       id="root"
       data-composition-id="main"
       data-start="0"
-      data-duration="10"
+      data-duration="20"
       data-width="1920"
       data-height="1080"
     >
-      
-      
+      <div
+        id="el-01-blank-page"
+        class="scene"
+        data-composition-id="01-blank-page"
+        data-composition-src="compositions/frames/01-blank-page.html"
+        data-start="0"
+        data-duration="3.9"
+        data-track-index="0"
+      ></div>
 
-      <!--
-        Add your clips here. Example:
-        <div id="title" class="clip" data-start="0" data-duration="5" data-track-index="1"
-             style="font-size: 64px; color: #fff; padding: 40px">
-          Hello World
-        </div>
-      -->
+      <div
+        id="el-02-brand-build"
+        class="scene"
+        data-composition-id="02-brand-build"
+        data-composition-src="compositions/frames/02-brand-build.html"
+        data-start="3.5"
+        data-duration="7"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="el-03-four-screens"
+        class="scene"
+        data-composition-id="03-four-screens"
+        data-composition-src="compositions/frames/03-four-screens.html"
+        data-start="10"
+        data-duration="6.5"
+        data-track-index="0"
+      ></div>
+
+      <div
+        id="el-04-leo-visual"
+        class="scene"
+        data-composition-id="04-leo-visual"
+        data-composition-src="compositions/frames/04-leo-visual.html"
+        data-start="16.5"
+        data-duration="3.5"
+        data-track-index="1"
+      ></div>
+
     </div>
 
     <script>
       window.__timelines = window.__timelines || {};
-      const tl = gsap.timeline({ paused: true });
-      // Example: tl.from("#title", { opacity: 0, y: -50, duration: 1 }, 0);
-      window.__timelines["main"] = tl;
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+      // ── frame transitions (injected by transitions.mjs) ──
+      (function () { var tl = window.__timelines["main"];
+        tl.to("#el-01-blank-page", { opacity: 0, duration: 0.4, ease: "power2.inOut" }, 3.5);
+        tl.fromTo("#el-02-brand-build", { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.inOut" }, 3.5);
+        tl.to("#el-02-brand-build", { x: -1920, duration: 0.5, ease: "power3.inOut" }, 10);
+        tl.fromTo("#el-03-four-screens", { x: 1920, opacity: 1 }, { x: 0, duration: 0.5, ease: "power3.inOut" }, 10);
+        tl.to({}, { duration: 20 }, 0); // full-span anchor — main.duration() == composition total (Studio master duration)
+      })();
     </script>
   </body>
 </html>
