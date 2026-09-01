@@ -6,7 +6,7 @@
     @font-face { font-family: 'Newsreader'; font-style: italic; font-weight: 400; font-display: block; src: url(assets/fonts/newsreader-400-italic.woff2) format('woff2'); }
     @font-face { font-family: 'Newsreader'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/newsreader-400.woff2) format('woff2'); }
 
-    /* Root: 1920×1080, styled via #root only (no class on the composition root). */
+    /* Frame 04 — Leo Visual. Root: 1920×1080 cqw container, styled via #root only. */
     #root {
       position: relative;
       width: 1920px;
@@ -19,120 +19,130 @@
     .clip {
       position: absolute;
       inset: 0;
-      width: 1920px;
-      height: 1080px;
+      width: 100%;
+      height: 100%;
     }
 
-    /* ---- Ground: paper + permanent graph-paper grid + top/bottom hairlines ---- */
+    /* ---- Ground: paper + graph-paper grid + top/bottom hairlines (identical to Frame 3) ---- */
     [id="04-leo-visual-ground"] {
       background-color: #F0EBDE;
       background-image:
         linear-gradient(to right, rgba(31,43,224,0.10) 1px, transparent 1px),
         linear-gradient(to bottom, rgba(31,43,224,0.10) 1px, transparent 1px);
-      background-size: 38.4px 38.4px; /* ~2cqw cells */
-      background-position: 0 0;
+      background-size: 2cqw 2cqw;
     }
-    [class~="04-leo-visual-hairline"] {
+    [class~="04-leo-visual-hair"] {
       position: absolute;
-      left: 76.8px;   /* edge = 4cqw */
-      right: 76.8px;
+      left: 4cqw;
+      right: 4cqw;
       height: 1.5px;
       background: #1F2BE0;
     }
-    [id="04-leo-visual-hairline-top"] { top: 57.6px; }      /* ≈3cqw from top */
-    [id="04-leo-visual-hairline-bottom"] { top: 1022.4px; } /* ≈3cqw from bottom */
 
-    /* ---- Chrome (mono, top-left) ---- */
+    /* ---- Chrome (mono, top-left — same slot as Frame 3) ---- */
     [id="04-leo-visual-chrome"] {
       position: absolute;
-      left: 76.8px;
-      top: 72px;
+      left: 4cqw;
+      top: 36px;
       font-family: 'DM Mono', 'Courier New', monospace;
-      font-weight: 400;
       font-size: 13px;
+      font-weight: 400;
+      line-height: 13px;
       letter-spacing: 0.06em;
-      line-height: 1;
       color: #1F2BE0;
       white-space: nowrap;
     }
 
-    /* ---- Inherited state from Frame 3 (hard-cut boundary) ---- */
+    /* ---- Inherited state from Frame 3 (hard-cut boundary — exact copies) ---- */
     [id="04-leo-visual-headline"] {
       position: absolute;
       left: 0;
+      top: 152px;
       width: 1920px;
-      top: 142px;              /* baseline lands ≈ y=215 at 88.32px / 0.95 lh */
       text-align: center;
       font-family: 'Newsreader', Georgia, serif;
       font-weight: 400;
-      font-size: 88.32px;      /* headline: 4.6cqw */
+      font-size: 4.6cqw;
       line-height: 0.95;
       letter-spacing: -0.005em;
       color: #1F2BE0;
       white-space: nowrap;
     }
+    [class~="04-leo-visual-word"] { display: inline-block; }
 
     [class~="04-leo-visual-screen"] {
       position: absolute;
       top: 300px;
       width: 280px;
       height: 498px;
-      box-sizing: border-box;
-      background: #E6E0CE;             /* paper-2 fill */
-      border: 1.5px solid #1F2BE0;     /* cobalt outline */
-      transform-origin: 50% 50%;
       overflow: hidden;
+      transform-origin: 50% 50%;
     }
     [id="04-leo-visual-screen-1"] { left: 310px; }
     [id="04-leo-visual-screen-2"] { left: 650px; }
     [id="04-leo-visual-screen-3"] { left: 990px; }
     [id="04-leo-visual-screen-4"] { left: 1330px; }
 
-    /* Screen contents: one cobalt cell + bars */
-    [class~="04-leo-visual-cell"] {
+    [class~="04-leo-visual-fill"] {
       position: absolute;
-      left: 30.5px;
-      top: 34.5px;
-      width: 216px;
-      height: 150px;
-      background: #1F2BE0;
+      inset: 0;
+      background: #E6E0CE;           /* paper-2 */
     }
-    [class~="04-leo-visual-bar"] {
+    [class~="04-leo-visual-field"] {
       position: absolute;
-      left: 30.5px;
-      height: 8px;
-      background: #1F2BE0;
+      inset: 0;
+      background: rgba(31,43,224,0.18);
     }
-    [class~="04-leo-visual-bar-a"] { top: 214.5px; width: 216px; }
-    [class~="04-leo-visual-bar-b"] { top: 238.5px; width: 152px; }
-    [class~="04-leo-visual-bar-c"] { top: 262.5px; width: 184px; }
-    [class~="04-leo-visual-bar-d"] { top: 318.5px; width: 96px; }
-    [id="04-leo-visual-screen-2"] [class~="04-leo-visual-bar-b"] { width: 184px; }
-    [id="04-leo-visual-screen-2"] [class~="04-leo-visual-bar-c"] { width: 120px; }
-    [id="04-leo-visual-screen-3"] [class~="04-leo-visual-bar-b"] { width: 200px; }
-    [id="04-leo-visual-screen-3"] [class~="04-leo-visual-bar-c"] { width: 140px; }
-    [id="04-leo-visual-screen-4"] [class~="04-leo-visual-bar-b"] { width: 128px; }
-    [id="04-leo-visual-screen-4"] [class~="04-leo-visual-bar-c"] { width: 208px; }
-    [class~="04-leo-visual-offcell"] {
+    [class~="04-leo-visual-outline"] {
       position: absolute;
-      left: 30.5px;
-      top: 358.5px;
-      width: 216px;
-      height: 96px;
-      background: rgba(31,43,224,0.10);  /* grid "off" cell */
+      inset: 0;
+      width: 280px;
+      height: 498px;
+      pointer-events: none;
+    }
+    [class~="04-leo-visual-outline"] rect {
+      fill: none;
+      stroke: #1F2BE0;
+      stroke-width: 1.5;
+      stroke-linecap: butt;
+      stroke-linejoin: miter;
+    }
+    /* Screen items: absolute boxes at Frame 3's final (data-box) geometry */
+    [class~="04-leo-visual-item"] { position: absolute; }
+    [class~="04-leo-visual-cell"] { background: #1F2BE0; }
+    [class~="04-leo-visual-bar"]  { background: rgba(31,43,224,0.18); height: 12px; }
+    [class~="04-leo-visual-name"] {
+      font-family: 'Newsreader', Georgia, serif;
+      font-weight: 400;
+      font-size: 1.5cqw;
+      line-height: 1.15;
+      letter-spacing: -0.005em;
+      color: #1F2BE0;
+      white-space: nowrap;
+    }
+    [class~="04-leo-visual-play"] {
+      position: absolute;
+      left: 106px;
+      top: 53px;
+      width: 28px;
+      height: 28px;
+      background: #F0EBDE;
     }
 
     [class~="04-leo-visual-label"] {
       position: absolute;
-      top: 822px;                         /* label centre ≈ y=830 */
+      top: 822px;
       width: 280px;
-      text-align: center;
-      font-family: 'Hanken Grotesk', Helvetica, Arial, sans-serif;
+      height: 16px;
+      padding-left: 0.18em;
+      box-sizing: border-box;
+      font-family: 'Hanken Grotesk', 'Helvetica Neue', Arial, sans-serif;
       font-weight: 600;
-      font-size: 16px;                    /* micro-strong */
+      font-size: 16px;
+      line-height: 16px;
       letter-spacing: 0.18em;
       text-transform: uppercase;
-      line-height: 1;
+      text-align: center;
       color: #1F2BE0;
       white-space: nowrap;
     }
@@ -146,11 +156,11 @@
       position: absolute;
       left: 0;
       width: 1920px;
-      top: 450px;               /* baseline ≈ y=600 at 180.48px / 0.96 lh */
+      top: 450px;               /* baseline ≈ y=600 at 9.4cqw / 0.96 lh */
       text-align: center;
       font-family: 'Newsreader', Georgia, serif;
       font-weight: 400;
-      font-size: 180.48px;      /* display-closing: 9.4cqw */
+      font-size: 9.4cqw;        /* display-closing */
       line-height: 0.96;
       letter-spacing: -0.005em;
       color: #1F2BE0;
@@ -167,7 +177,7 @@
       width: 1920px;
       top: 404px;
       text-align: center;
-      font-family: 'Hanken Grotesk', Helvetica, Arial, sans-serif;
+      font-family: 'Hanken Grotesk', 'Helvetica Neue', Arial, sans-serif;
       font-weight: 600;
       font-size: 16px;          /* micro-strong */
       letter-spacing: 0.18em;
@@ -183,9 +193,9 @@
 
     [id="04-leo-visual-rule"] {
       position: absolute;
-      left: 710.4px;            /* centred on x=960 */
-      top: 652px;
-      width: 499.2px;           /* ~26cqw */
+      left: 37cqw;              /* (100 − 26) / 2 → centred on x=960 */
+      top: 654px;
+      width: 26cqw;
       height: 1.5px;
       background: #1F2BE0;
       transform-origin: 0% 50%; /* grows from its left edge */
@@ -199,7 +209,7 @@
       text-align: center;
       font-family: 'DM Mono', 'Courier New', monospace;
       font-weight: 400;
-      font-size: 14.976px;      /* mono-tag: 0.78cqw */
+      font-size: 1.6cqw;        /* ≈31px — above the 1.4cqw legibility floor (CTA) */
       letter-spacing: 0.05em;
       line-height: 1;
       color: #1F2BE0;
@@ -211,54 +221,74 @@
   <div id="root" data-composition-id="04-leo-visual" data-start="0" data-duration="3.5" data-width="1920" data-height="1080">
     <!-- Track 0: the ground (paper + grid + hairlines), full duration -->
     <div id="04-leo-visual-ground" class="clip" data-start="0" data-duration="3.5" data-track-index="0">
-      <div id="04-leo-visual-hairline-top" class="04-leo-visual-hairline"></div>
-      <div id="04-leo-visual-hairline-bottom" class="04-leo-visual-hairline"></div>
+      <div class="04-leo-visual-hair" style="top: 3cqw;"></div>
+      <div class="04-leo-visual-hair" style="bottom: 3cqw;"></div>
     </div>
 
     <!-- Track 1: the shot -->
     <div id="04-leo-visual-stage" class="clip" data-start="0" data-duration="3.5" data-track-index="1">
       <div id="04-leo-visual-chrome">004 — STUDIO</div>
 
-      <!-- Inherited from Frame 3 at t=0 -->
-      <div id="04-leo-visual-headline">One brand. Every channel.</div>
+      <!-- Inherited from Frame 3 at t=0: headline -->
+      <div id="04-leo-visual-headline"><span class="04-leo-visual-word">One</span> <span class="04-leo-visual-word">brand.</span> <span class="04-leo-visual-word">Every</span> <span class="04-leo-visual-word">channel.</span></div>
 
+      <!-- screen 1 — Instagram (Frame 3 final state) -->
       <div id="04-leo-visual-screen-1" class="04-leo-visual-screen">
-        <div class="04-leo-visual-cell"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-a"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-b"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-c"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-d"></div>
-        <div class="04-leo-visual-offcell"></div>
-      </div>
-      <div id="04-leo-visual-screen-2" class="04-leo-visual-screen">
-        <div class="04-leo-visual-cell"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-a"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-b"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-c"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-d"></div>
-        <div class="04-leo-visual-offcell"></div>
-      </div>
-      <div id="04-leo-visual-screen-3" class="04-leo-visual-screen">
-        <div class="04-leo-visual-cell"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-a"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-b"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-c"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-d"></div>
-        <div class="04-leo-visual-offcell"></div>
-      </div>
-      <div id="04-leo-visual-screen-4" class="04-leo-visual-screen">
-        <div class="04-leo-visual-cell"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-a"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-b"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-c"></div>
-        <div class="04-leo-visual-bar 04-leo-visual-bar-d"></div>
-        <div class="04-leo-visual-offcell"></div>
+        <div class="04-leo-visual-fill"></div>
+        <div class="04-leo-visual-item 04-leo-visual-name" style="left:20px; top:24px; width:240px; height:33px;">Your Brand</div>
+        <div class="04-leo-visual-item 04-leo-visual-cell" style="left:20px; top:68px; width:240px; height:240px;"></div>
+        <div class="04-leo-visual-item 04-leo-visual-bar" style="left:20px; top:330px; width:200px;"></div>
+        <div class="04-leo-visual-item 04-leo-visual-bar" style="left:20px; top:354px; width:160px;"></div>
+        <div class="04-leo-visual-item 04-leo-visual-bar" style="left:20px; top:378px; width:120px;"></div>
+        <svg class="04-leo-visual-outline" viewBox="0 0 280 498" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.75" y="0.75" width="278.5" height="496.5"></rect>
+        </svg>
       </div>
 
-      <div id="04-leo-visual-label-1" class="04-leo-visual-label">INSTAGRAM</div>
-      <div id="04-leo-visual-label-2" class="04-leo-visual-label">TIKTOK</div>
-      <div id="04-leo-visual-label-3" class="04-leo-visual-label">LINKEDIN</div>
-      <div id="04-leo-visual-label-4" class="04-leo-visual-label">YOUTUBE</div>
+      <!-- screen 2 — TikTok (Frame 3 final state) -->
+      <div id="04-leo-visual-screen-2" class="04-leo-visual-screen">
+        <div class="04-leo-visual-fill"></div>
+        <div class="04-leo-visual-field"></div>
+        <div class="04-leo-visual-item 04-leo-visual-cell" style="left:65px; top:60px; width:150px; height:300px;"></div>
+        <div class="04-leo-visual-item 04-leo-visual-name" style="left:20px; top:390px; width:240px; height:33px;">Your Brand</div>
+        <div class="04-leo-visual-item 04-leo-visual-bar" style="left:20px; top:432px; width:180px;"></div>
+        <div class="04-leo-visual-item 04-leo-visual-bar" style="left:20px; top:454px; width:130px;"></div>
+        <svg class="04-leo-visual-outline" viewBox="0 0 280 498" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.75" y="0.75" width="278.5" height="496.5"></rect>
+        </svg>
+      </div>
+
+      <!-- screen 3 — LinkedIn (Frame 3 final state) -->
+      <div id="04-leo-visual-screen-3" class="04-leo-visual-screen">
+        <div class="04-leo-visual-fill"></div>
+        <div class="04-leo-visual-item 04-leo-visual-bar" style="left:20px; top:80px; width:240px;"></div>
+        <div class="04-leo-visual-item 04-leo-visual-bar" style="left:20px; top:104px; width:210px;"></div>
+        <div class="04-leo-visual-item 04-leo-visual-bar" style="left:20px; top:128px; width:230px;"></div>
+        <div class="04-leo-visual-item 04-leo-visual-bar" style="left:20px; top:152px; width:180px;"></div>
+        <div class="04-leo-visual-item 04-leo-visual-bar" style="left:20px; top:176px; width:120px;"></div>
+        <div class="04-leo-visual-item 04-leo-visual-name" style="left:20px; top:24px; width:240px; height:33px;">Your Brand</div>
+        <div class="04-leo-visual-item 04-leo-visual-cell" style="left:20px; top:372px; width:100px; height:100px;"></div>
+        <svg class="04-leo-visual-outline" viewBox="0 0 280 498" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.75" y="0.75" width="278.5" height="496.5"></rect>
+        </svg>
+      </div>
+
+      <!-- screen 4 — YouTube (Frame 3 final state) -->
+      <div id="04-leo-visual-screen-4" class="04-leo-visual-screen">
+        <div class="04-leo-visual-fill"></div>
+        <div class="04-leo-visual-item 04-leo-visual-cell" style="left:20px; top:40px; width:240px; height:135px;"><div class="04-leo-visual-play"></div></div>
+        <div class="04-leo-visual-item 04-leo-visual-name" style="left:20px; top:195px; width:240px; height:33px;">Your Brand</div>
+        <div class="04-leo-visual-item 04-leo-visual-bar" style="left:20px; top:240px; width:200px;"></div>
+        <svg class="04-leo-visual-outline" viewBox="0 0 280 498" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.75" y="0.75" width="278.5" height="496.5"></rect>
+        </svg>
+      </div>
+
+      <!-- channel labels (Frame 3 final state) -->
+      <div id="04-leo-visual-label-1" class="04-leo-visual-label">Instagram</div>
+      <div id="04-leo-visual-label-2" class="04-leo-visual-label">TikTok</div>
+      <div id="04-leo-visual-label-3" class="04-leo-visual-label">LinkedIn</div>
+      <div id="04-leo-visual-label-4" class="04-leo-visual-label">YouTube</div>
 
       <!-- The lockup -->
       <div id="04-leo-visual-kicker"><span class="04-leo-visual-kword">BRAND</span> <span class="04-leo-visual-kword">·</span> <span class="04-leo-visual-kword">CONTENT</span> <span class="04-leo-visual-kword">·</span> <span class="04-leo-visual-kword">MOTION</span></div>
@@ -282,7 +312,7 @@
       var tl = gsap.timeline({ paused: true });
 
       /* ---------- Phase 1 (0.0–0.7s): clear + collapse ---------- */
-      // Inherited headline + labels fade out fast.
+      // Inherited headline + labels fade out fast (present at opacity 1, static, at t=0).
       tl.fromTo([$(ID + "-headline")].concat($$(ID + "-label")),
         { opacity: 1 },
         { opacity: 0, duration: 0.3, ease: "power2.in" },
@@ -338,7 +368,7 @@
           KICKER_START + i * KICKER_STAGGER);
       });
 
-      // 1.5px cobalt rule grows from its left edge to full width on a long-tail settle.
+      // 1.5px cobalt rule (26cqw) grows from its left edge to full width on a long-tail settle.
       tl.fromTo($(ID + "-rule"),
         { scaleX: 0 },
         { scaleX: 1, duration: 0.55, ease: "expo.out" },
