@@ -1,0 +1,226 @@
+<template>
+<style>
+/* ── Fuentes locales (rutas relativas a la raíz del proyecto) ── */
+@font-face { font-family: 'DM Mono'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/dm-mono-400.woff2) format('woff2'); }
+@font-face { font-family: 'Hanken Grotesk'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/hanken-grotesk-400.woff2) format('woff2'); }
+@font-face { font-family: 'Hanken Grotesk'; font-style: normal; font-weight: 600; font-display: block; src: url(assets/fonts/hanken-grotesk-600.woff2) format('woff2'); }
+@font-face { font-family: 'Newsreader'; font-style: italic; font-weight: 400; font-display: block; src: url(assets/fonts/newsreader-400-italic.woff2) format('woff2'); }
+@font-face { font-family: 'Newsreader'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/newsreader-400.woff2) format('woff2'); }
+
+/* ── Raíz del frame: 1920×1080, sin fondo (el suelo va en su propio clip) ── */
+#root {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  color: #1F2BE0;
+}
+
+.clip {
+  position: absolute;
+  inset: 0;
+  width: 1920px;
+  height: 1080px;
+}
+
+/* ── Suelo: papel + cuadrícula (2cqw ≈ 38px) + líneas cobalto ── */
+[id="01-blank-page-ground"] {
+  background-color: #F0EBDE;
+  background-image:
+    linear-gradient(to right, rgba(31,43,224,0.10) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(31,43,224,0.10) 1px, transparent 1px);
+  background-size: 38px 38px;
+  background-position: 0 0;
+}
+[id="01-blank-page-hair-top"],
+[id="01-blank-page-hair-bottom"] {
+  position: absolute;
+  left: 77px;               /* edge = 4cqw */
+  right: 77px;
+  height: 2px;              /* 0.12cqw */
+  background: #1F2BE0;
+}
+[id="01-blank-page-hair-top"]    { top: 58px; }     /* ≈3cqw */
+[id="01-blank-page-hair-bottom"] { bottom: 58px; }
+
+/* ── Chrome mono: "001 — BRIEF" en la línea segura, arriba-izquierda ── */
+[id="01-blank-page-tag"] {
+  position: absolute;
+  left: 77px;
+  top: 80px;
+  font-family: 'DM Mono', 'Courier New', monospace;
+  font-size: 15px;          /* mono-tag 0.78cqw */
+  letter-spacing: 0.05em;
+  line-height: 1;
+  color: #1F2BE0;
+  white-space: pre;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 0;               /* fromTo lo revela en 0.05–0.35s */
+}
+[id="01-blank-page-check"] {
+  width: 12px;
+  height: 12px;
+  display: block;
+  opacity: 0;               /* swap duro en 3.15s, gobernado por el driver */
+}
+
+/* ── Línea tipeada: Newsreader display-chapter (6.8cqw ≈ 131px), cobalto ── */
+[id="01-blank-page-line"] {
+  position: absolute;
+  left: 77px;
+  top: 300px;               /* baseline ≈ 0.37 × alto: tercio superior */
+  display: inline-flex;
+  align-items: baseline;
+  min-width: 1100px;        /* ≥ estado más ancho: evita jitter del borde derecho */
+  white-space: pre;
+  font-family: 'Newsreader', Georgia, serif;
+  font-weight: 400;
+  font-size: 131px;
+  line-height: 1.0;
+  letter-spacing: -0.005em;
+  color: #1F2BE0;
+}
+[id="01-blank-page-text"] {
+  white-space: pre;
+}
+[id="01-blank-page-caret"] {
+  display: inline-block;
+  width: 12px;
+  height: 112px;            /* ≈0.85 × font-size */
+  margin-left: 8px;
+  background: #1F2BE0;      /* el color del caret va en background */
+  vertical-align: -12px;    /* baja el bloque a la línea base */
+}
+</style>
+
+<div id="root" data-composition-id="01-blank-page">
+
+  <!-- Pista 0: el suelo, duración completa -->
+  <div id="01-blank-page-ground" class="clip" data-start="0" data-duration="3.5" data-track-index="0">
+    <div id="01-blank-page-hair-top"></div>
+    <div id="01-blank-page-hair-bottom"></div>
+  </div>
+
+  <!-- Pista 1: chrome + línea tipeada, duración completa -->
+  <div id="01-blank-page-content" class="clip" data-start="0" data-duration="3.5" data-track-index="1">
+
+    <div id="01-blank-page-tag">
+      <span>001 — BRIEF</span>
+      <svg id="01-blank-page-check" viewBox="0 0 12 12" aria-hidden="true">
+        <polyline points="1.5,6.5 4.5,9.5 10.5,2.5" fill="none" stroke="#1F2BE0" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter"></polyline>
+      </svg>
+    </div>
+
+    <div id="01-blank-page-line">
+      <span id="01-blank-page-text"></span><span id="01-blank-page-caret"></span>
+    </div>
+
+  </div>
+</div>
+
+<script src="assets/gsap.min.js"></script>
+<script>
+(function () {
+  const ID = "01-blank-page";
+  const DURATION = 3.5;
+
+  const textEl  = document.getElementById(ID + "-text");
+  const caretEl = document.getElementById(ID + "-caret");
+  const tagEl   = document.getElementById(ID + "-tag");
+  const checkEl = document.getElementById(ID + "-check");
+
+  // ── Secuencia discreta (discrete-text-sequence): cada entrada rige desde su t
+  //    hasta la siguiente. Escena 2: tecleo humano (0.08–0.18s, pausa en el espacio).
+  //    Escena 3: hold. Escena 4: retroceso rápido hasta "A " y retipeo de "brand.".
+  const SEQUENCE = [
+    { t: 0.00, text: "",              segment: "idle"  },
+    // Escena 2 — "A blank page." tecleado carácter a carácter
+    { t: 0.40, text: "A",             segment: "main"  },
+    { t: 0.52, text: "A ",            segment: "main"  },
+    { t: 0.66, text: "A b",           segment: "main"  },
+    { t: 0.74, text: "A bl",          segment: "main"  },
+    { t: 0.83, text: "A bla",         segment: "main"  },
+    { t: 0.91, text: "A blan",        segment: "main"  },
+    { t: 1.00, text: "A blank",       segment: "main"  },
+    { t: 1.14, text: "A blank ",      segment: "main"  },
+    { t: 1.28, text: "A blank p",     segment: "main"  },
+    { t: 1.37, text: "A blank pa",    segment: "main"  },
+    { t: 1.46, text: "A blank pag",   segment: "main"  },
+    { t: 1.56, text: "A blank page",  segment: "main"  },
+    { t: 1.74, text: "A blank page.", segment: "main"  },
+    // Escena 3 (1.9–2.3) — hold, sin cambios
+    // Escena 4 — borrar "blank page." hasta "A " (0.04s por tecla)
+    { t: 2.32, text: "A blank page",  segment: "edit"  },
+    { t: 2.36, text: "A blank pag",   segment: "edit"  },
+    { t: 2.40, text: "A blank pa",    segment: "edit"  },
+    { t: 2.44, text: "A blank p",     segment: "edit"  },
+    { t: 2.48, text: "A blank ",      segment: "edit"  },
+    { t: 2.52, text: "A blank",       segment: "edit"  },
+    { t: 2.56, text: "A blan",        segment: "edit"  },
+    { t: 2.60, text: "A bla",         segment: "edit"  },
+    { t: 2.64, text: "A bl",          segment: "edit"  },
+    { t: 2.68, text: "A b",           segment: "edit"  },
+    { t: 2.72, text: "A ",            segment: "edit"  },
+    // … y retipear "brand."
+    { t: 2.80, text: "A b",           segment: "brand" },
+    { t: 2.86, text: "A br",          segment: "brand" },
+    { t: 2.92, text: "A bra",         segment: "brand" },
+    { t: 2.97, text: "A bran",        segment: "brand" },
+    { t: 3.02, text: "A brand",       segment: "brand" },
+    { t: 3.10, text: "A brand.",      segment: "brand" },
+    // Escena 5 (3.1–3.5) — lectura sostenida
+  ];
+
+  function entryAt(time) {
+    for (let i = SEQUENCE.length - 1; i >= 0; i--) {
+      if (time >= SEQUENCE[i].t) return SEQUENCE[i];
+    }
+    return SEQUENCE[0];
+  }
+
+  // Instantes de tecleo, horneados en construcción (seguro al scrub inverso).
+  const CHANGE_TIMES = SEQUENCE
+    .filter((e, i) => i > 0 && e.text !== SEQUENCE[i - 1].text)
+    .map((e) => e.t);
+  const TYPING_GRACE = 0.12;      // caret sólido mientras se teclea, parpadea en reposo
+
+  // Parpadeo: onda cuadrada sin() sobre la línea de tiempo, 7 ciclos enteros (periodo 0.5s).
+  const BLINK_CYCLES = 7;
+  const TAG_SWAP_T = 3.15;        // "001 — BRIEF" → "001 — BRIEF ✓", un swap duro
+
+  const tl = gsap.timeline({ paused: true });
+
+  // Escena 1 — la etiqueta mono entra sola sobre la línea segura.
+  tl.fromTo(tagEl, { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "none" }, 0.05);
+
+  // Driver único: texto, caret y swap del check son funciones puras de driver.t.
+  const driver = { t: 0 };
+  tl.to(driver, {
+    t: DURATION,
+    duration: DURATION,
+    ease: "none",
+    onUpdate: () => {
+      const t = driver.t;
+      const entry = entryAt(t);
+      if (textEl.textContent !== entry.text) textEl.textContent = entry.text;
+
+      // context-sensitive-cursor: tinta única (cobalto), altura ligeramente mayor en "brand".
+      caretEl.style.background = "#1F2BE0";
+      caretEl.style.height = entry.segment === "brand" ? "122px" : "112px";
+
+      const isTyping = CHANGE_TIMES.some((c) => c <= t && t - c < TYPING_GRACE);
+      const p = Math.PI * 2 * BLINK_CYCLES * (t / DURATION);
+      caretEl.style.opacity = isTyping ? "1" : (Math.sin(p) >= 0 ? "1" : "0");
+
+      // Escena 5 — swap duro del check en la etiqueta.
+      checkEl.style.opacity = t >= TAG_SWAP_T ? "1" : "0";
+    },
+  }, 0);
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines[ID] = tl;
+})();
+</script>
+</template>

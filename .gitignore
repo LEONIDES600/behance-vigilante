@@ -5,3 +5,9 @@ estado/
 node_modules/
 renders/
 .hyperframes/
+
+# Proyectos de vídeo HyperFrames: artefactos derivados
+videos/*/.hyperframes/
+videos/*/renders/
+videos/*/snapshots/
+videos/*/.media/
