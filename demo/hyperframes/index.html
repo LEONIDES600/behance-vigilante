@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>Vigilante Behance — intro</title>
+    <script src="vendor/gsap.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #05070c;
+      }
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: radial-gradient(circle at 50% 45%, #10203a 0%, #05070c 62%);
+        font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+        color: #f4f7fb;
+      }
+      .clip {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        place-items: center;
+      }
+      #glow {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 1400px;
+        height: 1400px;
+        margin: -700px 0 0 -700px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(0, 122, 255, 0.28) 0%, rgba(0, 122, 255, 0) 68%);
+      }
+      #stack {
+        display: block;
+        text-align: center;
+      }
+      #eyebrow {
+        display: block;
+        font-size: 34px;
+        letter-spacing: 0.42em;
+        text-transform: uppercase;
+        color: #6f8db3;
+      }
+      #title {
+        display: block;
+        margin-top: 34px;
+        font-size: 176px;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        line-height: 1;
+      }
+      #accent {
+        color: #1769ff;
+      }
+      #rule {
+        width: 620px;
+        height: 3px;
+        margin: 52px auto 0;
+        background: linear-gradient(90deg, rgba(23, 105, 255, 0) 0%, #1769ff 50%, rgba(23, 105, 255, 0) 100%);
+      }
+      #subtitle {
+        display: block;
+        margin-top: 46px;
+        font-size: 40px;
+        letter-spacing: 0.28em;
+        text-transform: uppercase;
+        color: #9fb4cd;
+      }
+      .word {
+        display: inline-block;
+        padding: 0 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-width="1920"
+      data-height="1080"
+      data-duration="7"
+    >
+      <section id="scene" class="clip" data-start="0" data-duration="7">
+        <div id="glow"></div>
+        <div id="stack">
+          <span id="eyebrow">Leo Visual</span>
+          <span id="title">Vigilante <span id="accent">Behance</span></span>
+          <div id="rule"></div>
+          <span id="subtitle">
+            <span class="word">Detecta</span>
+            <span class="word">Filtra</span>
+            <span class="word">Propone</span>
+          </span>
+        </div>
+      </section>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+
+      tl.fromTo("#glow", { opacity: 0, scale: 0.72 }, { opacity: 1, scale: 1, duration: 1.6, ease: "power2.out" }, 0);
+      tl.fromTo("#eyebrow", { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, 0.35);
+      tl.fromTo("#title", { opacity: 0, y: 62 }, { opacity: 1, y: 0, duration: 1, ease: "power3.out" }, 0.6);
+      tl.fromTo("#rule", { opacity: 0, scaleX: 0 }, { opacity: 1, scaleX: 1, duration: 0.9, ease: "power2.inOut" }, 1.2);
+      tl.fromTo(
+        "#subtitle .word",
+        { opacity: 0, y: 22 },
+        { opacity: 1, y: 0, duration: 0.7, ease: "power3.out", stagger: 0.22 },
+        1.5
+      );
+      tl.to("#stack", { opacity: 0, duration: 0.7, ease: "power2.in" }, 6.1);
+      tl.to("#glow", { opacity: 0, duration: 0.7, ease: "power2.in" }, 6.1);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

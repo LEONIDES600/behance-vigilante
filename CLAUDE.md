@@ -13,8 +13,12 @@ las filtra por relevancia (diseño/branding/social/motion/AI) y envía cada una 
 Telegram con una propuesta personalizada lista para copiar y pegar. Funciona en
 la nube, aunque el PC del usuario esté apagado.
 
-No es una aplicación con servidor ni dependencias npm: es un script de un solo
-archivo ejecutado por un cron de Actions.
+El vigilante no es una aplicación con servidor: es un script de un solo archivo
+ejecutado por un cron de Actions, sin dependencias npm.
+
+El repositorio aloja además **HyperFrames** (ver más abajo), que sí trae
+`package.json` y `node_modules`. Son dos cosas independientes: el vigilante
+nunca importa nada de HyperFrames y el workflow de Actions no instala nada.
 
 ## Estructura
 
@@ -24,10 +28,15 @@ vigilante.js                      Toda la lógica (scraping, filtros, propuesta,
 README.md                         Documentación de operación (en español)
 estado/seen.json                  Estado en runtime: IDs de ofertas ya vistas (NO en git;
                                   lo crea el script y lo persiste actions/cache)
+
+package.json                      Solo dependencias de desarrollo de HyperFrames
+skills-lock.json                  Qué skills de HyperFrames hay instaladas y de dónde vienen
+.claude/skills/                   Las 9 skills core de HyperFrames
+demo/hyperframes/                 Composición de prueba (index.html + vendor/gsap.min.js)
 ```
 
-No hay `package.json`, `node_modules`, build, tests ni linter. El script usa solo
-módulos nativos de Node (`fs`, `path`) y el `fetch` global (requiere Node 18+; el
+`vigilante.js` no tiene dependencias, build, tests ni linter: usa solo módulos
+nativos de Node (`fs`, `path`) y el `fetch` global (requiere Node 18+; el
 workflow fija Node 20).
 
 ## Cómo funciona `vigilante.js` (flujo de `main()`)
@@ -109,8 +118,9 @@ el auto-encadenado es una mejora opcional:
 - **Idioma: español.** Comentarios, logs de consola, README, mensajes de commit y
   texto de operación van en español. (Las propuestas a clientes en `buildProposal`
   están en inglés a propósito, porque las ofertas de Behance son internacionales.)
-- Un solo archivo, sin dependencias externas: mantén el script autocontenido y sin
-  añadir paquetes npm salvo necesidad real.
+- `vigilante.js` es un solo archivo sin dependencias externas: mantenlo
+  autocontenido y no le añadas paquetes npm salvo necesidad real. Lo que haya en
+  `package.json` es de HyperFrames y el vigilante no lo usa.
 - Sin secretos en el código. Sin romper la cadena de proxies. Salir con código 0
   cuando no hay datos (no marcar fallo por bloqueos de red).
 - Estilo: Node moderno (`async/await`, `const`, template strings), funciones
@@ -132,9 +142,41 @@ TELEGRAM_BOT_TOKEN=xxx TELEGRAM_CHAT_ID=yyy node vigilante.js
 - En la nube: *Actions → Vigilante Behance → Run workflow* para lanzar a mano y
   ver los logs.
 
+## HyperFrames (vídeo desde HTML)
+
+Segunda pieza del repo, independiente del vigilante:
+[HyperFrames](https://github.com/heygen-com/hyperframes) (HeyGen, open source)
+renderiza MP4 deterministas a partir de HTML + CSS + animaciones seekables.
+
+- **Skills** en `.claude/skills/`: el set *core* (router `/hyperframes`, las
+  `hyperframes-*` y `media-use`). `skills-lock.json` registra el origen.
+  Actualizar: `npx hyperframes skills update`. Las workflows de creación
+  (`/product-launch-video`, `/motion-graphics`…) las instala el router bajo
+  demanda; no las añadas todas a mano.
+- **CLI**: `hyperframes` en `devDependencies`. Requiere Node 22+, FFmpeg y el
+  Chrome headless que instala `npx hyperframes browser ensure`.
+- **Antes de escribir una composición**, lee la skill `/hyperframes` (router) y
+  `/hyperframes-core` (contrato: `data-*`, `class="clip"`, una única timeline
+  GSAP pausada en `window.__timelines["<id>"]`, reglas de determinismo).
+
+Bucle de trabajo en un proyecto de vídeo (p. ej. `demo/hyperframes/`):
+
+```bash
+npx hyperframes check      # lint + runtime + layout + motion + contraste
+npx hyperframes preview    # navegador con recarga en vivo
+npx hyperframes render     # -> renders/*.mp4 (ignorado por git)
+```
+
+`check` debe salir sin hallazgos antes de renderizar: un error de lint apaga las
+auditorías de layout y contraste y el informe parece limpio sin haber corrido.
+
+GSAP se carga desde `vendor/gsap.min.js` (copiado de `node_modules/gsap/dist/`)
+en lugar del CDN, porque el navegador de render puede no tener salida a jsDelivr.
+Mantén esa referencia local en composiciones nuevas.
+
 ## Git
 
-- Rama de trabajo activa: `claude/claude-md-docs-zqffz6`. Desarrolla y haz push
+- Rama de trabajo activa: `claude/install-and-test-i907ft`. Desarrolla y haz push
   ahí; no empujes a `main` sin permiso explícito.
 - **No** crees pull requests salvo que el usuario lo pida.
 - No commitees `estado/seen.json` (es estado de runtime; se gestiona vía cache).

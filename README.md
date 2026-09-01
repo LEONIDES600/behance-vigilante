@@ -43,3 +43,39 @@ Sin este secreto el vigilante sigue funcionando, pero depende del cron de respal
   trabajo `keepalive` hace un commit vacío semanal para evitarlo.
 - El repositorio es público (los minutos de Actions son gratis e ilimitados en
   repos públicos); los secretos de Telegram NO son visibles.
+
+## HyperFrames (vídeo desde HTML)
+
+Instalado aparte del vigilante, para producir vídeo (intros, clips promocionales,
+motion graphics) escribiendo HTML y renderizando MP4.
+[HyperFrames](https://github.com/heygen-com/hyperframes) es de HeyGen y es
+open source.
+
+Qué se instaló:
+- Las 9 *skills core* en `.claude/skills/` (el router `/hyperframes`, las
+  `hyperframes-*` y `media-use`), con `skills-lock.json` en la raíz. Cualquier
+  agente de código (Claude Code, Cursor, Codex…) las carga solo.
+- El CLI como dependencia de desarrollo: `hyperframes` en `package.json`.
+- Una composición de prueba en `demo/hyperframes/`.
+
+Requisitos: Node 22+, FFmpeg y el Chrome headless que instala el propio CLI.
+
+```bash
+npm install                                   # CLI de hyperframes
+npx hyperframes browser ensure                # Chrome headless para renderizar
+cd demo/hyperframes
+npx hyperframes check                         # lint + runtime + layout + contraste
+npx hyperframes preview                       # previsualizar en el navegador
+npx hyperframes render                        # renderizar a renders/*.mp4
+```
+
+Prueba realizada: `demo/hyperframes/index.html` → `check` sin hallazgos y render
+de 7 s a 1920x1080 / 30 fps en ~30 s. Los MP4 van a `demo/hyperframes/renders/`,
+que está en `.gitignore`.
+
+GSAP se sirve desde `demo/hyperframes/vendor/gsap.min.js` en vez del CDN: el
+navegador de render no siempre tiene salida a jsDelivr y así el render funciona
+sin red. Se copia de `node_modules/gsap/dist/gsap.min.js`.
+
+Para pedir un vídeo a un agente, basta con: *«Usando `/hyperframes`, hazme una
+intro de 10 s con…»*.

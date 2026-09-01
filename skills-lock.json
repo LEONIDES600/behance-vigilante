@@ -1,0 +1,49 @@
+{
+  "skills": {
+    "hyperframes": {
+      "source": "heygen-com/hyperframes",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes",
+      "skillPath": "skills/hyperframes/SKILL.md"
+    },
+    "hyperframes-animation": {
+      "source": "heygen-com/hyperframes",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes",
+      "skillPath": "skills/hyperframes-animation/SKILL.md"
+    },
+    "hyperframes-audio": {
+      "source": "heygen-com/hyperframes",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes",
+      "skillPath": "skills/hyperframes-audio/SKILL.md"
+    },
+    "hyperframes-cli": {
+      "source": "heygen-com/hyperframes",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes",
+      "skillPath": "skills/hyperframes-cli/SKILL.md"
+    },
+    "hyperframes-core": {
+      "source": "heygen-com/hyperframes",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes",
+      "skillPath": "skills/hyperframes-core/SKILL.md"
+    },
+    "hyperframes-creative": {
+      "source": "heygen-com/hyperframes",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes",
+      "skillPath": "skills/hyperframes-creative/SKILL.md"
+    },
+    "hyperframes-keyframes": {
+      "source": "heygen-com/hyperframes",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes",
+      "skillPath": "skills/hyperframes-keyframes/SKILL.md"
+    },
+    "hyperframes-registry": {
+      "source": "heygen-com/hyperframes",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes",
+      "skillPath": "skills/hyperframes-registry/SKILL.md"
+    },
+    "media-use": {
+      "source": "heygen-com/hyperframes",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes",
+      "skillPath": "skills/media-use/SKILL.md"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# Estado de runtime del vigilante (se persiste con actions/cache, no en git)
+estado/
+
+# Dependencias y salidas de HyperFrames
+node_modules/
+renders/
+.hyperframes/
