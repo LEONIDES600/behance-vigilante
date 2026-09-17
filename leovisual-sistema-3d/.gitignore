@@ -1,0 +1,4 @@
+# Fotogramas y vídeos generados por la exportación
+frames/
+*.mp4
+node_modules/
