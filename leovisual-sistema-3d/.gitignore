@@ -1,4 +1,5 @@
 # Fotogramas y vídeos generados por la exportación
 frames/
 *.mp4
+*.webm
 node_modules/
