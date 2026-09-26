@@ -21,6 +21,10 @@ const STATE_FILE = path.join(__dirname, 'estado', 'seen.json');
 const MAX_SEEN = 3000;
 // Si NINGUNA fuente devuelve datos durante este tiempo, avisa por Telegram (una vez).
 const BLIND_ALERT_MS = 60 * 60 * 1000; // 1 hora
+// Pausa progresiva de una fuente caída, para que no ralentice a las que funcionan.
+const BACKOFF_TRAS = 3;                 // fallos seguidos antes de empezar a pausarla
+const BACKOFF_BASE_MS = 5 * 60 * 1000;  // primera pausa: 5 min (se dobla cada fallo)
+const BACKOFF_MAX_MS = 60 * 60 * 1000;  // tope: 1 hora
 
 const TOPIC_LINES = [
   { match: /youtube|channel/i, line: 'I produce channel branding and video content for YouTube on a regular basis, so I know exactly what works for thumbnails, banners and channel identity.' },
@@ -105,7 +109,6 @@ async function fetchBehancePage(url) {
     [url, 'directo', { validate: behanceValidate }],
     [`https://api.codetabs.com/v1/proxy/?quest=${enc}`, 'codetabs', { validate: behanceValidate }],
     [`https://api.allorigins.win/raw?url=${enc}`, 'allorigins', { validate: behanceValidate }],
-    [`https://corsproxy.io/?url=${enc}`, 'corsproxy', { validate: behanceValidate }],
     [`https://r.jina.ai/${url}`, 'jina', { validate: behanceValidate }],
   ]);
 }
@@ -267,13 +270,15 @@ function loadState() {
     if (Array.isArray(raw)) {
       // Formato antiguo: ids de Behance sin prefijo → los normalizamos a behance:<id>
       const seen = raw.map((id) => (String(id).includes(':') ? id : `behance:${id}`));
-      return { seen: new Set(seen), initialized: new Set(['behance']), blindSince: 0, blindNotified: false };
+      return { seen: new Set(seen), initialized: new Set(['behance']), blindSince: 0, blindNotified: false, sourceFails: {}, sourceSkip: {} };
     }
     return {
       seen: new Set(raw.seen || []),
       initialized: new Set(raw.initialized || []),
       blindSince: raw.blindSince || 0,
       blindNotified: !!raw.blindNotified,
+      sourceFails: raw.sourceFails || {},
+      sourceSkip: raw.sourceSkip || {},
     };
   } catch {
     return null; // primera ejecución
@@ -289,25 +294,57 @@ function saveState(state) {
     initialized: [...state.initialized],
     blindSince: state.blindSince || 0,
     blindNotified: !!state.blindNotified,
+    sourceFails: state.sourceFails || {},
+    sourceSkip: state.sourceSkip || {},
   }));
 }
 
 async function main() {
   let state = loadState();
   const firstRun = state === null;
-  if (firstRun) state = { seen: new Set(), initialized: new Set() };
+  if (firstRun) state = { seen: new Set(), initialized: new Set(), blindSince: 0, blindNotified: false, sourceFails: {}, sourceSkip: {} };
 
   const all = new Map();
+  const ahora = Date.now();
+
+  // La pausa sirve para que una fuente caída no frene a las demás. Si acabaran
+  // TODAS en pausa, el vigilante se quedaría inactivo a propósito y retrasaría su
+  // propia recuperación, así que en ese caso se levantan las pausas y se reintenta.
+  if (SOURCES.every((s) => (state.sourceSkip[s.key] || 0) > ahora)) {
+    console.log('Todas las fuentes estaban en pausa: se levantan las pausas para reintentar.');
+    for (const s of SOURCES) state.sourceSkip[s.key] = 0;
+  }
+
   for (const src of SOURCES) {
+    // Pausa progresiva: una fuente caída (p. ej. Behance bloqueado) tarda minutos
+    // en agotar todos sus proxies y retrasa a las que sí funcionan. Tras varios
+    // fallos seguidos se la deja descansar, doblando la espera hasta 1 h.
+    if ((state.sourceSkip[src.key] || 0) > ahora) {
+      const min = Math.round((state.sourceSkip[src.key] - ahora) / 60000);
+      console.log(`${src.name}: en pausa ${min} min (lleva ${state.sourceFails[src.key]} fallos seguidos).`);
+      continue;
+    }
     let result;
     try {
       result = await src.fetch();
     } catch (e) {
       console.log(`${src.name}: error — ${e.message}`);
-      continue;
+      result = { jobs: [], via: 'excepción', fails: [] };
     }
     const { jobs, via, fails } = result;
     console.log(`${src.name}: ${jobs.length} ofertas (vía ${via})${fails && fails.length ? ' · fallos: ' + fails.join(' | ') : ''}`);
+    if (jobs.length) {
+      state.sourceFails[src.key] = 0;
+      state.sourceSkip[src.key] = 0;
+    } else {
+      const n = (state.sourceFails[src.key] || 0) + 1;
+      state.sourceFails[src.key] = n;
+      if (n >= BACKOFF_TRAS) {
+        const espera = Math.min(BACKOFF_BASE_MS * 2 ** (n - BACKOFF_TRAS), BACKOFF_MAX_MS);
+        state.sourceSkip[src.key] = Date.now() + espera;
+        console.log(`  ${src.name} en pausa ${Math.round(espera / 60000)} min tras ${n} fallos seguidos.`);
+      }
+    }
     for (const job of jobs) all.set(job.id, job);
   }
 

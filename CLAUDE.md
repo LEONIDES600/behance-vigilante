@@ -98,6 +98,18 @@ los dos únicos respaldos de entonces, y el vigilante estuvo **días ciego sin q
 nadie se enterara**. De ahí vienen dos decisiones: mantener siempre **varios**
 proxies, y el aviso de ceguera de abajo. No dejes la cadena con un solo respaldo.
 
+### Pausa progresiva por fuente (backoff)
+
+Una fuente caída tarda **minutos** en agotar todos sus proxies (Behance: 10
+búsquedas × 4 intentos = 40 peticiones fallidas por pasada) y retrasa a las que sí
+funcionan. Por eso, tras `BACKOFF_TRAS` (3) pasadas seguidas sin datos, la fuente
+se deja en pausa: `BACKOFF_BASE_MS` (5 min) doblando hasta `BACKOFF_MAX_MS` (1 h).
+Al primer resultado bueno se reinicia (`sourceFails`/`sourceSkip` a 0).
+
+**Excepción importante:** si TODAS las fuentes acabaran en pausa a la vez, el
+vigilante se quedaría inactivo a propósito y retrasaría su propia recuperación.
+En ese caso se levantan las pausas y se reintenta. No quites esa salvaguarda.
+
 ### Aviso de "vigilante ciego"
 
 Si **ninguna** fuente devuelve datos, el ciclo no envía ofertas y sale con código 0
