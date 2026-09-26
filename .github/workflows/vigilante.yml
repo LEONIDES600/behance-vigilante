@@ -35,11 +35,12 @@ jobs:
           restore-keys: |
             seen-
 
-      # Una sola ejecución vigila durante ~5,5 h, revisando cada 3 min. Así basta
-      # con que el cron arranque unas pocas veces al día para cubrir el día casi
-      # entero, y avisa a los pocos minutos de cada nueva oferta. La protección de
-      # 'concurrency' evita que se solapen o acumulen ejecuciones.
-      - name: Revisar Behance en bucle (~5,5 h, cada 3 min)
+      # Una sola ejecución vigila durante ~5,5 h, revisando cada 3 min todas las
+      # fuentes (Behance, We Work Remotely, Remote OK). Así basta con que el cron
+      # arranque unas pocas veces al día para cubrir el día casi entero, y avisa a
+      # los pocos minutos de cada nueva oferta. La protección de 'concurrency'
+      # evita que se solapen o acumulen ejecuciones.
+      - name: Revisar plataformas en bucle (~5,5 h, cada 3 min)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
