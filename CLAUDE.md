@@ -85,14 +85,27 @@ provoca una avalancha de decenas de mensajes en Telegram.
 
 ### Resiliencia de red (importante)
 
-Behance suele bloquear la IP de los runners de Actions. `fetchVia(url, attempts)`
-prueba los intentos en orden hasta que uno valide: para Behance, **directo →
-allorigins → jina**; para WWR y Remote OK, **directo → allorigins**. Cada intento
+Behance suele bloquear la IP de los runners de Actions (403), así que **todo
+depende de los proxies de lectura**. `fetchVia(url, attempts)` prueba los intentos
+en orden hasta que uno valide: para Behance, **directo → codetabs → allorigins →
+corsproxy → jina**; para WWR y Remote OK, **directo → allorigins**. Cada intento
 lleva su propio `validate(body)` (que haya `/joblist/`, `<item>` o que el JSON
-empiece por `[`) para no dar por buena una página de error. Si **todas** las
-fuentes fallan, el ciclo no envía nada y se reintenta en la próxima pasada (sale
-con código 0 para no marcar el run como fallido). Si tocas el fetching, mantén
-esta cadena de respaldo.
+empiece por `[`) para no dar por buena una página de error —Cloudflare devuelve
+HTTP 200 en sus páginas de error, por eso `behanceValidate` exige ver `/joblist/`.
+
+**Lección de sept-2026:** jina empezó a devolver 403 y allorigins 5xx *a la vez*,
+los dos únicos respaldos de entonces, y el vigilante estuvo **días ciego sin que
+nadie se enterara**. De ahí vienen dos decisiones: mantener siempre **varios**
+proxies, y el aviso de ceguera de abajo. No dejes la cadena con un solo respaldo.
+
+### Aviso de "vigilante ciego"
+
+Si **ninguna** fuente devuelve datos, el ciclo no envía ofertas y sale con código 0
+(no marca el run como fallido). Además lleva la cuenta en el estado:
+`blindSince` (cuándo empezó la ceguera) y `blindNotified` (si ya se avisó).
+Si la ceguera supera `BLIND_ALERT_MS` (1 h), manda **un solo** aviso por Telegram;
+cuando vuelve a haber datos, avisa de la recuperación y reinicia ambos campos. No
+lo conviertas en un aviso por pasada: sería spam cada 3 minutos.
 
 ## Configuración (todo al inicio de `vigilante.js`)
 

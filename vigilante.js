@@ -19,6 +19,8 @@ const GATE_TITLES = /^(adult content|content warning|mature content|sensitive co
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36';
 const STATE_FILE = path.join(__dirname, 'estado', 'seen.json');
 const MAX_SEEN = 3000;
+// Si NINGUNA fuente devuelve datos durante este tiempo, avisa por Telegram (una vez).
+const BLIND_ALERT_MS = 60 * 60 * 1000; // 1 hora
 
 const TOPIC_LINES = [
   { match: /youtube|channel/i, line: 'I produce channel branding and video content for YouTube on a regular basis, so I know exactly what works for thumbnails, banners and channel identity.' },
@@ -87,12 +89,23 @@ async function fetchVia(url, attempts) {
 }
 
 // ───────────────────────── Fuente: Behance ─────────────────────────
-function behanceValidate(html) { return html.includes('/joblist/') || html.length > 5000; }
+// Validación estricta: una página de error de Cloudflare puede devolver HTTP 200
+// y bastante tamaño, así que exigimos que de verdad parezca el joblist.
+function behanceValidate(html) {
+  return html.includes('/joblist/') || (html.length > 20000 && /behance/i.test(html));
+}
 
+// Behance bloquea la IP de los runners (403), así que todo depende de los proxies
+// de lectura. Se prueban varios en orden porque caen con frecuencia: en sept-2026
+// jina empezó a devolver 403 y allorigins 5xx a la vez, y el vigilante se quedó
+// ciego. Si añades o quitas proxies, deja siempre más de uno.
 async function fetchBehancePage(url) {
+  const enc = encodeURIComponent(url);
   return fetchVia(url, [
     [url, 'directo', { validate: behanceValidate }],
-    [`https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`, 'allorigins', { validate: behanceValidate }],
+    [`https://api.codetabs.com/v1/proxy/?quest=${enc}`, 'codetabs', { validate: behanceValidate }],
+    [`https://api.allorigins.win/raw?url=${enc}`, 'allorigins', { validate: behanceValidate }],
+    [`https://corsproxy.io/?url=${enc}`, 'corsproxy', { validate: behanceValidate }],
     [`https://r.jina.ai/${url}`, 'jina', { validate: behanceValidate }],
   ]);
 }
@@ -246,7 +259,7 @@ async function sendTelegram(text) {
   return res.ok;
 }
 
-// Estado: formato nuevo { v:2, seen:[ids], initialized:[fuentes] }.
+// Estado: formato nuevo { v:2, seen:[ids], initialized:[fuentes], blindSince, blindNotified }.
 // Compatibilidad: si seen.json es un array antiguo, son ids de Behance ya vistos.
 function loadState() {
   try {
@@ -254,9 +267,14 @@ function loadState() {
     if (Array.isArray(raw)) {
       // Formato antiguo: ids de Behance sin prefijo → los normalizamos a behance:<id>
       const seen = raw.map((id) => (String(id).includes(':') ? id : `behance:${id}`));
-      return { seen: new Set(seen), initialized: new Set(['behance']) };
+      return { seen: new Set(seen), initialized: new Set(['behance']), blindSince: 0, blindNotified: false };
     }
-    return { seen: new Set(raw.seen || []), initialized: new Set(raw.initialized || []) };
+    return {
+      seen: new Set(raw.seen || []),
+      initialized: new Set(raw.initialized || []),
+      blindSince: raw.blindSince || 0,
+      blindNotified: !!raw.blindNotified,
+    };
   } catch {
     return null; // primera ejecución
   }
@@ -265,7 +283,13 @@ function loadState() {
 function saveState(state) {
   const seen = [...state.seen].slice(-MAX_SEEN);
   fs.mkdirSync(path.dirname(STATE_FILE), { recursive: true });
-  fs.writeFileSync(STATE_FILE, JSON.stringify({ v: 2, seen, initialized: [...state.initialized] }));
+  fs.writeFileSync(STATE_FILE, JSON.stringify({
+    v: 2,
+    seen,
+    initialized: [...state.initialized],
+    blindSince: state.blindSince || 0,
+    blindNotified: !!state.blindNotified,
+  }));
 }
 
 async function main() {
@@ -287,10 +311,37 @@ async function main() {
     for (const job of jobs) all.set(job.id, job);
   }
 
+  // Vigilante ciego: ninguna fuente devolvió nada. Antes se salía en silencio, y
+  // si los proxies caían podías pasar DÍAS sin avisos creyendo que no había ofertas
+  // (pasó en sept-2026). Ahora, si la ceguera dura más de BLIND_ALERT_MS, avisa una
+  // sola vez por Telegram; al recuperarse avisa de la vuelta y reinicia el contador.
   if (all.size === 0) {
-    console.log('Sin datos esta vez (todas las fuentes inaccesibles) — se reintenta en el próximo ciclo.');
+    const ahora = Date.now();
+    if (!state.blindSince) state.blindSince = ahora;
+    const minutos = Math.round((ahora - state.blindSince) / 60000);
+    console.log(`Sin datos esta vez (todas las fuentes inaccesibles) — lleva ${minutos} min sin leer nada.`);
+    if (ahora - state.blindSince >= BLIND_ALERT_MS && !state.blindNotified) {
+      const ok = await sendTelegram(
+        `⚠️ El vigilante lleva ${minutos} min sin poder leer NINGUNA plataforma.\n\n` +
+        'Suele ser que Behance bloquea al runner y los proxies de lectura están caídos. ' +
+        'Mientras tanto NO te llegan ofertas, aunque las haya.\n\n' +
+        'Revisa los logs en Actions → Vigilante Behance.'
+      );
+      state.blindNotified = true;
+      console.log(`  Aviso de ceguera ${ok ? 'enviado' : 'NO enviado (error Telegram)'}.`);
+    }
+    saveState(state);
     process.exit(0);
   }
+
+  // Se recuperó la visión: avisa solo si antes se notificó la caída.
+  if (state.blindNotified) {
+    const minutos = Math.round((Date.now() - state.blindSince) / 60000);
+    await sendTelegram(`✅ El vigilante vuelve a leer las plataformas (estuvo ${minutos} min sin datos). Se reanudan los avisos.`);
+    console.log(`Recuperado tras ${minutos} min sin datos.`);
+  }
+  state.blindSince = 0;
+  state.blindNotified = false;
 
   // Línea base por fuente: una fuente no inicializada (o la primera ejecución global)
   // registra sus ofertas actuales como vistas SIN avisar.

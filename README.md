@@ -13,8 +13,12 @@ Plataformas vigiladas:
 - `vigilante.js` — cada fuente del array `SOURCES` aporta sus ofertas; el resto
   del flujo (filtros, propuesta, Telegram y memoria de vistas) es común. Compara
   con las ya vistas y envía las nuevas a Telegram. Si una fuente bloquea la IP
-  del runner, pasa automáticamente por un proxy de lectura (allorigins, y además
-  jina para Behance).
+  del runner, pasa automáticamente por proxies de lectura de respaldo (para
+  Behance: codetabs → allorigins → corsproxy → jina).
+- **Aviso si se queda ciego:** si durante más de 1 hora *ninguna* plataforma
+  responde, te manda un aviso a Telegram (una sola vez) y otro cuando se
+  recupera. Así te enteras si el vigilante se rompe, en vez de pensar que
+  simplemente no hay ofertas.
 - **Filtros de relevancia:** solo avisa de ofertas de diseño/branding/social/
   motion/vídeo publicitario, y descarta contenido para adultos. La coincidencia
   es por palabra completa, así que "ai" no salta dentro de "email".
