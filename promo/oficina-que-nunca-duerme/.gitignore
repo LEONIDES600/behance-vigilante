@@ -6,3 +6,4 @@ stills/
 sheet*.jpg
 spec.png
 *.mp4
+!entregas/*.mp4
