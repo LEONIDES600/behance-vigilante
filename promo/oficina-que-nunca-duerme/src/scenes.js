@@ -127,9 +127,9 @@ export function buildStorm(ctx) {
   wetFloor(scene, { dim: 0x2c2c2c });
   const fig = figure();
   scene.add(fig);
-  const rimA = spot(AMBER, 90, V(-1.6, 3.2, -2.6), V(0, 1.2, 0), 0.5);
+  const rimA = spot(AMBER, 120, V(-1.6, 3.2, -2.6), V(0, 1.2, 0), 0.45);
   const rimB = spot(0xffd9a8, 60, V(1.9, 2.8, -2.3), V(0, 1.2, 0), 0.5);
-  const top = spot(0xfff1dc, 25, V(0, 6, 0.5), V(0, 0, 0), 0.32, 0.8);
+  const top = spot(0xfff1dc, 5, V(0, 6, -0.6), V(0, 0, 0), 0.32, 0.8);
   [rimA, rimB, top].forEach(l => { scene.add(l, l.target); });
 
   const P0 = V(0, 1.55, 1.3);

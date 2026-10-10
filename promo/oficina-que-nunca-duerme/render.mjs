@@ -67,7 +67,9 @@ async function worker(k) {
   const { browser, page } = await open();
   for (let f = k; f < total; f += WORKERS) {
     const file = `${dir}/${String(f).padStart(5, '0')}.jpg`;
-    if (!existsSync(file) || args.force) await shot(page, f / FPS + 0.0001, file);
+    const [ra, rb] = (args.range || '-1,-1').split(',').map(Number);
+    const inRange = f / FPS >= ra && f / FPS <= rb;
+    if (!existsSync(file) || args.force || inRange) await shot(page, f / FPS + 0.0001, file);
     done++;
     if (done % 60 === 0) {
       const el = (Date.now() - t0) / 1000;
@@ -82,7 +84,7 @@ server.close();
 const out = `oficina-${AR}.mp4`;
 const ff = ['-y', '-framerate', String(FPS), '-i', `${dir}/%05d.jpg`];
 if (existsSync('audio/score.wav')) ff.push('-i', 'audio/score.wav');
-ff.push('-c:v', 'libx264', '-preset', 'slow', '-crf', '17', '-pix_fmt', 'yuv420p', '-movflags', '+faststart');
+ff.push('-c:v', 'libx264', '-preset', 'medium', '-crf', '24', '-maxrate', '12M', '-bufsize', '24M', '-pix_fmt', 'yuv420p', '-movflags', '+faststart');
 if (existsSync('audio/score.wav')) ff.push('-c:a', 'aac', '-b:a', '192k', '-shortest');
 ff.push(out);
 await new Promise((r, j) => spawn('ffmpeg', ff, { stdio: 'inherit' }).on('close', c => (c ? j(new Error('ffmpeg ' + c)) : r())));
