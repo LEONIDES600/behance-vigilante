@@ -1,0 +1,1 @@
+{"name":"oficina-promo","private":true,"type":"module","dependencies":{"gsap":"^3.12.5","playwright-core":"^1.56.1","three":"^0.169.0"}}
