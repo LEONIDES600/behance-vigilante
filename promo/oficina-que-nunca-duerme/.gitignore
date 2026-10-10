@@ -7,3 +7,8 @@ sheet*.jpg
 spec.png
 *.mp4
 !entregas/*.mp4
+chk*.jpg
+l-*.jpg
+lsheet.jpg
+review/
+review-sheet.jpg
