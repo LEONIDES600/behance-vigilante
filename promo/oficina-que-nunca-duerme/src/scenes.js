@@ -39,7 +39,7 @@ function wetFloor(scene, { size = 80, dim = 0x333333, res = 1024 } = {}) {
 // Silueta humana sobria (se lee por la luz de contorno, nunca de frente)
 function figure() {
   const g = new THREE.Group();
-  const m = new THREE.MeshStandardMaterial({ color: 0x121010, roughness: 0.7, metalness: 0.0 });
+  const m = new THREE.MeshStandardMaterial({ color: 0x060606, roughness: 0.38, metalness: 0.65 });
   const add = (geo, x, y, z, sx = 1, sy = 1, sz = 1) => { const o = new THREE.Mesh(geo, m); o.position.set(x, y, z); o.scale.set(sx, sy, sz); g.add(o); return o; };
   add(new THREE.SphereGeometry(0.105, 24, 18), 0, 1.66, 0, 0.92, 1.08, 1);
   add(new THREE.CylinderGeometry(0.045, 0.05, 0.1, 12), 0, 1.53, 0);
@@ -160,7 +160,7 @@ export function buildStorm(ctx) {
   const names = ['PPC', 'BENEFICIO', 'INVENTARIO', 'IMÁGENES', 'FICHAS', 'CUENTA', 'IVA'];
   const words = names.map((n, i) => {
     const t = TX.word(n, i % 3 === 0 ? '#ffb24d' : '#f4efe6');
-    const m = new THREE.SpriteMaterial({ map: t, transparent: true, depthWrite: false, color: new THREE.Color(1.5, 1.5, 1.5), opacity: 0 });
+    const m = new THREE.SpriteMaterial({ map: t, transparent: true, depthWrite: false, color: new THREE.Color(1.15, 1.15, 1.15), opacity: 0 });
     const s = new THREE.Sprite(m);
     const h = 0.3;
     s.scale.set(h * t.userData.aspect, h, 1);
@@ -212,7 +212,7 @@ export function buildStorm(ctx) {
     words.forEach((w, i) => {
       const ang = w.a + phi * w.k;
       w.s.position.set(Math.cos(ang) * w.r, w.y + Math.sin(t * 0.9 + i) * 0.12, Math.sin(ang) * w.r);
-      w.s.material.opacity = ease.out(prog(t, w.tin, w.tin + 0.5)) * (1 - prog(t, 7.0, 7.4));
+      w.s.userData.o = ease.out(prog(t, w.tin, w.tin + 0.5)) * (1 - prog(t, 7.0, 7.4));
     });
 
     const L = ease.out(prog(t, 2.6, 3.5)) * (1 - prog(t, 7.1, 7.5));
@@ -233,6 +233,7 @@ export function buildStorm(ctx) {
       const roll = Math.sin(e * 0.7) * 0.14 * prog(t, 3.2, 7);
       cam.rotateZ(roll);
     }
+    words.forEach(w => { const d = w.s.position.distanceTo(cam.position); w.s.material.opacity = (w.s.userData.o || 0) * (0.35 + 0.65 * prog(d, 0.6, 1.6)); });
     if (t > 7.0) shake(cam, 0.09 * Math.exp(-(t - 7.0) * 7), t, 30);
     return { bloom: t < 2.6 ? 0.55 : 0.8, threshold: 0.9, fade: prog(t, 7.3, 7.62), grain: 0.07 };
   };
