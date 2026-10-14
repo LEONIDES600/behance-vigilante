@@ -1,0 +1,63 @@
+name: LINCE NEXUS
+
+on:
+  # Un ciclo de investigación cada 2 horas, 24/7. Cada ciclo dura pocos minutos:
+  # investigar no necesita la inmediatez del vigilante de ofertas, y así se
+  # respetan los límites de las APIs (y el gasto de IA si está activada).
+  schedule:
+    - cron: '23 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      informe:
+        description: 'Generar el Informe de Innovación ahora'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # para guardar la base de conocimiento y los informes en el repo
+
+concurrency:
+  group: lince-nexus
+  cancel-in-progress: false
+
+jobs:
+  investigar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Ciclo de investigación
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          LINCE_TELEGRAM_CHAT_ID: ${{ secrets.LINCE_TELEGRAM_CHAT_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LINCE_MODEL: ${{ vars.LINCE_MODEL }}
+          LINCE_MAX_IA: ${{ vars.LINCE_MAX_IA }}
+          LINCE_INFORME: ${{ inputs.informe }}
+        run: node lince/lince-nexus.js
+
+      # La base de conocimiento vive en git (no en cache): así queda el historial
+      # de cada cambio y se puede leer el catálogo desde GitHub o el móvil.
+      - name: Guardar conocimiento en el repositorio
+        run: |
+          git config user.name "lince-nexus-bot"
+          git config user.email "actions@github.com"
+          git add lince/conocimiento lince/informes 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Sin cambios que guardar."
+            exit 0
+          fi
+          git commit -m "lince: ciclo de investigación $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep $((i * 5))
+          done
+          echo "No se pudo guardar el conocimiento tras 3 intentos."
+          exit 1

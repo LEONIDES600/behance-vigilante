@@ -18,12 +18,21 @@ la nube, aunque el PC del usuario esté apagado.
 No es una aplicación con servidor ni dependencias npm: es un script de un solo
 archivo ejecutado por un cron de Actions.
 
+El repo aloja además un segundo bot independiente, **LINCE NEXUS** (`lince/`):
+investigación continua de tecnologías creativas (GitHub, arXiv, Hugging Face)
+cada 2 h, con base de conocimiento en `lince/conocimiento/` (se commitea, a
+diferencia de `estado/`) e informe semanal. Documentación en `lince/README.md`.
+Reglas propias: nunca clona/instala/ejecuta código de terceros, solo lee
+metadatos; solo asigna estados A/B/F; `ANTHROPIC_API_KEY` es opcional.
+
 ## Estructura
 
 ```
 vigilante.js                      Toda la lógica (fuentes, filtros, propuesta, Telegram, estado)
 .github/workflows/vigilante.yml   Cron horario + bucle de ~5,5 h + keepalive semanal
 README.md                         Documentación de operación (en español)
+lince/lince-nexus.js              Bot LINCE NEXUS (investigación creativa)
+.github/workflows/lince-nexus.yml Cron cada 2 h + commit de la base de conocimiento
 estado/seen.json                  Estado en runtime: IDs de ofertas ya vistas (NO en git;
                                   lo crea el script y lo persiste actions/cache)
 ```
