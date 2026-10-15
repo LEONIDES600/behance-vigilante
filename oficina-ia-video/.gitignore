@@ -1,0 +1,6 @@
+# Salidas de render (pesadas, regenerables)
+render/frames/
+render/render.log
+render/musica.wav
+render/node_modules/
+render/package*.json

@@ -1,0 +1,676 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Oficina de agentes · animático</title>
+<meta name="description" content="Animático 9:16 (90 s) del vídeo de venta de la oficina de agentes de IA. three.js r186 + GSAP 3.13. Modo #render para exportar fotogramas.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#07070b; --crema:#f2eadb; --gris:#8a8f99; --gris2:#5a5f6a;
+    --berm:#ff4b1f; --oro:#ffc247; --lima:#c9f23e; --cobalto:#5b7cff; --rosa:#ff8fc0; --teal:#19d3be; --violeta:#b79bff;
+    --naranja:#ff9f1c; --panel:rgba(14,14,20,.86); --borde:rgba(242,234,219,.12);
+  }
+  :root:not([data-theme="light"]){ color-scheme:dark; }
+  :root[data-theme="dark"]{ color-scheme:dark; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;background:var(--bg);color:var(--crema);font-family:Inter,system-ui,sans-serif;overflow:hidden;-webkit-font-smoothing:antialiased}
+  #viewport{position:fixed;inset:0;display:grid;place-items:center;background:#000}
+  #stage{position:relative;width:540px;height:960px;overflow:hidden;background:var(--bg);transform-origin:center center;}
+  #gl{position:absolute;inset:0;width:100%;height:100%;display:block}
+  .capa{position:absolute;inset:0;pointer-events:none}
+  .oculto{opacity:0}
+
+  /* marca y cabecera */
+  #marca{position:absolute;left:28px;top:30px;font:600 15px/1 Unbounded,sans-serif;letter-spacing:.02em}
+  #marca .nl{color:var(--gris)}
+  #etq{position:absolute;right:28px;top:31px;font:500 10px/1 "JetBrains Mono",monospace;letter-spacing:.14em;color:var(--gris);text-transform:uppercase}
+  #prog{position:absolute;left:0;top:0;height:3px;width:100%;background:rgba(242,234,219,.08)}
+  #prog i{position:absolute;left:0;top:0;height:100%;width:0;background:var(--crema)}
+  #prog b{position:absolute;top:0;height:100%;width:1px;background:rgba(242,234,219,.35)}
+
+  /* texto grande */
+  #titulos{position:absolute;left:28px;right:28px;top:120px}
+  .tit{position:absolute;left:0;right:0;font:700 44px/1.05 Unbounded,sans-serif;letter-spacing:-.02em;opacity:0;text-shadow:0 2px 6px rgba(7,7,11,.9),0 0 28px rgba(7,7,11,.95)}
+  .tit.med{font-size:34px}
+  .tit.chica{font-size:26px;font-weight:500}
+  .tit .w{display:inline-block;overflow:hidden;vertical-align:bottom}
+  .tit .w i{display:inline-block;font-style:normal}
+  .tit em{font:italic 1.05em/1 "Instrument Serif",serif;color:var(--oro)}
+  .tit .c1{color:var(--lima)} .tit .c2{color:var(--cobalto)} .tit .c3{color:var(--rosa)}
+  .tit .gris{color:var(--gris)}
+  .num{position:absolute;right:28px;top:118px;font:800 120px/1 Unbounded,sans-serif;color:rgba(242,234,219,.08);letter-spacing:-.05em;opacity:0}
+
+  /* subtítulos */
+  #sub{position:absolute;left:36px;right:36px;top:auto;bottom:88px;text-align:center;font:500 21px/1.3 Inter,sans-serif;color:var(--crema);text-shadow:0 2px 14px rgba(0,0,0,.9)}
+  #sub span{background:rgba(7,7,11,.55);padding:3px 8px;border-radius:6px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+
+  /* etiquetas 3D proyectadas */
+  #labels{position:absolute;inset:0;opacity:0}
+  .lab{position:absolute;transform:translate(-50%,-100%);font:600 10px/1 "JetBrains Mono",monospace;letter-spacing:.06em;color:var(--crema);white-space:nowrap;text-transform:uppercase;opacity:.85}
+  .lab::after{content:"";display:block;width:1px;height:14px;background:rgba(242,234,219,.5);margin:6px auto 0}
+
+  /* tarjeta "plano a cámara" */
+  #cam{position:absolute;left:50px;right:50px;top:175px;height:620px;border:1.5px dashed rgba(242,234,219,.35);border-radius:22px;opacity:0;background:radial-gradient(ellipse at 50% 35%,rgba(242,234,219,.06),transparent 60%)}
+  #cam .tag{position:absolute;left:18px;top:16px;font:600 10px/1 "JetBrains Mono",monospace;letter-spacing:.14em;color:var(--oro);text-transform:uppercase}
+  #cam .sil{position:absolute;left:50%;bottom:0;width:260px;height:380px;transform:translateX(-50%);background:
+     radial-gradient(circle at 50% 22%, rgba(242,234,219,.16) 0 58px, transparent 59px),
+     radial-gradient(ellipse at 50% 100%, rgba(242,234,219,.14) 0 130px, transparent 131px)}
+  #cam .nota{position:absolute;left:18px;right:18px;bottom:16px;font:400 12px/1.4 Inter,sans-serif;color:var(--gris)}
+  #cam .nota b{color:var(--crema);font-weight:600}
+
+  /* pila de tareas "TÚ" (bloque 2) */
+  #pila{position:absolute;left:28px;top:430px;width:300px}
+  .tarea{position:absolute;left:0;top:0;width:290px;padding:12px 14px;border-radius:12px;background:var(--panel);border:1px solid var(--borde);font:500 15px/1.2 Inter,sans-serif;display:flex;justify-content:space-between;align-items:center;opacity:0;backdrop-filter:blur(6px)}
+  .tarea b{font:600 10px/1 "JetBrains Mono",monospace;letter-spacing:.12em;color:#000;background:var(--berm);padding:5px 7px;border-radius:5px}
+
+  /* interfaz de la oficina (recreación) */
+  #ui{position:absolute;left:24px;right:24px;top:330px;height:490px;border-radius:20px;background:var(--panel);border:1px solid var(--borde);opacity:0;backdrop-filter:blur(10px);overflow:hidden}
+  #ui .cab{display:flex;justify-content:space-between;align-items:center;padding:14px 18px 10px;border-bottom:1px solid var(--borde)}
+  #ui .cab h3{font:600 13px/1 Unbounded,sans-serif;letter-spacing:.01em}
+  #ui .cab small{font:500 9px/1 "JetBrains Mono",monospace;letter-spacing:.14em;color:var(--gris);text-transform:uppercase}
+  #ui .fila{display:flex;gap:8px;padding:12px 18px 4px;flex-wrap:wrap}
+  .av{display:flex;align-items:center;gap:6px;font:500 11px/1 Inter,sans-serif;color:var(--crema);padding:6px 9px 6px 6px;border-radius:999px;background:rgba(242,234,219,.05);border:1px solid var(--borde)}
+  .av i{width:12px;height:12px;border-radius:50%;background:var(--gris2);box-shadow:0 0 0 0 transparent;transition:none}
+  .av.azul i{background:var(--cobalto);box-shadow:0 0 12px var(--cobalto)}
+  .av.naranja i{background:var(--naranja);box-shadow:0 0 12px var(--naranja)}
+  .av.violeta i{background:var(--violeta);box-shadow:0 0 12px var(--violeta)}
+  .av.foco{border-color:rgba(242,234,219,.5);background:rgba(242,234,219,.1)}
+  #tareas{padding:10px 18px 0}
+  .tcard{border-radius:14px;border:1px solid var(--borde);background:rgba(242,234,219,.04);padding:12px 14px;margin-bottom:10px}
+  .tcard .t{display:flex;justify-content:space-between;align-items:center;font:600 14px/1.2 Inter,sans-serif}
+  .tcard .t small{font:500 9px/1 "JetBrains Mono",monospace;letter-spacing:.12em;color:var(--gris);text-transform:uppercase}
+  .tcard .t small.viol{color:var(--violeta)}
+  #drop{margin-top:10px;border:1.5px dashed rgba(242,234,219,.25);border-radius:10px;padding:12px;font:500 12px/1.2 "JetBrains Mono",monospace;color:var(--gris);display:flex;align-items:center;gap:10px;position:relative}
+  #archivo{position:absolute;left:-40px;top:-80px;display:flex;align-items:center;gap:8px;background:var(--crema);color:#111;font:600 12px/1 "JetBrains Mono",monospace;padding:10px 12px;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.5);opacity:0}
+  #archivo::before{content:"";width:12px;height:15px;border:2px solid #111;border-radius:2px}
+  #log{margin-top:8px;font:400 11.5px/1.5 "JetBrains Mono",monospace;color:var(--gris)}
+  #t2{display:none}
+  #log div{opacity:0;transform:translateX(-6px)}
+  #log div b{color:var(--cobalto);font-weight:600}
+  #prop{margin-top:8px;border-radius:14px;background:rgba(255,159,28,.08);border:1px solid rgba(255,159,28,.4);padding:10px 12px;opacity:0;transform:translateY(10px)}
+  #prop h4{font:600 10px/1 "JetBrains Mono",monospace;letter-spacing:.14em;color:var(--naranja);text-transform:uppercase;margin-bottom:8px}
+  #prop li{list-style:none;font:400 13px/1.45 Inter,sans-serif;padding-left:16px;position:relative;margin-bottom:4px}
+  #prop li::before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;border-radius:50%;background:var(--crema)}
+  #prop .btns{display:flex;gap:8px;margin-top:10px}
+  #prop .btns span{flex:1;text-align:center;padding:10px;border-radius:9px;font:600 12px/1 Inter,sans-serif;border:1px solid var(--borde)}
+  #prop .btns .ok{background:var(--naranja);color:#111;border-color:transparent}
+  #leyenda{position:absolute;left:18px;right:18px;bottom:10px;display:flex;gap:14px;font:500 10px/1 "JetBrains Mono",monospace;color:var(--gris);letter-spacing:.04em}
+  #leyenda i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:middle}
+
+  /* bloque 4: paneles */
+  .panel{position:absolute;left:24px;right:24px;top:330px;border-radius:20px;background:var(--panel);border:1px solid var(--borde);padding:18px;opacity:0;backdrop-filter:blur(10px)}
+  .panel h5{font:600 10px/1 "JetBrains Mono",monospace;letter-spacing:.14em;color:var(--gris);text-transform:uppercase;margin-bottom:12px}
+  #p1 .lista div{font:italic 20px/1.5 "Instrument Serif",serif;color:var(--crema);padding:6px 0;border-bottom:1px dashed rgba(242,234,219,.15);display:flex;justify-content:space-between;align-items:center}
+  #p1 .lista div .av{opacity:0;transform:translateX(12px)}
+  #p2 table{width:100%;border-collapse:collapse;font:400 12px/1.35 Inter,sans-serif}
+  #p2 th{font:600 9px/1 "JetBrains Mono",monospace;letter-spacing:.12em;color:var(--gris);text-align:left;padding:0 6px 8px 0;text-transform:uppercase}
+  #p2 td{padding:7px 6px 7px 0;border-top:1px solid var(--borde);vertical-align:top}
+  #p2 td:nth-child(2){color:var(--gris);font:400 11px/1.3 "JetBrains Mono",monospace}
+  #p2 td:nth-child(3){color:var(--gris);white-space:nowrap;font:400 11px/1.3 "JetBrains Mono",monospace}
+  #p2 tr{opacity:0}
+  #caso{margin-top:12px;display:flex;justify-content:space-between;align-items:center;border-radius:12px;padding:10px 12px;background:rgba(201,242,62,.07);border:1px solid rgba(201,242,62,.35);font:500 12px/1.3 Inter,sans-serif;opacity:0}
+  #caso b{font:700 14px/1 Unbounded,sans-serif;color:var(--lima)}
+  #p3 .cols{display:grid;grid-template-columns:1fr 24px 1fr;gap:6px;align-items:center}
+  #p3 .g{color:var(--gris);text-decoration:line-through;font:400 14px/1.3 Inter,sans-serif;padding:8px 0;border-bottom:1px solid var(--borde)}
+  #p3 .f{font:600 14px/1.3 Inter,sans-serif;color:var(--crema);padding:8px 0;border-bottom:1px solid var(--borde);opacity:0;transform:translateX(10px)}
+  #p3 .a{color:var(--rosa);text-align:center;font:600 16px/1 Inter,sans-serif}
+  #p3 .cols .f b{color:var(--rosa);font-weight:600}
+
+  /* bloque 5 */
+  #iva{position:absolute;left:24px;right:24px;top:560px;border-radius:16px;background:var(--panel);border:1px solid var(--borde);padding:14px 16px;opacity:0;backdrop-filter:blur(10px)}
+  #iva h5{font:600 10px/1 "JetBrains Mono",monospace;letter-spacing:.14em;color:var(--gris);text-transform:uppercase;margin-bottom:10px}
+  #iva .paises{display:flex;gap:8px}
+  #iva .paises span{flex:1;text-align:center;padding:10px 4px;border-radius:10px;background:rgba(242,234,219,.05);border:1px solid var(--borde);font:600 13px/1 "JetBrains Mono",monospace;opacity:0}
+  #iva .paises span small{display:block;margin-top:5px;font:500 9px/1 "JetBrains Mono",monospace;color:var(--gris);letter-spacing:.08em}
+  #contador{position:absolute;left:28px;top:660px;font:800 92px/1 Unbounded,sans-serif;letter-spacing:-.04em;opacity:0}
+  #contador small{display:block;font:500 12px/1.4 "JetBrains Mono",monospace;letter-spacing:.12em;color:var(--gris);text-transform:uppercase;margin-top:6px}
+  #candado{position:absolute;left:28px;right:28px;top:600px;display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:16px;background:var(--panel);border:1px solid var(--borde);opacity:0;font:500 15px/1.3 Inter,sans-serif}
+  #candado i{flex:none;width:34px;height:34px;border-radius:9px;background:var(--crema);position:relative}
+  #candado i::before{content:"";position:absolute;left:9px;top:-10px;width:12px;height:16px;border:3px solid var(--crema);border-bottom:none;border-radius:8px 8px 0 0}
+  #candado i::after{content:"";position:absolute;left:14px;top:12px;width:6px;height:9px;border-radius:3px;background:#111}
+  #candado b{display:block;font:600 10px/1 "JetBrains Mono",monospace;letter-spacing:.12em;color:var(--gris);text-transform:uppercase;margin-bottom:5px}
+
+  /* cierre */
+  #final{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:0 36px;opacity:0;background:radial-gradient(ellipse at 50% 60%,rgba(91,124,255,.14),transparent 60%)}
+  #final p{font:700 40px/1.12 Unbounded,sans-serif;letter-spacing:-.02em}
+  #final p em{font:italic 1.08em/1 "Instrument Serif",serif;color:var(--oro)}
+  #final .m{margin-top:34px;font:600 18px/1 Unbounded,sans-serif}
+  #final .m .nl{color:var(--gris)}
+
+  /* controles (solo modo reproducción) */
+  #ctrl{position:fixed;left:0;right:0;bottom:0;padding:12px 16px calc(12px + env(safe-area-inset-bottom));display:flex;gap:12px;align-items:center;background:linear-gradient(transparent,rgba(0,0,0,.8));z-index:5}
+  #ctrl button{font:600 13px/1 Inter,sans-serif;color:#111;background:var(--crema);border:0;border-radius:999px;padding:12px 18px;cursor:pointer}
+  #ctrl input{flex:1;accent-color:var(--crema)}
+  #ctrl span{font:500 12px/1 "JetBrains Mono",monospace;color:var(--gris);min-width:64px;text-align:right}
+  #play{position:fixed;inset:0;display:grid;place-items:center;background:rgba(0,0,0,.55);z-index:6;cursor:pointer}
+  #play div{text-align:center}
+  #play b{display:block;font:700 22px/1.2 Unbounded,sans-serif;margin-bottom:10px}
+  #play small{display:block;font:400 13px/1.5 Inter,sans-serif;color:var(--gris);max-width:300px}
+  #play .btn{display:inline-block;margin-top:18px;font:600 15px/1 Inter,sans-serif;color:#111;background:var(--crema);border-radius:999px;padding:14px 24px}
+  #err{position:fixed;left:12px;right:12px;top:12px;z-index:9;background:#3a0c0c;color:#ffd9d9;border:1px solid #ff6b6b;border-radius:10px;padding:12px 14px;font:400 13px/1.4 "JetBrains Mono",monospace;display:none;white-space:pre-wrap}
+  .render #ctrl,.render #play{display:none}
+</style>
+</head>
+<body>
+<div id="err"></div>
+<div id="viewport">
+<div id="stage">
+  <canvas id="gl"></canvas>
+
+  <div id="labels" class="capa"></div>
+
+  <div id="cam" class="capa">
+    <div class="tag">Plano a cámara · grabar</div>
+    <div class="sil"></div>
+    <div class="nota" id="camnota"><b>Plano medio.</b> Luz natural de oficina. Mirada a cámara.</div>
+  </div>
+
+  <div id="pila" class="capa"></div>
+
+  <div id="ui" class="capa">
+    <div class="cab"><h3>Oficina de agentes</h3><small id="recre">Recreación · tu empresa</small></div>
+    <div class="fila" id="fila"></div>
+    <div id="tareas">
+      <div class="tcard">
+        <div class="t"><span>Revisa este pedido</span><small>Inventario</small></div>
+        <div id="drop"><span>Arrastra el archivo aquí</span><div id="archivo">pedido_proveedor_oct.pdf</div></div>
+        <div id="log">
+          <div>› Leyendo <b>48 líneas</b> del pedido</div>
+          <div>› Cruzando con ventas de <b>30 días</b></div>
+          <div>› <b>2 referencias</b> con cantidad distinta a lo pedido</div>
+          <div>› Propuesta lista · <b>esperando aprobación</b></div>
+        </div>
+        <div id="prop">
+          <h4>Propuesta · esperando tu aprobación</h4>
+          <ul>
+            <li>Aceptar 46 líneas tal como llegan.</li>
+            <li>Reclamar las 2 referencias con cantidad distinta.</li>
+            <li>Resumen para el proveedor preparado. Tú decides si se envía.</li>
+          </ul>
+          <div class="btns"><span class="ok">Aprobar</span><span>Corregir</span></div>
+        </div>
+      </div>
+      <div class="tcard" id="t2"><div class="t"><span>Cierre del mes</span><small class="viol">Finanzas · vence jueves</small></div></div>
+    </div>
+    <div id="leyenda"><span><i style="background:var(--gris2)"></i>dormido</span><span><i style="background:var(--cobalto)"></i>trabajando</span><span><i style="background:var(--naranja)"></i>espera aprobación</span><span><i style="background:var(--violeta)"></i>fecha límite</span></div>
+  </div>
+
+  <div id="p1" class="panel capa">
+    <h5>Entrevista · tareas que te comen el día</h5>
+    <div class="lista">
+      <div><span>revisar el pedido del proveedor</span><span class="av"><i class="azul" style="background:var(--cobalto)"></i>Inventario</span></div>
+      <div><span>borrador del IVA de cada país</span><span class="av"><i style="background:var(--cobalto)"></i>Finanzas</span></div>
+      <div><span>saber si la publicidad da dinero</span><span class="av"><i style="background:var(--cobalto)"></i>Publicidad</span></div>
+      <div><span>tres prioridades para la semana</span><span class="av"><i style="background:var(--cobalto)"></i>Dirección</span></div>
+    </div>
+  </div>
+
+  <div id="p2" class="panel capa">
+    <h5>Reglas documentadas · con fuente y fecha</h5>
+    <table>
+      <thead><tr><th>Regla</th><th>Fuente</th><th>Fecha</th></tr></thead>
+      <tbody>
+        <tr><td>El IVA se declara en el país donde se entrega el pedido.</td><td>Fuente oficial</td><td>2026-09</td></tr>
+        <tr><td>Toda cantidad que no coincide se reclama antes de dar entrada al stock.</td><td>Procedimiento interno</td><td>2026-10</td></tr>
+        <tr><td>Ninguna propuesta se ejecuta sin aprobación del propietario.</td><td>Regla de la oficina</td><td>siempre</td></tr>
+      </tbody>
+    </table>
+    <div id="caso"><span>Caso de prueba nº 7 · empresa ficticia</span><b>✓ pasa</b></div>
+  </div>
+
+  <div id="p3" class="panel capa">
+    <h5>Enseñado a trabajar en tu campo</h5>
+    <div class="cols">
+      <div class="g">documento</div><div class="a">→</div><div class="f"><b>albarán</b> del proveedor</div>
+      <div class="g">fecha límite</div><div class="a">→</div><div class="f">cierre de <b>IVA</b> trimestral</div>
+      <div class="g">herramienta</div><div class="a">→</div><div class="f">tu <b>Drive</b>, tus hojas</div>
+      <div class="g">límite</div><div class="a">→</div><div class="f"><b>nunca</b> entra en tus cuentas</div>
+    </div>
+  </div>
+
+  <div id="iva" class="capa">
+    <h5>Finanzas · borrador de IVA por país</h5>
+    <div class="paises"><span>DE<small>borrador</small></span><span>FR<small>borrador</small></span><span>IT<small>borrador</small></span><span>ES<small>borrador</small></span></div>
+  </div>
+  <div id="contador" class="capa"><span id="cnum">0</span><small>reglas de Amazon verificadas</small></div>
+  <div id="candado" class="capa"><i></i><div><b>Cuenta de Amazon</b>Ningún agente entra. Solo trabajan con lo que tú les das.</div></div>
+
+  <div id="titulos" class="capa">
+    <div class="tit" id="h1a">9 departamentos<br><span class="gris">0 empleados</span></div>
+    <div class="tit" id="h1b">Ya <em>funciona.</em></div>
+    <div class="tit med" id="h2a">El pedido: <em>tú.</em></div>
+    <div class="tit med" id="h2b">El IVA: <em>tú.</em></div>
+    <div class="tit med" id="h2c">El plazo: <em>tú.</em></div>
+    <div class="tit med" id="h2d">Todo pasa<br>por tu mesa.</div>
+    <div class="tit chica" id="h3a">Azul: <span class="c2">trabajando</span></div>
+    <div class="tit chica" id="h3b">Naranja: <span style="color:var(--naranja)">espera tu aprobación</span></div>
+    <div class="tit med" id="h3c">Tú decides.</div>
+    <div class="tit med" id="h4a"><span class="c1">1 ·</span> Creamos</div>
+    <div class="tit med" id="h4b"><span class="c2">2 ·</span> Perfeccionamos</div>
+    <div class="tit med" id="h4c"><span class="c3">3 ·</span> Tu campo</div>
+    <div class="tit chica" id="h4d" style="font-size:30px;font-weight:700"><span class="c1">Creamos</span> tus agentes, los <span class="c2">perfeccionamos</span> y les <span class="c3">enseñamos</span> a trabajar en tu campo.</div>
+    <div class="tit med" id="h5a">Construida.<br><em>En uso.</em></div>
+    <div class="tit chica" id="h5b">Amazon Europa · 9 departamentos</div>
+    <div class="tit med" id="h5c">La tuya:<br><em>desde cero.</em></div>
+    <div class="tit med" id="h6a">Imagina esto<br>con <em>tus</em> tareas.</div>
+    <div class="num" id="n1">1</div><div class="num" id="n2">2</div><div class="num" id="n3">3</div>
+  </div>
+
+  <div id="final" class="capa">
+    <p>Cuéntame tu negocio y te enseño <em>tu oficina</em> en 20 minutos.</p>
+    <div class="m">LeoVisual<span class="nl">.nl</span></div>
+  </div>
+
+  <div id="sub" class="capa"><span id="subtxt"></span></div>
+  <div id="marca">LeoVisual<span class="nl">.nl</span></div>
+  <div id="etq">Animático v1 · 9:16</div>
+  <div id="prog"><i id="progi"></i></div>
+</div>
+</div>
+
+<div id="ctrl">
+  <button id="bplay">▶</button>
+  <input id="scrub" type="range" min="0" max="90" step="0.05" value="0">
+  <span id="tiempo">0.0 / 90</span>
+</div>
+<div id="play"><div><b>Oficina de agentes · animático</b><small>90 segundos, con locución sintética de referencia. Toca para reproducir con sonido.</small><div class="btn">▶ Reproducir</div></div></div>
+
+<audio id="a_b1" src="audio/b1.mp3" preload="auto"></audio>
+<audio id="a_b2" src="audio/b2.mp3" preload="auto"></audio>
+<audio id="a_b3" src="audio/b3.mp3" preload="auto"></audio>
+<audio id="a_b4" src="audio/b4.mp3" preload="auto"></audio>
+<audio id="a_b5" src="audio/b5.mp3" preload="auto"></audio>
+<audio id="a_b6" src="audio/b6.mp3" preload="auto"></audio>
+<audio id="a_mus" src="audio/musica.mp3" preload="auto"></audio>
+
+<script>
+  window.addEventListener('error', e => { const d = document.getElementById('err'); d.style.display = 'block'; d.textContent += (e.message || e) + '\n'; });
+  window.addEventListener('unhandledrejection', e => { const d = document.getElementById('err'); d.style.display = 'block'; d.textContent += (e.reason && e.reason.message || e.reason) + '\n'; });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script type="importmap">{"imports":{
+  "three":"https://cdn.jsdelivr.net/npm/three@0.186.1/build/three.module.js",
+  "three/addons/":"https://cdn.jsdelivr.net/npm/three@0.186.1/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+
+/* ───────────────────── línea de tiempo (misma que tiempos.json) ───────────────────── */
+const TOTAL = 90;
+const T = { b1: 0.4, b2: 4.2, b3: 15.0, b4: 29.0, b5: 56.0, b6: 76.0 };
+const DUR = { b1: 3.29, b2: 9.51, b3: 12.2, b4: 25.26, b5: 17.45, b6: 7.37 };
+const VOZ = {
+  b1: "Nueve departamentos. Cero empleados. Y ya está funcionando.",
+  b2: "Si tienes un negocio, te sonará: el pedido lo revisas tú. El IVA lo revisas tú. El plazo que se pasa también es tuyo. Todo cruza por tu mesa.",
+  b3: "Mira cómo trabaja. Subo el pedido del proveedor. El agente de inventario lo lee, lo cruza con mis ventas, prepara una propuesta y se pone en naranja: espera mi aprobación. No hace nada hasta que yo diga que sí.",
+  b4: "Así la construimos. Uno: creamos. Vemos qué tareas te comen el día y montamos un departamento por cada una. Dos: perfeccionamos. Investigamos las normas de tu sector, las convertimos en reglas con fuente y fecha, y probamos cada agente con casos ficticios antes de entregarlo. Tres: les enseñamos a trabajar en tu campo. Tu lenguaje, tus plazos, tus límites.",
+  b5: "Esto no es una idea. Esta oficina existe: la construí para una marca de hogar que vende en Amazon en varios países de Europa. Publicidad, beneficio, borradores de IVA por país. Más de cien reglas de Amazon verificadas. Y ningún agente entra en su cuenta. La tuya se diseñaría desde cero.",
+  b6: "Si llevas años revisándolo todo tú, imagina esto con tus tareas. Cuéntame tu negocio y te enseño tu oficina en 20 minutos.",
+};
+const DEPTS = ['Publicidad', 'Beneficio', 'Imágenes', 'Riesgo y normativa', 'Fichas de producto', 'Inventario', 'Panel de Amazon', 'Finanzas', 'Dirección'];
+const COL = { gris: 0x5a5f6a, azul: 0x5b7cff, naranja: 0xff9f1c, violeta: 0xb79bff };
+
+// Estados de cada avatar en el tiempo: [t, estado]. Función pura de t.
+const INV = 5, FIN = 7, PUB = 0, BEN = 1, DIR = 8;
+const estados = DEPTS.map(() => [[0, 'gris']]);
+const set = (i, t, s) => estados[i].push([t, s]);
+set(PUB, 2.95, 'azul'); set(INV, 3.1, 'azul'); set(FIN, 3.25, 'azul');            // «ya está funcionando»
+set(INV, 14.5, 'gris'); set(FIN, 14.5, 'violeta'); set(PUB, 14.5, 'azul');          // demo
+set(INV, 18.2, 'azul'); set(INV, 24.2, 'naranja');
+set(PUB, 29, 'gris'); set(FIN, 29, 'gris'); set(INV, 29, 'gris');                   // promesa: todo en reposo
+set(INV, 31.5, 'azul'); set(FIN, 32.3, 'azul'); set(PUB, 33.1, 'azul'); set(DIR, 33.9, 'azul');
+set(BEN, 40, 'violeta'); set(2, 42, 'azul'); set(4, 44, 'naranja');
+set(PUB, 57.5, 'gris'); set(INV, 57.5, 'gris'); set(FIN, 57.5, 'gris'); set(DIR, 57.5, 'gris'); set(BEN, 57.5, 'gris'); set(2, 57.5, 'gris'); set(4, 57.5, 'gris');
+set(PUB, 62.6, 'azul'); set(BEN, 63.3, 'azul'); set(FIN, 64.0, 'azul');            // prueba real
+set(PUB, 70.8, 'gris'); set(BEN, 70.8, 'gris'); set(FIN, 70.8, 'gris');            // «la tuya: desde cero»
+set(PUB, 78.4, 'azul'); set(INV, 78.7, 'azul'); set(DIR, 79.0, 'azul');            // «imagina esto con tus tareas»
+function estadoEn(i, t) {
+  const a = estados[i]; let prev = a[0], cur = a[0];
+  for (const e of a) { if (e[0] <= t) { prev = cur; cur = e; } else break; }
+  const k = Math.min(1, Math.max(0, (t - cur[0]) / 0.45));
+  return { de: prev[1], a: cur[1], k, desde: cur[0] };
+}
+
+/* ───────────────────── three.js (vía B, WebGL) ───────────────────── */
+const stage = document.getElementById('stage');
+const canvas = document.getElementById('gl');
+const RENDER = location.hash.includes('render');
+if (RENDER) document.documentElement.classList.add('render');
+const W = 540, H = 960;
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true, alpha: false });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+renderer.setSize(W, H, false);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.1;
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x07070b);
+scene.fog = new THREE.FogExp2(0x07070b, 0.075);
+const camera = new THREE.PerspectiveCamera(50, W / H, 0.1, 100);
+
+// suelo: rejilla por shader
+const suelo = new THREE.Mesh(new THREE.PlaneGeometry(60, 60), new THREE.ShaderMaterial({
+  uniforms: { uT: { value: 0 }, uFoco: { value: new THREE.Vector3(0, 0, 0) }, uBrillo: { value: 1 } },
+  vertexShader: `varying vec3 vP; void main(){ vP=(modelMatrix*vec4(position,1.)).xyz; gl_Position=projectionMatrix*viewMatrix*vec4(vP,1.);}`,
+  fragmentShader: `varying vec3 vP; uniform float uT; uniform vec3 uFoco; uniform float uBrillo;
+    float grid(vec2 p, float w){ vec2 g=abs(fract(p-.5)-.5)/fwidth(p); float l=min(g.x,g.y); return 1.-min(l/w,1.); }
+    void main(){
+      vec2 p=vP.xz;
+      float g1=grid(p/1.7,1.0)*.55; float g2=grid(p/0.425,0.8)*.12;
+      float d=length(p); float fade=exp(-d*d*0.012);
+      float foco=exp(-pow(length(p-uFoco.xz),2.)*0.35)*uBrillo;
+      vec3 base=vec3(0.035,0.035,0.05);
+      vec3 lin=vec3(0.16,0.17,0.24)*(g1+g2)*fade*(0.6+0.4*foco);
+      vec3 pool=vec3(0.36,0.49,1.0)*foco*0.08;
+      gl_FragColor=vec4(base+lin+pool,1.);
+    }`,
+}));
+suelo.rotation.x = -Math.PI / 2; scene.add(suelo);
+
+// avatares
+const avatares = [];
+const SP = 1.7;
+const geoEsf = new THREE.SphereGeometry(0.34, 48, 32);
+const geoPed = new THREE.CylinderGeometry(0.42, 0.5, 0.12, 40);
+const matPed = new THREE.MeshBasicMaterial({ color: 0x14141c });
+const texGlow = (() => {
+  const c = document.createElement('canvas'); c.width = c.height = 128; const x = c.getContext('2d');
+  const g = x.createRadialGradient(64, 64, 0, 64, 64, 64); g.addColorStop(0, 'rgba(255,255,255,1)'); g.addColorStop(0.35, 'rgba(255,255,255,.35)'); g.addColorStop(1, 'rgba(255,255,255,0)');
+  x.fillStyle = g; x.fillRect(0, 0, 128, 128); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t;
+})();
+for (let i = 0; i < 9; i++) {
+  const r = Math.floor(i / 3), c = i % 3;
+  const g = new THREE.Group();
+  g.position.set((c - 1) * SP, 0, (r - 1) * SP);
+  const mat = new THREE.MeshStandardMaterial({ color: 0x1a1b22, emissive: new THREE.Color(COL.gris), emissiveIntensity: 0.35, roughness: 0.35, metalness: 0.1 });
+  const esf = new THREE.Mesh(geoEsf, mat); esf.position.y = 0.62; g.add(esf);
+  const ped = new THREE.Mesh(geoPed, matPed); ped.position.y = 0.06; g.add(ped);
+  const glow = new THREE.Sprite(new THREE.SpriteMaterial({ map: texGlow, color: COL.gris, transparent: true, opacity: 0.0, blending: THREE.AdditiveBlending, depthWrite: false }));
+  glow.position.y = 0.62; glow.scale.setScalar(1.6); g.add(glow);
+  const halo = new THREE.Mesh(new THREE.RingGeometry(0.5, 0.56, 48), new THREE.MeshBasicMaterial({ color: COL.gris, transparent: true, opacity: 0.0, side: THREE.DoubleSide }));
+  halo.rotation.x = -Math.PI / 2; halo.position.y = 0.13; g.add(halo);
+  g.scale.setScalar(0.0001);
+  scene.add(g);
+  avatares.push({ g, esf, mat, glow, halo, i });
+}
+scene.add(new THREE.HemisphereLight(0x8fa0ff, 0x07070b, 0.55));
+const key = new THREE.DirectionalLight(0xfff1e0, 1.6); key.position.set(3, 6, 4); scene.add(key);
+const rim = new THREE.DirectionalLight(0x5b7cff, 0.8); rim.position.set(-4, 3, -4); scene.add(rim);
+
+// polvo flotante determinista (posición = f(T))
+const NP = 500, pos = new Float32Array(NP * 3), sem = new Float32Array(NP);
+for (let i = 0; i < NP; i++) { pos[i * 3] = (Math.random() - .5) * 14; pos[i * 3 + 1] = Math.random() * 4; pos[i * 3 + 2] = (Math.random() - .5) * 14; sem[i] = Math.random() * 6.28; }
+const gPolvo = new THREE.BufferGeometry(); gPolvo.setAttribute('position', new THREE.BufferAttribute(pos, 3)); gPolvo.setAttribute('sem', new THREE.BufferAttribute(sem, 1));
+const polvo = new THREE.Points(gPolvo, new THREE.ShaderMaterial({
+  uniforms: { uT: { value: 0 }, uPR: { value: renderer.getPixelRatio() } }, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending,
+  vertexShader: `attribute float sem; uniform float uT; uniform float uPR; varying float vA;
+    void main(){ vec3 p=position; p.y+=sin(uT*0.25+sem)*0.25; p.x+=cos(uT*0.18+sem*1.7)*0.2;
+      vec4 mv=modelViewMatrix*vec4(p,1.); gl_Position=projectionMatrix*mv; gl_PointSize=(1.6+1.2*sin(sem*3.))*uPR*(6./-mv.z); vA=0.35+0.3*sin(uT*0.8+sem*5.); }`,
+  fragmentShader: `varying float vA; void main(){ float d=length(gl_PointCoord-.5); if(d>.5) discard; gl_FragColor=vec4(0.95,0.9,0.85,(1.-d*2.)*vA*0.5); }`,
+}));
+scene.add(polvo);
+
+// cámara: objeto animado por GSAP → determinista
+const cam = { x: 0, y: 1.3, z: 3.4, tx: 0, ty: 0.62, tz: 0, fov: 50, dim: 1, brillo: 1, fx: 0, fz: 0 };
+const estilo = { labels: 0 };
+const tmpC = new THREE.Color(), tmpC2 = new THREE.Color();
+const labelsEl = document.getElementById('labels');
+const labEls = DEPTS.map(n => { const d = document.createElement('div'); d.className = 'lab'; d.textContent = n; labelsEl.appendChild(d); return d; });
+const v3 = new THREE.Vector3();
+
+function render3d(t) {
+  camera.position.set(cam.x, cam.y, cam.z);
+  camera.fov = cam.fov; camera.updateProjectionMatrix();
+  camera.lookAt(cam.tx, cam.ty, cam.tz);
+  suelo.material.uniforms.uT.value = t;
+  suelo.material.uniforms.uFoco.value.set(cam.fx, 0, cam.fz);
+  suelo.material.uniforms.uBrillo.value = cam.brillo;
+  polvo.material.uniforms.uT.value = t;
+  renderer.toneMappingExposure = 1.1 * cam.dim;
+  for (const a of avatares) {
+    const e = estadoEn(a.i, t);
+    tmpC.setHex(COL[e.de]); tmpC2.setHex(COL[e.a]); tmpC.lerp(tmpC2, e.k);
+    a.mat.emissive.copy(tmpC);
+    const activo = e.a !== 'gris';
+    const pulso = activo ? 0.85 + 0.15 * Math.sin((t - e.desde) * (e.a === 'naranja' ? 5.5 : 2.2)) : 0.35;
+    a.mat.emissiveIntensity = THREE.MathUtils.lerp(e.de === 'gris' ? 0.35 : 0.85, pulso, e.k);
+    a.glow.material.color.copy(tmpC);
+    a.glow.material.opacity = THREE.MathUtils.lerp(e.de === 'gris' ? 0.05 : 0.55, activo ? 0.55 * pulso : 0.05, e.k) * cam.dim;
+    a.halo.material.color.copy(tmpC);
+    a.halo.material.opacity = THREE.MathUtils.lerp(e.de === 'gris' ? 0.08 : 0.5, activo ? 0.5 : 0.08, e.k);
+    a.esf.position.y = 0.62 + (activo ? 0.03 * Math.sin((t - e.desde) * 2 + a.i) : 0);
+  }
+  renderer.render(scene, camera);
+  // etiquetas proyectadas
+  labelsEl.style.opacity = estilo.labels;
+  if (estilo.labels > 0.01) for (const a of avatares) {
+    v3.set(a.g.position.x, 1.12, a.g.position.z).project(camera);
+    const el = labEls[a.i];
+    const vis = v3.z < 1 && a.g.scale.x > 0.5;
+    el.style.display = vis ? 'block' : 'none';
+    if (vis) el.style.transform = `translate(${(v3.x * 0.5 + 0.5) * W}px, ${(-v3.y * 0.5 + 0.5) * H}px) translate(-50%,-100%)`;
+  }
+}
+
+/* ───────────────────── utilidades DOM ───────────────────── */
+const $ = (s) => document.querySelector(s);
+const $$ = (s) => Array.from(document.querySelectorAll(s));
+function partir(el) { // envuelve palabras para revelado
+  if (el.dataset.partido) return $$('#' + el.id + ' .w i');
+  const walker = (node) => {
+    if (node.nodeType === 3) {
+      const frag = document.createDocumentFragment();
+      node.textContent.split(/(\s+)/).forEach(tok => {
+        if (!tok) return;
+        if (/^\s+$/.test(tok)) { frag.appendChild(document.createTextNode(' ')); return; }
+        const w = document.createElement('span'); w.className = 'w'; const i = document.createElement('i'); i.textContent = tok; w.appendChild(i); frag.appendChild(w);
+      });
+      node.parentNode.replaceChild(frag, node);
+    } else if (node.nodeType === 1 && node.tagName !== 'BR') Array.from(node.childNodes).forEach(walker);
+  };
+  Array.from(el.childNodes).forEach(walker);
+  el.dataset.partido = '1';
+  return $$('#' + el.id + ' .w i');
+}
+// títulos: revelado palabra a palabra
+function titulo(tl, id, t0, dur, { salida = true, y = 0 } = {}) {
+  const el = document.getElementById(id); const ws = partir(el);
+  gsap.set(ws, { yPercent: 110 });
+  tl.set(el, { opacity: 1, y }, t0);
+  tl.fromTo(ws, { yPercent: 110 }, { yPercent: 0, duration: 0.55, ease: 'power3.out', stagger: 0.045 }, t0);
+  if (salida) tl.to(ws, { yPercent: -110, duration: 0.4, ease: 'power3.in', stagger: 0.02 }, t0 + dur - 0.4);
+  if (salida) tl.set(el, { opacity: 0 }, t0 + dur + 0.1);
+}
+
+// subtítulos: frases del bloque repartidas por longitud
+const subEl = $('#subtxt');
+const subs = [];
+for (const b of Object.keys(VOZ)) {
+  const frases = VOZ[b].match(/[^.:!?]+[.:!?]+/g) || [VOZ[b]];
+  const total = frases.reduce((s, f) => s + f.length, 0);
+  let t = T[b];
+  for (const f of frases) { const d = DUR[b] * f.length / total; subs.push({ t0: t, t1: t + d, txt: f.trim() }); t += d; }
+}
+function subtitulo(t) {
+  const s = subs.find(s => t >= s.t0 && t < s.t1 + 0.25);
+  const txt = s && t < 81.6 ? s.txt : '';   // la tarjeta final ya muestra la frase
+  if (subEl.textContent !== txt) subEl.textContent = txt;
+}
+
+// fila de avatares de la UI
+const fila = $('#fila');
+const chips = DEPTS.map((n, i) => { const d = document.createElement('div'); d.className = 'av'; d.innerHTML = `<i></i>${n}`; fila.appendChild(d); return d; });
+function chipsEn(t) {
+  for (let i = 0; i < 9; i++) { const e = estadoEn(i, t); chips[i].className = 'av ' + (e.k > 0.5 ? e.a : e.de) + (i === INV && t > 15 && t < 29 ? ' foco' : ''); }
+}
+// marcadores en la barra de progreso
+for (const b of Object.keys(T)) { const m = document.createElement('b'); m.style.left = (T[b] / TOTAL * 100) + '%'; $('#prog').appendChild(m); }
+
+/* ───────────────────── pila de tareas (bloque 2) ───────────────────── */
+const PILA = ['Pedido proveedor', 'IVA Alemania · octubre', 'Plazo · 30 oct', 'Revisar listing nuevo', 'Factura duplicada', 'Responder al transportista'];
+const pilaEl = $('#pila');
+const tareas = PILA.map(n => { const d = document.createElement('div'); d.className = 'tarea'; d.innerHTML = `<span>${n}</span><b>TÚ</b>`; pilaEl.appendChild(d); return d; });
+
+/* ───────────────────── LÍNEA DE TIEMPO MAESTRA ───────────────────── */
+const tl = gsap.timeline({ paused: true, defaults: { ease: 'power2.inOut' } });
+const camTo = (t, dur, v, ease = 'power2.inOut') => tl.to(cam, { ...v, duration: dur, ease }, t);
+
+// ── BLOQUE 1 · gancho (0–3.9)
+tl.set(cam, { x: 0.6, y: 1.7, z: 5.6, tx: 0, ty: 0.3, tz: 0, fov: 48, dim: 1, brillo: 1 }, 0);
+avatares.forEach((a, i) => tl.to(a.g.scale, { x: 1, y: 1, z: 1, duration: 0.7, ease: 'back.out(2.2)' }, 0.25 + [4, 1, 7, 3, 5, 0, 8, 2, 6][i] * 0.11));
+camTo(0, 1.9, { x: 0.1, z: 4.9, y: 1.55 }, 'power1.inOut');
+camTo(1.85, 1.5, { x: 0, y: 4.6, z: 8.2, ty: 0.3, fov: 50 }, 'power3.inOut');   // «cero empleados»: sala vacía
+tl.to(estilo, { labels: 1, duration: 0.4 }, 0.9); tl.to(estilo, { labels: 0, duration: 0.5 }, 3.7);
+titulo(tl, 'h1a', 0.45, 2.45);
+titulo(tl, 'h1b', 2.95, 1.2);
+camTo(2.9, 1.2, { x: -0.6, y: 3.4, z: 6.6, ty: 0.5 }, 'power2.out');
+
+// ── BLOQUE 2 · problema (4–14.5)
+camTo(4.0, 10, { x: 3.0, y: 2.9, z: 7.4, dim: 0.55, brillo: 0.4 }, 'sine.inOut');
+tl.to('#cam', { opacity: 1, duration: 0.6 }, 4.0);
+tl.set('#camnota', { innerHTML: '<b>Plano medio.</b> Luz natural de oficina. Mirada a cámara. Zoom lento 100→108 %.' }, 4.0);
+tl.fromTo('#cam', { scale: 1 }, { scale: 1.06, duration: 10, ease: 'none' }, 4.0);
+titulo(tl, 'h2a', 5.6, 2.1); titulo(tl, 'h2b', 7.8, 1.9); titulo(tl, 'h2c', 9.8, 2.1); titulo(tl, 'h2d', 12.0, 2.3);
+tareas.forEach((el, i) => {
+  const t0 = 5.5 + i * 1.05;
+  tl.fromTo(el, { opacity: 0, x: -30, y: i * 58, rotate: -4 }, { opacity: 1, x: 0, rotate: 0, duration: 0.35, ease: 'back.out(1.8)' }, t0);
+});
+tareas.forEach((el, i) => tl.to(el, { y: 120 + i * 7, x: (i % 2 ? 6 : -6), rotate: (i - 2.5) * 2.5, duration: 0.6, ease: 'power3.inOut' }, 12.2 + i * 0.05)); // se amontonan
+tl.to(['#cam', '#pila'], { opacity: 0, duration: 0.5 }, 14.0);
+tl.set(tareas, { opacity: 0 }, 14.6);
+
+// ── BLOQUE 3 · demo (14.5–28.5)
+const pInv = avatares[INV].g.position;
+camTo(14.2, 1.4, { x: pInv.x + 1.9, y: 1.9, z: pInv.z + 4.9, tx: pInv.x - 0.5, ty: -0.35, tz: pInv.z + 0.2, fov: 46, dim: 1, brillo: 1, fx: pInv.x, fz: pInv.z }, 'power3.inOut');
+camTo(15.6, 12.5, { x: pInv.x + 1.5, z: pInv.z + 5.1, y: 1.8 }, 'sine.inOut');
+tl.fromTo('#ui', { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: 'power3.out' }, 15.0);
+tl.set('#t2', { opacity: 1 }, 15); tl.set(['#log div', '#prop'], { opacity: 0 }, 15);
+tl.fromTo('#archivo', { opacity: 0, x: -60, y: -120 }, { opacity: 1, x: 0, y: 0, duration: 0.8, ease: 'power2.inOut' }, 16.6);   // «subo el pedido»
+tl.to('#archivo', { x: 150, y: 80, scale: 0.9, duration: 0.6, ease: 'power3.in' }, 17.5);
+tl.to('#archivo', { opacity: 0, duration: 0.2 }, 18.05);
+tl.set('#drop span', { textContent: 'pedido_proveedor_oct.pdf · recibido' }, 18.1);
+tl.to('#drop', { borderColor: 'rgba(91,124,255,.7)', color: '#f2eadb', duration: 0.3 }, 18.1);
+$$('#log div').forEach((el, i) => tl.to(el, { opacity: 1, x: 0, duration: 0.3 }, 18.8 + i * 1.25));
+tl.to('#prop', { opacity: 1, y: 0, duration: 0.5, ease: 'power3.out' }, 23.9);          // «se pone en naranja»
+tl.to('#leyenda', { opacity: 0, duration: 0.3 }, 23.9);
+tl.fromTo('#prop .ok', { boxShadow: '0 0 0 0 rgba(255,159,28,0)' }, { boxShadow: '0 0 0 8px rgba(255,159,28,0)', duration: 0.9, repeat: 3, ease: 'power1.out' }, 24.6);
+titulo(tl, 'h3a', 18.3, 2.6); titulo(tl, 'h3b', 24.2, 2.6); titulo(tl, 'h3c', 26.9, 1.9);
+tl.to('#ui', { opacity: 0, y: 20, duration: 0.5 }, 28.3);
+
+// ── BLOQUE 4 · promesa (28.5–55.5)
+camTo(28.3, 1.6, { x: -3.2, y: 3.3, z: 7.2, tx: 0, ty: 0.4, tz: 0, fov: 50, fx: 0, fz: 0, brillo: 0.7 }, 'power3.inOut');
+camTo(30, 25, { x: 3.4, z: 7.0, y: 3.0 }, 'none');   // órbita lenta
+tl.fromTo('#n1', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6 }, 30.2); tl.to('#n1', { opacity: 0, duration: 0.4 }, 37.6);
+tl.fromTo('#n2', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6 }, 38.0); tl.to('#n2', { opacity: 0, duration: 0.4 }, 46.6);
+tl.fromTo('#n3', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6 }, 47.0); tl.to('#n3', { opacity: 0, duration: 0.4 }, 51.3);
+titulo(tl, 'h4a', 30.3, 7.2); titulo(tl, 'h4b', 38.1, 8.3); titulo(tl, 'h4c', 47.1, 4.1);
+// 1 · creamos: tareas → departamentos
+tl.fromTo('#p1', { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power3.out' }, 31.2);
+$$('#p1 .lista .av').forEach((el, i) => tl.to(el, { opacity: 1, x: 0, duration: 0.4, ease: 'back.out(2)' }, 33.6 + i * 0.5));
+tl.to('#p1', { opacity: 0, y: -16, duration: 0.4 }, 37.6);
+// 2 · perfeccionamos: reglas + caso de prueba
+tl.fromTo('#p2', { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power3.out' }, 38.3);
+$$('#p2 tbody tr').forEach((el, i) => tl.to(el, { opacity: 1, duration: 0.35 }, 39.6 + i * 0.9));
+tl.fromTo('#caso', { opacity: 0, scale: 0.96 }, { opacity: 1, scale: 1, duration: 0.4, ease: 'back.out(2)' }, 44.3);
+tl.to('#p2', { opacity: 0, y: -16, duration: 0.4 }, 46.6);
+// 3 · tu campo
+tl.fromTo('#p3', { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power3.out' }, 47.3);
+$$('#p3 .f').forEach((el, i) => tl.to(el, { opacity: 1, x: 0, duration: 0.4, ease: 'power3.out' }, 48.2 + i * 0.75));
+tl.to('#p3', { opacity: 0, y: -16, duration: 0.4 }, 51.3);
+// frase completa
+titulo(tl, 'h4d', 51.6, 4.0, { y: 90 });
+camTo(51.4, 4, { fov: 46, y: 2.6, brillo: 1 }, 'sine.inOut');
+
+// ── BLOQUE 5 · prueba real (55.5–75)
+camTo(55.4, 1.6, { x: 0.2, y: 4.8, z: 7.0, tx: 0, ty: 0.3, tz: 0, fov: 50, brillo: 0.9 }, 'power3.inOut');
+tl.to('#cam', { opacity: 1, duration: 0.4 }, 55.6);
+tl.set('#camnota', { innerHTML: '<b>Plano corto.</b> Mirada directa, 2 segundos: «Esto no es una idea».' }, 55.6);
+tl.set('#cam', { scale: 1 }, 55.6);
+tl.to('#cam', { opacity: 0, duration: 0.4 }, 58.2);
+titulo(tl, 'h5a', 58.5, 4.0);
+tl.to(estilo, { labels: 1, duration: 0.5 }, 58.6);
+camTo(58.4, 12, { x: -0.6, y: 4.2, z: 6.4 }, 'sine.inOut');
+titulo(tl, 'h5b', 62.7, 3.6);
+tl.fromTo('#iva', { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power3.out' }, 64.0);
+$$('#iva .paises span').forEach((el, i) => tl.to(el, { opacity: 1, duration: 0.3 }, 64.5 + i * 0.22));
+tl.to('#iva', { opacity: 0, duration: 0.4 }, 66.6);
+const cnt = { v: 0 };
+tl.fromTo('#contador', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4 }, 66.4);
+tl.to(cnt, { v: 100, duration: 1.3, ease: 'power3.out', onUpdate() { $('#cnum').textContent = '+' + Math.round(cnt.v); } }, 66.5);
+tl.to('#contador', { opacity: 0, duration: 0.4 }, 69.3);
+tl.fromTo('#candado', { opacity: 0, scale: 0.94 }, { opacity: 1, scale: 1, duration: 0.45, ease: 'back.out(2)' }, 69.3);
+tl.to('#candado', { opacity: 0, duration: 0.4 }, 72.1);
+tl.to(estilo, { labels: 0, duration: 0.5 }, 70.4);
+camTo(70.6, 3.5, { x: 0, y: 7.5, z: 10.5, ty: 0, fov: 54, brillo: 0.3 }, 'power2.inOut');   // «la tuya: desde cero»: sala vacía
+titulo(tl, 'h5c', 71.6, 3.6);
+
+// ── BLOQUE 6 · CTA (75.5–90)
+camTo(75.4, 6, { x: 0.4, y: 3.0, z: 6.2, ty: 0.5, fov: 48, brillo: 0.9 }, 'power2.inOut');
+tl.to('#cam', { opacity: 1, duration: 0.4 }, 75.6);
+tl.set('#camnota', { innerHTML: '<b>Plano más cerrado</b> que el del bloque 2. Fondo: la sala con los puntos grises.' }, 75.6);
+titulo(tl, 'h6a', 78.2, 3.6);
+tl.to('#cam', { opacity: 0, duration: 0.5 }, 81.3);
+camTo(81.4, 8.6, { x: 0, y: 2.4, z: 5.2, dim: 0.75 }, 'sine.out');
+tl.fromTo('#final', { opacity: 0 }, { opacity: 1, duration: 0.7 }, 81.6);
+tl.fromTo('#final p', { y: 24 }, { y: 0, duration: 0.8, ease: 'power3.out' }, 81.6);
+tl.fromTo('#final .m', { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.6 }, 82.6);
+tl.set({}, {}, TOTAL); // fija la duración total
+
+/* ───────────────────── seek determinista ───────────────────── */
+let tAct = 0;
+function seek(t) {
+  tAct = t;
+  tl.time(t, false);
+  chipsEn(t);
+  subtitulo(t);
+  $('#progi').style.width = (t / TOTAL * 100) + '%';
+  render3d(t);
+}
+window.__seek = (t) => { seek(Math.min(TOTAL, Math.max(0, t))); return true; };
+
+/* ───────────────────── reproducción con audio ───────────────────── */
+const audios = Object.keys(T).map(b => ({ b, el: document.getElementById('a_' + b) }));
+const mus = document.getElementById('a_mus');
+let playing = false, last = 0;
+function syncAudio(t, force) {
+  for (const { b, el } of audios) {
+    const dentro = t >= T[b] && t < T[b] + DUR[b];
+    if (dentro && (el.paused || force)) { try { el.currentTime = Math.max(0, t - T[b]); el.volume = 1; el.play().catch(() => {}); } catch {} }
+    else if (!dentro && !el.paused) el.pause();
+  }
+  if (mus) {
+    if (t < TOTAL && (mus.paused || force)) { try { mus.currentTime = t; mus.volume = 0.5; mus.play().catch(() => {}); } catch {} }
+    if (t >= TOTAL && !mus.paused) mus.pause();
+  }
+}
+function stopAudio() { for (const { el } of audios) el.pause(); if (mus) mus.pause(); }
+function tick() {
+  if (!playing) return;
+  const now = performance.now(); tAct += (now - last) / 1000; last = now;
+  if (tAct >= TOTAL) { tAct = TOTAL; playing = false; stopAudio(); $('#bplay').textContent = '↺'; }
+  seek(tAct); syncAudio(tAct, false);
+  $('#scrub').value = tAct; $('#tiempo').textContent = tAct.toFixed(1) + ' / ' + TOTAL;
+}
+function play() { if (tAct >= TOTAL) tAct = 0; playing = true; last = performance.now(); syncAudio(tAct, true); $('#bplay').textContent = '❚❚'; }
+function pause() { playing = false; stopAudio(); $('#bplay').textContent = '▶'; }
+$('#bplay').addEventListener('click', () => playing ? pause() : play());
+$('#scrub').addEventListener('input', (e) => { const wasPlaying = playing; pause(); tAct = Number(e.target.value); seek(tAct); $('#tiempo').textContent = tAct.toFixed(1) + ' / ' + TOTAL; if (wasPlaying) play(); });
+$('#play').addEventListener('click', () => { $('#play').style.display = 'none'; play(); });
+document.addEventListener('keydown', (e) => { if (e.code === 'Space') { e.preventDefault(); playing ? pause() : play(); } });
+
+function ajustar() {
+  if (RENDER) { stage.style.transform = 'none'; return; }
+  const s = Math.min(window.innerWidth / W, (window.innerHeight - 70) / H);
+  stage.style.transform = `scale(${s})`;
+}
+window.addEventListener('resize', ajustar); ajustar();
+
+if (!RENDER) gsap.ticker.add(tick);
+// Primer frame y señal de "listo" para el render
+Promise.resolve(document.fonts && document.fonts.ready).then(() => { seek(0); renderer.render(scene, camera); window.__listo = true; });
+</script>
+</body>
+</html>
