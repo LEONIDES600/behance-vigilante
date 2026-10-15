@@ -1,0 +1,55 @@
+# Workflow auxiliar (manual) para el vídeo "Oficina de agentes de IA".
+#
+# El sandbox de Claude no puede descargar de CloudFront, donde TopView deja las
+# locuciones generadas. Los runners de Actions sí. Este workflow recibe la lista
+# de archivos como *input* del disparo manual (las URL firmadas caducan en días
+# y NO se guardan en el repo), descarga los MP3 y los sube a la misma rama desde
+# la que se lanzó. Se puede borrar cuando el audio esté en la rama.
+name: Descarga audio oficina IA
+
+on:
+  workflow_dispatch:
+    inputs:
+      lista_b64:
+        description: 'JSON en base64 con {"nombre.mp3": "https://…"} (URL firmadas, temporales)'
+        required: true
+        type: string
+      carpeta:
+        description: 'Carpeta destino dentro del repo'
+        required: false
+        default: 'oficina-ia-video/audio'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  descargar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Descargar MP3 (las URL no se imprimen en el log)
+        env:
+          LISTA_B64: ${{ inputs.lista_b64 }}
+          CARPETA: ${{ inputs.carpeta }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$CARPETA"
+          echo "$LISTA_B64" | base64 -d > /tmp/lista.json
+          jq -r 'to_entries[] | "\(.key)\t\(.value)"' /tmp/lista.json | while IFS=$'\t' read -r nombre url; do
+            case "$nombre" in *.mp3|*.wav) ;; *) echo "Nombre no permitido: $nombre"; exit 1;; esac
+            curl -fsSL --retry 3 -o "$CARPETA/$nombre" "$url"
+            echo "OK $nombre ($(stat -c%s "$CARPETA/$nombre") bytes)"
+          done
+          rm -f /tmp/lista.json
+
+      - name: Subir a la rama
+        env:
+          CARPETA: ${{ inputs.carpeta }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$CARPETA"/*.mp3 "$CARPETA"/*.wav 2>/dev/null || git add "$CARPETA"
+          git commit -m "Vídeo oficina IA: locuciones descargadas por Actions"
+          git push origin HEAD:${{ github.ref_name }}
