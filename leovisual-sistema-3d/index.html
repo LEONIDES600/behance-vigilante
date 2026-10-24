@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>LeoVisual.nl — Sistema de producción</title>
+<meta name="viewport" content="width=1080, height=1920, initial-scale=1">
+<style>
+  @font-face { font-family: 'Manrope'; font-weight: 500; font-display: block;
+    src: url('fonts/manrope-latin-500-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Manrope'; font-weight: 600; font-display: block;
+    src: url('fonts/manrope-latin-600-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Manrope'; font-weight: 700; font-display: block;
+    src: url('fonts/manrope-latin-700-normal.woff2') format('woff2'); }
+
+  html, body { margin: 0; padding: 0; background: #05070c; overflow: hidden; }
+  body { font-family: 'Manrope', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+
+  /* Lienzo de 1080x1920 centrado y escalado para caber en cualquier ventana */
+  #stage { position: absolute; left: 50%; top: 50%; width: 1080px; height: 1920px;
+    transform-origin: center center; overflow: hidden; background: #05070c; }
+  #stage > * { position: absolute; left: 0; top: 0; }
+  #gl { width: 1080px; height: 1920px; }
+  #labels { width: 1080px; height: 1920px; pointer-events: none; }
+
+  /* Etiquetas de nodo (CSS2D, HTML real) */
+  .label { text-align: center; white-space: nowrap; color: #e6ebf3; font-weight: 600;
+    font-size: 34px; letter-spacing: 0.01em;
+    text-shadow: 0 2px 12px rgba(0,0,0,.9), 0 0 2px rgba(0,0,0,.9);
+    transition: color .25s ease, opacity .25s ease; opacity: .55; }
+  .label.active { color: #ffffff; opacity: 1; }
+  .label.done { color: #c9d1dc; opacity: .85; }
+  .label .sub { display: block; font-weight: 500; font-size: 22px; color: #a9b3c2; margin-top: 4px; }
+  .label.core { font-size: 48px; font-weight: 700; }
+  .label.core .sub { font-size: 24px; }
+
+  /* Capa fija 2D */
+  #hud { width: 1080px; height: 1920px; pointer-events: none; z-index: 1000; }
+  #hud .grad-top, #hud .grad-bottom { position: absolute; left: 0; width: 100%; }
+  #hud .grad-top { top: 0; height: 420px;
+    background: linear-gradient(180deg, rgba(5,7,12,.96) 0%, rgba(5,7,12,.75) 45%, rgba(5,7,12,0) 100%); }
+  #hud .grad-bottom { bottom: 0; height: 520px;
+    background: linear-gradient(0deg, rgba(5,7,12,.98) 0%, rgba(5,7,12,.8) 45%, rgba(5,7,12,0) 100%); }
+  #brand { position: absolute; top: 150px; left: 0; width: 100%; text-align: center;
+    font-size: 72px; font-weight: 700; color: #ffffff; letter-spacing: -0.01em; line-height: 1; }
+  #brand .tld { color: #6b778a; font-weight: 500; }
+  #tagline { position: absolute; top: 240px; left: 0; width: 100%; text-align: center;
+    font-size: 30px; font-weight: 500; color: #6b778a; }
+  #caption { position: absolute; bottom: 210px; left: 90px; right: 90px; text-align: center;
+    font-size: 46px; font-weight: 600; color: #f3f6fa; line-height: 1.25; opacity: 0;
+    text-shadow: 0 2px 20px rgba(0,0,0,.8); }
+  #caption.strong { color: #ffffff; font-weight: 700; }
+  #progress { position: absolute; bottom: 120px; left: 50%; width: 220px; height: 3px;
+    margin-left: -110px; background: rgba(255,255,255,.12); border-radius: 2px; overflow: hidden; }
+  #progress > i { display: block; height: 100%; width: 0; background: #f2b13a; }
+</style>
+<script type="importmap">
+{ "imports": {
+    "three": "./vendor/three/three.module.js",
+    "three/addons/": "./vendor/three/addons/"
+} }
+</script>
+</head>
+<body>
+  <div id="stage">
+    <canvas id="gl"></canvas>
+    <div id="labels"></div>
+    <div id="hud">
+      <div class="grad-top"></div>
+      <div class="grad-bottom"></div>
+      <div id="brand"></div>
+      <div id="tagline"></div>
+      <div id="caption"></div>
+      <div id="progress"><i></i></div>
+    </div>
+  </div>
+  <script type="module" src="sistema.js"></script>
+</body>
+</html>
