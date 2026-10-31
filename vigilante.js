@@ -27,8 +27,29 @@ const BEHANCE_LISTAS = [
   'https://www.behance.net/joblist?jobType=fulltime&jobType=contract&sort=recent',
 ];
 const BEHANCE_PAGINA2_CADA = 10;   // cada N pasadas se mira también la página 2 (por si llega una ráfaga)
-// Respaldo: si las listas ordenadas no devuelven nada, se usan las búsquedas antiguas.
-const SEARCHES = ['', 'branding', 'logo', 'social media', 'motion graphics', 'graphic design', 'video', 'advertising', 'ugc', 'amazon'];
+const LISTAS_CADA = 5;             // las listas van por proxies (Behance bloquea /joblist al runner): cada 5 pasadas
+const LISTAS_TIMEOUT_MS = 12000;
+// SONDA DE IDs (vía principal desde 31/10/2026). Las fichas de oferta SÍ se leen
+// directamente desde el runner, sin proxies. Los IDs de Behance son impares y
+// crecientes (freelance ~561 000, empleo ~370 000); un ID que no existe (o que es
+// un borrador) responde con una redirección. Cada pasada prueba los IDs justo por
+// delante del último visto, un trozo de una ventana más lejana (por si se han
+// consumido muchos IDs en borradores) y unos pocos huecos por detrás (borradores
+// que se publican más tarde).
+const SONDA_TIPOS = [
+  { clave: 'freelance', ruta: 'freelance', suelo: 561603, rango: (id) => id >= 450000 },
+  { clave: 'empleo', ruta: 'fulltime', suelo: 370207, rango: (id) => id < 450000 },
+];
+const SONDA_CERCA = 8;             // IDs impares por delante del máximo, en cada pasada
+const SONDA_LEJOS = 10;            // IDs por pasada de la ventana lejana (rota)
+const SONDA_VENTANA_LEJOS = 150;   // la ventana lejana llega a máximo + 2·(8+150) ≈ +316
+const SONDA_HUECOS = 4;            // IDs por pasada re-comprobados por debajo del máximo (rota)
+const SONDA_VENTANA_HUECOS = 60;   // hasta máximo − 120
+const SONDA_CONCURRENCIA = 4;
+const SONDA_ESTRENO_MAX = 160;     // en el estreno, cuántos IDs se recorren como mucho para encontrar el frente
+const ESTRENO_AVISAR_HORAS = 2;    // en el estreno solo se avisan las publicadas en las últimas 2 h
+// Las búsquedas antiguas ya no se usan (orden «recomendado» y muy lentas por proxy).
+const SEARCHES = [];
 const OTRAS_FUENTES_CADA = 5;      // We Work Remotely y Remote OK: cada 5 pasadas (cambian poco)
 
 const INCLUDE = ['brand', 'logo', 'graphic', 'design', 'social', 'motion', 'video', 'content', 'instagram', 'tiktok', 'youtube', 'identity', 'visual', 'creative', 'ai', 'marketing', 'advertising', 'advertisement', 'commercial', 'commercials', 'ads', 'ugc', 'amazon', 'promo', 'promotional', 'ecommerce', 'e-commerce', 'reel', 'reels', 'product', 'web', 'website', 'landing', 'animation', 'editor', '3d', 'automation', 'agent', 'agents', 'diseño', 'vídeo', 'video', 'contenido', 'publicidad', 'anuncio', 'anuncios', 'marca', 'redes'];
@@ -226,7 +247,7 @@ function behanceIntentos(url) {
     [`https://api.codetabs.com/v1/proxy/?quest=${enc}`, 'codetabs', v],
     [`https://corsproxy.io/?url=${enc}`, 'corsproxy', v],
     [`https://api.allorigins.win/raw?url=${enc}`, 'allorigins', v],
-    [`https://r.jina.ai/${url}`, 'jina', { ...v, headers: { 'X-Return-Format': 'html' } }],
+    [`https://r.jina.ai/${url}`, 'jina', v],
     [url, 'directo', v],
   ];
 }
@@ -234,8 +255,18 @@ function behanceIntentos(url) {
 let ESTADO_RED = null; // referencia al estado para recordar el proxy preferido
 async function fetchBehancePage(url) {
   const pref = ESTADO_RED && ESTADO_RED.proxyBehance;
-  const r = await fetchVia(url, behanceIntentos(url), pref);
+  const intentos = behanceIntentos(url).map(([u, l, o]) => [u, l, { ...o, timeout: LISTAS_TIMEOUT_MS }]);
+  const r = await fetchVia(url, intentos, pref);
   if (ESTADO_RED && r.body) ESTADO_RED.proxyBehance = r.via;
+  return r;
+}
+
+// Fichas de oferta: directas primero (funcionan desde el runner), proxies de respaldo.
+async function fetchFicha(url) {
+  const directo = await tryFetch(url, 'directo', { validate: behanceValidate, timeout: 15000 });
+  if (directo.ok) return { body: directo.body, via: 'directo', fails: [] };
+  const r = await fetchVia(url, behanceIntentos(url).filter(([, l]) => l !== 'directo').map(([u, l, o]) => [u, l, { ...o, timeout: LISTAS_TIMEOUT_MS }]));
+  r.fails.unshift(directo.via);
   return r;
 }
 
@@ -310,44 +341,58 @@ const htmlATexto = (s) => String(s || '')
 // Abre la ficha de la oferta (anónima) y completa descripción, solicitantes,
 // ubicación, fecha de cierre… desde el estado JSON. Si no hay estado, usa el método
 // antiguo por expresiones regulares.
+// Completa una oferta con el estado JSON de su ficha. Devuelve false si la ficha
+// no trae una oferta (borrador, cerrada o página distinta).
+function aplicarFicha(job, st) {
+  const jd = st && st.jobDetails;
+  const full = jd && jd.job;
+  const free = jd && jd.freelanceBriefPublicInfo;
+  if (!full && !free) return false;
+  const d = full || free;
+  if (free && free.isClosed) job.cerrada = true;
+  if (d.title && !GATE_TITLES.test(d.title)) job.title = d.title; else if (d.title) job.gated = true;
+  if (d.url) job.url = d.url;
+  const partes = [d.description, free && free.deliverables, free && free.candidateInfo, free && free.designStyle, free && free.additionalDetails]
+    .filter((x) => x && x !== '####').map(htmlATexto);
+  job.description = partes.join('\n').trim();
+  const sol = full ? (full.publicApplicantCount ?? full.applicationsCount) : free.applicantCount;
+  if (sol != null) job.solicitantes = sol;
+  const cierre = full ? full.expiresOn : free.expirationDate;
+  if (cierre) job.cierraEnDias = Math.max(0, Math.round((cierre * 1000 - Date.now()) / 86400000));
+  // Fecha de publicación: el empleo trae postedOn; el freelance caduca a los 14 días.
+  if (full && full.postedOn) job.publicadaTs = full.postedOn * 1000;
+  else if (free && free.expirationDate) job.publicadaTs = (free.expirationDate - 14 * 86400) * 1000;
+  if (full && full.locationDisplay && !job.ubicacion) job.ubicacion = full.locationDisplay;
+  if (full && full.remoteStatus) job.remoto = full.remoteStatus === 'REMOTE' ? true : (full.remoteStatus === 'ONSITE' ? false : job.remoto);
+  if (free && job.remoto == null) job.remoto = true;
+  if (full && full.company && full.company.name && !job.empresa) job.empresa = full.company.name;
+  if (free && free.company && !job.empresa) job.empresa = String(free.company).trim();
+  const contacto = (full && full.creator && full.creator.displayName) || (free && free.hiringContact && free.hiringContact.displayName);
+  if (contacto && !job.contacto) job.contacto = contacto;
+  if (full && full.allowedApplyPlace) job.dondeSolicitar = full.allowedApplyPlace === 'BEHANCE' ? 'Behance' : 'web externa';
+  if (full && full.jobType) { job.tipoBase = String(full.jobType).toUpperCase(); job.type = job.tipoBase; }
+  if (free) { job.tipoBase = 'FREELANCE'; job.type = 'FREELANCE'; }
+  const cats = [...((full && full.creativeFields) || []), ...((free && free.categories) || [])].map((c) => c && c.name).filter(Boolean);
+  if (cats.length) job.categorias = cats;
+  if (!job.budget && free && (free.budgetMin != null || free.budgetMax != null)) {
+    job.budget = formatoDinero(centimos(free.budgetMin), centimos(free.budgetMax), free.currency);
+    job.moneda = free.currency || '';
+    if (free.currency === 'USD') job.presupuestoMaxUSD = centimos(free.budgetMax);
+  }
+  if (!job.budget && full && (full.salaryMin != null || full.salaryMax != null)) {
+    job.budget = formatoDinero(full.salaryMin, full.salaryMax, full.salaryCurrency, full.salaryTimeframe);
+    job.moneda = full.salaryCurrency || '';
+  }
+  return true;
+}
+
+// Abre la ficha de la oferta (directa) y la completa. Si no hay estado JSON, usa
+// el método antiguo por expresiones regulares.
 async function enrichBehance(job) {
   try {
-    const { body: html } = await fetchBehancePage(job.url);
+    const { body: html } = await fetchFicha(job.url);
     if (!html) return job;
-    const st = behanceEstado(html);
-    const jd = st && st.jobDetails;
-    const full = jd && jd.job;
-    const free = jd && jd.freelanceBriefPublicInfo;
-    if (full || free) {
-      const d = full || free;
-      if (d.title && !GATE_TITLES.test(d.title)) job.title = d.title; else if (d.title) job.gated = true;
-      const partes = [d.description, free && free.deliverables, free && free.candidateInfo, free && free.designStyle, free && free.additionalDetails]
-        .filter((x) => x && x !== '####').map(htmlATexto);
-      job.description = partes.join('\n').trim();
-      const sol = full ? (full.publicApplicantCount ?? full.applicationsCount) : free.applicantCount;
-      if (sol != null) job.solicitantes = sol;
-      const cierre = full ? full.expiresOn : free.expirationDate;
-      if (cierre) job.cierraEnDias = Math.max(0, Math.round((cierre * 1000 - Date.now()) / 86400000));
-      if (full && full.postedOn) job.publicadaHaceH = Math.max(0, Math.round((Date.now() - full.postedOn * 1000) / 3600000));
-      if (full && full.locationDisplay && !job.ubicacion) job.ubicacion = full.locationDisplay;
-      if (full && full.remoteStatus) job.remoto = full.remoteStatus === 'REMOTE' ? true : (full.remoteStatus === 'ONSITE' ? false : job.remoto);
-      if (full && full.company && full.company.name && !job.empresa) job.empresa = full.company.name;
-      if (free && free.company && !job.empresa) job.empresa = String(free.company).trim();
-      const contacto = (full && full.creator && full.creator.displayName) || (free && free.hiringContact && free.hiringContact.displayName);
-      if (contacto && !job.contacto) job.contacto = contacto;
-      if (full && full.allowedApplyPlace) job.dondeSolicitar = full.allowedApplyPlace === 'BEHANCE' ? 'Behance' : 'web externa';
-      const cats = [...((full && full.creativeFields) || []), ...((free && free.categories) || [])].map((c) => c && c.name).filter(Boolean);
-      if (cats.length) job.categorias = cats;
-      if (!job.budget && free && (free.budgetMin != null || free.budgetMax != null)) {
-        job.budget = formatoDinero(centimos(free.budgetMin), centimos(free.budgetMax), free.currency);
-        if (free.currency === 'USD') job.presupuestoMaxUSD = centimos(free.budgetMax);
-      }
-      if (!job.budget && full && (full.salaryMin != null || full.salaryMax != null)) {
-        job.budget = formatoDinero(full.salaryMin, full.salaryMax, full.salaryCurrency, full.salaryTimeframe);
-      }
-      return job;
-    }
-    // Método antiguo (por si Behance cambia el estado): primeros campos del JSON embebido.
+    if (aplicarFicha(job, behanceEstado(html))) return job;
     const t = html.match(/"title":"((?:[^"\\]|\\.){5,200}?)"/);
     if (t) {
       const title = unescapeJson(t[1]).trim();
@@ -359,36 +404,129 @@ async function enrichBehance(job) {
   return job;
 }
 
+// ── Sonda de IDs ──
+// Resultado de probar un ID: 'oferta' (con el job ya completado), 'no' (redirección
+// o 404: no existe o es un borrador) o 'error' (bloqueo, 5xx, red).
+async function probarId(tipo, id) {
+  const url = `https://www.behance.net/joblist/${tipo.ruta}/${id}/`;
+  try {
+    const res = await fetch(url, { redirect: 'manual', headers: { 'User-Agent': UA, 'Accept-Language': 'en-US,en;q=0.9' }, signal: AbortSignal.timeout(15000) });
+    if (res.status >= 300 && res.status < 400) return { r: 'no' };
+    if (res.status === 404 || res.status === 410) return { r: 'no' };
+    if (res.status !== 200) return { r: 'error', via: `HTTP ${res.status}` };
+    const html = await res.text();
+    const job = { id: `behance:${id}`, sourceKey: 'behance', source: 'Behance', type: tipo.clave === 'freelance' ? 'FREELANCE' : 'FULLTIME', tipoBase: tipo.clave === 'freelance' ? 'FREELANCE' : 'FULLTIME', title: `Oferta ${id}`, url, enrich: false, porSonda: true };
+    if (!aplicarFicha(job, behanceEstado(html))) return { r: 'no' };
+    if (job.cerrada) return { r: 'no' };
+    return { r: 'oferta', job };
+  } catch (e) {
+    return { r: 'error', via: e.name === 'TimeoutError' ? 'tiempo agotado' : e.message };
+  }
+}
+
+async function enParalelo(items, n, fn) {
+  const out = new Array(items.length);
+  let i = 0;
+  const trabajadores = Array.from({ length: Math.min(n, items.length) }, async () => {
+    while (i < items.length) { const k = i++; out[k] = await fn(items[k]); }
+  });
+  await Promise.all(trabajadores);
+  return out;
+}
+
+const impar = (n) => (n % 2 === 0 ? n + 1 : n);
+
+// Una pasada de la sonda para todos los tipos. Devuelve { jobs, ok, errores, probados }.
+async function sondaBehance(state) {
+  state.sonda = state.sonda || {};
+  const jobs = [];
+  let ok = 0;
+  let errores = 0;
+  let probados = 0;
+  const detalles = [];
+  for (const tipo of SONDA_TIPOS) {
+    let st = state.sonda[tipo.clave];
+    const estreno = !st;
+    if (!st) {
+      // Punto de partida: el ID más alto ya visto de este tipo (o el suelo fijo).
+      const vistos = [...state.seen].filter((x) => String(x).startsWith('behance:')).map((x) => Number(String(x).split(':')[1])).filter((n) => n && tipo.rango(n));
+      st = state.sonda[tipo.clave] = { max: impar(Math.max(tipo.suelo, ...vistos)), lejos: 0, huecos: 0 };
+    }
+    const ids = new Set();
+    if (estreno) {
+      // Estreno: recorre hacia delante hasta encontrar el frente (o el tope).
+      for (let k = 1; k <= SONDA_ESTRENO_MAX; k++) ids.add(st.max + 2 * k);
+    } else {
+      for (let k = 1; k <= SONDA_CERCA; k++) ids.add(st.max + 2 * k);
+      for (let k = 0; k < SONDA_LEJOS; k++) ids.add(st.max + 2 * (SONDA_CERCA + 1 + ((st.lejos + k) % SONDA_VENTANA_LEJOS)));
+      st.lejos = (st.lejos + SONDA_LEJOS) % SONDA_VENTANA_LEJOS;
+      for (let k = 0; k < SONDA_HUECOS; k++) {
+        const id = st.max - 2 * (1 + ((st.huecos + k) % SONDA_VENTANA_HUECOS));
+        if (!state.seen.has(`behance:${id}`)) ids.add(id);
+      }
+      st.huecos = (st.huecos + SONDA_HUECOS) % SONDA_VENTANA_HUECOS;
+    }
+    const lista = [...ids].filter((id) => id > 0);
+    const res = await enParalelo(lista, SONDA_CONCURRENCIA, (id) => probarId(tipo, id));
+    probados += lista.length;
+    let encontrados = 0;
+    res.forEach((x, k) => {
+      if (x.r === 'error') { errores++; if (detalles.length < 3) detalles.push(`${tipo.ruta}/${lista[k]} ${x.via}`); return; }
+      ok++;
+      if (x.r === 'oferta') {
+        encontrados++;
+        if (estreno) x.job.estrenoSonda = true;
+        jobs.push(x.job);
+        if (lista[k] > st.max) st.max = lista[k];
+      }
+    });
+    console.log(`  Sonda ${tipo.clave}: ${lista.length} IDs probados, ${encontrados} oferta(s), máximo ${st.max}${estreno ? ' (estreno)' : ''}.`);
+  }
+  return { jobs, ok, errores, probados, detalles };
+}
+
 function unescapeJson(str) {
   try { return JSON.parse(`"${str}"`); } catch { return str; }
 }
 
 async function sourceBehance(state) {
   const all = new Map();
-  let lastVia = 'ninguno';
-  const allFails = [];
-  const urls = [...BEHANCE_LISTAS];
-  // Página 2 cada N pasadas, y siempre en la pasada de estreno de la v3 (para que
-  // su línea base la incluya y no lleguen de golpe ofertas antiguas).
-  if ((state.pasada || 0) % BEHANCE_PAGINA2_CADA === 0 || !state.migradoV3) urls.push(...BEHANCE_LISTAS.map((u) => `${u}&page=2`));
-  for (const url of urls) {
-    const { body: html, via, fails } = await fetchBehancePage(url);
-    lastVia = via;
-    if (fails.length) allFails.push(...fails);
-    for (const [, job] of extractBehanceJobs(html)) all.set(job.id, job);
-  }
-  // Respaldo: si las listas ordenadas no dan nada, búsquedas antiguas (orden «recomendado»).
-  if (!all.size) {
-    for (const term of SEARCHES) {
-      const url = 'https://www.behance.net/joblist' + (term ? `?search=${encodeURIComponent(term)}` : '');
-      const { body: html, via, fails } = await fetchBehancePage(url);
-      lastVia = `${via} (búsquedas de respaldo)`;
-      if (fails.length) allFails.push(...fails);
-      for (const [, job] of extractBehanceJobs(html)) all.set(job.id, job);
-      if (all.size) break; // con una que funcione basta para esta pasada
+  const fails = [];
+  const vias = [];
+  // 1) Sonda de IDs (directa): cada pasada.
+  const sonda = await sondaBehance(state);
+  for (const job of sonda.jobs) all.set(job.id, job);
+  if (sonda.ok) vias.push(`sonda ${sonda.probados} IDs`);
+  if (sonda.errores) fails.push(`sonda: ${sonda.errores} errores (${sonda.detalles.join('; ')})`);
+  // 2) Listas «más recientes» por proxy: cada LISTAS_CADA pasadas, con su propia pausa.
+  const tocaListas = (state.pasada || 0) % LISTAS_CADA === 1 || !state.migradoV3;
+  if (tocaListas && (state.listasPausaHasta || 0) <= Date.now()) {
+    const urls = [...BEHANCE_LISTAS];
+    if ((state.pasada || 0) % BEHANCE_PAGINA2_CADA === 1 || !state.migradoV3) urls.push(...BEHANCE_LISTAS.map((u) => `${u}&page=2`));
+    let algunaLista = false;
+    for (const url of urls) {
+      const r = await fetchBehancePage(url);
+      if (r.fails.length) fails.push(...r.fails.map((f) => `lista: ${f}`));
+      const found = [...extractBehanceJobs(r.body).values()];
+      if (found.length) { algunaLista = true; vias.push(`lista vía ${r.via}`); }
+      for (const job of found) {
+        if (!all.has(job.id)) all.set(job.id, job);
+        // Resincroniza la sonda con lo que digan las listas.
+        const n = Number(String(job.id).split(':')[1]);
+        const tipo = SONDA_TIPOS.find((t) => t.rango(n));
+        if (tipo && state.sonda && state.sonda[tipo.clave] && n > state.sonda[tipo.clave].max) state.sonda[tipo.clave].max = n;
+      }
+      if (!found.length && !algunaLista) break; // si la primera falla, no insistir en esta pasada
+    }
+    if (algunaLista) { state.listasFallos = 0; state.listasPausaHasta = 0; }
+    else {
+      state.listasFallos = (state.listasFallos || 0) + 1;
+      const espera = Math.min(5 * 60000 * 2 ** (state.listasFallos - 1), 60 * 60000);
+      state.listasPausaHasta = Date.now() + espera;
+      fails.push(`listas en pausa ${Math.round(espera / 60000)} min`);
     }
   }
-  return { jobs: [...all.values()], via: lastVia, fails: allFails };
+  return { jobs: [...all.values()], via: vias.join(' + ') || 'ninguno', fails, ok: sonda.ok > 0 || all.size > 0 };
 }
 
 // ──────────────────── Fuente: We Work Remotely (RSS) ────────────────────
@@ -694,7 +832,7 @@ async function fireRoutine(job, state) {
 // Estado: { v:2, seen:[ids], initialized:[fuentes], blindSince, blindNotified, … }.
 // Compatibilidad: si seen.json es un array antiguo, son ids de Behance ya vistos.
 function estadoVacio() {
-  return { seen: new Set(), initialized: new Set(), blindSince: 0, blindNotified: false, sourceFails: {}, sourceSkip: {}, routineFires: [], pasada: 0, proxyBehance: null, ultimaPasadaConDatos: 0, estadoPublicado: 0, stats: null, migradoV3: false };
+  return { seen: new Set(), initialized: new Set(), blindSince: 0, blindNotified: false, sourceFails: {}, sourceSkip: {}, routineFires: [], pasada: 0, proxyBehance: null, ultimaPasadaConDatos: 0, estadoPublicado: 0, stats: null, migradoV3: false, sonda: null, listasFallos: 0, listasPausaHasta: 0 };
 }
 function loadState() {
   try {
@@ -718,6 +856,9 @@ function loadState() {
       estadoPublicado: raw.estadoPublicado || 0,
       stats: raw.stats || null,
       migradoV3: !!raw.migradoV3,
+      sonda: raw.sonda || null,
+      listasFallos: raw.listasFallos || 0,
+      listasPausaHasta: raw.listasPausaHasta || 0,
     };
   } catch {
     return null; // primera ejecución
@@ -742,6 +883,9 @@ function saveState(state) {
     estadoPublicado: state.estadoPublicado || 0,
     stats: state.stats || null,
     migradoV3: !!state.migradoV3,
+    sonda: state.sonda || null,
+    listasFallos: state.listasFallos || 0,
+    listasPausaHasta: state.listasPausaHasta || 0,
   }));
 }
 
@@ -775,7 +919,21 @@ async function diagnostico() {
       console.log(`${label.padEnd(10)} ${r.ok ? 'OK ' : 'MAL'} ${String(r.ms).padStart(5)} ms · estado ${conEstado ? 'sí' : 'no'} · ${ofertas} ofertas · ${url.slice(24, 90)} · ${r.ok ? ejemplo.slice(0, 120) : r.via}`);
     }
   }
-  const pub = await actualizarArchivoCola('diagnostico.json', () => ({ version: VERSION, fecha: new Date().toISOString(), resultados }), 'diagnóstico de proxies');
+  // Sonda de IDs directa: uno que existe y uno que no, de cada tipo.
+  const sonda = [];
+  for (const [tipo, id] of [[SONDA_TIPOS[0], 561603], [SONDA_TIPOS[0], 561601], [SONDA_TIPOS[1], 370207], [SONDA_TIPOS[1], 370209]]) {
+    const t0 = Date.now();
+    const x = await probarId(tipo, id);
+    const fila = { tipo: tipo.clave, id, resultado: x.r, ms: Date.now() - t0, titulo: x.job ? x.job.title : '', via: x.via || '' };
+    sonda.push(fila);
+    console.log(`sonda ${tipo.clave} ${id}: ${x.r} ${fila.ms} ms ${fila.titulo || fila.via}`);
+  }
+  // Ráfaga corta para ver si Behance limita: 12 IDs seguidos con concurrencia normal.
+  const t0 = Date.now();
+  const rafaga = await enParalelo(Array.from({ length: 12 }, (_, k) => 561605 + 2 * k), SONDA_CONCURRENCIA, (id) => probarId(SONDA_TIPOS[0], id));
+  const resumenRafaga = { ms: Date.now() - t0, resultados: rafaga.map((x) => x.r + (x.via ? ' ' + x.via : '')) };
+  console.log('ráfaga:', JSON.stringify(resumenRafaga));
+  const pub = await actualizarArchivoCola('diagnostico.json', () => ({ version: VERSION, fecha: new Date().toISOString(), resultados, sonda, rafaga: resumenRafaga }), 'diagnóstico de proxies y sonda');
   console.log(`Diagnóstico publicado en la rama cola: ${pub}`);
 }
 
@@ -800,6 +958,7 @@ async function main() {
   }
 
   let consultadas = 0;
+  let algunaOk = false;
   for (const src of SOURCES) {
     // Las fuentes lentas se consultan cada N pasadas (siempre en la primera de un ciclo).
     if (src.cada > 1 && state.pasada % src.cada !== 1 && !firstRun) continue;
@@ -817,8 +976,10 @@ async function main() {
       result = { jobs: [], via: 'excepción', fails: [] };
     }
     const { jobs, via, fails } = result;
+    const okFuente = result.ok != null ? result.ok : jobs.length > 0;
+    if (okFuente) algunaOk = true;
     console.log(`${src.name}: ${jobs.length} ofertas (vía ${via})${fails && fails.length ? ' · fallos: ' + fails.join(' | ') : ''}`);
-    if (jobs.length) {
+    if (okFuente) {
       state.sourceFails[src.key] = 0;
       state.sourceSkip[src.key] = 0;
     } else {
@@ -833,9 +994,10 @@ async function main() {
     for (const job of jobs) all.set(job.id, job);
   }
 
-  // Vigilante ciego: ninguna fuente consultada devolvió nada. Si dura más de
-  // BLIND_ALERT_MS, avisa UNA vez por Telegram; al recuperarse, avisa de la vuelta.
-  if (all.size === 0) {
+  // Vigilante ciego: ninguna fuente consultada respondió bien (la sonda cuenta como
+  // respuesta aunque no haya ofertas nuevas). Si dura más de BLIND_ALERT_MS, avisa
+  // UNA vez por Telegram; al recuperarse, avisa de la vuelta.
+  if (!algunaOk) {
     if (consultadas > 0) {
       if (!state.blindSince) state.blindSince = ahora;
       const minutos = Math.round((ahora - state.blindSince) / 60000);
@@ -877,7 +1039,9 @@ async function main() {
   let baselined = 0;
   for (const job of all.values()) {
     if (state.seen.has(job.id)) continue;
-    const sourceReady = !firstRun && state.initialized.has(job.sourceKey) && !(estrenoV3 && job.sourceKey === 'behance');
+    const reciente = job.publicadaTs && Date.now() - job.publicadaTs < ESTRENO_AVISAR_HORAS * 3600000;
+    const enEstreno = (estrenoV3 && job.sourceKey === 'behance') || job.estrenoSonda;
+    const sourceReady = !firstRun && state.initialized.has(job.sourceKey) && (!enEstreno || (job.porSonda && reciente));
     if (sourceReady) newJobs.push(job);
     else { state.seen.add(job.id); baselined++; }
   }

@@ -6,10 +6,16 @@ envía a Telegram con una propuesta honesta lista para copiar. Funciona aunque e
 PC esté apagado.
 
 ## Novedades de la v3 (31/10/2026)
-- **Detección al momento:** mira las listas de Behance ordenadas por «lo más
-  reciente» (`sort=recent`, freelance y empleo). Antes miraba la primera página
-  de 10 búsquedas en orden «recomendado», y una oferta nueva podía tardar horas o
-  no salir nunca. Pasadas cada 60 s (antes 180 s) y menos peticiones por pasada.
+- **Detección al momento con la «sonda de IDs»:** desde GitHub, Behance bloquea las
+  listas (/joblist) y los proxies fallan a menudo, pero las fichas de oferta se
+  leen directas. Los IDs son impares y crecientes, y un ID que no existe redirige.
+  Cada pasada (cada 60 s) prueba los IDs justo por delante del último visto, un
+  trozo de una ventana más lejana y unos pocos huecos por detrás. Una oferta
+  nueva llega a Telegram en 1–2 minutos, sin depender de proxies.
+- Las listas ordenadas por «lo más reciente» (`sort=recent`) siguen como
+  respaldo por proxy cada 5 pasadas (con su propia pausa si fallan); sirven
+  para resincronizar la sonda. Antes se miraba la primera página de 10 búsquedas
+  en orden «recomendado», y una oferta nueva podía tardar horas o no salir.
 - **Datos completos:** lee el estado JSON que Behance incrusta en la página
   (presupuesto, remoto/presencial, empresa, contacto) y en la ficha
   (descripción, solicitantes, días hasta el cierre, si se solicita fuera).

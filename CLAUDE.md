@@ -123,8 +123,15 @@ lo conviertas en un aviso por pasada: sería spam cada 3 minutos.
 
 ## Configuración (todo al inicio de `vigilante.js`)
 
-- v3: `BEHANCE_LISTAS` (listas «más recientes»; las `SEARCHES` antiguas solo son
-  respaldo si las listas no devuelven nada), `ENCAJE_ALTO` / `ENCAJE_MEDIO` /
+- v3: **sonda de IDs** (`SONDA_*`, `sondaBehance`, `probarId`): vía principal.
+  Las fichas `/joblist/{freelance|fulltime}/{id}/` se leen DIRECTAS desde el runner
+  (las listas /joblist dan 403 y los proxies fallan); IDs impares crecientes; un ID
+  inexistente o borrador responde 3xx. Cerca (8 por delante) + lejos (10 por pasada,
+  rotando hasta +316) + huecos (4 por detrás). `state.sonda[tipo].max` es el frente.
+  Estreno: recorre 160 IDs y solo avisa lo publicado en las últimas 2 h.
+  `BEHANCE_LISTAS` (sort=recent) por proxy cada `LISTAS_CADA` pasadas, con pausa
+  propia (`listasFallos`/`listasPausaHasta`) y resincronización de la sonda.
+  `SEARCHES` ya no se usa. `ENCAJE_ALTO` / `ENCAJE_MEDIO` /
   `NO_ENCAJA` / `SENIOR` (función `encaje`: niveles alto, medio, bajo, no; bajo y
   no llegan en silencio y no van a la cola), `LINEAS_TEMA` + `buildProposal`
   (propuesta honesta en español o inglés: solo trabajos reales de Leo; nunca
