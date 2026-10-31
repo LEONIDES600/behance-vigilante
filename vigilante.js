@@ -455,6 +455,7 @@ async function sondaBehance(state) {
       st = state.sonda[tipo.clave] = { max: impar(Math.max(tipo.suelo, ...vistos)), lejos: 0, huecos: 0 };
     }
     const ids = new Set();
+    const huecos = new Set();
     if (estreno) {
       // Estreno: recorre hacia delante hasta encontrar el frente (o el tope).
       for (let k = 1; k <= SONDA_ESTRENO_MAX; k++) ids.add(st.max + 2 * k);
@@ -464,7 +465,7 @@ async function sondaBehance(state) {
       st.lejos = (st.lejos + SONDA_LEJOS) % SONDA_VENTANA_LEJOS;
       for (let k = 0; k < SONDA_HUECOS; k++) {
         const id = st.max - 2 * (1 + ((st.huecos + k) % SONDA_VENTANA_HUECOS));
-        if (!state.seen.has(`behance:${id}`)) ids.add(id);
+        if (!state.seen.has(`behance:${id}`)) { ids.add(id); huecos.add(id); }
       }
       st.huecos = (st.huecos + SONDA_HUECOS) % SONDA_VENTANA_HUECOS;
     }
@@ -478,6 +479,7 @@ async function sondaBehance(state) {
       if (x.r === 'oferta') {
         encontrados++;
         if (estreno) x.job.estrenoSonda = true;
+        if (huecos.has(lista[k])) x.job.porHueco = true;
         jobs.push(x.job);
         if (lista[k] > st.max) st.max = lista[k];
       }
@@ -1043,7 +1045,10 @@ async function main() {
     if (state.seen.has(job.id)) continue;
     const reciente = job.publicadaTs && Date.now() - job.publicadaTs < ESTRENO_AVISAR_HORAS * 3600000;
     const enEstreno = (estrenoV3 && job.sourceKey === 'behance') || job.estrenoSonda;
-    const sourceReady = !firstRun && state.initialized.has(job.sourceKey) && (!enEstreno || (job.porSonda && reciente));
+    // Huecos por detrás del frente: si la oferta es de hace más de 6 h, se registra
+    // sin avisar (no es nueva; solo se nos había escapado antes).
+    const huecoAntiguo = job.porHueco && job.publicadaTs && Date.now() - job.publicadaTs > 6 * 3600000;
+    const sourceReady = !firstRun && state.initialized.has(job.sourceKey) && (!enEstreno || (job.porSonda && reciente)) && !huecoAntiguo;
     if (sourceReady) newJobs.push(job);
     else { state.seen.add(job.id); baselined++; }
   }
