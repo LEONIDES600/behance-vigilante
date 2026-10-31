@@ -44,6 +44,10 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Revisión automática con Claude (31/10/2026): la tarea «Respuesta a
+          # ofertas del bot Behance». Sin el secreto, el bot solo avisa por Telegram.
+          CLAUDE_ROUTINE_TOKEN: ${{ secrets.CLAUDE_ROUTINE_TOKEN }}
+          CLAUDE_ROUTINE_ID: trig_01VaRvsBniYiH9294MwgaC17
         run: |
           fin=$(( $(date +%s) + 19800 ))   # vigilar durante 5 h 30 min
           i=0

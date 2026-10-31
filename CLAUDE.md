@@ -151,6 +151,14 @@ no hace falta tocar la lógica.
   para que la vigilancia se auto-encadene (ver abajo). Si no existe, el workflow
   sigue funcionando pero depende del cron de respaldo. Permiso necesario: Actions
   read/write sobre este repo (fine-grained) o scopes `repo`+`workflow` (clásico).
+- `CLAUDE_ROUTINE_TOKEN` (secreto del repo) + `CLAUDE_ROUTINE_ID` (fijado en el
+  workflow): `fireRoutine` lanza, por cada oferta nueva de Behance que pasa los
+  filtros, la tarea de Claude «Respuesta a ofertas del bot Behance» vía
+  `POST https://api.anthropic.com/v1/claude_code/routines/{id}/fire` con el texto
+  de `routineText` (formato «OFERTA DEL BOT»: el prompt de la tarea depende de él).
+  Sin reintentos (cada llamada crea una sesión). Tope `ROUTINE_MAX_POR_HORA` = 20
+  (la API admite 30/h por tarea), contado en `state.routineFires`. Sin el secreto
+  no se lanza nada.
 - El estado (`estado/`) se persiste entre runs con `actions/cache` (no con commits).
 
 ## Workflow de Actions (`vigilante.yml`)

@@ -29,8 +29,16 @@ Plataformas vigiladas:
   (revisa cada 3 min) y al terminar **se relanza a sí misma**, así la vigilancia
   es continua sin depender del cron de GitHub. El cron horario queda como red de
   seguridad. El estado (ofertas ya vistas) se conserva con actions/cache.
-- Secretos del repositorio: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` y
-  `DISPATCH_PAT` (token personal para el auto-encadenado; ver más abajo).
+- Secretos del repositorio: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`,
+  `DISPATCH_PAT` (token personal para el auto-encadenado; ver más abajo) y
+  `CLAUDE_ROUTINE_TOKEN` (revisión automática; ver más abajo).
+- **Revisión automática (desde el 31/10/2026):** cada oferta nueva de **Behance**
+  que pasa los filtros lanza la tarea de Claude «Respuesta a ofertas del bot
+  Behance» (`CLAUDE_ROUTINE_ID` en el workflow). La tarea abre la oferta en el
+  navegador del ordenador de Leo, decide si encaja con sus servicios, solicita
+  los empleos que encajan y, en los freelance, prepara la propuesta y pregunta
+  el precio a Leo. El mensaje de Telegram lo indica («🤖 Revisión automática en
+  marcha»). Máximo 20 lanzamientos por hora; sin el secreto, el bot solo avisa.
 
 ## El secreto `DISPATCH_PAT` (auto-encadenado)
 Para que el vigilante se relance solo sin depender del cron, necesita un token
@@ -44,6 +52,13 @@ personal con permiso para disparar el workflow:
    secret*. Nombre: `DISPATCH_PAT`. Valor: el token. Guardar.
 
 Sin este secreto el vigilante sigue funcionando, pero depende del cron de respaldo.
+
+## El secreto `CLAUDE_ROUTINE_TOKEN` (revisión automática)
+1. claude.ai/code/routines → abre «Respuesta a ofertas del bot Behance» →
+   *Add another trigger* → **API** → *Generate token*. Cópialo (solo se ve una vez).
+2. Repo → *Settings* → *Secrets and variables* → *Actions* → *New repository
+   secret*. Nombre: `CLAUDE_ROUTINE_TOKEN`. Valor: el token. Guardar.
+3. Si alguna vez generas un token nuevo, el anterior deja de valer: actualiza el secreto.
 
 ## Operación
 - **Ver ejecuciones:** pestaña *Actions* del repositorio.

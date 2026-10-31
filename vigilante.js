@@ -25,6 +25,15 @@ const BLIND_ALERT_MS = 60 * 60 * 1000; // 1 hora
 const BACKOFF_TRAS = 3;                 // fallos seguidos antes de empezar a pausarla
 const BACKOFF_BASE_MS = 5 * 60 * 1000;  // primera pausa: 5 min (se dobla cada fallo)
 const BACKOFF_MAX_MS = 60 * 60 * 1000;  // tope: 1 hora
+// Revisión automática (desde 31/10/2026): cada oferta nueva de Behance que pasa
+// los filtros lanza la tarea de Claude «Respuesta a ofertas del bot Behance»,
+// que la abre en el navegador del ordenador de Leo, decide si encaja y la contesta.
+// Entorno: CLAUDE_ROUTINE_TOKEN (secreto del repo: token API de la tarea) y
+// CLAUDE_ROUTINE_ID (trig_…, fijado en el workflow; sin el token no sirve de nada).
+// Si falta alguno, no se lanza nada y el bot sigue como antes (solo Telegram).
+const ROUTINE_SOURCES = ['behance'];    // de qué fuentes se lanza la revisión
+const ROUTINE_MAX_POR_HORA = 20;        // la API admite 30 por hora y tarea; dejamos margen
+const ROUTINE_DESC_MAX = 6000;          // caracteres de descripción que se mandan
 
 const TOPIC_LINES = [
   { match: /youtube|channel/i, line: 'I produce channel branding and video content for YouTube on a regular basis, so I know exactly what works for thumbnails, banners and channel identity.' },
@@ -262,6 +271,57 @@ async function sendTelegram(text) {
   return res.ok;
 }
 
+// Texto que recibe la tarea de Claude. El formato «OFERTA DEL BOT» es el que
+// espera su prompt: no lo cambies sin cambiar también la tarea.
+function routineText(job) {
+  const desc = (job.description || '').slice(0, ROUTINE_DESC_MAX);
+  return [
+    'OFERTA DEL BOT (behance-vigilante)',
+    `ID: ${String(job.id).split(':').pop()}`,
+    `Fuente: ${job.source}`,
+    `Tipo: ${job.type}`,
+    `Título: ${job.title}`,
+    `Presupuesto: ${job.budget || 'no indicado'}`,
+    `Enlace: ${job.url}`,
+    'Descripción:',
+    desc || '(el bot no pudo leer la descripción: ábrela en el enlace)',
+  ].join('\n');
+}
+
+// Lanza la tarea de revisión. Devuelve una etiqueta corta para el log/Telegram.
+// Sin reintentos: cada llamada correcta crea una sesión nueva (no hay clave de
+// idempotencia), así que reintentar a ciegas duplicaría revisiones.
+async function fireRoutine(job, state) {
+  const token = process.env.CLAUDE_ROUTINE_TOKEN;
+  const id = process.env.CLAUDE_ROUTINE_ID;
+  if (!token || !id) return 'sin-config';
+  if (!ROUTINE_SOURCES.includes(job.sourceKey) || job.gated) return 'no-aplica';
+  const haceUnaHora = Date.now() - 60 * 60 * 1000;
+  state.routineFires = (state.routineFires || []).filter((t) => t > haceUnaHora);
+  if (state.routineFires.length >= ROUTINE_MAX_POR_HORA) return 'limite-hora';
+  try {
+    const res = await fetch(`https://api.anthropic.com/v1/claude_code/routines/${id}/fire`, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${token}`,
+        'anthropic-version': '2023-06-01',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ text: routineText(job) }),
+      signal: AbortSignal.timeout(30000),
+    });
+    if (res.ok) {
+      state.routineFires.push(Date.now());
+      return 'lanzada';
+    }
+    console.log(`  Tarea de revisión respondió ${res.status}: ${(await res.text()).slice(0, 300)}`);
+    return `error-${res.status}`;
+  } catch (e) {
+    console.log(`  Tarea de revisión: ${e.message}`);
+    return 'error-red';
+  }
+}
+
 // Estado: formato nuevo { v:2, seen:[ids], initialized:[fuentes], blindSince, blindNotified }.
 // Compatibilidad: si seen.json es un array antiguo, son ids de Behance ya vistos.
 function loadState() {
@@ -270,7 +330,7 @@ function loadState() {
     if (Array.isArray(raw)) {
       // Formato antiguo: ids de Behance sin prefijo → los normalizamos a behance:<id>
       const seen = raw.map((id) => (String(id).includes(':') ? id : `behance:${id}`));
-      return { seen: new Set(seen), initialized: new Set(['behance']), blindSince: 0, blindNotified: false, sourceFails: {}, sourceSkip: {} };
+      return { seen: new Set(seen), initialized: new Set(['behance']), blindSince: 0, blindNotified: false, sourceFails: {}, sourceSkip: {}, routineFires: [] };
     }
     return {
       seen: new Set(raw.seen || []),
@@ -279,6 +339,7 @@ function loadState() {
       blindNotified: !!raw.blindNotified,
       sourceFails: raw.sourceFails || {},
       sourceSkip: raw.sourceSkip || {},
+      routineFires: raw.routineFires || [],
     };
   } catch {
     return null; // primera ejecución
@@ -296,13 +357,14 @@ function saveState(state) {
     blindNotified: !!state.blindNotified,
     sourceFails: state.sourceFails || {},
     sourceSkip: state.sourceSkip || {},
+    routineFires: state.routineFires || [],
   }));
 }
 
 async function main() {
   let state = loadState();
   const firstRun = state === null;
-  if (firstRun) state = { seen: new Set(), initialized: new Set(), blindSince: 0, blindNotified: false, sourceFails: {}, sourceSkip: {} };
+  if (firstRun) state = { seen: new Set(), initialized: new Set(), blindSince: 0, blindNotified: false, sourceFails: {}, sourceSkip: {}, routineFires: [] };
 
   const all = new Map();
   const ahora = Date.now();
@@ -411,10 +473,15 @@ async function main() {
       console.log(`  Descartada por filtros [${job.source}]: ${job.title}`);
       continue;
     }
+    const revision = await fireRoutine(job, state);
+    const lineaRevision = {
+      lanzada: '\n🤖 Revisión automática en marcha: si encaja, la contesto y te aviso.',
+      'limite-hora': '\n⏸ Revisión automática en pausa (más de 20 ofertas en 1 h): revísala tú.',
+    }[revision] || (revision.startsWith('error') ? `\n⚠️ No se pudo lanzar la revisión automática (${revision}).` : '');
     const proposal = buildProposal(job.title, job.description);
-    const msg = `🔔 Nueva oferta en ${job.source} (${job.type})\n${job.title}${job.budget ? '\n💰 ' + job.budget : ''}\n${job.url}\n\n--- Propuesta sugerida ---\n${proposal}`;
+    const msg = `🔔 Nueva oferta en ${job.source} (${job.type})\n${job.title}${job.budget ? '\n💰 ' + job.budget : ''}\n${job.url}${lineaRevision}\n\n--- Propuesta sugerida ---\n${proposal}`;
     const ok = await sendTelegram(msg);
-    console.log(`  ${ok ? 'Enviada a Telegram' : 'ERROR Telegram'} [${job.source}]: ${job.title}`);
+    console.log(`  ${ok ? 'Enviada a Telegram' : 'ERROR Telegram'} [${job.source}] (revisión: ${revision}): ${job.title}`);
   }
 
   saveState(state);
