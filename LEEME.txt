@@ -1,0 +1,2 @@
+Archivos cifrados (AES-GCM). Sin la clave no se pueden leer.
+Los usan las tareas de Leo para adjuntar su CV en formularios de empleo.
