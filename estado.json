@@ -1,17 +1,17 @@
 {
   "version": "v3.1 · 31/10/2026",
-  "actualizado": "2026-10-31T12:51:36.795Z",
-  "ultimaPasadaConDatos": "2026-10-31T12:51:36.321Z",
+  "actualizado": "2026-10-31T13:22:34.589Z",
+  "ultimaPasadaConDatos": "2026-10-31T13:22:34.081Z",
   "ciegoDesde": null,
   "proxyBehance": "jina",
-  "pasadas": 59,
+  "pasadas": 88,
   "hoy": {
     "fecha": "2026-10-31",
-    "nuevas": 20,
+    "nuevas": 21,
     "alto": 4,
     "medio": 4,
     "bajo": 0,
-    "no": 5,
+    "no": 6,
     "enCola": 8
   },
   "fuentes": {
