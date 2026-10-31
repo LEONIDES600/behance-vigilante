@@ -1,13 +1,13 @@
 {
   "version": "v3 · 31/10/2026",
-  "fecha": "2026-10-31T11:35:38.710Z",
+  "fecha": "2026-10-31T11:42:36.866Z",
   "resultados": [
     {
       "url": "https://www.behance.net/joblist?jobType=freelance&sort=recent",
       "proxy": "codetabs",
       "ok": false,
       "via": "codetabs HTTP 522",
-      "ms": 19880,
+      "ms": 19787,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -17,7 +17,7 @@
       "proxy": "corsproxy",
       "ok": false,
       "via": "corsproxy HTTP 401",
-      "ms": 127,
+      "ms": 182,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -27,7 +27,7 @@
       "proxy": "allorigins",
       "ok": false,
       "via": "allorigins HTTP 522",
-      "ms": 19580,
+      "ms": 19467,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -35,19 +35,19 @@
     {
       "url": "https://www.behance.net/joblist?jobType=freelance&sort=recent",
       "proxy": "jina",
-      "ok": false,
-      "via": "jina HTTP 422",
-      "ms": 460,
+      "ok": true,
+      "via": "jina",
+      "ms": 15561,
       "conEstado": false,
-      "ofertas": 0,
-      "ejemplo": ""
+      "ofertas": 20,
+      "ejemplo": "behance:561563 Freelance Jewelry Design for a Bold Sculptural Statement Collection) | behance:561553 Site Plan Design for a 15000 Sq Ft Hospitality Property in Asansol) | behance:561509 Comprehensive Visual Identity for a Youth Travel Baseball Organization)"
     },
     {
       "url": "https://www.behance.net/joblist?jobType=freelance&sort=recent",
       "proxy": "directo",
       "ok": false,
       "via": "directo HTTP 403",
-      "ms": 169,
+      "ms": 24,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -57,7 +57,7 @@
       "proxy": "codetabs",
       "ok": false,
       "via": "codetabs HTTP 522",
-      "ms": 19638,
+      "ms": 19511,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -67,7 +67,7 @@
       "proxy": "corsproxy",
       "ok": false,
       "via": "corsproxy HTTP 401",
-      "ms": 68,
+      "ms": 20,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -76,8 +76,8 @@
       "url": "https://www.behance.net/joblist?jobType=fulltime&jobType=contract&sort=recent",
       "proxy": "allorigins",
       "ok": false,
-      "via": "allorigins HTTP 500",
-      "ms": 3518,
+      "via": "allorigins no válido (453 B)",
+      "ms": 22865,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -85,19 +85,19 @@
     {
       "url": "https://www.behance.net/joblist?jobType=fulltime&jobType=contract&sort=recent",
       "proxy": "jina",
-      "ok": false,
-      "via": "jina no válido (416 B)",
-      "ms": 396,
+      "ok": true,
+      "via": "jina",
+      "ms": 13765,
       "conEstado": false,
-      "ofertas": 0,
-      "ejemplo": ""
+      "ofertas": 20,
+      "ejemplo": "behance:360559 GRAPHIC DESIGNER) | behance:370207 Game Developer (Remote Worldwide)) | behance:370205 Indesign)"
     },
     {
       "url": "https://www.behance.net/joblist?jobType=fulltime&jobType=contract&sort=recent",
       "proxy": "directo",
       "ok": false,
       "via": "directo HTTP 403",
-      "ms": 106,
+      "ms": 10,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -107,7 +107,7 @@
       "proxy": "codetabs",
       "ok": false,
       "via": "codetabs HTTP 522",
-      "ms": 19417,
+      "ms": 19692,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -117,7 +117,7 @@
       "proxy": "corsproxy",
       "ok": false,
       "via": "corsproxy HTTP 401",
-      "ms": 68,
+      "ms": 23,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -126,8 +126,8 @@
       "url": "https://www.behance.net/joblist/freelance/561599/x",
       "proxy": "allorigins",
       "ok": false,
-      "via": "allorigins HTTP 500",
-      "ms": 121,
+      "via": "allorigins HTTP 522",
+      "ms": 19297,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -135,22 +135,73 @@
     {
       "url": "https://www.behance.net/joblist/freelance/561599/x",
       "proxy": "jina",
-      "ok": false,
-      "via": "jina HTTP 422",
-      "ms": 447,
+      "ok": true,
+      "via": "jina",
+      "ms": 16221,
       "conEstado": false,
-      "ofertas": 0,
-      "ejemplo": ""
+      "ofertas": 1,
+      "ejemplo": "Title: Création D’Un Maillot De Football\n\nURL Source: https://www.behance.net/joblist/freelance/561599/x\n\nMarkdown Content:\nSign In\n\n*   [Explore](https://www.behance.net/?tracking_source=nav20)\n*   ["
     },
     {
       "url": "https://www.behance.net/joblist/freelance/561599/x",
       "proxy": "directo",
       "ok": true,
       "via": "directo",
-      "ms": 699,
+      "ms": 506,
       "conEstado": true,
       "ofertas": 1,
       "ejemplo": "{\"additionalDetails\":\"####\",\"applicantCount\":0,\"appliedOnDate\":null,\"isSaved\":false,\"title\":\"Création D’Un Maillot De Football\",\"budgetMax\":10000,\"budgetMin\":500,\"categories\":[{\"id\":20,\"name\":\"T-Shirt & Merchandise\"}],\"candidateInfo\":\"####\",\"company\":\"NASEEB \",\"companyLogo\":null,\"companyUrl\":\"https:"
     }
-  ]
+  ],
+  "sonda": [
+    {
+      "tipo": "freelance",
+      "id": 561603,
+      "resultado": "no",
+      "ms": 808,
+      "titulo": "",
+      "via": ""
+    },
+    {
+      "tipo": "freelance",
+      "id": 561601,
+      "resultado": "no",
+      "ms": 136,
+      "titulo": "",
+      "via": ""
+    },
+    {
+      "tipo": "empleo",
+      "id": 370207,
+      "resultado": "no",
+      "ms": 1124,
+      "titulo": "",
+      "via": ""
+    },
+    {
+      "tipo": "empleo",
+      "id": 370209,
+      "resultado": "no",
+      "ms": 134,
+      "titulo": "",
+      "via": ""
+    }
+  ],
+  "rafaga": {
+    "ms": 525,
+    "resultados": [
+      "no",
+      "no",
+      "no",
+      "no",
+      "no",
+      "no",
+      "no",
+      "no",
+      "no",
+      "no",
+      "no",
+      "no"
+    ]
+  }
 }
