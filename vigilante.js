@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 /*
- * Vigilante de ofertas — versión GitHub Actions (Leo Visual) · v3 (31/10/2026)
+ * Vigilante de ofertas — versión GitHub Actions (Leo Visual) · v3.1 (31/10/2026)
  * Corre en la nube en bucle (una pasada cada ~1 min): detecta ofertas nuevas en
- * Behance (y, con menos frecuencia, en We Work Remotely y Remote OK), puntúa si
- * encajan con los servicios de Leo, avisa por Telegram y deja las que encajan en
- * la cola que revisa la tarea de Claude «Respuesta a ofertas del bot Behance».
+ * Behance y, con menos frecuencia, en webs de empleo remoto de todo el mundo
+ * (We Work Remotely, Remote OK, Remotive, Jobicy, Himalayas). Puntúa si encajan
+ * con los servicios de Leo y avisa por Telegram. Las de Behance que encajan van a
+ * la cola ofertas.json (tarea «Respuesta a ofertas del bot Behance»); las de las
+ * otras webs, a mundo.json (tarea «Revisión de empleo LinkedIn (cada hora)»).
  *
  * Secretos del repositorio: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID (y opcionales:
  * DISPATCH_PAT, CLAUDE_ROUTINE_TOKEN). GITHUB_TOKEN lo inyecta el workflow.
@@ -15,7 +17,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const VERSION = 'v3 · 31/10/2026';
+const VERSION = 'v3.1 · 31/10/2026';
 
 // ───────────────────────────── Configuración ─────────────────────────────
 // Behance: dos listas ordenadas por «lo más reciente» (sort=recent). Una oferta
@@ -51,6 +53,17 @@ const ESTRENO_AVISAR_HORAS = 2;    // en el estreno solo se avisan las publicada
 // Las búsquedas antiguas ya no se usan (orden «recomendado» y muy lentas por proxy).
 const SEARCHES = [];
 const OTRAS_FUENTES_CADA = 5;      // We Work Remotely y Remote OK: cada 5 pasadas (cambian poco)
+// Webs de empleo remoto mundial (v3.1). Cada una tiene su ritmo según sus normas:
+// Remotive pide como mucho 4 consultas al día (y bloquea más de 2 por minuto);
+// Jobicy, no más de una por hora; Himalayas refresca sus datos ~1 vez al día.
+const REMOTIVE_CADA_MS = 6 * 60 * 60 * 1000;
+const JOBICY_CADA_MS = 60 * 60 * 1000;
+const HIMALAYAS_CADA_MS = 2 * 60 * 60 * 1000;
+const HIMALAYAS_BUSQUEDAS_POR_CONSULTA = 3;
+const HIMALAYAS_PALABRAS = ['video editor', 'motion designer', 'graphic designer', 'content creator', 'ugc', 'web designer', 'ai automation', 'spanish', 'generative ai', 'amazon', 'social media', 'ai video'];
+const FALLO_REINTENTO_MS = 30 * 60 * 1000; // si una de estas webs falla, se reintenta a los 30 min
+const MUNDO_EDAD_MAX_MS = 4 * 24 * 60 * 60 * 1000; // más antigua que esto (Remotive va con 24 h de retraso) → sin aviso
+const MUNDO_AVISOS_MAX_POR_FUENTE = 8;   // tope de mensajes por web y pasada (el resto va solo a mundo.json)
 
 const INCLUDE = ['brand', 'logo', 'graphic', 'design', 'social', 'motion', 'video', 'content', 'instagram', 'tiktok', 'youtube', 'identity', 'visual', 'creative', 'ai', 'marketing', 'advertising', 'advertisement', 'commercial', 'commercials', 'ads', 'ugc', 'amazon', 'promo', 'promotional', 'ecommerce', 'e-commerce', 'reel', 'reels', 'product', 'web', 'website', 'landing', 'animation', 'editor', '3d', 'automation', 'agent', 'agents', 'diseño', 'vídeo', 'video', 'contenido', 'publicidad', 'anuncio', 'anuncios', 'marca', 'redes'];
 const EXCLUDE = ['software engineer', 'backend', 'frontend developer', 'fullstack', 'drafter', 'accountant', 'adult content', 'adult', 'nsfw', 'onlyfans', 'porn', 'escort', 'webcam', 'sexual', 'contenido para adultos'];
@@ -58,7 +71,7 @@ const EXCLUDE = ['software engineer', 'backend', 'frontend developer', 'fullstac
 const GATE_TITLES = /^(adult content|content warning|mature content|sensitive content|contenido para adultos)$/i;
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36';
 const STATE_FILE = path.join(__dirname, 'estado', 'seen.json');
-const MAX_SEEN = 3000;
+const MAX_SEEN = 6000;           // más fuentes → más IDs; las que se vuelven a ver se «refrescan»
 // Si NINGUNA fuente devuelve datos durante este tiempo, avisa por Telegram (una vez).
 const BLIND_ALERT_MS = 30 * 60 * 1000; // 30 min (antes 1 h: con pasadas de 1 min se nota antes)
 // Pausa progresiva de una fuente caída, para que no ralentice a las que funcionan.
@@ -78,6 +91,8 @@ const ESTADO_CADA_MS = 30 * 60 * 1000;
 const COLA_MAX = 100;
 const COLA_DESC_MAX = 1500;
 const NIVELES_A_COLA = ['alto', 'medio']; // las de encaje bajo o nulo no gastan revisión
+const MUNDO_ARCHIVO = 'mundo.json';     // ofertas que encajan de las webs que no son Behance
+const MUNDO_DESC_MAX = 800;             // extracto corto (el enlace lleva a la oferta original)
 
 // ───────────────────── Encaje con los servicios de Leo ─────────────────────
 // Lo que Leo hace de verdad (LeoVisual.nl): vídeo y anuncios con IA, contenido de
@@ -91,26 +106,50 @@ const ENCAJE_ALTO = [
   /amazon|\ba\+ ?content|a plus content|listing (images|design)|product (images|photos|video|render|visuals)|cgi|3d product|ecommerce visuals/i,
   /\bkling\b|\brunway\b|midjourney|\bveo\b|\bsora\b|higgsfield|seedance|stable diffusion|ai artist|ai image|ai visual|generative ai|ia generativa|nano banana/i,
   /landing page|web ?design|website|p[aá]gina web|webflow|framer|three\.?js|3d (web|website)|scroll/i,
-  /ai automation|automatizaci[oó]n|ai agents?|agentes? de ia|\bn8n\b|make\.com|zapier|chatbot|whatsapp bot|telegram bot/i,
+  /ai automation|automatizaci[oó]n|ai agents?|agentes? de ia|\bn8n\b|make\.com|zapier|chatbot|whatsapp bot|telegram bot|no[- ]?code|low[- ]?code/i,
 ];
 const ENCAJE_MEDIO = [
   /graphic design|dise[ñn]o gr[aá]fico|social media|redes sociales|static ad|banner|thumbnail|miniatura|youtube|presentation|pitch deck|infograph|content creator|creador de contenido/i,
   /branding|brand identity|identidad visual|\blogo\b|packaging|photo ?edit|retouch|retoque|\b3d\b|visual design|storytelling|creative designer|dise[ñn]ador(a)? creativ/i,
   /\bai\b|\bia\b|artificial intelligence|inteligencia artificial/i,
+  /\bspanish\b|espa[ñn]ol|bilingual|biling[üu]e|hispan|\blatam\b/i,
 ];
 const NO_ENCAJA = [
   { re: /jewel(le)?ry|joyer[ií]a|tattoo|tatuaje/i, motivo: 'joyería o tatuaje' },
   { re: /architect|arquitect|interior design|interiorismo|furniture|mobiliario|autocad|draftsman|drafter|drafting|site plan|floor plan|\bcad\b/i, motivo: 'arquitectura, interiores o CAD' },
   { re: /fashion design|dise[ñn]o de moda|garment|pattern mak|embroider|bordado|textile design/i, motivo: 'moda o textil' },
   { re: /voice ?over|voice actor|locutor|singer|cantante|translator|traductor|accountant|contable|sales rep|cold call/i, motivo: 'voz, traducción, ventas o contabilidad' },
-  { re: /backend|full ?stack|devops|game developer|unity developer|unreal developer|ios developer|android developer|software engineer/i, motivo: 'programación' },
+  { re: /backend|full ?stack|devops|game developer|unity developer|unreal developer|ios developer|android developer|software engineer|data scientist|\b(machine learning|ml|data|software|platform|reliability|security|cloud|ai|llm|backend|frontend|qa|test|solutions?)\s+engineer\b/i, motivo: 'programación' },
   { re: /on[- ]?site|in[- ]person|presencial|must be (based|located) in|relocat/i, motivo: 'presencial o exige vivir en otro sitio' },
   { re: /adult|nsfw|onlyfans|porn|escort|sexual|contenido para adultos/i, motivo: 'contenido para adultos' },
 ];
 const SENIOR = /\b(head of|director|principal|vp\b|chief)|\b(8|9|10|12|15)\+? (years|años)/i;
 
+// ───────────── Ubicación (webs de empleo remoto mundial, v3.1) ─────────────
+// Leo es ciudadano de la UE y vive en Países Bajos. Vale: todo el mundo, Europa,
+// EMEA, UE, Países Bajos, España, LATAM (contratista). Otro país de la UE/EEE solo
+// → dudosa (puede exigir vivir allí). Solo países o regiones fuera de la UE → no.
+const UBI_OK = /^(worldwide|anywhere|global|globally|world ?wide|remote|fully remote|100% remote|international|europe|european union|eu|eea|emea|europe, middle east (and|&) africa|netherlands|the netherlands|holland|nl|spain|españa|es|latam|latin america|south america|cet|cest|gmt|utc|utc\+?[0-3])$/;
+const UBI_UE = /^(austria|belgium|bulgaria|croatia|cyprus|czechia|czech republic|denmark|estonia|finland|france|germany|greece|hungary|ireland|italy|latvia|lithuania|luxembourg|malta|poland|portugal|romania|slovakia|slovenia|sweden|norway|iceland|liechtenstein|switzerland|americas|europe only|eu only|dach|nordics|benelux|cee)$/;
+const UBI_NO = /^(usa|us|u\.s\.|u\.s\.a\.|united states|united states of america|america|north america|canada|uk|u\.k\.|united kingdom|england|great britain|britain|scotland|wales|australia|new zealand|anz|india|philippines|pakistan|bangladesh|nigeria|kenya|south africa|egypt|israel|turkey|uae|united arab emirates|saudi arabia|qatar|singapore|japan|china|hong kong|taiwan|south korea|korea|vietnam|thailand|indonesia|malaysia|apac|asia|asia pacific|africa|middle east|mena|brazil|brasil|mexico|méxico|argentina|colombia|chile|peru|perú|uruguay|venezuela|ecuador|costa rica|guatemala|puerto rico|ukraine|russia|serbia|georgia|armenia)$/;
+function ubicacionPermitida(ubicacion) {
+  const lista = (Array.isArray(ubicacion) ? ubicacion : [ubicacion])
+    .flatMap((u) => String(u && typeof u === 'object' ? (u.name || u.label || '') : (u || '')).split(/,|;|\/|\||\bor\b|\band\b|\+(?!\d)/i))
+    .map((t) => t.toLowerCase().replace(/\(.*?\)/g, ' ').replace(/\b(only|based|residents?|citizens?|timezones?|time zones?|hours?|preferred|candidates?|remote in|within|from)\b/g, ' ').replace(/[^\p{L}\p{N}.+& ]/gu, ' ').replace(/\s+/g, ' ').trim())
+    .filter(Boolean);
+  if (!lista.length) return { ok: true };
+  if (lista.some((t) => UBI_OK.test(t))) return { ok: true };
+  const ue = lista.find((t) => UBI_UE.test(t));
+  const desconocida = lista.find((t) => !UBI_UE.test(t) && !UBI_NO.test(t));
+  if (desconocida) return { ok: true, dudosa: ue ? `pide ${ue}` : null };   // no se descarta lo que no se reconoce
+  if (ue) return { ok: true, dudosa: `pide ${ue}` };
+  return { ok: false, motivo: `solo ${lista.slice(0, 3).join(', ')}` };
+}
+
 function encaje(job) {
-  const texto = `${job.title} ${job.description || ''} ${(job.categorias || []).join(' ')}`;
+  // En las webs mundiales las descripciones son largas y genéricas («website»,
+  // «commercial»…): el encaje se decide por el título y las categorías (textoEncaje).
+  const texto = job.textoEncaje != null ? job.textoEncaje : `${job.title} ${job.description || ''} ${(job.categorias || []).join(' ')}`;
   const no = NO_ENCAJA.find((n) => n.re.test(texto));
   const altos = ENCAJE_ALTO.filter((re) => re.test(texto)).length;
   const medios = ENCAJE_MEDIO.filter((re) => re.test(texto)).length;
@@ -128,6 +167,11 @@ function encaje(job) {
     nivel = 'no'; motivos.push('presupuesto de 100 USD o menos');
   }
   if (job.moneda === 'INR') { nivel = 'no'; motivos.push('pago en rupias'); }
+  if (job.filtrarUbicacion && nivel !== 'no') {
+    const u = ubicacionPermitida(job.ubicacion);
+    if (!u.ok) { nivel = 'no'; motivos.push(u.motivo); }
+    else if (u.dudosa) { if (nivel === 'alto') nivel = 'medio'; motivos.push(u.dudosa); }
+  }
   return { nivel, motivos, altos, medios };
 }
 
@@ -567,6 +611,7 @@ async function sourceWeWorkRemotely() {
     jobs.push({
       id: `wwr:${slug}`, sourceKey: 'wwr', source: 'We Work Remotely', type: (category || 'REMOTE').toUpperCase(),
       title: title || slug.replace(/-/g, ' '), url: link, description, ubicacion: region, remoto: true,
+      textoEncaje: `${title} ${category}`, filtrarUbicacion: true,
     });
   }
   return { jobs, via, fails };
@@ -595,15 +640,141 @@ async function sourceRemoteOK() {
       title: it.company ? `${it.company} — ${it.position}` : it.position,
       url: it.url || `https://remoteok.com/remote-jobs/${it.id}`,
       description: `${(it.tags || []).join(' ')} ${description}`.trim(), budget, ubicacion: it.location || '', remoto: true,
+      empresa: it.company || '', textoEncaje: `${it.position} ${(it.tags || []).join(' ')}`, filtrarUbicacion: true,
     });
   }
   return { jobs, via, fails };
 }
 
+
+// ───────────── Webs de empleo remoto mundial (v3.1): Remotive, Jobicy, Himalayas ─────────────
+// APIs públicas sin clave. Normas: enlazar a la oferta original y citar la web
+// (el aviso lleva el nombre de la fuente y su enlace), y no consultar más de la
+// cuenta (ver *_CADA_MS). Si la petición directa falla, se prueba un proxy.
+const PERIODO = { year: 'ANNUAL', yearly: 'ANNUAL', annual: 'ANNUAL', annually: 'ANNUAL', month: 'MONTHLY', monthly: 'MONTHLY', hour: 'HOURLY', hourly: 'HOURLY', week: 'WEEKLY', weekly: 'WEEKLY', day: 'DAILY', daily: 'DAILY' };
+const jsonValido = (b) => { const t = b.trim(); return t.startsWith('{') || t.startsWith('['); };
+async function fetchJson(url, timeout = 30000) {
+  const opts = { validate: jsonValido, timeout, headers: { Accept: 'application/json' } };
+  const { body, via, fails } = await fetchVia(url, [
+    [url, 'directo', opts],
+    [`https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(url)}`, 'codetabs', opts],
+    [`https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`, 'allorigins', opts],
+  ]);
+  let data = null;
+  try { data = body ? JSON.parse(body) : null; } catch { return { data: null, via: `${via} (json inválido)`, fails }; }
+  return { data, via, fails };
+}
+const listaDe = (data, ...claves) => {
+  if (Array.isArray(data)) return data;
+  for (const k of claves) if (data && Array.isArray(data[k])) return data[k];
+  return [];
+};
+const tieneLista = (data, ...claves) => Array.isArray(data) || claves.some((k) => data && Array.isArray(data[k]));
+const aTs = (v) => {
+  if (v == null || v === '') return null;
+  const n = Number(v);
+  if (Number.isFinite(n)) return n < 1e12 ? n * 1000 : n;   // segundos o milisegundos
+  const t = Date.parse(v);
+  return Number.isFinite(t) ? t : null;
+};
+
+// Remotive: una sola consulta con las ~400 más recientes (la API las da con 24 h de retraso).
+async function sourceRemotive() {
+  const { data, via, fails } = await fetchJson('https://remotive.com/api/remote-jobs?limit=400', 60000);
+  const jobs = [];
+  for (const it of listaDe(data, 'jobs')) {
+    if (!it || it.id == null || !it.title) continue;
+    const ubic = it.candidate_required_location || '';
+    jobs.push({
+      id: `rmt:${it.id}`, sourceKey: 'remotive', source: 'Remotive', type: String(it.job_type || 'REMOTE').toUpperCase().replace(/-/g, '_'),
+      title: it.title, url: it.url || `https://remotive.com/remote-jobs/${it.id}`,
+      description: htmlATexto(it.description).slice(0, 4000), budget: it.salary || '', empresa: it.company_name || '',
+      ubicacion: ubic, remoto: true, publicadaTs: aTs(it.publication_date), categorias: [it.category].filter(Boolean),
+      textoEncaje: `${it.title} ${it.category || ''} ${(it.tags || []).join(' ')}`, filtrarUbicacion: true,
+    });
+  }
+  return { jobs, via, fails, ok: tieneLista(data, 'jobs') && jobs.length > 0 };
+}
+
+// Jobicy: una consulta por hora con las 100 más recientes (de todas las categorías).
+async function sourceJobicy() {
+  const { data, via, fails } = await fetchJson('https://jobicy.com/api/v2/remote-jobs?count=100');
+  const jobs = [];
+  for (const it of listaDe(data, 'jobs')) {
+    if (!it || it.id == null || !it.jobTitle) continue;
+    const industrias = [].concat(it.jobIndustry || []).map((x) => htmlATexto(x));
+    const tipos = [].concat(it.jobType || []);
+    const budget = formatoDinero(it.salaryMin ?? null, it.salaryMax ?? null, it.salaryCurrency || 'USD', PERIODO[String(it.salaryPeriod || '').toLowerCase()]);
+    jobs.push({
+      id: `jcy:${it.id}`, sourceKey: 'jobicy', source: 'Jobicy', type: String(tipos[0] || 'REMOTE').toUpperCase().replace(/-/g, '_'),
+      title: htmlATexto(it.jobTitle), url: it.url || `https://jobicy.com/jobs/${it.jobSlug || it.id}`,
+      description: htmlATexto(it.jobDescription || it.jobExcerpt).slice(0, 4000), budget, empresa: it.companyName || '',
+      ubicacion: it.jobGeo || '', remoto: true, publicadaTs: aTs(it.pubDate), categorias: industrias,
+      textoEncaje: `${htmlATexto(it.jobTitle)} ${industrias.join(' ')} ${it.jobLevel && it.jobLevel !== 'Any' ? it.jobLevel : ''}`, filtrarUbicacion: true,
+    });
+  }
+  return { jobs, via, fails, ok: tieneLista(data, 'jobs') };
+}
+
+// Himalayas: 3 búsquedas por consulta (las palabras van rotando), las más recientes primero.
+function himalayasOferta(it) {
+  const enlace = it.applicationLink || it.guid || it.url || '';
+  const slug = String(it.guid || enlace || it.id || '').replace(/\/+$/, '').split('/').slice(-3).join('/');
+  if (!slug || !it.title) return null;
+  const ubic = [].concat(it.locationRestrictions || []).map((u) => (u && typeof u === 'object' ? (u.name || u.label || u.country || '') : u)).filter(Boolean);
+  const cats = [].concat(it.categories || [], it.parentCategories || []).map((c) => (c && typeof c === 'object' ? (c.name || c.title || '') : String(c).replace(/-/g, ' '))).filter(Boolean);
+  const periodo = PERIODO[String(it.salaryPeriod || '').toLowerCase()];
+  return {
+    id: `hml:${slug.slice(0, 160)}`, sourceKey: 'himalayas', source: 'Himalayas', type: String(it.employmentType || 'REMOTE').toUpperCase().replace(/[- ]/g, '_'),
+    title: it.title, url: enlace || `https://himalayas.app/jobs`,
+    description: htmlATexto(it.description || it.excerpt).slice(0, 4000), empresa: it.companyName || '',
+    budget: formatoDinero(it.minSalary ?? null, it.maxSalary ?? null, it.currency || 'USD', periodo),
+    ubicacion: ubic.length ? ubic : '', remoto: true, publicadaTs: aTs(it.pubDate || it.publishedAt), categorias: cats,
+    textoEncaje: `${it.title} ${cats.join(' ')} ${it.seniority ? [].concat(it.seniority).join(' ') : ''}`, filtrarUbicacion: true,
+  };
+}
+async function sourceHimalayas(state) {
+  state.turnos = state.turnos || {};
+  const turno = state.turnos.himalayas || 0;
+  const palabras = Array.from({ length: HIMALAYAS_BUSQUEDAS_POR_CONSULTA }, (_, k) => HIMALAYAS_PALABRAS[(turno + k) % HIMALAYAS_PALABRAS.length]);
+  state.turnos.himalayas = (turno + HIMALAYAS_BUSQUEDAS_POR_CONSULTA) % HIMALAYAS_PALABRAS.length;
+  const jobs = new Map();
+  const vias = [];
+  const fails = [];
+  let algunaOk = false;
+  // Las palabras van rotando: la primera vez que se usa una, sus resultados son
+  // «línea base» (se registran sin avisar), como una fuente nueva.
+  state.turnos.himalayasEstrenadas = state.turnos.himalayasEstrenadas || [];
+  for (const p of palabras) {
+    const url = `https://himalayas.app/jobs/api/search?keyword=${encodeURIComponent(p)}&sort=recent&page=1`;
+    const r = await fetchJson(url);
+    vias.push(`${p}: ${r.via}`);
+    fails.push(...r.fails);
+    const lista = listaDe(r.data, 'jobs', 'data', 'results');
+    const estreno = !state.turnos.himalayasEstrenadas.includes(p);
+    if (tieneLista(r.data, 'jobs', 'data', 'results')) {
+      algunaOk = true;
+      if (estreno) state.turnos.himalayasEstrenadas.push(p);
+    }
+    for (const it of lista) {
+      const j = it && himalayasOferta(it);
+      if (!j) continue;
+      if (estreno && !jobs.has(j.id)) j.lineaBase = true;
+      if (!estreno && jobs.has(j.id)) jobs.get(j.id).lineaBase = false;
+      if (!jobs.has(j.id) || !estreno) jobs.set(j.id, j);
+    }
+  }
+  return { jobs: [...jobs.values()], via: vias.join(' · '), fails, ok: algunaOk };
+}
+
+// cadaMs: además de cada N pasadas, como mucho una consulta cada X ms (normas de cada web).
 const SOURCES = [
   { key: 'behance', name: 'Behance', fetch: sourceBehance, cada: 1 },
   { key: 'wwr', name: 'We Work Remotely', fetch: sourceWeWorkRemotely, cada: OTRAS_FUENTES_CADA },
   { key: 'remoteok', name: 'Remote OK', fetch: sourceRemoteOK, cada: OTRAS_FUENTES_CADA },
+  { key: 'remotive', name: 'Remotive', fetch: sourceRemotive, cada: OTRAS_FUENTES_CADA, cadaMs: REMOTIVE_CADA_MS },
+  { key: 'jobicy', name: 'Jobicy', fetch: sourceJobicy, cada: OTRAS_FUENTES_CADA, cadaMs: JOBICY_CADA_MS },
+  { key: 'himalayas', name: 'Himalayas', fetch: sourceHimalayas, cada: OTRAS_FUENTES_CADA, cadaMs: HIMALAYAS_CADA_MS },
 ];
 
 // ─────────────────────────────── Telegram ───────────────────────────────
@@ -645,7 +816,7 @@ const ETIQUETA = {
 function mensajeTelegram(job, enc, lineaRevision) {
   const datos = [
     job.budget && `💰 ${esc(job.budget)}`,
-    job.remoto === true ? '🌍 Remoto' : job.remoto === false ? `📍 Presencial${job.ubicacion ? ' · ' + esc(job.ubicacion) : ''}` : (job.ubicacion ? `📍 ${esc(job.ubicacion)}` : ''),
+    job.remoto === true ? `🌍 Remoto${job.filtrarUbicacion && job.ubicacion && String(job.ubicacion).trim() ? ' · ' + esc([].concat(job.ubicacion).join(', ')) : ''}` : job.remoto === false ? `📍 Presencial${job.ubicacion ? ' · ' + esc(job.ubicacion) : ''}` : (job.ubicacion ? `📍 ${esc(job.ubicacion)}` : ''),
     job.solicitantes != null && `👥 ${job.solicitantes} solicitantes`,
     job.cierraEnDias != null && `⏳ cierra en ${job.cierraEnDias} d`,
   ].filter(Boolean).join(' · ');
@@ -770,6 +941,26 @@ async function publicarCola(items) {
   return r === 'ok' ? `publicada-${n}` : r === 'sin-cambios' ? 'ya-estaban' : r;
 }
 
+// Ofertas que encajan de las webs que NO son Behance → mundo.json (mismo esquema
+// que ofertas.json + «fuente»). La lee la tarea «Revisión de empleo LinkedIn (cada hora)».
+// ofertas.json no se toca: las tareas de Behance dependen de él.
+function ofertaParaMundo(job, enc) {
+  const o = ofertaParaCola(job, enc);
+  return { ...o, ubicacion: [].concat(job.ubicacion || []).join(', '), descripcion: o.descripcion.slice(0, MUNDO_DESC_MAX), fuente: job.sourceKey };
+}
+async function publicarMundo(items) {
+  if (!items.length) return 'vacia';
+  let n = 0;
+  const r = await actualizarArchivoCola(MUNDO_ARCHIVO, (previo) => {
+    const previas = (previo && previo.ofertas) || [];
+    const nuevas = items.map(({ job, enc }) => ofertaParaMundo(job, enc)).filter((o) => !previas.some((p) => p.id === o.id && p.fuente === o.fuente));
+    n = nuevas.length;
+    if (!n) return null;
+    return { actualizado: new Date().toISOString(), ofertas: [...nuevas, ...previas].slice(0, COLA_MAX) };
+  }, `mundo: ${items.length} oferta(s) nueva(s) de webs de empleo remoto`);
+  return r === 'ok' ? `publicada-${n}` : r === 'sin-cambios' ? 'ya-estaban' : r;
+}
+
 // Salud del vigilante para la tarea de Claude (y para diagnosticar sin logs).
 async function publicarEstado(state, extra = {}) {
   const hoy = new Date().toISOString().slice(0, 10);
@@ -781,7 +972,7 @@ async function publicarEstado(state, extra = {}) {
     proxyBehance: state.proxyBehance || null,
     pasadas: state.pasada || 0,
     hoy: { fecha: hoy, ...(state.stats && state.stats.fecha === hoy ? state.stats : {}) },
-    fuentes: Object.fromEntries(SOURCES.map((s) => [s.key, { fallosSeguidos: state.sourceFails[s.key] || 0, pausadaHasta: state.sourceSkip[s.key] ? new Date(state.sourceSkip[s.key]).toISOString() : null }])),
+    fuentes: Object.fromEntries(SOURCES.map((s) => [s.key, { fallosSeguidos: state.sourceFails[s.key] || 0, pausadaHasta: state.sourceSkip[s.key] ? new Date(state.sourceSkip[s.key]).toISOString() : null, ultimaConsulta: state.ultimaConsulta && state.ultimaConsulta[s.key] ? new Date(state.ultimaConsulta[s.key]).toISOString() : null }])),
     ...extra,
   }), 'estado: salud del vigilante');
   if (r === 'ok') state.estadoPublicado = Date.now();
@@ -836,7 +1027,7 @@ async function fireRoutine(job, state) {
 // Estado: { v:2, seen:[ids], initialized:[fuentes], blindSince, blindNotified, … }.
 // Compatibilidad: si seen.json es un array antiguo, son ids de Behance ya vistos.
 function estadoVacio() {
-  return { seen: new Set(), initialized: new Set(), blindSince: 0, blindNotified: false, sourceFails: {}, sourceSkip: {}, routineFires: [], pasada: 0, proxyBehance: null, ultimaPasadaConDatos: 0, estadoPublicado: 0, stats: null, migradoV3: false, sonda: null, listasFallos: 0, listasPausaHasta: 0 };
+  return { seen: new Set(), initialized: new Set(), blindSince: 0, blindNotified: false, sourceFails: {}, sourceSkip: {}, routineFires: [], pasada: 0, proxyBehance: null, ultimaPasadaConDatos: 0, estadoPublicado: 0, stats: null, migradoV3: false, sonda: null, listasFallos: 0, listasPausaHasta: 0, ultimaConsulta: {}, turnos: {} };
 }
 function loadState() {
   try {
@@ -863,6 +1054,8 @@ function loadState() {
       sonda: raw.sonda || null,
       listasFallos: raw.listasFallos || 0,
       listasPausaHasta: raw.listasPausaHasta || 0,
+      ultimaConsulta: raw.ultimaConsulta || {},
+      turnos: raw.turnos || {},
     };
   } catch {
     return null; // primera ejecución
@@ -890,12 +1083,14 @@ function saveState(state) {
     sonda: state.sonda || null,
     listasFallos: state.listasFallos || 0,
     listasPausaHasta: state.listasPausaHasta || 0,
+    ultimaConsulta: state.ultimaConsulta || {},
+    turnos: state.turnos || {},
   }));
 }
 
 function contar(state, clave) {
   const hoy = new Date().toISOString().slice(0, 10);
-  if (!state.stats || state.stats.fecha !== hoy) state.stats = { fecha: hoy, nuevas: 0, alto: 0, medio: 0, bajo: 0, no: 0, enCola: 0 };
+  if (!state.stats || state.stats.fecha !== hoy) state.stats = { fecha: hoy, nuevas: 0, alto: 0, medio: 0, bajo: 0, no: 0, enCola: 0, enMundo: 0 };
   state.stats[clave] = (state.stats[clave] || 0) + 1;
 }
 
@@ -937,7 +1132,24 @@ async function diagnostico() {
   const rafaga = await enParalelo(Array.from({ length: 12 }, (_, k) => 561605 + 2 * k), SONDA_CONCURRENCIA, (id) => probarId(SONDA_TIPOS[0], id));
   const resumenRafaga = { ms: Date.now() - t0, resultados: rafaga.map((x) => x.r + (x.via ? ' ' + x.via : '')) };
   console.log('ráfaga:', JSON.stringify(resumenRafaga));
-  const pub = await actualizarArchivoCola('diagnostico.json', () => ({ version: VERSION, fecha: new Date().toISOString(), resultados, sonda, rafaga: resumenRafaga }), 'diagnóstico de proxies y sonda');
+  // Webs de empleo remoto mundial: una consulta de prueba por fuente (sin avisar).
+  const mundo = [];
+  const estadoPrueba = { turnos: {} };
+  for (const src of SOURCES.filter((x) => x.key !== 'behance')) {
+    const t1 = Date.now();
+    let r;
+    try { r = await src.fetch(estadoPrueba); } catch (e) { r = { jobs: [], via: `excepción ${e.message}`, fails: [] }; }
+    const evaluadas = r.jobs.map((j) => ({ j, e: encaje(j) }));
+    const niveles = evaluadas.reduce((acc, { e }) => ({ ...acc, [e.nivel]: (acc[e.nivel] || 0) + 1 }), {});
+    const fila = {
+      fuente: src.key, ok: r.ok != null ? r.ok : r.jobs.length > 0, ofertas: r.jobs.length, ms: Date.now() - t1, via: String(r.via).slice(0, 300), fallos: (r.fails || []).slice(0, 6),
+      niveles, ejemplos: evaluadas.filter(({ e }) => e.nivel === 'alto' || e.nivel === 'medio').slice(0, 5).map(({ j, e }) => `[${e.nivel}] ${j.title} · ${[].concat(j.ubicacion || []).join(', ')}`),
+      ubicaciones: [...new Set(r.jobs.map((j) => [].concat(j.ubicacion || []).join(', ')))].slice(0, 15),
+    };
+    mundo.push(fila);
+    console.log(`mundo ${src.key}: ${fila.ok ? 'OK' : 'MAL'} · ${fila.ofertas} ofertas · ${fila.ms} ms · ${JSON.stringify(niveles)} · ${fila.via.slice(0, 120)}`);
+  }
+  const pub = await actualizarArchivoCola('diagnostico.json', () => ({ version: VERSION, fecha: new Date().toISOString(), resultados, sonda, rafaga: resumenRafaga, mundo }), 'diagnóstico de proxies, sonda y webs mundiales');
   console.log(`Diagnóstico publicado en la rama cola: ${pub}`);
 }
 
@@ -966,6 +1178,8 @@ async function main() {
   for (const src of SOURCES) {
     // Las fuentes lentas se consultan cada N pasadas (siempre en la primera de un ciclo).
     if (src.cada > 1 && state.pasada % src.cada !== 1 && !firstRun) continue;
+    state.ultimaConsulta = state.ultimaConsulta || {};
+    if (src.cadaMs && !firstRun && ahora - (state.ultimaConsulta[src.key] || 0) < src.cadaMs) continue;
     if ((state.sourceSkip[src.key] || 0) > ahora) {
       const min = Math.round((state.sourceSkip[src.key] - ahora) / 60000);
       console.log(`${src.name}: en pausa ${min} min (lleva ${state.sourceFails[src.key]} fallos seguidos).`);
@@ -983,6 +1197,9 @@ async function main() {
     const okFuente = result.ok != null ? result.ok : jobs.length > 0;
     if (okFuente) algunaOk = true;
     console.log(`${src.name}: ${jobs.length} ofertas (vía ${via})${fails && fails.length ? ' · fallos: ' + fails.join(' | ') : ''}`);
+    // Webs con ritmo propio: si va bien, la próxima consulta toca dentro de cadaMs;
+    // si falla, se reintenta a los 30 min (sin pasarse de su límite de consultas).
+    if (src.cadaMs) state.ultimaConsulta[src.key] = okFuente ? ahora : ahora - src.cadaMs + Math.min(FALLO_REINTENTO_MS, src.cadaMs);
     if (okFuente) {
       state.sourceFails[src.key] = 0;
       state.sourceSkip[src.key] = 0;
@@ -1042,13 +1259,18 @@ async function main() {
   const newJobs = [];
   let baselined = 0;
   for (const job of all.values()) {
-    if (state.seen.has(job.id)) continue;
+    // Las que se vuelven a ver pasan al final de la memoria, para que no se
+    // «olviden» (y se avisen otra vez) mientras siguen publicadas.
+    if (state.seen.has(job.id)) { state.seen.delete(job.id); state.seen.add(job.id); continue; }
     const reciente = job.publicadaTs && Date.now() - job.publicadaTs < ESTRENO_AVISAR_HORAS * 3600000;
     const enEstreno = (estrenoV3 && job.sourceKey === 'behance') || job.estrenoSonda;
     // Huecos por detrás del frente: si la oferta es de hace más de 6 h, se registra
     // sin avisar (no es nueva; solo se nos había escapado antes).
     const huecoAntiguo = job.porHueco && job.publicadaTs && Date.now() - job.publicadaTs > 6 * 3600000;
-    const sourceReady = !firstRun && state.initialized.has(job.sourceKey) && (!enEstreno || (job.porSonda && reciente)) && !huecoAntiguo;
+    // Webs mundiales: lo publicado hace más de 4 días o de una búsqueda que se estrena
+    // no es «nuevo»: se registra sin avisar.
+    const mundoViejo = job.sourceKey !== 'behance' && (job.lineaBase || (job.publicadaTs && Date.now() - job.publicadaTs > MUNDO_EDAD_MAX_MS));
+    const sourceReady = !firstRun && state.initialized.has(job.sourceKey) && (!enEstreno || (job.porSonda && reciente)) && !huecoAntiguo && !mundoViejo;
     if (sourceReady) newJobs.push(job);
     else { state.seen.add(job.id); baselined++; }
   }
@@ -1058,18 +1280,36 @@ async function main() {
 
   console.log(`${newJobs.length} oferta(s) nueva(s) de ${all.size} vigiladas (pasada ${state.pasada}, proxy ${state.proxyBehance || '—'}).`);
   const paraCola = [];
+  const paraMundo = [];
+  const avisosFuente = {};
   for (const job of newJobs) {
     // Se marca como vista aunque luego la descarten los filtros: si no, cada
     // pasada volvería a analizarla (y a abrir su página en Behance).
     state.seen.add(job.id);
     contar(state, 'nuevas');
     if (job.enrich) await enrichBehance(job);
-    if (job.gated || !passesFilters(job.title, job.description)) {
+    if (job.gated || !passesFilters(job.title, job.textoEncaje != null ? job.textoEncaje : job.description)) {
       console.log(`  Descartada por filtros [${job.source}]: ${job.title}`);
       continue;
     }
     const enc = encaje(job);
     contar(state, enc.nivel);
+    const esBehance = job.sourceKey === 'behance';
+    // Webs que no son Behance: solo se avisan (y se guardan en mundo.json) las que
+    // encajan; el resto se marca como vista sin mensaje, para no llenar Telegram.
+    if (!esBehance && !NIVELES_A_COLA.includes(enc.nivel)) {
+      console.log(`  Sin aviso [${job.source}] [${enc.nivel}${enc.motivos && enc.motivos.length ? ': ' + enc.motivos.join(', ') : ''}]: ${job.title}`);
+      continue;
+    }
+    if (!esBehance) {
+      paraMundo.push({ job, enc });
+      contar(state, 'enMundo');
+      avisosFuente[job.sourceKey] = (avisosFuente[job.sourceKey] || 0) + 1;
+      if (avisosFuente[job.sourceKey] > MUNDO_AVISOS_MAX_POR_FUENTE) {
+        console.log(`  Solo a mundo.json (tope de ${MUNDO_AVISOS_MAX_POR_FUENTE} avisos de ${job.source} por pasada): ${job.title}`);
+        continue;
+      }
+    }
     const aClaude = ROUTINE_SOURCES.includes(job.sourceKey) && NIVELES_A_COLA.includes(enc.nivel);
     const revision = aClaude ? await fireRoutine(job, state) : 'no-aplica';
     if (aClaude) { paraCola.push({ job, enc }); contar(state, 'enCola'); }
@@ -1077,13 +1317,15 @@ async function main() {
       lanzada: '🤖 Revisión automática en marcha: si encaja, la contesto y te aviso.',
       'limite-hora': '⏸ Revisión automática en pausa (más de 20 en 1 h): revísala tú.',
     }[revision] || (revision.startsWith('error') ? `⚠️ No se pudo lanzar la revisión automática (${revision}).` : '')
-      || (aClaude ? '🤖 En cola: la reviso en la próxima hora y, si encaja, la contesto.' : '');
+      || (aClaude ? '🤖 En cola: la reviso en la próxima hora y, si encaja, la contesto.' : '')
+      || (!esBehance ? '🗂 Guardada en la lista mundial: la reviso en la próxima pasada de cada hora.' : '');
     // Las que no encajan llegan en silencio (sin sonido) para no molestar.
     const silencioso = enc.nivel === 'bajo' || enc.nivel === 'no';
     const ok = await sendTelegram(mensajeTelegram(job, enc, lineaRevision), { silencioso, html: true });
     console.log(`  ${ok ? 'Enviada a Telegram' : 'ERROR Telegram'} [${job.source}] [${enc.nivel}] (revisión: ${revision}): ${job.title}`);
   }
   if (paraCola.length) console.log(`Cola de revisión: ${await publicarCola(paraCola)}.`);
+  if (paraMundo.length) console.log(`Lista mundial (mundo.json): ${await publicarMundo(paraMundo)}.`);
   if (Date.now() - (state.estadoPublicado || 0) > ESTADO_CADA_MS) console.log(`Estado publicado: ${await publicarEstado(state)}.`);
 
   saveState(state);
@@ -1093,4 +1335,4 @@ if (require.main === module) {
   main().catch((e) => { console.error(e); process.exit(1); });
 }
 
-module.exports = { main, encaje, idioma, buildProposal, extractBehanceJobs, behanceEstado, nodoAOferta, enrichBehance, mensajeTelegram, publicarCola, publicarEstado, routineText, fireRoutine, passesFilters, formatoDinero };
+module.exports = { main, encaje, idioma, buildProposal, extractBehanceJobs, behanceEstado, nodoAOferta, enrichBehance, mensajeTelegram, publicarCola, publicarEstado, publicarMundo, routineText, fireRoutine, passesFilters, formatoDinero, ubicacionPermitida, sourceRemotive, sourceJobicy, sourceHimalayas, himalayasOferta, SOURCES };

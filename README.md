@@ -5,6 +5,16 @@ cada ~5 min), puntúa si cada oferta nueva encaja con los servicios de Leo y la
 envía a Telegram con una propuesta honesta lista para copiar. Funciona aunque el
 PC esté apagado.
 
+## Novedades de la v3.1 (31/10/2026): empleo remoto en todo el mundo
+- Nuevas webs: **Remotive** (API pública, 1 consulta cada 6 h: pide máx. 4 al día),
+  **Jobicy** (1 por hora) e **Himalayas** (3 búsquedas rotando cada 2 h). Se estrenan
+  en silencio; en estas webs el encaje se decide por el título y la categoría, y se
+  descarta lo que solo admite residentes fuera de la UE (EE. UU., UK, Canadá…).
+- De las webs que no son Behance solo llegan a Telegram las 🔥/✅ (máx. 8 por web y
+  pasada), y se guardan en **`mundo.json`** (rama `cola`; mismo esquema que
+  `ofertas.json` + `fuente`). La lee la tarea «Revisión de empleo LinkedIn (cada hora)».
+  `ofertas.json` (Behance) no cambia.
+
 ## Novedades de la v3 (31/10/2026)
 - **Detección al momento con la «sonda de IDs»:** desde GitHub, Behance bloquea las
   listas (/joblist) y los proxies fallan a menudo, pero las fichas de oferta se
@@ -36,6 +46,7 @@ Plataformas vigiladas:
 - **Behance** — [Job Board](https://www.behance.net/joblist) (portada + 9 búsquedas).
 - **We Work Remotely** — feed RSS de la categoría de diseño remoto.
 - **Remote OK** — API JSON pública.
+- **Remotive**, **Jobicy** e **Himalayas** — APIs públicas de empleo remoto mundial (v3.1).
 
 ## Cómo funciona
 - `vigilante.js` — cada fuente del array `SOURCES` aporta sus ofertas; el resto

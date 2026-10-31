@@ -139,6 +139,12 @@ lo conviertas en un aviso por pasada: sería spam cada 3 minutos.
   una sola vez al estrenar la v3), `estado.json` en la rama `cola` cada 30 min.
   Diagnóstico: `DIAGNOSTICO=1 node vigilante.js` (workflow «Diagnóstico de proxies»).
 
+- v3.1: **webs mundiales** `remotive`, `jobicy`, `himalayas` (prefijos `rmt:`, `jcy:`,
+  `hml:`). Además de `cada`, tienen `cadaMs` (normas de cada API: Remotive ≤ 4/día,
+  Jobicy ≤ 1/h) con `state.ultimaConsulta`. Encaje por `job.textoEncaje` (título +
+  categorías) y `ubicacionPermitida` (`filtrarUbicacion`). Las alto/medio de fuentes
+  no Behance van a `mundo.json` (rama `cola`, `publicarMundo`), que lee la tarea
+  «Revisión de empleo LinkedIn (cada hora)»; bajo/no no se avisan. `ofertas.json` no cambia.
 - `SOURCES` — plataformas vigiladas (añadir/quitar aquí).
 - `SEARCHES` — términos de búsqueda de Behance (`''` = portada del joblist).
 - `INCLUDE` / `EXCLUDE` — palabras clave para el filtro de relevancia, comunes a
