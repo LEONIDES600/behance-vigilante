@@ -1,6 +1,42 @@
 {
-  "actualizado": "2026-10-31T14:31:08.138Z",
+  "actualizado": "2026-10-31T22:40:00.644Z",
   "ofertas": [
+    {
+      "id": "indg/jobs/automotive-retoucher-talent-pool",
+      "tipo": "FULL_TIME",
+      "titulo": "Automotive Retoucher - Talent pool",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/indg/jobs/automotive-retoucher-talent-pool?utm_source=api",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Netherlands",
+      "empresa": "INDG",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Please note, this listing is not for an immediate open position but for our Talent Pool for Retoucher. \n We are continuously looking to connect with talented and experienced Automotive Retouchers to join our talent pool. We’re interested in hearing from professionals who have a deep passion for creating high-end, photorealistic Automotive imagery - individuals who know how to make every curve, reflection, and surface of a vehicle look stunningly real and emotionally engaging.\n About INDG \n INDG is a technology company specializing in large-scale CGI content creation, digital twin production, and automated content generation at a global scale. Our clients span all consumer product industries: food and beverage, beauty and luxury, personal care, health and hygiene, automotive, healthcare, fa",
+      "vista": "2026-10-31T22:40:00.644Z",
+      "fuente": "himalayas"
+    },
+    {
+      "id": "pole-to-win-international/jobs/motion-capture-mocap-animator",
+      "tipo": "CONTRACTOR",
+      "titulo": "Motion Capture (Mocap) Animator",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/pole-to-win-international/jobs/motion-capture-mocap-animator?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Poland",
+      "empresa": "Pole To Win International",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Position: Motion Capture Animator\n Work structure: Remote, within 6 hours time zone difference to Poland \n Contract duration: 9-12 months\n Start date: As soon as possible\n At Side, we partner with some of the world's leading developers and publishers to solve complex production challenges and help bring exceptional games to life. From concept through live operations, our co-development teams work as trusted extensions of our clients' studios, contributing expertise across design, engineering, art, audio, QA, and production. \n What you will be doing:\n Data Cleaning & Tracking \n Identify, label, and track raw point-cloud data from studio shoots, manually fixing marker swaps or mislabeled tracking points. \n Reconstruct missing data points caused by actor occlusions (e.g., when a limb is hidde",
+      "vista": "2026-10-31T22:40:00.644Z",
+      "fuente": "himalayas"
+    },
     {
       "id": "158206",
       "tipo": "FULL_TIME",
