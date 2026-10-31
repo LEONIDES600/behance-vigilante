@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-10-31T12:08:18.644Z",
+  "actualizado": "2026-10-31T12:13:33.563Z",
   "ofertas": [
+    {
+      "id": "561615",
+      "tipo": "FREELANCE",
+      "titulo": "Coffee Bag Packaging Design",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/561615/Coffee-Bag-Packaging-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a packaging designer to create a coffee bag design, with a budget of $200. The design should be full packaging wrap, dielines are provided.",
+      "vista": "2026-10-31T12:13:33.563Z"
+    },
     {
       "id": "561603",
       "tipo": "FREELANCE",
