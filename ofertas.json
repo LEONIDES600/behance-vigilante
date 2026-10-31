@@ -1,4 +1,22 @@
 {
-  "actualizado": "2026-10-31T11:17:57Z",
-  "ofertas": []
+  "actualizado": "2026-10-31T11:50:10.310Z",
+  "ofertas": [
+    {
+      "id": "561607",
+      "tipo": "FREELANCE",
+      "titulo": "VFX Rotoscoping and Compositing for 45-Second Character Videos",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/561607/VFX-Rotoscoping-and-Compositing-for-45-Second-Character-Videos",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need VFX artists to rotoscope and composite high-quality 45-second videos featuring one character across a variety of 3D environments. The environments will be created by VFX artists using Blender, After Effects, and related tools. CGI only; no AI.",
+      "vista": "2026-10-31T11:50:10.310Z"
+    }
+  ]
 }
