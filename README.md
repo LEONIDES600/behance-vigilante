@@ -1,8 +1,30 @@
 # Vigilante de ofertas — Leo Visual (nube)
 
-Revisa varias plataformas de ofertas cada ~3 minutos desde GitHub Actions y envía
-cada oferta nueva a Telegram con una propuesta personalizada lista para copiar y
-pegar. Funciona aunque el PC esté apagado.
+Revisa Behance cada ~1 minuto desde GitHub Actions (We Work Remotely y Remote OK,
+cada ~5 min), puntúa si cada oferta nueva encaja con los servicios de Leo y la
+envía a Telegram con una propuesta honesta lista para copiar. Funciona aunque el
+PC esté apagado.
+
+## Novedades de la v3 (31/10/2026)
+- **Detección al momento:** mira las listas de Behance ordenadas por «lo más
+  reciente» (`sort=recent`, freelance y empleo). Antes miraba la primera página
+  de 10 búsquedas en orden «recomendado», y una oferta nueva podía tardar horas o
+  no salir nunca. Pasadas cada 60 s (antes 180 s) y menos peticiones por pasada.
+- **Datos completos:** lee el estado JSON que Behance incrusta en la página
+  (presupuesto, remoto/presencial, empresa, contacto) y en la ficha
+  (descripción, solicitantes, días hasta el cierre, si se solicita fuera).
+- **Encaje con tus servicios:** 🔥 ENCAJA · ✅ PUEDE ENCAJAR · ⚪ POCO ENCAJE ·
+  ⛔ NO ENCAJA (joyería, arquitectura/CAD, moda, presencial, ≤100 USD…). Las de
+  poco o ningún encaje llegan **en silencio** (sin sonido). Solo las 🔥 y ✅ van a
+  la cola de Claude.
+- **Propuesta honesta** en el idioma de la oferta (español o inglés), con trabajos
+  reales del portfolio; ya no dice «exactamente lo que hago».
+- **Proxy que aprende:** prueba primero el que funcionó la última vez; añadido
+  corsproxy.io y jina en modo HTML.
+- **Salud:** cada 30 min publica `estado.json` en la rama `cola` (última pasada
+  con datos, proxy, contadores del día). Aviso de «vigilante ciego» a los 30 min.
+- **Diagnóstico:** *Actions → Diagnóstico de proxies → Run workflow* prueba cada
+  proxy desde un runner real y deja el resultado en `cola/diagnostico.json`.
 
 Plataformas vigiladas:
 - **Behance** — [Job Board](https://www.behance.net/joblist) (portada + 9 búsquedas).

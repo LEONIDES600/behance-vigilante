@@ -5,9 +5,11 @@ hacer cambios.
 
 ## Qué es este proyecto
 
-**Vigilante de ofertas** para Leo Visual. Un único script de Node.js que corre en
+**Vigilante de ofertas** para Leo Visual (v3, 31/10/2026). Un único script de Node.js que corre en
 GitHub Actions de forma continua (en bucle, con auto-encadenado): revisa cada
-~3 minutos varias plataformas de ofertas —el
+~1 minuto Behance (listas `sort=recent` de freelance y empleo, parseando el estado
+JSON `beconfig-store_state`; la página 2 cada 10 pasadas) y cada ~5 min otras
+plataformas de ofertas —el
 [Job Board de Behance](https://www.behance.net/joblist), el RSS de diseño de
 [We Work Remotely](https://weworkremotely.com/) y la API de
 [Remote OK](https://remoteok.com/)—, detecta ofertas nuevas, las filtra por
@@ -120,6 +122,15 @@ cuando vuelve a haber datos, avisa de la recuperación y reinicia ambos campos. 
 lo conviertas en un aviso por pasada: sería spam cada 3 minutos.
 
 ## Configuración (todo al inicio de `vigilante.js`)
+
+- v3: `BEHANCE_LISTAS` (listas «más recientes»; las `SEARCHES` antiguas solo son
+  respaldo si las listas no devuelven nada), `ENCAJE_ALTO` / `ENCAJE_MEDIO` /
+  `NO_ENCAJA` / `SENIOR` (función `encaje`: niveles alto, medio, bajo, no; bajo y
+  no llegan en silencio y no van a la cola), `LINEAS_TEMA` + `buildProposal`
+  (propuesta honesta en español o inglés: solo trabajos reales de Leo; nunca
+  años, premios ni «exactamente lo que hago»), `migradoV3` (línea base silenciosa
+  una sola vez al estrenar la v3), `estado.json` en la rama `cola` cada 30 min.
+  Diagnóstico: `DIAGNOSTICO=1 node vigilante.js` (workflow «Diagnóstico de proxies»).
 
 - `SOURCES` — plataformas vigiladas (añadir/quitar aquí).
 - `SEARCHES` — términos de búsqueda de Behance (`''` = portada del joblist).

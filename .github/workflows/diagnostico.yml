@@ -1,0 +1,25 @@
+name: Diagnóstico de proxies
+
+# Prueba, desde un runner real, cada proxy de lectura contra las listas de
+# Behance y una ficha de oferta, y publica el resultado en la rama «cola»
+# (diagnostico.json). No avisa por Telegram ni toca el estado del vigilante.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  diagnostico:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Probar proxies
+        env:
+          DIAGNOSTICO: '1'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node vigilante.js

@@ -35,12 +35,12 @@ jobs:
           restore-keys: |
             seen-
 
-      # Una sola ejecución vigila durante ~5,5 h, revisando cada 3 min todas las
-      # fuentes (Behance, We Work Remotely, Remote OK). Así basta con que el cron
-      # arranque unas pocas veces al día para cubrir el día casi entero, y avisa a
-      # los pocos minutos de cada nueva oferta. La protección de 'concurrency'
-      # evita que se solapen o acumulen ejecuciones.
-      - name: Revisar plataformas en bucle (~5,5 h, cada 3 min)
+      # Una sola ejecución vigila durante ~5,5 h. Desde la v3 (31/10/2026) cada
+      # pasada mira las listas de Behance ordenadas por «lo más reciente» y espera
+      # 60 s hasta la siguiente: una oferta nueva llega a Telegram en 1–2 min.
+      # We Work Remotely y Remote OK se miran cada 5 pasadas. La protección de
+      # 'concurrency' evita que se solapen o acumulen ejecuciones.
+      - name: Revisar plataformas en bucle (~5,5 h, cada ~1 min)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -59,7 +59,7 @@ jobs:
             i=$((i+1))
             echo "── Pasada $i ($(date -u +%H:%M:%S) UTC) ──"
             node vigilante.js || echo "Pasada $i fallida; se reintenta en la siguiente."
-            sleep 180
+            sleep 60
           done
           echo "Fin del ciclo de vigilancia tras $i pasadas."
 
