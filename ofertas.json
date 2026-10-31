@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-10-31T12:13:33.563Z",
+  "actualizado": "2026-10-31T12:14:38.240Z",
   "ofertas": [
+    {
+      "id": "561617",
+      "tipo": "FREELANCE",
+      "titulo": "Website for a Pharmacy ",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/561617/Website-for-a-Pharmacy-",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Quote request: pharmacy website and app\nOct 31, 2026 · @Michael Stander\nI'd like a quote to build a website and installable phone app (PWA) for a small independent\npharmacy. It has an online shop, prescription uploads, deliveries with drivers, and a staff\ndashboard. The features are listed below; the last section says what the quote should\ninclude.\nCustomer side\n1. Online shop with categories, search, product photos and specials.\n2. Product rules: some medicines can't be sold online or put on special; scheduled\nmedicines need a prescription.\n3. Cart and checkout with three options: delivery, collection at the counter, and drivethrough.\n4. Delivery address picked on a map, with a maximum distance from the pharmacy, a\ndelivery fee and a free-delivery minimum.\n5. Customer accounts: profile, order history and order status.\n6. Customers can cancel an order themselves.\n7. Prescription upload (photo or PDF), stored securely.\n8. Bookings for clinic times (for example vaccinations).\n9. Reminder",
+      "vista": "2026-10-31T12:14:38.240Z"
+    },
     {
       "id": "561615",
       "tipo": "FREELANCE",
