@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-10-31T16:39:06.034Z",
+  "actualizado": "2026-10-31T18:25:58.578Z",
   "ofertas": [
+    {
+      "id": "561807",
+      "tipo": "FREELANCE",
+      "titulo": "Static Ad Concept Design With Creative Strategist",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/561807/Static-Ad-Concept-Design-With-Creative-Strategist",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Team seeking a DR graphic designer",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a DR graphic designer to collaborate with our in-house creative strategist and produce 20–30 static advertising concepts each month.",
+      "vista": "2026-10-31T18:25:58.578Z"
+    },
     {
       "id": "561777",
       "tipo": "FREELANCE",
