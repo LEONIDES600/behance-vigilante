@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-10-31T20:18:48.186Z",
+  "actualizado": "2026-10-31T20:19:51.256Z",
   "ofertas": [
+    {
+      "id": "561835",
+      "tipo": "FREELANCE",
+      "titulo": "Actualización De Marca Minimalista",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/561835/Actualizacion-De-Marca-Minimalista",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Busco un servicio de refresh o actualización para una marca existente. Ya cuento con un logotipo y una etiqueta base que me gustan, pero necesito un rediseño profesional para limpiarlos, vectorizarlos y elevar su aspecto visual, adaptándolos perfectamente al formato físico de una botella/vial de 60 ml con un enfoque minimalista y premium.",
+      "vista": "2026-10-31T20:19:51.256Z"
+    },
     {
       "id": "561833",
       "tipo": "FREELANCE",
