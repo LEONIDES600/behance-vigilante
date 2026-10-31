@@ -1,17 +1,17 @@
 {
   "version": "v3.1 · 31/10/2026",
-  "actualizado": "2026-10-31T15:24:16.730Z",
-  "ultimaPasadaConDatos": "2026-10-31T15:24:16.093Z",
+  "actualizado": "2026-10-31T15:54:34.785Z",
+  "ultimaPasadaConDatos": "2026-10-31T15:54:34.286Z",
   "ciegoDesde": null,
   "proxyBehance": "jina",
-  "pasadas": 200,
+  "pasadas": 229,
   "hoy": {
     "fecha": "2026-10-31",
-    "nuevas": 75,
+    "nuevas": 76,
     "alto": 4,
     "medio": 5,
     "bajo": 0,
-    "no": 29,
+    "no": 30,
     "enCola": 8,
     "enMundo": 1
   },
@@ -39,7 +39,7 @@
     "jobicy": {
       "fallosSeguidos": 0,
       "pausadaHasta": null,
-      "ultimaConsulta": "2026-10-31T14:31:01.128Z"
+      "ultimaConsulta": "2026-10-31T15:35:44.355Z"
     },
     "himalayas": {
       "fallosSeguidos": 0,
