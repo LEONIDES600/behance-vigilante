@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-10-31T21:56:35.785Z",
+  "actualizado": "2026-10-31T22:03:25.559Z",
   "ofertas": [
+    {
+      "id": "561871",
+      "tipo": "FREELANCE",
+      "titulo": "Logo Design for a Business",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/561871/Logo-Design-for-a-Business",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Portarc",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a professional logo designed for my business, with a budget of $100–$200. The logo should provide a clear visual identity suitable for business use.",
+      "vista": "2026-10-31T22:03:25.559Z"
+    },
     {
       "id": "561869",
       "tipo": "FREELANCE",
