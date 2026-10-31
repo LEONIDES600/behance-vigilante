@@ -408,7 +408,9 @@ async function enrichBehance(job) {
 // Resultado de probar un ID: 'oferta' (con el job ya completado), 'no' (redirección
 // o 404: no existe o es un borrador) o 'error' (bloqueo, 5xx, red).
 async function probarId(tipo, id) {
-  const url = `https://www.behance.net/joblist/${tipo.ruta}/${id}/`;
+  // Con un slug cualquiera («x»): sin slug, Behance redirige a la URL canónica y
+  // se confundiría con un ID inexistente (que también redirige).
+  const url = `https://www.behance.net/joblist/${tipo.ruta}/${id}/x`;
   try {
     const res = await fetch(url, { redirect: 'manual', headers: { 'User-Agent': UA, 'Accept-Language': 'en-US,en;q=0.9' }, signal: AbortSignal.timeout(15000) });
     if (res.status >= 300 && res.status < 400) return { r: 'no' };
