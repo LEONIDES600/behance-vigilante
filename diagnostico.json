@@ -1,0 +1,156 @@
+{
+  "version": "v3 · 31/10/2026",
+  "fecha": "2026-10-31T11:35:38.710Z",
+  "resultados": [
+    {
+      "url": "https://www.behance.net/joblist?jobType=freelance&sort=recent",
+      "proxy": "codetabs",
+      "ok": false,
+      "via": "codetabs HTTP 522",
+      "ms": 19880,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
+    },
+    {
+      "url": "https://www.behance.net/joblist?jobType=freelance&sort=recent",
+      "proxy": "corsproxy",
+      "ok": false,
+      "via": "corsproxy HTTP 401",
+      "ms": 127,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
+    },
+    {
+      "url": "https://www.behance.net/joblist?jobType=freelance&sort=recent",
+      "proxy": "allorigins",
+      "ok": false,
+      "via": "allorigins HTTP 522",
+      "ms": 19580,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
+    },
+    {
+      "url": "https://www.behance.net/joblist?jobType=freelance&sort=recent",
+      "proxy": "jina",
+      "ok": false,
+      "via": "jina HTTP 422",
+      "ms": 460,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
+    },
+    {
+      "url": "https://www.behance.net/joblist?jobType=freelance&sort=recent",
+      "proxy": "directo",
+      "ok": false,
+      "via": "directo HTTP 403",
+      "ms": 169,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
+    },
+    {
+      "url": "https://www.behance.net/joblist?jobType=fulltime&jobType=contract&sort=recent",
+      "proxy": "codetabs",
+      "ok": false,
+      "via": "codetabs HTTP 522",
+      "ms": 19638,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
+    },
+    {
+      "url": "https://www.behance.net/joblist?jobType=fulltime&jobType=contract&sort=recent",
+      "proxy": "corsproxy",
+      "ok": false,
+      "via": "corsproxy HTTP 401",
+      "ms": 68,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
+    },
+    {
+      "url": "https://www.behance.net/joblist?jobType=fulltime&jobType=contract&sort=recent",
+      "proxy": "allorigins",
+      "ok": false,
+      "via": "allorigins HTTP 500",
+      "ms": 3518,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
+    },
+    {
+      "url": "https://www.behance.net/joblist?jobType=fulltime&jobType=contract&sort=recent",
+      "proxy": "jina",
+      "ok": false,
+      "via": "jina no válido (416 B)",
+      "ms": 396,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
+    },
+    {
+      "url": "https://www.behance.net/joblist?jobType=fulltime&jobType=contract&sort=recent",
+      "proxy": "directo",
+      "ok": false,
+      "via": "directo HTTP 403",
+      "ms": 106,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
+    },
+    {
+      "url": "https://www.behance.net/joblist/freelance/561599/x",
+      "proxy": "codetabs",
+      "ok": false,
+      "via": "codetabs HTTP 522",
+      "ms": 19417,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
+    },
+    {
+      "url": "https://www.behance.net/joblist/freelance/561599/x",
+      "proxy": "corsproxy",
+      "ok": false,
+      "via": "corsproxy HTTP 401",
+      "ms": 68,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
+    },
+    {
+      "url": "https://www.behance.net/joblist/freelance/561599/x",
+      "proxy": "allorigins",
+      "ok": false,
+      "via": "allorigins HTTP 500",
+      "ms": 121,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
+    },
+    {
+      "url": "https://www.behance.net/joblist/freelance/561599/x",
+      "proxy": "jina",
+      "ok": false,
+      "via": "jina HTTP 422",
+      "ms": 447,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
+    },
+    {
+      "url": "https://www.behance.net/joblist/freelance/561599/x",
+      "proxy": "directo",
+      "ok": true,
+      "via": "directo",
+      "ms": 699,
+      "conEstado": true,
+      "ofertas": 1,
+      "ejemplo": "{\"additionalDetails\":\"####\",\"applicantCount\":0,\"appliedOnDate\":null,\"isSaved\":false,\"title\":\"Création D’Un Maillot De Football\",\"budgetMax\":10000,\"budgetMin\":500,\"categories\":[{\"id\":20,\"name\":\"T-Shirt & Merchandise\"}],\"candidateInfo\":\"####\",\"company\":\"NASEEB \",\"companyLogo\":null,\"companyUrl\":\"https:"
+    }
+  ]
+}
