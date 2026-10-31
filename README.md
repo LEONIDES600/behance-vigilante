@@ -33,12 +33,14 @@ Plataformas vigiladas:
   `DISPATCH_PAT` (token personal para el auto-encadenado; ver más abajo) y
   `CLAUDE_ROUTINE_TOKEN` (revisión automática; ver más abajo).
 - **Revisión automática (desde el 31/10/2026):** cada oferta nueva de **Behance**
-  que pasa los filtros lanza la tarea de Claude «Respuesta a ofertas del bot
-  Behance» (`CLAUDE_ROUTINE_ID` en el workflow). La tarea abre la oferta en el
-  navegador del ordenador de Leo, decide si encaja con sus servicios, solicita
-  los empleos que encajan y, en los freelance, prepara la propuesta y pregunta
-  el precio a Leo. El mensaje de Telegram lo indica («🤖 Revisión automática en
-  marcha»). Máximo 20 lanzamientos por hora; sin el secreto, el bot solo avisa.
+  que pasa los filtros se añade a `ofertas.json` en la rama **`cola`** (con el
+  token propio del workflow, sin claves extra). La tarea de Claude «Respuesta a
+  ofertas del bot Behance» lee esa cola **cada hora (08:23–23:23, hora de
+  Ámsterdam)**, abre cada oferta en el navegador del ordenador de Leo, decide si
+  encaja con sus servicios, solicita los empleos que encajan y, en los
+  freelance, prepara la propuesta y pregunta el precio a Leo. El mensaje de
+  Telegram lo indica («🤖 En cola»). Opcional: con el secreto
+  `CLAUDE_ROUTINE_TOKEN`, además se lanza la tarea al instante (máximo 20 por hora).
 
 ## El secreto `DISPATCH_PAT` (auto-encadenado)
 Para que el vigilante se relance solo sin depender del cron, necesita un token
@@ -53,7 +55,7 @@ personal con permiso para disparar el workflow:
 
 Sin este secreto el vigilante sigue funcionando, pero depende del cron de respaldo.
 
-## El secreto `CLAUDE_ROUTINE_TOKEN` (revisión automática)
+## El secreto `CLAUDE_ROUTINE_TOKEN` (opcional: revisión al instante)
 1. claude.ai/code/routines → abre «Respuesta a ofertas del bot Behance» →
    *Add another trigger* → **API** → *Generate token*. Cópialo (solo se ve una vez).
 2. Repo → *Settings* → *Secrets and variables* → *Actions* → *New repository

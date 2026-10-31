@@ -44,8 +44,12 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          # Revisión automática con Claude (31/10/2026): la tarea «Respuesta a
-          # ofertas del bot Behance». Sin el secreto, el bot solo avisa por Telegram.
+          # Revisión automática con Claude (31/10/2026). Vía principal: la cola de
+          # ofertas en la rama «cola» (ofertas.json), que se escribe con el token
+          # propio del workflow; la tarea «Respuesta a ofertas del bot Behance» la
+          # lee cada hora. Vía opcional (al instante): si existe el secreto
+          # CLAUDE_ROUTINE_TOKEN, además se lanza la tarea por cada oferta.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CLAUDE_ROUTINE_TOKEN: ${{ secrets.CLAUDE_ROUTINE_TOKEN }}
           CLAUDE_ROUTINE_ID: trig_01VaRvsBniYiH9294MwgaC17
         run: |

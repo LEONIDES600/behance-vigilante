@@ -151,7 +151,15 @@ no hace falta tocar la lógica.
   para que la vigilancia se auto-encadene (ver abajo). Si no existe, el workflow
   sigue funcionando pero depende del cron de respaldo. Permiso necesario: Actions
   read/write sobre este repo (fine-grained) o scopes `repo`+`workflow` (clásico).
-- `CLAUDE_ROUTINE_TOKEN` (secreto del repo) + `CLAUDE_ROUTINE_ID` (fijado en el
+- Cola de revisión (vía principal desde 31/10/2026): `publicarCola` añade cada
+  oferta nueva de Behance que pasa los filtros a `ofertas.json` en la rama `cola`
+  (máx. `COLA_MAX` = 100, las nuevas arriba) con la API de contenidos de GitHub y
+  `GITHUB_TOKEN` (inyectado en el workflow; `GITHUB_REPOSITORY` lo pone Actions).
+  Si la rama no existe, la crea desde main. La tarea de Claude «Respuesta a
+  ofertas del bot Behance» lee `https://raw.githubusercontent.com/LEONIDES600/behance-vigilante/cola/ofertas.json`
+  cada hora: si cambias el formato (`ofertaParaCola`), cambia también su prompt.
+  Un fallo de la cola no tumba el vigilante (se registra y sigue).
+- `CLAUDE_ROUTINE_TOKEN` (secreto opcional del repo) + `CLAUDE_ROUTINE_ID` (fijado en el
   workflow): `fireRoutine` lanza, por cada oferta nueva de Behance que pasa los
   filtros, la tarea de Claude «Respuesta a ofertas del bot Behance» vía
   `POST https://api.anthropic.com/v1/claude_code/routines/{id}/fire` con el texto

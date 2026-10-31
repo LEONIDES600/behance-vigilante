@@ -34,6 +34,14 @@ const BACKOFF_MAX_MS = 60 * 60 * 1000;  // tope: 1 hora
 const ROUTINE_SOURCES = ['behance'];    // de qué fuentes se lanza la revisión
 const ROUTINE_MAX_POR_HORA = 20;        // la API admite 30 por hora y tarea; dejamos margen
 const ROUTINE_DESC_MAX = 6000;          // caracteres de descripción que se mandan
+// Cola de ofertas (desde 31/10/2026, vía principal): cada oferta nueva de Behance
+// que pasa los filtros se añade a ofertas.json en la rama «cola» del repositorio
+// (con el GITHUB_TOKEN del workflow, sin claves extra). La tarea de Claude lee
+// ese archivo cada hora desde raw.githubusercontent.com y contesta las que encajan.
+const COLA_RAMA = 'cola';
+const COLA_ARCHIVO = 'ofertas.json';
+const COLA_MAX = 100;                   // ofertas que se guardan (las más recientes)
+const COLA_DESC_MAX = 1500;
 
 const TOPIC_LINES = [
   { match: /youtube|channel/i, line: 'I produce channel branding and video content for YouTube on a regular basis, so I know exactly what works for thumbnails, banners and channel identity.' },
@@ -271,6 +279,93 @@ async function sendTelegram(text) {
   return res.ok;
 }
 
+// ───────────── Cola de ofertas en la rama «cola» (API de contenidos) ─────────────
+async function ghApi(pathname, opts = {}) {
+  const res = await fetch(`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}${pathname}`, {
+    ...opts,
+    headers: {
+      Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+      Accept: 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28',
+      'User-Agent': 'behance-vigilante',
+      ...(opts.body ? { 'Content-Type': 'application/json' } : {}),
+    },
+    signal: AbortSignal.timeout(30000),
+  });
+  const text = await res.text();
+  let json = null;
+  try { json = text ? JSON.parse(text) : null; } catch { /* respuesta no JSON */ }
+  return { status: res.status, json, text };
+}
+
+// Crea la rama «cola» a partir de main si todavía no existe.
+async function asegurarRamaCola() {
+  const r = await ghApi(`/git/ref/heads/${COLA_RAMA}`);
+  if (r.status === 200) return true;
+  const main = await ghApi('/git/ref/heads/main');
+  if (main.status !== 200) { console.log(`  Cola: no se pudo leer main (${main.status}).`); return false; }
+  const c = await ghApi('/git/refs', { method: 'POST', body: JSON.stringify({ ref: `refs/heads/${COLA_RAMA}`, sha: main.json.object.sha }) });
+  if (c.status !== 201 && c.status !== 422) { console.log(`  Cola: no se pudo crear la rama (${c.status}).`); return false; }
+  return true;
+}
+
+function ofertaParaCola(job) {
+  return {
+    id: String(job.id).split(':').pop(),
+    tipo: job.type,
+    titulo: job.title,
+    presupuesto: job.budget || '',
+    enlace: job.url,
+    descripcion: (job.description || '').slice(0, COLA_DESC_MAX),
+    vista: new Date().toISOString(),
+  };
+}
+
+// Añade las ofertas a ofertas.json (las nuevas arriba). Un fallo aquí no tumba
+// el vigilante: se registra en el log y Telegram sigue funcionando igual.
+async function publicarCola(jobs) {
+  if (!jobs.length) return 'vacia';
+  if (!process.env.GITHUB_TOKEN || !process.env.GITHUB_REPOSITORY) return 'sin-config';
+  try {
+    if (!(await asegurarRamaCola())) return 'error-rama';
+    for (let intento = 1; intento <= 2; intento++) {
+      const actual = await ghApi(`/contents/${COLA_ARCHIVO}?ref=${COLA_RAMA}`);
+      let previas = [];
+      let sha;
+      if (actual.status === 200) {
+        sha = actual.json.sha;
+        try { previas = JSON.parse(Buffer.from(actual.json.content, 'base64').toString('utf8')).ofertas || []; } catch { previas = []; }
+      } else if (actual.status !== 404) {
+        console.log(`  Cola: no se pudo leer ${COLA_ARCHIVO} (${actual.status}).`);
+        return `error-${actual.status}`;
+      }
+      const nuevas = jobs.map(ofertaParaCola).filter((o) => !previas.some((p) => p.id === o.id));
+      if (!nuevas.length) return 'ya-estaban';
+      const ofertas = [...nuevas, ...previas].slice(0, COLA_MAX);
+      const contenido = JSON.stringify({ actualizado: new Date().toISOString(), ofertas }, null, 2);
+      const put = await ghApi(`/contents/${COLA_ARCHIVO}`, {
+        method: 'PUT',
+        body: JSON.stringify({
+          message: `cola: ${nuevas.length} oferta(s) nueva(s) de Behance`,
+          content: Buffer.from(contenido, 'utf8').toString('base64'),
+          branch: COLA_RAMA,
+          ...(sha ? { sha } : {}),
+        }),
+      });
+      if (put.status === 200 || put.status === 201) return `publicada-${nuevas.length}`;
+      if (put.status !== 409 && put.status !== 422) {
+        console.log(`  Cola: error al guardar (${put.status}): ${put.text.slice(0, 200)}`);
+        return `error-${put.status}`;
+      }
+      // 409/422: alguien cambió el archivo entre medias; se reintenta una vez.
+    }
+    return 'error-conflicto';
+  } catch (e) {
+    console.log(`  Cola: ${e.message}`);
+    return 'error-red';
+  }
+}
+
 // Texto que recibe la tarea de Claude. El formato «OFERTA DEL BOT» es el que
 // espera su prompt: no lo cambies sin cambiar también la tarea.
 function routineText(job) {
@@ -464,6 +559,7 @@ async function main() {
   }
 
   console.log(`${newJobs.length} oferta(s) nueva(s) de ${all.size} vigiladas.`);
+  const paraCola = [];
   for (const job of newJobs) {
     // Se marca como vista aunque luego la descarten los filtros: si no, cada
     // pasada volvería a analizarla (y a abrir su página en Behance).
@@ -474,15 +570,19 @@ async function main() {
       continue;
     }
     const revision = await fireRoutine(job, state);
+    const enCola = ROUTINE_SOURCES.includes(job.sourceKey) && !job.gated;
+    if (enCola) paraCola.push(job);
     const lineaRevision = {
       lanzada: '\n🤖 Revisión automática en marcha: si encaja, la contesto y te aviso.',
       'limite-hora': '\n⏸ Revisión automática en pausa (más de 20 ofertas en 1 h): revísala tú.',
-    }[revision] || (revision.startsWith('error') ? `\n⚠️ No se pudo lanzar la revisión automática (${revision}).` : '');
+    }[revision] || (revision.startsWith('error') ? `\n⚠️ No se pudo lanzar la revisión automática (${revision}).` : '')
+      || (enCola ? '\n🤖 En cola: la reviso en la próxima hora y, si encaja, la contesto.' : '');
     const proposal = buildProposal(job.title, job.description);
     const msg = `🔔 Nueva oferta en ${job.source} (${job.type})\n${job.title}${job.budget ? '\n💰 ' + job.budget : ''}\n${job.url}${lineaRevision}\n\n--- Propuesta sugerida ---\n${proposal}`;
     const ok = await sendTelegram(msg);
     console.log(`  ${ok ? 'Enviada a Telegram' : 'ERROR Telegram'} [${job.source}] (revisión: ${revision}): ${job.title}`);
   }
+  if (paraCola.length) console.log(`Cola de revisión: ${await publicarCola(paraCola)}.`);
 
   saveState(state);
 }
