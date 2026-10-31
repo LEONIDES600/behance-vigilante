@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-10-31T12:00:55.739Z",
+  "actualizado": "2026-10-31T12:05:07.546Z",
   "ofertas": [
+    {
+      "id": "561613",
+      "tipo": "FREELANCE",
+      "titulo": "Squarespace Website Design",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/561613/Squarespace-Website-Design",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a Squarespace website designer to create a professional website using the Squarespace platform and incorporating the existing squarespace site I already have into a new, broader website.",
+      "vista": "2026-10-31T12:05:07.546Z"
+    },
     {
       "id": "555185",
       "tipo": "FREELANCE",
