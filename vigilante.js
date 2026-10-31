@@ -123,6 +123,13 @@ const NO_ENCAJA = [
   { re: /on[- ]?site|in[- ]person|presencial|must be (based|located) in|relocat/i, motivo: 'presencial o exige vivir en otro sitio' },
   { re: /adult|nsfw|onlyfans|porn|escort|sexual|contenido para adultos/i, motivo: 'contenido para adultos' },
 ];
+// Solo para las webs mundiales (se mira el TÍTULO): puestos que no son de Leo y
+// trabajos de idiomas que no habla (p. ej. «AI Trainer - Danish»).
+const NO_ENCAJA_TITULO = [
+  { re: /account (manager|executive)|\bsales\b|business development|\bbdr\b|\bsdr\b|customer (support|success|service)|support (specialist|agent|engineer)|recruit|talent acquisition|\bhr\b|people partner|payroll|bookkeep|accountant|finance|legal|lawyer|paralegal|\bdean\b|teacher|tutor|nurse|therap|physician|medical|clinical|pharmac/i, motivo: 'puesto que no es de tus servicios' },
+  { re: /back[- ]?end|front[- ]?end|full[- ]?stack|developer|programmer|(?<!prompt )\bengineer(ing)?\b|\bsre\b|data (scientist|analyst|engineer)|devops/i, motivo: 'programación o ingeniería' },
+  { re: /\b(danish|czech|croatian|german|french|italian|polish|dutch|swedish|norwegian|finnish|portuguese|turkish|greek|hungarian|romanian|japanese|korean|chinese|mandarin|cantonese|arabic|hindi|urdu|bengali|russian|ukrainian|hebrew|vietnamese|thai|indonesian|malay|tagalog|slovak|slovenian|serbian|bulgarian|lithuanian|latvian|estonian|catalan|basque)\b/i, motivo: 'idioma que no hablas' },
+];
 const SENIOR = /\b(head of|director|principal|vp\b|chief)|\b(8|9|10|12|15)\+? (years|años)/i;
 
 // ───────────── Ubicación (webs de empleo remoto mundial, v3.1) ─────────────
@@ -150,7 +157,7 @@ function encaje(job) {
   // En las webs mundiales las descripciones son largas y genéricas («website»,
   // «commercial»…): el encaje se decide por el título y las categorías (textoEncaje).
   const texto = job.textoEncaje != null ? job.textoEncaje : `${job.title} ${job.description || ''} ${(job.categorias || []).join(' ')}`;
-  const no = NO_ENCAJA.find((n) => n.re.test(texto));
+  const no = NO_ENCAJA.find((n) => n.re.test(texto)) || (job.textoEncaje != null && NO_ENCAJA_TITULO.find((n) => n.re.test(job.title)));
   const altos = ENCAJE_ALTO.filter((re) => re.test(texto)).length;
   const medios = ENCAJE_MEDIO.filter((re) => re.test(texto)).length;
   const motivos = [];
@@ -640,7 +647,7 @@ async function sourceRemoteOK() {
       title: it.company ? `${it.company} — ${it.position}` : it.position,
       url: it.url || `https://remoteok.com/remote-jobs/${it.id}`,
       description: `${(it.tags || []).join(' ')} ${description}`.trim(), budget, ubicacion: it.location || '', remoto: true,
-      empresa: it.company || '', textoEncaje: `${it.position} ${(it.tags || []).join(' ')}`, filtrarUbicacion: true,
+      empresa: it.company || '', textoEncaje: it.position, filtrarUbicacion: true,
     });
   }
   return { jobs, via, fails };
@@ -690,7 +697,7 @@ async function sourceRemotive() {
       title: it.title, url: it.url || `https://remotive.com/remote-jobs/${it.id}`,
       description: htmlATexto(it.description).slice(0, 4000), budget: it.salary || '', empresa: it.company_name || '',
       ubicacion: ubic, remoto: true, publicadaTs: aTs(it.publication_date), categorias: [it.category].filter(Boolean),
-      textoEncaje: `${it.title} ${it.category || ''} ${(it.tags || []).join(' ')}`, filtrarUbicacion: true,
+      textoEncaje: `${it.title} ${it.category || ''}`, filtrarUbicacion: true,
     });
   }
   return { jobs, via, fails, ok: tieneLista(data, 'jobs') && jobs.length > 0 };
