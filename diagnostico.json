@@ -1,13 +1,13 @@
 {
-  "version": "v3 · 31/10/2026",
-  "fecha": "2026-10-31T11:45:23.663Z",
+  "version": "v3.1 · 31/10/2026",
+  "fecha": "2026-10-31T12:24:15.160Z",
   "resultados": [
     {
       "url": "https://www.behance.net/joblist?jobType=freelance&sort=recent",
       "proxy": "codetabs",
       "ok": false,
       "via": "codetabs HTTP 522",
-      "ms": 19696,
+      "ms": 19458,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -17,7 +17,7 @@
       "proxy": "corsproxy",
       "ok": false,
       "via": "corsproxy HTTP 401",
-      "ms": 77,
+      "ms": 212,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -27,7 +27,7 @@
       "proxy": "allorigins",
       "ok": false,
       "via": "allorigins no válido (453 B)",
-      "ms": 21104,
+      "ms": 16667,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -37,7 +37,7 @@
       "proxy": "jina",
       "ok": true,
       "via": "jina",
-      "ms": 332,
+      "ms": 274,
       "conEstado": false,
       "ofertas": 20,
       "ejemplo": "behance:561563 Freelance Jewelry Design for a Bold Sculptural Statement Collection) | behance:561553 Site Plan Design for a 15000 Sq Ft Hospitality Property in Asansol) | behance:561509 Comprehensive Visual Identity for a Youth Travel Baseball Organization)"
@@ -47,7 +47,7 @@
       "proxy": "directo",
       "ok": false,
       "via": "directo HTTP 403",
-      "ms": 201,
+      "ms": 26,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -57,7 +57,7 @@
       "proxy": "codetabs",
       "ok": false,
       "via": "codetabs HTTP 522",
-      "ms": 19534,
+      "ms": 19432,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -67,7 +67,7 @@
       "proxy": "corsproxy",
       "ok": false,
       "via": "corsproxy HTTP 401",
-      "ms": 42,
+      "ms": 47,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -76,8 +76,8 @@
       "url": "https://www.behance.net/joblist?jobType=fulltime&jobType=contract&sort=recent",
       "proxy": "allorigins",
       "ok": false,
-      "via": "allorigins HTTP 522",
-      "ms": 19511,
+      "via": "allorigins HTTP 500",
+      "ms": 10702,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -87,7 +87,7 @@
       "proxy": "jina",
       "ok": true,
       "via": "jina",
-      "ms": 1244,
+      "ms": 376,
       "conEstado": false,
       "ofertas": 20,
       "ejemplo": "behance:360559 GRAPHIC DESIGNER) | behance:370207 Game Developer (Remote Worldwide)) | behance:370205 Indesign)"
@@ -97,7 +97,7 @@
       "proxy": "directo",
       "ok": false,
       "via": "directo HTTP 403",
-      "ms": 62,
+      "ms": 14,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -107,7 +107,7 @@
       "proxy": "codetabs",
       "ok": false,
       "via": "codetabs HTTP 522",
-      "ms": 19486,
+      "ms": 19520,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -117,7 +117,7 @@
       "proxy": "corsproxy",
       "ok": false,
       "via": "corsproxy HTTP 401",
-      "ms": 45,
+      "ms": 23,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -127,7 +127,7 @@
       "proxy": "allorigins",
       "ok": true,
       "via": "allorigins",
-      "ms": 15756,
+      "ms": 19367,
       "conEstado": true,
       "ofertas": 1,
       "ejemplo": "{\"additionalDetails\":\"####\",\"applicantCount\":0,\"appliedOnDate\":null,\"isSaved\":false,\"title\":\"Création D’Un Maillot De Football\",\"budgetMax\":10000,\"budgetMin\":500,\"categories\":[{\"id\":20,\"name\":\"T-Shirt & Merchandise\"}],\"candidateInfo\":\"####\",\"company\":\"NASEEB \",\"companyLogo\":null,\"companyUrl\":\"https:"
@@ -137,7 +137,7 @@
       "proxy": "jina",
       "ok": true,
       "via": "jina",
-      "ms": 264,
+      "ms": 312,
       "conEstado": false,
       "ofertas": 1,
       "ejemplo": "Title: Création D’Un Maillot De Football\n\nURL Source: https://www.behance.net/joblist/freelance/561599/x\n\nMarkdown Content:\nSign In\n\n*   [Explore](https://www.behance.net/?tracking_source=nav20)\n*   ["
@@ -147,7 +147,7 @@
       "proxy": "directo",
       "ok": true,
       "via": "directo",
-      "ms": 443,
+      "ms": 482,
       "conEstado": true,
       "ofertas": 1,
       "ejemplo": "{\"additionalDetails\":\"####\",\"applicantCount\":0,\"appliedOnDate\":null,\"isSaved\":false,\"title\":\"Création D’Un Maillot De Football\",\"budgetMax\":10000,\"budgetMin\":500,\"categories\":[{\"id\":20,\"name\":\"T-Shirt & Merchandise\"}],\"candidateInfo\":\"####\",\"company\":\"NASEEB \",\"companyLogo\":null,\"companyUrl\":\"https:"
@@ -158,7 +158,7 @@
       "tipo": "freelance",
       "id": 561603,
       "resultado": "oferta",
-      "ms": 538,
+      "ms": 486,
       "titulo": "Lead Graphic Designer for a High-End Collegiate Apparel Brand",
       "via": ""
     },
@@ -166,7 +166,7 @@
       "tipo": "freelance",
       "id": 561601,
       "resultado": "no",
-      "ms": 152,
+      "ms": 69,
       "titulo": "",
       "via": ""
     },
@@ -174,7 +174,7 @@
       "tipo": "empleo",
       "id": 370207,
       "resultado": "oferta",
-      "ms": 723,
+      "ms": 347,
       "titulo": "Game Developer (Remote-Worldwide)",
       "via": ""
     },
@@ -182,26 +182,175 @@
       "tipo": "empleo",
       "id": 370209,
       "resultado": "no",
-      "ms": 137,
+      "ms": 80,
       "titulo": "",
       "via": ""
     }
   ],
   "rafaga": {
-    "ms": 579,
+    "ms": 583,
     "resultados": [
       "no",
+      "oferta",
       "no",
       "no",
-      "no",
-      "no",
-      "no",
-      "no",
-      "no",
+      "oferta",
+      "oferta",
+      "oferta",
+      "oferta",
       "no",
       "no",
       "no",
       "no"
     ]
-  }
+  },
+  "mundo": [
+    {
+      "fuente": "wwr",
+      "ok": true,
+      "ofertas": 18,
+      "ms": 150,
+      "via": "directo",
+      "fallos": [],
+      "niveles": {
+        "bajo": 12,
+        "medio": 3,
+        "alto": 1,
+        "no": 2
+      },
+      "ejemplos": [
+        "[medio] Cata-Kor — Graphic Designer · Anywhere in the World",
+        "[medio] Workiva — Principal Experience Designer - Visual Design & Design Systems · Anywhere in the World",
+        "[alto] Current — Senior Product Designer (Webflow) Temp to Perm · Anywhere in the World",
+        "[medio] Contra — Senior 3D Designer · Anywhere in the World"
+      ],
+      "ubicaciones": [
+        "Anywhere in the World"
+      ]
+    },
+    {
+      "fuente": "remoteok",
+      "ok": true,
+      "ofertas": 99,
+      "ms": 396,
+      "via": "directo",
+      "fallos": [],
+      "niveles": {
+        "bajo": 61,
+        "no": 29,
+        "alto": 3,
+        "medio": 6
+      },
+      "ejemplos": [
+        "[alto] Apryse — Commercial Account Manager LATAM · Remote",
+        "[medio] iMerit Technology — AI Trainer · US, UK, Canada, Australia + 35 other countries",
+        "[medio] Ultimate Marketing — Customer Support Specialist · ",
+        "[alto] BlueTuskr — Graphic Designer & Video Editor · ",
+        "[alto] Miaplaza — Academic Dean for MiaPrep Online Academy of Ohio · "
+      ],
+      "ubicaciones": [
+        "Dallas, Texas",
+        "",
+        "Ohio",
+        "Toronto, Ontario",
+        "Remote",
+        "Seattle, Washington",
+        "Your Remote US Home Office",
+        "Copenhagen",
+        "Brazil",
+        "Vancouver",
+        "Menlo Park",
+        "Waltham",
+        "US, UK, Canada, Australia + 35 other countries",
+        "Sterling Heights, Michigan",
+        "Kansas "
+      ]
+    },
+    {
+      "fuente": "remotive",
+      "ok": true,
+      "ofertas": 13,
+      "ms": 71,
+      "via": "directo",
+      "fallos": [],
+      "niveles": {
+        "no": 4,
+        "medio": 4,
+        "bajo": 5
+      },
+      "ejemplos": [
+        "[medio] Senior Back-end Developer · Europe, USA, Canada, Australia, Singapore, Mexico, Saudi Arabia",
+        "[medio] Head of Engineering · Worldwide",
+        "[medio] AI Trainer - Video Annotation · Worldwide",
+        "[medio] Senior back-end Engineer · Europe, USA, UK, Canada, Australia, Ireland, Switzerland, Singapore, Mexico, Iceland, Norway"
+      ],
+      "ubicaciones": [
+        "Worldwide",
+        "Europe, USA, Canada, Australia, Singapore, Mexico, Saudi Arabia",
+        "USA, Canada, USA timezones",
+        "Europe, USA, Canada, APAC",
+        "Europe, USA, UK, Canada, Australia, Ireland, Switzerland, Singapore, Mexico, Iceland, Norway"
+      ]
+    },
+    {
+      "fuente": "jobicy",
+      "ok": true,
+      "ofertas": 100,
+      "ms": 828,
+      "via": "directo",
+      "fallos": [],
+      "niveles": {
+        "medio": 3,
+        "no": 77,
+        "bajo": 20
+      },
+      "ejemplos": [
+        "[medio] AI Trainers Network - Danish · Denmark,  France,  Germany,  Spain,  Sweden,  UK,  USA",
+        "[medio] AI Trainers Network - Czech · Czechia,  Slovakia",
+        "[medio] AI Trainers Network - Croatian Talent Hub · Croatia,  Serbia,  USA"
+      ],
+      "ubicaciones": [
+        "Denmark,  France,  Germany,  Spain,  Sweden,  UK,  USA",
+        "Austria,  Croatia,  Germany,  Hungary,  Italy,  Portugal,  Spain,  UK",
+        "Türkiye",
+        "Czechia,  Slovakia",
+        "Austria,  Croatia,  France,  Germany,  Hungary,  Italy,  Poland,  Portugal,  Spain,  UK",
+        "Europe",
+        "APAC,  EMEA",
+        "Croatia,  Serbia,  USA",
+        "USA",
+        "Germany,  Portugal,  Spain,  UK",
+        "Canada",
+        "Germany",
+        "Denmark,  Germany,  Netherlands,  Portugal,  Spain,  Sweden,  UK",
+        "Austria,  Germany,  Netherlands,  UK",
+        "UK"
+      ]
+    },
+    {
+      "fuente": "himalayas",
+      "ok": true,
+      "ofertas": 19,
+      "ms": 138,
+      "via": "video editor: directo · motion designer: directo · graphic designer: directo",
+      "fallos": [],
+      "niveles": {
+        "no": 11,
+        "bajo": 6,
+        "medio": 2
+      },
+      "ejemplos": [
+        "[medio] Growth Marketing Manager – Paid Media & Klaviyo (AI-First) · ",
+        "[medio] Paid Ads Specialist · "
+      ],
+      "ubicaciones": [
+        "",
+        "United States",
+        "Albania, Andorra, Argentina, Australia, Austria, Belgium, Belize, Bolivia, Bosnia and Herzegovina, Brazil, Bulgaria, Canada, Chile, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Dominican Republic, Ecuador, El Salvador, Estonia, Finland, France, Germany, Greece, Guatemala, Haiti, Honduras, Hungary, Indonesia, Ireland, Israel, Italy, Jamaica, Japan, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Mexico, Moldova, Montenegro, Morocco, Netherlands, New Zealand, North Macedonia, Norway, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Romania, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sweden, Switzerland, Thailand, Turkey, Ukraine, United Kingdom, United States, Uruguay, Vietnam",
+        "Albania, Andorra, Argentina, Australia, Belgium, Belize, Bolivia, Bosnia and Herzegovina, Brazil, Bulgaria, Canada, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Dominican Republic, Ecuador, El Salvador, Estonia, Finland, France, Germany, Greece, Guatemala, Haiti, Honduras, Hungary, Indonesia, Ireland, Israel, Italy, Jamaica, Japan, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Mexico, Moldova, Montenegro, Morocco, Netherlands, New Zealand, North Macedonia, Norway, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Romania, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sweden, Switzerland, Thailand, Turkey, Ukraine, United Kingdom, United States, Uruguay, Vietnam",
+        "Dominican Republic",
+        "Germany"
+      ]
+    }
+  ]
 }
