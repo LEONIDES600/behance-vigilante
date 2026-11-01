@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-10-31T22:03:25.559Z",
+  "actualizado": "2026-11-01T03:51:53.911Z",
   "ofertas": [
+    {
+      "id": "561915",
+      "tipo": "FREELANCE",
+      "titulo": "Senior Graphic Designer for F&B Branding and Packaging",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/561915/Senior-Graphic-Designer-for-F-B-Branding-and-Packaging",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "ONIS Global",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a senior graphic designer to develop branding and packaging design for an F&B business. The work should create a cohesive, professional visual identity and packaging suitable for food and beverage products.",
+      "vista": "2026-11-01T03:51:53.911Z"
+    },
     {
       "id": "561871",
       "tipo": "FREELANCE",
