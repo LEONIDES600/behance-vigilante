@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T20:57:01.069Z",
+  "actualizado": "2026-11-03T21:20:40.803Z",
   "ofertas": [
+    {
+      "id": "563435",
+      "tipo": "FREELANCE",
+      "titulo": "Nonprofit One-Page Graphic Design",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563435/Nonprofit-One-Page-Graphic-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Earth Island Institute",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic designer to create a one-page design for a nonprofit environmental organization. It'll just be an intro to the organization and our programs.",
+      "vista": "2026-11-03T21:20:40.803Z"
+    },
     {
       "id": "563429",
       "tipo": "FREELANCE",
@@ -1678,23 +1695,6 @@
       "dondeSolicitar": "",
       "descripcion": "The core of the job is to bring my half-finished online shop across the finish line before we move on to packaging and the AI-driven side of the business.\nFirst, I need you to refine every customer-facing area of the site. The product pages and their imagery, the shopping basket and checkout flow, plus the homepage, menus, and overarching style all need that final professional polish so the store feels cohesive and ready for launch.\nOnce the shop looks and feels complete, we’ll shift to two additional tasks: refreshing our product packaging and creating the hero visuals and UI components that sit around our AI models on a separate site. Think clean, modern graphics that resonate with a British audience and keep usability at the forefront.\nI’m looking for someone with at least two years in graphic or visual design and a portfolio that shows a sharp eye for detail, strong typography, and an understanding of e-commerce best practices. If you’re comfortable working in tools like Figma, Adobe XD, Illustrator, or Photoshop and can turn feedback into quick iterations, you’ll be a great fit.\nQuality is key but speed matters too, so clear communication and timely updates will keep the project moving smoothly. Share a link to work you’re proud of, and let’s get this shop looking its best.",
       "vista": "2026-10-31T12:20:54.535Z"
-    },
-    {
-      "id": "561617",
-      "tipo": "FREELANCE",
-      "titulo": "Website for a Pharmacy ",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/561617/Website-for-a-Pharmacy-",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Quote request: pharmacy website and app\nOct 31, 2026 · @Michael Stander\nI'd like a quote to build a website and installable phone app (PWA) for a small independent\npharmacy. It has an online shop, prescription uploads, deliveries with drivers, and a staff\ndashboard. The features are listed below; the last section says what the quote should\ninclude.\nCustomer side\n1. Online shop with categories, search, product photos and specials.\n2. Product rules: some medicines can't be sold online or put on special; scheduled\nmedicines need a prescription.\n3. Cart and checkout with three options: delivery, collection at the counter, and drivethrough.\n4. Delivery address picked on a map, with a maximum distance from the pharmacy, a\ndelivery fee and a free-delivery minimum.\n5. Customer accounts: profile, order history and order status.\n6. Customers can cancel an order themselves.\n7. Prescription upload (photo or PDF), stored securely.\n8. Bookings for clinic times (for example vaccinations).\n9. Reminder",
-      "vista": "2026-10-31T12:14:38.240Z"
     }
   ]
 }
