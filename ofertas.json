@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T19:01:45.826Z",
+  "actualizado": "2026-11-03T19:14:12.942Z",
   "ofertas": [
+    {
+      "id": "563371",
+      "tipo": "FREELANCE",
+      "titulo": "Logo and Label Finalization for a Brand in Bulgaria",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563371/Logo-and-Label-Finalization-for-a-Brand-in-Bulgaria",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic designer in Bulgaria to create a logo and label for my brand, with a maximum budget of €100. I already have the design created in an Adobe Illustrator file and need it developed into final brand assets.",
+      "vista": "2026-11-03T19:14:12.942Z"
+    },
     {
       "id": "563363",
       "tipo": "FREELANCE",
