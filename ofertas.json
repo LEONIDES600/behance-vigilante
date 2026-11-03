@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T15:11:07.815Z",
+  "actualizado": "2026-11-03T15:18:54.563Z",
   "ofertas": [
+    {
+      "id": "563225",
+      "tipo": "FREELANCE",
+      "titulo": "Freelance Video Editing and AI-Assisted Motion Design",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563225/Freelance-Video-Editing-and-AI-Assisted-Motion-Design",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Weber's Restaurant & Boutique Hotel",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Freelance Video Editor & Motion Designer | AI-Assisted Video Production\nBudget: $250–$400 per project\nProject Length: Typically 15–30 seconds\nRelationship: Ongoing freelance collaboration\nLocation: Remote / Worldwide",
+      "vista": "2026-11-03T15:18:54.563Z"
+    },
     {
       "id": "563175",
       "tipo": "FREELANCE",
