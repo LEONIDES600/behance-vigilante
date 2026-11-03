@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T18:20:49.560Z",
+  "actualizado": "2026-11-03T19:01:45.826Z",
   "ofertas": [
+    {
+      "id": "563363",
+      "tipo": "FREELANCE",
+      "titulo": "Projetista de Estandes 3D",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563363/Projetista-de-Estandes-3D",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Estou procurando um projetista e cenógrafo de estandes 3D para desenvolver o conceito visual e tridimensional de um pavilhão inteiro locado (megaevento de 10.000m² a 15.000m²). O projeto é para o \"Festival Árabe Internacional\", focado em cultura, culinária e beleza, contemplando cerca de 200 expositores nacionais e internacionais, praça de alimentação e palco central. Busco profissionais que utilizem Inteligência Artificial para agilizar o processo de renderização e entrega.",
+      "vista": "2026-11-03T19:01:45.826Z"
+    },
     {
       "id": "563335",
       "tipo": "FREELANCE",
