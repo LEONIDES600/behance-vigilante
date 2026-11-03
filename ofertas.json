@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T22:28:26.278Z",
+  "actualizado": "2026-11-03T22:55:11.400Z",
   "ofertas": [
+    {
+      "id": "563459",
+      "tipo": "FREELANCE",
+      "titulo": "Web Design and Development Support for Multiple Projects",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563459/Web-Design-and-Development-Support-for-Multiple-Projects",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Szukam webdesignerów i webdeveloperów do realizacji wielu projektów. Potrzebuję wsparcia przy projektowaniu i tworzeniu stron internetowych w ramach różnych zleceń.",
+      "vista": "2026-11-03T22:55:11.400Z"
+    },
     {
       "id": "370527",
       "tipo": "FULLTIME",
@@ -1678,23 +1695,6 @@
       "dondeSolicitar": "",
       "descripcion": "I'm seeking a creative, professional graphic designer to produce attractive, modern, eye-catching visuals for my project within 3–4 days. The budget is negotiable based on skills and quality of work, and this is a remote work-from-home project. I need support with Instagram posts, social media banners, logos, posters, business promotions, and branding materials. The designer should be reliable, detail-oriented, creative, and able to deliver high-quality work on time.",
       "vista": "2026-10-31T16:39:06.034Z"
-    },
-    {
-      "id": "561775",
-      "tipo": "FREELANCE",
-      "titulo": "Photography and Videography Services",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/561775/Photography-and-Videography-Services",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I am looking for a Riyadh based content creator to help develop lifestyle content for Instagram and TikTok. I would like to start with one shoot, producing a selection of strong photos and one polished reel, then see how we work together before discussing ongoing content.\nThe first concept is inspired by the current 80s AI viral trend, but recreated in real life. Think Tom Cruise in The Color of Money, but with a more mature, polished feel. The location is a stylish lounge with a cocktail bar, and the shoot would focus on strong tailoring, natural movement, seated and walking shots, bar details, and cinematic lifestyle moments.\nI am looking for someone who can help with creative direction, framing, shooting, and ideally editing the reel as well. A strong eye for fashion, lifestyle, lighting, and social first video content is important.\nInstagram: @poshcanadiangent\nTikTok: @theposhcanadiangent\nPlease share relevant examples of your work, especially lifestyle, fashion, personal brand, or cinematic social content.",
-      "vista": "2026-10-31T16:28:35.451Z"
     }
   ]
 }
