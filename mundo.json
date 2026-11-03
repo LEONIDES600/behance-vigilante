@@ -1,6 +1,24 @@
 {
-  "actualizado": "2026-11-03T08:43:51.808Z",
+  "actualizado": "2026-11-03T10:46:16.373Z",
   "ofertas": [
+    {
+      "id": "lifelancer/jobs/engagement-manager-commercial-3905640657",
+      "tipo": "FULL_TIME",
+      "titulo": "Engagement Manager - Commercial",
+      "presupuesto": "85.000–170.000 EUR/año",
+      "enlace": "https://himalayas.app/companies/lifelancer/jobs/engagement-manager-commercial-3905640657?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Germany",
+      "empresa": "Lifelancer",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Job Title: Engagement Manager - Commercial\n Job Location: Berlin, Germany\n Job Location Type: Remote\n Job Contract Type: Full-time\n Job Seniority Level: \n Veeva is building the industry cloud for Life Sciences through software, data, AI, and Business Consulting working together. Learn more about our products, vision and values, and status as a public benefit corporation on our website.\n Consulting is changing, and we’re not like other firms. Veeva Business Consulting was launched in 2019 and has grown quickly and organically to a global organization of over 400 people. Our team is focused on making the life sciences industry more efficient and effective through software, data, and consulting working together.\n We expect significant growth in Business Consulting as we look towards 2030, and",
+      "vista": "2026-11-03T10:46:16.373Z",
+      "fuente": "himalayas"
+    },
     {
       "id": "bjak/jobs/technical-product-lead-ai-investing-app-8923735983",
       "tipo": "FULL_TIME",
