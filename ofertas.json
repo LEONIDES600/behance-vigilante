@@ -1,6 +1,40 @@
 {
-  "actualizado": "2026-11-03T19:27:12.200Z",
+  "actualizado": "2026-11-03T19:30:41.839Z",
   "ofertas": [
+    {
+      "id": "563389",
+      "tipo": "FREELANCE",
+      "titulo": "Shopify Product Addition for an Online Store",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563389/Shopify-Product-Addition-for-an-Online-Store",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a Shopify expert to add products to my online store. The work includes uploading product details, organizing listings, and ensuring everything is set up correctly for customers. I’m looking for someone reliable, detail-oriented, and able to complete the task efficiently. Please share your experience with similar projects and your availability.",
+      "vista": "2026-11-03T19:30:41.839Z"
+    },
+    {
+      "id": "370511",
+      "tipo": "FULLTIME",
+      "titulo": "Editor de Video Experto en IA | 100% Remoto",
+      "presupuesto": "1200–1600 USD/mes",
+      "enlace": "https://www.behance.net/joblist/fulltime/370511/Editor-de-Video-Experto-en-IA-100-Remoto",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "Remote Baja Talent",
+      "contacto": "Camila Palumbo",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "Behance",
+      "descripcion": "Buscamos un Editor de Video creativo, con pasión por el relato cinematográfico y experiencia en herramientas de IA generativa para video. \n Formarás parte del equipo creativo y colaborarás con directores y estrategas de marca para llevar guiones y storyboards a la pantalla.\n Este rol combina la edición de video tradicional con las nuevas herramientas de inteligencia artificial (como GPT-4 y otras). Serás responsable de crear y mejorar flujos de trabajo asistidos por IA para optimizar tareas de edición: montaje inicial, edición de diálogos, generación de metadatos, descripciones de escenas y sincronización guion-video.\n Responsabilidades principales\n Colaborar con editores, productores y técnicos de IA para integrar modelos de lenguaje en los procesos de edición.\n Hacer desgloses de guión y etiquetado de escenas con IA.\n Usar IA para mejorar diálogos y sugerir revisiones.\n Alinear voz en off y guion con ayuda de IA.\n Crear subtítulos, resúmenes y transcripciones automáticas.\n Generar metadatos para clips y activos.\n Editar cortes preliminares y finales con herramientas de IA, manteniendo coherencia narrativa y estilo visual.\n Convertir notas editoriales en prompts de IA para generar variaciones de escenas, referencias visuales o listas de B-roll.\n Evaluar resultados generados por IA y ajustar prompts para lograr precisión y rapidez.\n Mantenerse actualizado sobre IA generativa, nuevas tecnologías de postproducción y procesamiento de lenguaje natural.\n Requisitos\n 2 a 5+ años de",
+      "vista": "2026-11-03T19:30:41.839Z"
+    },
     {
       "id": "563385",
       "tipo": "FREELANCE",
@@ -1661,40 +1695,6 @@
       "dondeSolicitar": "",
       "descripcion": "Preciso de alguém para captar imagens e vídeos, realizar a edição desses materiais e também cuidar da gestão da minha página do Instagram. O profissional deve ser capaz de produzir conteúdo visual de qualidade e administrar as postagens, interações e estratégias da rede social.",
       "vista": "2026-10-31T12:00:55.738Z"
-    },
-    {
-      "id": "561587",
-      "tipo": "FREELANCE",
-      "titulo": "New Brand Launch Content Creation and Social Media Sales Data Analysis",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/561587/New-Brand-Launch-Content-Creation-and-Social-Media-Sales-Data-Analysis",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm launching a new brand and need a designer with launch experience to create content and analyze online social media and sales data. The work should support an effective brand launch and inform content decisions using performance insights. We sell high end cashmere clothing",
-      "vista": "2026-10-31T11:53:45.654Z"
-    },
-    {
-      "id": "561607",
-      "tipo": "FREELANCE",
-      "titulo": "VFX Rotoscoping and Compositing for 45-Second Character Videos",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/561607/VFX-Rotoscoping-and-Compositing-for-45-Second-Character-Videos",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need VFX artists to rotoscope and composite high-quality 45-second videos featuring one character across a variety of 3D environments. The environments will be created by VFX artists using Blender, After Effects, and related tools. CGI only; no AI.",
-      "vista": "2026-10-31T11:50:10.310Z"
     }
   ]
 }
