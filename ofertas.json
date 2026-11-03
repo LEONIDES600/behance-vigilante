@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T19:30:41.839Z",
+  "actualizado": "2026-11-03T19:41:44.268Z",
   "ofertas": [
+    {
+      "id": "563393",
+      "tipo": "FREELANCE",
+      "titulo": "branding for a home cafe business",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563393/branding-for-a-home-cafe-business",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Project Overview\nA home-based café specialising in premium Japanese matcha, specialty coffee, and freshly made desserts. The vision is to create a trendy, timeless, and sophisticated brand with a cosy neighbourhood feel. The branding should be playful yet refined, featuring hand-drawn illustrations, handwritten typography, creative doodles, and unique artistic details that give the brand a distinctive personality.\nProject Timeline\n1–2 months – From brand identity development to final designs and launch preparation.\nKey Deliverables\n* Brand Identity: Logo, typography, colour palette, and brand guidelines.\n* Hand-Drawn Illustrations: Custom doodles, sketches, handwritten elements, and artistic drawings.\n* Motion Graphics: Animated logos, moving illustrations, and creative animations for social media.\n* Packaging Design: Custom cups, sleeves, stickers, takeaway bags, and dessert packaging.\n* Typography: Unique handwritten lettering and playful yet sophisticated fonts.\n* Social Media",
+      "vista": "2026-11-03T19:41:44.268Z"
+    },
     {
       "id": "563389",
       "tipo": "FREELANCE",
@@ -1678,23 +1695,6 @@
       "dondeSolicitar": "",
       "descripcion": "I’m looking for a Squarespace website designer to create a professional website using the Squarespace platform and incorporating the existing squarespace site I already have into a new, broader website.",
       "vista": "2026-10-31T12:05:07.546Z"
-    },
-    {
-      "id": "555185",
-      "tipo": "FREELANCE",
-      "titulo": "Captura De Imagem E Vídeo Com Edição E Gestão De Página No Instagram",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/555185/Captura-De-Imagem-E-Video-Com-Edicao-E-Gestao-De-Pagina-No-Instagram",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "TOYO Medical",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 2,
-      "dondeSolicitar": "",
-      "descripcion": "Preciso de alguém para captar imagens e vídeos, realizar a edição desses materiais e também cuidar da gestão da minha página do Instagram. O profissional deve ser capaz de produzir conteúdo visual de qualidade e administrar as postagens, interações e estratégias da rede social.",
-      "vista": "2026-10-31T12:00:55.738Z"
     }
   ]
 }
