@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T21:20:40.803Z",
+  "actualizado": "2026-11-03T22:25:44.480Z",
   "ofertas": [
+    {
+      "id": "563451",
+      "tipo": "FREELANCE",
+      "titulo": "Logo and Packaging Design for a Wellness Brand",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563451/Logo-and-Packaging-Design-for-a-Wellness-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Project Nova",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a designer to create a logo and packaging design for my wellness brand. I need cohesive visual assets that establish a professional, recognizable brand identity across the product packaging.",
+      "vista": "2026-11-03T22:25:44.480Z"
+    },
     {
       "id": "563435",
       "tipo": "FREELANCE",
@@ -1678,23 +1695,6 @@
       "dondeSolicitar": "",
       "descripcion": "My new B2B venture needs a complete brand identity that speaks clearly to business owners and professionals. The aesthetic must be clean and modern—minimal clutter, balanced white space, refined typography—and remain consistent across every touchpoint.\nScope of work\n• Logo design from concept to final artwork\n• Curated color palette with HEX, RGB, and CMYK codes\n• Primary and secondary font pairings with licensing guidance\n• Concise visual style guide covering correct usage, spacing, and sizing\n• Deliverables supplied as editable vectors (AI, EPS, SVG) plus ready-to-use PNG and PDF files\nAcceptance criteria\n• Three distinct logo concepts to start, with two revision rounds on the chosen direction\n• Final assets that scale crisply for print and digital, maintain legibility at small sizes, and align with the defined clean-modern feel\nPlease include a portfolio that demonstrates an ability to translate complex ideas into simple, sophisticated visuals and outline your estimated timeline for each milestone.",
       "vista": "2026-10-31T16:20:10.198Z"
-    },
-    {
-      "id": "561619",
-      "tipo": "FREELANCE",
-      "titulo": "E-Commerce Website, Packaging, And AI Visual Design",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/561619/E-Commerce-Website-Packaging-And-AI-Visual-Design",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "The core of the job is to bring my half-finished online shop across the finish line before we move on to packaging and the AI-driven side of the business.\nFirst, I need you to refine every customer-facing area of the site. The product pages and their imagery, the shopping basket and checkout flow, plus the homepage, menus, and overarching style all need that final professional polish so the store feels cohesive and ready for launch.\nOnce the shop looks and feels complete, we’ll shift to two additional tasks: refreshing our product packaging and creating the hero visuals and UI components that sit around our AI models on a separate site. Think clean, modern graphics that resonate with a British audience and keep usability at the forefront.\nI’m looking for someone with at least two years in graphic or visual design and a portfolio that shows a sharp eye for detail, strong typography, and an understanding of e-commerce best practices. If you’re comfortable working in tools like Figma, Adobe XD, Illustrator, or Photoshop and can turn feedback into quick iterations, you’ll be a great fit.\nQuality is key but speed matters too, so clear communication and timely updates will keep the project moving smoothly. Share a link to work you’re proud of, and let’s get this shop looking its best.",
-      "vista": "2026-10-31T12:20:54.535Z"
     }
   ]
 }
