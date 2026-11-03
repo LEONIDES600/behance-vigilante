@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T12:06:53.123Z",
+  "actualizado": "2026-11-03T15:06:17.741Z",
   "ofertas": [
+    {
+      "id": "563125",
+      "tipo": "FREELANCE",
+      "titulo": "Packaging Design for an Indian Home Linen Brand",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563125/Packaging-Design-for-an-Indian-Home-Linen-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Beyond beleaf",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a packaging designer based in India for my home linen brand. The project involves creating packaging that presents the brand and its bed and bath linen products professionally.",
+      "vista": "2026-11-03T15:06:17.741Z"
+    },
     {
       "id": "563081",
       "tipo": "FREELANCE",
