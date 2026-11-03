@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T07:00:15.448Z",
+  "actualizado": "2026-11-03T07:48:20.472Z",
   "ofertas": [
+    {
+      "id": "562985",
+      "tipo": "FREELANCE",
+      "titulo": "免洗內褲四種尺寸包裝設計",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/562985/-",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "VIGILL TAIWAN",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I am looking for a designer to create packaging for a line of disposable underwear. The total project budget is NT$20,000 to NT$30,000. The product comes in four sizes; for each size, a paper inner pouch and a corresponding outer paper box are required. The overall visual design must be adaptable across all packaging specifications for the different sizes.",
+      "vista": "2026-11-03T07:48:20.472Z"
+    },
     {
       "id": "370415",
       "tipo": "CONTRACT",
