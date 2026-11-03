@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T11:14:29.299Z",
+  "actualizado": "2026-11-03T11:44:24.158Z",
   "ofertas": [
+    {
+      "id": "563063",
+      "tipo": "FREELANCE",
+      "titulo": "Watercolor Logo Illustration",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563063/Watercolor-Logo-Illustration",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "The visual direction is hand-painted watercolour, inspired by Persian and Japanese landscape painting. The brand should feel refined, soft and slightly playful, not ethnic, heavy or childish. The core symbol is a dragonfly.\nI'm looking for a designer or illustrator to create a small logo suite. This is not a full brand identity.",
+      "vista": "2026-11-03T11:44:24.158Z"
+    },
     {
       "id": "370377",
       "tipo": "FULLTIME",
