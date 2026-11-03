@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T18:11:47.348Z",
+  "actualizado": "2026-11-03T18:14:57.283Z",
   "ofertas": [
+    {
+      "id": "563323",
+      "tipo": "FREELANCE",
+      "titulo": "Senior AI Developer for Retell AI Voice Agents, SMS Automation",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563323/Senior-AI-Developer-for-Retell-AI-Voice-Agents-SMS-Automation",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are a growing, multi-state healthcare organization seeking an experienced AI developer to design, build, and deploy multiple AI agents to automate patient communications, inbound lead management, appointment scheduling, and receptionist functions.\nOur goal is to improve responsiveness, reduce administrative workload, and create a seamless experience for prospective patients and existing families.\nWe are specifically interested in developers with hands-on experience building production-ready AI voice and SMS agents using Retell AI and related automation platforms.\nThis is not a basic chatbot project. We are looking for someone who understands conversational AI, complex workflows, system integrations, and scalable automation.\nInitial Projects\n1. AI Receptionist (Inbound Phone Calls)\nDevelop an AI-powered receptionist using Retell AI that can:\n- Answer inbound calls naturally and professionally.\n- Identify the caller's needs and route calls appropriately.\n- Answer frequently asked questions about our organization and services.\n- Assist prospective patients with initial inquiries.\n- Schedule appointments and send confirmations.\n- Transfer calls to live team members when appropriate.\n- Capture caller information and document interactions.\n- Handle after-hours calls and follow-up requests.\n2. AI Lead Management & SMS Intake Agent\nBuild an automated AI agent to manage inbound leads generated through our website, Facebook advertising, and other marketing channels.",
+      "vista": "2026-11-03T18:14:57.283Z"
+    },
     {
       "id": "563319",
       "tipo": "FREELANCE",
