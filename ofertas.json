@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T17:56:08.116Z",
+  "actualizado": "2026-11-03T18:11:47.348Z",
   "ofertas": [
+    {
+      "id": "563319",
+      "tipo": "FREELANCE",
+      "titulo": "LLM-Powered Website for Labeling Text Data Columns",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563319/LLM-Powered-Website-for-Labeling-Text-Data-Columns",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "The prototype of this web app will be fairly simple. A user uploads a file of text fields (as many as a few thousand, 2-3 sentence chunks). They then ask an LLM to identify which of these chunks matches a given query, for example \"All of the answers that talk about car crashes,\" or \"Stories about children.\" This query creates an object in the interface. When the user is done creating queries/objects, they can download the data, which consists of their original file, but with added new columns of indicators that correspond to the queries they made. A rough mockup is attached. If successful, this prototype might be developed further, but for the moment, I'm only looking for something simple and ugly but functional.",
+      "vista": "2026-11-03T18:11:47.347Z"
+    },
     {
       "id": "563307",
       "tipo": "FREELANCE",
