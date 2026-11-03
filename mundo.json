@@ -1,6 +1,24 @@
 {
-  "actualizado": "2026-10-31T22:40:00.644Z",
+  "actualizado": "2026-11-03T00:02:15.613Z",
   "ofertas": [
+    {
+      "id": "158519",
+      "tipo": "CONTRACT",
+      "titulo": "AI Science Writer, Nebius Academy (Contract)",
+      "presupuesto": "",
+      "enlace": "https://jobicy.com/jobs/158519-ai-science-writer-nebius-academy-contract-2",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Europe",
+      "empresa": "Nebius",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "About Nebius : \n Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastructure.\n Built by engineers, for engineers. From large-scale GPU orchestration to inference optimization, we own the hard problems across compute, storage, networking and applied AI.\n Listed on Nasdaq (NBIS) and headquartered in Amsterdam, we have a global footprint with R&D hubs across Europe, the UK, North America and Israel. Our team of 1,500+ includes hundreds of engineers with deep expertise across hardware, software and AI R&D.\n About Nebius Academy and Nebius Science \n",
+      "vista": "2026-11-03T00:02:15.613Z",
+      "fuente": "jobicy"
+    },
     {
       "id": "indg/jobs/automotive-retoucher-talent-pool",
       "tipo": "FULL_TIME",
