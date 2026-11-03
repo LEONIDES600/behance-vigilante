@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T02:26:02.205Z",
+  "actualizado": "2026-11-03T03:06:49.860Z",
   "ofertas": [
+    {
+      "id": "562913",
+      "tipo": "FREELANCE",
+      "titulo": "Social Media and Brochure Graphic Design",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/562913/Social-Media-and-Brochure-Graphic-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Acctivity",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We’re looking for a designer to refine an existing six-page A4 PDF guide into a polished, professional and visually engaging document.\nThe mockup is already built and we’re happy with the overall layout. All copy and the six-page structure are approved and stay as supplied. What it needs is a designer’s touch: improved typography, spacing, alignment and visual consistency, with tables, examples and checklists made easy to read and scan. Branding must stay consistent across every page, and the call to action on the final page needs to be prominent and clickable.\nYou’ll be supplied with the mockup, page-by-page copy, brand guidelines, fonts, colour palette and logo files.",
+      "vista": "2026-11-03T03:06:49.860Z"
+    },
     {
       "id": "562903",
       "tipo": "FREELANCE",
