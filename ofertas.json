@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T00:12:08.655Z",
+  "actualizado": "2026-11-03T00:14:17.671Z",
   "ofertas": [
+    {
+      "id": "562805",
+      "tipo": "FREELANCE",
+      "titulo": "Report Design and Layout",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/562805/Report-Design-and-Layout",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m publishing a report and need a designer to create its visual design and layout. The final report should be professionally formatted and ready for publication.",
+      "vista": "2026-11-03T00:14:17.671Z"
+    },
     {
       "id": "562819",
       "tipo": "FREELANCE",
