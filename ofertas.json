@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T15:06:17.741Z",
+  "actualizado": "2026-11-03T15:07:21.746Z",
   "ofertas": [
+    {
+      "id": "563139",
+      "tipo": "FREELANCE",
+      "titulo": "Photorealistic Bottle and Packaging Renders",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563139/Photorealistic-Bottle-and-Packaging-Renders",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m seeking a skilled 3D artist to create photorealistic bottle and packaging renders. The work requires realistic materials, professional lighting, and premium product visualization.",
+      "vista": "2026-11-03T15:07:21.746Z"
+    },
     {
       "id": "563125",
       "tipo": "FREELANCE",
