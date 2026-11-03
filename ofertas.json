@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T19:41:44.268Z",
+  "actualizado": "2026-11-03T19:43:49.040Z",
   "ofertas": [
+    {
+      "id": "563395",
+      "tipo": "FREELANCE",
+      "titulo": "Shopify Product Addition for an Online Store",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563395/Shopify-Product-Addition-for-an-Online-Store",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a Shopify expert to add products to my online store. The work includes uploading product details, organizing listings, and ensuring everything is set up correctly for customers. I’m looking for someone reliable, detail-oriented, and able to complete the task efficiently. Please share your experience with similar projects and your availability.",
+      "vista": "2026-11-03T19:43:49.040Z"
+    },
     {
       "id": "563393",
       "tipo": "FREELANCE",
@@ -1678,23 +1695,6 @@
       "dondeSolicitar": "",
       "descripcion": "We are launching a premium three-piece collegiate apparel collection for a prestigious medical batch and need a Lead Apparel Graphic Designer for a long-term partnership. Our goal is to transform cliché university merchandise into a minimalist luxury fashion brand with Old Money, Dark Academia, and Quiet Luxury influences. The debut collection includes a heavyweight hoodie, crewneck, and collared rugby sweater, with rapid expansion planned across engineering, business, and other top-tier university cohorts. We need sophisticated, clean, clever typographic designs that establish our core visual DNA and communicate faculty and batch heritage without crowded or cliché streetwear graphics.",
       "vista": "2026-10-31T12:08:18.644Z"
-    },
-    {
-      "id": "561613",
-      "tipo": "FREELANCE",
-      "titulo": "Squarespace Website Design",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/561613/Squarespace-Website-Design",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for a Squarespace website designer to create a professional website using the Squarespace platform and incorporating the existing squarespace site I already have into a new, broader website.",
-      "vista": "2026-10-31T12:05:07.546Z"
     }
   ]
 }
