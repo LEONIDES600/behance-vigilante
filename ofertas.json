@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T23:37:17.547Z",
+  "actualizado": "2026-11-03T23:45:35.072Z",
   "ofertas": [
+    {
+      "id": "563479",
+      "tipo": "FREELANCE",
+      "titulo": "Packaging Design and Illustration for a Premium Food Brand",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563479/Packaging-Design-and-Illustration-for-a-Premium-Food-Brand",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "SAVA Provisions",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "SAVA is a Hawaiʻi-based premium food brand seeking a designer with strong illustration and packaging design skills to help bring our first product to market.\nWe have an established brand identity and are looking for someone who can translate our creative vision into distinctive, sophisticated, and commercially viable packaging.\nWe're particularly interested in illustration-led design that combines artistic storytelling with strong typography, thoughtful composition, and premium shelf appeal.\nThis is a single-SKU packaging project, not a full rebrand. Additional project details and creative references will be shared with shortlisted candidates.",
+      "vista": "2026-11-03T23:45:35.072Z"
+    },
     {
       "id": "563477",
       "tipo": "FREELANCE",
@@ -1678,23 +1695,6 @@
       "dondeSolicitar": "",
       "descripcion": "DryWater® — Retail Packaging & Brand Redesign\nWe are looking for an experienced CPG packaging designer to help refresh our DryWater® retail packaging. \nOur goal is simple: Create bold, premium packaging that stands out on retail shelves, increases sales velocity, and builds a recognizable, scalable brand identity. A farm to powder box, we use use clean clean ingredients sourced from farms. \nWe want our brand to communicate four things:\nCLEAN. HEALTHY. DELICIOUS. SCIENCE-BACKED.\nWhat We’re Looking For\n* Packaging that stands out and drives purchases at retail.\n* A unique, memorable brand personality.\n* A premium, modern, and trustworthy look.\n* Clear communication of our ingredients, nutritional benefits, and flavors.\n* A scalable brand identity that works across future products, marketing, and retail.\nCurrent Brand & Creative Direction\nOur current packaging is predominantly black, and ideally, we would love to own black as a signature DryWater brand color.\nHowever, we recognize that our current black packaging may not be the most effective or scalable solution for standing out in crowded retail environments.\nWe’re looking for a creative refresh that maintains our premium brand positioning while introducing stronger shelf presence, clearer flavor differentiation, and a more recognizable visual identity.\nWe’re open to evolving beyond black if it creates a stronger, more scalable retail brand.\nPackaging Specifications\n* 6-count box: 6” tall × 3.8” wide\n* 12-count box: Same dimen",
       "vista": "2026-10-31T20:18:48.186Z"
-    },
-    {
-      "id": "561807",
-      "tipo": "FREELANCE",
-      "titulo": "Static Ad Concept Design With Creative Strategist",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/561807/Static-Ad-Concept-Design-With-Creative-Strategist",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Team seeking a DR graphic designer",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a DR graphic designer to collaborate with our in-house creative strategist and produce 20–30 static advertising concepts each month.",
-      "vista": "2026-10-31T18:25:58.578Z"
     }
   ]
 }
