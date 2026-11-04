@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T04:23:24.804Z",
+  "actualizado": "2026-11-04T05:11:36.836Z",
   "ofertas": [
+    {
+      "id": "563577",
+      "tipo": "FREELANCE",
+      "titulo": "Part-Time Upwork Design Collaboration",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563577/Part-Time-Upwork-Design-Collaboration",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "UI/UX Designer Needed for 9-Page Dashboard — Long-Term, Part-Time\nWe are looking for an experienced UI/UX Designer to design a modern, clean, and professional dashboard for a web application.\nThe initial project involves 9 dashboard pages in Figma, with a strong focus on usability, visual consistency, and responsive design.\nThis is a long-term, part-time opportunity, with additional design projects planned after the initial dashboard is completed.\nResponsibilities\nDesign 9 high-quality dashboard pages in Figma.\nCreate clean layouts, charts, tables, forms, and navigation components.\nDevelop reusable UI components and maintain design consistency.\nEnsure responsive and user-friendly interfaces.\nPrepare organized, developer-ready Figma files.\nCollaborate with our development team and implement feedback.\nRequirements\n3+ years of UI/UX design experience.\nStrong Figma skills.\nProven experience designing SaaS dashboards or admin panels.\nGood understanding of UX principles and modern design trends.\nStrong portfolio with relevant dashboard projects.\nReliable communication and availability for ongoing work.\nProject Details\nScope: 9 dashboard pages\nType: Long-term, part-time\nHours: 15–25 hours per week\nLocation: Fully remote\nBudget: Negotiable",
+      "vista": "2026-11-04T05:11:36.836Z"
+    },
     {
       "id": "563549",
       "tipo": "FREELANCE",
@@ -1678,23 +1695,6 @@
       "dondeSolicitar": "",
       "descripcion": "UI/UX Designer Needed for 9-Page Dashboard — Long-Term, Part-Time\nWe are looking for an experienced UI/UX Designer to design a modern, clean, and professional dashboard for a web application.\nThe initial project involves 9 dashboard pages in Figma, with a strong focus on usability, visual consistency, and responsive design.\nThis is a long-term, part-time opportunity, with additional design projects planned after the initial dashboard is completed.\nResponsibilities\nDesign 9 high-quality dashboard pages in Figma.\nCreate clean layouts, charts, tables, forms, and navigation components.\nDevelop reusable UI components and maintain design consistency.\nEnsure responsive and user-friendly interfaces.\nPrepare organized, developer-ready Figma files.\nCollaborate with our development team and implement feedback.\nRequirements\n3+ years of UI/UX design experience.\nStrong Figma skills.\nProven experience designing SaaS dashboards or admin panels.\nGood understanding of UX principles and modern design trends.\nStrong portfolio with relevant dashboard projects.\nReliable communication and availability for ongoing work.\nProject Details\nScope: 9 dashboard pages\nType: Long-term, part-time\nHours: 15–25 hours per week\nLocation: Fully remote\nBudget: Negotiable",
       "vista": "2026-11-03T00:03:23.435Z"
-    },
-    {
-      "id": "561957",
-      "tipo": "FREELANCE",
-      "titulo": "Social Media Management for a Real Estate Company",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/561957/Social-Media-Management-for-a-Real-Estate-Company",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Arqa Sakan Real Estate Company",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 12,
-      "dondeSolicitar": "",
-      "descripcion": "The Social Media Manager is responsible for managing the company’s presence across all social platforms. This includes content publishing, community engagement, advertising operations, influencer outreach, and performance tracking. The role ensures brand consistency, proactive engagement, and effective use of digital platforms to support marketing and business objectives.",
-      "vista": "2026-11-03T00:02:13.971Z"
     }
   ]
 }
