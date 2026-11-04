@@ -1,6 +1,22 @@
 {
-  "actualizado": "2026-11-04T06:01:45.603Z",
+  "actualizado": "2026-11-04T06:58:17.817Z",
   "ofertas": [
+    {
+      "id": "370559",
+      "tipo": "FULLTIME",
+      "titulo": "Video Editor",
+      "presupuesto": "0 USD/año",
+      "enlace": "https://www.behance.net/joblist/fulltime/370559/Video-Editor",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "NEXA Digital",
+      "contacto": "Dalia Khater",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "Behance",
+      "descripcion": "NEXA is on the looking out for an editor who understands retention. Knows how a piece opens, how it holds someone through the middle and how it ends, whether that is a fifteen second reel or a three minute brand film. Cuts for the audience the piece is for, and they know a performance video and a podcast are two completely different jobs.\n Works fast, improves the brief, and is comfortable building something from stock or AI as they are cutting footage a crew shot last week.\n Your portfolio is mandatory to be shortlisted. \n What matters mosts: \n Creative thinking and approach. \n The showreel and portfolio is a mandate. \n Tool fluency: Premiere Pro or Final Cut is a requirement, and AI editing tools should already be in the workflow.\n Agency experience is not required. \n You must have: \n Editing for social: reels, shorts and vertical cuts, with hooks that work in the first second and endings that do not trail off\n Editing for brand: corporate films, case studies, event films, testimonials and campaign pieces\n Podcast and long-form editing, plus the short clips pulled out of it, which is a different craft to performance editing\n Performance edits built to convert, with clear message, visible offer and enough variation for the team to test\n Building a video from scratch when there is no footage, using stock, archive, motion and AI generation\n What we look for \n A portfolio that shows range, across several kinds of client and several formats; clear evidence of understanding hooks",
+      "vista": "2026-11-04T06:58:17.817Z"
+    },
     {
       "id": "563617",
       "tipo": "FREELANCE",
@@ -1677,23 +1693,6 @@
       "cierraEnDias": 13,
       "dondeSolicitar": "",
       "descripcion": "I need a professional designer to create a custom Arabic typography poster based on the attached reference, with a $250 budget and a deadline of the 9th. The design should use warm, desaturated sepia and earth tones, subtle grain and paper texture, a cinematic dusty atmosphere, and a strong central photographic subject. Large stylized Arabic calligraphy should wrap around and interact with the subject, supported by a clean speech-bubble or card-style information layout for short facts and dates. I will provide the text and photo, and I need high-resolution PNG/PDF output plus editable PSD or AI source files, including 2–3 revision rounds. Please share your rates, estimated turnaround, 2–3 relevant portfolio examples, and the usage rights included in your quote.",
-      "vista": "2026-11-03T00:04:30.655Z"
-    },
-    {
-      "id": "562189",
-      "tipo": "FREELANCE",
-      "titulo": "Part-Time Upwork Design Collaboration",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/562189/Part-Time-Upwork-Design-Collaboration",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 13,
-      "dondeSolicitar": "",
-      "descripcion": "UI/UX Designer Needed for 9-Page Dashboard — Long-Term, Part-Time\nWe are looking for an experienced UI/UX Designer to design a modern, clean, and professional dashboard for a web application.\nThe initial project involves 9 dashboard pages in Figma, with a strong focus on usability, visual consistency, and responsive design.\nThis is a long-term, part-time opportunity, with additional design projects planned after the initial dashboard is completed.\nResponsibilities\nDesign 9 high-quality dashboard pages in Figma.\nCreate clean layouts, charts, tables, forms, and navigation components.\nDevelop reusable UI components and maintain design consistency.\nEnsure responsive and user-friendly interfaces.\nPrepare organized, developer-ready Figma files.\nCollaborate with our development team and implement feedback.\nRequirements\n3+ years of UI/UX design experience.\nStrong Figma skills.\nProven experience designing SaaS dashboards or admin panels.\nGood understanding of UX principles and modern design trends.\nStrong portfolio with relevant dashboard projects.\nReliable communication and availability for ongoing work.\nProject Details\nScope: 9 dashboard pages\nType: Long-term, part-time\nHours: 15–25 hours per week\nLocation: Fully remote\nBudget: Negotiable",
       "vista": "2026-11-03T00:04:30.655Z"
     }
   ]
