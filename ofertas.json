@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T17:24:19.421Z",
+  "actualizado": "2026-11-04T18:08:06.339Z",
   "ofertas": [
+    {
+      "id": "563927",
+      "tipo": "FREELANCE",
+      "titulo": "Three-Page Development for an Existing Website",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563927/Three-Page-Development-for-an-Existing-Website",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a web developer to create three new pages for my existing website: About Us, Services, and Blog.\nThe project is straightforward and does not require a full website redesign. I need these pages to match the existing website's design, layout, colors, and overall style so they feel like a natural part of the site.\nThe About Us page will introduce the business, the Services page will explain what we offer, and the Blog page will display articles in a clean, easy-to-read layout.\nThe goal is to create three professional, responsive pages that work well on desktop and mobile devices.\nThis project is ideal for a developer who can deliver clean, functional web pages without adding unnecessary feature.",
+      "vista": "2026-11-04T18:08:06.339Z"
+    },
     {
       "id": "370641",
       "tipo": "CONTRACT",
@@ -1679,23 +1696,6 @@
       "dondeSolicitar": "Behance",
       "descripcion": "We’re looking for one creative, proactive editor with skills in both video editing and motion graphics to help us develop engaging content for our professional, premium brand.\n You’ll bring together storytelling, polished editing and purposeful animation to capture attention, explain ideas and keep our audience engaged.\n What you’ll work on\n Edit client testimonials into authentic, compelling stories.\n Create YouTube Shorts and Instagram Reels with strong hooks, clear captions and engaging pacing.\n Produce motion graphics explainer videos that make business and learning concepts easy to understand.\n Bring fresh ideas for video content, visual treatments and recurring series.\n Maintain a consistent, premium visual style across our videos.\n The style we’re looking for\n Our videos should feel clean, modern and premium , with thoughtful typography, smooth transitions, strong sound design and purposeful motion graphics.\n We want editing that engages and entertains a professional audience without excessive effects or flashy transitions. You should understand current editing trends and know how to adapt them to LBTC’s brand.\n What you’ll bring\n A strong portfolio demonstrating both video editing and motion graphics.\n Experience with testimonials, interviews, short-form videos and animated explainers.\n A good understanding of storytelling, opening hooks, pacing and audience retention.\n Attention to typography, composition, colour, audio and brand consistency.\n Proficiency in Premiere",
       "vista": "2026-11-03T11:14:29.299Z"
-    },
-    {
-      "id": "563041",
-      "tipo": "FREELANCE",
-      "titulo": "Children’s Book Illustration in Watercolor Storybook Style",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563041/Childrens-Book-Illustration-in-Watercolor-Storybook-Style",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "MotionMint is looking for a talented and experienced Children's Book Illustrator to bring a picture-book manuscript for children aged 4–7 to life.\nWe are looking for a creative artist who specializes in soft, hand-painted watercolor illustrations and can create warm, playful, expressive, and visually engaging artwork that captures children's imagination.\nThe story requires a beautiful balance between expressive characters and immersive backgrounds. Every scene should feel inviting, natural, and detailed without overwhelming young readers.\nWe are looking for an illustrator who understands visual storytelling, character expressions, color composition, and page-turn pacing for children's picture books.\n## Project Responsibilities\n- Create original, fully hand-painted watercolor illustrations.\n- Develop expressive and engaging characters.\n- Maintain consistent character appearances throughout the entire book.\n- Create beautiful backgrounds and immersive story environments.\n- Maintain a consistent artistic style across the cover, endpapers, and interior spreads.\n- Follow the manuscript, creative direction, and provided references.\n- Understand visual storytelling and page composition for children aged 4–7.\n- Incorporate feedback and complete revisions when required.\n- Prepare artwork suitable for professional printing and digital publishing.\n## Required Deliverables\n- High-resolution illustrations suitable for professional printing and e-books.\n- Minimum 300 DPI resolution.\n- CMYK",
-      "vista": "2026-11-03T09:56:09.403Z"
     }
   ]
 }
