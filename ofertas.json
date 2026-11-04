@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-03T23:52:55.444Z",
+  "actualizado": "2026-11-04T00:06:39.828Z",
   "ofertas": [
+    {
+      "id": "563487",
+      "tipo": "FREELANCE",
+      "titulo": "3D Model Rigging With Houdini and Blender",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563487/3D-Model-Rigging-With-Houdini-and-Blender",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a rigger for my 3D model of a cobra snake logo with strong Houdini and Blender skills. The work involves creating a functional realistic model & rig + texture suitable for animating the model inside Unreal Engine and Blender for high quality Octane & Cycles render.",
+      "vista": "2026-11-04T00:06:39.828Z"
+    },
     {
       "id": "563483",
       "tipo": "FREELANCE",
@@ -1678,23 +1695,6 @@
       "dondeSolicitar": "",
       "descripcion": "I’m Alec, founder of OOBE Studios: an emerging independent game development studio focused on pairing tight, tactile game mechanics with deep narrative subversion.\nI’m looking for creative talent to build our visual identity, starting with its core: the studio logo. \nOOBE stands for OUT OF BOUNDS ENCOUNTER. The name itself acts as a narrative trigger. It evokes that eerie moment when a player breaches the safe geometry of a virtual environment and meets the unexplainable - an unexpected presence in the void, an interaction with something that was never meant to exist. An exo-suited null-diver reaching across the cosmic edge colliding with his chromatic antithesis.… I want our logo to carry that imaginative narration, that exact same provocative weight.\nWhen I picture our studio logo, I think less about \"playful indie\" and more about cyber-brutalism meets Tokyo-noir in negative space. Based on our visual anchors, I tend to picture a cold, monochromatic, iconic feel to the mark, but I don't shy away from a contrasty color accent that may underline the studio's visual statement.\nMy inspirations are the tech-brutalism of Kojima Productions, the Lovecraftian suspense of Nightdive Studios, and the cold, raw punch of tech-punk aesthetics from ACRNM. If the logo were a playlist, it would land somewhere between \"Fleure\" by Autechre and “Intro (The Full Horror) by SOPHIE.\nI deeply believe in a sharp, striking, and deeply distinct branding being vital to our studio’s ethos. Therefore I ",
       "vista": "2026-10-31T20:53:23.113Z"
-    },
-    {
-      "id": "561835",
-      "tipo": "FREELANCE",
-      "titulo": "Actualización De Marca Minimalista",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/561835/Actualizacion-De-Marca-Minimalista",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Busco un servicio de refresh o actualización para una marca existente. Ya cuento con un logotipo y una etiqueta base que me gustan, pero necesito un rediseño profesional para limpiarlos, vectorizarlos y elevar su aspecto visual, adaptándolos perfectamente al formato físico de una botella/vial de 60 ml con un enfoque minimalista y premium.",
-      "vista": "2026-10-31T20:19:51.256Z"
     }
   ]
 }
