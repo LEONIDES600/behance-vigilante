@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T11:55:02.792Z",
+  "actualizado": "2026-11-04T12:11:46.668Z",
   "ofertas": [
+    {
+      "id": "563767",
+      "tipo": "FREELANCE",
+      "titulo": "Event Logo Design",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563767/Event-Logo-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Laureus",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a graphic designer to create a logo for an event. The design should be artistic, timeless and elegant. Designer must have extensive experience in designing logos to be considered. The designer should also have a strong eye for typography.",
+      "vista": "2026-11-04T12:11:46.668Z"
+    },
     {
       "id": "563753",
       "tipo": "FREELANCE",
@@ -1677,23 +1694,6 @@
       "dondeSolicitar": "",
       "descripcion": "I’m looking for an experienced Squarespace designer to redesign my existing eight-page personal\ntraining and wellness website.\nThe website is already live and contains most of the required pages and content. However, the\ncurrent design feels dated and no longer reflects the professional direction of the brand. I would\nlike the website to have a cleaner, more sophisticated, and modern appearance while remaining\nwarm and approachable to potential clients.\nThis is primarily a redesign and content update project. The existing website structure and\ncontent can be used as a starting point, but the selected freelancer should improve how the\ninformation is organized and presented across the website.\nSome updated text and images will be provided to replace existing content. The homepage and\nservice pages will require the most attention, but the new visual direction should be applied\nconsistently across all eight pages.\nThe project will include:\n• Redesigning the existing eight-page Squarespace website\n• Creating a more polished and consistent visual direction\n• Improving the homepage layout and presentation\n• Making the personal training and wellness services easier to understand\n• Improving the visual hierarchy of headings, text, images, and buttons\n• Updating selected text, images, and website sections\n• Improving spacing, alignment, typography, and section flow\n• Strengthening the navigation and overall user experience\n• Connecting important buttons to the correct pages or sections",
       "vista": "2026-11-03T01:29:38.793Z"
-    },
-    {
-      "id": "562881",
-      "tipo": "FREELANCE",
-      "titulo": "Senior Graphic Designer – Branding & Digital Design",
-      "presupuesto": "5000–10.000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/562881/Senior-Graphic-Designer-Branding-Digital-Design",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Staffluent",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Staffluent is seeking an experienced and creative Senior Graphic Designer to collaborate on a variety of branding, visual identity, and digital design projects.\nWe are looking for a professional with a strong portfolio and expertise in logo design, brand development, social media graphics, website design, packaging, and marketing materials.\nThe ideal candidate should have excellent creative skills, a strong understanding of visual communication, and the ability to transform ideas into compelling designs.\nThis is a remote, long-term collaboration with opportunities to work on diverse projects across different industries. We value creativity, professionalism, attention to detail, and effective communication.",
-      "vista": "2026-11-03T01:24:21.242Z"
     }
   ]
 }
