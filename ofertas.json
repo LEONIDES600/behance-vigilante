@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T13:27:37.049Z",
+  "actualizado": "2026-11-04T13:29:18.847Z",
   "ofertas": [
+    {
+      "id": "563791",
+      "tipo": "FREELANCE",
+      "titulo": "Custom Web Design & Development",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563791/Custom-Web-Design-Development",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We’re looking for a freelancer to create a custom website for our business. The project includes designing a modern, responsive layout, building the site from scratch, and ensuring it works well across devices. You’ll also help with basic setup and support during launch. Please share examples of similar projects and your approach to delivering a clean, functional website on time.",
+      "vista": "2026-11-04T13:29:18.847Z"
+    },
     {
       "id": "563789",
       "tipo": "FREELANCE",
@@ -1677,22 +1694,6 @@
       "cierraEnDias": 29,
       "dondeSolicitar": "Behance",
       "descripcion": "Not Another is looking for a junior–midweight UI/UX Designer with a sharp eye and plenty of ambition. From major website rollouts to punchy campaign microsites, you’ll work alongside our Design Director and some of the best devs in the world to bring your designs to life. You’ve got solid Figma skills, a feel for what makes a great digital experience and a portfolio that shows promise. You’re ready to get stuck in, push your thinking and make work you’re proud of.\n Big projects. Good people. Plenty to get your teeth into.\n Sound like you? Send us your CV, portfolio and relevant links.",
-      "vista": "2026-11-03T04:24:28.703Z"
-    },
-    {
-      "id": "370287",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic Designer",
-      "presupuesto": "15.000–20.000 EGP/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/370287/Graphic-Designer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "Etsy Hospitality",
-      "contacto": "yomna farahat",
-      "solicitantes": 0,
-      "cierraEnDias": 28,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Join Our Team: Graphic Designer (Hospitality) \n We are looking for a versatile Graphic Designer to shape the visual identity of our hospitality brand. If you have a polished aesthetic and love balancing digital design with luxury print production, we want to see your work.\n What You’ll Do\n Digital & Social: Create engaging assets for social media, email marketing, and web.\n Print & Property: Design seasonal menus, in-room guest collateral, and event signage.\n Brand Identity: Maintain visual consistency across all properties and outlets.\n What We’re Looking For\n Experience: 3+ years of professional design experience (hospitality or agency preferred).\n Tools: Expert proficiency in Adobe Creative Suite (Photoshop, Illustrator, InDesign).\n Skills: Strong typography, layout design, and print production knowledge.\n Portfolio: A Behance or digital portfolio showcasing clean, high-end branding.",
       "vista": "2026-11-03T04:24:28.703Z"
     }
   ]
