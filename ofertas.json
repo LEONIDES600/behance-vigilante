@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T17:17:48.663Z",
+  "actualizado": "2026-11-04T17:24:19.421Z",
   "ofertas": [
+    {
+      "id": "370641",
+      "tipo": "CONTRACT",
+      "titulo": "Designer de Embalagens / Packaging Designer (PJ, Remoto, Brasil)",
+      "presupuesto": "0 USD/año",
+      "enlace": "https://www.behance.net/joblist/fulltime/370641/Designer-de-Embalagens-Packaging-Designer-(PJ-Remoto-Brasil)",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "Purple Melon",
+      "contacto": "Julian at Purple Melon",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "Behance",
+      "descripcion": "🇧🇷 Somente designers baseados no Brasil. / Brazil-based designers only.\n Português \n Somos a Purple Melon, um estúdio de embalagens e branding em Nova York. Trabalhamos com marcas de varejo (CPG e DTC) em design de embalagens, facas e arquivos prontos para produção. Estamos procurando um(a) designer freelancer (PJ, 100% remoto) para entrar no nosso fluxo regular de trabalho, não para um job pontual. Se fizer sentido para os dois lados, a ideia é uma parceria contínua.\n Somos um time pequeno e ágil. Isso significa pouca burocracia, mas também que precisamos de pessoas que se comuniquem com clareza e trabalhem com autonomia.\n O que você vai fazer \n Executar e adaptar layouts de embalagem, facas e materiais relacionados a partir de uma direção criativa aprovada e do guia da marca\n Entregar arquivos fechados para produção: sangria correta, conversão para Pantone, regras de sobreimpressão (overprint) e áreas de segurança\n Trabalhar no Adobe CC (principalmente Illustrator) em vários SKUs e produtos, mantendo a consistência visual e estrutural\n Manter seus arquivos e assets organizados, porque o trabalho passa de uma pessoa para outra no time\n Assumir um fluxo constante de demandas de alguns clientes de varejo ativos\n Quem você é \n Tem experiência sólida em design de embalagens e arte-final, e sabe o que \"arquivo pronto para impressão\" realmente significa\n Fica à vontade executando com precisão uma direção criativa já definida, sem precisar reinventá-la a cada vez\n É organizado(a)",
+      "vista": "2026-11-04T17:24:19.421Z"
+    },
     {
       "id": "563897",
       "tipo": "FREELANCE",
@@ -1679,23 +1696,6 @@
       "dondeSolicitar": "",
       "descripcion": "MotionMint is looking for a talented and experienced Children's Book Illustrator to bring a picture-book manuscript for children aged 4–7 to life.\nWe are looking for a creative artist who specializes in soft, hand-painted watercolor illustrations and can create warm, playful, expressive, and visually engaging artwork that captures children's imagination.\nThe story requires a beautiful balance between expressive characters and immersive backgrounds. Every scene should feel inviting, natural, and detailed without overwhelming young readers.\nWe are looking for an illustrator who understands visual storytelling, character expressions, color composition, and page-turn pacing for children's picture books.\n## Project Responsibilities\n- Create original, fully hand-painted watercolor illustrations.\n- Develop expressive and engaging characters.\n- Maintain consistent character appearances throughout the entire book.\n- Create beautiful backgrounds and immersive story environments.\n- Maintain a consistent artistic style across the cover, endpapers, and interior spreads.\n- Follow the manuscript, creative direction, and provided references.\n- Understand visual storytelling and page composition for children aged 4–7.\n- Incorporate feedback and complete revisions when required.\n- Prepare artwork suitable for professional printing and digital publishing.\n## Required Deliverables\n- High-resolution illustrations suitable for professional printing and e-books.\n- Minimum 300 DPI resolution.\n- CMYK",
       "vista": "2026-11-03T09:56:09.403Z"
-    },
-    {
-      "id": "563037",
-      "tipo": "FREELANCE",
-      "titulo": "Part-Time Upwork Design Collaboration",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563037/Part-Time-Upwork-Design-Collaboration",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "UI/UX Designer Needed for 9-Page Dashboard — Long-Term, Part-Time\nWe are looking for an experienced UI/UX Designer to design a modern, clean, and professional dashboard for a web application.\nThe initial project involves 9 dashboard pages in Figma, with a strong focus on usability, visual consistency, and responsive design.\nThis is a long-term, part-time opportunity, with additional design projects planned after the initial dashboard is completed.\nResponsibilities\nDesign 9 high-quality dashboard pages in Figma.\nCreate clean layouts, charts, tables, forms, and navigation components.\nDevelop reusable UI components and maintain design consistency.\nEnsure responsive and user-friendly interfaces.\nPrepare organized, developer-ready Figma files.\nCollaborate with our development team and implement feedback.\nRequirements\n3+ years of UI/UX design experience.\nStrong Figma skills.\nProven experience designing SaaS dashboards or admin panels.\nGood understanding of UX principles and modern design trends.\nStrong portfolio with relevant dashboard projects.\nReliable communication and availability for ongoing work.\nProject Details\nScope: 9 dashboard pages\nType: Long-term, part-time\nHours: 15–25 hours per week\nLocation: Fully remote\nBudget: Negotiable",
-      "vista": "2026-11-03T09:54:03.630Z"
     }
   ]
 }
