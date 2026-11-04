@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T00:50:44.622Z",
+  "actualizado": "2026-11-04T00:58:07.766Z",
   "ofertas": [
+    {
+      "id": "563501",
+      "tipo": "FREELANCE",
+      "titulo": "Whimsical Watercolor Hermit Crab Mascot and Logo for Izzy E Papelería",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563501/Whimsical-Watercolor-Hermit-Crab-Mascot-and-Logo-for-Izzy-E-Papeleria",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m seeking a professional illustrator to create an original whimsical watercolor-style hermit crab mascot named Izzy for my soon to be established stationery business, Izzy E Papelería, with a maximum budget of $400 and a 5–8 week timeline. The commission includes a character design, simplified reference sheet, five finished poses, and a primary business logo. Izzy needs a lavender-purple body, rosy cheeks, two visible eyes in every pose, a gentle storybook personality, and a cozy shell she always wears. I need high-resolution transparent PNGs, editable source files, full commercial rights, and a signed written copyright assignment. All artwork must be original and human-created, with no generative AI or stock character assets. The artist must not publicly display the artwork without my prior written permission. Please share relevant portfolio examples and confirm that you are willing to sign the copyright assignment. If the full scope exceeds my budget, please quote the character design and five illustrations separately, with the logo offered as an optional later phase.",
+      "vista": "2026-11-04T00:58:07.766Z"
+    },
     {
       "id": "563497",
       "tipo": "FREELANCE",
@@ -1678,23 +1695,6 @@
       "dondeSolicitar": "",
       "descripcion": "I need an experienced luxury beauty and lifestyle brand identity designer to refine my existing UNeeQue Beauty logo and create a distinctive UQ monogram. My preferred budget is $600, with flexibility for exceptional work. I want elegant typography that balances understated luxury with bold sophistication, along with professional vector files, logo variations, a mini brand style guide, and full commercial rights.",
       "vista": "2026-11-01T05:24:32.259Z"
-    },
-    {
-      "id": "561915",
-      "tipo": "FREELANCE",
-      "titulo": "Senior Graphic Designer for F&B Branding and Packaging",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/561915/Senior-Graphic-Designer-for-F-B-Branding-and-Packaging",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "ONIS Global",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for a senior graphic designer to develop branding and packaging design for an F&B business. The work should create a cohesive, professional visual identity and packaging suitable for food and beverage products.",
-      "vista": "2026-11-01T03:51:53.911Z"
     }
   ]
 }
