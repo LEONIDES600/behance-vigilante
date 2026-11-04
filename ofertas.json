@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T13:29:18.847Z",
+  "actualizado": "2026-11-04T13:41:29.738Z",
   "ofertas": [
+    {
+      "id": "563795",
+      "tipo": "FREELANCE",
+      "titulo": "UI/UX Design for a 12-Service Website",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563795/UIUX-Design-for-a-12-Service-Website",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a UI/UX designer to create the website interface for our business, which offers 12 different services. The design should clearly organize and present each service through an intuitive user experience.",
+      "vista": "2026-11-04T13:41:29.738Z"
+    },
     {
       "id": "563791",
       "tipo": "FREELANCE",
@@ -1678,22 +1695,6 @@
       "cierraEnDias": 30,
       "dondeSolicitar": "Behance",
       "descripcion": "Quantumstrat is a B2B electronics trading company that also runs a creative studio division producing video and animation for US marketing agencies and brands. We're expanding that division and building a bench of freelance editors and animators who produce work at a US-agency standard: fast, clean, on-brand, and ready to ship. You'll work remotely on projects for our US clients — short-form social, YouTube, brand films, commercials, explainers, product animation and more.\n We're hiring for four tracks (apply to one or more):\n Video Editor — Premiere Pro (plus After Effects for titles/graphics). Short-form social (Reels/TikTok/Shorts), YouTube long-form, corporate, commercial and documentary-style edits. Strong pacing, sound design and color awareness.\n Motion Graphics / 2D Animator — After Effects. Explainers, kinetic typography, animated titles, logo stings, social ad variations, character/2D animation.\n 3D Animator — Blender or Cinema 4D (plus After Effects compositing). Product visualization, how-it-works animations, 3D motion for ads.\n Colorist / Finishing Editor — DaVinci Resolve. Color grading, conform, finishing, delivery specs for broadcast and digital.\n What we need from you \n A portfolio that holds up next to US agency work — this is the main thing we judge on\n 3+ years of professional editing or animation experience (agency, studio or serious freelance)\n Expert in your primary tool: Premiere Pro, After Effects, Blender/Cinema 4D or DaVinci Resolve; Photoshop/Illus",
-      "vista": "2026-11-03T04:24:28.703Z"
-    },
-    {
-      "id": "370327",
-      "tipo": "FULLTIME",
-      "titulo": "UI/UX Designer",
-      "presupuesto": "65.000–85.000 AUD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/370327/UIUX-Designer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "Not Another",
-      "contacto": "Not Another™",
-      "solicitantes": 0,
-      "cierraEnDias": 29,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Not Another is looking for a junior–midweight UI/UX Designer with a sharp eye and plenty of ambition. From major website rollouts to punchy campaign microsites, you’ll work alongside our Design Director and some of the best devs in the world to bring your designs to life. You’ve got solid Figma skills, a feel for what makes a great digital experience and a portfolio that shows promise. You’re ready to get stuck in, push your thinking and make work you’re proud of.\n Big projects. Good people. Plenty to get your teeth into.\n Sound like you? Send us your CV, portfolio and relevant links.",
       "vista": "2026-11-03T04:24:28.703Z"
     }
   ]
