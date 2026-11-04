@@ -1,6 +1,40 @@
 {
-  "actualizado": "2026-11-04T17:11:43.205Z",
+  "actualizado": "2026-11-04T17:12:52.473Z",
   "ofertas": [
+    {
+      "id": "563831",
+      "tipo": "FREELANCE",
+      "titulo": "Branding",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563831/Branding",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Buscamos una diseñadora de branding que nos ayude a traducir la esencia de Mémé en una identidad visual distintiva, sofisticada y coherente.\nMémé es una marca chilena de carteras y accesorios de cuero, inspirada en la elegancia atemporal de nuestra abuela y en una forma de vivir más pausada, sensorial y consciente. Nuestra esencia es la serenidad contemporánea: unir la sensibilidad de lo clásico con la funcionalidad y modernidad del presente.\nEl trabajo consiste en desarrollar un universo visual propio que refleje esta filosofía, incluyendo logotipo, tipografías, paleta cromática, elementos gráficos, aplicaciones de marca y lineamientos de identidad para packaging, etiquetas, web y comunicación.\nBuscamos una estética minimalista, cálida, elegante y contemporánea, con personalidad propia, alejada de las tendencias pasajeras y de los códigos de lujo ostentoso.",
+      "vista": "2026-11-04T17:12:52.473Z"
+    },
+    {
+      "id": "563839",
+      "tipo": "FREELANCE",
+      "titulo": "Short-Form Video Editing for Instagram Reels and TikTok",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563839/Short-Form-Video-Editing-for-Instagram-Reels-and-TikTok",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a video editor to create short-form content for Instagram Reels and TikTok. You must be experienced with Adobe Premiere Pro and CapCut.",
+      "vista": "2026-11-04T17:12:52.473Z"
+    },
     {
       "id": "563825",
       "tipo": "FREELANCE",
@@ -1662,40 +1696,6 @@
       "dondeSolicitar": "",
       "descripcion": "We need an experienced logo and brand identity designer to refine and elevate Trendly’s existing logo while preserving its original concept and identity. We want improvements to typography, proportions, composition, spacing, visual balance, and overall appeal rather than a completely new logo. We also need creative consultation on a suitable brand slogan and a stronger visual design direction, including typography, color palette, and style. We will provide the current logo and welcome constructive recommendations that make the identity more distinctive, polished, and memorable.",
       "vista": "2026-11-03T09:27:24.677Z"
-    },
-    {
-      "id": "563005",
-      "tipo": "FREELANCE",
-      "titulo": "Children’s book series illustrations (ongoing collaborations 10+ books)",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563005/Childrens-book-series-illustrations-(ongoing-collaborations-10-books)",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Go Go",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Children’s Book Illustrator — Long-Term Collaboration (10+ Books)\nWe are a rapidly growing children’s educational publishing brand specializing in premium interactive musical sound books.\nWe develop 10+ new books every month, covering classical music, fairy tales, animals, science, early learning, and imaginative adventures.\nWe are expanding our illustration team and seeking talented artists with sophisticated, distinctive, and expressive styles to bring fresh creative perspectives to our growing portfolio.\nWhat We’re Looking For\n* Unique, sophisticated illustration styles with strong commercial appeal.\n* Vibrant pastel colors, rich details, and beautiful hand-drawn textures.\n* Imaginative, immersive environments and engaging visual storytelling.\n* Expressive, memorable characters with personality and charm.\n* Ability to illustrate our signature dog character consistently while preserving your own artistic style.\nWe welcome diverse artistic approaches and do not expect illustrato",
-      "vista": "2026-11-03T08:46:59.391Z"
-    },
-    {
-      "id": "562991",
-      "tipo": "FREELANCE",
-      "titulo": " 3D Animation Trainer | Abu Dhabi, UAE",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/562991/-3D-Animation-Trainer-Abu-Dhabi-UAE",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Edu Plus Training & Consultancy Centre",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We have a potential training opportunity in Abu Dhabi for a 3D Animation (Blender) Workshop for Marketing Teams, and I wanted to check your interest and availability.\nTRAINING DETAILS:\n• Location: Abu Dhabi (In-person)\n• Duration: 4 days total (2 days per batch)\n• Participants: 7–8 per batch\n• Training Dates: To be confirmed\nTRAINING TOPICS:\n• 3D Fundamentals: Modelling, objects, and transformations\n• Animation & Motion: Keyframing, camera animation, and basic rigging\n• Materials, Lighting & Rendering: Texturing, lighting, rendering, and exporting\n• Practical Applications: Product animation, logo animation, and 3D marketing assets\nThe training should be hands-on, using Blender, and tailored to corporate marketing professionals.",
-      "vista": "2026-11-03T08:07:15.753Z"
     }
   ]
 }
