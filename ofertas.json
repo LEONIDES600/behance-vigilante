@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T00:26:09.130Z",
+  "actualizado": "2026-11-04T00:50:44.622Z",
   "ofertas": [
+    {
+      "id": "563497",
+      "tipo": "FREELANCE",
+      "titulo": "Part-Time Upwork Design Collaboration",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563497/Part-Time-Upwork-Design-Collaboration",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "UI/UX Designer Needed for 9-Page Dashboard — Long-Term, Part-Time\nWe are looking for an experienced UI/UX Designer to design a modern, clean, and professional dashboard for a web application.\nThe initial project involves 9 dashboard pages in Figma, with a strong focus on usability, visual consistency, and responsive design.\nThis is a long-term, part-time opportunity, with additional design projects planned after the initial dashboard is completed.\nResponsibilities\nDesign 9 high-quality dashboard pages in Figma.\nCreate clean layouts, charts, tables, forms, and navigation components.\nDevelop reusable UI components and maintain design consistency.\nEnsure responsive and user-friendly interfaces.\nPrepare organized, developer-ready Figma files.\nCollaborate with our development team and implement feedback.\nRequirements\n3+ years of UI/UX design experience.\nStrong Figma skills.\nProven experience designing SaaS dashboards or admin panels.\nGood understanding of UX principles and modern design trends.\nStrong portfolio with relevant dashboard projects.\nReliable communication and availability for ongoing work.\nProject Details\nScope: 9 dashboard pages\nType: Long-term, part-time\nHours: 15–25 hours per week\nLocation: Fully remote\nBudget: Negotiable",
+      "vista": "2026-11-04T00:50:44.622Z"
+    },
     {
       "id": "563493",
       "tipo": "FREELANCE",
@@ -1678,23 +1695,6 @@
       "dondeSolicitar": "",
       "descripcion": "I’m looking for a senior graphic designer to develop branding and packaging design for an F&B business. The work should create a cohesive, professional visual identity and packaging suitable for food and beverage products.",
       "vista": "2026-11-01T03:51:53.911Z"
-    },
-    {
-      "id": "561871",
-      "tipo": "FREELANCE",
-      "titulo": "Logo Design for a Business",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/561871/Logo-Design-for-a-Business",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Portarc",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a professional logo designed for my business, with a budget of $100–$200. The logo should provide a clear visual identity suitable for business use.",
-      "vista": "2026-10-31T22:03:25.559Z"
     }
   ]
 }
