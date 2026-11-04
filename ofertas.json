@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T09:32:22.564Z",
+  "actualizado": "2026-11-04T09:42:50.408Z",
   "ofertas": [
+    {
+      "id": "563687",
+      "tipo": "FREELANCE",
+      "titulo": "Full Branding for a Fitness Supplement Product",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563687/Full-Branding-for-a-Fitness-Supplement-Product",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a designer to create full branding for my fitness supplement product. The work should establish a cohesive visual identity tailored to the fitness and supplement market.",
+      "vista": "2026-11-04T09:42:50.407Z"
+    },
     {
       "id": "563681",
       "tipo": "FREELANCE",
@@ -1676,23 +1693,6 @@
       "cierraEnDias": 14,
       "dondeSolicitar": "",
       "descripcion": "I need an illustrator to combine my existing illustration with custom typography for a sweets brand. My budget is 200, and I already have the illustration ready to integrate into the final design.\nThe aesthetic is old-world, vintage, playful, combining old and new. I love playful hand-set lettering, muted colors, matte finishes, fine print grain, and softly worn ink edges.",
-      "vista": "2026-11-03T00:08:52.805Z"
-    },
-    {
-      "id": "562781",
-      "tipo": "FREELANCE",
-      "titulo": "Fantasy Book Cover Illustrator | Ongoing Work | No Generative AI",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/562781/Fantasy-Book-Cover-Illustrator-Ongoing-Work-No-Generative-AI",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "DAMONZA",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for a fantasy illustrator for ongoing book cover projects, creating original, human-made artwork.\nEach project requires a full wraparound illustration covering the front, spine, and back. Illustration only. No typography or cover layout is required.\nThe style should be realistic or semi-realistic, with detailed fantasy or sci-fi environments. A typical brief might feature one or two characters within a scene. Please see the attached examples for the style and level of detail required.\nI anticipate approximately 3–5 projects per month, although volume may vary. Please quote for ONE complete project, including the stages outlined below.",
       "vista": "2026-11-03T00:08:52.805Z"
     }
   ]
