@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T09:42:50.408Z",
+  "actualizado": "2026-11-04T10:03:45.471Z",
   "ofertas": [
+    {
+      "id": "563689",
+      "tipo": "FREELANCE",
+      "titulo": "Freelance Motion Designer and After Effects Animator",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563689/Freelance-Motion-Designer-and-After-Effects-Animator",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Dōr of Dome",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We’re looking for a freelance motion designer / After Effects animator to collaborate with us on creating engaging visual content for Dōr of Dome, a contemporary home and textile art brand.\nWe’re interested in someone who can bring ideas to life through animation, illustration, motion graphics and a good sense of visual storytelling.\nFrom animated Instagram reels and social media content to website animations and brand films, we’re looking for someone who enjoys experimenting with visuals and making things move in interesting ways.",
+      "vista": "2026-11-04T10:03:45.471Z"
+    },
     {
       "id": "563687",
       "tipo": "FREELANCE",
@@ -1677,23 +1694,6 @@
       "dondeSolicitar": "",
       "descripcion": "I'm looking for a new logo and branding for my plant nursery and garden centre. The identity should represent the business and provide a cohesive visual foundation for its brand presence. The business name is ‘Boscow Nurseries’. We are a family run business, established in 1927. We grow all plants ourselves so would like that to be shown somehow in our logo. Maybe include a drawing of a greenhouse? On the logo I would like it to say plant nursery and garden centre. Please can we keep to the colour scheme of the original logo. I have made a Pinterest board for inspiration. https://pin.it/5YYXof29M",
       "vista": "2026-11-03T00:09:58.270Z"
-    },
-    {
-      "id": "562779",
-      "tipo": "FREELANCE",
-      "titulo": "Typography and Illustration Integration for Brand Identity",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/562779/Typography-and-Illustration-Integration-for-Brand-Identity",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need an illustrator to combine my existing illustration with custom typography for a sweets brand. My budget is 200, and I already have the illustration ready to integrate into the final design.\nThe aesthetic is old-world, vintage, playful, combining old and new. I love playful hand-set lettering, muted colors, matte finishes, fine print grain, and softly worn ink edges.",
-      "vista": "2026-11-03T00:08:52.805Z"
     }
   ]
 }
