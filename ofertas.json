@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T13:41:29.738Z",
+  "actualizado": "2026-11-04T14:04:30.025Z",
   "ofertas": [
+    {
+      "id": "563801",
+      "tipo": "FREELANCE",
+      "titulo": "Cinematic 3D Energy Drink Can Commercial Animation",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563801/Cinematic-3D-Energy-Drink-Can-Commercial-Animation",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need an experienced 3D product animator to create a premium, cinematic commercial for an energy drink can, with a fixed budget of $100–$200 USD. The project requires realistic 3D product modeling and animation, including a cinematic reveal, 360° can rotation, dynamic green liquid splashes, floating water droplets, particle effects, professional lighting, reflections, realistic materials, and glowing green energy effects against a dark background. Please share relevant 3D product-animation portfolio samples and deliver high-quality work within the agreed deadline.",
+      "vista": "2026-11-04T14:04:30.025Z"
+    },
     {
       "id": "563795",
       "tipo": "FREELANCE",
@@ -1679,23 +1696,6 @@
       "dondeSolicitar": "",
       "descripcion": "I'm an independent R&B/soul artist looking for a photo-manipulation artist to create the cover of my debut single. It must look like a real photograph of an impossible place, not a painting or digital illustration.\nThe image: a lone, free-standing limestone arch covered in ivy, in a daylit meadow of wild red anemones with mountains and cedar trees behind it. Through the arch is a different world at night: a jade-green crescent moon, tall moonlit peaks, waterfalls and mist. Green-gold light from the doorway spills onto the meadow.\nIt should feel inspired, safe and free: wonder, not threat. I have a composition rough and a full written brief to share once we're talking.\nPlease apply with:\n- 2-3 photorealistic composites from your portfolio, ideally mixing different light sources or day and night\n- Your price, including the rights below\n- Confirmation you can meet the dates\nNo AI-generated elements. All source images must be your own or licensed for commercial use.",
       "vista": "2026-11-03T04:41:10.696Z"
-    },
-    {
-      "id": "370411",
-      "tipo": "CONTRACT",
-      "titulo": "Freelance Video Editor / Motion Designer / 3D Animator (Remote)",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/370411/Freelance-Video-Editor-Motion-Designer-3D-Animator-(Remote)",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Quantumstrat",
-      "contacto": "Asad Ullah",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Quantumstrat is a B2B electronics trading company that also runs a creative studio division producing video and animation for US marketing agencies and brands. We're expanding that division and building a bench of freelance editors and animators who produce work at a US-agency standard: fast, clean, on-brand, and ready to ship. You'll work remotely on projects for our US clients — short-form social, YouTube, brand films, commercials, explainers, product animation and more.\n We're hiring for four tracks (apply to one or more):\n Video Editor — Premiere Pro (plus After Effects for titles/graphics). Short-form social (Reels/TikTok/Shorts), YouTube long-form, corporate, commercial and documentary-style edits. Strong pacing, sound design and color awareness.\n Motion Graphics / 2D Animator — After Effects. Explainers, kinetic typography, animated titles, logo stings, social ad variations, character/2D animation.\n 3D Animator — Blender or Cinema 4D (plus After Effects compositing). Product visualization, how-it-works animations, 3D motion for ads.\n Colorist / Finishing Editor — DaVinci Resolve. Color grading, conform, finishing, delivery specs for broadcast and digital.\n What we need from you \n A portfolio that holds up next to US agency work — this is the main thing we judge on\n 3+ years of professional editing or animation experience (agency, studio or serious freelance)\n Expert in your primary tool: Premiere Pro, After Effects, Blender/Cinema 4D or DaVinci Resolve; Photoshop/Illus",
-      "vista": "2026-11-03T04:24:28.703Z"
     }
   ]
 }
