@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T19:13:42.215Z",
+  "actualizado": "2026-11-04T20:55:13.479Z",
   "ofertas": [
+    {
+      "id": "564017",
+      "tipo": "FREELANCE",
+      "titulo": "Art Director to lead client accounts (ongoing, hourly)",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/564017/Art-Director-to-lead-client-accounts-(ongoing-hourly)",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Volt Studios",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Volt Studios is a women-led growth and creative agency based in Austin and Mexico City. We work with founder-led brands in the US and Mexico on paid media, content, email, web and design. We're a small team of about ten, we work in English, and we're close enough that everyone's work gets seen.\nWe're looking for a senior designer who leads accounts, not just design. You'll be the lead on two to three client accounts: the person the client calls, the one who builds the project plan, sets the dates and makes sure every piece lands, whether it's a creative piece or not. Some of what you'll run is email, web, paid media or a launch, with specialists on our team doing that work. You'll coordinate them, keep the client informed, and own the outcome.\nYou're also the senior creative on those accounts, which means two things. You set the creative bar: you review everything our junior designer makes, give feedback that's specific and makes the work better, and decide when it's ready for the client. And you still make the work yourself. When a brand needs a concept from a blank page, a landing page needs to look like it cost real money, or a deadline needs a senior pair of hands, you open Figma and do it. This isn't a seat where you only delegate.\nYour work has to be strong enough to put in front of a founder, and you have to be able to present it, hear feedback without flinching, and ship the final version on the date you said.\nTaste and craft got you here. Leading the account is the j",
+      "vista": "2026-11-04T20:55:13.479Z"
+    },
     {
       "id": "563955",
       "tipo": "FREELANCE",
@@ -1679,23 +1696,6 @@
       "dondeSolicitar": "",
       "descripcion": "About us\nTown Music Group is a Dubai-based music company, founded in 2016, with 30+ billion global streams and 400+ artists worldwide. Our collective of labels covers a wide range of genres.\nThe role\nWe’re looking for one creative person to do two jobs: design and produce our visual content, and set the creative direction for our labels and artists. You’ll turn ideas into Reels, visuals, logos and videos, and shape how our brands look and feel.\nWhat you’ll do\n- Create and edit social media content (Instagram Reels, YouTube videos)\n- Generate AI images and videos for music releases, and refine them in Photoshop and After Effects\n- Design logos and visual identities for our labels and artists\n- Set the visual direction for our brands and release campaigns\n- Deliver on time and keep everything consistent with each brand’s style\nWhat we’re looking for\n- Strong creative vision and an eye for what works in music\n- Experience with AI image and video tools\n- Skilled in Adobe After Effects and Photoshop\n- Fluent English, written and spoken\n- Reliable, punctual, and good with deadlines\n- A team player with a positive attitude\n- Portfolio required with your application\nDetails\n- Part-time, up to 30 hours/week\n- 6-month paid trial, then a 12-month contract with a higher salary\n- Work remotely or from our co-working space, your choice",
       "vista": "2026-11-03T12:06:53.123Z"
-    },
-    {
-      "id": "563063",
-      "tipo": "FREELANCE",
-      "titulo": "Watercolor Logo Illustration",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563063/Watercolor-Logo-Illustration",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "The visual direction is hand-painted watercolour, inspired by Persian and Japanese landscape painting. The brand should feel refined, soft and slightly playful, not ethnic, heavy or childish. The core symbol is a dragonfly.\nI'm looking for a designer or illustrator to create a small logo suite. This is not a full brand identity.",
-      "vista": "2026-11-03T11:44:24.158Z"
     }
   ]
 }
