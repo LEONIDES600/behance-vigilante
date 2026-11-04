@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T09:20:52.748Z",
+  "actualizado": "2026-11-04T09:32:22.564Z",
   "ofertas": [
+    {
+      "id": "563681",
+      "tipo": "FREELANCE",
+      "titulo": "Concept Per Un Brand Di Gioielli Streetwear",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563681/Concept-Per-Un-Brand-Di-Gioielli-Streetwear",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Vorrei sviluppare un concept creativo per un brand di gioielli streetwear in argento, con un’identità visiva coerente con il posizionamento urban e contemporaneo del marchio.",
+      "vista": "2026-11-04T09:32:22.564Z"
+    },
     {
       "id": "370573",
       "tipo": "FULLTIME",
@@ -1676,23 +1693,6 @@
       "cierraEnDias": 14,
       "dondeSolicitar": "",
       "descripcion": "I’m looking for a fantasy illustrator for ongoing book cover projects, creating original, human-made artwork.\nEach project requires a full wraparound illustration covering the front, spine, and back. Illustration only. No typography or cover layout is required.\nThe style should be realistic or semi-realistic, with detailed fantasy or sci-fi environments. A typical brief might feature one or two characters within a scene. Please see the attached examples for the style and level of detail required.\nI anticipate approximately 3–5 projects per month, although volume may vary. Please quote for ONE complete project, including the stages outlined below.",
-      "vista": "2026-11-03T00:08:52.805Z"
-    },
-    {
-      "id": "562785",
-      "tipo": "FREELANCE",
-      "titulo": "Illustrations and Logo for a Sunderland Children’s Project",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/562785/Illustrations-and-Logo-for-a-Sunderland-Childrens-Project",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Foyboat Ltd",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for an illustrator based in the North East of England, ideally Sunderland, to create a grey seal character in several poses, a traditional Wear coble boat logo, and eleven calm, simple images for children. Trade mark use is required, and copyright must be assigned.",
       "vista": "2026-11-03T00:08:52.805Z"
     }
   ]
