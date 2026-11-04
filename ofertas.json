@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T10:37:29.720Z",
+  "actualizado": "2026-11-04T10:45:51.587Z",
   "ofertas": [
+    {
+      "id": "563711",
+      "tipo": "FREELANCE",
+      "titulo": "packaging design ",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563711/packaging-design-",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Hi,\nWe at GP a Beirut-based F&B distribution company specializing in premium Japanese and international products, are planning to design gift packaging bags to our Japanese Alcohol spirits(whisky, sake and gin) in 2 sizes: single-bottle gift box and double-bottle gift box, both featuring the same design.\nWe are looking for a creative, modern, and distinctive concept inspired by Japanese typography and design, with an unexpected, out-of-the-box approach. We want something sophisticated, artistic, and original, avoiding clichés and overly traditional Japanese motifs.\nWe would also like to know if you are available for this type of project, Additionally, if we have an existing design in low resolution, would you be able to recreate it in high resolution while keeping the original design as close as possible? If so, please let us know your rates \nLooking forward to hearing from you and seeing your creative ideas!\nBest regards,",
+      "vista": "2026-11-04T10:45:51.587Z"
+    },
     {
       "id": "563707",
       "tipo": "FREELANCE",
@@ -1677,23 +1694,6 @@
       "dondeSolicitar": "",
       "descripcion": "I’m publishing a report and need a designer to create its visual design and layout. The final report should be professionally formatted and ready for publication.",
       "vista": "2026-11-03T00:14:17.671Z"
-    },
-    {
-      "id": "562819",
-      "tipo": "FREELANCE",
-      "titulo": "Vide editing",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/562819/Vide-editing",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We’re looking for a video editor to create two looping videos for Green Vault Systems’ demo wall at MJBizCon, December 1–4, 2026.\n1. Product Sizzle Reel | 90–120 seconds\nCombine footage of three GVS products into a cohesive, cinematic reel. Each product sequence will feature a stainless-steel block transforming into the finished machine, followed by product highlights and operating footage.\nThe scope includes editing, pacing, transitions, color correction, branded titles, motion graphics, and sound design. The visual direction is a black studio setting, polished stainless steel, and restrained GVS green accents. Please identify any additional animation or VFX work needed to complete the transformation sequences and quote it separately.\n2. GVS President / Company Overview Video | Length to be recommended\nEdit footage of our president discussing GVS and our products, combining the talking-head interview with existing product footage and other relevant clips. Create a clear, engaging",
-      "vista": "2026-11-03T00:12:08.655Z"
     }
   ]
 }
