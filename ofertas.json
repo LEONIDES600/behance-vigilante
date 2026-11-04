@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T09:04:53.196Z",
+  "actualizado": "2026-11-04T09:20:52.748Z",
   "ofertas": [
+    {
+      "id": "370573",
+      "tipo": "FULLTIME",
+      "titulo": "Art director",
+      "presupuesto": "0 USD/año",
+      "enlace": "https://www.behance.net/joblist/fulltime/370573/Art-director",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "liwa content driven",
+      "contacto": "priti rege",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "Behance",
+      "descripcion": "Hi Rajdeep,\n I came across your profile and portfolio and looks good creative work.\n We are currently looking for an AI-Powered Art Director (Brand, Video & Digital) for a full-time remote position with a Dubai-based creative agency.\n We are particularly looking for someone with strong art direction, branding and key visual skills, combined with video/storytelling capabilities and hands-on experience using AI tools in the creative process.\n Your profile looks relevant, and I would be happy to explore this opportunity with you.\n If you are interested, could you please share:Your latest CV on priti@liwa.tv \n Updated portfolio/showreel\n Current location\n Current and expected monthly salary\n Notice period / earliest joining date\n Confirmation that you are open to a full-time remote position\n Once we receive the above, we can share further details about the role and arrange a discussion.\n Look forward to hearing from you.",
+      "vista": "2026-11-04T09:20:52.748Z"
+    },
     {
       "id": "563659",
       "tipo": "FREELANCE",
@@ -1677,23 +1694,6 @@
       "dondeSolicitar": "",
       "descripcion": "I’m looking for an illustrator based in the North East of England, ideally Sunderland, to create a grey seal character in several poses, a traditional Wear coble boat logo, and eleven calm, simple images for children. Trade mark use is required, and copyright must be assigned.",
       "vista": "2026-11-03T00:08:52.805Z"
-    },
-    {
-      "id": "562749",
-      "tipo": "FREELANCE",
-      "titulo": "Logo Refinement for a Family Olive Oil Brand",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/562749/Logo-Refinement-for-a-Family-Olive-Oil-Brand",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a designer to refine the logo for my family olive oil brand. The updated logo should strengthen the brand’s visual identity while remaining suitable for olive oil packaging and related brand materials.",
-      "vista": "2026-11-03T00:06:43.126Z"
     }
   ]
 }
