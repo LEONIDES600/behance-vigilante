@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T12:46:51.246Z",
+  "actualizado": "2026-11-04T12:50:00.588Z",
   "ofertas": [
+    {
+      "id": "563781",
+      "tipo": "FREELANCE",
+      "titulo": "Part-Time Upwork Design Collaboration",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563781/Part-Time-Upwork-Design-Collaboration",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We need a Shopify expert to build a clean, user-friendly website for a home products store. The site should support product listings, smooth navigation, and a polished shopping experience. We’re looking for someone who can create an organized layout, improve site performance, and help set up the store for long-term growth. Experience with similar e-commerce projects is important, and we value clear communication and reliable delivery.",
+      "vista": "2026-11-04T12:50:00.588Z"
+    },
     {
       "id": "370325",
       "tipo": "CONTRACT",
@@ -1676,23 +1693,6 @@
       "cierraEnDias": 28,
       "dondeSolicitar": "web externa",
       "descripcion": "Company: Mercor\n Location: Remote (Global / Worldwide)\n Employment Type: Contract / Freelance / Project-based\n Domain: Scientific Research & Development / AI Training & Data Annotation\n ​About Mercor\n ​Mercor is a technology-driven platform that connects top-tier global talent with cutting-edge artificial intelligence and enterprise projects. We leverage advanced vetting systems to hire elite professionals for specialized knowledge domains, empowering them to contribute to the future of AI technology, scientific modeling, and technical content curation.",
-      "vista": "2026-11-03T04:24:28.703Z"
-    },
-    {
-      "id": "370263",
-      "tipo": "CONTRACT",
-      "titulo": "Brand Designer $1600/week",
-      "presupuesto": "150–200 USD/h",
-      "enlace": "https://www.behance.net/joblist/fulltime/370263/Brand-Designer-S1600week",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Ethos",
-      "contacto": "John Smith",
-      "solicitantes": 0,
-      "cierraEnDias": 28,
-      "dondeSolicitar": "web externa",
-      "descripcion": "About the role\n We're working with a leading foundational Al lab to find experienced management consultants who can help train their latest language model on document creation tasks. We're looking for brand designers professionals with 4+ years in brand designer to evaluate and refine Al-generated documents, spreadsheets, and slide decks across core workflows.\n Compensation: $100/hour\n Commitment: Flexible, 5-20 hours per week (or more if desired)\n Location: Fully remote, work on your own schedule\n Start date: ASAP\n Qualifications\n 4+ years in management consulting or internal corporate strategy, with direct ownership of client-ready strategy decks and executive steering committee materials\n Fluency with structured problem-solving frameworks, operating model redesign, and building sensitivity-tested business case models in Excel and PowerPoint\n Expert-level document, spreadsheet, and slide craftsmanship, with excellent written communication and attention to detail.\n About Ethos\n Ethos is an expert network backed by Andreessen Horowitz and General Catalyst, built to match professionals to economic opportunities in the age of Al. You create one Ethos profile, and we match you to paid opportunities across expert calls, market research, Al training projects, and full-time roles - so even if this particular opportunity isn't the right fit, your profile keeps working for you and unlocks additional engagements over time.",
       "vista": "2026-11-03T04:24:28.703Z"
     }
   ]
