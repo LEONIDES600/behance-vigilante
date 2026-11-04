@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T14:04:30.025Z",
+  "actualizado": "2026-11-04T14:16:02.931Z",
   "ofertas": [
+    {
+      "id": "563805",
+      "tipo": "FREELANCE",
+      "titulo": "Graphic Design for Branding, Marketing Materials, and Digital Assets",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563805/Graphic-Design-for-Branding-Marketing-Materials-and-Digital-Assets",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a talented graphic designer with a strong portfolio to create visually compelling branding, marketing materials, and digital assets.",
+      "vista": "2026-11-04T14:16:02.931Z"
+    },
     {
       "id": "563801",
       "tipo": "FREELANCE",
@@ -1679,23 +1696,6 @@
       "dondeSolicitar": "web externa",
       "descripcion": "Role Type: Contractor\n Location: Remote\n micro1 is looking for an experienced 2D Graphic Design & Image Editing Expert with strong hands-on experience using GIMP to support an AI training project.\n In this role, you will use GIMP to complete real-world image editing tasks, record your screen, and explain your workflows step by step. Your expertise will help improve how AI systems understand and perform creative tasks.\n Scope of Work\n Perform image editing, photo retouching, and graphic design tasks using GIMP.\n Work with layers, backgrounds, colors, and other image editing tools.\n Demonstrate real-world GIMP workflows through screen recordings.\n Clearly explain and document each step of your editing process.\n Review image editing tasks and provide feedback to support AI model improvement.\n Ensure accuracy and quality in all completed tasks.\n Preferred Qualifications\n Strong hands-on experience using GIMP for professional image editing or graphic design.\n Must have access to GIMP and be comfortable recording and sharing your screen.\n Good understanding of image manipulation, photo retouching, and layer management.\n Ability to explain technical workflows clearly.\n Strong attention to detail and communication skills.",
       "vista": "2026-11-03T07:00:15.448Z"
-    },
-    {
-      "id": "562935",
-      "tipo": "FREELANCE",
-      "titulo": "Photorealistic composite for a single cover (photo manipulation)",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/562935/Photorealistic-composite-for-a-single-cover-(photo-manipulation)",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm an independent R&B/soul artist looking for a photo-manipulation artist to create the cover of my debut single. It must look like a real photograph of an impossible place, not a painting or digital illustration.\nThe image: a lone, free-standing limestone arch covered in ivy, in a daylit meadow of wild red anemones with mountains and cedar trees behind it. Through the arch is a different world at night: a jade-green crescent moon, tall moonlit peaks, waterfalls and mist. Green-gold light from the doorway spills onto the meadow.\nIt should feel inspired, safe and free: wonder, not threat. I have a composition rough and a full written brief to share once we're talking.\nPlease apply with:\n- 2-3 photorealistic composites from your portfolio, ideally mixing different light sources or day and night\n- Your price, including the rights below\n- Confirmation you can meet the dates\nNo AI-generated elements. All source images must be your own or licensed for commercial use.",
-      "vista": "2026-11-03T04:41:10.696Z"
     }
   ]
 }
