@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T17:12:52.473Z",
+  "actualizado": "2026-11-04T17:14:59.991Z",
   "ofertas": [
+    {
+      "id": "563867",
+      "tipo": "FREELANCE",
+      "titulo": "Web Designer Based in Belgrade",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563867/Web-Designer-Based-in-Belgrade",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a web designer based in Belgrade to support a website redesign project with a finished and already defined concept and sitemap.",
+      "vista": "2026-11-04T17:14:59.991Z"
+    },
     {
       "id": "563831",
       "tipo": "FREELANCE",
@@ -1679,23 +1696,6 @@
       "dondeSolicitar": "",
       "descripcion": "مشروع ناشئ يقدم خدمات استشارية لرواد الأعمال. نبحث عن مصمم يفهم الفكرة قبل ما يصمم، ويطلع لنا شغل بروح خاصة فينا، مو قالب مكرر.\nالمحتوى المكتوب جاهز عندنا، ودورك ترتيبه وإخراجه بطريقتك، بما في ذلك عدد الصفحات وتوزيعها.\nالميزانية 250 دولار للمشروع كامل، والمدة أسبوع وبحد أقصى 8 أيام.\nWe are a startup offering consulting services to entrepreneurs. We need an Arabic-speaking designer to create a company profile and an editable PowerPoint quotation template. The written content is ready; the designer handles layout and visual direction. Budget: $250 total. Timeline: 7–8 days.",
       "vista": "2026-11-03T09:32:35.612Z"
-    },
-    {
-      "id": "563025",
-      "tipo": "FREELANCE",
-      "titulo": "Logo Refinement and Brand Identity Direction for Trendly",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563025/Logo-Refinement-and-Brand-Identity-Direction-for-Trendly",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Trendly",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We need an experienced logo and brand identity designer to refine and elevate Trendly’s existing logo while preserving its original concept and identity. We want improvements to typography, proportions, composition, spacing, visual balance, and overall appeal rather than a completely new logo. We also need creative consultation on a suitable brand slogan and a stronger visual design direction, including typography, color palette, and style. We will provide the current logo and welcome constructive recommendations that make the identity more distinctive, polished, and memorable.",
-      "vista": "2026-11-03T09:27:24.677Z"
     }
   ]
 }
