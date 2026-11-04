@@ -1,6 +1,40 @@
 {
-  "actualizado": "2026-11-04T10:45:51.587Z",
+  "actualizado": "2026-11-04T11:42:30.263Z",
   "ofertas": [
+    {
+      "id": "563745",
+      "tipo": "FREELANCE",
+      "titulo": "Corporate And Product Catalog Design For Carina 4 Plastic Packaging",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563745/Corporate-And-Product-Catalog-Design-For-Carina-4-Plastic-Packaging",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Carina 4 LTD",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are Carina 4 LTD, a Bulgarian manufacturer with over 33 years of experience in plastic packaging solutions for the cosmetics, household, and detergent industries.\nWe are looking for an experienced graphic designer to create a **modern, premium corporate and product catalog** that represents our company, manufacturing capabilities, and product portfolio.\nThe catalog will be used at international trade fairs, including Cosmoprof Bologna 2027, as well as for long-term B2B sales, marketing, and business presentations.\nOur goal is to create a professional, visually appealing, and timeless catalog that strengthens our brand identity and communicates the quality of our products to international customers.\nWe are looking for a designer who can develop a consistent visual concept and translate it into a well-structured, high-quality publication.",
+      "vista": "2026-11-04T11:42:30.263Z"
+    },
+    {
+      "id": "563747",
+      "tipo": "FREELANCE",
+      "titulo": "Complete Brand Identity Design for Zawj Matchmaking Business",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563747/Complete-Brand-Identity-Design-for-Zawj-Matchmaking-Business",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Zawj matchmaking",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need an experienced brand identity designer to create a complete visual identity for my matchmaking business, Zawj. The work includes a logo and logo variations, a brand colour palette, typography, supporting visual elements, and a brand guidelines document. I want an elegant, sophisticated, timeless, and professional identity that conveys trust, credibility, and warmth. The branding must be digital-first and work effectively across a future website, WhatsApp, social media, and online advertising. I am seeking creative direction and a cohesive identity system rather than a logo-only service.",
+      "vista": "2026-11-04T11:42:30.263Z"
+    },
     {
       "id": "563711",
       "tipo": "FREELANCE",
@@ -1660,40 +1694,6 @@
       "dondeSolicitar": "",
       "descripcion": "I’m looking for an experienced Squarespace designer to redesign my existing eight-page personal\ntraining and wellness website.\nThe website is already live and contains most of the required pages and content. However, the\ncurrent design feels dated and no longer reflects the professional direction of the brand. I would\nlike the website to have a cleaner, more sophisticated, and modern appearance while remaining\nwarm and approachable to potential clients.\nThis is primarily a redesign and content update project. The existing website structure and\ncontent can be used as a starting point, but the selected freelancer should improve how the\ninformation is organized and presented across the website.\nSome updated text and images will be provided to replace existing content. The homepage and\nservice pages will require the most attention, but the new visual direction should be applied\nconsistently across all eight pages.\nThe project will include:\n• Redesigning the existing eight-page Squarespace website\n• Creating a more polished and consistent visual direction\n• Improving the homepage layout and presentation\n• Making the personal training and wellness services easier to understand\n• Improving the visual hierarchy of headings, text, images, and buttons\n• Updating selected text, images, and website sections\n• Improving spacing, alignment, typography, and section flow\n• Strengthening the navigation and overall user experience\n• Connecting important buttons to the correct pages or sections",
       "vista": "2026-11-03T01:15:49.755Z"
-    },
-    {
-      "id": "562859",
-      "tipo": "FREELANCE",
-      "titulo": "Part-Time Upwork Design Collaboration",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/562859/Part-Time-Upwork-Design-Collaboration",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for an experienced Squarespace designer to redesign my existing eight-page personal\ntraining and wellness website.\nThe website is already live and contains most of the required pages and content. However, the\ncurrent design feels dated and no longer reflects the professional direction of the brand. I would\nlike the website to have a cleaner, more sophisticated, and modern appearance while remaining\nwarm and approachable to potential clients.\nThis is primarily a redesign and content update project. The existing website structure and\ncontent can be used as a starting point, but the selected freelancer should improve how the\ninformation is organized and presented across the website.\nSome updated text and images will be provided to replace existing content. The homepage and\nservice pages will require the most attention, but the new visual direction should be applied\nconsistently across all eight pages.\nThe project will include:\n• Redesigning the existing eight-page Squarespace website\n• Creating a more polished and consistent visual direction\n• Improving the homepage layout and presentation\n• Making the personal training and wellness services easier to understand\n• Improving the visual hierarchy of headings, text, images, and buttons\n• Updating selected text, images, and website sections\n• Improving spacing, alignment, typography, and section flow\n• Strengthening the navigation and overall user experience\n• Connecting important buttons to the correct pages or sections",
-      "vista": "2026-11-03T00:35:17.829Z"
-    },
-    {
-      "id": "562805",
-      "tipo": "FREELANCE",
-      "titulo": "Report Design and Layout",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/562805/Report-Design-and-Layout",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m publishing a report and need a designer to create its visual design and layout. The final report should be professionally formatted and ready for publication.",
-      "vista": "2026-11-03T00:14:17.671Z"
     }
   ]
 }
