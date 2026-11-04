@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T20:55:13.479Z",
+  "actualizado": "2026-11-04T22:13:25.160Z",
   "ofertas": [
+    {
+      "id": "564041",
+      "tipo": "FREELANCE",
+      "titulo": "Motion Design Showreel for a Branding Agency",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/564041/Motion-Design-Showreel-for-a-Branding-Agency",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Something Great Agency",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a motion designer to create a showreel for my branding agency. The reel should showcase our branding work through engaging motion design.",
+      "vista": "2026-11-04T22:13:25.160Z"
+    },
     {
       "id": "564017",
       "tipo": "FREELANCE",
@@ -1679,23 +1696,6 @@
       "dondeSolicitar": "",
       "descripcion": "I need a packaging designer based in India for my home linen brand. The project involves creating packaging that presents the brand and its bed and bath linen products professionally.",
       "vista": "2026-11-03T15:06:17.741Z"
-    },
-    {
-      "id": "563081",
-      "tipo": "FREELANCE",
-      "titulo": "Graphic Designer & Creative Director (Images & Video) | Music Company",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563081/Graphic-Designer-Creative-Director-(Images-Video)-Music-Company",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Town Music Group",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "About us\nTown Music Group is a Dubai-based music company, founded in 2016, with 30+ billion global streams and 400+ artists worldwide. Our collective of labels covers a wide range of genres.\nThe role\nWe’re looking for one creative person to do two jobs: design and produce our visual content, and set the creative direction for our labels and artists. You’ll turn ideas into Reels, visuals, logos and videos, and shape how our brands look and feel.\nWhat you’ll do\n- Create and edit social media content (Instagram Reels, YouTube videos)\n- Generate AI images and videos for music releases, and refine them in Photoshop and After Effects\n- Design logos and visual identities for our labels and artists\n- Set the visual direction for our brands and release campaigns\n- Deliver on time and keep everything consistent with each brand’s style\nWhat we’re looking for\n- Strong creative vision and an eye for what works in music\n- Experience with AI image and video tools\n- Skilled in Adobe After Effects and Photoshop\n- Fluent English, written and spoken\n- Reliable, punctual, and good with deadlines\n- A team player with a positive attitude\n- Portfolio required with your application\nDetails\n- Part-time, up to 30 hours/week\n- 6-month paid trial, then a 12-month contract with a higher salary\n- Work remotely or from our co-working space, your choice",
-      "vista": "2026-11-03T12:06:53.123Z"
     }
   ]
 }
