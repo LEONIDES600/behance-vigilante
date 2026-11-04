@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T06:58:17.817Z",
+  "actualizado": "2026-11-04T07:28:38.899Z",
   "ofertas": [
+    {
+      "id": "563633",
+      "tipo": "FREELANCE",
+      "titulo": "Arabic/English Calligraphy and Typography Logo & Branding",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563633/ArabicEnglish-Calligraphy-and-Typography-Logo-Branding",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for creative, artistic Arabic and English calligraphy and typography for a logo and branding project. The design should integrate both languages into a distinctive visual identity.",
+      "vista": "2026-11-04T07:28:38.899Z"
+    },
     {
       "id": "370559",
       "tipo": "FULLTIME",
@@ -1676,23 +1693,6 @@
       "cierraEnDias": 13,
       "dondeSolicitar": "",
       "descripcion": "**Desarrollo de identidad visual integral y packaging para LA BREGA**\nNecesitamos desarrollar la identidad visual integral de nuestra marca de café colombiano de café de especialidad. Queremos construir una identidad con carácter, reconocible y alejada de las soluciones visuales convencionales del sector cafetero. Nos interesa especialmente la experimentación gráfica, la tipografía y la ilustración como parte de un sistema visual coherente, versátil y con personalidad propia.\nEl encargo comprende el desarrollo del logotipo, sistema tipográfico, paleta cromática, dirección ilustrativa, manual de identidad y sistema de packaging para diferentes presentaciones de café.\nBuscamos profesionales con experiencia demostrable en branding, identidad visual y diseño de empaques, capaces de aportar criterio estratégico y propuestas creativas originales.\nContamos con un dossier detallado del proyecto que compartiremos con las personas o estudios preseleccionados. Nos interesa conocer su portafolio, metodología de trabajo, tiempos estimados y propuesta económica.",
-      "vista": "2026-11-03T00:04:30.655Z"
-    },
-    {
-      "id": "562187",
-      "tipo": "FREELANCE",
-      "titulo": "Custom Arabic Typography Poster With Cinematic Sepia Styling",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/562187/Custom-Arabic-Typography-Poster-With-Cinematic-Sepia-Styling",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 13,
-      "dondeSolicitar": "",
-      "descripcion": "I need a professional designer to create a custom Arabic typography poster based on the attached reference, with a $250 budget and a deadline of the 9th. The design should use warm, desaturated sepia and earth tones, subtle grain and paper texture, a cinematic dusty atmosphere, and a strong central photographic subject. Large stylized Arabic calligraphy should wrap around and interact with the subject, supported by a clean speech-bubble or card-style information layout for short facts and dates. I will provide the text and photo, and I need high-resolution PNG/PDF output plus editable PSD or AI source files, including 2–3 revision rounds. Please share your rates, estimated turnaround, 2–3 relevant portfolio examples, and the usage rights included in your quote.",
       "vista": "2026-11-03T00:04:30.655Z"
     }
   ]
