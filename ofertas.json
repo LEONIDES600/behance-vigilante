@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T12:50:00.588Z",
+  "actualizado": "2026-11-04T13:27:37.049Z",
   "ofertas": [
+    {
+      "id": "563789",
+      "tipo": "FREELANCE",
+      "titulo": "3D CGI Virtual Influencer Recreation And Animation",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563789/3D-CGI-Virtual-Influencer-Recreation-And-Animation",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Dapper Labs",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We're looking for an experienced CGI character artist/animator to produce a paid test video for an established virtual influencer.\nThe project involves accurately recreating an existing stylized-realistic CGI character from image references and animating her in a 30-second video. The character will be sitting, speaking, and making subtle, natural movements.\nOur highest priority is maintaining the character's established appearance, including her facial features, proportions, and overall aesthetic. We're open to AI-assisted workflows, but the final result must be polished, visually consistent, and free of obvious AI artifacts.\nThis is an initial paid test with the potential for ongoing freelance work producing regular videos.",
+      "vista": "2026-11-04T13:27:37.049Z"
+    },
     {
       "id": "563781",
       "tipo": "FREELANCE",
@@ -1676,23 +1693,6 @@
       "cierraEnDias": 28,
       "dondeSolicitar": "Behance",
       "descripcion": "Join Our Team: Graphic Designer (Hospitality) \n We are looking for a versatile Graphic Designer to shape the visual identity of our hospitality brand. If you have a polished aesthetic and love balancing digital design with luxury print production, we want to see your work.\n What You’ll Do\n Digital & Social: Create engaging assets for social media, email marketing, and web.\n Print & Property: Design seasonal menus, in-room guest collateral, and event signage.\n Brand Identity: Maintain visual consistency across all properties and outlets.\n What We’re Looking For\n Experience: 3+ years of professional design experience (hospitality or agency preferred).\n Tools: Expert proficiency in Adobe Creative Suite (Photoshop, Illustrator, InDesign).\n Skills: Strong typography, layout design, and print production knowledge.\n Portfolio: A Behance or digital portfolio showcasing clean, high-end branding.",
-      "vista": "2026-11-03T04:24:28.703Z"
-    },
-    {
-      "id": "370275",
-      "tipo": "CONTRACT",
-      "titulo": "Chemistry Domain Expert $90-$140 / hr (United States)",
-      "presupuesto": "80–100 USD/h",
-      "enlace": "https://www.behance.net/joblist/fulltime/370275/Chemistry-Domain-Expert-S90-S140-hr-(United-States)",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Mercor",
-      "contacto": "Logu Nathan",
-      "solicitantes": 0,
-      "cierraEnDias": 28,
-      "dondeSolicitar": "web externa",
-      "descripcion": "Company: Mercor\n Location: Remote (Global / Worldwide)\n Employment Type: Contract / Freelance / Project-based\n Domain: Scientific Research & Development / AI Training & Data Annotation\n ​About Mercor\n ​Mercor is a technology-driven platform that connects top-tier global talent with cutting-edge artificial intelligence and enterprise projects. We leverage advanced vetting systems to hire elite professionals for specialized knowledge domains, empowering them to contribute to the future of AI technology, scientific modeling, and technical content curation.",
       "vista": "2026-11-03T04:24:28.703Z"
     }
   ]
