@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T17:14:59.991Z",
+  "actualizado": "2026-11-04T17:16:05.355Z",
   "ofertas": [
+    {
+      "id": "563879",
+      "tipo": "FREELANCE",
+      "titulo": "WordPress Website Design And Development",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563879/WordPress-Website-Design-And-Development",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I am seeking a highly skilled and experienced WordPress developer to take on the exciting challenge of designing and developing a professional website tailored to meet my specific needs and objectives. This project requires an individual who possesses not only technical expertise but also a keen eye for aesthetics and user experience.\nThe ideal candidate should have a robust background in WordPress development, with proven experience in creating responsive designs that look great on all devices, including desktops, tablets, and mobile phones. A strong portfolio demonstrating previous work on professional websites will be essential in assessing your capabilities.\nIn addition to responsive design, the successful applicant should have extensive experience in developing custom themes that reflect my brand identity and enhance the overall user experience. You should also be proficient in utilizing various plugins to extend the website's functionality, ensuring that it operates smoothly and efficiently while providing an engaging experience for visitors.\nFurthermore, I am looking for someone who is not only creative and detail-oriented but also possesses excellent communication skills. Collaborating closely with me is essential to ensure that the final product aligns with my vision and meets all requirements. You will need to be open to feedback and revisions throughout the development process.\nIf you are passionate about web development and have a strong commitment to delivering h",
+      "vista": "2026-11-04T17:16:05.355Z"
+    },
     {
       "id": "563867",
       "tipo": "FREELANCE",
@@ -1679,23 +1696,6 @@
       "dondeSolicitar": "",
       "descripcion": "We need a new logo for our padel group, Padel Villains. The logo will be used on T-shirts produced through Printful, so it should be attractive, clear, and suitable for apparel printing and apps.",
       "vista": "2026-11-03T09:49:17.565Z"
-    },
-    {
-      "id": "563027",
-      "tipo": "FREELANCE",
-      "titulo": " تصميم ملف تعريفي وقالب عرض سعر لمشروع ناشئ  Categories Select up to 3 categorie",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563027/-Categories-Select-up-to-3-categorie",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "مشروع ناشئ يقدم خدمات استشارية لرواد الأعمال. نبحث عن مصمم يفهم الفكرة قبل ما يصمم، ويطلع لنا شغل بروح خاصة فينا، مو قالب مكرر.\nالمحتوى المكتوب جاهز عندنا، ودورك ترتيبه وإخراجه بطريقتك، بما في ذلك عدد الصفحات وتوزيعها.\nالميزانية 250 دولار للمشروع كامل، والمدة أسبوع وبحد أقصى 8 أيام.\nWe are a startup offering consulting services to entrepreneurs. We need an Arabic-speaking designer to create a company profile and an editable PowerPoint quotation template. The written content is ready; the designer handles layout and visual direction. Budget: $250 total. Timeline: 7–8 days.",
-      "vista": "2026-11-03T09:32:35.612Z"
     }
   ]
 }
