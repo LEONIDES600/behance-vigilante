@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-04T00:58:07.766Z",
+  "actualizado": "2026-11-04T01:01:22.886Z",
   "ofertas": [
+    {
+      "id": "563503",
+      "tipo": "FREELANCE",
+      "titulo": "Visual Identity And Packaging Design For A Cookies And Coffee Brand",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/563503/Visual-Identity-And-Packaging-Design-For-A-Cookies-And-Coffee-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "SOTD",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Hi! I’m looking to hire a designer to develop a complete visual identity and packaging system for my cookies and coffee brand. I need a brand color palette with print and digital codes, primary and secondary typography, and supporting assets such as patterns, graphic elements, and icons. The packaging scope covers nine formats: packs and boxes for 3, 6, 12, and 24 cookies; packaging for 24 mini cookies with chocolate sauce; plastic and paper coffee cups; a coffee dispenser box; and a cookie tin box. The paper coffee cup should include 2–3 design variations. I need editable source files, print-ready artwork based on my supplier’s approved dimensions and dielines, mockups for every format, a brand guidelines document, and details of required font or asset licenses.",
+      "vista": "2026-11-04T01:01:22.886Z"
+    },
     {
       "id": "563501",
       "tipo": "FREELANCE",
@@ -1678,23 +1695,6 @@
       "dondeSolicitar": "",
       "descripcion": "UI/UX Designer Needed for 9-Page Dashboard — Long-Term, Part-Time\nWe are looking for an experienced UI/UX Designer to design a modern, clean, and professional dashboard for a web application.\nThe initial project involves 9 dashboard pages in Figma, with a strong focus on usability, visual consistency, and responsive design.\nThis is a long-term, part-time opportunity, with additional design projects planned after the initial dashboard is completed.\nResponsibilities\nDesign 9 high-quality dashboard pages in Figma.\nCreate clean layouts, charts, tables, forms, and navigation components.\nDevelop reusable UI components and maintain design consistency.\nEnsure responsive and user-friendly interfaces.\nPrepare organized, developer-ready Figma files.\nCollaborate with our development team and implement feedback.\nRequirements\n3+ years of UI/UX design experience.\nStrong Figma skills.\nProven experience designing SaaS dashboards or admin panels.\nGood understanding of UX principles and modern design trends.\nStrong portfolio with relevant dashboard projects.\nReliable communication and availability for ongoing work.\nProject Details\nScope: 9 dashboard pages\nType: Long-term, part-time\nHours: 15–25 hours per week\nLocation: Fully remote\nBudget: Negotiable",
       "vista": "2026-11-03T00:02:13.971Z"
-    },
-    {
-      "id": "561933",
-      "tipo": "FREELANCE",
-      "titulo": "Luxury Beauty Brand Logo Refinement and UQ Monogram Design",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/561933/Luxury-Beauty-Brand-Logo-Refinement-and-UQ-Monogram-Design",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "UNeeQue Beauty",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need an experienced luxury beauty and lifestyle brand identity designer to refine my existing UNeeQue Beauty logo and create a distinctive UQ monogram. My preferred budget is $600, with flexibility for exceptional work. I want elegant typography that balances understated luxury with bold sophistication, along with professional vector files, logo variations, a mini brand style guide, and full commercial rights.",
-      "vista": "2026-11-01T05:24:32.259Z"
     }
   ]
 }
