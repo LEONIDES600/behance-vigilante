@@ -8,16 +8,20 @@
  * la cola ofertas.json (tarea «Respuesta a ofertas del bot Behance»); las de las
  * otras webs, a mundo.json (tarea «Revisión de empleo LinkedIn (cada hora)»).
  *
+ * v3.2: si existe ANTHROPIC_API_KEY, la API escribe la carta de cada oferta de
+ * Behance que encaja en el momento de detectarla (Telegram + campo «carta» de la cola).
+ *
  * Secretos del repositorio: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID (y opcionales:
- * DISPATCH_PAT, CLAUDE_ROUTINE_TOKEN). GITHUB_TOKEN lo inyecta el workflow.
+ * DISPATCH_PAT, CLAUDE_ROUTINE_TOKEN, ANTHROPIC_API_KEY). GITHUB_TOKEN lo inyecta el workflow.
  * Estado: estado/seen.json (persistido entre ejecuciones con actions/cache)
  * Modo diagnóstico: DIAGNOSTICO=1 node vigilante.js (prueba cada proxy y publica
  * el resultado en la rama «cola», archivo diagnostico.json; no avisa ni guarda estado).
+ * Prueba de cartas: PRUEBA_CARTA=3 node vigilante.js (o PRUEBA_IDS=564041,563839).
  */
 const fs = require('fs');
 const path = require('path');
 
-const VERSION = 'v3.1 · 31/10/2026';
+const VERSION = 'v3.2 · 07/11/2026';
 
 // ───────────────────────────── Configuración ─────────────────────────────
 // Behance: dos listas ordenadas por «lo más reciente» (sort=recent). Una oferta
@@ -836,7 +840,16 @@ function mensajeTelegram(job, enc, lineaRevision) {
   if (job.dondeSolicitar === 'web externa') partes.push('↗️ Se solicita en la web de la empresa');
   partes.push(esc(job.url));
   if (lineaRevision) partes.push(lineaRevision);
-  if (enc.nivel === 'alto' || enc.nivel === 'medio') {
+  const c = job.carta;
+  if (c && !c.error) {
+    const icono = { enviar: '🟢', dudosa: '🟡', espera: '⏳', descartar: '⛔' }[c.decision] || '•';
+    const precio = c.precioUSD != null ? ` · ${c.precioUSD} USD, ${c.anticipoPct} % por adelantado` : '';
+    partes.push('', `${icono} Revisión IA: <b>${esc(c.decision.toUpperCase())}</b>${esc(precio)} — ${esc(c.motivo)}`);
+    if (c.pregunta) partes.push(`❓ ${esc(c.pregunta)}`);
+    if (c.avisos && c.avisos.length) partes.push(`⚠️ Revisar: ${esc(c.avisos.join(', '))}`);
+    if (c.texto) partes.push('', '— Carta lista —', esc(c.texto));
+  } else if (enc.nivel === 'alto' || enc.nivel === 'medio') {
+    if (c && c.error) partes.push('', `⚠️ No se pudo escribir la carta con la API (${esc(c.error.slice(0, 120))}).`);
     const lang = idioma(`${job.title} ${job.description || ''}`);
     partes.push('', '— Propuesta para copiar —', esc(buildProposal(job, lang)));
   }
@@ -930,6 +943,7 @@ function ofertaParaCola(job, enc) {
     dondeSolicitar: job.dondeSolicitar || '',
     descripcion: (job.description || '').slice(0, COLA_DESC_MAX),
     vista: new Date().toISOString(),
+    ...(job.carta ? { carta: job.carta } : {}),
   };
 }
 
@@ -1030,11 +1044,265 @@ async function fireRoutine(job, state) {
   }
 }
 
+// ───────────── Carta con la API de Anthropic (v3.2, 07/11/2026) ─────────────
+// En cuanto se detecta una oferta de Behance que encaja, la API la revisa y
+// escribe la carta (y el precio, si es freelance). El resultado va a Telegram y a
+// ofertas.json (campo «carta»), para que la tarea de Claude solo tenga que abrir
+// la oferta y pegarla. Sin ANTHROPIC_API_KEY no hace nada (todo sigue como antes).
+// Precios oficiales (platform.claude.com/docs/en/about-claude/pricing, 07/11/2026),
+// en USD por millón de tokens: Sonnet 5.5 = 2 entrada / 10 salida / 0,10 caché
+// leída / 2,50 caché escrita · Haiku 5.5 = 0,10 / 0,50 / 0,01 / 0,125.
+const CARTA_MODELO = process.env.ANTHROPIC_MODEL || 'claude-sonnet-5-5';
+const CARTA_PRECIOS = {
+  'claude-sonnet-5-5': { in: 2, out: 10, cacheR: 0.10, cacheW: 2.5 },
+  'claude-haiku-5-5': { in: 0.10, out: 0.50, cacheR: 0.01, cacheW: 0.125 },
+  'claude-opus-5-5': { in: 4, out: 20, cacheR: 0.20, cacheW: 5 },
+};
+const CARTA_FUENTES = ['behance', 'wwr', 'remoteok', 'remotive', 'jobicy', 'himalayas'];
+const CARTA_MAX_POR_HORA = 30;   // freno por si llega una avalancha (protege los créditos)
+const CARTA_MAX_POR_DIA = 150;
+const CARTA_DESC_MAX = 6000;
+const CARTA_TIMEOUT_MS = 60000;
+
+// Lo que la API puede decir de Leo. SOLO hechos confirmados por él (Seguimiento_Empleo
+// → «Datos fijos» y decisiones del 28–31/10/2026). Si cambian, se cambian aquí.
+const CARTA_SISTEMA = `Eres quien revisa y contesta las ofertas de empleo y encargos de Leo Gómez (LeoVisual.nl), de Behance y de webs de empleo remoto. Recibes UNA oferta y devuelves, con la herramienta responder_oferta, si se envía y la carta lista para pegar. Nadie la revisa antes de enviarla: tiene que estar perfecta y ser 100 % honesta.
+
+QUIÉN ES LEO (solo puedes usar estos hechos)
+- Leo Gómez, LeoVisual.nl: estudio creativo con IA en Ámsterdam (Países Bajos). Ciudadano de la UE (nacionalidad española).
+- Portfolio: behance.net/leostudiocreative · leovisual.nl · contact@leovisual.nl
+- Trabajos reales que puedes citar (elige como mucho 2, los que más se parezcan a la oferta):
+  · ORBE y SILENCIO: anuncios cinematográficos hechos con IA (idea, generación, montaje y sonido).
+  · LUMEN, FORJA y MORVAIN: webs 3D con scroll, hechas en código (three.js + GSAP).
+  · Showcases y oficinas de sistemas de agentes de IA (un agente por departamento, informes diarios, agentes de WhatsApp/Telegram, n8n/Make).
+  · Para una marca de hogar que vende en Amazon en varios países de Europa (bajo NDA: NUNCA la nombres): agentes de IA, muchas imágenes y vídeos de listing, contenido A+ y web.
+- Herramientas que ha usado de verdad: Kling y Seedance (vídeo con IA), GPT Image y Nano Banana Pro (imagen, en trabajos pagados), Premiere, After Effects y Adobe; motion graphics, diseño gráfico y 3D. Flujo con IA: webs en código (HTML/CSS/JS, three.js + GSAP), WordPress, Figma y CapCut — nunca digas «expert», «advanced» ni años con ellos.
+- Idiomas: español nativo; inglés de trabajo B1 (nunca «fluent» ni «native»); neerlandés básico.
+- Experiencia: edición de vídeo menos de 2 años; anuncios cortos de rendimiento 2 años (solo si la oferta pide un número). No menciones estudios.
+- Tarifa por hora: 25 USD/h. Sueldo esperado (solo si la oferta lo pide): 3.000 €/mes brutos.
+- Acepta pruebas. NO están confirmados (no los pongas): DaVinci Resolve, gestión de Meta Ads.
+- PROHIBIDO: premios, años, cifras o clientes inventados; «exactamente lo que hago»; nombrar «Claude» o «Anthropic»; prometer resultados.
+
+DECISIÓN
+- "enviar": encaja con sus servicios — vídeo o cine con IA, anuncios y UGC con IA, edición de vídeo, motion graphics, imágenes y vídeo de producto, listings y A+ de Amazon, diseño gráfico de anuncios y redes, contenido para Instagram/TikTok/YouTube, webs y landings (también 3D), diseño web, automatización y agentes de IA, n8n/Make (sin ser programador senior).
+- "dudosa": se envía igual, con carta honesta que no promete lo que no hay en el portfolio — logo, branding o identidad, packaging, presentaciones, ilustración o concept art con IA, VFX/rotoscopia/composición, diseño de producto con IA y todo lo que Leo pueda entregar con IA aunque no tenga una pieza igual.
+- "descartar": exige una especialidad que Leo no puede entregar (joyería o moda para taller, arquitectura/interiores, CAD técnico, ilustración infantil a mano, tatuajes, lettering a mano, arte final de imprenta muy técnico como requisito principal), presencial o híbrido, residencia en un país concreto que no sea España ni Países Bajos (p. ej. «solo Brasil»), idioma que no sea español o inglés como requisito, inglés C1/C2 o nativo obligatorio, reuniones diarias en horario de EE. UU., pago en INR o muy bajo (100 USD o menos por un proyecto entero, o menos de 8 USD/h), programación pura, ventas, contenido para adultos, o pide «X+ años» muy por encima de lo que tiene como requisito duro de una herramienta.
+- "espera": encaja, pero la oferta pide algo que no está en estos hechos y sin lo cual no se puede enviar (un dato, un número de años exacto, un archivo concreto). Escribe igualmente la carta y pon en pregunta_para_leo la pregunta exacta y corta.
+
+CARTA (si no es "descartar")
+- Idioma: el de la oferta. Si la empresa o el contacto escribe en español, en español.
+- 8 a 15 líneas, texto plano, sin markdown, sin emojis, sin asunto.
+- Saluda por el nombre de pila si el contacto es una persona; si no, «Hi!» / «¡Hola!».
+- Primera frase sobre SU necesidad (no sobre Leo). Después 1–2 trabajos reales que se parezcan y cómo lo haría (pasos concretos y breves). Si no hay una pieza igual, dilo con naturalidad y ofrece una muestra corta o una prueba.
+- Si es FREELANCE: incluye el precio que te dé el usuario (no lo cambies), 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.
+- Termina con una pregunta concreta sobre el proyecto y, en líneas aparte, el portfolio (behance.net/leostudiocreative · leovisual.nl) y la firma «Leo Gómez · LeoVisual.nl».
+
+motivo: una frase corta en español para Leo (por qué se envía o se descarta).`;
+
+const CARTA_HERRAMIENTA = {
+  name: 'responder_oferta',
+  description: 'Decisión sobre la oferta y carta lista para pegar en Behance.',
+  input_schema: {
+    type: 'object',
+    properties: {
+      decision: { type: 'string', enum: ['enviar', 'dudosa', 'espera', 'descartar'] },
+      motivo: { type: 'string', description: 'Una frase corta en español.' },
+      categoria: { type: 'string', enum: ['CREATIVO', 'WEB', 'AGENTES', 'OTRO'] },
+      idioma: { type: 'string', enum: ['es', 'en'] },
+      carga: { type: 'string', enum: ['baja', 'media', 'alta'], description: 'Cuánto trabajo piden (piezas, duración, complejidad).' },
+      carta: { type: 'string', description: 'La carta completa. Vacía si la decisión es "descartar".' },
+      pregunta_para_leo: { type: 'string', description: 'Solo si la decisión es "espera"; si no, vacía.' },
+    },
+    required: ['decision', 'motivo', 'categoria', 'idioma', 'carga', 'carta'],
+  },
+};
+
+// «1000–2500 USD», «1.000–2.500 USD», «250 USD» → { min, max } (solo USD y sin periodo).
+function rangoUSD(job) {
+  const b = String(job.budget || '');
+  if (!/\bUSD\b/.test(b) || /\/(h|mes|año|semana|día)\b/.test(b)) return null;
+  const nums = (b.match(/\d[\d.]*/g) || []).map((n) => Number(n.replace(/\./g, ''))).filter((n) => n > 0);
+  if (!nums.length) return null;
+  return { min: Math.min(...nums), max: Math.max(...nums) };
+}
+
+// Regla de precio de Leo (31/10/2026), calculada aquí y no por el modelo:
+// máximo ≤ 300 USD → el máximo; si no, 70/80/90 % del máximo según la carga,
+// redondeado a 50 y nunca fuera del rango del cliente. Sin presupuesto → null.
+function precioFreelance(job, carga) {
+  const r = rangoUSD(job);
+  if (!r) return null;
+  if (r.max <= 300) return r.max;
+  const pct = { baja: 0.7, media: 0.8, alta: 0.9 }[carga] || 0.8;
+  const p = Math.round((r.max * pct) / 50) * 50;
+  return Math.min(r.max, Math.max(r.min, p));
+}
+
+function opcionesPrecio(job) {
+  const ops = { baja: precioFreelance(job, 'baja'), media: precioFreelance(job, 'media'), alta: precioFreelance(job, 'alta') };
+  return ops.media == null ? null : ops;
+}
+
+function textoOfertaParaCarta(job, precios) {
+  const esFreelance = job.tipoBase === 'FREELANCE' || job.type === 'FREELANCE';
+  const lineas = [
+    `Tipo: ${esFreelance ? 'FREELANCE (encargo)' : job.type || 'EMPLEO'}`,
+    `Título: ${job.title}`,
+    `Empresa: ${job.empresa || 'no indicada'}`,
+    `Contacto: ${job.contacto || 'no indicado'}`,
+    `Presupuesto o sueldo: ${job.budget || 'no indicado'}`,
+    `Remoto: ${job.remoto === true ? 'sí' : job.remoto === false ? 'no' : 'no indicado'}${job.ubicacion ? ' · ' + [].concat(job.ubicacion).join(', ') : ''}`,
+    `Solicitantes: ${job.solicitantes ?? 'no indicado'} · Cierra en: ${job.cierraEnDias != null ? job.cierraEnDias + ' días' : 'no indicado'}`,
+    job.categorias && job.categorias.length ? `Categorías: ${job.categorias.join(', ')}` : '',
+    '',
+    'Descripción:',
+    (job.description || '(sin descripción)').slice(0, CARTA_DESC_MAX),
+    '',
+  ];
+  if (esFreelance) {
+    const unico = precios && precios.baja === precios.alta;
+    lineas.push(!precios
+      ? 'Sin presupuesto en USD: propón un piloto de anuncio vertical de 30–45 s por 1.200 € o piezas sueltas desde 300 USD, lo que encaje.'
+      : unico
+        ? `PRECIO A PONER EN LA CARTA: ${precios.media} USD (regla de Leo; no lo cambies).`
+        : `PRECIO A PONER EN LA CARTA, según la carga que elijas (regla de Leo; no pongas otro número): baja = ${precios.baja} USD · media = ${precios.media} USD · alta = ${precios.alta} USD.`);
+  }
+  return lineas.filter((l) => l !== '').join('\n').replace(/\nDescripción:/, '\n\nDescripción:');
+}
+
+// Comprobaciones de honestidad sobre la carta ya escrita (no la cambian: avisan).
+function avisosCarta(texto) {
+  const reglas = [
+    [/\bclaude\b|\banthropic\b/i, 'nombra la herramienta'],
+    [/\bfluent\b|\bnative (english|speaker)\b|\bbiling[üu]e\b/i, 'exagera el inglés'],
+    [/\bexpert\b|\badvanced\b|\bexperto\b/i, 'dice «expert/advanced»'],
+    [/\b\d{1,2}\+? (years|años)\b/i, 'menciona años'],
+    [/\baward|premio/i, 'menciona premios'],
+    [/exactly what i do|exactamente lo que hago/i, 'frase prohibida'],
+  ];
+  return reglas.filter(([re]) => re.test(texto)).map(([, m]) => m);
+}
+
+function costeUSD(modelo, u) {
+  const p = CARTA_PRECIOS[modelo];
+  if (!p || !u) return null;
+  return ((u.input_tokens || 0) * p.in + (u.output_tokens || 0) * p.out
+    + (u.cache_read_input_tokens || 0) * p.cacheR + (u.cache_creation_input_tokens || 0) * p.cacheW) / 1e6;
+}
+
+async function llamarAnthropic(cuerpo) {
+  let ultimo = '';
+  for (let intento = 1; intento <= 2; intento++) {
+    try {
+      const res = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: { 'x-api-key': process.env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
+        body: JSON.stringify(cuerpo),
+        signal: AbortSignal.timeout(CARTA_TIMEOUT_MS),
+      });
+      const texto = await res.text();
+      if (res.ok) return { ok: true, json: JSON.parse(texto) };
+      ultimo = `HTTP ${res.status}: ${texto.slice(0, 200)}`;
+      // Solo se reintenta lo pasajero (saturación o fallo del servidor).
+      if (![429, 500, 502, 503, 504, 529].includes(res.status)) break;
+      const espera = Math.min(Number(res.headers.get('retry-after')) || 5, 20) * 1000;
+      await new Promise((r) => setTimeout(r, espera));
+    } catch (e) {
+      ultimo = e.name === 'TimeoutError' ? 'tiempo agotado' : e.message;
+    }
+  }
+  return { ok: false, error: ultimo };
+}
+
+// Escribe la carta de una oferta. Devuelve el objeto «carta» (o uno con «error»),
+// o null si no aplica (sin clave, otra fuente, límite).
+async function redactarCarta(job, state) {
+  if (!process.env.ANTHROPIC_API_KEY) return null;
+  if (!CARTA_FUENTES.includes(job.sourceKey) || job.gated) return null;
+  const ahora = Date.now();
+  state.cartas = (state.cartas || []).filter((t) => t > ahora - 24 * 3600000);
+  if (state.cartas.length >= CARTA_MAX_POR_DIA || state.cartas.filter((t) => t > ahora - 3600000).length >= CARTA_MAX_POR_HORA) {
+    return { error: 'límite de cartas (hora o día) alcanzado' };
+  }
+  state.cartas.push(ahora);
+  const esFreelance = job.tipoBase === 'FREELANCE' || job.type === 'FREELANCE';
+  const precios = esFreelance ? opcionesPrecio(job) : null;
+  const r = await llamarAnthropic({
+    model: CARTA_MODELO,
+    max_tokens: 1500,
+    system: [{ type: 'text', text: CARTA_SISTEMA, cache_control: { type: 'ephemeral' } }],
+    tools: [CARTA_HERRAMIENTA],
+    tool_choice: { type: 'tool', name: CARTA_HERRAMIENTA.name },
+    messages: [{ role: 'user', content: textoOfertaParaCarta(job, precios) }],
+  });
+  if (!r.ok) return { error: r.error, modelo: CARTA_MODELO, generada: new Date().toISOString() };
+  const bloque = (r.json.content || []).find((c) => c.type === 'tool_use');
+  const x = bloque && bloque.input;
+  if (!x || !x.decision) return { error: 'respuesta sin decisión', modelo: CARTA_MODELO, generada: new Date().toISOString() };
+  let texto = String(x.carta || '').trim();
+  const precio = precios ? precios[x.carga] ?? precios.media : null;
+  const avisos = [];
+  if (precio != null && x.decision !== 'descartar') {
+    // La carta tiene que llevar el precio de su carga. Si lleva otra de las opciones,
+    // se corrige; si no lleva ningún número de los tres, se avisa.
+    const conMiles = (n) => [String(n), n.toLocaleString('es-ES'), n.toLocaleString('en-US')];
+    const lleva = (n) => conMiles(n).some((s) => new RegExp(`(^|[^\\d.,])${s.replace(/[.,]/g, '[.,]')}(?![\\d])`).test(texto));
+    if (!lleva(precio)) {
+      const otro = Object.values(precios).find((n) => n !== precio && lleva(n));
+      if (otro != null) for (const s of conMiles(otro)) texto = texto.split(s).join(String(precio));
+      else avisos.push('la carta no lleva el precio');
+    }
+  }
+  const u = r.json.usage || {};
+  return {
+    decision: x.decision,
+    motivo: x.motivo || '',
+    categoria: x.categoria || '',
+    idioma: x.idioma || '',
+    carga: x.carga || '',
+    texto: x.decision === 'descartar' ? '' : texto,
+    precioUSD: precio,
+    anticipoPct: esFreelance ? 50 : null,
+    plazo: esFreelance ? '7–10 días' : '',
+    pregunta: x.pregunta_para_leo || '',
+    avisos: [...avisos, ...avisosCarta(texto)],
+    modelo: CARTA_MODELO,
+    tokens: { entrada: u.input_tokens || 0, salida: u.output_tokens || 0, cacheLeida: u.cache_read_input_tokens || 0, cacheEscrita: u.cache_creation_input_tokens || 0 },
+    costeUSD: costeUSD(CARTA_MODELO, u),
+    generada: new Date().toISOString(),
+  };
+}
+
+// Modo de prueba: PRUEBA_CARTA=N node vigilante.js → escribe las cartas de las N
+// ofertas más nuevas de ofertas.json y las muestra en el log. No avisa por
+// Telegram, no toca la cola ni guarda estado.
+async function pruebaCarta() {
+  const n = Number(process.env.PRUEBA_CARTA) || 3;
+  const ids = (process.env.PRUEBA_IDS || '').split(',').map((s) => s.trim()).filter(Boolean);
+  const res = await fetch(`https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY || 'LEONIDES600/behance-vigilante'}/${COLA_RAMA}/${COLA_ARCHIVO}`, { signal: AbortSignal.timeout(30000) });
+  const ofertas = ((await res.json()).ofertas || []).filter((o) => !ids.length || ids.includes(String(o.id))).slice(0, ids.length || n);
+  const estado = { cartas: [] };
+  let total = 0;
+  for (const o of ofertas) {
+    const job = {
+      id: `behance:${o.id}`, sourceKey: 'behance', source: 'Behance', type: o.tipo, tipoBase: o.tipo, title: o.titulo, url: o.enlace,
+      budget: o.presupuesto, remoto: o.remoto, ubicacion: o.ubicacion, empresa: o.empresa, contacto: o.contacto,
+      solicitantes: o.solicitantes, cierraEnDias: o.cierraEnDias, description: o.descripcion,
+    };
+    const c = await redactarCarta(job, estado);
+    total += (c && c.costeUSD) || 0;
+    console.log(`\n══ ${o.id} · ${o.titulo} · ${o.presupuesto}`);
+    console.log(JSON.stringify({ ...c, texto: undefined }, null, 1));
+    if (c && c.texto) console.log(`── carta ──\n${c.texto}`);
+  }
+  console.log(`\nCoste total de la prueba: ${total.toFixed(4)} USD (${CARTA_MODELO}).`);
+}
+
 // ───────────────────────────────── Estado ─────────────────────────────────
 // Estado: { v:2, seen:[ids], initialized:[fuentes], blindSince, blindNotified, … }.
 // Compatibilidad: si seen.json es un array antiguo, son ids de Behance ya vistos.
 function estadoVacio() {
-  return { seen: new Set(), initialized: new Set(), blindSince: 0, blindNotified: false, sourceFails: {}, sourceSkip: {}, routineFires: [], pasada: 0, proxyBehance: null, ultimaPasadaConDatos: 0, estadoPublicado: 0, stats: null, migradoV3: false, sonda: null, listasFallos: 0, listasPausaHasta: 0, ultimaConsulta: {}, turnos: {} };
+  return { seen: new Set(), initialized: new Set(), blindSince: 0, blindNotified: false, sourceFails: {}, sourceSkip: {}, routineFires: [], pasada: 0, proxyBehance: null, ultimaPasadaConDatos: 0, estadoPublicado: 0, stats: null, migradoV3: false, sonda: null, listasFallos: 0, listasPausaHasta: 0, ultimaConsulta: {}, turnos: {}, cartas: [] };
 }
 function loadState() {
   try {
@@ -1063,6 +1331,7 @@ function loadState() {
       listasPausaHasta: raw.listasPausaHasta || 0,
       ultimaConsulta: raw.ultimaConsulta || {},
       turnos: raw.turnos || {},
+      cartas: raw.cartas || [],
     };
   } catch {
     return null; // primera ejecución
@@ -1092,12 +1361,13 @@ function saveState(state) {
     listasPausaHasta: state.listasPausaHasta || 0,
     ultimaConsulta: state.ultimaConsulta || {},
     turnos: state.turnos || {},
+    cartas: state.cartas || [],
   }));
 }
 
 function contar(state, clave) {
   const hoy = new Date().toISOString().slice(0, 10);
-  if (!state.stats || state.stats.fecha !== hoy) state.stats = { fecha: hoy, nuevas: 0, alto: 0, medio: 0, bajo: 0, no: 0, enCola: 0, enMundo: 0 };
+  if (!state.stats || state.stats.fecha !== hoy) state.stats = { fecha: hoy, nuevas: 0, alto: 0, medio: 0, bajo: 0, no: 0, enCola: 0, enMundo: 0, cartas: 0, cartasError: 0, costeCartasUSD: 0 };
   state.stats[clave] = (state.stats[clave] || 0) + 1;
 }
 
@@ -1163,6 +1433,7 @@ async function diagnostico() {
 // ───────────────────────────────── Principal ─────────────────────────────────
 async function main() {
   if (process.env.DIAGNOSTICO === '1') return diagnostico();
+  if (process.env.PRUEBA_CARTA) return pruebaCarta();
   let state = loadState();
   const firstRun = state === null;
   if (firstRun) state = estadoVacio();
@@ -1309,6 +1580,13 @@ async function main() {
       continue;
     }
     if (!esBehance) {
+      // v3.2: también se escribe la carta de las webs mundiales que encajan.
+      const carta = await redactarCarta(job, state);
+      if (carta) {
+        job.carta = carta;
+        contar(state, carta.error ? 'cartasError' : 'cartas');
+        if (carta.costeUSD) state.stats.costeCartasUSD = Math.round(((state.stats.costeCartasUSD || 0) + carta.costeUSD) * 1e4) / 1e4;
+      }
       paraMundo.push({ job, enc });
       contar(state, 'enMundo');
       avisosFuente[job.sourceKey] = (avisosFuente[job.sourceKey] || 0) + 1;
@@ -1318,6 +1596,16 @@ async function main() {
       }
     }
     const aClaude = ROUTINE_SOURCES.includes(job.sourceKey) && NIVELES_A_COLA.includes(enc.nivel);
+    // v3.2: la carta se escribe AHORA con la API (si hay clave), antes de avisar.
+    if (aClaude) {
+      const carta = await redactarCarta(job, state);
+      if (carta) {
+        job.carta = carta;
+        contar(state, carta.error ? 'cartasError' : 'cartas');
+        if (carta.costeUSD) state.stats.costeCartasUSD = Math.round(((state.stats.costeCartasUSD || 0) + carta.costeUSD) * 1e4) / 1e4;
+        console.log(`  Carta API: ${carta.error ? 'ERROR ' + carta.error : `${carta.decision}${carta.precioUSD != null ? ' ' + carta.precioUSD + ' USD' : ''} (${carta.costeUSD != null ? carta.costeUSD.toFixed(4) : '?'} USD)`}`);
+      }
+    }
     const revision = aClaude ? await fireRoutine(job, state) : 'no-aplica';
     if (aClaude) { paraCola.push({ job, enc }); contar(state, 'enCola'); }
     const lineaRevision = {
@@ -1327,7 +1615,7 @@ async function main() {
       || (aClaude ? '🤖 En cola: la reviso en la próxima hora y, si encaja, la contesto.' : '')
       || (!esBehance ? '🗂 Guardada en la lista mundial: la reviso en la próxima pasada de cada hora.' : '');
     // Las que no encajan llegan en silencio (sin sonido) para no molestar.
-    const silencioso = enc.nivel === 'bajo' || enc.nivel === 'no';
+    const silencioso = enc.nivel === 'bajo' || enc.nivel === 'no' || (job.carta && job.carta.decision === 'descartar');
     const ok = await sendTelegram(mensajeTelegram(job, enc, lineaRevision), { silencioso, html: true });
     console.log(`  ${ok ? 'Enviada a Telegram' : 'ERROR Telegram'} [${job.source}] [${enc.nivel}] (revisión: ${revision}): ${job.title}`);
   }
@@ -1342,4 +1630,4 @@ if (require.main === module) {
   main().catch((e) => { console.error(e); process.exit(1); });
 }
 
-module.exports = { main, encaje, idioma, buildProposal, extractBehanceJobs, behanceEstado, nodoAOferta, enrichBehance, mensajeTelegram, publicarCola, publicarEstado, publicarMundo, routineText, fireRoutine, passesFilters, formatoDinero, ubicacionPermitida, sourceRemotive, sourceJobicy, sourceHimalayas, himalayasOferta, SOURCES };
+module.exports = { main, encaje, redactarCarta, precioFreelance, rangoUSD, opcionesPrecio, textoOfertaParaCarta, avisosCarta, CARTA_SISTEMA, idioma, buildProposal, extractBehanceJobs, behanceEstado, nodoAOferta, enrichBehance, mensajeTelegram, publicarCola, publicarEstado, publicarMundo, routineText, fireRoutine, passesFilters, formatoDinero, ubicacionPermitida, sourceRemotive, sourceJobicy, sourceHimalayas, himalayasOferta, SOURCES };

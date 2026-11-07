@@ -32,7 +32,7 @@ estado/seen.json                  Estado en runtime: IDs de ofertas ya vistas (N
 
 No hay `package.json`, `node_modules`, build, tests ni linter. El script usa solo
 módulos nativos de Node (`fs`, `path`) y el `fetch` global (requiere Node 18+; el
-workflow fija Node 20).
+workflow fija Node 24 desde la v3.2).
 
 ## Cómo funciona `vigilante.js` (flujo de `main()`)
 
@@ -145,6 +145,22 @@ lo conviertas en un aviso por pasada: sería spam cada 3 minutos.
   categorías) y `ubicacionPermitida` (`filtrarUbicacion`). Las alto/medio de fuentes
   no Behance van a `mundo.json` (rama `cola`, `publicarMundo`), que lee la tarea
   «Revisión de empleo LinkedIn (cada hora)»; bajo/no no se avisan. `ofertas.json` no cambia.
+- v3.2 (07/11/2026): **carta con la API de Anthropic** (`redactarCarta`). Si existe el
+  secreto `ANTHROPIC_API_KEY`, cada oferta que encaja (Behance alto/medio y webs
+  mundiales alto/medio) se revisa y se contesta EN EL MOMENTO: decisión
+  (`enviar`/`dudosa`/`espera`/`descartar`), motivo, carta y, si es freelance, precio.
+  Salida forzada con la herramienta `responder_oferta`. El precio NO lo decide el
+  modelo: `precioFreelance` aplica la regla de Leo (máx. ≤ 300 USD → el máximo; si no,
+  70/80/90 % del máximo según la carga, redondeado a 50, dentro del rango) y se
+  comprueba que la carta lleva ese número. `CARTA_SISTEMA` = los únicos hechos de Leo
+  que se pueden usar (de «Datos fijos» del Seguimiento_Empleo): si cambian, se cambian
+  ahí. `avisosCarta` marca «fluent», «expert», años, premios o «Claude». Topes
+  `CARTA_MAX_POR_HORA` (30) y `CARTA_MAX_POR_DIA` (150), reintento solo en 429/5xx.
+  Resultado → Telegram («Carta lista») y campo `carta` en ofertas.json / mundo.json.
+  Sin clave o si la API falla, todo sigue como en la v3.1 (propuesta de plantilla).
+  Modelo: variable del repo `ANTHROPIC_MODEL` (por defecto `claude-sonnet-5-5`).
+  Prueba sin avisar: *Run workflow* con `prueba_carta` = nº de ofertas (o
+  `PRUEBA_CARTA=3 node vigilante.js` en local, con la clave en el entorno).
 - `SOURCES` — plataformas vigiladas (añadir/quitar aquí).
 - `SEARCHES` — términos de búsqueda de Behance (`''` = portada del joblist).
 - `INCLUDE` / `EXCLUDE` — palabras clave para el filtro de relevancia, comunes a
@@ -171,6 +187,8 @@ no hace falta tocar la lógica.
 - `TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID` se leen de `process.env` y se inyectan
   desde los **Secretos del repositorio** en el workflow. Nunca los pongas en el
   código ni en commits.
+- `ANTHROPIC_API_KEY` (secreto opcional del repo, v3.2): clave de la API para escribir
+  las cartas. La crea Leo; nunca en el código ni en commits.
 - `DISPATCH_PAT` (secreto del repo): token personal usado **solo en el workflow**
   para que la vigilancia se auto-encadene (ver abajo). Si no existe, el workflow
   sigue funcionando pero depende del cron de respaldo. Permiso necesario: Actions

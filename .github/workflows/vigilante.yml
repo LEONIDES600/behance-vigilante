@@ -8,6 +8,15 @@ on:
   schedule:
     - cron: '7 * * * *'
   workflow_dispatch:           # permite lanzarlo a mano desde la pestaña Actions
+    inputs:
+      prueba_carta:
+        description: 'Solo prueba de cartas con la API: nº de ofertas de la cola (vacío = vigilancia normal)'
+        required: false
+        default: ''
+      prueba_ids:
+        description: 'Prueba de cartas: IDs concretos separados por comas (opcional)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -17,18 +26,40 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # v3.2: prueba de cartas (solo si se lanza a mano con «prueba_carta»). No avisa
+  # por Telegram, no toca la cola ni el estado: escribe las cartas en el log.
+  prueba-cartas:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.prueba_carta != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Escribir cartas de prueba con la API
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          PRUEBA_CARTA: ${{ github.event.inputs.prueba_carta }}
+          PRUEBA_IDS: ${{ github.event.inputs.prueba_ids }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then echo "Falta el secreto ANTHROPIC_API_KEY."; exit 1; fi
+          node vigilante.js
+
   revisar:
+    if: github.event_name != 'workflow_dispatch' || github.event.inputs.prueba_carta == ''
     runs-on: ubuntu-latest
     timeout-minutes: 345
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Restaurar estado (ofertas ya vistas)
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v6
         with:
           path: estado
           key: seen-${{ github.run_id }}
@@ -52,6 +83,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CLAUDE_ROUTINE_TOKEN: ${{ secrets.CLAUDE_ROUTINE_TOKEN }}
           CLAUDE_ROUTINE_ID: trig_01VaRvsBniYiH9294MwgaC17
+          # v3.2 (07/11/2026): si existe el secreto ANTHROPIC_API_KEY, la carta de
+          # cada oferta de Behance que encaja se escribe al instante con la API.
+          # Modelo opcional en la variable del repo ANTHROPIC_MODEL (por defecto
+          # claude-sonnet-5-5).
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
         run: |
           fin=$(( $(date +%s) + 19800 ))   # vigilar durante 5 h 30 min
           i=0
@@ -65,7 +102,7 @@ jobs:
 
       - name: Guardar estado
         if: always()
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v6
         with:
           path: estado
           key: seen-${{ github.run_id }}
@@ -104,7 +141,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'schedule'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Commit semanal de actividad
         run: |
           last=$(git log -1 --format=%ct)
