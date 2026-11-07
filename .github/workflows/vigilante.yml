@@ -26,8 +26,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # v3.2: prueba de cartas (solo si se lanza a mano con «prueba_carta»). No avisa
-  # por Telegram, no toca la cola ni el estado: escribe las cartas en el log.
+  # v3.2: prueba de cartas (solo si se lanza a mano con «prueba_carta»). Manda las
+  # cartas a Telegram marcadas «PRUEBA» y a prueba-cartas.json (rama cola); no toca
+  # ofertas.json ni el estado, y no envía nada a ningún cliente.
   prueba-cartas:
     if: github.event_name == 'workflow_dispatch' && github.event.inputs.prueba_carta != ''
     runs-on: ubuntu-latest
@@ -41,6 +42,9 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PRUEBA_CARTA: ${{ github.event.inputs.prueba_carta }}
           PRUEBA_IDS: ${{ github.event.inputs.prueba_ids }}
         run: |

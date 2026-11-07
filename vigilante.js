@@ -1274,14 +1274,16 @@ async function redactarCarta(job, state) {
 }
 
 // Modo de prueba: PRUEBA_CARTA=N node vigilante.js → escribe las cartas de las N
-// ofertas más nuevas de ofertas.json y las muestra en el log. No avisa por
-// Telegram, no toca la cola ni guarda estado.
+// ofertas más nuevas de ofertas.json, las muestra en el log, las manda a Telegram
+// marcadas «PRUEBA» (si hay token) y las guarda en prueba-cartas.json (rama cola).
+// No toca ofertas.json ni el estado, y no se envía nada a ningún cliente.
 async function pruebaCarta() {
   const n = Number(process.env.PRUEBA_CARTA) || 3;
   const ids = (process.env.PRUEBA_IDS || '').split(',').map((s) => s.trim()).filter(Boolean);
   const res = await fetch(`https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY || 'LEONIDES600/behance-vigilante'}/${COLA_RAMA}/${COLA_ARCHIVO}`, { signal: AbortSignal.timeout(30000) });
   const ofertas = ((await res.json()).ofertas || []).filter((o) => !ids.length || ids.includes(String(o.id))).slice(0, ids.length || n);
   const estado = { cartas: [] };
+  const resultados = [];
   let total = 0;
   for (const o of ofertas) {
     const job = {
@@ -1294,8 +1296,18 @@ async function pruebaCarta() {
     console.log(`\n══ ${o.id} · ${o.titulo} · ${o.presupuesto}`);
     console.log(JSON.stringify({ ...c, texto: undefined }, null, 1));
     if (c && c.texto) console.log(`── carta ──\n${c.texto}`);
+    resultados.push({ id: o.id, titulo: o.titulo, presupuesto: o.presupuesto, enlace: o.enlace, carta: c });
+    // A Telegram, para que Leo vea cada carta en el móvil (en silencio).
+    if (process.env.TELEGRAM_BOT_TOKEN && c) {
+      const cab = `🧪 PRUEBA de carta (${esc(CARTA_MODELO)}) · no se ha enviado nada\n<b>${esc(o.titulo)}</b>\n💰 ${esc(o.presupuesto || '—')} · ${esc(o.enlace)}`;
+      const cuerpo = c.error ? `⚠️ Error: ${esc(c.error)}`
+        : `Decisión: <b>${esc(c.decision.toUpperCase())}</b>${c.precioUSD != null ? ' · ' + c.precioUSD + ' USD' : ''} — ${esc(c.motivo)}${c.avisos.length ? '\n⚠️ ' + esc(c.avisos.join(', ')) : ''}${c.texto ? '\n\n' + esc(c.texto) : ''}`;
+      await sendTelegram(`${cab}\n\n${cuerpo}`, { silencioso: true, html: true });
+    }
   }
   console.log(`\nCoste total de la prueba: ${total.toFixed(4)} USD (${CARTA_MODELO}).`);
+  const pub = await actualizarArchivoCola('prueba-cartas.json', () => ({ fecha: new Date().toISOString(), modelo: CARTA_MODELO, costeTotalUSD: Math.round(total * 1e4) / 1e4, resultados }), 'prueba de cartas con la API');
+  console.log(`Resultado guardado en la rama cola (prueba-cartas.json): ${pub}`);
 }
 
 // ───────────────────────────────── Estado ─────────────────────────────────
