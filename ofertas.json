@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-10T19:49:13.224Z",
+  "actualizado": "2026-11-10T19:50:18.301Z",
   "ofertas": [
+    {
+      "id": "565499",
+      "tipo": "FREELANCE",
+      "titulo": "Part-Time Growth Marketing Specialist",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/565499/Part-Time-Growth-Marketing-Specialist",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "eXpand AD",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 11,
+      "dondeSolicitar": "",
+      "descripcion": "We are looking for a part-time Growth Marketing Specialist to support eXpand AD, a US-based digital marketing and growth agency. The role focuses on executing marketing campaigns, creating engaging content, managing social media, and supporting client acquisition and business growth.",
+      "vista": "2026-11-10T19:50:18.301Z"
+    },
     {
       "id": "565243",
       "tipo": "FREELANCE",
@@ -1682,23 +1699,6 @@
       "dondeSolicitar": "",
       "descripcion": "Freelance Video Editor & Motion Designer | AI-Assisted Video Production\nBudget: $250–$400 per project\nProject Length: Typically 15–30 seconds\nRelationship: Ongoing freelance collaboration\nLocation: Remote / Worldwide",
       "vista": "2026-11-03T15:18:54.563Z"
-    },
-    {
-      "id": "563175",
-      "tipo": "FREELANCE",
-      "titulo": "Company Brand Identity and Website Design",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563175/Company-Brand-Identity-and-Website-Design",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a brand designer to create a company’s brand identity, overall visual vibe, and website design. The work should establish a cohesive look and feel across the brand and its online presence.",
-      "vista": "2026-11-03T15:11:07.815Z"
     }
   ]
 }
