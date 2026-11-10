@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-10T22:36:44.617Z",
+  "actualizado": "2026-11-10T22:43:03.726Z",
   "ofertas": [
+    {
+      "id": "566825",
+      "tipo": "FREELANCE",
+      "titulo": "Photorealistic AI Social Film for a Premium Consumer Brand",
+      "presupuesto": "5000–10.000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566825/Photorealistic-AI-Social-Film-for-a-Premium-Consumer-Brand",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "US-based premium consumer brand client",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need an AI filmmaker to create a photorealistic 30-second social film for a premium consumer brand. The budget is $10K–$15K, and final delivery is required within 2 weeks for a remote, US-based client. The film must feature realistic people, authentic emotion, and consistent characters across more than 10 scenes.",
+      "vista": "2026-11-10T22:43:03.726Z"
+    },
     {
       "id": "566815",
       "tipo": "FREELANCE",
@@ -1682,23 +1699,6 @@
       "dondeSolicitar": "Behance",
       "descripcion": "We're looking for a versatile 3D Generalist / Animator who can take ownership of the complete 3D production pipeline, from initial concepts and references to polished, production-ready assets.\n You'll work across hard-surface modelling, texturing, UV mapping, rigging and animation, creating assets that will be used across Arena's mobile application and marketing materials.\n The role involves working primarily with realistic PBR assets, alongside a secondary collection of stylised low-poly models. We're looking for someone who understands both the artistic and technical sides of 3D production, particularly when working with assets optimised for mobile performance.\n What You'll Do\n Own the complete 3D asset pipeline, from blockouts and modelling to final exports.\n Create detailed hard-surface models, equipment, props, environments and simple humanoid characters.\n Develop realistic PBR materials, textures, decals and surface details.\n Create optimized UV layouts with clean topology and efficient texture usage.\n Rig and animate mechanical objects, props and simple humanoid characters.\n Produce smooth keyframe animations, including idle loops, action sequences and mechanical movements.\n Create polished 3D turntable animations and high-quality marketing renders.\n Optimize assets for real-time rendering and mobile performance.\n Export production-ready assets in GLB/glTF (primary) and FBX formats.\n Collaborate with the product and design teams to maintain visual consistency across th",
       "vista": "2026-11-04T12:46:51.246Z"
-    },
-    {
-      "id": "370399",
-      "tipo": "CONTRACT",
-      "titulo": "Graphic Designer",
-      "presupuesto": "500–5000 USD/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/370399/Graphic-Designer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "SLNT",
-      "contacto": "a z",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Marketing Graphic Designer\n Part Time | Remote (U.S. Preferred) \n We're Looking for a Unicorn. \n Not someone who just makes things look good.\n We're looking for a versatile, creative graphic designer who lives in Figma, thrives in a fast paced marketing environment, and can turn ideas into polished, on brand creative across digital and print.\n One day you're designing a social carousel. The next, you're building a Klaviyo email, creating assets for a product launch, or designing a banner for a trade show.\n We have strong brand guidelines and a distinct visual identity. We're looking for someone who can take that foundation and run with it, creating fresh, engaging designs while keeping everything unmistakably on brand.\n This is a part time opportunity with the potential to grow into a full time role as our team and creative needs expand.\n What You'll Own \n Email Marketing: Design engaging Klaviyo emails\n Social Media: Create social carousels, static posts, stories, and engaging graphics for organic and paid social campaigns.\n Paid Advertising: Develop creative assets for Meta, Google, display advertising, and other digital marketing channels.\n Website & Ecommerce: Design homepage banners, promotional graphics, landing page assets, product imagery, and other Shopify website visuals.\n Print & Trade Shows: Design trade show banners, booth graphics, brochures, catalogs, flyers, inserts, signage, and other printed marketing materials.\n Product Launches & Campaigns: Develop cohesiv",
-      "vista": "2026-11-04T12:36:14.889Z"
     }
   ]
 }
