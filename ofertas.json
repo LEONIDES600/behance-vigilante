@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-10T19:54:45.161Z",
+  "actualizado": "2026-11-10T19:56:54.218Z",
   "ofertas": [
+    {
+      "id": "566581",
+      "tipo": "FREELANCE",
+      "titulo": "Senior Graphic Designer",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566581/Senior-Graphic-Designer",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Al-Taawon Hyper Market",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Job Summary:\nAl-Taawon Co. is hiring a Senior Graphic Designer to lead our visual storytelling, social media campaigns, and brand aesthetics. We are looking for an experienced creative who excels in motion graphics, visual art direction, and AI-driven workflows.\nKey Responsibilities:\nMotion & Visual Design: Conceptualize and produce motion graphics, animations, and high-converting visual assets for social media and advertising campaigns.\nBrand Governance: Maintain, enforce, and evolve company brand identity, design systems, and visual consistency across all media.\nAI Tool Integration: Utilize AI-powered design tools for rapid ideation, asset generation, and visual enhancement.\nWorkflow Management: Manage end-to-end design projects independently while meeting tight deadlines under pressure.\nQualifications & Core Skills:\nExperience: Minimum 5 years of professional graphic design experience with strong expertise in Motion Graphics & Animation.\nSoftware: Advanced proficiency in Adobe",
+      "vista": "2026-11-10T19:56:54.218Z"
+    },
     {
       "id": "566093",
       "tipo": "FREELANCE",
@@ -1681,23 +1698,6 @@
       "cierraEnDias": 14,
       "dondeSolicitar": "",
       "descripcion": "I need a Shopify expert to add products to my online store. The work includes uploading product details, organizing listings, and ensuring everything is set up correctly for customers. I’m looking for someone reliable, detail-oriented, and able to complete the task efficiently. Please share your experience with similar projects and your availability.",
-      "vista": "2026-11-03T19:30:41.839Z"
-    },
-    {
-      "id": "370511",
-      "tipo": "FULLTIME",
-      "titulo": "Editor de Video Experto en IA | 100% Remoto",
-      "presupuesto": "1200–1600 USD/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/370511/Editor-de-Video-Experto-en-IA-100-Remoto",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Remote Baja Talent",
-      "contacto": "Camila Palumbo",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Buscamos un Editor de Video creativo, con pasión por el relato cinematográfico y experiencia en herramientas de IA generativa para video. \n Formarás parte del equipo creativo y colaborarás con directores y estrategas de marca para llevar guiones y storyboards a la pantalla.\n Este rol combina la edición de video tradicional con las nuevas herramientas de inteligencia artificial (como GPT-4 y otras). Serás responsable de crear y mejorar flujos de trabajo asistidos por IA para optimizar tareas de edición: montaje inicial, edición de diálogos, generación de metadatos, descripciones de escenas y sincronización guion-video.\n Responsabilidades principales\n Colaborar con editores, productores y técnicos de IA para integrar modelos de lenguaje en los procesos de edición.\n Hacer desgloses de guión y etiquetado de escenas con IA.\n Usar IA para mejorar diálogos y sugerir revisiones.\n Alinear voz en off y guion con ayuda de IA.\n Crear subtítulos, resúmenes y transcripciones automáticas.\n Generar metadatos para clips y activos.\n Editar cortes preliminares y finales con herramientas de IA, manteniendo coherencia narrativa y estilo visual.\n Convertir notas editoriales en prompts de IA para generar variaciones de escenas, referencias visuales o listas de B-roll.\n Evaluar resultados generados por IA y ajustar prompts para lograr precisión y rapidez.\n Mantenerse actualizado sobre IA generativa, nuevas tecnologías de postproducción y procesamiento de lenguaje natural.\n Requisitos\n 2 a 5+ años de",
       "vista": "2026-11-03T19:30:41.839Z"
     }
   ]
