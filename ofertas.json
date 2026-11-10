@@ -1,6 +1,40 @@
 {
-  "actualizado": "2026-11-10T19:48:07.548Z",
+  "actualizado": "2026-11-10T19:49:13.224Z",
   "ofertas": [
+    {
+      "id": "565243",
+      "tipo": "FREELANCE",
+      "titulo": "Burger Box Design for a Shop",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/565243/Burger-Box-Design-for-a-Shop",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Chicken Buzz",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 11,
+      "dondeSolicitar": "",
+      "descripcion": "I need a burger box design for my shop. The packaging should be suitable for serving and presenting burgers to customers.",
+      "vista": "2026-11-10T19:49:13.224Z"
+    },
+    {
+      "id": "565353",
+      "tipo": "FREELANCE",
+      "titulo": "Food Packaging Pouch Design",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/565353/Food-Packaging-Pouch-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "H Bakes",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 11,
+      "dondeSolicitar": "",
+      "descripcion": "I'm launching a gluten-free flour blend in a 750g K-seal pouch, likely printed on a recyclable mono-material film. I've designed a range of four, but I'm launching with one to see how it's received, with the others to follow next year.\nThe concept is already done: I have detailed mock-ups for the layout, colours, illustration and label panels, so I don't need initial concepts, but am open to feedback and ideas for improvement. What I really need is someone to turn the first pouch into finished, print-ready artwork on my printer's dieline: front, back and both gussets, including a simplified skyline illustration from reference images I supply. I'd also need layered source files, so the later blends can be built on the same template.",
+      "vista": "2026-11-10T19:49:13.224Z"
+    },
     {
       "id": "565131",
       "tipo": "FREELANCE",
@@ -1664,40 +1698,6 @@
       "cierraEnDias": 14,
       "dondeSolicitar": "",
       "descripcion": "I need a brand designer to create a company’s brand identity, overall visual vibe, and website design. The work should establish a cohesive look and feel across the brand and its online presence.",
-      "vista": "2026-11-03T15:11:07.815Z"
-    },
-    {
-      "id": "370489",
-      "tipo": "FULLTIME",
-      "titulo": "Email Marketing Design",
-      "presupuesto": "300–400 USD/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/370489/Email-Marketing-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Design Elite",
-      "contacto": "Chairunnisa Salma Fithriani",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "We're hiring an Email Designer to design email marketing campaigns for Design Elite's e-commerce clients. Briefs here usually come with a reference layout and approved copy, so the job is about reinterpreting that structure with strong visual design — rich hero sections, product showcases, comparison blocks, and infographics — while staying inside the technical constraints that make an email actually render well in an inbox.\n What you'll do \n • Design full email campaigns from client briefs, reference layouts, and provided copy\n • Reinterpret an approved layout's content and order into your own visual design, rather than copying the reference structure directly\n • Build visually rich sections (hero, product showcases, comparison blocks, infographics) within email-safe layout constraints\n • Keep typography, spacing, and image sizing consistent and legible across devices and email clients\n • Prepare files cleanly for handoff to the client's email service provider\n • Catch and avoid common recurring errors: outdated or duplicated subtitles, mismatched CTA text, inconsistent footer icons\n What we're looking for \n • A strong portfolio specifically in email marketing design, not just general graphic design\n • Understanding of email-specific constraints: safe fonts, image-to-text ratio, mobile responsiveness, light backgrounds\n • Close attention to detail across repeated or templated layouts\n • Ability to work from a client's existing layout and copy while reinterpreting the visual ",
-      "vista": "2026-11-03T15:11:07.815Z"
-    },
-    {
-      "id": "370485",
-      "tipo": "FULLTIME",
-      "titulo": "Technical Artist (Cocos Creator / UI Animation)",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/370485/Technical-Artist-(Cocos-Creator-UI-Animation)",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Jito",
-      "contacto": "Ksenia Boiko",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "We are looking for a Technical Artist to join our mobile game development team, focusing on UI animation and asset integration in Cocos Creator .\n You will transform designs and After Effects animations into polished, responsive, and optimized in-game experiences, ensuring consistent visual quality across different mobile devices and screen sizes.\n Responsibiliries: \n Recreate and implement After Effects animations in Cocos Creator, preserving the original visual quality and timing.\n Integrate UI assets, animations, and Spine content into the game engine.\n Build responsive UI layouts and animations that work across different screen sizes and aspect ratios.\n Optimize assets, animations, and UI performance for mobile devices.\n Troubleshoot visual and technical issues in collaboration with artists and developers.\n Improve asset integration workflows and maintain clean, reusable project structures.\n Requirements: \n Strong hands-on experience with Cocos Creator and mobile game development.\n Proficiency in After Effects, Figma, and Photoshop.\n Experience integrating Spine 2D animations into game projects.\n Solid understanding of UI animation, responsive layouts, scaling, and anchors.\n Knowledge of mobile game optimization, including rendering performance and memory usage.\n Ability to independently implement and troubleshoot UI animations in Cocos Creator.\n Strong visual attention to detail and effective communication skills.\n Nice to Have \n TypeScript or JavaScript scripting experi",
       "vista": "2026-11-03T15:11:07.815Z"
     }
   ]
