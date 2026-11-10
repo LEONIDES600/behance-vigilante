@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-10T20:11:47.206Z",
+  "actualizado": "2026-11-10T20:14:57.386Z",
   "ofertas": [
+    {
+      "id": "566669",
+      "tipo": "FREELANCE",
+      "titulo": "Prowadzenie Social Mediów I Rozwój Marki Osobistej | Branża Nieruchomości",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566669/Prowadzenie-Social-Mediow-I-Rozwoj-Marki-Osobistej-Branza-Nieruchomosci",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Szukam specjalisty do prowadzenia social mediów i rozwoju mojej marki osobistej w branży nieruchomości. Zależy mi na spójnej komunikacji oraz materiałach wspierających widoczność marki w mediach społecznościowych. \nDodatkowo, jeśli masz takie kompetencje, chętnie porozmawiałbym o bardziej kompleksowej współpracy - wspólnym tworzeniu strategii marketingowej i komunikacji, o prowadzeniu kompleksowym social mediów oraz materiałów graficznych mojej marki osobistej oraz sprzedawanych przeze mnie nieruchomości. \nPorozmawiajmy o możliwościach współpracy :)",
+      "vista": "2026-11-10T20:14:57.386Z"
+    },
     {
       "id": "371247",
       "tipo": "FULLTIME",
@@ -1682,23 +1699,6 @@
       "dondeSolicitar": "",
       "descripcion": "We are seeking a talented Vietnam-based illustrator/package designer for \"110VJ.LOVE,\" a premium gift project introducing 5 distinct ancient green tea varieties (Che Shan Tuyet) to the Japanese luxury gift market. \nYou will create bespoke, collectible tin packaging illustrations that celebrate the unique terroir, extreme altitudes, and ethnic heritage of 5 distinct mountainous regions in Northern Vietnam (such as Tay Con Linh, Suoi Giang, Hong Thai, and Hoang Su Phi).",
       "vista": "2026-11-04T09:03:45.070Z"
-    },
-    {
-      "id": "563633",
-      "tipo": "FREELANCE",
-      "titulo": "Arabic/English Calligraphy and Typography Logo & Branding",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563633/ArabicEnglish-Calligraphy-and-Typography-Logo-Branding",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for creative, artistic Arabic and English calligraphy and typography for a logo and branding project. The design should integrate both languages into a distinctive visual identity.",
-      "vista": "2026-11-04T07:28:38.899Z"
     }
   ]
 }
