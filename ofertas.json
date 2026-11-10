@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-10T19:40:49.444Z",
+  "actualizado": "2026-11-10T19:42:34.844Z",
   "ofertas": [
+    {
+      "id": "564911",
+      "tipo": "FREELANCE",
+      "titulo": "Complete Visual Identity and Branding Package for a New Food Product",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/564911/Complete-Visual-Identity-and-Branding-Package-for-a-New-Food-Product",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 10,
+      "dondeSolicitar": "",
+      "descripcion": "I need a talented illustrator and graphic designer to create a complete visual identity and branding package for a new food product. The project includes a custom logo, product packaging, exterior boxes, stickers, brand mascot character designs, realistic product mockups, and a comprehensive brand guideline document.",
+      "vista": "2026-11-10T19:42:34.844Z"
+    },
     {
       "id": "564607",
       "tipo": "FREELANCE",
@@ -1678,23 +1695,6 @@
       "cierraEnDias": 30,
       "dondeSolicitar": "web externa",
       "descripcion": "Senior Packaging Designer — Grit & Pearl\n We’re looking for a Senior Packaging Designer who doesn’t just create beautiful\n work — but brings ideas to life from concept to shelf.\n At Grit & Pearl, we “roll up our sleeves.” We are a new breed of design partner built\n on deep production expertise, strategic thinking, and a commitment to making\n brands work in the real world — not just in presentations. This role is for a designer\n who thrives in that space: where creativity meets execution, and ideas translate into\n impact at scale.\n You’ll play a key role in shaping distinctive, ownable packaging systems for global\n FMCG brands — while navigating the realities of adaptation, portfolio rollout, and\n production with confidence.\n What You’ll Do\n • Create strategically grounded, commercially effective packaging\n design across multiple brands and markets\n • Translate creative briefs into ownable, scalable design systems that work\n from concept through to shelf\n • Partner closely with Account and Strategy teams to ensure creative aligns\n with business and brand objectives\n • Collaborate across Trident functions to bridge design, adaptation, and\n production seamlessly\n • Contribute to brand audits, renovation projects, and innovation pipelines\n • Develop and refine design solutions through iterative thinking and feedback\n loops\n • Take ownership of projects from concept through artwork and production\n readiness\n • Play an active role in quality control, ensuring design integrity is ma",
-      "vista": "2026-11-03T15:11:07.815Z"
-    },
-    {
-      "id": "370075",
-      "tipo": "CONTRACT",
-      "titulo": "3D Animation / Video Rendering Specialist",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/370075/3D-Animation-Video-Rendering-Specialist",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Luxe Line Media",
-      "contacto": "Chloe Stubblebine",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Luxe Line Media produces drone, photo, and video content for commercial real estate in New England. We’re looking for a 3D animation and video rendering specialist to create realistic aerial property videos for our clients.\n What you’ll do \n Build cinematic fly-through videos of properties in Google Earth Studio, using Google’s satellite and 3D imagery\n Edit, enhance, and color grade 4K drone footage we provide, adding 3D animation or motion graphics where it helps\n Render and deliver finished 4K videos, ready for client use\n Keep the required Google Earth attribution on every Earth Studio video, following Google’s usage terms\n Turn around projects quickly, often within a few days\n What you’ll need \n Hands-on experience with Google Earth Studio, including camera paths, keyframing, and rendering\n Skill in 3D animation, motion graphics, or compositing (After Effects, Blender, Cinema 4D, or similar)\n Strong color grading and editing skills, ideally in Final Cut Pro or DaVinci Resolve\n A portfolio of aerial, mapping, or real estate animation work\n Reliable communication and on-time delivery\n Please send me an email at chloe@luxelinemedia.com if you are interested.",
       "vista": "2026-11-03T15:11:07.815Z"
     }
   ]
