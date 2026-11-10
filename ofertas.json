@@ -1,6 +1,40 @@
 {
-  "actualizado": "2026-11-10T20:01:18.257Z",
+  "actualizado": "2026-11-10T20:02:24.775Z",
   "ofertas": [
+    {
+      "id": "566709",
+      "tipo": "FREELANCE",
+      "titulo": "Slide Layout Design Inspired by Palantir and Anduril",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566709/Slide-Layout-Design-Inspired-by-Palantir-and-Anduril",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "ICAT Logistics",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic designer to create polished slide layouts, using Palantir and Anduril as visual references. The layouts should capture a similarly modern, structured, technology-focused presentation aesthetic.",
+      "vista": "2026-11-10T20:02:24.775Z"
+    },
+    {
+      "id": "566753",
+      "tipo": "FREELANCE",
+      "titulo": "AI Image Upscaling for Maximum Resolution",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566753/AI-Image-Upscaling-for-Maximum-Resolution",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are looking for someone to show us how to create images using AI and upscaling images to achieve the highest possible resolution. \nAttached is an image that was generated using ChatGPT and you can see that the image and text is pixelated. \nWe need someone to show us how to solve this problem as well as create series of prompts to achieve different design styles.",
+      "vista": "2026-11-10T20:02:24.775Z"
+    },
     {
       "id": "566651",
       "tipo": "FREELANCE",
@@ -1665,40 +1699,6 @@
       "dondeSolicitar": "",
       "descripcion": "I'm looking for a graphic designer to create my logo and branding and help me with my website. I need a cohesive visual identity that can be applied consistently across the website.",
       "vista": "2026-11-03T23:52:55.444Z"
-    },
-    {
-      "id": "563479",
-      "tipo": "FREELANCE",
-      "titulo": "Packaging Design and Illustration for a Premium Food Brand",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563479/Packaging-Design-and-Illustration-for-a-Premium-Food-Brand",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "SAVA Provisions",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "SAVA is a Hawaiʻi-based premium food brand seeking a designer with strong illustration and packaging design skills to help bring our first product to market.\nWe have an established brand identity and are looking for someone who can translate our creative vision into distinctive, sophisticated, and commercially viable packaging.\nWe're particularly interested in illustration-led design that combines artistic storytelling with strong typography, thoughtful composition, and premium shelf appeal.\nThis is a single-SKU packaging project, not a full rebrand. Additional project details and creative references will be shared with shortlisted candidates.",
-      "vista": "2026-11-03T23:45:35.072Z"
-    },
-    {
-      "id": "563477",
-      "tipo": "FREELANCE",
-      "titulo": "Tamil Wedding Cinematic Video Editing",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563477/Tamil-Wedding-Cinematic-Video-Editing",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a cinematic video editor to create a rich and tasteful Tamil wedding highlight video with a polished, emotionally engaging style.",
-      "vista": "2026-11-03T23:37:17.547Z"
     }
   ]
 }
