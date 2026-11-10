@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-10T22:43:03.726Z",
+  "actualizado": "2026-11-10T22:48:19.824Z",
   "ofertas": [
+    {
+      "id": "566827",
+      "tipo": "FREELANCE",
+      "titulo": "Board Game Art Kit for Spoonwinga and Mutz Play Games",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566827/Board-Game-Art-Kit-for-Spoonwinga-and-Mutz-Play-Games",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We need a one-time board game art kit for Spoonwinga and Mutz Play Games, with a $500–$2,000 budget and delivery within 14–21 days, with some flexibility. Our gameplay has been tested and we are ready to develop a visually appealing product for players. Most existing AI-created assets and the visual direction are complete; we need an artist to rework and polish them in their own style, while creating the Mutz Play Games logo from scratch. The kit must include logos, illustrations, card designs, token art, and packaging artwork using English text, following the uploaded style sheet.",
+      "vista": "2026-11-10T22:48:19.824Z"
+    },
     {
       "id": "566825",
       "tipo": "FREELANCE",
@@ -1681,23 +1698,6 @@
       "cierraEnDias": 30,
       "dondeSolicitar": "Behance",
       "descripcion": "FFKipas is an online platform focused on Free Fire and mobile gaming-related content. We are looking for creative and skilled designers who can contribute to gaming-related visual projects and help develop engaging digital designs.\n Position Overview: \n We are seeking professional Free Fire Proxy Designers with creative skills, strong visual judgment, and an understanding of gaming graphics.\n The ideal candidates should be familiar with Free Fire-inspired visual styles and capable of producing original, high-quality designs for digital platforms.\n Responsibilities: \n Create professional Free Fire-related graphics and visual designs.\n Develop attractive gaming-themed promotional materials.\n Design original layouts, banners, thumbnails, and digital assets.\n Maintain consistent visual quality and branding.\n Follow project requirements and deliver work within agreed deadlines.\n Communicate effectively and incorporate feedback.\n Required Skills: \n Experience in graphic design or gaming-related design.\n Knowledge of Adobe Photoshop, Illustrator, Canva, or similar tools.\n Understanding of gaming aesthetics and visual composition.\n Creativity, attention to detail, and time-management skills.\n A portfolio demonstrating previous design work.\n Employment Details: \n Company: FFKipas\n Position: Professional Free Fire Proxy Designer\n Employment Type: Full-Time / Contract\n Workplace: Remote\n Compensation: USD $5–$10 per hour, depending on experience and skills.\n Location: Remote applicants ",
-      "vista": "2026-11-04T12:46:51.246Z"
-    },
-    {
-      "id": "370289",
-      "tipo": "FULLTIME",
-      "titulo": "3D Generalist / Animator",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/370289/3D-Generalist-Animator",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Arena",
-      "contacto": "Harshdeep Kukreja",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "We're looking for a versatile 3D Generalist / Animator who can take ownership of the complete 3D production pipeline, from initial concepts and references to polished, production-ready assets.\n You'll work across hard-surface modelling, texturing, UV mapping, rigging and animation, creating assets that will be used across Arena's mobile application and marketing materials.\n The role involves working primarily with realistic PBR assets, alongside a secondary collection of stylised low-poly models. We're looking for someone who understands both the artistic and technical sides of 3D production, particularly when working with assets optimised for mobile performance.\n What You'll Do\n Own the complete 3D asset pipeline, from blockouts and modelling to final exports.\n Create detailed hard-surface models, equipment, props, environments and simple humanoid characters.\n Develop realistic PBR materials, textures, decals and surface details.\n Create optimized UV layouts with clean topology and efficient texture usage.\n Rig and animate mechanical objects, props and simple humanoid characters.\n Produce smooth keyframe animations, including idle loops, action sequences and mechanical movements.\n Create polished 3D turntable animations and high-quality marketing renders.\n Optimize assets for real-time rendering and mobile performance.\n Export production-ready assets in GLB/glTF (primary) and FBX formats.\n Collaborate with the product and design teams to maintain visual consistency across th",
       "vista": "2026-11-04T12:46:51.246Z"
     }
   ]
