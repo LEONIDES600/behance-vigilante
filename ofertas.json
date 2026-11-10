@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-10T19:43:42.371Z",
+  "actualizado": "2026-11-10T19:44:48.478Z",
   "ofertas": [
+    {
+      "id": "564955",
+      "tipo": "FREELANCE",
+      "titulo": "WordPress Image Fixes",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/564955/WordPress-Image-Fixes",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 10,
+      "dondeSolicitar": "",
+      "descripcion": "We need a WordPress developer to fix image issues on our website. The work includes resolving broken images, improving image display across pages, and ensuring images load correctly on both desktop and mobile. You should be able to identify the root cause of the issues, make the necessary updates, and test the changes thoroughly. Experience troubleshooting WordPress media problems and improving site performance is important. This is a small, part-time project for someone who can work efficiently and communicate clearly.",
+      "vista": "2026-11-10T19:44:48.478Z"
+    },
     {
       "id": "564945",
       "tipo": "FREELANCE",
@@ -1680,22 +1697,6 @@
       "cierraEnDias": 30,
       "dondeSolicitar": "Behance",
       "descripcion": "VAGA ABERTA | DESIGNER GRÁFICO \n A Kaizen, agência especializada em marketing gastronômico , está em busca de um Designer Gráfico criativo, proativo e com olhar estratégico para fazer parte da nossa equipe!\n Requisitos: \n Experiência na criação de artes para redes sociais (feed, stories e campanhas).\n Domínio de Photoshop, Illustrator e/ou outras ferramentas de design.\n Criatividade, organização e atenção aos detalhes.\n Afinidade com o segmento gastronômico.\n Disponibilidade de tempo.\n Residir em João Pessoa – PB ou região.\n Principais atividades: \n Criação de peças gráficas para restaurantes e outras marcas do segmento gastronômico.\n Desenvolvimento de campanhas promocionais e conteúdos para redes sociais.\n Adaptação de peças para diferentes formatos.\n Colaboração com a equipe de social media e marketing.\n Remuneração: R$ 1.500 mensais.\n Localização: João Pessoa – PB.\n Quer fazer parte da Kaizen? \n Envie seu currículo e portfólio para participar do nosso processo seletivo.\n Venha transformar criatividade em resultados com a gente!",
-      "vista": "2026-11-03T15:11:07.815Z"
-    },
-    {
-      "id": "370133",
-      "tipo": "FULLTIME",
-      "titulo": "Specjalista ds. Marketingu i E-commerce",
-      "presupuesto": "200–1000 EUR/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/370133/Specjalista-ds-Marketingu-i-E-commerce",
-      "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "ForestRiver",
-      "contacto": "Alicja Drohomirecka",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Specjalista ds. Marketingu i E-commerce\n ForestRiver | Budowanie marki premium od podstaw \n ForestRiver (www.forestriver.pl) to polska marka specjalizująca się w produkcji ekstraktów z grzybów funkcjonalnych, łącząca naturę, naukę i innowacyjne technologie ekstrakcji.\n Poszukujemy  kreatywnego i samodzielnego specjalisty ds. marketingu i e-commerce , który od podstaw zaplanuje i wdroży strategię marketingową ForestRiver, budując rozpoznawalność marki w internecie i realnie zwiększając sprzedaż w sklepie internetowym.\n Zakres obowiązków\n Budowanie strategii marketingowej marki  – opracowanie spójnej komunikacji, identyfikacji wizualnej i planu promocji ForestRiver w internecie.\n Social Media Marketing  – tworzenie i prowadzenie kampanii reklamowych na kanałach internetowych i w mediach społecznościowych.\n Produkcja autentycznych materiałów reklamowych  – organizowanie profesjonalnych sesji zdjęciowych, nagrań produktowych, rolek i filmów reklamowych z wykorzystaniem rzeczywistych produktów ForestRiver, bez generowania materiałów przez AI.\n Influencer Marketing i UGC  – wyszukiwanie influencerów i twórców, nawiązywanie współpracy, koordynowanie produkcji materiałów oraz kampanii promocyjnych.\n SEO i pozycjonowanie  – optymalizacja strony www.forestriver.pl, rozwój widoczności w wyszukiwarkach Google oraz tworzenie strategii content marketingowej.\n Kampanie płatne  – planowanie, prowadzenie i optymalizacja reklam Meta Ads i Google Ads.\n Optymalizacja konwersji (CRO)  – analiza z",
       "vista": "2026-11-03T15:11:07.815Z"
     }
   ]
