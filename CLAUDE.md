@@ -150,8 +150,9 @@ lo conviertas en un aviso por pasada: sería spam cada 3 minutos.
   mundiales alto/medio) se revisa y se contesta EN EL MOMENTO: decisión
   (`enviar`/`dudosa`/`espera`/`descartar`), motivo, carta y, si es freelance, precio.
   Salida forzada con la herramienta `responder_oferta`. El precio NO lo decide el
-  modelo: `precioFreelance` aplica la regla de Leo (máx. ≤ 300 USD → el máximo; si no,
-  70/80/90 % del máximo según la carga, redondeado a 50, dentro del rango) y se
+  modelo: `precioFreelance` aplica la regla de Leo (10/11/2026): si el cliente dice una cifra
+  concreta en la descripción (campo `precio_cliente`), esa cifra; si no, el MÁXIMO de su rango;
+  siempre dentro del rango del cliente y se
   comprueba que la carta lleva ese número. `CARTA_SISTEMA` = los únicos hechos de Leo
   que se pueden usar (de «Datos fijos» del Seguimiento_Empleo): si cambian, se cambian
   ahí. `avisosCarta` marca «fluent», «expert», años, premios o «Claude». Topes

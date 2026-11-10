@@ -1117,8 +1117,9 @@ const CARTA_HERRAMIENTA = {
       carga: { type: 'string', enum: ['baja', 'media', 'alta'], description: 'Cuánto trabajo piden (piezas, duración, complejidad).' },
       carta: { type: 'string', description: 'La carta completa. Vacía si la decisión es "descartar".' },
       pregunta_para_leo: { type: 'string', description: 'Solo si la decisión es "espera"; si no, vacía.' },
+      precio_cliente: { type: 'number', description: 'Cifra concreta en USD que el cliente dice que pagará en la descripción; 0 si no dice ninguna o no es freelance.' },
     },
-    required: ['decision', 'motivo', 'categoria', 'idioma', 'carga', 'carta', 'pregunta_para_leo'],
+    required: ['decision', 'motivo', 'categoria', 'idioma', 'carga', 'carta', 'pregunta_para_leo', 'precio_cliente'],
     additionalProperties: false,
   },
 };
@@ -1132,21 +1133,19 @@ function rangoUSD(job) {
   return { min: Math.min(...nums), max: Math.max(...nums) };
 }
 
-// Regla de precio de Leo (31/10/2026), calculada aquí y no por el modelo:
-// máximo ≤ 300 USD → el máximo; si no, 70/80/90 % del máximo según la carga,
-// redondeado a 50 y nunca fuera del rango del cliente. Sin presupuesto → null.
-function precioFreelance(job, carga) {
+// Regla de precio de Leo (10/11/2026), aplicada aquí y no por el modelo:
+// si el cliente dice una cifra concreta en el texto, esa cifra; si no, el MÁXIMO de
+// su rango. Siempre dentro del rango del cliente. Sin presupuesto en USD → null.
+function precioFreelance(job, precioCliente) {
   const r = rangoUSD(job);
   if (!r) return null;
-  if (r.max <= 300) return r.max;
-  const pct = { baja: 0.7, media: 0.8, alta: 0.9 }[carga] || 0.8;
-  const p = Math.round((r.max * pct) / 50) * 50;
-  return Math.min(r.max, Math.max(r.min, p));
+  const c = Number(precioCliente);
+  if (!c || !Number.isFinite(c)) return r.max;
+  return Math.min(r.max, Math.max(r.min, Math.round(c)));
 }
 
 function opcionesPrecio(job) {
-  const ops = { baja: precioFreelance(job, 'baja'), media: precioFreelance(job, 'media'), alta: precioFreelance(job, 'alta') };
-  return ops.media == null ? null : ops;
+  return rangoUSD(job);
 }
 
 function textoOfertaParaCarta(job, precios) {
@@ -1166,12 +1165,9 @@ function textoOfertaParaCarta(job, precios) {
     '',
   ];
   if (esFreelance) {
-    const unico = precios && precios.baja === precios.alta;
     lineas.push(!precios
       ? 'Sin presupuesto en USD: propón un piloto de anuncio vertical de 30–45 s por 1.200 € o piezas sueltas desde 300 USD, lo que encaje.'
-      : unico
-        ? `PRECIO A PONER EN LA CARTA: ${precios.media} USD (regla de Leo; no lo cambies).`
-        : `PRECIO A PONER EN LA CARTA, según la carga que elijas (regla de Leo; no pongas otro número): baja = ${precios.baja} USD · media = ${precios.media} USD · alta = ${precios.alta} USD.`);
+      : `PRECIO A PONER EN LA CARTA (regla de Leo): si en la descripción el cliente dice una cifra concreta que piensa pagar, pon ESA cifra (sin salirte de ${precios.min}–${precios.max} USD) y devuélvela en precio_cliente; si no dice ninguna, pon ${precios.max} USD y devuelve precio_cliente = 0. No pongas ningún otro número de precio.`);
   }
   return lineas.filter((l) => l !== '').join('\n').replace(/\nDescripción:/, '\n\nDescripción:');
 }
@@ -1247,15 +1243,15 @@ async function redactarCarta(job, state) {
   const x = bloque && bloque.input;
   if (!x || !x.decision) return { error: `respuesta sin decisión (stop_reason: ${r.json.stop_reason})`, modelo: CARTA_MODELO, generada: new Date().toISOString() };
   let texto = String(x.carta || '').trim();
-  const precio = precios ? precios[x.carga] ?? precios.media : null;
+  const precio = precios ? precioFreelance(job, x.precio_cliente) : null;
   const avisos = [];
   if (precio != null && x.decision !== 'descartar') {
-    // La carta tiene que llevar el precio de su carga. Si lleva otra de las opciones,
-    // se corrige; si no lleva ningún número de los tres, se avisa.
+    // La carta tiene que llevar el precio de la regla. Si lleva la cifra del cliente o el
+    // máximo cuando tocaba el otro, se corrige; si no lleva ninguno, se avisa.
     const conMiles = (n) => [String(n), n.toLocaleString('es-ES'), n.toLocaleString('en-US')];
     const lleva = (n) => conMiles(n).some((s) => new RegExp(`(^|[^\\d.,])${s.replace(/[.,]/g, '[.,]')}(?![\\d])`).test(texto));
     if (!lleva(precio)) {
-      const otro = Object.values(precios).find((n) => n !== precio && lleva(n));
+      const otro = [precios.max, Math.round(Number(x.precio_cliente) || 0)].find((n) => n && n !== precio && lleva(n));
       if (otro != null) for (const s of conMiles(otro)) texto = texto.split(s).join(String(precio));
       else avisos.push('la carta no lleva el precio');
     }
