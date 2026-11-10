@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-10T21:37:49.680Z",
+  "actualizado": "2026-11-10T21:51:37.623Z",
   "ofertas": [
+    {
+      "id": "566799",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Strategy and Website Design",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566799/Brand-Strategy-and-Website-Design",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need brand strategy and website design services with a total budget of $800 or less. The project should establish a clear brand direction and translate it into an effective website design.",
+      "vista": "2026-11-10T21:51:37.623Z"
+    },
     {
       "id": "566795",
       "tipo": "FREELANCE",
@@ -1682,23 +1699,6 @@
       "dondeSolicitar": "Behance",
       "descripcion": "WE'RE HIRING!\n Contract-Based Graphic Design Partner\n We are looking for a creative, detail-oriented, and concept-driven Graphic Designer to collaborate with us on a contract basis. If you have a strong design sense, a passion for visual storytelling, and the ability to turn ideas into impactful visual communication, we would love to work with you.\n WHAT WE'RE LOOKING FOR\n - Experience: 2–3 years of professional graphic design experience.\n - Strong Conceptual Thinking: Ability to develop creative concepts and translate ideas into compelling visual designs.\n - Typography Skills: A strong understanding of typography, font pairing, hierarchy, spacing, and readability.\n - Design Skills: Excellent knowledge of layout, composition, colour theory, visual hierarchy, and design principles.\n - Creative Problem-Solving: Ability to understand briefs and develop effective, original design solutions.\n - Communication Skills: Strong communication skills to discuss ideas, understand requirements, and incorporate feedback.\n - Attention to Detail: A keen eye for consistency, alignment, proportions, and finishing.\n - Software Proficiency: Proficiency in Adobe Photoshop, Illustrator, InDesign, or other relevant design tools.\n - Time Management: Ability to meet deadlines and manage multiple projects efficiently.\n - Adaptability: Willingness to explore different visual styles and adapt to various brand identities.\n RESPONSIBILITIES\n - Develop creative concepts and visual directions for projects.\n ",
       "vista": "2026-11-04T12:36:14.889Z"
-    },
-    {
-      "id": "563767",
-      "tipo": "FREELANCE",
-      "titulo": "Event Logo Design",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563767/Event-Logo-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Laureus",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a graphic designer to create a logo for an event. The design should be artistic, timeless and elegant. Designer must have extensive experience in designing logos to be considered. The designer should also have a strong eye for typography.",
-      "vista": "2026-11-04T12:11:46.668Z"
     }
   ]
 }
