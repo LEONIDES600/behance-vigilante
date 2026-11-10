@@ -1,6 +1,40 @@
 {
-  "actualizado": "2026-11-10T19:59:03.632Z",
+  "actualizado": "2026-11-10T20:00:10.086Z",
   "ofertas": [
+    {
+      "id": "566625",
+      "tipo": "FREELANCE",
+      "titulo": "Visual Illustration Design for a Mobile Tactical Sports Game",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566625/Visual-Illustration-Design-for-a-Mobile-Tactical-Sports-Game",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need an illustrator to create visual design assets for a mobile tactical sports game. The work should support the game's tactical sports theme with polished, engaging illustrations suited to a mobile experience.",
+      "vista": "2026-11-10T20:00:10.086Z"
+    },
+    {
+      "id": "566635",
+      "tipo": "FREELANCE",
+      "titulo": "Illustrated Pitch Presentation Design",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566635/Illustrated-Pitch-Presentation-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need an illustrator and PowerPoint designer to create a polished pitch presentation. The work should combine custom illustration with a clear, professionally designed slide deck.",
+      "vista": "2026-11-10T20:00:10.086Z"
+    },
     {
       "id": "566603",
       "tipo": "FREELANCE",
@@ -1665,40 +1699,6 @@
       "dondeSolicitar": "",
       "descripcion": "Refresh an artist’s logo and develop a cohesive visual identity that feels clean, professional, and true to artwork exploring environmental and social themes. The design should preserve the individuality and expressive quality of the work while creating a consistent presentation across materials.\nCreate print-ready promotional materials, including flyers, banners, business cards, and thank-you cards. Prepare production files to appropriate print specifications, with attention to layout, typography, color, bleed, and resolution.\nCoordinate the printing process for the completed materials, including recommending suitable formats and finishes and liaising with printers as needed. Experience with art-focused branding and print production is important.",
       "vista": "2026-11-03T20:57:01.069Z"
-    },
-    {
-      "id": "563417",
-      "tipo": "FREELANCE",
-      "titulo": "Graphic Design Support for an Education Technology Startup",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563417/Graphic-Design-Support-for-an-Education-Technology-Startup",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm seeking a graphic designer to support my education technology startup company, with a budget range of $350–$500. I need professional visual design work that helps communicate and strengthen our startup's brand.",
-      "vista": "2026-11-03T20:13:51.456Z"
-    },
-    {
-      "id": "563395",
-      "tipo": "FREELANCE",
-      "titulo": "Shopify Product Addition for an Online Store",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563395/Shopify-Product-Addition-for-an-Online-Store",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a Shopify expert to add products to my online store. The work includes uploading product details, organizing listings, and ensuring everything is set up correctly for customers. I’m looking for someone reliable, detail-oriented, and able to complete the task efficiently. Please share your experience with similar projects and your availability.",
-      "vista": "2026-11-03T19:43:49.040Z"
     }
   ]
 }
