@@ -1,6 +1,40 @@
 {
-  "actualizado": "2026-11-10T19:44:48.478Z",
+  "actualizado": "2026-11-10T19:45:56.302Z",
   "ofertas": [
+    {
+      "id": "565019",
+      "tipo": "FREELANCE",
+      "titulo": "Website Development and Design",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/565019/Website-Development-and-Design",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 10,
+      "dondeSolicitar": "",
+      "descripcion": "We need a freelancer to help improve and maintain our website. The work includes updating pages, improving the user experience, and making the site more visually appealing. You should be comfortable working on both front-end and back-end tasks, troubleshooting issues, and ensuring the site runs smoothly. This is an ongoing project for someone who can communicate clearly and deliver reliable results.",
+      "vista": "2026-11-10T19:45:56.301Z"
+    },
+    {
+      "id": "565025",
+      "tipo": "FREELANCE",
+      "titulo": "High-End Elementor/WordPress Website Design for a Bespoke Thailand Travel Agency",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/565025/High-End-ElementorWordPress-Website-Design-for-a-Bespoke-Thailand-Travel-Agency",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 10,
+      "dondeSolicitar": "",
+      "descripcion": "I need a high-end web designer to create a bespoke Elementor/WordPress website for a travel agency specializing in Thailand trips. The website requires a custom right-to-left (RTL) design and WhatsApp integration for visitor communication.",
+      "vista": "2026-11-10T19:45:56.301Z"
+    },
     {
       "id": "564955",
       "tipo": "FREELANCE",
@@ -1664,39 +1698,6 @@
       "cierraEnDias": 30,
       "dondeSolicitar": "Behance",
       "descripcion": "Looking for a talented Graphic Designer who is not afraid of using AI to speed up their processes to help me design image templates that will be printed on merchandise Print on Demand style. We are a cat cafe and are looking to sell POD merchandise via e-commerce. We need a superstar designer, and are willing to increase pay drastically if you can create winning designs!\n We are looking to grow this brand aggressively, so only apply if you are interested in big role in a fast growing e-commerce brand.",
-      "vista": "2026-11-03T15:11:07.815Z"
-    },
-    {
-      "id": "370173",
-      "tipo": "CONTRACT",
-      "titulo": "Grafik Designer",
-      "presupuesto": "5–12 CHF/h",
-      "enlace": "https://www.behance.net/joblist/fulltime/370173/Grafik-Designer",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "sportglobe gmbh",
-      "contacto": "Manuel Sutter",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Grafiker/in (Freelance, Remote, ca. 4 Stunden pro Woche) \n Wir sind die sportglobe gmbh, ein Schweizer E-Commerce-Unternehmen im Bereich Sportartikel, und suchen eine kreative und zuverlässige Person, die uns bei verschiedenen grafischen Arbeiten unterstützt.\n Deine Aufgaben: \n Erstellung von Werbebannern für unsere Onlineshops\n Gestaltung von Social-Media-Beiträgen und Werbematerialien\n Bearbeitung und Anpassung bestehender Grafiken\n Unterstützung bei weiteren grafischen Aufgaben\n Das bringst du mit: \n Erfahrung im Grafikdesign (z. B. Photoshop, Illustrator oder Canva)\n Gute Deutschkenntnisse in Wort und Schrift\n Kreativität, Selbstständigkeit und Zuverlässigkeit\n Flexible Verfügbarkeit und kurze Bearbeitungszeiten (idealerweise innerhalb von 48 Stunden)\n Das bieten wir: \n 100 % Remote-Arbeit\n Ca. 4 Stunden pro Woche\n Flexible Arbeitszeiten\n Langfristige Zusammenarbeit auf Stundenbasis\n Interessiert? \n Dann freuen wir uns über eine kurze Vorstellung mit Arbeitsbeispielen und deinem gewünschten Stundenansatz. bewerbung@sportglobe.ch",
-      "vista": "2026-11-03T15:11:07.815Z"
-    },
-    {
-      "id": "370171",
-      "tipo": "FULLTIME",
-      "titulo": "Designer Gráfico",
-      "presupuesto": "1500–2000 BRL/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/370171/Designer-Grafico",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "Kaizen Marketing",
-      "contacto": "Maycon Kennedy",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "VAGA ABERTA | DESIGNER GRÁFICO \n A Kaizen, agência especializada em marketing gastronômico , está em busca de um Designer Gráfico criativo, proativo e com olhar estratégico para fazer parte da nossa equipe!\n Requisitos: \n Experiência na criação de artes para redes sociais (feed, stories e campanhas).\n Domínio de Photoshop, Illustrator e/ou outras ferramentas de design.\n Criatividade, organização e atenção aos detalhes.\n Afinidade com o segmento gastronômico.\n Disponibilidade de tempo.\n Residir em João Pessoa – PB ou região.\n Principais atividades: \n Criação de peças gráficas para restaurantes e outras marcas do segmento gastronômico.\n Desenvolvimento de campanhas promocionais e conteúdos para redes sociais.\n Adaptação de peças para diferentes formatos.\n Colaboração com a equipe de social media e marketing.\n Remuneração: R$ 1.500 mensais.\n Localização: João Pessoa – PB.\n Quer fazer parte da Kaizen? \n Envie seu currículo e portfólio para participar do nosso processo seletivo.\n Venha transformar criatividade em resultados com a gente!",
       "vista": "2026-11-03T15:11:07.815Z"
     }
   ]
