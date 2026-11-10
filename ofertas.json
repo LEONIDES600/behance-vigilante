@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-10T22:58:48.920Z",
+  "actualizado": "2026-11-10T23:46:41.681Z",
   "ofertas": [
+    {
+      "id": "566845",
+      "tipo": "FREELANCE",
+      "titulo": "Creative Website Designer Needed",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566845/Creative-Website-Designer-Needed",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "osoto",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m seeking a creative website designer to design a visually engaging website. We are a coffee shop located inside a record store, the website attracts people to visit us and shop a small range of coffees we have in stock. We are a creative brand and would love to explore exciting ideas and concepts you have , it would be great to recreate the physical feeling of entering through a record store into our shop in website form.",
+      "vista": "2026-11-10T23:46:41.681Z"
+    },
     {
       "id": "566831",
       "tipo": "FREELANCE",
@@ -1681,23 +1698,6 @@
       "cierraEnDias": 30,
       "dondeSolicitar": "Behance",
       "descripcion": "PROJECT K1 \n (Concealed Title)\n PAID/CONTRACT \n Paid offer. My individual funds.\n Additional compensation: royalties.\n Game Prototype \n Description: \n Third person action-adventure game.\n Sandbox elements [limited] – inspired by the Hitman franchise.\n Single player cinematic campaign experience.\n Includes:\n Locomotion with motion matching & active ragdoll\n Hand combat & guns system \n Stealth system, Inventory & NPCs AI (enemy & bystanders)\n Menu, GUI & Controller Support\n Details:\n AAA Quality:\n Seamless locomotion & interactions.\n Well designed game mechanics.\n High performance.\n 3D objects, animations and art elements will be provided.\n When possible, use procedural animations and overlays.\n Likely to use AGS or similar as a starting point for the game's locomotion system.\n Script Assets are generally welcome, as long as they function well with the prototype and don't cause bad performance.\n All asset use intention must be communicated.\n Looking for Talent: \n (Currently available positions)\n Lead Programmer (Blueprints & C++)\n Programmer (Blueprints & C++)\n Requirements:\n Portfolio / Reel showing your high quality work.\n Contact: \n https://www.nathanvillanova.com/",
-      "vista": "2026-11-04T12:46:51.246Z"
-    },
-    {
-      "id": "370303",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic Designer",
-      "presupuesto": "10 USD/h",
-      "enlace": "https://www.behance.net/joblist/fulltime/370303/Graphic-Designer",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "eMenu International",
-      "contacto": "Mariana Rosado",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Are you a designer who also loves working with people? Do you speak Hebrew? \n Hebrew-Speaking Graphic Designer | Remote – LATAM \n 📍 Remote from Latin America — including Colombia, Argentina and Mexico \n 💵 USD $10/hour \n 🕒 Full-time | 50 hours/week \n We’re looking for a creative, detail-oriented Graphic Designer fluent in Hebrew to join eMenu International.\n What you’ll do \n Design and customize digital menus for premium restaurants and hotels\n Retouch food photos and create clear, attractive layouts\n Work with typography and content in Hebrew and English\n Update menus with new dishes, seasonal items and prices\n Collaborate with our internal team to deliver accurate designs on time\n What we’re looking for \n Native Hebrew and advanced English\n 2+ years of graphic design experience and a portfolio\n Proficiency in Photoshop, Illustrator, InDesign and/or Figma\n Strong attention to detail, organization and time management\n Reliable internet and a suitable remote workspace\n Availability for 50 hours/week\n Based in Latin America\n Bonus points \n Menu, food or hospitality design experience\n Experience designing digital content in Hebrew\n Why join us? \n Work remotely from LATAM\n Create designs for high-end restaurant and hotel brands\n See your work on iPad menus used by guests every day\n Receive training on our platform and processes\n About us \n eMenu International is a New York technology company founded in 2014. Our iPad menus are used by premium restaurants and hotels in 15+ count",
       "vista": "2026-11-04T12:46:51.246Z"
     }
   ]
