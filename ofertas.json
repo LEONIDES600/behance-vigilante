@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-10T20:23:16.190Z",
+  "actualizado": "2026-11-10T20:39:01.479Z",
   "ofertas": [
+    {
+      "id": "566781",
+      "tipo": "FREELANCE",
+      "titulo": "Antique Vintage Mixed-Media Stationery Ephemera Design",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566781/Antique-Vintage-Mixed-Media-Stationery-Ephemera-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a graphic designer or illustrator to create stationery ephemera with an antique, vintage mixed-media aesthetic. The work should capture a layered, nostalgic visual style suitable for stationery elements.",
+      "vista": "2026-11-10T20:39:01.479Z"
+    },
     {
       "id": "371073",
       "tipo": "CONTRACT",
@@ -1682,23 +1699,6 @@
       "dondeSolicitar": "",
       "descripcion": "A new lifestyle brand launching soon needs a freelance short-form video editor with real taste to craft a 6-part Instagram teaser series (each video under 60 seconds) that builds mystery before the product reveal. Goal: make people stop and think \"wait… what was that?\", then \"I want to know more\", without giving the product away.\nLook: the cool, characterful language of old-school advertising, reinterpreted in a modern, highly stylised, Gen-Z way. Subtle retro cues, not heavy vintage. Typography, sound design and pacing matter as much as the cuts.\nHow it works: the brand shoots the footage in-house. Before the shoot you help plan the shots you'll need, so you get footage built for your edit. The founder has detailed scene-by-scene ideas and is genuinely open to your input: collaborative, creative-director-meets-editor.\nHuman-made edits only, no AI-generated video. Budget: ₹25,000 (~USD 250) for all 6 videos, up to ₹30,000 (~USD 350) for someone exceptional. Remote; India preferred, open worldwide. Timeline ~4–6 weeks.\nWhen you respond, please share: your short-form portfolio/showreel, 1–2 lines on how you'd approach a mystery teaser, your rate for all 6 videos, and your availability. Full brief and reference vibe: https://teaser-editor-gig.sites.tab.bot/",
       "vista": "2026-11-04T11:55:02.792Z"
-    },
-    {
-      "id": "563745",
-      "tipo": "FREELANCE",
-      "titulo": "Corporate And Product Catalog Design For Carina 4 Plastic Packaging",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563745/Corporate-And-Product-Catalog-Design-For-Carina-4-Plastic-Packaging",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Carina 4 LTD",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We are Carina 4 LTD, a Bulgarian manufacturer with over 33 years of experience in plastic packaging solutions for the cosmetics, household, and detergent industries.\nWe are looking for an experienced graphic designer to create a **modern, premium corporate and product catalog** that represents our company, manufacturing capabilities, and product portfolio.\nThe catalog will be used at international trade fairs, including Cosmoprof Bologna 2027, as well as for long-term B2B sales, marketing, and business presentations.\nOur goal is to create a professional, visually appealing, and timeless catalog that strengthens our brand identity and communicates the quality of our products to international customers.\nWe are looking for a designer who can develop a consistent visual concept and translate it into a well-structured, high-quality publication.",
-      "vista": "2026-11-04T11:42:30.263Z"
     }
   ]
 }
