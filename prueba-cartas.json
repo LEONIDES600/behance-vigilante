@@ -1,0 +1,40 @@
+{
+  "fecha": "2026-11-10T19:49:15.720Z",
+  "modelo": "claude-sonnet-5-5",
+  "costeTotalUSD": 0,
+  "resultados": [
+    {
+      "id": "565131",
+      "titulo": "Branding Completo para Marca de Pickleball no Brasil",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/565131/Branding-Completo-para-Marca-de-Pickleball-no-Brasil",
+      "carta": {
+        "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"tool_choice: type \\\"tool\\\" and \\\"any\\\" are not supported for this model.\"},\"request_id\":\"req_011CgupvaJy6rLWj4XJDKVG8\"}",
+        "modelo": "claude-sonnet-5-5",
+        "generada": "2026-11-10T19:49:14.378Z"
+      }
+    },
+    {
+      "id": "565219",
+      "titulo": "Luxury Travel Magazine Redesign and Editorial Art Direction",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/565219/Luxury-Travel-Magazine-Redesign-and-Editorial-Art-Direction",
+      "carta": {
+        "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"tool_choice: type \\\"tool\\\" and \\\"any\\\" are not supported for this model.\"},\"request_id\":\"req_011CgupvcsVnxvKK9XTrJ3zN\"}",
+        "modelo": "claude-sonnet-5-5",
+        "generada": "2026-11-10T19:49:14.859Z"
+      }
+    },
+    {
+      "id": "565233",
+      "titulo": "3D Animated Illustration Video for a Tech Startup",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/565233/3D-Animated-Illustration-Video-for-a-Tech-Startup",
+      "carta": {
+        "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"tool_choice: type \\\"tool\\\" and \\\"any\\\" are not supported for this model.\"},\"request_id\":\"req_011Cgupve1xM4WFHfJbZ1ffb\"}",
+        "modelo": "claude-sonnet-5-5",
+        "generada": "2026-11-10T19:49:15.127Z"
+      }
+    }
+  ]
+}
