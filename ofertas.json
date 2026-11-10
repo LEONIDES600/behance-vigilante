@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-10T20:16:02.324Z",
+  "actualizado": "2026-11-10T20:20:17.084Z",
   "ofertas": [
+    {
+      "id": "566747",
+      "tipo": "FREELANCE",
+      "titulo": "Logo and Brand Design",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566747/Logo-and-Brand-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a logo and brand designer for a project with a budget of $900. I need a cohesive visual identity that establishes a clear and professional brand presence.",
+      "vista": "2026-11-10T20:20:17.084Z"
+    },
     {
       "id": "566661",
       "tipo": "FREELANCE",
@@ -1682,23 +1699,6 @@
       "dondeSolicitar": "",
       "descripcion": "I’m launching a hot honey brand in the UAE and Lebanon and need a fun, catchy brand identity that feels relatable to audiences in both markets. Branding is a major priority because I want the product to stand out with a memorable and engaging personality.",
       "vista": "2026-11-04T09:04:53.195Z"
-    },
-    {
-      "id": "563651",
-      "tipo": "FREELANCE",
-      "titulo": "Branding Design Services for Egyptian Client",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563651/Branding-Design-Services-for-Egyptian-Client",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "3TM",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We are looking for an experienced Egyptian Brand Designer to work on the rebranding of an existing brand. This is not a start-from-scratch project; the brand already has an established identity, and we are looking for a creative designer who can elevate, refine, and develop it into a stronger, more cohesive, and distinctive brand experience.\nThe main goal is to establish a clear creative direction for the brand, defining how it should look, feel, and communicate across all touchpoints. We also require a complete set of editable source files and open design files, allowing our team to access, reuse, and adapt the brand assets whenever needed.\nThe ideal candidate should have a strong understanding of branding, visual storytelling, and brand consistency across digital and physical touchpoints.",
-      "vista": "2026-11-04T09:03:45.070Z"
     }
   ]
 }
