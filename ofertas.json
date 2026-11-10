@@ -1,6 +1,40 @@
 {
-  "actualizado": "2026-11-10T19:38:33.942Z",
+  "actualizado": "2026-11-10T19:39:43.364Z",
   "ofertas": [
+    {
+      "id": "564315",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity Design for Onjura, a Premium Science-Led Wellness Brand",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/564315/Brand-Identity-Design-for-Onjura-a-Premium-Science-Led-Wellness-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Cenvante India Private Limited",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 9,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a designer to create a brand identity for Onjura, a premium, science-led wellness brand. The identity should establish a polished and credible visual foundation that reflects the brand’s premium wellness positioning.",
+      "vista": "2026-11-10T19:39:43.364Z"
+    },
+    {
+      "id": "564327",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity Design With Multiple Revisions",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/564327/Brand-Identity-Design-With-Multiple-Revisions",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Form 11",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 9,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a brand identity designer who can develop a cohesive visual identity and accommodate multiple rounds of revisions throughout the project.",
+      "vista": "2026-11-10T19:39:43.364Z"
+    },
     {
       "id": "564049",
       "tipo": "FREELANCE",
@@ -1662,40 +1696,6 @@
       "dondeSolicitar": "",
       "descripcion": "I need bespoke lettering for Second Edge, a boutique real estate brokerage in Dubai, including a custom “SE” monogram and a fully custom “SECOND EDGE” wordmark with full copyright transfer. Please draw every letter from scratch while retaining the classic, high-contrast serif character of the current Cormorant Garamond SemiBold-based identity. The monogram must remain legible at 15 mm for a lapel pin and 32 px for a favicon, while also working for large signage. The existing layout, square frame with two corner brackets, and colors are final, so I only need refined custom lettering rather than new logo concepts.",
       "vista": "2026-11-03T15:09:29.004Z"
-    },
-    {
-      "id": "563161",
-      "tipo": "FREELANCE",
-      "titulo": "Desenvolvimento Website Framer",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563161/Desenvolvimento-Website-Framer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Ekko Digital Agency",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "A Ekko Digital Agency está buscando um(a) designer para dar continuidade ao site institucional. \nO site já está no ar em Framer e tem identidade visual definida. Agora vamos criar as próximas páginas.\nO que você vai fazer\nDesenhar e montar cerca de 10 novas telas no Framer:\n3 telas seguindo um mesmo modelo de layout (estrutura parecida, conteúdo diferente)\n7 telas em uma nova proposta, com mais espaço para criar dentro da identidade atual\nCriar e tratar imagens com IA (produto, ambientes, cenas industriais) com acabamento profissional e coerentes com a marca\nSeguir à risca a identidade visual que já existe: tipografia, cores, grid e componentes\nEntregar as telas responsivas (desktop, tablet e mobile) e prontas para publicar\nO que buscamos\nExperiência comprovada com Framer (layout, componentes, responsividade, animações)\nExperiência com criação de imagens por IA (Midjourney, Higgsfield, Flux, Firefly ou similares), com controle de consistência visual\nPortfólio atualizado com projetos web e exemplos de imagens geradas por IA\nCapacidade de trabalhar a partir de uma identidade já estabelecida, sem descaracterizá-la\nDisponibilidade para início imediato",
-      "vista": "2026-11-03T15:09:29.004Z"
-    },
-    {
-      "id": "563139",
-      "tipo": "FREELANCE",
-      "titulo": "Photorealistic Bottle and Packaging Renders",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563139/Photorealistic-Bottle-and-Packaging-Renders",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m seeking a skilled 3D artist to create photorealistic bottle and packaging renders. The work requires realistic materials, professional lighting, and premium product visualization.",
-      "vista": "2026-11-03T15:07:21.746Z"
     }
   ]
 }
