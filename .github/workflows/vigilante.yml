@@ -22,7 +22,9 @@ permissions:
   contents: write
 
 concurrency:
-  group: vigilante
+  # La prueba de cartas va por su propio carril: así no espera a que termine la
+  # vigilancia de ~5,5 h ni le quita el sitio a la ejecución pendiente del cron.
+  group: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.prueba_carta != '') && 'prueba-cartas' || 'vigilante' }}
   cancel-in-progress: false
 
 jobs:
