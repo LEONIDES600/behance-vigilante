@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-10T20:39:01.479Z",
+  "actualizado": "2026-11-10T21:37:49.680Z",
   "ofertas": [
+    {
+      "id": "566795",
+      "tipo": "FREELANCE",
+      "titulo": "Diseñadora Gráfica",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566795/Disenadora-Grafica",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "CETIN | Centro de Tamizaje Infantil",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Buscamos una Diseñadora Gráfica Creativa con visión integral, capacidad estratégica y un fuerte sentido estético para sumarse a nuestro equipo. Su rol principal será transformar conceptos abstractos en piezas visuales de alto impacto, liderando el diseño y la producción de materiales para medios digitales e impresos.\nBuscamos a alguien proactiva, apasionada por la narrativa visual y con habilidad para llevar proyectos desde la conceptualización hasta la ejecución final con atención al detalle.\nResponsabilidades Clave\nProducción Digital: Diseñar contenido atractivo para redes sociales, campañas publicitarias, sitios web y piezas dinámicas o animadas.\nMaterial Impreso y Editorial: Elaborar maquetaciones, catálogos, papelería corporativa y material publicitario para producción física.\nRequisitos y Perfil Deseado\nFormación: Licenciatura en Diseño Gráfico, Comunicación Visual o áreas afines.\nExperiencia: Experiencia previa comprobable en diseño de marca, producción digital y a",
+      "vista": "2026-11-10T21:37:49.680Z"
+    },
     {
       "id": "566781",
       "tipo": "FREELANCE",
@@ -1682,23 +1699,6 @@
       "dondeSolicitar": "",
       "descripcion": "I'm looking for a graphic designer to create a logo for an event. The design should be artistic, timeless and elegant. Designer must have extensive experience in designing logos to be considered. The designer should also have a strong eye for typography.",
       "vista": "2026-11-04T12:11:46.668Z"
-    },
-    {
-      "id": "563753",
-      "tipo": "FREELANCE",
-      "titulo": "Short-Form Video Editing for a Six-Part Instagram Teaser Series",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563753/Short-Form-Video-Editing-for-a-Six-Part-Instagram-Teaser-Series",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Atharva Pahilwan (hiring for a client)",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "A new lifestyle brand launching soon needs a freelance short-form video editor with real taste to craft a 6-part Instagram teaser series (each video under 60 seconds) that builds mystery before the product reveal. Goal: make people stop and think \"wait… what was that?\", then \"I want to know more\", without giving the product away.\nLook: the cool, characterful language of old-school advertising, reinterpreted in a modern, highly stylised, Gen-Z way. Subtle retro cues, not heavy vintage. Typography, sound design and pacing matter as much as the cuts.\nHow it works: the brand shoots the footage in-house. Before the shoot you help plan the shots you'll need, so you get footage built for your edit. The founder has detailed scene-by-scene ideas and is genuinely open to your input: collaborative, creative-director-meets-editor.\nHuman-made edits only, no AI-generated video. Budget: ₹25,000 (~USD 250) for all 6 videos, up to ₹30,000 (~USD 350) for someone exceptional. Remote; India preferred, open worldwide. Timeline ~4–6 weeks.\nWhen you respond, please share: your short-form portfolio/showreel, 1–2 lines on how you'd approach a mystery teaser, your rate for all 6 videos, and your availability. Full brief and reference vibe: https://teaser-editor-gig.sites.tab.bot/",
-      "vista": "2026-11-04T11:55:02.792Z"
     }
   ]
 }
