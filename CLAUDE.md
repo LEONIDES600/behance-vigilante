@@ -158,7 +158,10 @@ lo conviertas en un aviso por pasada: sería spam cada 3 minutos.
   `CARTA_MAX_POR_HORA` (30) y `CARTA_MAX_POR_DIA` (150), reintento solo en 429/5xx.
   Resultado → Telegram («Carta lista») y campo `carta` en ofertas.json / mundo.json.
   Sin clave o si la API falla, todo sigue como en la v3.1 (propuesta de plantilla).
-  Modelo: variable del repo `ANTHROPIC_MODEL` (por defecto `claude-sonnet-5-5`).
+  Modelo: variable del repo `ANTHROPIC_MODEL` (por defecto `claude-opus-5-5`, elegido por Leo el
+  10/11/2026) y esfuerzo `ANTHROPIC_EFFORT` (por defecto `medium`). Los modelos 5.5 NO admiten
+  `tool_choice` «tool»/«any» (400): se usa `auto` + herramienta `strict` con `additionalProperties: false`.
+  Tampoco `temperature`/`top_p`/`top_k`, prefill ni `thinking: disabled`. Coste medido ≈ 0,03 USD/carta.
   Prueba sin avisar: *Run workflow* con `prueba_carta` = nº de ofertas (o
   `PRUEBA_CARTA=3 node vigilante.js` en local, con la clave en el entorno).
 - `SOURCES` — plataformas vigiladas (añadir/quitar aquí).
