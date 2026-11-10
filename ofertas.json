@@ -1,6 +1,23 @@
 {
-  "actualizado": "2026-11-10T20:02:24.775Z",
+  "actualizado": "2026-11-10T20:03:30.582Z",
   "ofertas": [
+    {
+      "id": "566733",
+      "tipo": "FREELANCE",
+      "titulo": "Logo and Branding Kit Update",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566733/Logo-and-Branding-Kit-Update",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic designer to update my logo and branding kit, with a budget of about 500. The work should refresh my brand’s visual identity and provide updated branding assets.",
+      "vista": "2026-11-10T20:03:30.582Z"
+    },
     {
       "id": "566709",
       "tipo": "FREELANCE",
@@ -1682,23 +1699,6 @@
       "dondeSolicitar": "",
       "descripcion": "I need a rigger for my 3D model of a cobra snake logo with strong Houdini and Blender skills. The work involves creating a functional realistic model & rig + texture suitable for animating the model inside Unreal Engine and Blender for high quality Octane & Cycles render.",
       "vista": "2026-11-04T00:06:39.828Z"
-    },
-    {
-      "id": "563483",
-      "tipo": "FREELANCE",
-      "titulo": "Logo, Branding, and Website Design Support",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563483/Logo-Branding-and-Website-Design-Support",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Maison Memora",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a graphic designer to create my logo and branding and help me with my website. I need a cohesive visual identity that can be applied consistently across the website.",
-      "vista": "2026-11-03T23:52:55.444Z"
     }
   ]
 }
