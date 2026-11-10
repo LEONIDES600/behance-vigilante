@@ -1052,7 +1052,9 @@ async function fireRoutine(job, state) {
 // Precios oficiales (platform.claude.com/docs/en/about-claude/pricing, 07/11/2026),
 // en USD por millón de tokens: Sonnet 5.5 = 2 entrada / 10 salida / 0,10 caché
 // leída / 2,50 caché escrita · Haiku 5.5 = 0,10 / 0,50 / 0,01 / 0,125.
-const CARTA_MODELO = process.env.ANTHROPIC_MODEL || 'claude-sonnet-5-5';
+const CARTA_MODELO = process.env.ANTHROPIC_MODEL || 'claude-opus-5-5';
+// Esfuerzo (Opus/Sonnet 5.5 piensan siempre; el esfuerzo regula cuánto). Leo eligió «medium» (10/11/2026).
+const CARTA_ESFUERZO = process.env.ANTHROPIC_EFFORT || 'medium';
 const CARTA_PRECIOS = {
   'claude-sonnet-5-5': { in: 2, out: 10, cacheR: 0.10, cacheW: 2.5 },
   'claude-haiku-5-5': { in: 0.10, out: 0.50, cacheR: 0.01, cacheW: 0.125 },
@@ -1066,7 +1068,7 @@ const CARTA_TIMEOUT_MS = 60000;
 
 // Lo que la API puede decir de Leo. SOLO hechos confirmados por él (Seguimiento_Empleo
 // → «Datos fijos» y decisiones del 28–31/10/2026). Si cambian, se cambian aquí.
-const CARTA_SISTEMA = `Eres quien revisa y contesta las ofertas de empleo y encargos de Leo Gómez (LeoVisual.nl), de Behance y de webs de empleo remoto. Recibes UNA oferta y devuelves, con la herramienta responder_oferta, si se envía y la carta lista para pegar. Nadie la revisa antes de enviarla: tiene que estar perfecta y ser 100 % honesta.
+const CARTA_SISTEMA = `Eres quien revisa y contesta las ofertas de empleo y encargos de Leo Gómez (LeoVisual.nl), de Behance y de webs de empleo remoto. Recibes UNA oferta y devuelves, con la herramienta responder_oferta, si se envía y la carta lista para pegar. Responde SIEMPRE llamando a responder_oferta (una vez), nunca con texto suelto; los campos que no apliquen van vacíos. Nadie la revisa antes de enviarla: tiene que estar perfecta y ser 100 % honesta.
 
 QUIÉN ES LEO (solo puedes usar estos hechos)
 - Leo Gómez, LeoVisual.nl: estudio creativo con IA en Ámsterdam (Países Bajos). Ciudadano de la UE (nacionalidad española).
@@ -1101,7 +1103,10 @@ motivo: una frase corta en español para Leo (por qué se envía o se descarta).
 
 const CARTA_HERRAMIENTA = {
   name: 'responder_oferta',
-  description: 'Decisión sobre la oferta y carta lista para pegar en Behance.',
+  description: 'Decisión sobre la oferta y carta lista para pegar en Behance. Llámala SIEMPRE, una sola vez, con tu respuesta.',
+  // Los modelos 5.5 no admiten forzar la herramienta (tool_choice «tool»): se usa
+  // «auto» + strict, que garantiza que la entrada cumple el esquema.
+  strict: true,
   input_schema: {
     type: 'object',
     properties: {
@@ -1113,7 +1118,8 @@ const CARTA_HERRAMIENTA = {
       carta: { type: 'string', description: 'La carta completa. Vacía si la decisión es "descartar".' },
       pregunta_para_leo: { type: 'string', description: 'Solo si la decisión es "espera"; si no, vacía.' },
     },
-    required: ['decision', 'motivo', 'categoria', 'idioma', 'carga', 'carta'],
+    required: ['decision', 'motivo', 'categoria', 'idioma', 'carga', 'carta', 'pregunta_para_leo'],
+    additionalProperties: false,
   },
 };
 
@@ -1229,16 +1235,17 @@ async function redactarCarta(job, state) {
   const precios = esFreelance ? opcionesPrecio(job) : null;
   const r = await llamarAnthropic({
     model: CARTA_MODELO,
-    max_tokens: 1500,
+    max_tokens: 6000, // incluye el pensamiento adaptativo
     system: [{ type: 'text', text: CARTA_SISTEMA, cache_control: { type: 'ephemeral' } }],
     tools: [CARTA_HERRAMIENTA],
-    tool_choice: { type: 'tool', name: CARTA_HERRAMIENTA.name },
+    tool_choice: { type: 'auto' },
+    output_config: { effort: CARTA_ESFUERZO },
     messages: [{ role: 'user', content: textoOfertaParaCarta(job, precios) }],
   });
   if (!r.ok) return { error: r.error, modelo: CARTA_MODELO, generada: new Date().toISOString() };
   const bloque = (r.json.content || []).find((c) => c.type === 'tool_use');
   const x = bloque && bloque.input;
-  if (!x || !x.decision) return { error: 'respuesta sin decisión', modelo: CARTA_MODELO, generada: new Date().toISOString() };
+  if (!x || !x.decision) return { error: `respuesta sin decisión (stop_reason: ${r.json.stop_reason})`, modelo: CARTA_MODELO, generada: new Date().toISOString() };
   let texto = String(x.carta || '').trim();
   const precio = precios ? precios[x.carga] ?? precios.media : null;
   const avisos = [];
