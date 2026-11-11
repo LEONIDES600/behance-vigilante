@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T17:02:44.372Z",
+  "actualizado": "2026-11-11T17:26:09.069Z",
   "ofertas": [
+    {
+      "id": "567339",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity Design for an Italian Ice Food Truck",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567339/Brand-Identity-Design-for-an-Italian-Ice-Food-Truck",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Italian Ice food truck owner",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a creative graphic designer to develop branding for my Italian Ice food truck, with a project budget of $200. I need a professional logo, brand colors, and a cohesive visual identity that feels fun, refreshing, memorable, clean, and professional. The design should help my business stand out and connect with customers. Experience with food and beverage branding is a plus.",
+      "vista": "2026-11-11T17:26:09.069Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding y logo para un food truck: Leo puede hacerlo con IA y diseño gráfico, pero no tiene identidades en el portfolio. El presupuesto de 200 USD supera el mínimo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nAn Italian ice truck needs a logo you can read from across the street, plus colors that feel cold, fresh and fun on the truck, the menu board and your social posts.\nTo be honest, I don't have a full brand identity project in my portfolio yet. My closest work is graphic design for ads and social media, and many product images and A+ content for a home brand selling on Amazon in several European countries, where everything had to feel clean and consistent.\nHere is how I would do it: first, a short brief on your flavors, your audience and the feel you want. Then 2–3 logo directions with color palettes. After that, I refine the one you choose and deliver the final logo, brand colors, fonts and a simple one-page style guide. You can also see each direction mocked up on a truck and a cup.\nIf you'd like, I can make a quick sample direction first so you can see whether my style fits.\nPrice: 200 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you already have a name and a few flavors in mind, and should the logo work on a specific truck color?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 200,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 466,
+          "salida": 887,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.033779,
+        "generada": "2026-11-11T17:26:07.949Z"
+      }
+    },
     {
       "id": "567323",
       "tipo": "FREELANCE",
@@ -2406,23 +2445,6 @@
       "cierraEnDias": 11,
       "dondeSolicitar": "",
       "descripcion": "I’m looking for a designer to redesign a luxury travel magazine and provide editorial art direction for the publication. The work should focus on elevating the magazine’s overall visual presentation and publication design.",
-      "vista": "2026-11-10T19:48:07.548Z"
-    },
-    {
-      "id": "565233",
-      "tipo": "FREELANCE",
-      "titulo": "3D Animated Illustration Video for a Tech Startup",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565233/3D-Animated-Illustration-Video-for-a-Tech-Startup",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 11,
-      "dondeSolicitar": "",
-      "descripcion": "I need a 3D video animator to create an illustration video for my tech startup company. My budget for this project is $1,000.",
       "vista": "2026-11-10T19:48:07.548Z"
     }
   ]
