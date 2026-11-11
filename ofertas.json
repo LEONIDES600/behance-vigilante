@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T09:25:09.226Z",
+  "actualizado": "2026-11-11T09:30:33.379Z",
   "ofertas": [
+    {
+      "id": "567015",
+      "tipo": "FREELANCE",
+      "titulo": "Responsive UX Enhancement & User Journey Optimization",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567015/Responsive-UX-Enhancement-User-Journey-Optimization",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are seeking a skilled UI/UX designer to improve the usability and responsiveness of the existing application.\nThe focus is on making important user journeys more intuitive, improving the responsive experience, and resolving inconsistencies throughout the current interface.\nThis project should build upon the existing product rather than replace its current design direction.\nProject Scope\n1. User Journey Analysis\nReview existing navigation and user flows.\nIdentify confusing interactions and unnecessary steps.\nImprove the structure of important pages.\nSimplify access to frequently used actions.\n2. Responsive Interface Design\nOptimize existing layouts for desktop screens.\nImprove tablet and mobile experiences.\nAdjust navigation patterns for smaller screens.\nEnsure components adapt properly to different resolutions.\n3. UX and Visual Improvements\nImprove page hierarchy and content organization.\nRefine typography, spacing, and alignment.\nImprove buttons, cards, forms, and menus.\nEstablish consistent interaction patterns.\n4. Feedback and Accessibility\nImprove loading and empty states.\nCreate understandable success and error messages.\nImprove keyboard navigation and focus visibility.\nEnsure readable typography and sufficient contrast.\n5. Performance-Aware Design\nIdentify heavy visual elements and unnecessary UI complexity.\nRecommend lighter interface patterns.\nCoordinate with developers on frontend optimization opportunities.",
+      "vista": "2026-11-11T09:30:33.379Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es diseño web y responsive, pero Leo no tiene un caso de UX de aplicación: carta honesta que ofrece una prueba con un flujo.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nYou need your key user journeys to feel simpler and your app to work well on desktop, tablet and mobile, while keeping the design direction it already has.\nI design and build websites in code. LUMEN and FORJA, for example, are 3D scroll websites made with three.js + GSAP, where layout, hierarchy and responsive behaviour had to stay clear on every screen size.\nTo be honest, I don't have a UX case study for an application in my portfolio yet. So I'm happy to start by redesigning one important flow as a short test before you decide.\nHow I would work: review your current navigation and flows and list where users get stuck or take extra steps. Then redesign the key screens in Figma for desktop, tablet and mobile, keeping your current style. After that, make buttons, cards, forms and menus consistent, add loading, empty, success and error states, and check contrast, focus visibility and keyboard navigation. Finally, write clear handoff notes for your developers, including where lighter UI patterns could help performance.\nPrice: 5000 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhich user journeys matter most to you right now, and is the app web-based or native?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 829,
+          "salida": 1227,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.042031,
+        "generada": "2026-11-11T09:30:32.227Z"
+      }
+    },
     {
       "id": "567013",
       "tipo": "FREELANCE",
@@ -1990,23 +2029,6 @@
       "dondeSolicitar": "",
       "descripcion": "I am seeking a highly skilled and experienced WordPress developer to take on the exciting challenge of designing and developing a professional website tailored to meet my specific needs and objectives. This project requires an individual who possesses not only technical expertise but also a keen eye for aesthetics and user experience.\nThe ideal candidate should have a robust background in WordPress development, with proven experience in creating responsive designs that look great on all devices, including desktops, tablets, and mobile phones. A strong portfolio demonstrating previous work on professional websites will be essential in assessing your capabilities.\nIn addition to responsive design, the successful applicant should have extensive experience in developing custom themes that reflect my brand identity and enhance the overall user experience. You should also be proficient in utilizing various plugins to extend the website's functionality, ensuring that it operates smoothly and efficiently while providing an engaging experience for visitors.\nFurthermore, I am looking for someone who is not only creative and detail-oriented but also possesses excellent communication skills. Collaborating closely with me is essential to ensure that the final product aligns with my vision and meets all requirements. You will need to be open to feedback and revisions throughout the development process.\nIf you are passionate about web development and have a strong commitment to delivering h",
       "vista": "2026-11-04T17:16:05.355Z"
-    },
-    {
-      "id": "563867",
-      "tipo": "FREELANCE",
-      "titulo": "Web Designer Based in Belgrade",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563867/Web-Designer-Based-in-Belgrade",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for a web designer based in Belgrade to support a website redesign project with a finished and already defined concept and sitemap.",
-      "vista": "2026-11-04T17:14:59.991Z"
     }
   ]
 }
