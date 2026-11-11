@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T14:30:17.459Z",
+  "actualizado": "2026-11-11T14:43:07.209Z",
   "ofertas": [
+    {
+      "id": "567183",
+      "tipo": "FREELANCE",
+      "titulo": "Branding for an Italian Ice Food Truck",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567183/Branding-for-an-Italian-Ice-Food-Truck",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Italian Ice food truck owner",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "am looking for a creative graphic designer to develop branding for my Italian Ice food truck. The project includes creating a professional logo, brand colors, and a cohesive visual identity that reflects a fun, refreshing, and memorable brand. I am not looking for a truck wrap design or extensive branding materials at this time. My budget for this project is $200, so please submit proposals that fit within that range. Experience with food and beverage branding is a plus. I am seeking a clean, professional design that will help my business stand out and connect with customers.",
+      "vista": "2026-11-11T14:43:07.209Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es branding y logo, algo que Leo puede hacer, pero no tiene ningún logo en el portfolio. El pago de 200 USD es aceptable.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nAn Italian Ice truck needs a logo that people can read and remember quickly from the street, with colors that look cold, fresh and fun.\nI'll be honest: I don't have a food truck logo in my portfolio yet. I do graphic design for ads and social media. For a home brand that sells on Amazon in several European countries, I made many product images and A+ content that all had to look like one brand.\nHow I would work:\n1. A short questionnaire about your flavors, your customers and the feeling you want.\n2. 2–3 logo directions, explored with AI and finished cleanly in Adobe.\n3. You choose one, I refine it and build the color palette and fonts around it.\n4. Final files (SVG, PNG, PDF) plus a one-page guide for using the logo and colors.\nIf you prefer, I can make a quick rough sketch of one direction first, so you can see my style before you decide.\nPrice: 200 USD, with 50% upfront. Delivery in 7–10 days, with 2 rounds of changes included.\nDo you already have a name and some flavors or colors you want to show, or are we starting from zero?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 200,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 510,
+          "salida": 1026,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.036735,
+        "generada": "2026-11-11T14:43:05.918Z"
+      }
+    },
     {
       "id": "371131",
       "tipo": "FULLTIME",
@@ -2230,23 +2269,6 @@
       "cierraEnDias": 9,
       "dondeSolicitar": "",
       "descripcion": "Busco una persona que me ayude a crear un nombre y un logo para un bar. Necesito una propuesta de identidad inicial que funcione para el negocio.",
-      "vista": "2026-11-10T19:40:49.444Z"
-    },
-    {
-      "id": "564613",
-      "tipo": "FREELANCE",
-      "titulo": "Bilingual Construction Company Profile Design for Saudi Arabia and GCC Clients",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/564613/Bilingual-Construction-Company-Profile-Design-for-Saudi-Arabia-and-GCC-Clients",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 9,
-      "dondeSolicitar": "",
-      "descripcion": "I'm seeking an experienced graphic designer to create a professional 20–25 page company profile for construction companies in Saudi Arabia and the GCC, with a fixed budget of $200 USD. I will provide the content, images, and branding, and the project includes up to two revision rounds. The profile must support both Arabic and English layouts and be delivered as a final PDF with editable source files. This is a project-based opportunity with potential for long-term collaboration, so please share relevant construction company profile portfolio samples.",
       "vista": "2026-11-10T19:40:49.444Z"
     }
   ]
