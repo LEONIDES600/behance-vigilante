@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T14:20:28.489Z",
+  "actualizado": "2026-11-11T14:30:17.459Z",
   "ofertas": [
+    {
+      "id": "371131",
+      "tipo": "FULLTIME",
+      "titulo": "Designers & Illustrators",
+      "presupuesto": "0 USD/año",
+      "enlace": "https://www.behance.net/joblist/fulltime/371131/Designers-Illustrators",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "500 Designs",
+      "contacto": "Valentina Buitrago",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "Behance",
+      "descripcion": "Submit and view the work here: https://sensa-talent-sync.base44.app/?invite=SL209\n 500 Designs is seeking skilled freelance designers and illustrators for a project spanning branding, UI/UX, 3D, game art, comics, and more. Bring your strongest craft to detailed creative briefs, with payment per asset and opportunities for additional assignments.\n Interested? Review the categories and visual references on the link below to see the level of detail and complexity we’re looking for. Select the categories you feel confident taking on and submit 3–5 examples of your strongest, most complex creative work relevant to those categories.\n Submit and view the work here: https://sensa-talent-sync.base44.app/?invite=SL209\n Sign up using your personal email\n Deadline: Friday, November 13, 2026 5:00 PM\n DELIVERABLES \n Create high-quality assets in your specialty, including UI/UX, illustrations, 3D visuals, comics, game assets, infographics, and more. Deliver final designs and editable source files that meet the assigned brief, quality standards, and deadline.\n ADDITIONAL DETAILS \n 500 Designs is looking for experienced creatives for an upcoming project involving detailed, high-quality work across:\n UI/UX & interfaces\n Product visuals, 3D & advertising\n Comics & storyboards\n Game UI & game assets\n Reference graphics & wayfinding\n We’re looking for strong craft, attention to detail, reliable delivery, and comfort with AI-assisted workflows where required. Specialists in one or more categories ",
+      "vista": "2026-11-11T14:30:17.459Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Bolsa freelance en remoto, pago por pieza; las categorías de visuales de producto, 3D y publicidad encajan con Leo (además hay que subir 3–5 trabajos en el enlace antes del 13/11).",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Valentina,\n\nYou need creatives who can follow detailed briefs and deliver high-quality assets with editable source files, often using AI-assisted workflows. My strongest fit is in Product visuals, 3D & advertising.\nFor a home brand that sells on Amazon in several European countries, I made many listing images and videos, plus A+ content, with AI tools such as GPT Image, Nano Banana Pro and Kling, and finished them in Photoshop and After Effects.\nI also make 3D scroll websites in code (LUMEN, FORJA, MORVAIN), so I am used to 3D visuals and interface work.\nFor each asset my process is simple: read the brief and references, send a quick draft to confirm direction, then refine the details and deliver the final files plus editable sources.\nFor comics or game art I don't have a piece like that in my portfolio yet, so I would focus on the categories above, and I am happy to do a short test.\nFor per-asset work I usually ask for 50% upfront, 7–10 days delivery and 2 rounds of changes, but I will review the terms in each offer.\nWhich categories have the most assets planned for the first round?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 820,
+          "salida": 1144,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.040335,
+        "generada": "2026-11-11T14:30:14.371Z"
+      }
+    },
     {
       "id": "567167",
       "tipo": "FREELANCE",
@@ -2209,23 +2248,6 @@
       "dondeSolicitar": "",
       "descripcion": "I'm seeking an experienced graphic designer to create a professional 20–25 page company profile for construction companies in Saudi Arabia and the GCC, with a fixed budget of $200 USD. I will provide the content, images, and branding, and the project includes up to two revision rounds. The profile must support both Arabic and English layouts and be delivered as a final PDF with editable source files. This is a project-based opportunity with potential for long-term collaboration, so please share relevant construction company profile portfolio samples.",
       "vista": "2026-11-10T19:40:49.444Z"
-    },
-    {
-      "id": "564315",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Identity Design for Onjura, a Premium Science-Led Wellness Brand",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/564315/Brand-Identity-Design-for-Onjura-a-Premium-Science-Led-Wellness-Brand",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Cenvante India Private Limited",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 9,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a designer to create a brand identity for Onjura, a premium, science-led wellness brand. The identity should establish a polished and credible visual foundation that reflects the brand’s premium wellness positioning.",
-      "vista": "2026-11-10T19:39:43.364Z"
     }
   ]
 }
