@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T18:34:03.421Z",
+  "actualizado": "2026-11-11T19:24:58.689Z",
   "ofertas": [
+    {
+      "id": "567441",
+      "tipo": "FREELANCE",
+      "titulo": "Design for New Project, Cerulean, under Rev and Research",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567441/Design-for-New-Project-Cerulean-under-Rev-and-Research",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "ColemanRevenueandResearch",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Paid Part-Time UI/UX Design Opportunity | Birmingham, AL\nWe’re looking for a creative, detail-oriented UI/UX designer to help shape Cerulean, an emerging AI-powered revenue management platform (cblue.ai)\nYou’ll work directly with the founder on interface design, user experience, and visual improvements that make sophisticated technology feel intuitive and approachable.\nDetails:\n$20–$25/hour\nApproximately 10–15 hours per week\nBirmingham-area candidates preferred\nStudents, recent graduates, and emerging designers welcome\nFigma experience preferred\nOpportunity for ongoing project work\nInterested? We’d love to see your portfolio and hear a little about your approach to design.\n - Carri Jones",
+      "vista": "2026-11-11T19:24:58.689Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Diseño de interfaz y experiencia de usuario para una plataforma de IA en remoto a 20–25 USD/h; encaja con su diseño web, pero no tiene ninguna pieza de app o dashboard y prefieren a alguien de Birmingham.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Carri!\nTo make an AI revenue management platform like Cerulean feel simple, you need clear flows: what users see first, what they can skip, and how numbers turn into decisions.\nI'm Leo from LeoVisual.nl, a small AI creative studio in Amsterdam. I design and build websites in code, like LUMEN, FORJA and MORVAIN (3D scroll sites with three.js + GSAP). I also build AI agent systems and showcases, so I'm used to explaining AI tools visually.\nI don't have a SaaS dashboard in my portfolio yet, so I'm happy to start with a short test, for example a redesign of one key screen of cblue.ai.\nMy approach: 1) review the product with you and list the main user tasks, 2) wireframes in Figma, 3) visual design and a small set of reusable components, 4) feedback and changes.\nRate: 25000000 USD/hour, and 10–15 hours per week works for me. For each finished piece of work: 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nI work remotely from Amsterdam (CET) and can join calls in your morning.\nWhich part of Cerulean would you like to improve first: onboarding, the main dashboard or the marketing site?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 603,
+          "salida": 2563,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.067847,
+        "generada": "2026-11-11T19:24:57.579Z"
+      }
+    },
     {
       "id": "567403",
       "tipo": "FREELANCE",
@@ -2582,23 +2621,6 @@
       "dondeSolicitar": "",
       "descripcion": "I own a mid-luxury remodeling and new construction company and need a graphic designer or branding expert to create a strong, attractive, and luxurious landing page that encourages visitors to share their contact information for an appointment. I may have some existing construction photos, but I need help sourcing high-end images that showcase the quality of our work. The page should feel polished, professional, and immediately appealing to potential clients.",
       "vista": "2026-11-10T19:52:31.028Z"
-    },
-    {
-      "id": "565511",
-      "tipo": "FREELANCE",
-      "titulo": "Branding Kit and Pitch Decks for a Music Management Company",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565511/Branding-Kit-and-Pitch-Decks-for-a-Music-Management-Company",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Music management company owner",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 11,
-      "dondeSolicitar": "",
-      "descripcion": "I need a designer to create a cohesive branding kit for my music management company, along with specific pitch decks we need to produce. The work should establish a consistent visual identity that can be carried across the company’s presentation materials.",
-      "vista": "2026-11-10T19:51:24.365Z"
     }
   ]
 }
