@@ -1,6 +1,44 @@
 {
-  "actualizado": "2026-11-11T18:12:44.192Z",
+  "actualizado": "2026-11-11T18:21:51.957Z",
   "ofertas": [
+    {
+      "id": "371419",
+      "tipo": "FULLTIME",
+      "titulo": "Graphic Designer - CDMX",
+      "presupuesto": "0 USD/año",
+      "enlace": "https://www.behance.net/joblist/fulltime/371419/Graphic-Designer-CDMX",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "Monks",
+      "contacto": "Maria Leal",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "web externa",
+      "descripcion": "We’re looking for a Designer to create thoughtful, visually compelling digital experiences and campaigns for a global sports brand. You’ll work with senior creative and multidisciplinary teams to translate creative ideas and brand objectives into polished digital experiences across a range of channels and touchpoints.",
+      "vista": "2026-11-11T18:21:51.957Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "El puesto está en Ciudad de México (CDMX), así que será presencial o pedirá vivir en México, y Leo trabaja desde Ámsterdam.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 295,
+          "salida": 529,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.025935,
+        "generada": "2026-11-11T18:21:50.870Z"
+      }
+    },
     {
       "id": "567389",
       "tipo": "FREELANCE",
@@ -2495,23 +2533,6 @@
       "dondeSolicitar": "",
       "descripcion": "We are looking for a part-time Growth Marketing Specialist to support eXpand AD, a US-based digital marketing and growth agency. The role focuses on executing marketing campaigns, creating engaging content, managing social media, and supporting client acquisition and business growth.",
       "vista": "2026-11-10T19:50:18.301Z"
-    },
-    {
-      "id": "565243",
-      "tipo": "FREELANCE",
-      "titulo": "Burger Box Design for a Shop",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565243/Burger-Box-Design-for-a-Shop",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Chicken Buzz",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 11,
-      "dondeSolicitar": "",
-      "descripcion": "I need a burger box design for my shop. The packaging should be suitable for serving and presenting burgers to customers.",
-      "vista": "2026-11-10T19:49:13.224Z"
     }
   ]
 }
