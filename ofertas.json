@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T17:26:09.069Z",
+  "actualizado": "2026-11-11T17:27:28.005Z",
   "ofertas": [
+    {
+      "id": "567341",
+      "tipo": "FREELANCE",
+      "titulo": "Fix Mobile Layout Issues on Wix Website",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567341/Fix-Mobile-Layout-Issues-on-Wix-Website",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "My Wix website looks fine on desktop, but some sections are not displaying properly on mobile. Text alignment, spacing, images and a few page elements need attention. I'm looking for someone who understands Wix responsive design and can go through the affected pages, correct the layout issues and make the website easier to browse on phones and tablets.",
+      "vista": "2026-11-11T17:27:28.005Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es diseño web y encaja, pero Leo no tiene ningún trabajo en Wix en el portfolio, así que la carta lo dice y ofrece arreglar una página como prueba.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYour Wix site looks good on desktop, but on phones and tablets the text, spacing and images break, and that makes it harder for visitors to browse.\nI design and build websites, for example LUMEN, FORJA and MORVAIN (3D scroll websites made in code). Making them work well on mobile is part of the job.\nI don't have a Wix project in my portfolio yet, so I'm happy to fix one page first as a short test before you decide.\nHow I would do it:\n1. Check every page on phone and tablet sizes and list each problem.\n2. Fix text alignment, spacing, image sizes and broken elements in the Wix mobile view, without changing the desktop version.\n3. Test again on different screen sizes and send you a short before/after.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes included.\nHow many pages have problems, and is your site built with the classic Wix Editor or Wix Studio?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 445,
+          "salida": 1422,
+          "cacheLeida": 2835,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.030787,
+        "generada": "2026-11-11T17:27:26.863Z"
+      }
+    },
     {
       "id": "567339",
       "tipo": "FREELANCE",
@@ -2428,23 +2467,6 @@
       "cierraEnDias": 10,
       "dondeSolicitar": "",
       "descripcion": "Estou procurando um profissional para desenvolver o branding completo da minha marca de pickleball no Brasil. Preciso criar o posicionamento da marca, branding book, identidade visual, mockups de posts e arquitetura dos produtos.",
-      "vista": "2026-11-10T19:48:07.548Z"
-    },
-    {
-      "id": "565219",
-      "tipo": "FREELANCE",
-      "titulo": "Luxury Travel Magazine Redesign and Editorial Art Direction",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565219/Luxury-Travel-Magazine-Redesign-and-Editorial-Art-Direction",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 11,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for a designer to redesign a luxury travel magazine and provide editorial art direction for the publication. The work should focus on elevating the magazine’s overall visual presentation and publication design.",
       "vista": "2026-11-10T19:48:07.548Z"
     }
   ]
