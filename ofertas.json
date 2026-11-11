@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T23:17:26.052Z",
+  "actualizado": "2026-11-11T23:21:50.174Z",
   "ofertas": [
+    {
+      "id": "567549",
+      "tipo": "FREELANCE",
+      "titulo": "Timeless Vintage Branding for a Traveling Bicycle Bookstore",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567549/Timeless-Vintage-Branding-for-a-Traveling-Bicycle-Bookstore",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a brand designer to create a timeless, vintage visual identity for my traveling bicycle bookstore. The branding should give the business and its products a distinctive classic character, reminiscent of an old bookstore (serif font, clean typography) but designed with a modern touch.",
+      "vista": "2026-11-11T23:21:50.174Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es branding e identidad, y Leo no tiene en el portfolio un proyecto de identidad completo; se envía con una carta honesta y se ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA traveling bicycle bookstore deserves an identity that feels like an old bookshop but still reads clearly on a small bike, a tote bag or an Instagram post.\nTo be honest, I don't have a full branding project like this in my portfolio yet. My work is mostly graphic design for ads and social media, motion graphics and 3D websites in code (LUMEN, FORJA, MORVAIN), and in all of these, typography and a consistent visual character matter a lot.\nHow I would approach it:\n1. A short moodboard with vintage bookstore references and 2–3 serif font pairings.\n2. Two logo directions (a wordmark plus a simple mark), each with a classic colour palette and a clean, modern layout.\n3. The chosen direction refined and applied to a few items you need (a sign for the bike, stickers, bookmarks, social media templates), plus a one-page brand guide.\nIf it helps, I can make a short sample first so you can see the direction before you decide.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nWhere will the brand appear first: on the bike itself, on bags and bookmarks, or mainly on social media?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 436,
+          "salida": 1352,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.029383799999999998,
+        "generada": "2026-11-11T23:21:49.363Z"
+      }
+    },
     {
       "id": "567545",
       "tipo": "FREELANCE",
@@ -2759,23 +2798,6 @@
       "cierraEnDias": 12,
       "dondeSolicitar": "",
       "descripcion": "We’re developing an original character IP for a kidult audience: a small girl with a tough exterior and a soft heart. The character’s concept, backstory and silhouette are already set. We need a skilled character designer to take her through a full, professional character design process. Your work will be the foundation for her future social media and online content.\nKeep in mind: \nThis character is made for future social media and online content: short, scroll-stopping posts on phone screens. The design needs to read instantly at small sizes, stay consistent across many different artists’ hands, and be simple enough to reproduce quickly.\nMust-haves:\n- A portfolio showing strong character expression and acting, beyond cute static poses\n- A minimalist illustration style: clean shapes, few lines, emotion carried with economy\n- Proven experience with a full character design process, from exploration and iteration to a finished model sheet\n- A good sense of comedic timing, exaggeration and contrast\n- Clear communication and the ability to explain and defend design choices\n- Organized, layered source files (Procreate, Illustrator, Photoshop or similar)\nNice to have: \n- Experience with original character IP, mascots, or kidult and designer-toy brands\n- Experience designing characters for animation, comics or social content",
-      "vista": "2026-11-10T19:53:39.694Z"
-    },
-    {
-      "id": "565879",
-      "tipo": "FREELANCE",
-      "titulo": "Social Media Art Direction and Visual Commerce Specialist",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565879/Social-Media-Art-Direction-and-Visual-Commerce-Specialist",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "BBELASH & CO LLC",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 12,
-      "dondeSolicitar": "",
-      "descripcion": "Busco un/a director/a de arte para redes sociales y especialista en comercio visual que desarrolle y supervise contenido visual eficaz para canales sociales y experiencias de venta digital.",
       "vista": "2026-11-10T19:53:39.694Z"
     }
   ]
