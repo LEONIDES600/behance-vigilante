@@ -141,7 +141,7 @@ const NO_ENCAJA_TITULO = [
 const AGENTES_TITULO = /ai[- ]?agents?|agentic|automation|automatizaci|\bn8n\b|make\.com|zapier|chatbot|conversational ai|ai (implementation|integration|solutions?)|prompt/i;
 const PROGRAMACION_PURA = /back[- ]?end|front[- ]?end|full[- ]?stack|devops|\bsre\b|data (scientist|analyst|engineer)|\b(ios|android|mobile|embedded|firmware|platform|infrastructure) /i;
 // Puestos de Amazon (gestión de cuentas de vendedores, PPC, marketplace): Leo tiene
-// experiencia FBA y hace agentes de IA para vendedores de Amazon; no se descartan
+// hace agentes de IA para vendedores de Amazon; no se descartan
 // por decir «account manager» (sí si son de ventas, captación o atención al cliente).
 const AMAZON_TITULO = /\bamazon\b/i;
 const NO_AMAZON = /\bsales\b|recruit|customer (support|service|success)|\b(aws|connect)\b|developer|engineer/i;
