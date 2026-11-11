@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T05:28:10.023Z",
+  "actualizado": "2026-11-11T05:50:58.420Z",
   "ofertas": [
+    {
+      "id": "566931",
+      "tipo": "FREELANCE",
+      "titulo": "Spanish-Speaking Graphic Designer for Ongoing Meta Ad Creatives",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566931/Spanish-Speaking-Graphic-Designer-for-Ongoing-Meta-Ad-Creatives",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Elevate Design",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a Spanish-speaking graphic designer based in Latin America to create social media ads and Meta ad creatives for US marketing agencies. This is ongoing monthly work at $1,000 per month for each assigned client, beginning with a paid $40 test project. The work includes static ads, carousel creatives, and ad resizes.",
+      "vista": "2026-11-11T05:50:58.420Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden un diseñador que viva en Latinoamérica, y Leo está en Ámsterdam.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 465,
+          "salida": 407,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.024175,
+        "generada": "2026-11-11T05:50:57.682Z"
+      }
+    },
     {
       "id": "564555",
       "tipo": "FREELANCE",
@@ -1748,23 +1787,6 @@
       "dondeSolicitar": "",
       "descripcion": "We need a Shopify expert to build a clean, user-friendly website for a home products store. The site should support product listings, smooth navigation, and a polished shopping experience. We’re looking for someone who can create an organized layout, improve site performance, and help set up the store for long-term growth. Experience with similar e-commerce projects is important, and we value clear communication and reliable delivery.",
       "vista": "2026-11-04T12:50:00.588Z"
-    },
-    {
-      "id": "370325",
-      "tipo": "CONTRACT",
-      "titulo": "Freelance After Effects Motion Designer",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/370325/Freelance-After-Effects-Motion-Designer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Babou AI",
-      "contacto": "Matt Lane-Smith",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "👋 Hi there,\n We're a small startup building AI-powered video tools for brands. We're building a roster of freelance After Effects artists we can send work to every week: product and UI animation, ad templates, social cuts, and launch videos, all from written creative briefs.\n This is freelance, hourly, and remote. Work anywhere in the world. You set your weekly hours. Artists who deliver well get more work and first pick of new projects.\n What we're looking for \n After Effects is your main tool. Motion graphics on your reel, not only editing, 3D, or illustrated explainers.\n A good design eye: type, layout, spacing, color. You know why something looks right.\n You can take a written brief and deliver a polished render on deadline without hand-holding.\n You check your own work. Every note in the brief lands the first time, and feedback stays fixed in the next version.\n When something breaks, you can open the project and fix it yourself. If a tool or workflow is holding you back, you tell us.\n Clean project files: named layers, organized precomps. We open your .aep.\n Comfortable using AI tools in your work, or keen to learn.\n Written English good enough to work from briefs and give updates in Slack.\n Nice to have: expressions and exposed controls, Figma to AE, kinetic type, AI video tools.\n How it works \n Hourly, paid for tracked time.\n Your rate is yours to quote. Artists who overlap more with US Pacific hours (10am to 6pm PT) can be offered higher rates. Async-only artists are",
-      "vista": "2026-11-04T12:46:51.246Z"
     }
   ]
 }
