@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T18:21:51.957Z",
+  "actualizado": "2026-11-11T18:26:19.203Z",
   "ofertas": [
+    {
+      "id": "567405",
+      "tipo": "FREELANCE",
+      "titulo": "Plantilla De Presentación Negra Con Estilo",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567405/Plantilla-De-Presentacion-Negra-Con-Estilo",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Busco una plantilla de presentación negra pero con onda, con un diseño visual atractivo y moderno para usar en mis presentaciones.",
+      "vista": "2026-11-11T18:26:19.203Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es diseño de presentaciones: Leo puede hacerlo con su diseño gráfico, pero no tiene en el portfolio una plantilla igual.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "media",
+        "texto": "¡Hola!\n\nUna plantilla negra con onda tiene que verse elegante sin resultar pesada: buen contraste, tipografía con carácter y algún acento de color o textura que dé vida a cada diapositiva.\nNo tengo en el portfolio una plantilla de presentación igual, pero sí diseño gráfico para anuncios y redes, y webs 3D como LUMEN y FORJA, en las que cuido mucho la composición, la jerarquía y el ritmo visual.\nAsí lo haría: primero te propongo 2 estilos (portada y una diapositiva interior) para que elijas uno.\nDespués preparo la plantilla completa: portada, separadores de sección, diapositivas de texto, de imagen y de datos o gráficos, y cierre.\nTe la entrego editable, con los estilos de texto y los colores ya definidos, para que puedas usarla sin complicarte.\nSi lo prefieres, antes de empezar te hago una muestra rápida de la portada para que veas si va en la línea que buscas.\nPrecio: 500 USD, con el 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios incluidas.\n¿En qué programa vas a usarla (PowerPoint, Keynote o Google Slides) y para qué tipo de presentaciones es?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 386,
+          "salida": 1588,
+          "cacheLeida": 2835,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.033871,
+        "generada": "2026-11-11T18:26:18.193Z"
+      }
+    },
     {
       "id": "371419",
       "tipo": "FULLTIME",
@@ -2516,23 +2555,6 @@
       "dondeSolicitar": "",
       "descripcion": "I’m looking for a dark fantasy / folk horror logo design for a PC game, with a budget of $300. The logo should establish a strong visual identity that is atmospheric, memorable, and suitable for use across Steam or other platforms, marketing materials for social media, and the in-game title screen.",
       "vista": "2026-11-10T19:51:24.365Z"
-    },
-    {
-      "id": "565499",
-      "tipo": "FREELANCE",
-      "titulo": "Part-Time Growth Marketing Specialist",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565499/Part-Time-Growth-Marketing-Specialist",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "eXpand AD",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 11,
-      "dondeSolicitar": "",
-      "descripcion": "We are looking for a part-time Growth Marketing Specialist to support eXpand AD, a US-based digital marketing and growth agency. The role focuses on executing marketing campaigns, creating engaging content, managing social media, and supporting client acquisition and business growth.",
-      "vista": "2026-11-10T19:50:18.301Z"
     }
   ]
 }
