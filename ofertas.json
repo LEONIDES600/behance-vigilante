@@ -1,6 +1,47 @@
 {
-  "actualizado": "2026-11-11T22:40:12.416Z",
+  "actualizado": "2026-11-11T23:17:26.052Z",
   "ofertas": [
+    {
+      "id": "567545",
+      "tipo": "FREELANCE",
+      "titulo": "Press Release Distribution Platform — UI/UX Designer Wanted",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567545/Press-Release-Distribution-Platform-UIUX-Designer-Wanted",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "## Press Release Distribution Platform — UI/UX Designer Wanted\nWe are developing a web-based press release distribution platform and are looking for a UI/UX designer to create a professional and easy-to-use interface.\n### Reference Websites\n- Dream News: https://www.dreamnews.jp\n- PR TIMES: https://prtimes.jp\nThese websites are references for functionality and overall user experience. We are looking for an original design, not a copy.\n### Project Overview\nThe platform will allow companies and individuals to:\n- Create and submit press releases\n- Manage their submitted articles\n- Complete payments\n- Track article status\n- Publish approved press releases\nAdministrators will be able to review, approve, reject, and manage submitted articles.\n### Main Screens\nThe initial design should cover:\n- Homepage\n- Press release listing\n- Press release detail page\n- Login / Registration\n- User dashboard\n- Press release creation page\n- Admin dashboard\n- Article review / management\n- Payment page\n### Design Requirements\nWe are looking for a design that is:\n- Professional and trustworthy\n- Clean and easy to understand\n- Modern and business-oriented\n- Easy to use for non-technical users\n- Responsive for desktop and mobile\n- Consistent across public, user, and admin interfaces\nThe design should provide a smooth experience from creating a press release through payment, review, and publication.\n### Deliverables\n- Figma design files\n- Desktop designs\n- Mobile designs\n- Reusable UI components / design",
+      "vista": "2026-11-11T23:17:26.052Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Es diseño web y UI en Figma, que entra en sus servicios; la carta aclara que no tiene un panel de administración igual y ofrece una muestra.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nA press release platform has to feel trustworthy and simple, so a non-technical user can go from writing a release to payment, review and publication without getting lost.\nI design and build websites, for example LUMEN, FORJA and MORVAIN, 3D scroll sites made in code with three.js and GSAP. I use Figma as part of my AI-assisted workflow.\nI don't have a user/admin dashboard like this one in my portfolio yet, so I'm happy to start with a short sample, for example the press release creation page.\nHow I would work: first I map the main flows (create, pay, track status, publish) and the admin review flow. Then I build a small design system (colors, type, buttons, forms, status tags, tables).\nAfter that I design the 9 core screens for desktop and mobile in Figma and link the key screens in a basic clickable flow.\nThe structure will leave space for later features like advanced search, reports, subscriptions and multilingual support.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have a brand (logo and colors), or should the UI also define the visual style?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [
+          "dice «expert/advanced»"
+        ],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1024,
+          "salida": 1504,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.049171,
+        "generada": "2026-11-11T23:16:48.747Z"
+      }
+    },
     {
       "id": "567541",
       "tipo": "FREELANCE",
@@ -2735,23 +2776,6 @@
       "cierraEnDias": 12,
       "dondeSolicitar": "",
       "descripcion": "Busco un/a director/a de arte para redes sociales y especialista en comercio visual que desarrolle y supervise contenido visual eficaz para canales sociales y experiencias de venta digital.",
-      "vista": "2026-11-10T19:53:39.694Z"
-    },
-    {
-      "id": "565881",
-      "tipo": "FREELANCE",
-      "titulo": "Premium 360° Rotationally Symmetric Gel Polish Cap Label Design",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565881/Premium-360-Rotationally-Symmetric-Gel-Polish-Cap-Label-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 12,
-      "dondeSolicitar": "",
-      "descripcion": "I need a creative, experienced packaging designer to develop a premium wrap-around label for the cylindrical caps of my professional gel polish bottles. The label must form a continuous 360-degree design with visual consistency and balanced rotational symmetry, including when the cap is rotated 180 degrees. I need brand and product information, a color code, color name, volume, barcode, and brand slogan distributed evenly in a seamless repeating layout. The design should use sophisticated patterns, attractive visual textures, clean typography, excellent readability, balanced spacing, and a modern, high-end aesthetic. The background color must adapt to match each gel polish shade while maintaining one cohesive packaging identity across multiple colors. I value a designer who understands packaging, surface patterns, typography, and rotational symmetry, communicates efficiently, follows a clear process, and contributes fresh contemporary ideas.",
       "vista": "2026-11-10T19:53:39.694Z"
     }
   ]
