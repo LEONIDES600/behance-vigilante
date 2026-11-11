@@ -1,6 +1,84 @@
 {
-  "actualizado": "2026-11-11T15:19:26.252Z",
+  "actualizado": "2026-11-11T16:04:15.018Z",
   "ofertas": [
+    {
+      "id": "567233",
+      "tipo": "FREELANCE",
+      "titulo": "Quick-turnaround Data Visualization Vector Art for Social Media Vertical Videos",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567233/Quick-turnaround-Data-Visualization-Vector-Art-for-Social-Media-Vertical-Videos",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "e26 Creative",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a data visualization illustrator to quickly create vector artwork for a series of short, vertical-format social media videos. The artwork will be animated for use across the video series.\n** The budget shown in this Behance post is for the FIRST video only, and there are 7 total videos that need art **\nYou must be experienced developing 2D data visualization vector art (simple, clean charts, graphs, icons and other aesthetically pleasing ways to visualize data). You must perfectly understand English in order to fully understand the video script, data and ideas being conveyed.\nVery tight turnaround, with the art for the first video due Monday, November 16.\nBudget is USD$75/hr. This post is for the first video, but there are 6 additional videos with similar budgets. Here's the breakdown of hours:\n-Videos 1 - 6 are 8 hours each\n-Video 7 has fewer visuals and is 6 hours\nTotal project budget for all 7 videos is USD$4,050.00\nPlease send me samples of data visualization art that you've done.\nYou'll need to sign a nondisclosure agreement (NDA) before we start work.\nReference sample - ideally the data viz art will look similar to this:\nhttps://www.youtube.com/shorts/PQRiKEYObp8",
+      "vista": "2026-11-11T16:04:15.018Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con diseño gráfico y motion graphics, pero Leo no tiene piezas de visualización de datos en el portfolio y piden muestras e inglés perfecto, así que la carta le ofrece una prueba.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nYou need clean, simple 2D charts, graphs and icons that turn each script's data into vector art that is easy to animate in vertical videos, and you need it fast.\nTo be transparent: I don't have a pure data visualization piece in my portfolio yet. The closest work is a series of listing images and videos for a home brand selling on Amazon across Europe (under NDA). There I made a lot of clean graphics that explain product information at a glance, plus motion graphics in After Effects.\nHow I would do it: read the script and data, sketch one frame per data point, build the charts and icons as layered vectors in a consistent style close to your reference, and deliver files already separated for animation.\nI'm happy to do a short paid or free test on one chart from the first video before you decide, and to sign the NDA.\nFor the first video: 600 USD (8 h at your rate), 50% upfront, 2 rounds of changes. My usual delivery time is 7–10 days, so please tell me if Monday is a fixed date and we can see whether we can make it work for video 1.\nWill you share the script and data for the first video once the NDA is signed, and do you already have a color palette and fonts for the series?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 600,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 765,
+          "salida": 1545,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.048135,
+        "generada": "2026-11-11T16:03:50.890Z"
+      }
+    },
+    {
+      "id": "567237",
+      "tipo": "FREELANCE",
+      "titulo": "Professional E-commerce & Shopify Store Designer",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567237/Professional-E-commerce-Shopify-Store-Designer",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m seeking a designer for a monthly salaried position with compensation of $4,000 per month. Please share your relevant experience and portfolio.",
+      "vista": "2026-11-11T16:04:15.018Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Diseño de tienda e-commerce encaja con webs, imágenes de producto y A+ de Amazon; el cliente paga 4.000 USD/mes, y la carta dice con claridad que no hay ninguna tienda Shopify en el portfolio.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\n\nYou need a designer who can make your e-commerce and Shopify store look professional and help it sell, on a steady monthly basis.\nFor a home brand that sells on Amazon in several European countries (under NDA), I made many listing images and videos, A+ content and the brand website.\nI also built LUMEN, FORJA and MORVAIN, 3D scroll websites made in code (three.js + GSAP).\nI don't have a Shopify store in my portfolio yet, so I'm happy to do a short test or a sample page first.\nMy plan: review your current store and products, design the key pages (home, collection, product), create product images and banners with AI, then set it up in Shopify and adjust it with you.\nThe $4,000 per month works for me. For the first month: 50% upfront, first delivery in 7–10 days, and 2 rounds of changes.\nIs this a new store or a redesign of an existing one, and how many products do you sell?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 4000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 388,
+          "salida": 1608,
+          "cacheLeida": 2835,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.034279,
+        "generada": "2026-11-11T16:04:13.812Z"
+      }
+    },
     {
       "id": "371395",
       "tipo": "FULLTIME",
@@ -2258,40 +2336,6 @@
       "dondeSolicitar": "",
       "descripcion": "We're looking for a web developer (or small studio) to redesign our existing website and online store. The goal is a simpler, cleaner design and an improved user experience. We'll provide creative direction, structure guidelines, text and images. Being able to also do the web design in Figma is a strong plus.\nCURRENT WEBSITE\nwww.maisonsignature.rs\n- Runs on WordPress and will stay on WordPress\n- The online store and card payments (local bank) are already set up and must keep working\n- The job is a redesign: new design, improved user experience and some structural changes\nThe job is remote, but experience with Serbian websites is required.\nBudget: 1500-2500e\nPreferred launch date: 15 December 2026",
       "vista": "2026-11-10T19:43:42.371Z"
-    },
-    {
-      "id": "564911",
-      "tipo": "FREELANCE",
-      "titulo": "Complete Visual Identity and Branding Package for a New Food Product",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/564911/Complete-Visual-Identity-and-Branding-Package-for-a-New-Food-Product",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 10,
-      "dondeSolicitar": "",
-      "descripcion": "I need a talented illustrator and graphic designer to create a complete visual identity and branding package for a new food product. The project includes a custom logo, product packaging, exterior boxes, stickers, brand mascot character designs, realistic product mockups, and a comprehensive brand guideline document.",
-      "vista": "2026-11-10T19:42:34.844Z"
-    },
-    {
-      "id": "564607",
-      "tipo": "FREELANCE",
-      "titulo": "Web Development & UI/UX Designing ",
-      "presupuesto": "5000–10.000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/564607/Web-Development-UIUX-Designing-",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 9,
-      "dondeSolicitar": "",
-      "descripcion": "Hey! I'm the founder of Auren Studio. We're a creative studio working on building unique websites and digital experiences for different brands. I'm currently looking for someone experienced who I can collaborate with on projects. I already have an illustrator who will be handling all the custom illustrations and visual assets, so your part would mainly be the website itself, like UI/UX, designing the layouts, animations, interactions, responsiveness and the complete development. Basically, I'll take care of the illustrations and creative direction, and you'll handle turning everything into a proper, fully working website. I'm looking for someone I can work with on a project basis and hopefully build a long-term working relationship with. Let me know if you'd be interested!",
-      "vista": "2026-11-10T19:40:49.444Z"
     }
   ]
 }
