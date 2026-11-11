@@ -1,10 +1,10 @@
 {
   "version": "v3.2 · 07/11/2026",
-  "actualizado": "2026-11-11T01:15:37.865Z",
-  "ultimaPasadaConDatos": "2026-11-11T01:15:37.461Z",
+  "actualizado": "2026-11-11T01:46:22.897Z",
+  "ultimaPasadaConDatos": "2026-11-11T01:46:22.359Z",
   "ciegoDesde": null,
   "proxyBehance": "jina",
-  "pasadas": 3560,
+  "pasadas": 3589,
   "hoy": {
     "fecha": "2026-11-11",
     "nuevas": 2,
@@ -34,7 +34,7 @@
     "remotive": {
       "fallosSeguidos": 0,
       "pausadaHasta": null,
-      "ultimaConsulta": "2026-11-10T19:41:51.079Z"
+      "ultimaConsulta": "2026-11-11T01:43:12.802Z"
     },
     "jobicy": {
       "fallosSeguidos": 0,
