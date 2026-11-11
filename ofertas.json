@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T18:27:30.305Z",
+  "actualizado": "2026-11-11T18:34:03.421Z",
   "ofertas": [
+    {
+      "id": "567403",
+      "tipo": "FREELANCE",
+      "titulo": "BRANDING ",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567403/BRANDING-",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "BRANDING - EUPHORIA PRODUCTION\nHello,\nI'm Nesrine, co-founder of Euphoria Events Production, a production company based in Marrakech. We design, fabricate and build weddings and events in-house, with 2 warehouses and a team of 40+, for international planners, agencies and brands working in Morocco.\nWe are looking for a branding studio or designer to create our full identity: logo system, visual identity, brand guidelines and voice. We also want the brand carried into our content, with Instagram templates our team can use every week.\nThe brand needs to be bold, creative and efficient. It should feel like a production house, not a wedding stationer.\nIf the project interests you, please send us:\n- 2 to 3 identity projects closest to this brief (and any social or video work)\n- A short paragraph on how you would approach it\n- Your fee and proposed schedule\nHappy to set up a call if you have any questions.\nBest regards,\nNesrine",
+      "vista": "2026-11-11T18:34:03.421Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding completo con plantillas de Instagram, bien pagado y en remoto, pero Leo no tiene proyectos de identidad para enseñar; la carta lo dice claramente y ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Nesrine,\n\nA production house that designs and builds weddings and events in-house needs a brand that feels bold and built, not delicate, plus Instagram templates your team can really reuse every week.\nTo be honest, I don't have a dedicated identity project in my portfolio yet. The closest work is ORBE and SILENCIO, cinematic ads I made with AI (idea, generation, editing and sound), and LUMEN, a 3D scroll website built in code, both with a strong and bold visual direction.\nHow I would approach it:\n1) A short call and a moodboard around production, structure and craft.\n2) 2–3 logo and identity routes; you choose one.\n3) Logo system, colours, typography, brand guidelines and voice.\n4) Editable Instagram templates in Figma for your team.\nIf it helps, I can make a short sample route before you decide.\nFee: 5000 USD, 50% upfront. Delivery in 7–10 days, with 2 rounds of changes.\nWhat do you post most each week: event photos, behind the scenes from the warehouses, or video?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 652,
+          "salida": 1434,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.045463,
+        "generada": "2026-11-11T18:34:02.341Z"
+      }
+    },
     {
       "id": "567409",
       "tipo": "FREELANCE",
@@ -2559,23 +2598,6 @@
       "cierraEnDias": 11,
       "dondeSolicitar": "",
       "descripcion": "I need a designer to create a cohesive branding kit for my music management company, along with specific pitch decks we need to produce. The work should establish a consistent visual identity that can be carried across the company’s presentation materials.",
-      "vista": "2026-11-10T19:51:24.365Z"
-    },
-    {
-      "id": "565667",
-      "tipo": "FREELANCE",
-      "titulo": "Criação de Artes 3D em Estilo Low Poly",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565667/Criacao-de-Artes-3D-em-Estilo-Low-Poly",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 12,
-      "dondeSolicitar": "",
-      "descripcion": "Estou procurando um artista 3D para criar artes em estilo low poly. Preciso de ilustrações ou modelos com estética geométrica simplificada e acabamento visual consistente.",
       "vista": "2026-11-10T19:51:24.365Z"
     }
   ]
