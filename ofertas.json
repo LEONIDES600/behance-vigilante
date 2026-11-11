@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T14:43:07.209Z",
+  "actualizado": "2026-11-11T15:19:26.252Z",
   "ofertas": [
+    {
+      "id": "371395",
+      "tipo": "FULLTIME",
+      "titulo": "Designer digital DA et UI web F/H",
+      "presupuesto": "36.000–40.800 EUR/año",
+      "enlace": "https://www.behance.net/joblist/fulltime/371395/Designer-digital-DA-et-UI-web-FH",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "Mozby",
+      "contacto": "Agence Mozby",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "Behance",
+      "descripcion": "Rejoindre Mozby \n Mozby est un groupe de communication intégré, implanté à Paris et à Toulouse. Nous accompagnons les entreprises de la stratégie de marque à la réalisation de leurs projets : identité visuelle, expériences digitales, contenus et événements.\n Cette approche engage notre travail sur toute la chaîne : comprendre les enjeux d’une entreprise, définir une direction créative et la traduire en réalisations cohérentes, précises et utilisables. Nous attendons des choix argumentés, une exécution maîtrisée et des livrables fiables jusque dans leurs détails.\n Nous recherchons un designer digital capable de porter une direction artistique forte et de la concrétiser dans des interfaces web et SaaS de haut niveau. Vous interviendrez sur des projets clients et internes, de la recherche initiale à la préparation de leur mise en œuvre. Votre contribution doit relier identité de marque, expérience utilisateur et qualité de réalisation.\n Mozby associe un esprit entrepreneurial, une organisation flexible et une forte exigence professionnelle. Le poste est en télétravail depuis la France. L’autonomie s’accompagne d’une communication claire, de points d’avancement réguliers et d’une responsabilité sur la qualité du travail livré.\n Vos responsabilités \n • Définir une direction artistique. Analyser le brief, le positionnement et les usages ; conduire la recherche, construire des territoires visuels et défendre une recommandation claire.\n • Construire des identités cohérentes. Travaill",
+      "vista": "2026-11-11T15:19:26.252Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exige teletrabajo desde Francia y, en la práctica, francés; además pide una dirección de arte e identidad sólidas que no están en el portfolio.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 2457,
+          "salida": 425,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.032503,
+        "generada": "2026-11-11T15:19:24.125Z"
+      }
+    },
     {
       "id": "567183",
       "tipo": "FREELANCE",
@@ -2252,23 +2291,6 @@
       "cierraEnDias": 9,
       "dondeSolicitar": "",
       "descripcion": "Hey! I'm the founder of Auren Studio. We're a creative studio working on building unique websites and digital experiences for different brands. I'm currently looking for someone experienced who I can collaborate with on projects. I already have an illustrator who will be handling all the custom illustrations and visual assets, so your part would mainly be the website itself, like UI/UX, designing the layouts, animations, interactions, responsiveness and the complete development. Basically, I'll take care of the illustrations and creative direction, and you'll handle turning everything into a proper, fully working website. I'm looking for someone I can work with on a project basis and hopefully build a long-term working relationship with. Let me know if you'd be interested!",
-      "vista": "2026-11-10T19:40:49.444Z"
-    },
-    {
-      "id": "564611",
-      "tipo": "FREELANCE",
-      "titulo": "Naming and Logo Design for a Bar",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/564611/Naming-and-Logo-Design-for-a-Bar",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Rolo y Alo gastro SL",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 9,
-      "dondeSolicitar": "",
-      "descripcion": "Busco una persona que me ayude a crear un nombre y un logo para un bar. Necesito una propuesta de identidad inicial que funcione para el negocio.",
       "vista": "2026-11-10T19:40:49.444Z"
     }
   ]
