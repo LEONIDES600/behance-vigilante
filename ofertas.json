@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T21:29:11.600Z",
+  "actualizado": "2026-11-11T22:40:12.416Z",
   "ofertas": [
+    {
+      "id": "567541",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity + Modular Design System for a Literary Publishing Brand",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567541/Brand-Identity-Modular-Design-System-for-a-Literary-Publishing-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "A new digital publishing brand is seeking an experienced designer to develop a distinctive visual identity and flexible design system.\nThe project extends beyond logo development. The goal is to create a cohesive visual language that can be applied across editorial pages, printable materials, digital products, marketing, and future brand applications.\nRather than designing every future piece individually, the selected designer will establish the core identity and create a practical toolkit of reusable elements, layouts, and rules that allow the brand to grow consistently.",
+      "vista": "2026-11-11T22:40:12.416Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding y sistema de diseño: Leo puede hacerlo, pero no tiene un proyecto de identidad en el portfolio; se envía con una carta honesta.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nA new literary publishing brand needs a visual language that stays consistent from editorial pages to printables, digital products and marketing, plus a toolkit your team can reuse without starting from zero every time.\nTo be transparent: I don't have a full brand identity project in my portfolio yet, but I do build cohesive visual systems. For a home brand selling on Amazon in several European countries, I created many listing images, A+ content and the website, all following one consistent look. I also designed and coded 3D scroll websites like LUMEN and FORJA.\nHow I would approach it: a short brief about your voice and readers, 2–3 moodboard directions, then the core identity (logo, typography, colour palette), and finally the toolkit: reusable layouts and templates for editorial, print and social, plus a simple guide with the rules.\nIf it helps, I'm happy to make a short sample direction first so you can judge the fit.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nWhich formats matter most at launch: ebook or editorial pages, printables, website or social media?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 517,
+          "salida": 1373,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.044523,
+        "generada": "2026-11-11T22:40:11.678Z"
+      }
+    },
     {
       "id": "371451",
       "tipo": "FULLTIME",
@@ -2713,23 +2752,6 @@
       "cierraEnDias": 12,
       "dondeSolicitar": "",
       "descripcion": "I need a creative, experienced packaging designer to develop a premium wrap-around label for the cylindrical caps of my professional gel polish bottles. The label must form a continuous 360-degree design with visual consistency and balanced rotational symmetry, including when the cap is rotated 180 degrees. I need brand and product information, a color code, color name, volume, barcode, and brand slogan distributed evenly in a seamless repeating layout. The design should use sophisticated patterns, attractive visual textures, clean typography, excellent readability, balanced spacing, and a modern, high-end aesthetic. The background color must adapt to match each gel polish shade while maintaining one cohesive packaging identity across multiple colors. I value a designer who understands packaging, surface patterns, typography, and rotational symmetry, communicates efficiently, follows a clear process, and contributes fresh contemporary ideas.",
-      "vista": "2026-11-10T19:53:39.694Z"
-    },
-    {
-      "id": "566069",
-      "tipo": "FREELANCE",
-      "titulo": "COTIZACIÓN DE VIDEO 3D",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566069/COTIZACION-DE-VIDEO-3D",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 13,
-      "dondeSolicitar": "",
-      "descripcion": "BRIEF PARA COTIZACIÓN DE VIDEO 3D\nTipo de proyecto: Publicitario\nDescripción y objetivo: El objetivo del video es mostrar puntos importantes del producto, que se vea llamativo y comercial.\nDuración: 60 segundos\nMaterial para modelado: Modelado completo desde cero\nEstilo visual: Según referencia\nFormato: Horizontal 16:9\nAudio: Musica y efectos\nFecha de entrega: Por definir\nReferencia visual: Se adjunta por separado\nSolicitamos una cotización desglosada que incluya modelado, texturizado, animación, iluminación, renderizado, posproducción, tiempos de producción, revisiones incluidas y costo de ajustes adicionales.",
       "vista": "2026-11-10T19:53:39.694Z"
     }
   ]
