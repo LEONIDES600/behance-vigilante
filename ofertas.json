@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T03:52:45.962Z",
+  "actualizado": "2026-11-11T05:11:59.556Z",
   "ofertas": [
+    {
+      "id": "566923",
+      "tipo": "FREELANCE",
+      "titulo": "Illustration for children's story ",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566923/Illustration-for-childrens-story-",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a talented illustrator to bring my children's book, Halo and Her Magic Heart, to life.\nThis story is very close to my heart, with a meaningful message about love, courage, and discovering the magic within ourselves. Finding the right illustrator who connects with its emotion and message is especially important to me.\nIllustration Style: Whimsical, dreamy, magical, and emotionally expressive, with soft colors, beautiful details, and a sense of wonder.\nChildren's picture book (342 words)\nFull-color illustrations, character development, and cover design\nHigh-resolution, print-ready artwork for publishing\nPlease Share:\nYour portfolio and relevant experience\nEstimated cost for the complete book, including the cover\nWhat's included (revisions and commercial rights)\nAvailability and estimated timeline\nI'm based in Bali and would love to collaborate with an illustrator here. Looking forward to finding the right creative partner to bring this story to life :)",
+      "vista": "2026-11-11T05:11:59.556Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Libro infantil ilustrado: no pide hecho a mano, así que Leo puede hacerlo con IA, pero no tiene ningún libro infantil en el portfolio, el cliente prefiere a alguien de Bali y el presupuesto es bajo para un libro completo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\n\nHalo and Her Magic Heart sounds like a beautiful story, and I understand how important it is to find someone who feels its emotion and message.\nI want to be honest from the start: I work with AI. The illustrations would be made with AI and then refined by me (colors, details, keeping the character the same and the layout). I don't have a children's book in my portfolio yet. My closest work is ORBE and SILENCIO, cinematic pieces made with AI where I built a soft, emotional visual world from the first idea to the final result.\nHow I would do it: first I design Halo and show you 2-3 options in a whimsical, dreamy style with soft colors. When you approve her, I illustrate each scene with the same Halo, and at the end I make the cover and high-resolution files ready for print.\nBefore you decide, I'm happy to make a short sample of Halo so you can see if the style connects with you.\nI'm based in Amsterdam, not Bali, so we would work remotely.\nPrice for the complete book, including the cover: 250 USD, 50% upfront. Delivery in 7-10 days, with 2 rounds of revisions. We can agree on the rights you need for publishing.\n\nHow many illustrations do you imagine for the 342 words, and do you already have an idea of how Halo looks?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 639,
+          "salida": 1897,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.054671,
+        "generada": "2026-11-11T05:11:58.765Z"
+      }
+    },
     {
       "id": "566897",
       "tipo": "FREELANCE",
@@ -1703,23 +1742,6 @@
       "cierraEnDias": 30,
       "dondeSolicitar": "Behance",
       "descripcion": "We are a young candy brand based in Australia! Currently stocked nationwide at 7-Eleven, we are looking to grow our retail and digital footprint with someone to join our graphic design team. Starting on a 3-month contract/full-time.\n What they'll do: heavy physical design work for an Australian confectionery brand. Retail activations, in-store displays, event stands and print collateral. They'll own the bigger projects while our intern handles smaller work.\n Must haves:\n •⁠ ⁠Solid CPG/FMCG experience, ideally retail activations or in-store POS\n •⁠ ⁠Strong print production skills (die lines, large format, print-ready files)\n •⁠ ⁠Can create 3D mockups of displays and stands\n •⁠ ⁠Confident to use any of: Illustrator, Figma/Canva. Photoshop, InDesign can also be used.\n •⁠ ⁠Portfolio showing real physical work, not just social/digital\n •⁠ ⁠Creative thinker who can do a lot with a smart budget\n Team: we're a young, tight-knit team, so someone who'll gel with the crew and wants to grow with us long term would be ideal.",
-      "vista": "2026-11-04T12:46:51.246Z"
-    },
-    {
-      "id": "370319",
-      "tipo": "CONTRACT",
-      "titulo": "Programmer (Blueprints & C++) for UE5 Third-Person Action Game",
-      "presupuesto": "20–45 USD/h",
-      "enlace": "https://www.behance.net/joblist/fulltime/370319/Programmer-(Blueprints-C)-for-UE5-Third-Person-Action-Game",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "TBA Studio",
-      "contacto": "Nathan Villa-Nova",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "PROJECT K1 \n (Concealed Title)\n PAID/CONTRACT \n Paid offer. My individual funds.\n Additional compensation: royalties.\n Game Prototype \n Description: \n Third person action-adventure game.\n Sandbox elements [limited] – inspired by the Hitman franchise.\n Single player cinematic campaign experience.\n Includes:\n Locomotion with motion matching & active ragdoll\n Hand combat & guns system \n Stealth system, Inventory & NPCs AI (enemy & bystanders)\n Menu, GUI & Controller Support\n Details:\n AAA Quality:\n Seamless locomotion & interactions.\n Well designed game mechanics.\n High performance.\n 3D objects, animations and art elements will be provided.\n When possible, use procedural animations and overlays.\n Likely to use AGS or similar as a starting point for the game's locomotion system.\n Script Assets are generally welcome, as long as they function well with the prototype and don't cause bad performance.\n All asset use intention must be communicated.\n Looking for Talent: \n (Currently available positions)\n Lead Programmer (Blueprints & C++)\n Programmer (Blueprints & C++)\n Requirements:\n Portfolio / Reel showing your high quality work.\n Contact: \n https://www.nathanvillanova.com/",
       "vista": "2026-11-04T12:46:51.246Z"
     }
   ]
