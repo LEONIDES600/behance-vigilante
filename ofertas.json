@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T05:11:59.556Z",
+  "actualizado": "2026-11-11T05:28:10.023Z",
   "ofertas": [
+    {
+      "id": "564555",
+      "tipo": "FREELANCE",
+      "titulo": "High-Quality Motion Graphics Videos for a SaaS Company",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/564555/High-Quality-Motion-Graphics-Videos-for-a-SaaS-Company",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "nTop",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 9,
+      "dondeSolicitar": "",
+      "descripcion": "I need a motion graphic designer to produce high-quality motion graphic videos for my SaaS company. The videos should communicate our software product and brand clearly through polished motion design.",
+      "vista": "2026-11-11T05:28:10.023Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Encargo remoto de motion graphics para SaaS, encaja con sus servicios y el presupuesto es bueno.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nA good SaaS video has to make the product, its value and the brand clear in a few seconds, without making it feel complicated.\nI make motion graphics in After Effects and Premiere. I have produced showcase videos for AI agent systems, where the goal was also to make software easy to understand. My AI ads ORBE and SILENCIO show how I work with pacing, editing and sound.\nI don't have a SaaS explainer exactly like yours in my portfolio yet, so I'm happy to make a short sample first, using your UI and brand.\nHow I would work: 1) define the key message and audience with you, 2) script and storyboard, 3) animate your UI screens, icons and brand elements, 4) edit, add sound design and deliver in the formats you need.\nPrice: 2500 USD for the project, 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nHow many videos do you need, and for which use (website, product demo or social media) and length?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 407,
+          "salida": 1240,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.040603,
+        "generada": "2026-11-11T05:28:09.298Z"
+      }
+    },
     {
       "id": "566923",
       "tipo": "FREELANCE",
@@ -1725,23 +1764,6 @@
       "cierraEnDias": 30,
       "dondeSolicitar": "web externa",
       "descripcion": "👋 Hi there,\n We're a small startup building AI-powered video tools for brands. We're building a roster of freelance After Effects artists we can send work to every week: product and UI animation, ad templates, social cuts, and launch videos, all from written creative briefs.\n This is freelance, hourly, and remote. Work anywhere in the world. You set your weekly hours. Artists who deliver well get more work and first pick of new projects.\n What we're looking for \n After Effects is your main tool. Motion graphics on your reel, not only editing, 3D, or illustrated explainers.\n A good design eye: type, layout, spacing, color. You know why something looks right.\n You can take a written brief and deliver a polished render on deadline without hand-holding.\n You check your own work. Every note in the brief lands the first time, and feedback stays fixed in the next version.\n When something breaks, you can open the project and fix it yourself. If a tool or workflow is holding you back, you tell us.\n Clean project files: named layers, organized precomps. We open your .aep.\n Comfortable using AI tools in your work, or keen to learn.\n Written English good enough to work from briefs and give updates in Slack.\n Nice to have: expressions and exposed controls, Figma to AE, kinetic type, AI video tools.\n How it works \n Hourly, paid for tracked time.\n Your rate is yours to quote. Artists who overlap more with US Pacific hours (10am to 6pm PT) can be offered higher rates. Async-only artists are",
-      "vista": "2026-11-04T12:46:51.246Z"
-    },
-    {
-      "id": "370321",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic Designer (Physical + Digital)",
-      "presupuesto": "2000–2800 AUD/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/370321/Graphic-Designer-(Physical-Digital)",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "HeyBear",
-      "contacto": "Aydan Zebib",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "We are a young candy brand based in Australia! Currently stocked nationwide at 7-Eleven, we are looking to grow our retail and digital footprint with someone to join our graphic design team. Starting on a 3-month contract/full-time.\n What they'll do: heavy physical design work for an Australian confectionery brand. Retail activations, in-store displays, event stands and print collateral. They'll own the bigger projects while our intern handles smaller work.\n Must haves:\n •⁠ ⁠Solid CPG/FMCG experience, ideally retail activations or in-store POS\n •⁠ ⁠Strong print production skills (die lines, large format, print-ready files)\n •⁠ ⁠Can create 3D mockups of displays and stands\n •⁠ ⁠Confident to use any of: Illustrator, Figma/Canva. Photoshop, InDesign can also be used.\n •⁠ ⁠Portfolio showing real physical work, not just social/digital\n •⁠ ⁠Creative thinker who can do a lot with a smart budget\n Team: we're a young, tight-knit team, so someone who'll gel with the crew and wants to grow with us long term would be ideal.",
       "vista": "2026-11-04T12:46:51.246Z"
     }
   ]
