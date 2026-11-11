@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T19:24:58.689Z",
+  "actualizado": "2026-11-11T19:29:17.487Z",
   "ofertas": [
+    {
+      "id": "567445",
+      "tipo": "FREELANCE",
+      "titulo": "Design Apprentice | Branding",
+      "presupuesto": "10.000–25.000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567445/Design-Apprentice-Branding",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "BUCK",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Job Description:\nAt BUCK, we realize that there is nothing more powerful than someone willing to learn and grow in order to hone their craft. This is why BUCK is looking for talented and driven people to join teams across our many departments as an Apprentice. Apprentices are considered to be a valuable part of our team and process. In fact, 35% of our current team first joined us as an apprentice; we now have Department Heads and Group Creative Directors who have had their entire career at BUCK. The ideal candidate is someone with some professional experience, but more importantly, we are looking for those who are curious and willing to learn. This opportunity is best suited for recent graduates, self-taught artists, and anyone in between.\nThis role is centered on hands-on visual problem-solving and technical execution, focusing on creating assets, graphics, and style frames that support our 2D and 3D animation pipelines. You will dive directly into production work, utilizing your strong graphic design foundation and attention to detail to ensure clean, versatile creative output. This is ideal for those who want to be integrated into the immediate visual production workflow of a design and animation studio.\nWhat We Expect From You:\nCommitment & Location:\nSix-month, full-time apprenticeship.\nCandidates must live within a commutable distance from the LA or NY BUCK office locations and be able to be on-site for the apprenticeship.\nResponsibilities:\nWork closely with your assign",
+      "vista": "2026-11-11T19:29:17.487Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un aprendizaje presencial a jornada completa en las oficinas de BUCK en Los Ángeles o Nueva York, y hay que vivir cerca; no es un encargo freelance remoto.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 25000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1615,
+          "salida": 552,
+          "cacheLeida": 2835,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.018067,
+        "generada": "2026-11-11T19:29:16.383Z"
+      }
+    },
     {
       "id": "567441",
       "tipo": "FREELANCE",
@@ -2603,23 +2642,6 @@
       "cierraEnDias": 12,
       "dondeSolicitar": "",
       "descripcion": "Hi! I’m looking for a graphic designer to create an original symbol/logo for my streetwear brand, with a budget of $100. The design should combine a rear-view head silhouette with dreadlocks, the Almada skyline, and the Cristo Rei monument behind the figure. I want a black-and-white, high-contrast underground streetwear look with a raw, distressed, timeless feel. The logo must contain no text and should be original rather than a copy of my references. I will provide reference images and original photos to communicate the vision.",
-      "vista": "2026-11-10T19:52:31.028Z"
-    },
-    {
-      "id": "565869",
-      "tipo": "FREELANCE",
-      "titulo": "Landing Page Design for a Construction Company",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565869/Landing-Page-Design-for-a-Construction-Company",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 12,
-      "dondeSolicitar": "",
-      "descripcion": "I own a mid-luxury remodeling and new construction company and need a graphic designer or branding expert to create a strong, attractive, and luxurious landing page that encourages visitors to share their contact information for an appointment. I may have some existing construction photos, but I need help sourcing high-end images that showcase the quality of our work. The page should feel polished, professional, and immediately appealing to potential clients.",
       "vista": "2026-11-10T19:52:31.028Z"
     }
   ]
