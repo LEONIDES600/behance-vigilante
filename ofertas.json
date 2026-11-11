@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T21:15:00.875Z",
+  "actualizado": "2026-11-11T21:25:47.374Z",
   "ofertas": [
+    {
+      "id": "567491",
+      "tipo": "FREELANCE",
+      "titulo": "Website Builder and Illustration Services",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567491/Website-Builder-and-Illustration-Services",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Magpie Trading",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Hi! I'm looking for an illustrator for a small one-page website to create a magpie mascot, logo, simple 3-frame animations, and background.",
+      "vista": "2026-11-11T21:25:47.374Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja la parte web y de animación, pero no hay mascotas ni logos en el portfolio: se envía con honestidad y se ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYour one-page site needs a magpie mascot to carry it, plus a matching logo, a simple 3-frame animation and a background. That's a nice, focused project.\nOn the web side, I build sites in code. LUMEN and FORJA are scroll-based 3D websites I made with three.js and GSAP, so I can also make sure the animation and background work well on the page itself.\nI don't have a mascot or logo project in my portfolio yet. I work with AI and then refine everything in Adobe, so I'm happy to make a short sample first: a quick first version of the magpie so you can see the style before you decide.\nHere's how I would do it: agree on the style with you (flat, playful or more detailed), create the mascot and refine it, build the logo from the mascot, make the 3 animation frames and the background, and deliver web-ready files. I can also build the page if you need it.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have a style or a reference you like for the magpie? And do you need me to build the page too, or only the illustrations?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 390,
+          "salida": 1326,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.043075,
+        "generada": "2026-11-11T21:25:46.561Z"
+      }
+    },
     {
       "id": "567461",
       "tipo": "FREELANCE",
@@ -2648,23 +2687,6 @@
       "dondeSolicitar": "",
       "descripcion": "I’m seeking art direction for my Pilates studio, inspired by Italian modernism. The visual direction should feel exclusive while remaining playful and energetic, reflecting our small-group class experience. I need support with photography, Meta design, and website design.",
       "vista": "2026-11-10T19:53:39.694Z"
-    },
-    {
-      "id": "565681",
-      "tipo": "FREELANCE",
-      "titulo": "Branding and Visual Identity for Argentine Independent Film Production Company",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565681/Branding-and-Visual-Identity-for-Argentine-Independent-Film-Production-Company",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 12,
-      "dondeSolicitar": "",
-      "descripcion": "Busco un/a diseñador/a gráfico/a especializado/a en branding e identidad visual para desarrollar la identidad integral de una nueva productora cinematográfica independiente argentina, con un presupuesto de 100–150 USD. Necesito una marca sobria, editorial y autoral, de estética contemporánea y sensibilidad cinematográfica, construida a partir del nombre provisional CENIT. El trabajo debe incluir naming e interpretación conceptual, logotipo, sistema de identidad visual, dirección de arte, paleta cromática, tipografía, aplicaciones institucionales y digitales, y un manual de identidad visual. Valoro portfolios relacionados con cine, cultura, diseño editorial, arte e instituciones culturales. Busco una identidad atemporal, reconocible y con personalidad propia.",
-      "vista": "2026-11-10T19:52:31.028Z"
     }
   ]
 }
