@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T05:57:56.378Z",
+  "actualizado": "2026-11-11T06:32:11.248Z",
   "ofertas": [
+    {
+      "id": "564305",
+      "tipo": "FREELANCE",
+      "titulo": "Presentation Deck Polish and Design Enhancement",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/564305/Presentation-Deck-Polish-and-Design-Enhancement",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Individual requiring presentation deck design support",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 8,
+      "dondeSolicitar": "",
+      "descripcion": "I need someone to polish my presentation deck and add design elements that improve its overall visual quality and clarity.",
+      "vista": "2026-11-11T06:32:11.247Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Leo puede hacer diseño de presentaciones con diseño gráfico e IA, pero no tiene ninguna presentación en el portfolio.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYou need a deck that looks polished and tells your story more clearly, so every slide is easy to read and supports what you are saying.\nI don't have a presentation deck in my portfolio yet. My closest work is graphic design for ads, social media and Amazon A+ content for a home brand that sells in several European countries. In that work, layout and visual clarity were key.\nHow I would do it: first I review your content and structure, then I define a simple visual system (fonts, colors, grid, icons). After that I redesign each slide, turn dense text into clear charts or diagrams and add custom AI images where they help.\nIf you prefer, I can redesign 2–3 slides first as a short sample so you can see the direction before we go further.\nPrice: 2500 USD, 50% upfront. Delivery in 7–10 days, with 2 rounds of changes included.\nWhich format is your deck in (PowerPoint, Google Slides or Keynote) and about how many slides does it have?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 385,
+          "salida": 1029,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.036295,
+        "generada": "2026-11-11T06:32:10.404Z"
+      }
+    },
     {
       "id": "566933",
       "tipo": "FREELANCE",
@@ -1792,23 +1831,6 @@
       "dondeSolicitar": "",
       "descripcion": "We’re looking for a freelancer to create a custom website for our business. The project includes designing a modern, responsive layout, building the site from scratch, and ensuring it works well across devices. You’ll also help with basic setup and support during launch. Please share examples of similar projects and your approach to delivering a clean, functional website on time.",
       "vista": "2026-11-04T13:29:18.847Z"
-    },
-    {
-      "id": "563789",
-      "tipo": "FREELANCE",
-      "titulo": "3D CGI Virtual Influencer Recreation And Animation",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563789/3D-CGI-Virtual-Influencer-Recreation-And-Animation",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Dapper Labs",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We're looking for an experienced CGI character artist/animator to produce a paid test video for an established virtual influencer.\nThe project involves accurately recreating an existing stylized-realistic CGI character from image references and animating her in a 30-second video. The character will be sitting, speaking, and making subtle, natural movements.\nOur highest priority is maintaining the character's established appearance, including her facial features, proportions, and overall aesthetic. We're open to AI-assisted workflows, but the final result must be polished, visually consistent, and free of obvious AI artifacts.\nThis is an initial paid test with the potential for ongoing freelance work producing regular videos.",
-      "vista": "2026-11-04T13:27:37.049Z"
     }
   ]
 }
