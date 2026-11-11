@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T06:47:03.502Z",
+  "actualizado": "2026-11-11T06:55:08.164Z",
   "ofertas": [
+    {
+      "id": "566947",
+      "tipo": "FREELANCE",
+      "titulo": "# Hiring: Senior Apparel Graphic Designer – Premium Streetwear Brand  **Position",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566947/-Hiring-Senior-Apparel-Graphic-Designer-Premium-Streetwear-Brand-Position",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "melwin garments",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "# Hiring: Senior Apparel Graphic Designer – Premium Streetwear Brand\n**Position:** Senior Apparel Graphic Designer / Illustrator \n**Engagement:** Freelance initially, with potential for a long-term retainer or full-time position \n**Location:** Remote / India / International \n**Compensation:** Open to discussion based on portfolio and experience\n## About the opportunity\nWe are developing a premium, contemporary streetwear label focused on distinctive graphic apparel, original illustrations, experimental typography and innovative print techniques.\nWe are looking for a creative designer who understands contemporary streetwear culture and can translate creative concepts into original, commercially viable apparel graphics.\n## Responsibilities\n- Develop original T-shirt graphics and complete apparel collections.\n- Create detailed character illustrations and experimental artwork.\n- Develop typography-driven and editorial graphic compositions.\n- Design front, back and placement graphi",
+      "vista": "2026-11-11T06:55:08.164Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es diseño gráfico e ilustración para camisetas y Leo puede hacerlo con IA, pero no tiene ninguna pieza de ropa en el portfolio y piden un perfil senior.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\n\nA new premium streetwear label needs graphics that feel original and are still commercially viable, from single T-shirt pieces to full collections with front, back and placement artwork.\n\nTo be honest, I don't have an apparel collection in my portfolio yet. My work is graphic design, 3D and AI-driven visuals. For example, I made many product images and videos for a home brand that sells on Amazon in several European countries, and I made cinematic AI ads (ORBE, SILENCIO) where I handled the visual concept from idea to final piece.\n\nHow I would work with you: first a short moodboard and concept directions based on your brand, then character and typography explorations with AI tools and Adobe, then the final graphics with placement mockups on garments. Before you commit, I'm happy to do a short test graphic so you can judge the style.\n\nFor a first collection: 5000 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\n\nHow many designs do you want in the first drop, and do you already have a moodboard or references for the brand?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 707,
+          "salida": 1244,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.041883,
+        "generada": "2026-11-11T06:55:07.285Z"
+      }
+    },
     {
       "id": "566943",
       "tipo": "FREELANCE",
@@ -1836,23 +1875,6 @@
       "dondeSolicitar": "",
       "descripcion": "I need an experienced 3D product animator to create a premium, cinematic commercial for an energy drink can, with a fixed budget of $100–$200 USD. The project requires realistic 3D product modeling and animation, including a cinematic reveal, 360° can rotation, dynamic green liquid splashes, floating water droplets, particle effects, professional lighting, reflections, realistic materials, and glowing green energy effects against a dark background. Please share relevant 3D product-animation portfolio samples and deliver high-quality work within the agreed deadline.",
       "vista": "2026-11-04T14:04:30.025Z"
-    },
-    {
-      "id": "563795",
-      "tipo": "FREELANCE",
-      "titulo": "UI/UX Design for a 12-Service Website",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563795/UIUX-Design-for-a-12-Service-Website",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a UI/UX designer to create the website interface for our business, which offers 12 different services. The design should clearly organize and present each service through an intuitive user experience.",
-      "vista": "2026-11-04T13:41:29.738Z"
     }
   ]
 }
