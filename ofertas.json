@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T21:28:02.643Z",
+  "actualizado": "2026-11-11T21:29:11.600Z",
   "ofertas": [
+    {
+      "id": "371451",
+      "tipo": "FULLTIME",
+      "titulo": "Senior Product Designer (With Data Visualization)",
+      "presupuesto": "2000–3000 USD/mes",
+      "enlace": "https://www.behance.net/joblist/fulltime/371451/Senior-Product-Designer-(With-Data-Visualization)",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "Monks",
+      "contacto": "Juan Manuel Sotelo",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "web externa",
+      "descripcion": "About the Role  \n We’re looking for a Senior Product Designer who thrives in complex environments, brings clarity through design, and delivers consistent, user-centered experiences at scale. You’ll play a key role in shaping enterprise-level digital products, collaborating closely with internal client stakeholders to define, discover, and design impactful solutions. \n What You'll Do  \n Own end-to-end product design efforts for customer-oriented applications and platforms.\n Facilitate strategic sessions with client peers and stakeholders as needed. \n Design intuitive, visually compelling, and scalable UI/UX solutions rooted in best practices and business/user insights. \n Collaborate cross-functionally with product managers, developers, and other designers to maintain consistency across platforms and ensure design intent is preserved.\n Make confident, strategic design decisions and communicate them clearly across various teams and contexts. \n Will need to have a good understanding and experience working with data. Data Visualization. Ability to present data and understand why that data is important. \n What We’re Looking For  \n 8+ years of experience in Product Design, with a strong portfolio demonstrating consumer-oriented product and app design. \n Proven ability to work independently with minimal oversight while maintaining strong team collaboration. \n Exceptional communication skills, including experience in client-facing roles and working directly with decision-makers. \n Str",
+      "vista": "2026-11-11T21:29:11.600Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden 8+ años como Product Designer senior de UI/UX y visualización de datos, y el contrato parece limitado a LATAM; no encaja con el perfil ni con la ubicación de Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 901,
+          "salida": 393,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0120638,
+        "generada": "2026-11-11T21:29:10.606Z"
+      }
+    },
     {
       "id": "567509",
       "tipo": "FREELANCE",
@@ -2691,23 +2730,6 @@
       "cierraEnDias": 13,
       "dondeSolicitar": "",
       "descripcion": "BRIEF PARA COTIZACIÓN DE VIDEO 3D\nTipo de proyecto: Publicitario\nDescripción y objetivo: El objetivo del video es mostrar puntos importantes del producto, que se vea llamativo y comercial.\nDuración: 60 segundos\nMaterial para modelado: Modelado completo desde cero\nEstilo visual: Según referencia\nFormato: Horizontal 16:9\nAudio: Musica y efectos\nFecha de entrega: Por definir\nReferencia visual: Se adjunta por separado\nSolicitamos una cotización desglosada que incluya modelado, texturizado, animación, iluminación, renderizado, posproducción, tiempos de producción, revisiones incluidas y costo de ajustes adicionales.",
-      "vista": "2026-11-10T19:53:39.694Z"
-    },
-    {
-      "id": "566075",
-      "tipo": "FREELANCE",
-      "titulo": "Military and Institutional Nutrition Shake Stand-Up Pouch Packaging Design",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566075/Military-and-Institutional-Nutrition-Shake-Stand-Up-Pouch-Packaging-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "RecPak",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 13,
-      "dondeSolicitar": "",
-      "descripcion": "I need a CPG food packaging designer to create a military and institutional variant of my existing nutrition shake stand-up pouch brand. This is a fixed-fee project focused on the packaging concept and layout only.",
       "vista": "2026-11-10T19:53:39.694Z"
     }
   ]
