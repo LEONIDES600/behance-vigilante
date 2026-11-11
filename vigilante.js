@@ -63,8 +63,8 @@ const OTRAS_FUENTES_CADA = 5;      // We Work Remotely y Remote OK: cada 5 pasad
 const REMOTIVE_CADA_MS = 6 * 60 * 60 * 1000;
 const JOBICY_CADA_MS = 60 * 60 * 1000;
 const HIMALAYAS_CADA_MS = 2 * 60 * 60 * 1000;
-const HIMALAYAS_BUSQUEDAS_POR_CONSULTA = 3;
-const HIMALAYAS_PALABRAS = ['video editor', 'motion designer', 'graphic designer', 'content creator', 'ugc', 'web designer', 'ai automation', 'spanish', 'generative ai', 'amazon', 'social media', 'ai video'];
+const HIMALAYAS_BUSQUEDAS_POR_CONSULTA = 5; // 22 palabras → vuelta completa en ~9 h
+const HIMALAYAS_PALABRAS = ['video editor', 'ai agent', 'motion designer', 'ai automation', 'graphic designer', 'n8n', 'content creator', 'agentic', 'ugc', 'chatbot', 'web designer', 'ai implementation', 'spanish', 'workflow automation', 'generative ai', 'ai consultant', 'amazon', 'zapier', 'social media', 'amazon seller', 'ai video', 'conversational ai'];
 const FALLO_REINTENTO_MS = 30 * 60 * 1000; // si una de estas webs falla, se reintenta a los 30 min
 const MUNDO_EDAD_MAX_MS = 4 * 24 * 60 * 60 * 1000; // más antigua que esto (Remotive va con 24 h de retraso) → sin aviso
 const MUNDO_AVISOS_MAX_POR_FUENTE = 8;   // tope de mensajes por web y pasada (el resto va solo a mundo.json)
@@ -111,6 +111,7 @@ const ENCAJE_ALTO = [
   /\bkling\b|\brunway\b|midjourney|\bveo\b|\bsora\b|higgsfield|seedance|stable diffusion|ai artist|ai image|ai visual|generative ai|ia generativa|nano banana/i,
   /landing page|web ?design|website|p[aá]gina web|webflow|framer|three\.?js|3d (web|website)|scroll/i,
   /ai automation|automatizaci[oó]n|ai agents?|agentes? de ia|\bn8n\b|make\.com|zapier|chatbot|whatsapp bot|telegram bot|no[- ]?code|low[- ]?code/i,
+  /agentic|ai[- ]agent|automation (specialist|expert|consultant|engineer|developer|builder)|workflow automation|business automation|process automation|ai (implementation|integration|solutions?|consultant|specialist|operations|workflows?)|conversational ai|voice ai|ai assistant|\bllm\b|prompt engineer|amazon (seller|automation|ppc|agency)|seller central/i,
 ];
 const ENCAJE_MEDIO = [
   /graphic design|dise[ñn]o gr[aá]fico|social media|redes sociales|static ad|banner|thumbnail|miniatura|youtube|presentation|pitch deck|infograph|content creator|creador de contenido/i,
@@ -134,6 +135,16 @@ const NO_ENCAJA_TITULO = [
   { re: /back[- ]?end|front[- ]?end|full[- ]?stack|developer|programmer|(?<!prompt )\bengineer(ing)?\b|\bsre\b|data (scientist|analyst|engineer)|devops/i, motivo: 'programación o ingeniería' },
   { re: /\b(danish|czech|croatian|german|french|italian|polish|dutch|swedish|norwegian|finnish|portuguese|turkish|greek|hungarian|romanian|japanese|korean|chinese|mandarin|cantonese|arabic|hindi|urdu|bengali|russian|ukrainian|hebrew|vietnamese|thai|indonesian|malay|tagalog|slovak|slovenian|serbian|bulgarian|lithuanian|latvian|estonian|catalan|basque)\b/i, motivo: 'idioma que no hablas' },
 ];
+// Puestos de agentes y automatización con IA: aunque digan «engineer» o «developer»,
+// no se descartan por el título (Leo hace agentes de IA, 11/11/2026); decide la API.
+// Sí se descartan si además son back-end, front-end, full-stack, DevOps o datos.
+const AGENTES_TITULO = /ai[- ]?agents?|agentic|automation|automatizaci|\bn8n\b|make\.com|zapier|chatbot|conversational ai|ai (implementation|integration|solutions?)|prompt/i;
+const PROGRAMACION_PURA = /back[- ]?end|front[- ]?end|full[- ]?stack|devops|\bsre\b|data (scientist|analyst|engineer)|\b(ios|android|mobile|embedded|firmware|platform|infrastructure) /i;
+// Puestos de Amazon (gestión de cuentas de vendedores, PPC, marketplace): Leo tiene
+// experiencia FBA y hace agentes de IA para vendedores de Amazon; no se descartan
+// por decir «account manager» (sí si son de ventas, captación o atención al cliente).
+const AMAZON_TITULO = /\bamazon\b/i;
+const NO_AMAZON = /\bsales\b|recruit|customer (support|service|success)|\b(aws|connect)\b|developer|engineer/i;
 const SENIOR = /\b(head of|director|principal|vp\b|chief)|\b(8|9|10|12|15)\+? (years|años)/i;
 
 // ───────────── Ubicación (webs de empleo remoto mundial, v3.1) ─────────────
@@ -161,7 +172,11 @@ function encaje(job) {
   // En las webs mundiales las descripciones son largas y genéricas («website»,
   // «commercial»…): el encaje se decide por el título y las categorías (textoEncaje).
   const texto = job.textoEncaje != null ? job.textoEncaje : `${job.title} ${job.description || ''} ${(job.categorias || []).join(' ')}`;
-  const no = NO_ENCAJA.find((n) => n.re.test(texto)) || (job.textoEncaje != null && NO_ENCAJA_TITULO.find((n) => n.re.test(job.title)));
+  const agentes = AGENTES_TITULO.test(job.title || '') && !PROGRAMACION_PURA.test(job.title || '');
+  const amazon = AMAZON_TITULO.test(job.title || '') && !NO_AMAZON.test(job.title || '');
+  const no = NO_ENCAJA.find((n) => n.re.test(texto)) || (job.textoEncaje != null && NO_ENCAJA_TITULO.find((n) => n.re.test(job.title)
+    && !(agentes && n.motivo === 'programación o ingeniería')
+    && !(amazon && n.motivo === 'puesto que no es de tus servicios')));
   const altos = ENCAJE_ALTO.filter((re) => re.test(texto)).length;
   const medios = ENCAJE_MEDIO.filter((re) => re.test(texto)).length;
   const motivos = [];
@@ -1082,14 +1097,15 @@ QUIÉN ES LEO (solo puedes usar estos hechos)
   · Para una marca de hogar que vende en Amazon en varios países de Europa (bajo NDA: NUNCA la nombres): agentes de IA, muchas imágenes y vídeos de listing, contenido A+ y web.
 - Herramientas que ha usado de verdad: Kling y Seedance (vídeo con IA), GPT Image y Nano Banana Pro (imagen, en trabajos pagados), Premiere, After Effects y Adobe; motion graphics, diseño gráfico y 3D. Flujo con IA: webs en código (HTML/CSS/JS, three.js + GSAP), WordPress, Figma y CapCut — nunca digas «expert», «advanced» ni años con ellos.
 - Idiomas: español nativo; inglés de trabajo B1 (nunca «fluent» ni «native»); neerlandés básico.
+- Experiencia propia como vendedor en Amazon (FBA) con marca propia, unos 1,5 años, en Francia, Alemania y España (ya no vende; NUNCA nombres la marca). Hace agentes de IA para empresas y para vendedores de Amazon.
 - Experiencia: edición de vídeo menos de 2 años; anuncios cortos de rendimiento 2 años (solo si la oferta pide un número). No menciones estudios.
 - Tarifa por hora: 25 USD/h. Sueldo esperado (solo si la oferta lo pide): 3.000 €/mes brutos.
 - Acepta pruebas. NO están confirmados (no los pongas): DaVinci Resolve, gestión de Meta Ads.
 - PROHIBIDO: premios, años, cifras o clientes inventados; «exactamente lo que hago»; nombrar «Claude» o «Anthropic»; prometer resultados.
 
 DECISIÓN
-- "enviar": encaja con sus servicios — vídeo o cine con IA, anuncios y UGC con IA, edición de vídeo, motion graphics, imágenes y vídeo de producto, listings y A+ de Amazon, diseño gráfico de anuncios y redes, contenido para Instagram/TikTok/YouTube, webs y landings (también 3D), diseño web, automatización y agentes de IA, n8n/Make (sin ser programador senior).
-- "dudosa": se envía igual, con carta honesta que no promete lo que no hay en el portfolio — logo, branding o identidad, packaging, presentaciones, ilustración o concept art con IA, VFX/rotoscopia/composición, diseño de producto con IA y todo lo que Leo pueda entregar con IA aunque no tenga una pieza igual.
+- "enviar": encaja con sus servicios — vídeo o cine con IA, anuncios y UGC con IA, edición de vídeo, motion graphics, imágenes y vídeo de producto, listings y A+ de Amazon, diseño gráfico de anuncios y redes, contenido para Instagram/TikTok/YouTube, webs y landings (también 3D), diseño web, automatización y agentes de IA para empresas y para vendedores de Amazon, implementación o consultoría de IA y automatización (n8n/Make/Zapier, chatbots, asistentes), sin ser programador senior.
+- "dudosa": se envía igual, con carta honesta que no promete lo que no hay en el portfolio — logo, branding o identidad, packaging, presentaciones, ilustración o concept art con IA, VFX/rotoscopia/composición, diseño de producto con IA, gestión de cuentas o del marketplace de Amazon (Amazon account manager / specialist; si pide PPC o Meta Ads avanzado como requisito duro, dilo con honestidad) y todo lo que Leo pueda entregar con IA aunque no tenga una pieza igual.
 - "descartar": exige una especialidad que Leo no puede entregar (joyería o moda para taller, arquitectura/interiores, CAD técnico, ilustración infantil a mano, tatuajes, lettering a mano, arte final de imprenta muy técnico como requisito principal), presencial o híbrido, residencia en un país concreto que no sea España ni Países Bajos (p. ej. «solo Brasil»), idioma que no sea español o inglés como requisito, inglés C1/C2 o nativo obligatorio, reuniones diarias en horario de EE. UU., pago en INR o muy bajo (100 USD o menos por un proyecto entero, o menos de 8 USD/h), programación pura, ventas, contenido para adultos, o pide «X+ años» muy por encima de lo que tiene como requisito duro de una herramienta.
 - "espera": encaja, pero la oferta pide algo que no está en estos hechos y sin lo cual no se puede enviar (un dato, un número de años exacto, un archivo concreto). Escribe igualmente la carta y pon en pregunta_para_leo la pregunta exacta y corta.
 
