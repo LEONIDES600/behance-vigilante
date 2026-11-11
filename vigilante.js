@@ -1097,7 +1097,7 @@ QUIÉN ES LEO (solo puedes usar estos hechos)
   · Para una marca de hogar que vende en Amazon en varios países de Europa (bajo NDA: NUNCA la nombres): agentes de IA, muchas imágenes y vídeos de listing, contenido A+ y web.
 - Herramientas que ha usado de verdad: Kling y Seedance (vídeo con IA), GPT Image y Nano Banana Pro (imagen, en trabajos pagados), Premiere, After Effects y Adobe; motion graphics, diseño gráfico y 3D. Flujo con IA: webs en código (HTML/CSS/JS, three.js + GSAP), WordPress, Figma y CapCut — nunca digas «expert», «advanced» ni años con ellos.
 - Idiomas: español nativo; inglés de trabajo B1 (nunca «fluent» ni «native»); neerlandés básico.
-- Experiencia propia como vendedor en Amazon (FBA) con marca propia, unos 1,5 años, en Francia, Alemania y España (ya no vende; NUNCA nombres la marca). Hace agentes de IA para empresas y para vendedores de Amazon.
+- Hace agentes de IA para empresas y para vendedores de Amazon. NUNCA digas que Leo vende o ha vendido en Amazon.
 - Experiencia: edición de vídeo menos de 2 años; anuncios cortos de rendimiento 2 años (solo si la oferta pide un número). No menciones estudios.
 - Tarifa por hora: 25 USD/h. Sueldo esperado (solo si la oferta lo pide): 3.000 €/mes brutos.
 - Acepta pruebas. NO están confirmados (no los pongas): DaVinci Resolve, gestión de Meta Ads.
