@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T16:29:01.082Z",
+  "actualizado": "2026-11-11T16:54:06.366Z",
   "ofertas": [
+    {
+      "id": "567309",
+      "tipo": "FREELANCE",
+      "titulo": "Creative Graphic Design for Football Content",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567309/Creative-Graphic-Design-for-Football-Content",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Identity Made",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "**Creative Football Content Designer**\nWe’re looking for a creative graphic designer who follows football closely and can turn what’s happening in the game into strong social content.\nYou should know the headlines, players, new boots, kit releases, transfers and conversations happening across football. That includes youth football around the world, emerging talent, academies and the culture surrounding the game.\nThe role is about bringing ideas as well as designing them. We need someone who can spot a story, suggest an angle and create content consistently to help grow our output.\n**What you’ll do**\n- Create graphics, carousels, covers and other content for Instagram and social platforms.\n- Follow football news, media, trends and youth football worldwide.\n- Pitch content ideas and turn relevant stories around quickly.\n- Develop repeatable formats that help us publish more consistently.\n- Work with our video editor and creative team to keep the visuals consistent.\n- Bring football, fashion and culture references into your work.\n**Who we’re looking for**\n- A strong graphic designer with a portfolio of sports, football or culture content.\n- Someone who follows football naturally and understands what fans care about.\n- Good judgment around typography, layouts, imagery and storytelling.\n- Someone organised, reliable and comfortable working at pace.\n- Confidence using Photoshop, Illustrator or similar design tools.\n**Bonus:**",
+      "vista": "2026-11-11T16:54:06.366Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con diseño de contenido para Instagram, pero Leo no tiene piezas de fútbol ni deporte en el portfolio; se envía con carta honesta y ofreciendo una prueba.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYou need someone who can turn football news, kit drops, transfers and youth talent into posts fans want to share, and do it fast and consistently.\nI don't have football pieces in my portfolio yet, so I want to be honest about that. What I do have is a lot of social and ad design: for a home brand selling on Amazon in several European countries (under NDA), I made many product images, A+ content and social visuals that had to stay consistent across a big volume of output.\nI also make AI ads like ORBE and SILENCIO, so I'm used to working with video and keeping one visual style across stills and motion.\nHow I would work: 1) build a small set of repeatable formats (carousel, cover, breaking news, player spotlight) in Adobe tools, 2) pitch story angles from the week's news, 3) design and turn them around quickly, matching your video editor's style.\nBefore we start, I'm happy to do a short test: for example, one carousel on a recent transfer or kit release.\nFor 500 USD I would deliver a first pack: the repeatable templates plus the first posts made with them. 50% upfront, delivery in 7–10 days, and 2 rounds of changes.\nWhich accounts or formats do you like most right now, and how many posts per week do you want to publish?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 775,
+          "salida": 1505,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.047375,
+        "generada": "2026-11-11T16:54:05.068Z"
+      }
+    },
     {
       "id": "567273",
       "tipo": "FREELANCE",
@@ -2362,23 +2401,6 @@
       "cierraEnDias": 10,
       "dondeSolicitar": "",
       "descripcion": "We need a freelancer to help improve and maintain our website. The work includes updating pages, improving the user experience, and making the site more visually appealing. You should be comfortable working on both front-end and back-end tasks, troubleshooting issues, and ensuring the site runs smoothly. This is an ongoing project for someone who can communicate clearly and deliver reliable results.",
-      "vista": "2026-11-10T19:45:56.301Z"
-    },
-    {
-      "id": "565025",
-      "tipo": "FREELANCE",
-      "titulo": "High-End Elementor/WordPress Website Design for a Bespoke Thailand Travel Agency",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565025/High-End-ElementorWordPress-Website-Design-for-a-Bespoke-Thailand-Travel-Agency",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 10,
-      "dondeSolicitar": "",
-      "descripcion": "I need a high-end web designer to create a bespoke Elementor/WordPress website for a travel agency specializing in Thailand trips. The website requires a custom right-to-left (RTL) design and WhatsApp integration for visitor communication.",
       "vista": "2026-11-10T19:45:56.301Z"
     }
   ]
