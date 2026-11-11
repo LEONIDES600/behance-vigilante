@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T16:04:15.018Z",
+  "actualizado": "2026-11-11T16:20:25.698Z",
   "ofertas": [
+    {
+      "id": "567261",
+      "tipo": "FREELANCE",
+      "titulo": "Illustrations For A First Children's Book For Ages 2–5",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567261/Illustrations-For-A-First-Childrens-Book-For-Ages-25",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Je recherche un illustrateur pour mon premier livre destiné aux enfants de 2 à 5 ans. J’ai besoin d’illustrations adaptées à cette tranche d’âge pour accompagner l’histoire et créer une expérience visuelle engageante.",
+      "vista": "2026-11-11T16:20:25.698Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Ilustración infantil sin portfolio igual: se puede hacer con IA si no exige dibujo a mano, pero el cliente escribe en francés y el presupuesto es bajo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYour first book for children aged 2 to 5 needs simple, warm illustrations with the same characters on every page, so the story is easy for little ones to follow.\nTo be clear from the start: I work with AI, and I don't have a children's book in my portfolio yet. My work is AI image and video, like the ORBE and SILENCIO cinematic ads and lots of product images and videos for a home brand.\nHere is how I would do it: 1) read your story and agree on a style (soft colours, round shapes, clear scenes), 2) design the main character and keep it the same in every scene, 3) make one illustration per page with GPT Image or Nano Banana Pro, 4) finish and fix details in Adobe so the files are ready to print.\nBefore you decide, I can make a short free sample: your main character and one page of the book.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nI write in English (sorry, no French), and I'm happy to keep things clear and simple in writing.\nHow many pages or illustrations does the book have, and could you share the text or a short description of the main character?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 433,
+          "salida": 1396,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.043827,
+        "generada": "2026-11-11T16:20:22.748Z"
+      }
+    },
     {
       "id": "567233",
       "tipo": "FREELANCE",
@@ -2319,23 +2358,6 @@
       "dondeSolicitar": "",
       "descripcion": "We need a WordPress developer to fix image issues on our website. The work includes resolving broken images, improving image display across pages, and ensuring images load correctly on both desktop and mobile. You should be able to identify the root cause of the issues, make the necessary updates, and test the changes thoroughly. Experience troubleshooting WordPress media problems and improving site performance is important. This is a small, part-time project for someone who can work efficiently and communicate clearly.",
       "vista": "2026-11-10T19:44:48.478Z"
-    },
-    {
-      "id": "564945",
-      "tipo": "FREELANCE",
-      "titulo": "Website Redesign by a Belgrade-Based Web Developer",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/564945/Website-Redesign-by-a-Belgrade-Based-Web-Developer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Maison Signature",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 10,
-      "dondeSolicitar": "",
-      "descripcion": "We're looking for a web developer (or small studio) to redesign our existing website and online store. The goal is a simpler, cleaner design and an improved user experience. We'll provide creative direction, structure guidelines, text and images. Being able to also do the web design in Figma is a strong plus.\nCURRENT WEBSITE\nwww.maisonsignature.rs\n- Runs on WordPress and will stay on WordPress\n- The online store and card payments (local bank) are already set up and must keep working\n- The job is a redesign: new design, improved user experience and some structural changes\nThe job is remote, but experience with Serbian websites is required.\nBudget: 1500-2500e\nPreferred launch date: 15 December 2026",
-      "vista": "2026-11-10T19:43:42.371Z"
     }
   ]
 }
