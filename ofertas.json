@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T07:28:42.066Z",
+  "actualizado": "2026-11-11T09:20:31.143Z",
   "ofertas": [
+    {
+      "id": "567009",
+      "tipo": "FREELANCE",
+      "titulo": "User Interface & Wallet Experience Optimization",
+      "presupuesto": "5000–10.000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567009/User-Interface-Wallet-Experience-Optimization",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "The objective of this project is to improve the user experience of the existing Web application, with particular attention to wallet connectivity, navigation, and interactive interface components.\nWe want to make the platform easier to understand and use while maintaining its existing design language and product identity.\nProject Scope\n1. Wallet Connection Experience\nImprove wallet connection screens and dialogs.\nMake connection steps easier to understand.\nImprove disconnected, connecting, and connected states.\nDesign clear error and success feedback.\nImprove the presentation of wallet-related actions.\n2. Interface Refinement\nImprove buttons, dropdowns, cards, forms, and modal windows.\nEstablish consistent interaction states.\nImprove visual hierarchy and information presentation.\nRefine typography, spacing, and alignment.\n3. User Flow Optimization\nReview existing user journeys.\nIdentify confusing or unnecessary steps.\nImprove navigation between important sections.\nMake interactive elements more predictable.\n4. Interaction States\nLoading states.\nEmpty states.\nSuccess notifications.\nError messages.\nDisabled and active states.\nExpected Deliverables\nImproved wallet connection UX.\nUpdated interface components.\nRefined user flows.\nInteractive Figma prototype.\nReusable component specifications.",
+      "vista": "2026-11-11T09:20:31.143Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es diseño UX/UI web en Figma y encaja con el diseño web, pero no hay ningún caso de wallet ni de app en el portfolio, así que se ofrece una muestra.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nThe wallet connection is often the first real interaction users have with a Web3 app, so making its steps, states and feedback clear is a smart place to start.\nMy web work includes LUMEN, FORJA and MORVAIN: interactive 3D scroll websites built in code (three.js + GSAP), where hierarchy, spacing and interaction states are key.\nTo be honest, I don't have a wallet or dApp UX case in my portfolio yet. So I'm happy to start with a short sample, for example your connect-wallet dialog in its disconnected, connecting, connected and error states.\nHow I would work:\n1. Review the current app and map the main user journeys, marking confusing or unnecessary steps.\n2. Redesign the wallet flow and core components (buttons, dropdowns, cards, forms, modals) in Figma, keeping your design language.\n3. Define all interaction states: loading, empty, success, error, disabled and active.\n4. Deliver an interactive Figma prototype with reusable component specifications.\nPrice: 10,000 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhich wallets and networks do you support today, and can you share access to the current app or its Figma files?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 10000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 768,
+          "salida": 1635,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.049947,
+        "generada": "2026-11-11T09:20:29.896Z"
+      }
+    },
     {
       "id": "566959",
       "tipo": "FREELANCE",
@@ -1924,23 +1963,6 @@
       "dondeSolicitar": "",
       "descripcion": "I need a video editor to create short-form content for Instagram Reels and TikTok. You must be experienced with Adobe Premiere Pro and CapCut.",
       "vista": "2026-11-04T17:12:52.473Z"
-    },
-    {
-      "id": "563825",
-      "tipo": "FREELANCE",
-      "titulo": "SIDE EFFECT — WANTED: A MAD GENIUS IN CUSTOM LETTERING & BRAND IDENTITY",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563825/SIDE-EFFECT-WANTED-A-MAD-GENIUS-IN-CUSTOM-LETTERING-BRAND-IDENTITY",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "IMPORTANT: THIS PROJECT REQUIRES ADVANCED CUSTOM LETTERING SKILLS. PLEASE READ BEFORE APPLYING.\nSide Effect is an emerging indie gaming brand built around a belief:\n“We believe original games defy safe formulas.”\nOur purpose: “Make dangerous games possible.”\nOur tagline: “Play With Danger.”\nWe're building a dangerous playground for original indie games, beginning with a curated service that lets independent developers observe how genre-aligned players spontaneously experience their games for the first time.\nSide Effect exists because the gaming industry's dependence on commercially predictable formulas has created an unintended consequence: developers determined to preserve their creative vision and players looking for something different.\nWe are that consequence.\nTHE PROJECT\nOur brand strategy, positioning, creative direction, and primary vector symbol already exist.\nWe need an experienced brand identity designer who is also a skilled custom lettering artist to create:\n1. An original, bespoke SIDE EFFECT wordmark designed specifically around our existing symbol.\n2. A cohesive and distinctive visual identity system built around both elements.\nThe wordmark is the single most important deliverable.\nOur existing symbol has a distinctive dual-reading construction: a welcoming smile and a skull coexist within a compact, capsule-like form.\nWe want the wordmark to feel as though it was designed by the same creative hand as the symbol, sharing its visual character and underlying desi",
-      "vista": "2026-11-04T17:11:43.205Z"
     }
   ]
 }
