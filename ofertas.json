@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T10:21:49.575Z",
+  "actualizado": "2026-11-11T11:14:47.373Z",
   "ofertas": [
+    {
+      "id": "371341",
+      "tipo": "FULLTIME",
+      "titulo": "Director de arte (Mid)",
+      "presupuesto": "1000–2000 USD/año",
+      "enlace": "https://www.behance.net/joblist/fulltime/371341/Director-de-arte-(Mid)",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "trii",
+      "contacto": "Edi Lopez",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "Behance",
+      "descripcion": "Nacimos para revolucionar el mercado bursátil y financiero en LATAM. Liberar a las personas de la complejidad financiera a través de una de las plataformas de inversión más grandes de latinoamérica. Presentes en Colombia, Perú y Chile con cerca de 40 empleados de más de 6 nacionalidades.\n En trii buscamos un director@ de arte (Mid) : alguien curios@, con ganas de aprender, crear y crecer en un entorno que apuesta por la innovación, la velocidad y las ideas frescas.\n Trabajar en trii 🤟🏻\n Remuneración en Dólares\n Vacante tiempo completo\n Responsabilidades\n Crear piezas digitales, animaciones y videos con alto estándar visual.\n Aplicar y mantener la consistencia de la marca en todos los assets.\n Utilizar herramientas de IA para acelerar y mejorar los procesos creativos.\n Desarrollar artes para campañas, anuncios y contenido social.\n (Plus) Conocimiento en diseño web y maquetación.\n Requisitos\n Portafolio obligatorio con proyectos relevantes.\n Uso demostrable de herramientas de IA en el proceso creativo.\n Creatividad, criterio visual y atención al detalle.\n Buenas habilidades de comunicación y trabajo en equipo.\n (Plus) Experiencia en Startups o Fintech.\n Aplica en trii 🤟🏻\n Debes incluir tu portafolio con y aspiración Salarial al correo: edisson@trii.co\n Importante: Tu portafolio debe mostrar ejemplos concretos de cómo usas IA en tu proceso creativo.",
+      "vista": "2026-11-11T11:14:47.372Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Encaja de lleno (piezas, animación y vídeo con IA, anuncios, redes y web como plus) y es remoto; ojo: el sueldo publicado, que seguramente es mensual, queda por debajo de los 3.000 €/mes.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "alta",
+        "texto": "¡Hola, Edi!\n\ntrii necesita a alguien que convierta la complejidad financiera en piezas, animaciones y vídeos claros y cuidados, que use la IA para ir más rápido y que mantenga la marca coherente en cada pieza.\nSoy Leo Gómez, de LeoVisual.nl, un estudio creativo con IA en Ámsterdam. En ORBE y SILENCIO, dos anuncios cinematográficos hechos con IA, me encargué de la idea, la generación con Kling y Seedance, el montaje y el sonido, con Premiere y After Effects.\nComo plus, también hago webs en código, como LUMEN, una web 3D con scroll hecha con three.js y GSAP.\nEn trii trabajaría así: partir de vuestro manual de marca, crear una base de estilos y prompts coherente, generar imágenes con GPT Image y Nano Banana Pro, animar y editar en After Effects y Premiere, y adaptar cada pieza a anuncios y redes.\nPuedo enseñaros paso a paso cómo uso la IA en cada proyecto. No tengo experiencia en fintech, pero, si os sirve, haré encantado una prueba con una pieza de campaña para trii.\nMi aspiración salarial es de 3.000 €/mes brutos, en remoto.\n¿Qué formato pesa más ahora en vuestras campañas: vídeo corto para redes o piezas estáticas para anuncios?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 794,
+          "salida": 1954,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.056431,
+        "generada": "2026-11-11T11:14:46.437Z"
+      }
+    },
     {
       "id": "567041",
       "tipo": "FREELANCE",
@@ -2078,23 +2117,6 @@
       "dondeSolicitar": "",
       "descripcion": "I need a graphic designer who can create B2B flyers quickly and professionally. The flyers should communicate our business-focused messaging clearly and be suitable for professional distribution.",
       "vista": "2026-11-04T19:13:42.215Z"
-    },
-    {
-      "id": "563927",
-      "tipo": "FREELANCE",
-      "titulo": "Three-Page Development for an Existing Website",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563927/Three-Page-Development-for-an-Existing-Website",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a web developer to create three new pages for my existing website: About Us, Services, and Blog.\nThe project is straightforward and does not require a full website redesign. I need these pages to match the existing website's design, layout, colors, and overall style so they feel like a natural part of the site.\nThe About Us page will introduce the business, the Services page will explain what we offer, and the Blog page will display articles in a clean, easy-to-read layout.\nThe goal is to create three professional, responsive pages that work well on desktop and mobile devices.\nThis project is ideal for a developer who can deliver clean, functional web pages without adding unnecessary feature.",
-      "vista": "2026-11-04T18:08:06.339Z"
     }
   ]
 }
