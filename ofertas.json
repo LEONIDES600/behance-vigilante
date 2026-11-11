@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T14:19:15.139Z",
+  "actualizado": "2026-11-11T14:20:28.489Z",
   "ofertas": [
+    {
+      "id": "567167",
+      "tipo": "FREELANCE",
+      "titulo": "Sosyal Medya ve Proje Videoları",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567167/Sosyal-Medya-ve-Proje-Videolar",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Logue İletişim A.Ş.",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Uzun soluklu bir iş birliği için sigorta ve tütün ürünleri şirketlerinin sosyal medya ve proje videolarını üretecek bir video profesyoneli arıyoruz. Kasım 2026 için 15 günlük ücret 8.000 TL, Aralık 2026 için 15.000 TL ve 2027 yılı için aylık 35.000 TL bütçe belirledik; kapsam dışı ek işler ayrıca bütçelendirilerek takip eden ayın ödeme planına eklenecek. 2026 kapsamında sigorta şirketi için ayda 1–2, tütün ürünleri şirketi için ayda 2–3 adet, 30–120 saniye uzunluğunda video hazırlanacak. 2027’de her iki şirket için de ayda 2–3 adet, 30–120 saniyelik sosyal medya ve proje videosu üretilecek. Baz kapsam sabit aylık ücretle yürütülecek ve ödemeler her ay sonunda düzenli yapılacak.",
+      "vista": "2026-11-11T14:20:28.489Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "La oferta está entera en turco y es para marcas turcas, así que hace falta turco para trabajar; además pagan en liras y salen unos 60–90 USD por vídeo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 726,
+          "salida": 771,
+          "cacheLeida": 2835,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.018891,
+        "generada": "2026-11-11T14:20:26.929Z"
+      }
+    },
     {
       "id": "371265",
       "tipo": "FULLTIME",
@@ -2186,23 +2225,6 @@
       "cierraEnDias": 9,
       "dondeSolicitar": "",
       "descripcion": "I'm looking for a designer to create a brand identity for Onjura, a premium, science-led wellness brand. The identity should establish a polished and credible visual foundation that reflects the brand’s premium wellness positioning.",
-      "vista": "2026-11-10T19:39:43.364Z"
-    },
-    {
-      "id": "564327",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Identity Design With Multiple Revisions",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/564327/Brand-Identity-Design-With-Multiple-Revisions",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Form 11",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 9,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a brand identity designer who can develop a cohesive visual identity and accommodate multiple rounds of revisions throughout the project.",
       "vista": "2026-11-10T19:39:43.364Z"
     }
   ]
