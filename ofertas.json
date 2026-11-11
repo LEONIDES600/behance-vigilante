@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T09:20:31.143Z",
+  "actualizado": "2026-11-11T09:22:47.953Z",
   "ofertas": [
+    {
+      "id": "567011",
+      "tipo": "FREELANCE",
+      "titulo": "WordPress Development for Multiple Projects",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567011/WordPress-Development-for-Multiple-Projects",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are seeking an experienced Wordpress developer to work on various projects. The ideal candidate should have a strong background in web development and be proficient in using Wordpress, PHP, JS and HTML5. This role involves developing and maintaining websites, ensuring they are responsive and optimized for performance.\nDeliverables\n• Develop and maintain Wordpress websites\n• Ensure websites are responsive and optimized\n• Collaborate on design and functionality improvements",
+      "vista": "2026-11-11T09:22:47.953Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Son webs en WordPress, que Leo hace, pero piden un desarrollador con experiencia y PHP, y Leo no es programador senior; la carta lo dice con honestidad.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\n\nYou need someone to build and maintain several WordPress websites and keep them responsive, fast and easy to improve over time.\n\nI build websites in WordPress and in code (HTML/CSS/JS), using an AI-assisted workflow. Some examples: LUMEN and FORJA, 3D scroll websites made in code with three.js and GSAP. I also made the website for a home brand that sells on Amazon in several European countries (under NDA).\n\nTo be honest: I am not a senior PHP developer. My strength is responsive design and front-end, and a clean WordPress setup. My process would be: review each site and its goals, set up or fix the theme and structure, make it responsive, optimize images and loading speed, then test it on mobile and desktop.\n\nIf it helps, I am happy to do a short paid test on one page first.\n\nPrice: 2,500 USD for the first project, with 50% upfront, delivery in 7–10 days and 2 rounds of changes.\n\nHow many websites are there at the start, and do they use a page builder or a custom theme?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 486,
+          "salida": 1147,
+          "cacheLeida": 2835,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.025451,
+        "generada": "2026-11-11T09:22:46.925Z"
+      }
+    },
     {
       "id": "567009",
       "tipo": "FREELANCE",
@@ -1945,23 +1984,6 @@
       "cierraEnDias": 14,
       "dondeSolicitar": "",
       "descripcion": "Buscamos una diseñadora de branding que nos ayude a traducir la esencia de Mémé en una identidad visual distintiva, sofisticada y coherente.\nMémé es una marca chilena de carteras y accesorios de cuero, inspirada en la elegancia atemporal de nuestra abuela y en una forma de vivir más pausada, sensorial y consciente. Nuestra esencia es la serenidad contemporánea: unir la sensibilidad de lo clásico con la funcionalidad y modernidad del presente.\nEl trabajo consiste en desarrollar un universo visual propio que refleje esta filosofía, incluyendo logotipo, tipografías, paleta cromática, elementos gráficos, aplicaciones de marca y lineamientos de identidad para packaging, etiquetas, web y comunicación.\nBuscamos una estética minimalista, cálida, elegante y contemporánea, con personalidad propia, alejada de las tendencias pasajeras y de los códigos de lujo ostentoso.",
-      "vista": "2026-11-04T17:12:52.473Z"
-    },
-    {
-      "id": "563839",
-      "tipo": "FREELANCE",
-      "titulo": "Short-Form Video Editing for Instagram Reels and TikTok",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563839/Short-Form-Video-Editing-for-Instagram-Reels-and-TikTok",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a video editor to create short-form content for Instagram Reels and TikTok. You must be experienced with Adobe Premiere Pro and CapCut.",
       "vista": "2026-11-04T17:12:52.473Z"
     }
   ]
