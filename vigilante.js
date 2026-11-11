@@ -140,7 +140,7 @@ const NO_ENCAJA_TITULO = [
 // Sí se descartan si además son back-end, front-end, full-stack, DevOps o datos.
 const AGENTES_TITULO = /ai[- ]?agents?|agentic|automation|automatizaci|\bn8n\b|make\.com|zapier|chatbot|conversational ai|ai (implementation|integration|solutions?)|prompt/i;
 const PROGRAMACION_PURA = /back[- ]?end|front[- ]?end|full[- ]?stack|devops|\bsre\b|data (scientist|analyst|engineer)|\b(ios|android|mobile|embedded|firmware|platform|infrastructure) /i;
-// Puestos de Amazon (gestión de cuentas de vendedores, PPC, marketplace): Leo tiene
+// Puestos de Amazon (gestión de cuentas de vendedores, PPC, marketplace): Leo
 // hace agentes de IA para vendedores de Amazon; no se descartan
 // por decir «account manager» (sí si son de ventas, captación o atención al cliente).
 const AMAZON_TITULO = /\bamazon\b/i;
