@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T05:50:58.420Z",
+  "actualizado": "2026-11-11T05:57:56.378Z",
   "ofertas": [
+    {
+      "id": "566933",
+      "tipo": "FREELANCE",
+      "titulo": "Logo Design for a New Startup",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566933/Logo-Design-for-a-New-Startup",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm launching a new startup and need a graphic designer with logo design expertise to create a professional logo for the business and to create the design language and system for the startup.",
+      "vista": "2026-11-11T05:57:56.377Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo y sistema de diseño en remoto: Leo puede hacerlo, aunque no tiene ningún logo en el portfolio; la carta lo dice con honestidad y ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nA new startup needs a logo that works from day one, plus a simple design system so every piece looks consistent.\nTo be honest, I don't have a logo project in my portfolio yet. The closest work I have is graphic design and visual content for a home brand that sells on Amazon in several European countries. That included listing images, A+ content and a website, all with one consistent look.\nHow I would do it: first a short brief about your startup and audience, then 3 logo directions, and then I refine the one you choose. After that, a compact design language: colours, typography, logo usage rules and a few example applications.\nIf you prefer, I can make a short sample first so you can see my approach.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhat is the startup's name and sector, and do you have any styles or brands you like?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 377,
+          "salida": 1132,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.038323,
+        "generada": "2026-11-11T05:57:55.637Z"
+      }
+    },
     {
       "id": "566931",
       "tipo": "FREELANCE",
@@ -1770,23 +1809,6 @@
       "dondeSolicitar": "",
       "descripcion": "We're looking for an experienced CGI character artist/animator to produce a paid test video for an established virtual influencer.\nThe project involves accurately recreating an existing stylized-realistic CGI character from image references and animating her in a 30-second video. The character will be sitting, speaking, and making subtle, natural movements.\nOur highest priority is maintaining the character's established appearance, including her facial features, proportions, and overall aesthetic. We're open to AI-assisted workflows, but the final result must be polished, visually consistent, and free of obvious AI artifacts.\nThis is an initial paid test with the potential for ongoing freelance work producing regular videos.",
       "vista": "2026-11-04T13:27:37.049Z"
-    },
-    {
-      "id": "563781",
-      "tipo": "FREELANCE",
-      "titulo": "Part-Time Upwork Design Collaboration",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563781/Part-Time-Upwork-Design-Collaboration",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We need a Shopify expert to build a clean, user-friendly website for a home products store. The site should support product listings, smooth navigation, and a polished shopping experience. We’re looking for someone who can create an organized layout, improve site performance, and help set up the store for long-term growth. Experience with similar e-commerce projects is important, and we value clear communication and reliable delivery.",
-      "vista": "2026-11-04T12:50:00.588Z"
     }
   ]
 }
