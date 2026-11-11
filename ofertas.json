@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T10:12:15.814Z",
+  "actualizado": "2026-11-11T10:21:49.575Z",
   "ofertas": [
+    {
+      "id": "567041",
+      "tipo": "FREELANCE",
+      "titulo": "T-Shirt Design Refinement for JULIANO WORLD",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567041/T-Shirt-Design-Refinement-for-JULIANO-WORLD",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "JULIANO WORLD",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We need a creative illustrator and graphic designer to refine, enhance, and experiment with four existing T-shirt design concepts for JULIANO WORLD, an emerging Australian creative luxury brand. We will provide the current artwork as a starting point. The work involves developing multiple variations of typography, colours, textures, compositions, and illustrative details, with an emphasis on creative experimentation and professional refinement rather than creating entirely new designs from scratch.",
+      "vista": "2026-11-11T10:21:49.575Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con diseño gráfico y variaciones con IA, pero en el portfolio no hay camisetas ni merchandising, así que la carta es honesta y ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYou want to push four existing JULIANO WORLD T-shirt concepts further by trying different typography, colours, textures and compositions, while keeping the original ideas.\nTo be clear from the start: I don't have a T-shirt collection in my portfolio yet. My closest work is graphic design and a large set of product images for a home brand selling on Amazon across Europe, where I made many visual variations around one brand look.\nHow I would work: first, review each artwork and any brand references you have. Then create 3–4 directions per design (type, palette, texture, illustrative details), using AI image tools to explore quickly and Adobe to refine and clean up. Finally, narrow down with you and deliver the final files in the formats you need.\nIf it helps, I can refine one of the four concepts first as a short sample before you decide.\nPrice: 250 USD for the four designs, with 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhich printing method will you use (screen print, DTG or embroidery), and is there a limit on the number of colours per design?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 507,
+          "salida": 1406,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.044323,
+        "generada": "2026-11-11T10:21:48.511Z"
+      }
+    },
     {
       "id": "567037",
       "tipo": "FREELANCE",
@@ -2056,23 +2095,6 @@
       "dondeSolicitar": "",
       "descripcion": "I need a web developer to create three new pages for my existing website: About Us, Services, and Blog.\nThe project is straightforward and does not require a full website redesign. I need these pages to match the existing website's design, layout, colors, and overall style so they feel like a natural part of the site.\nThe About Us page will introduce the business, the Services page will explain what we offer, and the Blog page will display articles in a clean, easy-to-read layout.\nThe goal is to create three professional, responsive pages that work well on desktop and mobile devices.\nThis project is ideal for a developer who can deliver clean, functional web pages without adding unnecessary feature.",
       "vista": "2026-11-04T18:08:06.339Z"
-    },
-    {
-      "id": "370641",
-      "tipo": "CONTRACT",
-      "titulo": "Designer de Embalagens / Packaging Designer (PJ, Remoto, Brasil)",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/370641/Designer-de-Embalagens-Packaging-Designer-(PJ-Remoto-Brasil)",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Purple Melon",
-      "contacto": "Julian at Purple Melon",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "🇧🇷 Somente designers baseados no Brasil. / Brazil-based designers only.\n Português \n Somos a Purple Melon, um estúdio de embalagens e branding em Nova York. Trabalhamos com marcas de varejo (CPG e DTC) em design de embalagens, facas e arquivos prontos para produção. Estamos procurando um(a) designer freelancer (PJ, 100% remoto) para entrar no nosso fluxo regular de trabalho, não para um job pontual. Se fizer sentido para os dois lados, a ideia é uma parceria contínua.\n Somos um time pequeno e ágil. Isso significa pouca burocracia, mas também que precisamos de pessoas que se comuniquem com clareza e trabalhem com autonomia.\n O que você vai fazer \n Executar e adaptar layouts de embalagem, facas e materiais relacionados a partir de uma direção criativa aprovada e do guia da marca\n Entregar arquivos fechados para produção: sangria correta, conversão para Pantone, regras de sobreimpressão (overprint) e áreas de segurança\n Trabalhar no Adobe CC (principalmente Illustrator) em vários SKUs e produtos, mantendo a consistência visual e estrutural\n Manter seus arquivos e assets organizados, porque o trabalho passa de uma pessoa para outra no time\n Assumir um fluxo constante de demandas de alguns clientes de varejo ativos\n Quem você é \n Tem experiência sólida em design de embalagens e arte-final, e sabe o que \"arquivo pronto para impressão\" realmente significa\n Fica à vontade executando com precisão uma direção criativa já definida, sem precisar reinventá-la a cada vez\n É organizado(a)",
-      "vista": "2026-11-04T17:24:19.421Z"
     }
   ]
 }
