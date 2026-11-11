@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T07:00:21.676Z",
+  "actualizado": "2026-11-11T07:28:42.066Z",
   "ofertas": [
+    {
+      "id": "566959",
+      "tipo": "FREELANCE",
+      "titulo": "Playful 3D Product Motion and Brand Identity Animation",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566959/Playful-3D-Product-Motion-and-Brand-Identity-Animation",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a motion graphic designer to create 3D product motion design, a brand identity motion system, kinetic typography branding, and a playful looping 3D product render.",
+      "vista": "2026-11-11T07:28:42.066Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Motion graphics y vídeo 3D de producto encajan con sus servicios; el presupuesto es bajo para tanto trabajo, pero supera el mínimo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nYou need a playful, looping 3D product render and a motion system that keeps your brand consistent across type, logo and product shots.\nI've made product images and listing videos for a home brand that sells on Amazon in several European countries. I also made cinematic AI ads like ORBE, from the idea and generation through editing and sound.\nHow I'd approach it:\n1. A short moodboard and style frames, so we agree on colors, shapes and type before animating.\n2. The 3D product render with a seamless, playful loop.\n3. The brand motion system: logo reveal, transitions and kinetic typography rules you can reuse.\n4. Final exports in the formats you need for social and web, built in After Effects and Premiere.\nI don't have a kinetic typography piece exactly like this in my portfolio yet, so I'm happy to make a short sample first.\nPrice: 250 USD for the project, 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nDo you already have a 3D model of the product, or should I work from photos?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 396,
+          "salida": 1373,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.043219,
+        "generada": "2026-11-11T07:28:41.098Z"
+      }
+    },
     {
       "id": "566951",
       "tipo": "FREELANCE",
@@ -1902,23 +1941,6 @@
       "dondeSolicitar": "",
       "descripcion": "IMPORTANT: THIS PROJECT REQUIRES ADVANCED CUSTOM LETTERING SKILLS. PLEASE READ BEFORE APPLYING.\nSide Effect is an emerging indie gaming brand built around a belief:\n“We believe original games defy safe formulas.”\nOur purpose: “Make dangerous games possible.”\nOur tagline: “Play With Danger.”\nWe're building a dangerous playground for original indie games, beginning with a curated service that lets independent developers observe how genre-aligned players spontaneously experience their games for the first time.\nSide Effect exists because the gaming industry's dependence on commercially predictable formulas has created an unintended consequence: developers determined to preserve their creative vision and players looking for something different.\nWe are that consequence.\nTHE PROJECT\nOur brand strategy, positioning, creative direction, and primary vector symbol already exist.\nWe need an experienced brand identity designer who is also a skilled custom lettering artist to create:\n1. An original, bespoke SIDE EFFECT wordmark designed specifically around our existing symbol.\n2. A cohesive and distinctive visual identity system built around both elements.\nThe wordmark is the single most important deliverable.\nOur existing symbol has a distinctive dual-reading construction: a welcoming smile and a skull coexist within a compact, capsule-like form.\nWe want the wordmark to feel as though it was designed by the same creative hand as the symbol, sharing its visual character and underlying desi",
       "vista": "2026-11-04T17:11:43.205Z"
-    },
-    {
-      "id": "563813",
-      "tipo": "FREELANCE",
-      "titulo": "Premium Packaging Design Collaboration",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563813/Premium-Packaging-Design-Collaboration",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Japanese Dose",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We’re seeking a creative and talented Packaging Designer to collaborate with us on exciting projects. We need someone with a strong creative vision and unique style who can turn ideas into distinctive, premium, eye-catching packaging. Please share your portfolio, availability, and rates.",
-      "vista": "2026-11-04T14:25:31.056Z"
     }
   ]
 }
