@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T16:54:06.366Z",
+  "actualizado": "2026-11-11T17:02:44.372Z",
   "ofertas": [
+    {
+      "id": "567323",
+      "tipo": "FREELANCE",
+      "titulo": "Logo and Website Design for a Canadian Matrimony Website",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567323/Logo-and-Website-Design-for-a-Canadian-Matrimony-Website",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Canadian matrimony website",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a logo and website designer for our matrimony website in Canada. The work should create a cohesive visual identity and an engaging website experience for users seeking matrimonial connections.",
+      "vista": "2026-11-11T17:02:44.372Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "La web encaja con sus webs en código, pero el logo y la identidad no tienen piezas en su portfolio; se envía con una carta honesta que ofrece una muestra.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nA matrimony platform depends on trust, so the logo and the website should feel warm, safe and consistent from the first screen to the sign-up form.\nI design and build websites in code, like LUMEN and FORJA (3D scroll sites made with three.js + GSAP). I've also made a website for a home brand that sells on Amazon in several European countries.\nI don't have a logo for a matrimony brand in my portfolio yet, so I'm happy to do a short sample direction before you decide.\nHow I'd do it: a quick brief on your audience and values, 2–3 logo directions refined in Adobe, then a simple style guide (colours and type).\nAfter that I'd design the main pages in Figma and build them in code or WordPress, with clear profiles and an easy sign-up.\nPrice: 500 USD for the logo and website, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already use a platform for profiles and matching, or does the site need to be built from scratch?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 405,
+          "salida": 1467,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.045135,
+        "generada": "2026-11-11T17:02:43.146Z"
+      }
+    },
     {
       "id": "567309",
       "tipo": "FREELANCE",
@@ -2385,23 +2424,6 @@
       "dondeSolicitar": "",
       "descripcion": "I need a 3D video animator to create an illustration video for my tech startup company. My budget for this project is $1,000.",
       "vista": "2026-11-10T19:48:07.548Z"
-    },
-    {
-      "id": "565019",
-      "tipo": "FREELANCE",
-      "titulo": "Website Development and Design",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565019/Website-Development-and-Design",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 10,
-      "dondeSolicitar": "",
-      "descripcion": "We need a freelancer to help improve and maintain our website. The work includes updating pages, improving the user experience, and making the site more visually appealing. You should be comfortable working on both front-end and back-end tasks, troubleshooting issues, and ensuring the site runs smoothly. This is an ongoing project for someone who can communicate clearly and deliver reliable results.",
-      "vista": "2026-11-10T19:45:56.301Z"
     }
   ]
 }
