@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T17:27:28.005Z",
+  "actualizado": "2026-11-11T18:11:24.577Z",
   "ofertas": [
+    {
+      "id": "567383",
+      "tipo": "FREELANCE",
+      "titulo": "Part-Time AI Training for Designers",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567383/Part-Time-AI-Training-for-Designers",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "IUNGO technology",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "IUNGO Technology is an international software development company specializing in AI solutions, AI training, and data annotation. We work with a global remote team and are expanding our AI training programs by collaborating with experienced professionals across different industries.\nWe are currently seeking talented designers based in the United States or European Union to contribute their professional expertise to our long-term AI training projects.\nKey Responsibilities\nEvaluate AI-generated designs, visual content, and creative outputs for quality, accuracy, and usability.\nReview and provide feedback on AI-generated responses related to design principles, aesthetics, and user experience.\nCreate and refine design-related prompts, examples, and evaluation criteria.\nIdentify errors, inconsistencies, and areas for improvement in AI-generated content.\nCollaborate remotely with our AI training team to improve model performance.\nComplete assigned tasks independently while maintaining high-quality standards.\nRequirements\nCurrently residing in the United States or European Union.\nProfessional experience in graphic design, UI/UX design, product design, web design, or a related creative field.\nStrong understanding of design principles, visual communication, and user experience.\nExcellent written English communication skills.\nStrong analytical skills and attention to detail.\nAbility to work independently in a remote environment.\nPrevious AI training experience is a plus but not require",
+      "vista": "2026-11-11T18:11:24.577Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Evaluar diseños hechos con IA encaja con su perfil y vive en la UE, pero no ha hecho formación de IA antes y piden «excellent written English» (él tiene B1).",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nTo train AI models to judge design well, you need people who make visual work and know where generated images and layouts go wrong.\nI'm Leo Gómez of LeoVisual.nl, an AI creative studio in Amsterdam (Netherlands, EU citizen). In paid projects I use GPT Image, Nano Banana Pro, Kling and Seedance, together with Adobe, Figma and code for web design. That means I know the usual mistakes: broken text, distorted products or hands, weak hierarchy and UI that doesn't work.\nRelevant work: ORBE and SILENCIO, cinematic ads made with AI, and LUMEN, FORJA and MORVAIN, 3D scroll websites built in code.\nHow I would work: review each output against clear criteria (composition, typography, consistency, usability), write short, specific feedback, then suggest better prompts and examples.\nI haven't done formal AI training work before, so I'm happy to do a test task first.\nRate: 2,500 USD per month, within your range. For any fixed deliverable: 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nHow many hours per week do you expect, and which areas (graphic, UI/UX or web) would I focus on?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 863,
+          "salida": 2065,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.058927,
+        "generada": "2026-11-11T18:11:23.315Z"
+      }
+    },
     {
       "id": "567341",
       "tipo": "FREELANCE",
@@ -2451,23 +2490,6 @@
       "dondeSolicitar": "",
       "descripcion": "I'm launching a gluten-free flour blend in a 750g K-seal pouch, likely printed on a recyclable mono-material film. I've designed a range of four, but I'm launching with one to see how it's received, with the others to follow next year.\nThe concept is already done: I have detailed mock-ups for the layout, colours, illustration and label panels, so I don't need initial concepts, but am open to feedback and ideas for improvement. What I really need is someone to turn the first pouch into finished, print-ready artwork on my printer's dieline: front, back and both gussets, including a simplified skyline illustration from reference images I supply. I'd also need layered source files, so the later blends can be built on the same template.",
       "vista": "2026-11-10T19:49:13.224Z"
-    },
-    {
-      "id": "565131",
-      "tipo": "FREELANCE",
-      "titulo": "Branding Completo para Marca de Pickleball no Brasil",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565131/Branding-Completo-para-Marca-de-Pickleball-no-Brasil",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Proprietário de marca de pickleball no Brasil",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 10,
-      "dondeSolicitar": "",
-      "descripcion": "Estou procurando um profissional para desenvolver o branding completo da minha marca de pickleball no Brasil. Preciso criar o posicionamento da marca, branding book, identidade visual, mockups de posts e arquitetura dos produtos.",
-      "vista": "2026-11-10T19:48:07.548Z"
     }
   ]
 }
