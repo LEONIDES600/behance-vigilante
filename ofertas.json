@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T06:32:11.248Z",
+  "actualizado": "2026-11-11T06:47:03.502Z",
   "ofertas": [
+    {
+      "id": "566943",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity Refresh and Marketing Templates for HVAC Wholesale Dealer",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566943/Brand-Identity-Refresh-and-Marketing-Templates-for-HVAC-Wholesale-Dealer",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Yükseller Zirve Mühendislik A.Ş.",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Yükseller Zirve Mühendislik A.Ş. için logo ve görsel kimliğimizi yenileyecek bir marka kimliği tasarımcısı arıyoruz. Bosch ve Buderus toptan bayisi olarak HVAC sektöründe faaliyet gösteriyoruz ve proje bütçemiz 1.000–2.000 USD'dir. Ürün katalogları, satış teklifleri ve sosyal medya gönderileri için düzenlenebilir şablonlara ihtiyacımız var. HVAC, mühendislik veya endüstriyel B2B markalama deneyimi tercih edilir.",
+      "vista": "2026-11-11T06:47:03.502Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Rediseño de logo e identidad con plantillas: Leo puede hacerlo, aunque no tiene una identidad B2B industrial en el portfolio (el cliente indica 1.000–2.000 USD, un rango y no una cifra concreta).",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\n\nYou need a refreshed logo and visual identity that feels solid and technical for a Bosch and Buderus wholesale dealer, plus editable templates your team can reuse for product catalogs, sales quotes and social media posts.\nI have no HVAC or industrial B2B identity in my portfolio yet, so I'll say that up front. The closest work I have is for a home brand selling on Amazon in several European countries (under NDA): many product images, A+ content and a website. That meant keeping one brand look consistent across a lot of product material.\nHow I would do it: review your current logo and materials, show 2–3 refresh directions, then finish the chosen one with colors, typography and usage rules. After that I would build the catalog, quote and social templates in an editable format so your team can update them on its own.\nIf it helps you decide, I'm happy to make a short sample first, for example one catalog page or one social post in a new direction.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhich software does your team use to edit documents (InDesign, Canva, Word/PowerPoint), so I can build the templates in that format?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 593,
+          "salida": 1491,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.046367,
+        "generada": "2026-11-11T06:47:02.577Z"
+      }
+    },
     {
       "id": "564305",
       "tipo": "FREELANCE",
@@ -1814,23 +1853,6 @@
       "dondeSolicitar": "",
       "descripcion": "I need a UI/UX designer to create the website interface for our business, which offers 12 different services. The design should clearly organize and present each service through an intuitive user experience.",
       "vista": "2026-11-04T13:41:29.738Z"
-    },
-    {
-      "id": "563791",
-      "tipo": "FREELANCE",
-      "titulo": "Custom Web Design & Development",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563791/Custom-Web-Design-Development",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We’re looking for a freelancer to create a custom website for our business. The project includes designing a modern, responsive layout, building the site from scratch, and ensuring it works well across devices. You’ll also help with basic setup and support during launch. Please share examples of similar projects and your approach to delivering a clean, functional website on time.",
-      "vista": "2026-11-04T13:29:18.847Z"
     }
   ]
 }
