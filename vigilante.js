@@ -757,7 +757,9 @@ async function sourceHimalayas(state) {
   // «línea base» (se registran sin avisar), como una fuente nueva.
   state.turnos.himalayasEstrenadas = state.turnos.himalayasEstrenadas || [];
   for (const p of palabras) {
-    const url = `https://himalayas.app/jobs/api/search?keyword=${encodeURIComponent(p)}&sort=recent&page=1`;
+    // El parámetro de búsqueda es «q»: con «keyword» Himalayas lo ignora y devuelve
+    // siempre la misma lista general (bug visto el 11/11/2026: nada útil desde el 4/11).
+    const url = `https://himalayas.app/jobs/api/search?q=${encodeURIComponent(p)}&sort=recent&page=1`;
     const r = await fetchJson(url);
     vias.push(`${p}: ${r.via}`);
     fails.push(...r.fails);
