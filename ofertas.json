@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T19:29:17.487Z",
+  "actualizado": "2026-11-11T21:15:00.875Z",
   "ofertas": [
+    {
+      "id": "567461",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Mark Finalization for Tuscana Landscape Management Company",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567461/Brand-Mark-Finalization-for-Tuscana-Landscape-Management-Company",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Tuscana Landscape Management, Inc",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m establishing Tuscana, a boutique landscape management company with a premium feel, and need a designer to finalize the brand marks. I already have an initial logo and clear ideas to guide the work, including a horizontal logo and circular secondary mark for digital use and physical applications such as commercial trailers.",
+      "vista": "2026-11-11T21:15:00.875Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es logo e identidad, y Leo no tiene logos en el portfolio; se envía con una carta honesta y se ofrece una muestra corta.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nTuscana's marks need to feel premium and work just as well on a website as on a commercial trailer, and that's a clear brief.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. I do graphic design, motion graphics and 3D for brands. My Behance doesn't have logo work yet, so I'm happy to send a short sample first: one refined version of your initial logo, so you can judge before you commit.\nHow I'd approach it:\n1. Review your initial logo and notes, then refine the shapes, spacing and typography.\n2. Make the horizontal logo and the circular secondary mark work together.\n3. Test both at small sizes on screen and at large size on a trailer mockup.\n4. Deliver vector files (AI, SVG, PDF) and PNGs, in full color, black and white versions.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nCould you share your initial logo and any colors or fonts you already have in mind?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 457,
+          "salida": 1277,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.042363,
+        "generada": "2026-11-11T21:15:00.063Z"
+      }
+    },
     {
       "id": "567445",
       "tipo": "FREELANCE",
@@ -2625,23 +2664,6 @@
       "cierraEnDias": 12,
       "dondeSolicitar": "",
       "descripcion": "Busco un/a diseñador/a gráfico/a especializado/a en branding e identidad visual para desarrollar la identidad integral de una nueva productora cinematográfica independiente argentina, con un presupuesto de 100–150 USD. Necesito una marca sobria, editorial y autoral, de estética contemporánea y sensibilidad cinematográfica, construida a partir del nombre provisional CENIT. El trabajo debe incluir naming e interpretación conceptual, logotipo, sistema de identidad visual, dirección de arte, paleta cromática, tipografía, aplicaciones institucionales y digitales, y un manual de identidad visual. Valoro portfolios relacionados con cine, cultura, diseño editorial, arte e instituciones culturales. Busco una identidad atemporal, reconocible y con personalidad propia.",
-      "vista": "2026-11-10T19:52:31.028Z"
-    },
-    {
-      "id": "565683",
-      "tipo": "FREELANCE",
-      "titulo": "Original Streetwear Symbol Logo Featuring Almada Skyline and Cristo Rei",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565683/Original-Streetwear-Symbol-Logo-Featuring-Almada-Skyline-and-Cristo-Rei",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 12,
-      "dondeSolicitar": "",
-      "descripcion": "Hi! I’m looking for a graphic designer to create an original symbol/logo for my streetwear brand, with a budget of $100. The design should combine a rear-view head silhouette with dreadlocks, the Almada skyline, and the Cristo Rei monument behind the figure. I want a black-and-white, high-contrast underground streetwear look with a raw, distressed, timeless feel. The logo must contain no text and should be original rather than a copy of my references. I will provide reference images and original photos to communicate the vision.",
       "vista": "2026-11-10T19:52:31.028Z"
     }
   ]
