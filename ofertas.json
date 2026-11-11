@@ -1,6 +1,84 @@
 {
-  "actualizado": "2026-11-11T06:55:08.164Z",
+  "actualizado": "2026-11-11T07:00:21.676Z",
   "ofertas": [
+    {
+      "id": "566951",
+      "tipo": "FREELANCE",
+      "titulo": "Corporate Logo and Visual Identity Design for Pionus Energy",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566951/Corporate-Logo-and-Visual-Identity-Design-for-Pionus-Energy",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Pionus Energu Private Limited",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Pionus Energy Private Limited is seeking an experienced freelance brand and logo designer to develop a commanding, institutional visual identity for our renewable-energy consulting and integrated solutions business.\nThe identity should distinguish Pionus Energy from the familiar visual language of small-scale contractors and local service providers. It must position the company as a structured, credible, technically capable, and forward-looking corporate enterprise.\nOur key audiences include:\nLeading technical consulting firms\nInvestors and financial stakeholders\nProject developers\nGovernment bodies and public-sector organisations\nCorporate and industrial clients\nStrategic partners\nThe identity must communicate:\nCorporate authority\nTechnical expertise\nPrecision and high quality\nStability and long-term reliability\nForward-thinking innovation\nReadiness for large-scale projects\nThis engagement is focused on developing a high-quality core logo and essential corporate identity system. It is not intended to be a full-scale brand strategy or communications programme.",
+      "vista": "2026-11-11T07:00:21.676Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo e identidad: Leo puede hacerlo, pero no tiene una pieza igual en el portfolio; el presupuesto llega a 250 USD, así que es aceptable.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nPionus Energy needs an identity that reads as a structured, credible partner for investors, public bodies and large industrial clients, clearly apart from the look of small local contractors.\nTo be honest, I don't have a logo or corporate identity project like this in my portfolio yet. My work is in graphic design, 3D web (LUMEN, FORJA and MORVAIN) and visual content for a home brand selling on Amazon in several European countries, where a clean, consistent and credible look is key.\nHow I would approach it: a short brief on your values and audiences, then 2–3 logo directions (wordmark and symbol) with a restrained palette and a precise typeface. After that, I would refine the chosen one into a core identity system: logo versions, colours, typography and basic usage rules, delivered as vector files.\nIf it helps, I can first make a short sample direction so you can judge the fit before you decide.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have colours or references you want to keep, or should I start from a blank page?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 672,
+          "salida": 1387,
+          "cacheLeida": 2835,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.030995,
+        "generada": "2026-11-11T07:00:07.199Z"
+      }
+    },
+    {
+      "id": "566953",
+      "tipo": "FREELANCE",
+      "titulo": " UI/UX Modernization & Design System Improvement",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/566953/-UIUX-Modernization-Design-System-Improvement",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Project Overview\nWe are looking for an experienced UI/UX designer to improve the existing MetaRace platform by refining its user interface, enhancing usability, and completing a consistent design system.\nThe goal is to modernize the current experience without completely redesigning the product or changing its established visual direction.\nProject Scope\n1. Existing Interface Improvement\nReview and improve existing page layouts.\nEstablish better visual hierarchy and content organization.\nRefine spacing, alignment, typography, and color consistency.\nImprove the overall visual quality of existing screens.\n2. Design System Development\nEstablish a consistent color palette and typography system.\nCreate reusable buttons, inputs, cards, and navigation components.\nDefine component sizes, spacing rules, and interaction patterns.\nOrganize and document the complete Figma component library.\n3. UX Improvements\nSimplify important navigation flows.\nReduce unnecessary interactions and confusing steps.\nImprove wallet connection and related user interactions.\nProvide clearer feedback for user actions.\n4. Responsive Design\nImprove desktop, tablet, and mobile layouts.\nEnsure consistent component behavior across screen sizes.\nOptimize navigation and content presentation for smaller screens.",
+      "vista": "2026-11-11T07:00:21.676Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es diseño web y UI en Figma, que encaja, pero Leo no tiene en el portfolio ningún sistema de diseño completo ni trabajo de UX para Web3.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\n\nYou want MetaRace to look and work better without losing the visual direction it already has. That means clearer layouts, a design system you can reuse and simpler flows, including the wallet connection.\n\nI design and build websites. Some examples are LUMEN, FORJA and MORVAIN, which are 3D scroll websites built in code (three.js + GSAP), so I think about layout, hierarchy and responsive behaviour from design through to development. To be honest, I don't have a full documented design system case in my portfolio yet. If it helps, I can first do a short paid sample: one key screen improved, plus a few core components in Figma.\n\nHow I would work:\n1. Review the current screens and flows, and list the problems with hierarchy, spacing and consistency.\n2. Define the colour palette, type scale and spacing rules, based on your current style.\n3. Build reusable components in Figma (buttons, inputs, cards, navigation) with their sizes and states, and organise the library with clear notes.\n4. Simplify the main flows and the wallet connection, with clear feedback for each user action.\n5. Adapt everything for desktop, tablet and mobile.\n\nPrice: 5000 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\n\nCould you share the current Figma file or the live platform, and tell me which flows are most important to fix first?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 761,
+          "salida": 1241,
+          "cacheLeida": 2835,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.028431,
+        "generada": "2026-11-11T07:00:20.802Z"
+      }
+    },
     {
       "id": "566947",
       "tipo": "FREELANCE",
@@ -1841,40 +1919,6 @@
       "dondeSolicitar": "",
       "descripcion": "We’re seeking a creative and talented Packaging Designer to collaborate with us on exciting projects. We need someone with a strong creative vision and unique style who can turn ideas into distinctive, premium, eye-catching packaging. Please share your portfolio, availability, and rates.",
       "vista": "2026-11-04T14:25:31.056Z"
-    },
-    {
-      "id": "563805",
-      "tipo": "FREELANCE",
-      "titulo": "Graphic Design for Branding, Marketing Materials, and Digital Assets",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563805/Graphic-Design-for-Branding-Marketing-Materials-and-Digital-Assets",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for a talented graphic designer with a strong portfolio to create visually compelling branding, marketing materials, and digital assets.",
-      "vista": "2026-11-04T14:16:02.931Z"
-    },
-    {
-      "id": "563801",
-      "tipo": "FREELANCE",
-      "titulo": "Cinematic 3D Energy Drink Can Commercial Animation",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563801/Cinematic-3D-Energy-Drink-Can-Commercial-Animation",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need an experienced 3D product animator to create a premium, cinematic commercial for an energy drink can, with a fixed budget of $100–$200 USD. The project requires realistic 3D product modeling and animation, including a cinematic reveal, 360° can rotation, dynamic green liquid splashes, floating water droplets, particle effects, professional lighting, reflections, realistic materials, and glowing green energy effects against a dark background. Please share relevant 3D product-animation portfolio samples and deliver high-quality work within the agreed deadline.",
-      "vista": "2026-11-04T14:04:30.025Z"
     }
   ]
 }
