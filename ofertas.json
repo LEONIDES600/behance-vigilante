@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T18:11:24.577Z",
+  "actualizado": "2026-11-11T18:12:44.192Z",
   "ofertas": [
+    {
+      "id": "567389",
+      "tipo": "FREELANCE",
+      "titulo": "Create a Landing Page in ClickFunnels",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567389/Create-a-Landing-Page-in-ClickFunnels",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I am looking for someone familiar with the ClickFunnels system to create a landing page. You will work as a collaborator within our ClickFunnels account. The task involves designing and implementing a visually appealing and functional landing page that aligns with our brand's identity. The landing page will lead to a Calendly scheduling page. Experience with ClickFunnels is essential to ensure seamless integration and functionality. I will be able to provide company specific wording where necessary within the landing page. A video will need to be embedded into the landing page, as well as a meta pixel attachment.",
+      "vista": "2026-11-11T18:12:44.192Z",
+      "carta": {
+        "decision": "espera",
+        "motivo": "Encaja (landing page con vídeo y Calendly), pero piden experiencia con ClickFunnels como requisito y eso no consta en los datos de Leo.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYou need a clear, on-brand landing page inside your ClickFunnels account that plays your video and sends visitors straight to your Calendly booking page.\n\nI design and build websites and landing pages with an AI-assisted workflow, from 3D scroll sites in code like LUMEN and FORJA (three.js + GSAP) to WordPress pages. I don't have a ClickFunnels page in my portfolio yet, so I'm happy to start with a short test section in your account before building the full page.\n\nHow I would do it:\n1. Review your brand assets and the wording you send.\n2. Make a quick layout in Figma for your approval.\n3. Build it in ClickFunnels as a collaborator: video embed, Calendly link or embed, and the Meta Pixel.\n4. Test it on mobile and desktop before delivery.\n\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\n\nDo you want the Calendly calendar embedded on the page, or a button that opens it?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "¿Has usado ClickFunnels alguna vez? Si es así, ¿en qué proyecto?",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 520,
+          "salida": 1520,
+          "cacheLeida": 2835,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.033047,
+        "generada": "2026-11-11T18:12:43.084Z"
+      }
+    },
     {
       "id": "567383",
       "tipo": "FREELANCE",
@@ -2472,23 +2511,6 @@
       "cierraEnDias": 11,
       "dondeSolicitar": "",
       "descripcion": "I need a burger box design for my shop. The packaging should be suitable for serving and presenting burgers to customers.",
-      "vista": "2026-11-10T19:49:13.224Z"
-    },
-    {
-      "id": "565353",
-      "tipo": "FREELANCE",
-      "titulo": "Food Packaging Pouch Design",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565353/Food-Packaging-Pouch-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "H Bakes",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 11,
-      "dondeSolicitar": "",
-      "descripcion": "I'm launching a gluten-free flour blend in a 750g K-seal pouch, likely printed on a recyclable mono-material film. I've designed a range of four, but I'm launching with one to see how it's received, with the others to follow next year.\nThe concept is already done: I have detailed mock-ups for the layout, colours, illustration and label panels, so I don't need initial concepts, but am open to feedback and ideas for improvement. What I really need is someone to turn the first pouch into finished, print-ready artwork on my printer's dieline: front, back and both gussets, including a simplified skyline illustration from reference images I supply. I'd also need layered source files, so the later blends can be built on the same template.",
       "vista": "2026-11-10T19:49:13.224Z"
     }
   ]
