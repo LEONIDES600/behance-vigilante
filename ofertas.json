@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T18:26:19.203Z",
+  "actualizado": "2026-11-11T18:27:30.305Z",
   "ofertas": [
+    {
+      "id": "567409",
+      "tipo": "FREELANCE",
+      "titulo": "Creador de contenido para redes sociales ",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567409/Creador-de-contenido-para-redes-sociales-",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Zapaterias PLATA",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "¡Hola! Buen día.\nSoy parte de Plata Zapaterías, una zapatería en la zona oriente con presencia desde 1966.\nEstamos buscando a una persona creativa que nos ayude a generar contenido para Facebook, Instagram y TikTok.\nNecesitamos que puedas visitar nuestra tienda, grabar videos cortos, editarlos y proponer ideas atractivas para nuestros clientes.\nNos interesan especialmente los Reels, videos de productos, promociones y contenido dinámico.\n¿Me podrías compartir algunos ejemplos de trabajos que hayas realizado, tu disponibilidad para hacer una video llamada y tus tarifas por paquete de videos mensuales?\n¡Muchas gracias!\nMarlen Plata",
+      "vista": "2026-11-11T18:27:30.305Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Hay que ir a la tienda a grabar en persona, y Leo está en Ámsterdam.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 611,
+          "salida": 425,
+          "cacheLeida": 2835,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.011511,
+        "generada": "2026-11-11T18:27:29.078Z"
+      }
+    },
     {
       "id": "567405",
       "tipo": "FREELANCE",
@@ -2537,23 +2576,6 @@
       "cierraEnDias": 12,
       "dondeSolicitar": "",
       "descripcion": "Estou procurando um artista 3D para criar artes em estilo low poly. Preciso de ilustrações ou modelos com estética geométrica simplificada e acabamento visual consistente.",
-      "vista": "2026-11-10T19:51:24.365Z"
-    },
-    {
-      "id": "565673",
-      "tipo": "FREELANCE",
-      "titulo": "Dark Fantasy Folk Horror Logo and Branding for a PC Game",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565673/Dark-Fantasy-Folk-Horror-Logo-and-Branding-for-a-PC-Game",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 12,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for a dark fantasy / folk horror logo design for a PC game, with a budget of $300. The logo should establish a strong visual identity that is atmospheric, memorable, and suitable for use across Steam or other platforms, marketing materials for social media, and the in-game title screen.",
       "vista": "2026-11-10T19:51:24.365Z"
     }
   ]
