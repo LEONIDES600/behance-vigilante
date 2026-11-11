@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T09:30:33.379Z",
+  "actualizado": "2026-11-11T09:52:57.005Z",
   "ofertas": [
+    {
+      "id": "567027",
+      "tipo": "FREELANCE",
+      "titulo": "Logo Design and Brand Identity for a Property Maintenance and Handyman Business",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567027/Logo-Design-and-Brand-Identity-for-a-Property-Maintenance-and-Handyman-Business",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a talented brand identity designer to develop a distinctive, professional visual identity for my new business, Standby Property Services.\nThe business provides property maintenance, handyman services and general repairs, serving both residential and commercial customers.\nI want to establish a recognisable, trustworthy brand that feels established, confident and contemporary. The identity should be clean, understated and thoughtfully designed, with a strong emphasis on typography and visual simplicity.\nI’m looking for original creative thinking rather than a predictable tradesperson aesthetic. Please avoid obvious house silhouettes, rooftops, hammers, spanners and other generic trade-related imagery. I’m particularly interested in designers who can create something distinctive through typography, composition and considered design.",
+      "vista": "2026-11-11T09:52:57.005Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es logo e identidad visual, un trabajo que Leo puede hacer, pero no tiene ningún logo en el portfolio; la carta lo dice y ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nStandby Property Services needs an identity that feels established and calm, built on typography and composition instead of houses, roofs or tools. I like that brief a lot.\nTo be honest, I don't have a logo project in my portfolio yet. My work is graphic design for ads and social media, motion graphics and 3D websites like LUMEN and FORJA, where clean type and simple layouts do most of the work.\nThis is how I would do it:\n1. A short brief about your clients, tone and where the logo will be used (vans, uniforms, invoices, web).\n2. 2–3 different typographic directions, shown on real mockups.\n3. We pick one and I refine it: wordmark, short version or monogram, colours and fonts.\n4. Final files (SVG, PDF, PNG) and a simple one-page guide.\nIf it helps you decide, I can first make a short sample of one direction.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you see the brand mainly as a wordmark, or are you open to a monogram like \"SPS\" as well?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 600,
+          "salida": 975,
+          "cacheLeida": 0,
+          "cacheEscrita": 2835
+        },
+        "costeUSD": 0.036075,
+        "generada": "2026-11-11T09:52:55.937Z"
+      }
+    },
     {
       "id": "567015",
       "tipo": "FREELANCE",
@@ -2012,23 +2051,6 @@
       "dondeSolicitar": "",
       "descripcion": "Busco servicios de diseño para memorias, libros, revistas y proyectos de branding. Necesito piezas visuales profesionales y coherentes para estos materiales editoriales y de identidad de marca.",
       "vista": "2026-11-04T17:17:48.663Z"
-    },
-    {
-      "id": "563879",
-      "tipo": "FREELANCE",
-      "titulo": "WordPress Website Design And Development",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/563879/WordPress-Website-Design-And-Development",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I am seeking a highly skilled and experienced WordPress developer to take on the exciting challenge of designing and developing a professional website tailored to meet my specific needs and objectives. This project requires an individual who possesses not only technical expertise but also a keen eye for aesthetics and user experience.\nThe ideal candidate should have a robust background in WordPress development, with proven experience in creating responsive designs that look great on all devices, including desktops, tablets, and mobile phones. A strong portfolio demonstrating previous work on professional websites will be essential in assessing your capabilities.\nIn addition to responsive design, the successful applicant should have extensive experience in developing custom themes that reflect my brand identity and enhance the overall user experience. You should also be proficient in utilizing various plugins to extend the website's functionality, ensuring that it operates smoothly and efficiently while providing an engaging experience for visitors.\nFurthermore, I am looking for someone who is not only creative and detail-oriented but also possesses excellent communication skills. Collaborating closely with me is essential to ensure that the final product aligns with my vision and meets all requirements. You will need to be open to feedback and revisions throughout the development process.\nIf you are passionate about web development and have a strong commitment to delivering h",
-      "vista": "2026-11-04T17:16:05.355Z"
     }
   ]
 }
