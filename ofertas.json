@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T02:08:53.994Z",
+  "actualizado": "2026-11-12T02:23:03.962Z",
   "ofertas": [
+    {
+      "id": "567617",
+      "tipo": "FREELANCE",
+      "titulo": "2D Explainer Animation and Fuel System Diagram for Helicopter Pilot Training",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567617/2D-Explainer-Animation-and-Fuel-System-Diagram-for-Helicopter-Pilot-Training",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "SkyLogic Academy",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "SkyLogic Academy is building online ground school courses for helicopter pilots, and I'm looking for a motion designer and technical illustrator to make our visuals clearer and more engaging than the black-and-white drawings in flight manuals. This first project is two pieces: a short 2D explainer animation of vortex ring state (a hazard where a helicopter descends into its own rotor downwash) and a clean, modern diagram of a helicopter fuel system. No aviation background is needed; I'll provide the technical content, reference material and accuracy reviews. If the first project goes well, there is ongoing work for a growing library of lessons.",
+      "vista": "2026-11-12T02:23:03.962Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Encaja con motion graphics y diseño gráfico explicativo, en remoto y con buen presupuesto; no hay una pieza igual, así que se ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nTurning vortex ring state and a fuel system into visuals a student pilot understands at first glance is a great goal, and a big step up from black-and-white manual drawings.\nI don't have a helicopter or aviation explainer in my portfolio yet, so I'm happy to make a short sample first so you can judge the style.\nRelated work: ORBE and SILENCIO, short cinematic ads with AI where I handled the idea, generation, editing and sound. I also made listing images and A+ content for a home brand selling on Amazon in several European countries, where every image had to explain a product clearly.\nHow I would do it: 1) storyboard the VRS sequence from your script and references, 2) design one style frame for both pieces, 3) build the fuel system diagram in vector with clear colour coding and labels, 4) animate the explainer in After Effects with clean motion graphics, 5) adjust everything after your accuracy review.\nPrice: 1000 USD for both pieces, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you already have a script or voiceover for the vortex ring state animation, and how long should it be?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 577,
+          "salida": 1588,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.049063,
+        "generada": "2026-11-12T02:23:03.196Z"
+      }
+    },
     {
       "id": "567613",
       "tipo": "FREELANCE",
@@ -2803,23 +2842,6 @@
       "cierraEnDias": 13,
       "dondeSolicitar": "",
       "descripcion": "I am looking for a designer to build a practical identity system for Designd and apply it across social media, business documents and event displays. \nDeliverables:\nPost templates\nInvoice\nQuotation\nEmail signature\nLetterhead\nPull-up banner\nTeardrop flag\nEvent backdrop",
-      "vista": "2026-11-10T19:54:45.161Z"
-    },
-    {
-      "id": "566319",
-      "tipo": "FREELANCE",
-      "titulo": "Freelance Logo Design for NextPlay Sports and Talent Production Agency",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566319/Freelance-Logo-Design-for-NextPlay-Sports-and-Talent-Production-Agency",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 13,
-      "dondeSolicitar": "",
-      "descripcion": "NextPlay, a sports and talent production agency, is hiring a freelance logo designer based in the U.S. South, ideally in Atlanta, Dallas, or Houston. The total budget for all five stages of the logo project is $150–$250. We need a designer who is active in their local creative community and understands Gen Z sports, music, and streetwear culture. Selected candidates will receive a creative brief covering all five project stages, plus moodboard references to guide the logo’s visual direction.",
       "vista": "2026-11-10T19:54:45.161Z"
     }
   ]
