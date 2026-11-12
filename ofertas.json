@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T12:22:22.580Z",
+  "actualizado": "2026-11-12T13:12:13.778Z",
   "ofertas": [
+    {
+      "id": "567837",
+      "tipo": "FREELANCE",
+      "titulo": "Instagram Launch and Digital Advertising Design for VEXIA Dental Shop",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567837/Instagram-Launch-and-Digital-Advertising-Design-for-VEXIA-Dental-Shop",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Busco un/a diseñador/a gráfico/a freelance, preferiblemente ubicado/a en Guayaquil, Ecuador, para crear piezas de lanzamiento para Instagram y publicidad digital de VEXIA Dental Shop. Somos una distribuidora ecuatoriana de equipos, tecnología y materiales odontológicos y médicos, dirigida a odontólogos, clínicas y laboratorios dentales. Ya contamos con logo y manual de marca para guiar las piezas.",
+      "vista": "2026-11-12T13:12:13.778Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Diseño de piezas para Instagram y anuncios digitales con manual de marca ya hecho: encaja; Guayaquil es solo preferencia y el trabajo es remoto.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "media",
+        "texto": "¡Hola!\nLanzar VEXIA Dental Shop en Instagram pide piezas que transmitan confianza técnica a odontólogos, clínicas y laboratorios, y que respeten al detalle vuestro logo y manual de marca.\nPara una marca de hogar que vende en Amazon en varios países de Europa he hecho muchas imágenes y vídeos de producto. También he hecho anuncios cinematográficos con IA como ORBE y SILENCIO, desde la idea hasta el montaje y el sonido.\nLo plantearía así: reviso el manual y los productos clave, propongo una línea visual para el lanzamiento (posts, carrusel, stories y piezas de anuncio) y, cuando la aprobéis, preparo todos los formatos listos para publicar y para pautar.\nTrabajo en remoto desde Ámsterdam, no estoy en Guayaquil. Os puedo enviar avances y coordinar por mensaje o videollamada en el horario que os vaya bien.\nPropuesta: 250 USD, con el 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿Cuántas piezas necesitáis para el lanzamiento y tenéis ya fotos de los equipos o hay que crear las imágenes de producto?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 523,
+          "salida": 1037,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.037827,
+        "generada": "2026-11-12T13:12:12.943Z"
+      }
+    },
     {
       "id": "371289",
       "tipo": "FULLTIME",
@@ -3205,23 +3244,6 @@
       "cierraEnDias": 14,
       "dondeSolicitar": "",
       "descripcion": "We are looking for an experienced web developer to build a professional, modern corporate website and its admin panel for a company operating in the Middle East.\nScope of Work:\nDevelop a fully functional, responsive website based on the provided Figma prototype.\nBuild an admin panel (CMS) to manage website content, images, pages, and other relevant elements.\nEnsure the website works seamlessly across desktop, tablet, and mobile devices.\nImplement all functionality and interactions according to the approved prototype.\nOptimise the website for performance, security, and SEO.\nDeploy the website and provide the necessary documentation and handover.\nRequirements:\nProven experience in website and CMS development.\nAbility to accurately translate Figma designs into a functional website.\nClean, maintainable, and scalable code.\nStrong attention to detail and UI/UX quality.\nGood communication and ability to meet deadlines.\nAdditional Notes:\nThe website should be developed according to the provided prototype. However, we welcome proactive suggestions, technical recommendations, and improvements that could enhance usability, performance, or the overall user experience.\nTo Apply:\nPlease share examples of similar projects, your recommended technology stack, estimated timeline, and budget.",
-      "vista": "2026-11-10T20:05:22.928Z"
-    },
-    {
-      "id": "566715",
-      "tipo": "FREELANCE",
-      "titulo": "Audience Insights Portal Product, UX, Content, and Data Visualization Design",
-      "presupuesto": "10.000–25.000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566715/Audience-Insights-Portal-Product-UX-Content-and-Data-Visualization-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Rare",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Rare is seeking vendors or individual specialists to help transform an existing audience-segmentation data explorer and AI analyst into a polished, self-service Audience Insights Portal for television and streaming professionals. The work spans four areas: product/UX design, a unified and accessible design system, content strategy/UX writing, and statistically rigorous data-visualization design.",
       "vista": "2026-11-10T20:05:22.928Z"
     }
   ]
