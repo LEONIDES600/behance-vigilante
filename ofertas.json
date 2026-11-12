@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T16:18:49.339Z",
+  "actualizado": "2026-11-12T18:55:41.465Z",
   "ofertas": [
+    {
+      "id": "568003",
+      "tipo": "FREELANCE",
+      "titulo": "Strength-Focused Personal Training Logo Design",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568003/Strength-Focused-Personal-Training-Logo-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Mindstir Media",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a logo featuring a strong, flexing bicep that conveys strength, fitness, and our company’s dedication to personal training.",
+      "vista": "2026-11-12T18:55:41.465Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es diseño de logo, que Leo puede hacer con IA y diseño gráfico, pero no tiene ningún logo en el portfolio; se envía con una carta honesta y ofreciendo una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi!\nYou need a logo built around a strong, flexing bicep that instantly says strength, fitness and a real commitment to personal training.\nTo be honest, I don't have a logo project like this in my portfolio yet. My work is mostly AI-made ads like ORBE and SILENCIO, plus graphic design for ads and social media.\nSo I'm happy to start with a short sample or a test before you decide.\nHow I'd do it: explore several bicep concepts with AI image tools, choose the strongest directions with you, then rebuild the chosen one as a clean vector in Adobe so it reads well small, large, in one colour and on dark backgrounds.\nYou'd get the final files in vector and PNG, plus a simple version for social media.\nPrice: 5000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have the brand name, colours or a style in mind (bold and modern, or a more classic gym badge)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 390,
+          "salida": 1191,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.040375,
+        "generada": "2026-11-12T18:55:40.717Z"
+      }
+    },
     {
       "id": "348315",
       "tipo": "FULLTIME",
@@ -3823,23 +3862,6 @@
       "dondeSolicitar": "",
       "descripcion": "I’m seeking a designer to create a luxury equestrian logo system for Bella Vista Saddle Club, with a budget of $500–$1,000. The identity should convey a timeless heritage sporting-club and California estate aesthetic that feels sophisticated and understated, avoiding generic horse-logo treatments.",
       "vista": "2026-11-10T22:58:48.920Z"
-    },
-    {
-      "id": "566827",
-      "tipo": "FREELANCE",
-      "titulo": "Board Game Art Kit for Spoonwinga and Mutz Play Games",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566827/Board-Game-Art-Kit-for-Spoonwinga-and-Mutz-Play-Games",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We need a one-time board game art kit for Spoonwinga and Mutz Play Games, with a $500–$2,000 budget and delivery within 14–21 days, with some flexibility. Our gameplay has been tested and we are ready to develop a visually appealing product for players. Most existing AI-created assets and the visual direction are complete; we need an artist to rework and polish them in their own style, while creating the Mutz Play Games logo from scratch. The kit must include logos, illustrations, card designs, token art, and packaging artwork using English text, following the uploaded style sheet.",
-      "vista": "2026-11-10T22:48:19.824Z"
     }
   ]
 }
