@@ -1,6 +1,47 @@
 {
-  "actualizado": "2026-11-12T05:55:02.837Z",
+  "actualizado": "2026-11-12T06:35:29.240Z",
   "ofertas": [
+    {
+      "id": "567693",
+      "tipo": "FREELANCE",
+      "titulo": "Graphic Designer – Morbagh Tea, Assam tea brand",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567693/Graphic-Designer-Morbagh-Tea-Assam-tea-brand",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Morbagh Tea",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "About us: Morbagh is a premium Assam tea brand. We pack fresh at source and sell across India through retail, Amazon, Flipkart, Blinkit and our own website. Our range is growing and our packaging is getting a refresh.\nThe role: Graphic Designer, owning how Morbagh looks across:\n- Packaging for pouches, tins and cartons (print-ready, with dielines)\n- Retail POSM: shelf strips, hangers, counter units\n- Social media and Meta ad creatives\n- Amazon, Flipkart and Blinkit listings and A+ content\nWhat we're looking for: 2+ years of experience, strong in Illustrator, Photoshop and InDesign, and comfortable with CMYK, bleed and dielines.\nDetails: Remote, or in person at our office in Assam. Salary discussed on call.\nIf this interests you, just reply here on Behance with your availability and I'll set up a quick call.",
+      "vista": "2026-11-12T06:35:29.240Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja en listings, A+ y creatividades para redes y Meta, pero el packaging listo para imprenta con troqueles y el POSM no están en el portfolio y el presupuesto es bajo para tanto trabajo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nWith a growing range and a packaging refresh, Morbagh needs one look that works the same on a shelf, on Amazon, Flipkart and Blinkit, and in Meta ads.\nFor a home brand that sells on Amazon in several European countries (under NDA), I made a lot of listing images and videos, plus A+ content. I have also been making short performance ads for 2 years.\nHow I would start: review your current packs and listings, set a simple visual system (colours, type, photo style), then apply it to listings, A+ and a first set of social and Meta creatives.\nTo be honest, I don't have print-ready packaging with dielines or retail POSM in my portfolio. I'm happy to do a short test on one pouch or one shelf strip first, so you can check the files before you decide.\nMy price for a first project is 250 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nI'm available for a quick call whenever it suits you.\nWhich part do you need first: the new packaging or the marketplace listings?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [
+          "menciona años"
+        ],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 665,
+          "salida": 1532,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.048295,
+        "generada": "2026-11-12T06:35:28.051Z"
+      }
+    },
     {
       "id": "567677",
       "tipo": "FREELANCE",
@@ -2979,23 +3020,6 @@
       "cierraEnDias": 14,
       "dondeSolicitar": "",
       "descripcion": "I’m launching a new global fashion brand and need a designer to create a refined wordmark and logo that reflect a premium fashion identity but is fresh and very unique. I'm flexible on price, looking for someone who can create something more original and interesting and help me refine the wordmark and create simple and bold logo design.",
-      "vista": "2026-11-10T20:01:18.257Z"
-    },
-    {
-      "id": "566685",
-      "tipo": "FREELANCE",
-      "titulo": "Logo Redesign for CORA",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566685/Logo-Redesign-for-CORA",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "City of Gahanna",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need someone to redo the logo for the City of Gahanna's CORA cup logo, and update our sign boards. Our budget for this logo redesign is $3000.",
       "vista": "2026-11-10T20:01:18.257Z"
     }
   ]
