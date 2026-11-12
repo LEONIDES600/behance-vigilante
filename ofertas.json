@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T13:12:13.778Z",
+  "actualizado": "2026-11-12T13:37:30.732Z",
   "ofertas": [
+    {
+      "id": "567843",
+      "tipo": "FREELANCE",
+      "titulo": "Short-Form Beauty Video Content for Instagram Reels and TikTok",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567843/Short-Form-Beauty-Video-Content-for-Instagram-Reels-and-TikTok",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Teeez Cosmetics",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a freelance beauty content creator to film and edit short-form makeup videos for Instagram Reels and TikTok. The content should feature bold makeup looks, close-up product swatches, and quick tutorials in a playful style that appeals to Gen Z and millennial audiences.",
+      "vista": "2026-11-12T13:37:30.732Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja en edición y vídeo corto con IA, pero piden una creadora que grabe maquillaje ante la cámara, y eso Leo no lo hace; la carta lo dice con claridad.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nTeeez needs bold, playful Reels and TikToks that stop Gen Z and millennial viewers mid-scroll, with close-up swatches and quick tutorials that show the product clearly.\nTo be upfront: I'm not an on-camera makeup artist. I run an AI creative studio in Amsterdam, and I can help in two ways. I can edit footage you or your models film, or I can create the product shots with AI.\nI made the cinematic AI ads ORBE and SILENCIO, from the idea and generation to the edit and sound. I've also made many listing images and product videos for a home brand that sells across Europe.\nMy process: first a short brief on looks and products. Then I plan the hooks and shots, generate close-ups and swatches with Kling, Seedance and Nano Banana Pro, and edit in Premiere and After Effects. I finish with fast cuts, text and trending-style pacing in 9:16.\nI don't have a beauty piece in my portfolio yet, so I'm happy to make a short sample first.\nPrice: 500 USD, with 50% upfront. Delivery takes 7–10 days and includes 2 rounds of changes.\nHow many videos do you need, and will you supply footage of the looks or do you want everything made with AI?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 455,
+          "salida": 1185,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.040515,
+        "generada": "2026-11-12T13:37:29.846Z"
+      }
+    },
     {
       "id": "567837",
       "tipo": "FREELANCE",
@@ -3227,23 +3266,6 @@
       "cierraEnDias": 14,
       "dondeSolicitar": "",
       "descripcion": "Abbiamo bisogno di supporto urgente per realizzare la grafica del packaging di 200 articoli di cancelleria della nostra nuova linea di prodotti. Le grafiche dovranno essere preparate per l'invio ai fornitori asiatici. Offriamo anche la possibilità di lavorare presso la nostra sede per velocizzare l'attività.",
-      "vista": "2026-11-10T20:05:22.928Z"
-    },
-    {
-      "id": "566719",
-      "tipo": "FREELANCE",
-      "titulo": "Corporate Website and Admin Panel Development",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566719/Corporate-Website-and-Admin-Panel-Development",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We are looking for an experienced web developer to build a professional, modern corporate website and its admin panel for a company operating in the Middle East.\nScope of Work:\nDevelop a fully functional, responsive website based on the provided Figma prototype.\nBuild an admin panel (CMS) to manage website content, images, pages, and other relevant elements.\nEnsure the website works seamlessly across desktop, tablet, and mobile devices.\nImplement all functionality and interactions according to the approved prototype.\nOptimise the website for performance, security, and SEO.\nDeploy the website and provide the necessary documentation and handover.\nRequirements:\nProven experience in website and CMS development.\nAbility to accurately translate Figma designs into a functional website.\nClean, maintainable, and scalable code.\nStrong attention to detail and UI/UX quality.\nGood communication and ability to meet deadlines.\nAdditional Notes:\nThe website should be developed according to the provided prototype. However, we welcome proactive suggestions, technical recommendations, and improvements that could enhance usability, performance, or the overall user experience.\nTo Apply:\nPlease share examples of similar projects, your recommended technology stack, estimated timeline, and budget.",
       "vista": "2026-11-10T20:05:22.928Z"
     }
   ]
