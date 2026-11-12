@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T15:32:00.116Z",
+  "actualizado": "2026-11-12T15:59:00.919Z",
   "ofertas": [
+    {
+      "id": "567921",
+      "tipo": "FREELANCE",
+      "titulo": "Shopify Website Design for a Fashion Brand",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567921/Shopify-Website-Design-for-a-Fashion-Brand",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a Shopify website designer to create an online store for my fashion brand. The site should present the brand and its products through a polished, easy-to-navigate e-commerce experience.",
+      "vista": "2026-11-12T15:59:00.919Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es diseño web y encaja, pero Leo no tiene ninguna tienda Shopify en el portfolio, así que la carta lo dice y ofrece una maqueta de muestra.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nFor a fashion brand, the store has to show off the products. Your Shopify site needs clean collection and product pages, simple navigation and a smooth path to checkout, on mobile too.\nI design and build websites for brands. Examples are LUMEN, FORJA and MORVAIN, which are 3D scroll sites built in code (three.js + GSAP). I've also made the website, listing images and A+ content for a home brand that sells on Amazon in several European countries.\nI don't have a Shopify store in my portfolio yet. I'm happy to start with a short home page mockup so you can check the style before we go further.\nHere's how I'd work: first I review your brand, products and references. Then I design the home, collection and product pages in Figma. Next I set up the Shopify theme with your products, menus and mobile layout. Last, I do final checks and give you a short handover so you can update the store yourself.\nPrice: 500 USD, with 50% upfront. Delivery takes 7–10 days and includes 2 rounds of revisions.\nDo you already have a Shopify plan, a logo and product photos, or are we starting from scratch?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 389,
+          "salida": 1502,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.046591,
+        "generada": "2026-11-12T15:59:00.003Z"
+      }
+    },
     {
       "id": "567895",
       "tipo": "FREELANCE",
@@ -3646,23 +3685,6 @@
       "cierraEnDias": 30,
       "dondeSolicitar": "Behance",
       "descripcion": "This is an opportunity to grow as a modern graphic designer while working on high-performing ads for e-commerce brands . You’ll be part of a small, ambitious remote team that values learning, experimentation, and continuous improvement. We’ll introduce modern tools and workflows over time, giving you the chance to expand your skills and take on more creative responsibility as you grow .\n ✅ This role is for you if: \n • You’re ambitious and want to future-proof your editing skills with AI\n • You enjoy fast-paced environments and rapid iteration\n • You care about performance, not just aesthetics\n • You want to learn how ads actually scale brands\n • You take ownership and don’t need hand-holding\n ❌ This role is NOT for you if: \n ﻿• You want slow timelines and predictable routines\n • You only want to do traditional editing without learning AI tools\n • You get stressed by fast feedback and frequent changes\n • You prefer clear-cut tasks over problem-solving\n • You’re looking for a passive or low-responsibility role",
-      "vista": "2026-11-10T20:23:16.190Z"
-    },
-    {
-      "id": "371063",
-      "tipo": "CONTRACT",
-      "titulo": "Senior Motion Designer (Startup Launch Videos)",
-      "presupuesto": "3000–4000 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371063/Senior-Motion-Designer-(Startup-Launch-Videos)",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Strive Haus",
-      "contacto": "Max Musgrave",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Strive Haus makes cinematic launch videos for venture-backed and YC-backed startups. We're hiring a senior motion designer to animate product launch films end to end.\n What you'll do\n • Animate 30-90 second launch videos: UI animation, typography, 2D/3D motion, transitions\n • Turn scripts and storyboards into polished motion, working directly with the founder\n • Ship fast: typical turnaround is 1-2 weeks per video\n What we're looking for\n • A reel that shows exceptional timing, easing and taste\n • Expert After Effects; Cinema 4D or Blender is a plus\n • Experience with SaaS or product launch videos\n • Comfort with AI video tools, or eagerness to learn them\n • Good English and reliable async communication\n Details\n • Remote, monthly contract, $3,000-4,000 USD depending on skill\n • Paid test project as part of the process\n To apply: send your reel and the one project you're proudest of.",
       "vista": "2026-11-10T20:23:16.190Z"
     }
   ]
