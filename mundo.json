@@ -1,6 +1,48 @@
 {
-  "actualizado": "2026-11-12T03:22:13.262Z",
+  "actualizado": "2026-11-12T05:24:48.824Z",
   "ofertas": [
+    {
+      "id": "elavate/jobs/junior-creative-strategist",
+      "tipo": "FULL_TIME",
+      "titulo": "Junior Creative Strategist",
+      "presupuesto": "40.000–45.000 GBP/año",
+      "enlace": "https://himalayas.app/companies/elavate/jobs/junior-creative-strategist?utm_source=api",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Guernsey, Holy See (Vatican City State), Hungary, Iceland, Ireland, Isle of Man, Italy, Jersey, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Monaco, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Svalbard and Jan Mayen, Sweden, Switzerland, Ukraine, United Kingdom, Åland Islands",
+      "empresa": "Elavate",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "The role at a glance\n We're hiring a sharp, AI-native Junior Creative Strategist to make sure every video ad we launch is the best version of itself.\n Role: Junior Creative Strategist\n Salary: £40,000 - £45,000 base, depending on experience\n Location: Remote-first, based in the UK or Europe\n Hours: Full-time, flexible\n Reports to: a Senior Creative Strategist\n About Elavate \n Elavate is a UK multi-collagen brand for women 40+, built to help them feel like themselves again through menopause and beyond.\n We launched in 2024 and have grown into one of the fastest-growing DTC brands in the UK. We're fully bootstrapped and have grown almost entirely through performance ads.\n It started when our founder, Alex, got fed up of buying his mum overpriced, low-quality, bad-tasting collagen. So he made",
+      "vista": "2026-11-12T05:24:48.824Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Puesto remoto en Europa (Países Bajos incluido) de revisar y mejorar anuncios de vídeo con IA. Encaja con su edición, sus anuncios de rendimiento y sus flujos de IA.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\n\nGetting 100+ ad concepts a month from raw script to launch-ready, with no second check needed, takes a sharp eye on every edit and a pipeline that gets faster every week.\nI'm Leo Gómez. I run LeoVisual.nl, an AI creative studio in Amsterdam (EU citizen, Spanish nationality). I've made short performance ads for 2 years and I edit in Premiere and After Effects, so I review cuts the way an editor would: captions, clipped words, audio levels, pacing, weak B-roll and hooks that don't connect to the body.\nTwo pieces of my work are close to this role. ORBE and SILENCIO are cinematic ads made with AI: idea, generation with Kling and Seedance, edit and sound. I've also built AI agent systems for businesses, with one agent per department, daily reports and n8n/Make workflows.\nIn the first weeks, I would study your winning ads and their comments to learn what works. Then I'd give clear \"change X because Y\" notes with timestamps in Frame.io, plan cutdowns and extra hooks for each ad, and keep the Notion board up to date so final files reach media buying named and ready.\nOn the AI side, I'd help turn your references and formats into workflows you can reuse, and check AI edits as closely as human ones.\nMy English is at a working level (B1) and Spanish is my native language. I'm happy to do a test review of one of your first drafts.\nWhich part of the pipeline slows you down most right now: first drafts, feedback rounds or influencer files?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [
+          "menciona años"
+        ],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1929,
+          "salida": 1906,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.060831,
+        "generada": "2026-11-12T05:24:47.963Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "hire-overseas/jobs/creative-designer-static-and-motion-bbs935",
       "tipo": "FULL_TIME",
