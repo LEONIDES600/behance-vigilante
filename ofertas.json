@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T05:42:28.423Z",
+  "actualizado": "2026-11-12T05:52:16.784Z",
   "ofertas": [
+    {
+      "id": "567673",
+      "tipo": "FREELANCE",
+      "titulo": "Dropshipping Advertising — Paid Media Specialist",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567673/Dropshipping-Advertising-Paid-Media-Specialist",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "davidoutwear",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "PROJECT: DaviDoutwear — Dropshipping Advertising — Paid Media Specialist (Google & Meta Ads)\nHello,\nWe are Davidoutwear, a fashion brand looking for experienced Google Ads and Meta Ads (Facebook & Instagram) specialists to help promote our fashion products in the United States.\nJob Responsibilities:\nDevelop advertising strategies for Davidoutwear.\nSet up and manage Google Ads and Facebook/Instagram campaigns.\nResearch and target potential customers in the U.S. market.\nOptimize advertising budgets and campaign performance.\nIncrease website traffic, brand awareness, and online sales.\nMonitor, analyze, and report advertising results.\nCandidate Requirements:\nProven experience with Google Ads and Meta Ads.\nExperience working with fashion or e-commerce brands is preferred.\nAbility to develop effective advertising strategies for the U.S. market.\nStrong understanding of advertising optimization and sales growth.\nInterest in a potential long-term partnership.\nApplication – 100% FREE\nNo application fee.\nNo registration fee.\nFree to submit your application.\nNo payment is required to apply for this project.\nHow to Apply:\nIf you are interested in working with Davidoutwear, please complete the application form below.\nGoogle Forms Application: https://forms.gle/vc4t3wUzexrhZmSy9\nPlease provide information about your professional experience, portfolio, proposed advertising strategy, and service pricing.\nOur team will review your application and contact suitable candidates for potential colla",
+      "vista": "2026-11-12T05:52:16.784Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden un especialista en gestión de campañas de Google Ads y Meta Ads con experiencia demostrada, algo que Leo no tiene confirmado; además, la oferta tiene señales de posible estafa (Google Forms y «solicitud 100 % gratis»).",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 972,
+          "salida": 499,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.028863,
+        "generada": "2026-11-12T05:52:15.945Z"
+      }
+    },
     {
       "id": "567671",
       "tipo": "FREELANCE",
@@ -2913,23 +2952,6 @@
       "cierraEnDias": 14,
       "dondeSolicitar": "",
       "descripcion": "I need an illustrator to create visual design assets for a mobile tactical sports game. The work should support the game's tactical sports theme with polished, engaging illustrations suited to a mobile experience.",
-      "vista": "2026-11-10T20:00:10.086Z"
-    },
-    {
-      "id": "566635",
-      "tipo": "FREELANCE",
-      "titulo": "Illustrated Pitch Presentation Design",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566635/Illustrated-Pitch-Presentation-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need an illustrator and PowerPoint designer to create a polished pitch presentation. The work should combine custom illustration with a clear, professionally designed slide deck.",
       "vista": "2026-11-10T20:00:10.086Z"
     }
   ]
