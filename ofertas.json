@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T22:25:47.875Z",
+  "actualizado": "2026-11-12T22:48:28.365Z",
   "ofertas": [
+    {
+      "id": "568155",
+      "tipo": "FREELANCE",
+      "titulo": "Création D’Un Logo Et Direction Artistique Brute Pour Une Société De Production",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568155/Cration-DUn-Logo-Et-Direction-Artistique-Brute-Pour-Une-Socit-De-Production",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Je recherche un artiste pour créer le logo de ma société de production et, si possible, développer l’ensemble de sa direction artistique. Je souhaite un univers très brut et veux échanger avec un créatif afin de définir les idées et l’orientation visuelle, car je n’ai pas encore de concept précis.",
+      "vista": "2026-11-12T22:48:28.365Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo y dirección artística de marca: Leo puede hacerlo con IA y diseño gráfico, pero no tiene ninguna pieza de branding en el portfolio, y la oferta está en francés (contestamos en inglés).",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA production company with a raw visual universe needs a logo that holds up on screen as well as on paper, and it makes sense to shape the idea together instead of starting from a fixed brief.\nI'm Leo, an AI creative studio in Amsterdam. I don't speak French, so I'd work with you in English (or Spanish) if that suits you.\nMy closest work is ORBE and SILENCIO, two cinematic ads made with AI where I handled the idea, generation, editing and sound. I don't have a logo or branding project in my portfolio yet, so I'm happy to start with a short sample or test.\nHow I'd do it: first a call to talk about your references and the kind of films you make. Then 2–3 raw visual directions as moodboards. Next, the logo built from the direction you pick. Finally, a short art direction guide with typography, colours, textures and how the brand appears in titles and video.\nPrice: 1000 USD for the logo and art direction, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhat kind of productions does your company make (films, ads, music videos), and do you have 2 or 3 references that feel \"raw\" to you?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 463,
+          "salida": 1160,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.040047,
+        "generada": "2026-11-12T22:48:27.631Z"
+      }
+    },
     {
       "id": "568137",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.048571,
         "generada": "2026-11-11T10:12:14.772Z"
-      }
-    },
-    {
-      "id": "567027",
-      "tipo": "FREELANCE",
-      "titulo": "Logo Design and Brand Identity for a Property Maintenance and Handyman Business",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567027/Logo-Design-and-Brand-Identity-for-a-Property-Maintenance-and-Handyman-Business",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for a talented brand identity designer to develop a distinctive, professional visual identity for my new business, Standby Property Services.\nThe business provides property maintenance, handyman services and general repairs, serving both residential and commercial customers.\nI want to establish a recognisable, trustworthy brand that feels established, confident and contemporary. The identity should be clean, understated and thoughtfully designed, with a strong emphasis on typography and visual simplicity.\nI’m looking for original creative thinking rather than a predictable tradesperson aesthetic. Please avoid obvious house silhouettes, rooftops, hammers, spanners and other generic trade-related imagery. I’m particularly interested in designers who can create something distinctive through typography, composition and considered design.",
-      "vista": "2026-11-11T09:52:57.005Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es logo e identidad visual, un trabajo que Leo puede hacer, pero no tiene ningún logo en el portfolio; la carta lo dice y ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nStandby Property Services needs an identity that feels established and calm, built on typography and composition instead of houses, roofs or tools. I like that brief a lot.\nTo be honest, I don't have a logo project in my portfolio yet. My work is graphic design for ads and social media, motion graphics and 3D websites like LUMEN and FORJA, where clean type and simple layouts do most of the work.\nThis is how I would do it:\n1. A short brief about your clients, tone and where the logo will be used (vans, uniforms, invoices, web).\n2. 2–3 different typographic directions, shown on real mockups.\n3. We pick one and I refine it: wordmark, short version or monogram, colours and fonts.\n4. Final files (SVG, PDF, PNG) and a simple one-page guide.\nIf it helps you decide, I can first make a short sample of one direction.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you see the brand mainly as a wordmark, or are you open to a monogram like \"SPS\" as well?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 600,
-          "salida": 975,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.036075,
-        "generada": "2026-11-11T09:52:55.937Z"
       }
     }
   ]
