@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T02:23:03.962Z",
+  "actualizado": "2026-11-12T02:27:49.606Z",
   "ofertas": [
+    {
+      "id": "567619",
+      "tipo": "FREELANCE",
+      "titulo": "Product Designer and Illustrator Needed",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567619/Product-Designer-and-Illustrator-Needed",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a creative illustrator and graphic designer to help bring a South Asian-inspired family card game to life.\nThe game is a fast-paced visual matching and reaction game featuring colourful illustrations inspired by Sri Lankan, Indian, Pakistani, and Bangladeshi cultures.\nI'm looking for someone who can create a cohesive, playful, and visually appealing illustration style while also designing the playing cards, magnetic box packaging, and instruction leaflet.\nThe game will be professionally manufactured and sold commercially. I already have the game concept, illustration list, visual references, and manufacturer templates.\nExperience designing physical card games, tabletop games, or retail packaging would be highly preferred.",
+      "vista": "2026-11-12T02:27:49.606Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Ilustración con IA, cartas y packaging: puede hacerlo, pero no tiene ninguna pieza igual en el portfolio, la carga es alta para 250 USD y la impresión exige ajustarse a las plantillas del fabricante.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\n\nA fast matching game needs one playful style that people can recognise at a glance, and it has to stay clear and print-ready on the cards, the magnetic box and the leaflet.\nTo be transparent: I'm an AI creative studio, and I don't have a card game or a game box in my portfolio yet. What I do have is commercial work for an Amazon home brand (many product listing images and A+ content), along with motion graphics, graphic design and 3D work in Adobe.\nHow I would do it: first, use your references and illustration list to set a style guide (colour palette, line style, character proportions). Then create the illustrations with AI and refine them by hand in Adobe so they stay consistent and respectful of each culture. After that, lay out the cards, box and leaflet on your manufacturer templates and send you print files for your approval.\nBefore you decide, I can make a short free sample: 3 cards in the proposed style.\nPrice: 250 USD, with 50% upfront. Delivery in 7–10 days, including 2 rounds of changes.\nRoughly how many unique illustrations are on your list, and what file format and colour profile does your manufacturer need?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 576,
+          "salida": 986,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0226238,
+        "generada": "2026-11-12T02:27:48.706Z"
+      }
+    },
     {
       "id": "567617",
       "tipo": "FREELANCE",
@@ -2826,23 +2865,6 @@
       "dondeSolicitar": "",
       "descripcion": "Job Summary:\nAl-Taawon Co. is hiring a Senior Graphic Designer to lead our visual storytelling, social media campaigns, and brand aesthetics. We are looking for an experienced creative who excels in motion graphics, visual art direction, and AI-driven workflows.\nKey Responsibilities:\nMotion & Visual Design: Conceptualize and produce motion graphics, animations, and high-converting visual assets for social media and advertising campaigns.\nBrand Governance: Maintain, enforce, and evolve company brand identity, design systems, and visual consistency across all media.\nAI Tool Integration: Utilize AI-powered design tools for rapid ideation, asset generation, and visual enhancement.\nWorkflow Management: Manage end-to-end design projects independently while meeting tight deadlines under pressure.\nQualifications & Core Skills:\nExperience: Minimum 5 years of professional graphic design experience with strong expertise in Motion Graphics & Animation.\nSoftware: Advanced proficiency in Adobe",
       "vista": "2026-11-10T19:56:54.218Z"
-    },
-    {
-      "id": "566093",
-      "tipo": "FREELANCE",
-      "titulo": "Designd Brand Identity Pack",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566093/Designd-Brand-Identity-Pack",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Designd",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 13,
-      "dondeSolicitar": "",
-      "descripcion": "I am looking for a designer to build a practical identity system for Designd and apply it across social media, business documents and event displays. \nDeliverables:\nPost templates\nInvoice\nQuotation\nEmail signature\nLetterhead\nPull-up banner\nTeardrop flag\nEvent backdrop",
-      "vista": "2026-11-10T19:54:45.161Z"
     }
   ]
 }
