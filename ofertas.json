@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T20:03:19.911Z",
+  "actualizado": "2026-11-12T20:45:03.074Z",
   "ofertas": [
+    {
+      "id": "568053",
+      "tipo": "FREELANCE",
+      "titulo": "Freelance Graphic Designer for a 20-Day Hybrid Visual Content Project",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568053/Freelance-Graphic-Designer-for-a-20-Day-Hybrid-Visual-Content-Project",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Delta Flint",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Buscamos un/a Diseñador/a Gráfico/a Freelance para un proyecto híbrido de duración determinada de 20 días. Necesitamos un perfil creativo, organizado y orientado al detalle, con experiencia desarrollando piezas gráficas y contenido visual para distintos formatos y canales de comunicación. Es indispensable contar con disponibilidad durante todo el proyecto, computador propio, licencias vigentes de las herramientas necesarias, capacidad para emitir facturas a nombre del/la profesional que prestará el servicio y un portafolio que permita evaluar la experiencia y calidad del trabajo. Requerimos un mínimo de dos años de experiencia en diseño gráfico, manejo de piezas para medios digitales y redes sociales, conocimientos en branding, campañas y adaptación de contenidos, además de experiencia previa en áreas relacionadas.",
+      "vista": "2026-11-12T20:45:03.074Z",
+      "carta": {
+        "decision": "espera",
+        "motivo": "Encaja con diseño para redes y campañas, pero exige 2 años de diseño gráfico, que no está confirmado, y dice «híbrido» aunque marca remoto.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "media",
+        "texto": "¡Hola!\nNecesitáis piezas gráficas para redes y campañas durante 20 días, adaptadas a distintos formatos y canales y coherentes con la marca. Puedo dedicarme al proyecto durante todo ese tiempo, con equipo y licencias propios, y facturar a mi nombre desde LeoVisual.nl (Ámsterdam).\nPara una marca de hogar que vende en Amazon en varios países de Europa (bajo NDA) he hecho muchas imágenes y vídeos de producto, contenido A+ y la web, adaptando cada pieza a cada formato y mercado. También he hecho anuncios como ORBE y SILENCIO, de la idea al montaje final.\nMi forma de trabajar: reviso vuestra guía de marca, preparo una pieza base por campaña, la adapto a cada formato (feed, stories, banners) y os entrego todo ordenado con los archivos editables.\nNo tengo en el portfolio un proyecto de identidad de marca completo; si os sirve, os preparo una muestra corta con vuestra marca antes de empezar.\nPresupuesto: 2500 USD, 50 % por adelantado, primera entrega en 7–10 días y el resto dentro de los 20 días, con 2 rondas de cambios.\nComo la oferta dice «híbrido»: ¿se puede hacer 100 % en remoto? ¿Y cuántas piezas y formatos calculáis para esos 20 días?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "Piden un mínimo de 2 años en diseño gráfico: ¿los tienes? (Además, dice «híbrido» aunque marca remoto; en la carta les pregunto si puede ser 100 % remoto.)",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 670,
+          "salida": 1833,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.054335,
+        "generada": "2026-11-12T20:45:02.128Z"
+      }
+    },
     {
       "id": "368737",
       "tipo": "FULLTIME",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.043219,
         "generada": "2026-11-11T07:28:41.098Z"
-      }
-    },
-    {
-      "id": "566951",
-      "tipo": "FREELANCE",
-      "titulo": "Corporate Logo and Visual Identity Design for Pionus Energy",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566951/Corporate-Logo-and-Visual-Identity-Design-for-Pionus-Energy",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Pionus Energu Private Limited",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Pionus Energy Private Limited is seeking an experienced freelance brand and logo designer to develop a commanding, institutional visual identity for our renewable-energy consulting and integrated solutions business.\nThe identity should distinguish Pionus Energy from the familiar visual language of small-scale contractors and local service providers. It must position the company as a structured, credible, technically capable, and forward-looking corporate enterprise.\nOur key audiences include:\nLeading technical consulting firms\nInvestors and financial stakeholders\nProject developers\nGovernment bodies and public-sector organisations\nCorporate and industrial clients\nStrategic partners\nThe identity must communicate:\nCorporate authority\nTechnical expertise\nPrecision and high quality\nStability and long-term reliability\nForward-thinking innovation\nReadiness for large-scale projects\nThis engagement is focused on developing a high-quality core logo and essential corporate identity system. It is not intended to be a full-scale brand strategy or communications programme.",
-      "vista": "2026-11-11T07:00:21.676Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Logo e identidad: Leo puede hacerlo, pero no tiene una pieza igual en el portfolio; el presupuesto llega a 250 USD, así que es aceptable.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nPionus Energy needs an identity that reads as a structured, credible partner for investors, public bodies and large industrial clients, clearly apart from the look of small local contractors.\nTo be honest, I don't have a logo or corporate identity project like this in my portfolio yet. My work is in graphic design, 3D web (LUMEN, FORJA and MORVAIN) and visual content for a home brand selling on Amazon in several European countries, where a clean, consistent and credible look is key.\nHow I would approach it: a short brief on your values and audiences, then 2–3 logo directions (wordmark and symbol) with a restrained palette and a precise typeface. After that, I would refine the chosen one into a core identity system: logo versions, colours, typography and basic usage rules, delivered as vector files.\nIf it helps, I can first make a short sample direction so you can judge the fit before you decide.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have colours or references you want to keep, or should I start from a blank page?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 672,
-          "salida": 1387,
-          "cacheLeida": 2835,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.030995,
-        "generada": "2026-11-11T07:00:07.199Z"
       }
     }
   ]
