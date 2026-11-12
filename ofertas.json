@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T02:27:49.606Z",
+  "actualizado": "2026-11-12T02:50:47.598Z",
   "ofertas": [
+    {
+      "id": "567623",
+      "tipo": "FREELANCE",
+      "titulo": "3D GLB Models of Five Bikes From Photos",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567623/3D-GLB-Models-of-Five-Bikes-From-Photos",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need 3D GLB (glTF 2.0) models created for five bikes using supplied photos as references. The final models should accurately represent each bike and be delivered in the requested GLB format.",
+      "vista": "2026-11-12T02:50:47.598Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Leo hace 3D y webs en three.js, pero no tiene en el portfolio modelos de producto fieles a partir de fotos; carta honesta que ofrece hacer primero una bici de prueba.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nYou need five bikes turned into accurate GLB (glTF 2.0) models from your reference photos, ready to use wherever you plan to show them.\n3D is part of my work, and I've built 3D scroll websites in code with three.js + GSAP (LUMEN, FORJA and MORVAIN), so I know the real-time 3D setting these files are made for.\nTo be honest, I don't have bike models in my portfolio yet, so I'm happy to model one bike first as a test before you commit to all five.\nMy process: study the photos and set up the proportions, block out the frame and wheels, add the details (drivetrain, handlebars, saddle, cables), apply materials and colours that match each bike, then export to GLB and check every file in a glTF viewer.\nPrice: 500 USD for the five models, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhat will the models be used for (web viewer, AR, configurator), and do you have a polygon or file-size limit?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 399,
+          "salida": 1284,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.042271,
+        "generada": "2026-11-12T02:50:46.598Z"
+      }
+    },
     {
       "id": "567619",
       "tipo": "FREELANCE",
@@ -2848,23 +2887,6 @@
       "dondeSolicitar": "",
       "descripcion": "Overview\nWe’re a media studio looking for a freelance video animator to join us on upcoming client projects. This is project-based work with the chance of repeat engagements if it’s a good fit. You’ll work with our senior designer, who reviews all work before it goes to clients.\nKey deliverables\nAnimatied Logo designs\nAnimated videos from provided scripts, storyboards or design files\nMotion graphics, transitions and basic sound sync\nRevisions based on feedback\nFinal files exported in the formats we specify\nWhat we’re looking for\nA proactive animation designer\nComfortable with design tools and Ai\nReliable communication and the ability to hit deadlines\nExperience working remotely with a team\nHow to apply\nPlease send a link to your portfolio, your rate or expected rate per project, and your availability. Shortlisted applicants will have a interview.",
       "vista": "2026-11-10T19:59:03.632Z"
-    },
-    {
-      "id": "566581",
-      "tipo": "FREELANCE",
-      "titulo": "Senior Graphic Designer",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566581/Senior-Graphic-Designer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Al-Taawon Hyper Market",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Job Summary:\nAl-Taawon Co. is hiring a Senior Graphic Designer to lead our visual storytelling, social media campaigns, and brand aesthetics. We are looking for an experienced creative who excels in motion graphics, visual art direction, and AI-driven workflows.\nKey Responsibilities:\nMotion & Visual Design: Conceptualize and produce motion graphics, animations, and high-converting visual assets for social media and advertising campaigns.\nBrand Governance: Maintain, enforce, and evolve company brand identity, design systems, and visual consistency across all media.\nAI Tool Integration: Utilize AI-powered design tools for rapid ideation, asset generation, and visual enhancement.\nWorkflow Management: Manage end-to-end design projects independently while meeting tight deadlines under pressure.\nQualifications & Core Skills:\nExperience: Minimum 5 years of professional graphic design experience with strong expertise in Motion Graphics & Animation.\nSoftware: Advanced proficiency in Adobe",
-      "vista": "2026-11-10T19:56:54.218Z"
     }
   ]
 }
