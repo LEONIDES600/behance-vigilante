@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T19:01:35.482Z",
+  "actualizado": "2026-11-12T19:04:52.504Z",
   "ofertas": [
+    {
+      "id": "567989",
+      "tipo": "FREELANCE",
+      "titulo": "Freelance Content Creation and Graphic Design for a Luxury Fashion Showroom",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567989/Freelance-Content-Creation-and-Graphic-Design-for-a-Luxury-Fashion-Showroom",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Sabor Showroom",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a freelance content creator and graphic designer to support a luxury fashion showroom with polished visual content and design assets.",
+      "vista": "2026-11-12T19:04:52.504Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Piden contenido y diseño para redes de un showroom de moda, que encaja con sus anuncios con IA y su contenido de producto; no exige nada técnico de moda.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA luxury fashion showroom needs visuals that feel calm, premium and consistent on every post, and that is the kind of content I would like to build for you.\nAt LeoVisual.nl, my AI creative studio in Amsterdam, I made ORBE and SILENCIO, two cinematic ads created with AI (idea, generation, editing and sound).\nI also create many product images and videos for a home brand that sells in several European countries (under NDA), together with A+ content and their website.\nI don't have a fashion piece in my portfolio yet, so I am happy to make a short free sample with one of your looks first.\nMy process: 1) a short moodboard and visual rules based on your brand, 2) images and short videos made with AI, plus editing in Premiere and After Effects, 3) graphic design for posts, stories and reels, 4) final files ready for each platform.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nWhich platforms do you want to focus on, and how many pieces do you need each month?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 405,
+          "salida": 972,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0216598,
+        "generada": "2026-11-12T19:04:51.679Z"
+      }
+    },
     {
       "id": "371677",
       "tipo": "CONTRACT",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.024175,
         "generada": "2026-11-11T05:50:57.682Z"
-      }
-    },
-    {
-      "id": "564555",
-      "tipo": "FREELANCE",
-      "titulo": "High-Quality Motion Graphics Videos for a SaaS Company",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/564555/High-Quality-Motion-Graphics-Videos-for-a-SaaS-Company",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "nTop",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 9,
-      "dondeSolicitar": "",
-      "descripcion": "I need a motion graphic designer to produce high-quality motion graphic videos for my SaaS company. The videos should communicate our software product and brand clearly through polished motion design.",
-      "vista": "2026-11-11T05:28:10.023Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Encargo remoto de motion graphics para SaaS, encaja con sus servicios y el presupuesto es bueno.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nA good SaaS video has to make the product, its value and the brand clear in a few seconds, without making it feel complicated.\nI make motion graphics in After Effects and Premiere. I have produced showcase videos for AI agent systems, where the goal was also to make software easy to understand. My AI ads ORBE and SILENCIO show how I work with pacing, editing and sound.\nI don't have a SaaS explainer exactly like yours in my portfolio yet, so I'm happy to make a short sample first, using your UI and brand.\nHow I would work: 1) define the key message and audience with you, 2) script and storyboard, 3) animate your UI screens, icons and brand elements, 4) edit, add sound design and deliver in the formats you need.\nPrice: 2500 USD for the project, 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nHow many videos do you need, and for which use (website, product demo or social media) and length?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 407,
-          "salida": 1240,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.040603,
-        "generada": "2026-11-11T05:28:09.298Z"
       }
     }
   ]
