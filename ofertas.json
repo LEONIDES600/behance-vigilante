@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T21:29:18.247Z",
+  "actualizado": "2026-11-12T21:45:48.243Z",
   "ofertas": [
+    {
+      "id": "568077",
+      "tipo": "FREELANCE",
+      "titulo": "Product, UI/UX, Research, Design Systems, and Responsive Design",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568077/Product-UIUX-Research-Design-Systems-and-Responsive-Design",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for support across product design, UI design, UX design, UX research, design systems, and responsive design. The work should create intuitive, consistent digital experiences that perform effectively across screen sizes.",
+      "vista": "2026-11-12T21:45:48.243Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Diseño web y landings encajan, pero no hay casos de investigación UX ni de sistemas de diseño en el portfolio; se envía con carta honesta.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYou need digital screens that feel intuitive, stay consistent and work well on every screen size, backed by a clear design system.\nI design and build websites and landing pages with an AI-assisted workflow. LUMEN, FORJA and MORVAIN are 3D scroll websites I built in code (three.js + GSAP).\nI don't have a dedicated UX research or design system case study in my portfolio yet, so I'm happy to start with a short sample screen or a test.\nHow I'd approach it: a quick review of your product and users, then the key flows and wireframes in Figma, then a small component library (colours, type, buttons, forms) and finally the UI adapted for desktop, tablet and mobile.\nFor a first scope like this: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nIs this for an existing product that needs a redesign or a new one, and roughly how many screens do you have in mind?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 422,
+          "salida": 1363,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.043943,
+        "generada": "2026-11-12T21:45:47.450Z"
+      }
+    },
     {
       "id": "568065",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.042031,
         "generada": "2026-11-11T09:30:32.227Z"
-      }
-    },
-    {
-      "id": "567013",
-      "tipo": "FREELANCE",
-      "titulo": "Complete Design System & Component Library",
-      "presupuesto": "5000–10.000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567013/Complete-Design-System-Component-Library",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Project Overview\nWe need a professional UI/UX designer to review the existing User interface and develop a complete, scalable design system based on its current visual identity.\nThe existing application already has an established product direction. Instead of creating an entirely new visual concept, the objective is to standardize existing components, improve consistency, and establish reusable design rules.\nProject Scope\n1. Visual Foundation\nDefine primary and secondary color palettes.\nEstablish typography scales and font hierarchy.\nDefine spacing, sizing, and layout guidelines.\nEstablish border, radius, shadow, and icon conventions.\n2. Component Library\nCreate reusable components for:\nPrimary and secondary buttons.\nInput fields and form controls.\nCards and content containers.\nNavigation bars and menus.\nDropdowns and tooltips.\nModal windows and dialogs.\nNotifications and alerts.\nTabs, badges, and status indicators.\n3. Component States\nEach relevant component should include:\nDefault.\nHover.\nActive.\nFocus.\nDisabled.\nLoading.\nError.\nSuccess.\n4. Design Documentation\nOrganize Figma components and variants.\nDefine component usage guidelines.\nDocument responsive behavior.\nEstablish consistent naming conventions.\nEnsure the system is easy to maintain and extend.",
-      "vista": "2026-11-11T09:25:09.226Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es diseño UI en Figma y Leo hace webs, pero no tiene ningún design system completo en el portfolio; se envía con una carta honesta y ofreciendo una prueba.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nYour app already has a clear direction, so the job is to turn what exists into one consistent, documented system in Figma, not to reinvent the look.\nI design and build websites like LUMEN, FORJA and MORVAIN, 3D scroll sites made in code (three.js + GSAP). On those I had to keep colors, type, spacing and components consistent across many sections.\nTo be transparent, my portfolio doesn't include a full design system like this one yet. I'm happy to start with a short test first, for example the buttons and input fields with all their states.\nHow I would work:\n1) Review the current screens and list every color, font style and component version in use.\n2) Define the color palettes, type scale, spacing and layout rules, and the radius, shadow and icon conventions.\n3) Build the components in Figma with variants for default, hover, active, focus, disabled, loading, error and success.\n4) Write usage guidelines, explain how each component adapts to screen size, and set clear naming conventions.\nPrice: 10000 USD, 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nAbout how many screens does the app have, and is the current UI already in Figma or only in the live product?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 10000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 773,
-          "salida": 1374,
-          "cacheLeida": 2835,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.031139,
-        "generada": "2026-11-11T09:25:07.586Z"
       }
     }
   ]
