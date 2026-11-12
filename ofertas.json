@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-11T23:21:50.174Z",
+  "actualizado": "2026-11-12T02:08:53.994Z",
   "ofertas": [
+    {
+      "id": "567613",
+      "tipo": "FREELANCE",
+      "titulo": "Freelance Digital Designer",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567613/Freelance-Digital-Designer",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "DAY Media LLC",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Dope as Yola is looking for a versatile designer for ongoing creative work across his YouTube content, comedy shows, and brand promotions. You’ll create bold, polished graphics that feel right for each project and are ready to use across social media.\nTo apply: Please share a portfolio with examples you personally created, your typical turnaround time, availability, rates, and the tools you use. Include a brief note confirming that your workflow does not use AI tools.",
+      "vista": "2026-11-12T02:08:53.994Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exigen confirmar que el flujo de trabajo no usa IA, y Leo es un estudio creativo con IA con un portfolio hecho con IA.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 476,
+          "salida": 623,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.029359,
+        "generada": "2026-11-12T02:08:53.212Z"
+      }
+    },
     {
       "id": "567549",
       "tipo": "FREELANCE",
@@ -2782,23 +2821,6 @@
       "dondeSolicitar": "",
       "descripcion": "NextPlay, a sports and talent production agency, is hiring a freelance logo designer based in the U.S. South, ideally in Atlanta, Dallas, or Houston. The total budget for all five stages of the logo project is $150–$250. We need a designer who is active in their local creative community and understands Gen Z sports, music, and streetwear culture. Selected candidates will receive a creative brief covering all five project stages, plus moodboard references to guide the logo’s visual direction.",
       "vista": "2026-11-10T19:54:45.161Z"
-    },
-    {
-      "id": "565873",
-      "tipo": "FREELANCE",
-      "titulo": "2D Character Design (Minimalist, Comical)",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565873/2D-Character-Design-(Minimalist-Comical)",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 12,
-      "dondeSolicitar": "",
-      "descripcion": "We’re developing an original character IP for a kidult audience: a small girl with a tough exterior and a soft heart. The character’s concept, backstory and silhouette are already set. We need a skilled character designer to take her through a full, professional character design process. Your work will be the foundation for her future social media and online content.\nKeep in mind: \nThis character is made for future social media and online content: short, scroll-stopping posts on phone screens. The design needs to read instantly at small sizes, stay consistent across many different artists’ hands, and be simple enough to reproduce quickly.\nMust-haves:\n- A portfolio showing strong character expression and acting, beyond cute static poses\n- A minimalist illustration style: clean shapes, few lines, emotion carried with economy\n- Proven experience with a full character design process, from exploration and iteration to a finished model sheet\n- A good sense of comedic timing, exaggeration and contrast\n- Clear communication and the ability to explain and defend design choices\n- Organized, layered source files (Procreate, Illustrator, Photoshop or similar)\nNice to have: \n- Experience with original character IP, mascots, or kidult and designer-toy brands\n- Experience designing characters for animation, comics or social content",
-      "vista": "2026-11-10T19:53:39.694Z"
     }
   ]
 }
