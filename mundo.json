@@ -1,6 +1,88 @@
 {
-  "actualizado": "2026-11-12T20:53:18.721Z",
+  "actualizado": "2026-11-12T22:56:22.846Z",
   "ofertas": [
+    {
+      "id": "mindful-souls/jobs/ai-video-editor",
+      "tipo": "FULL_TIME",
+      "titulo": "AI Video Editor",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/mindful-souls/jobs/ai-video-editor?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Germany",
+      "empresa": "Mindful Souls",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "The Role\n We’re looking for an AI Video Editor who can independently create performance video ads — from angle\n and script to AI generation, edit, and final export. This is a performance role: your work will be judged by\n how your ads perform, not by how cinematic they look. If you love testing hooks, reading the numbers,\n and shipping the next variation fast, you’ll fit right in.\n How your time will be spent\n ~60%\n AI production & editing\n ~25%\n Concepts, hooks & scripts\n ~15%\n Testing & iteration\n Your AI Toolkit\n Claude Research, ad angles, scripts, hooks, and briefs\n Arcads AI UGC-style ads with AI actors and avatars\n Higgsfield AI video generation, camera control, and motion effects\n Others AI voice (e.g. ElevenLabs) and other AI video/image tools as needed\n Editing Premiere Pro, CapC",
+      "vista": "2026-11-12T22:56:22.846Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Encaja con anuncios de rendimiento hechos con IA. Leo cumple con 2 años de anuncios cortos, pero no ha usado Arcads ni Higgsfield. Pone «Germany», aunque no exige residir allí; Leo es de la UE.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\n\nYou need someone who can take a performance ad from angle and hook to AI generation, edit and every export ratio, and then quickly ship the next variation based on the results.\nI've been making short performance ads for 2 years, and I run my own AI creative studio in Amsterdam (EU citizen, CET time zone).\nFor a home brand selling on Amazon in several European countries (under NDA), I produced a large volume of product images and listing videos, keeping the product and brand look consistent across AI shots.\nORBE and SILENCIO are AI-made ads where I handled everything myself: idea, generation, editing and sound.\nMy workflow: angle and script with a strong 3-second hook, storyboard, generation in Kling or Seedance, then edit and polish in Premiere, After Effects or CapCut, and export in 9:16, 4:5, 1:1 and 16:9.\nTo be honest, I haven't used Arcads or Higgsfield yet, and I haven't managed ad accounts. I'd learn your tools quickly and build the variations around the metrics your team reviews.\nMy English is at a working level, and I'm happy to do a paid or unpaid test ad so you can judge the result yourself.\nWhich product or offer would you want the first round of hook variations to focus on?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [
+          "menciona años"
+        ],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1455,
+          "salida": 1413,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.049075,
+        "generada": "2026-11-12T22:56:18.313Z"
+      },
+      "fuente": "himalayas"
+    },
+    {
+      "id": "benifex/jobs/knowledge-manager",
+      "tipo": "FULL_TIME",
+      "titulo": "Knowledge Manager",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/benifex/jobs/knowledge-manager?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Ireland, United Kingdom",
+      "empresa": "Benifex",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Who are Benifex ? 💚💜\n We are a fast-moving technology company, and one of the most successful providers of online reward and benefits solutions in the world. We believe that everyone deserves an exceptional experience at work, every day, and build workplace technology that makes this happen. Benifex ’s mission is to build remarkable experiences that employees love. Today Benifex supports more than five million employees in over 3,000 organisations across more than 100 countries. To help us on our quest to be the best, we need brilliant people on board and that’s where you come in. 🚀\n Why you should apply? 🌟\n Play a pivotal role in shaping a trusted, scalable, and future ready knowledge ecosystem across our Support function.\n Work at the heart of product, process, training, and AI impro",
+      "vista": "2026-11-12T22:56:22.846Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exigen vivir en Reino Unido o Irlanda y no patrocinan visado; además es gestión de conocimiento en Zendesk, no un servicio de Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1585,
+          "salida": 400,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0149398,
+        "generada": "2026-11-12T22:56:22.282Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "magellan-partners/jobs/senior-manager-transformation-ia-luxe-retail-h-f",
       "tipo": "FULL_TIME",
