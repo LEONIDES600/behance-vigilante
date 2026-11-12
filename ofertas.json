@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T05:53:44.155Z",
+  "actualizado": "2026-11-12T05:55:02.837Z",
   "ofertas": [
+    {
+      "id": "567677",
+      "tipo": "FREELANCE",
+      "titulo": "UI/UX Modernization and Design System Improvement",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567677/UIUX-Modernization-and-Design-System-Improvement",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are looking for an experienced UI/UX designer to improve the existing MetaRace platform by refining its user interface, enhancing usability, and completing a consistent design system. The goal is to modernize the current experience without completely redesigning the product or changing its established visual direction. Project Scope 1. Existing Interface Improvement Review and improve existing page layouts. Establish better visual hierarchy and content organization. Refine spacing, alignment, typography, and color consistency. Improve the overall visual quality of existing screens. 2. Design System Development Establish a consistent color palette and typography system. Create reusable buttons, inputs, cards, and navigation components. Define component sizes, spacing rules, and interaction patterns. Organize and document the complete Figma component library. 3. UX Improvements Simplify important navigation flows. Reduce unnecessary interactions and confusing steps. Improve wallet connection and related user interactions. Provide clearer feedback for user actions. 4. Responsive Design Improve desktop, tablet, and mobile layouts. Ensure consistent component behavior across screen sizes. Optimize navigation and content presentation for smaller screens.",
+      "vista": "2026-11-12T05:55:02.837Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es diseño web y UI en Figma, pero Leo no tiene en el portfolio un sistema de diseño completo y documentado, así que la carta ofrece una muestra.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\n\nYou want MetaRace to feel more modern and consistent without losing its current visual direction. A clear design system is a good way to get there.\n\nAt LeoVisual.nl I design and build websites. LUMEN and FORJA are 3D scroll websites I made in code (three.js + GSAP). On both, layout, typography and responsive behaviour were a core part of the work.\nMy portfolio doesn't include a full documented Figma design system yet. I'm happy to start with a short sample: one of your current screens refined, plus a few base components.\n\nHow I would do it:\n1) Review your current screens and flows, including wallet connection and how the app responds to user actions.\n2) Define the colour palette, typography, spacing rules and core components (buttons, inputs, cards, navigation).\n3) Apply them to the key screens for desktop, tablet and mobile.\n4) Organise and document the Figma component library.\n\nPrice: 1000 USD, 50% upfront. Delivery in 7–10 days, with 2 rounds of changes.\n\nHow many screens does the platform have today? Is there already a Figma file, or only the live product?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 721,
+          "salida": 1446,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.032403799999999996,
+        "generada": "2026-11-12T05:55:01.821Z"
+      }
+    },
     {
       "id": "567675",
       "tipo": "FREELANCE",
@@ -2957,23 +2996,6 @@
       "cierraEnDias": 14,
       "dondeSolicitar": "",
       "descripcion": "I need someone to redo the logo for the City of Gahanna's CORA cup logo, and update our sign boards. Our budget for this logo redesign is $3000.",
-      "vista": "2026-11-10T20:01:18.257Z"
-    },
-    {
-      "id": "566695",
-      "tipo": "FREELANCE",
-      "titulo": "Oncologist and Hematology Specialist Needed",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566695/Oncologist-and-Hematology-Specialist-Needed",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "micro 1 AI",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Hello Doctor,\nI came across an exciting remote opportunity with micro1 for Hematology/Oncology Physicians to contribute their clinical expertise to AI training and medical documentation projects.\nThe role involves reviewing AI-generated clinical transcripts, evaluating HPI and Assessment & Plan documentation, and providing feedback on chemotherapy management and outpatient oncology care.\n**Position:** Hematology/Oncology Physician \n**Location:** Remote, United States \n**Compensation:** $100–$180/hour \n**Type:** Contract\nCandidates should have an MD/DO, Hematology/Oncology board certification or eligibility, and at least 2 years of post-fellowship outpatient clinical experience.\n**Apply here:** \nhttps://jobs.micro1.ai/post/172b81f5-b398-4f2a-8949-15b2dae8bd5c?referralCode=7b56337e-e3f4-45a8-9387-adb4f807bfdd&utm_source=referral&utm_medium=share&utm_campaign=job_referral\nIf you meet these qualifications and are interested, please apply through the link above.\nBest regards",
       "vista": "2026-11-10T20:01:18.257Z"
     }
   ]
