@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T18:55:41.465Z",
+  "actualizado": "2026-11-12T18:57:01.084Z",
   "ofertas": [
+    {
+      "id": "568005",
+      "tipo": "FREELANCE",
+      "titulo": "Long-Term Graphic Designer Collaboration",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568005/Long-Term-Graphic-Designer-Collaboration",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm seeking a graphic designer for long-term work. Please send me a message with your portfolio, hourly rate, and location so I can review your experience and availability.",
+      "vista": "2026-11-12T18:57:01.084Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Diseño gráfico a largo plazo encaja, pero la categoría es branding y Leo no tiene logos ni identidades en el portfolio.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYou're looking for a graphic designer for ongoing work, so here is what you asked for: my portfolio, my price and my location.\nI'm Leo Gómez. I run LeoVisual.nl, an AI creative studio in Amsterdam, Netherlands (EU).\nFor a home brand that sells on Amazon in several European countries, I design listing images, A+ content and visuals for ads and social media, with the same look across many pieces.\nI work with Adobe, GPT Image and Nano Banana Pro, and I also do motion graphics and 3D when a piece needs it.\nMy portfolio doesn't include logo or full brand identity work yet. If branding is your main need, I'm happy to do a short sample first.\nHow I work: you send a brief and references, I send first options, you give feedback, and I deliver final files ready to use.\nFor a first block of work, the price is 500 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhich pieces do you need most: social media posts, ads, brand materials or something else?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 386,
+          "salida": 1626,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0346638,
+        "generada": "2026-11-12T18:57:00.283Z"
+      }
+    },
     {
       "id": "568003",
       "tipo": "FREELANCE",
@@ -3845,23 +3884,6 @@
       "dondeSolicitar": "",
       "descripcion": "I’m seeking a creative website designer to design a visually engaging website. We are a coffee shop located inside a record store, the website attracts people to visit us and shop a small range of coffees we have in stock. We are a creative brand and would love to explore exciting ideas and concepts you have , it would be great to recreate the physical feeling of entering through a record store into our shop in website form.",
       "vista": "2026-11-10T23:46:41.681Z"
-    },
-    {
-      "id": "566831",
-      "tipo": "FREELANCE",
-      "titulo": "Heritage Equestrian Brand Identity — Bella Vista Saddle Club",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566831/Heritage-Equestrian-Brand-Identity-Bella-Vista-Saddle-Club",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Bella Vista Saddle Club",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m seeking a designer to create a luxury equestrian logo system for Bella Vista Saddle Club, with a budget of $500–$1,000. The identity should convey a timeless heritage sporting-club and California estate aesthetic that feels sophisticated and understated, avoiding generic horse-logo treatments.",
-      "vista": "2026-11-10T22:58:48.920Z"
     }
   ]
 }
