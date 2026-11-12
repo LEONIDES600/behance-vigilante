@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T20:45:03.074Z",
+  "actualizado": "2026-11-12T20:48:48.953Z",
   "ofertas": [
+    {
+      "id": "568055",
+      "tipo": "FREELANCE",
+      "titulo": "Full Brand Development for a Boutique Event Venue",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568055/Full-Brand-Development-for-a-Boutique-Event-Venue",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a branding specialist to develop a complete brand identity for my boutique event venue. The work should establish a cohesive visual brand suited to the venue’s positioning and audience.",
+      "vista": "2026-11-12T20:48:48.953Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding completo: Leo puede hacerlo con IA, pero no tiene un proyecto de identidad en el portfolio; se envía con una carta honesta y la oferta de una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA boutique event venue lives on first impressions, so its brand needs to feel as carefully made as the space itself, from the logo to the signage and the Instagram feed.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. I don't have a full branding project in my portfolio yet. My work does build complete visual worlds, though: cinematic AI ads like ORBE and SILENCIO, and 3D scroll websites like LUMEN and FORJA.\nHere is how I would work: a short brief on your positioning and audience, two moodboards with a clear visual direction, logo proposals, a colour palette and typography, and then applications like social templates, signage and invitations. I would finish with a simple brand guide.\nIf it helps you decide, I'm happy to make a short sample first.\nBudget: 2500 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nWhat kind of events and guests is the venue mainly for: weddings, corporate events or private celebrations?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 404,
+          "salida": 1266,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0275358,
+        "generada": "2026-11-12T20:48:48.061Z"
+      }
+    },
     {
       "id": "568053",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.049947,
         "generada": "2026-11-11T09:20:29.896Z"
-      }
-    },
-    {
-      "id": "566959",
-      "tipo": "FREELANCE",
-      "titulo": "Playful 3D Product Motion and Brand Identity Animation",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566959/Playful-3D-Product-Motion-and-Brand-Identity-Animation",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a motion graphic designer to create 3D product motion design, a brand identity motion system, kinetic typography branding, and a playful looping 3D product render.",
-      "vista": "2026-11-11T07:28:42.066Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Motion graphics y vídeo 3D de producto encajan con sus servicios; el presupuesto es bajo para tanto trabajo, pero supera el mínimo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nYou need a playful, looping 3D product render and a motion system that keeps your brand consistent across type, logo and product shots.\nI've made product images and listing videos for a home brand that sells on Amazon in several European countries. I also made cinematic AI ads like ORBE, from the idea and generation through editing and sound.\nHow I'd approach it:\n1. A short moodboard and style frames, so we agree on colors, shapes and type before animating.\n2. The 3D product render with a seamless, playful loop.\n3. The brand motion system: logo reveal, transitions and kinetic typography rules you can reuse.\n4. Final exports in the formats you need for social and web, built in After Effects and Premiere.\nI don't have a kinetic typography piece exactly like this in my portfolio yet, so I'm happy to make a short sample first.\nPrice: 250 USD for the project, 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nDo you already have a 3D model of the product, or should I work from photos?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 396,
-          "salida": 1373,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.043219,
-        "generada": "2026-11-11T07:28:41.098Z"
       }
     }
   ]
