@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T04:34:35.363Z",
+  "actualizado": "2026-11-12T05:42:28.423Z",
   "ofertas": [
+    {
+      "id": "567671",
+      "tipo": "FREELANCE",
+      "titulo": "Dropshipping Advertising — Paid Media Specialist (Google & Meta Ads)",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567671/Dropshipping-Advertising-Paid-Media-Specialist-(Google-Meta-Ads)",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "davidoutwear",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "PROJECT: DaviDoutwear — Dropshipping Advertising — Paid Media Specialist (Google & Meta Ads)\nHello,\nWe are Davidoutwear, a fashion brand looking for experienced Google Ads and Meta Ads (Facebook & Instagram) specialists to help promote our fashion products in the United States.\nJob Responsibilities:\nDevelop advertising strategies for Davidoutwear.\nSet up and manage Google Ads and Facebook/Instagram campaigns.\nResearch and target potential customers in the U.S. market.\nOptimize advertising budgets and campaign performance.\nIncrease website traffic, brand awareness, and online sales.\nMonitor, analyze, and report advertising results.\nCandidate Requirements:\nProven experience with Google Ads and Meta Ads.\nExperience working with fashion or e-commerce brands is preferred.\nAbility to develop effective advertising strategies for the U.S. market.\nStrong understanding of advertising optimization and sales growth.\nInterest in a potential long-term partnership.\nApplication – 100% FREE\nNo application fee.\nNo registration fee.\nFree to submit your application.\nNo payment is required to apply for this project.\nHow to Apply:\nIf you are interested in working with Davidoutwear, please complete the application form below.\nGoogle Forms Application: https://forms.gle/vc4t3wUzexrhZmSy9\nPlease provide information about your professional experience, portfolio, proposed advertising strategy, and service pricing.\nOur team will review your application and contact suitable candidates for potential colla",
+      "vista": "2026-11-12T05:42:28.423Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden gestionar campañas de Google y Meta Ads con experiencia demostrada, algo que Leo no tiene confirmado, y además desvían a un formulario externo con señales de posible estafa.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 983,
+          "salida": 595,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.030827,
+        "generada": "2026-11-12T05:42:27.463Z"
+      }
+    },
     {
       "id": "567647",
       "tipo": "FREELANCE",
@@ -2892,23 +2931,6 @@
       "dondeSolicitar": "",
       "descripcion": "I need an illustrator and PowerPoint designer to create a polished pitch presentation. The work should combine custom illustration with a clear, professionally designed slide deck.",
       "vista": "2026-11-10T20:00:10.086Z"
-    },
-    {
-      "id": "566603",
-      "tipo": "FREELANCE",
-      "titulo": "Logo Animation for a Martial Arts School or Channel",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566603/Logo-Animation-for-a-Martial-Arts-School-or-Channel",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "BGX Martial Arts LLC",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a motion graphics artist and/or sound designer to create a short, distinctive animated title card for my martial arts school and YouTube channel, Black Gate of Xuanwu (BGX).\nVisual Concept:\nA minimalist, approximately 2–5 second animation featuring my existing brushstroke logo.\nThe animation should depict black ink bleeding and spreading organically through white paper, gradually revealing the logo. I'm looking for a traditional ink-wash or watercolor effect with natural diffusion.\nAudio Concept\nA brief musical signature featuring:\nTwo or three plucked notes from an East Asian string instrument (shamisen, gayageum, geomungo, pipa, or similar).\nA low, resonant cello note or thrum.\nMusical timing synchronized with the ink animation.\nI'm open to experimenting with the order and overlap of these sounds. The goal is a recognizable, memorable audio signature that complements the visual reveal without overstaying its welcome.\nPlease include relevant portfolio examples, estimated pricing, and turnaround time. I'm open to hiring separate artists for animation and sound design.",
-      "vista": "2026-11-10T19:59:03.632Z"
     }
   ]
 }
