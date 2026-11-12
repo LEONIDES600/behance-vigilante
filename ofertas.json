@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T05:52:16.784Z",
+  "actualizado": "2026-11-12T05:53:44.155Z",
   "ofertas": [
+    {
+      "id": "567675",
+      "tipo": "FREELANCE",
+      "titulo": "Graphic Design for Clothing and Skincare Brand Assets",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567675/Graphic-Design-for-Clothing-and-Skincare-Brand-Assets",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm seeking a freelance graphic designer for multiple brand design needs: a clothing brand logo and social media posts with a $300 budget, 10 Instagram post designs and a brand kit with a ₹15,000 budget, and skincare product packaging and label design with a $500 budget. The Instagram and brand-kit work is needed within 2 weeks.",
+      "vista": "2026-11-12T05:53:44.154Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding y packaging no están en el portfolio y una parte se paga en INR; la carta solo ofrece el packaging en USD (500) y deja el resto para presupuestar aparte.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nYour skincare line needs packaging and labels that look premium on the shelf and in photos, and your clothing brand needs a logo and posts that feel consistent.\nI don't have a packaging project in my portfolio yet, so I'm happy to start with a short sample or a test label before you decide.\nWhat I can show: product images, videos, A+ content and web for a home brand selling on Amazon in several European countries, plus graphic design for ads and social media.\nHow I'd approach the packaging: 1) a quick brief on your products, audience and references, 2) two label directions shown on AI-made mockups, 3) final files for the chosen direction, prepared with your printer's specs.\nFor the skincare packaging and label design I'd work with your 500 USD budget, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nI can quote the logo and social posts separately. I invoice in USD or EUR, not INR.\nWhich products need packaging, and how many label sizes or formats are there?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 464,
+          "salida": 2143,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0453158,
+        "generada": "2026-11-12T05:53:42.804Z"
+      }
+    },
     {
       "id": "567673",
       "tipo": "FREELANCE",
@@ -2936,23 +2975,6 @@
       "dondeSolicitar": "",
       "descripcion": "Hello Doctor,\nI came across an exciting remote opportunity with micro1 for Hematology/Oncology Physicians to contribute their clinical expertise to AI training and medical documentation projects.\nThe role involves reviewing AI-generated clinical transcripts, evaluating HPI and Assessment & Plan documentation, and providing feedback on chemotherapy management and outpatient oncology care.\n**Position:** Hematology/Oncology Physician \n**Location:** Remote, United States \n**Compensation:** $100–$180/hour \n**Type:** Contract\nCandidates should have an MD/DO, Hematology/Oncology board certification or eligibility, and at least 2 years of post-fellowship outpatient clinical experience.\n**Apply here:** \nhttps://jobs.micro1.ai/post/172b81f5-b398-4f2a-8949-15b2dae8bd5c?referralCode=7b56337e-e3f4-45a8-9387-adb4f807bfdd&utm_source=referral&utm_medium=share&utm_campaign=job_referral\nIf you meet these qualifications and are interested, please apply through the link above.\nBest regards",
       "vista": "2026-11-10T20:01:18.257Z"
-    },
-    {
-      "id": "566625",
-      "tipo": "FREELANCE",
-      "titulo": "Visual Illustration Design for a Mobile Tactical Sports Game",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566625/Visual-Illustration-Design-for-a-Mobile-Tactical-Sports-Game",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need an illustrator to create visual design assets for a mobile tactical sports game. The work should support the game's tactical sports theme with polished, engaging illustrations suited to a mobile experience.",
-      "vista": "2026-11-10T20:00:10.086Z"
     }
   ]
 }
