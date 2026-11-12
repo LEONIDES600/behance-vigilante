@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T06:35:29.240Z",
+  "actualizado": "2026-11-12T07:02:19.064Z",
   "ofertas": [
+    {
+      "id": "567705",
+      "tipo": "FREELANCE",
+      "titulo": "Beauty brand idendity",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567705/Beauty-brand-idendity",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "About us: \nbibi is a new Singapore beauty brand, launched with lip colour line. It sells mainly on TikTok Shop and Shopee, with a lot of LIVE selling. \nPersonality: \nFun, unserious, quirky and witty, made for everyday modern women. \nWhat we need: \nA brand identity system covering logo refinement, colour palette, typography, a graphic or illustration style, and simple rules for how it all fits together. We’ll use it across packaging, TikTok and Shopee assets, LIVE overlays and pop-up events.\nMust work hard on mobile: \nIt has to be loud and recognisable in a fast TikTok scroll and on small product tiles. It also needs to be easy for a small part-time team to use without a designer on hand, so templates are a plus.",
+      "vista": "2026-11-12T07:02:19.064Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es branding de una marca de belleza con plantillas para redes y lo puede hacer con IA, pero no tiene una identidad completa en el portfolio.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nbibi needs an identity that stays loud and recognisable in a fast TikTok scroll and on tiny Shopee tiles, and that a small part-time team can use without a designer.\nI don't have a full beauty brand identity in my portfolio yet, so I'm happy to start with a short sample, like one TikTok frame and one product tile, before you decide.\nWhat is close: graphic design for ads and social, and for a home brand selling on Amazon in several European countries I made many listing images, videos and A+ content, all designed to read well on small screens.\nHow I would do it: refine the logo so it works small and bold, set a high-contrast colour palette and two typefaces, explore a playful graphic style with AI, and write one page of simple rules.\nThen I would make editable templates for TikTok posts, Shopee tiles and LIVE overlays in the tool your team already uses, so they only need to swap text and products.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nWhich tool does your team use every day to make assets: Canva, Figma or something else?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 588,
+          "salida": 1342,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.044187,
+        "generada": "2026-11-12T07:02:18.051Z"
+      }
+    },
     {
       "id": "567693",
       "tipo": "FREELANCE",
@@ -3003,23 +3042,6 @@
       "cierraEnDias": 14,
       "dondeSolicitar": "",
       "descripcion": "- I have a startup graphic streetwear brand that I need a visual identity created for\n- I’m a communications/PR consultant so I have the brand guidelines/copy done but I need it to be brought to life with a logo and visual identity\n- primary market is Gen Z/millennial Lebanese expats",
-      "vista": "2026-11-10T20:01:18.257Z"
-    },
-    {
-      "id": "566683",
-      "tipo": "FREELANCE",
-      "titulo": "Wordmark and Logo Design for a New Fashion Brand",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566683/Wordmark-and-Logo-Design-for-a-New-Fashion-Brand",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Marine Drive",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m launching a new global fashion brand and need a designer to create a refined wordmark and logo that reflect a premium fashion identity but is fresh and very unique. I'm flexible on price, looking for someone who can create something more original and interesting and help me refine the wordmark and create simple and bold logo design.",
       "vista": "2026-11-10T20:01:18.257Z"
     }
   ]
