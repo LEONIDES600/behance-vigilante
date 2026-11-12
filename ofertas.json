@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T15:11:53.373Z",
+  "actualizado": "2026-11-12T15:32:00.116Z",
   "ofertas": [
+    {
+      "id": "567895",
+      "tipo": "FREELANCE",
+      "titulo": "Corporate Photography and Videography for LinkedIn Employer Branding",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567895/Corporate-Photography-and-Videography-for-LinkedIn-Employer-Branding",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "A company employing remote software developers",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a corporate photographer and videographer in São Paulo, Brazil, to capture professional portraits and workplace B-roll of our remote software developers for LinkedIn employer-branding content.",
+      "vista": "2026-11-12T15:32:00.116Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Hay que estar en São Paulo para hacer fotos y grabar en persona, y Leo está en Ámsterdam y trabaja con IA, no como fotógrafo en el lugar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 424,
+          "salida": 347,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.023631,
+        "generada": "2026-11-12T15:31:59.288Z"
+      }
+    },
     {
       "id": "371645",
       "tipo": "CONTRACT",
@@ -3624,23 +3663,6 @@
       "cierraEnDias": 30,
       "dondeSolicitar": "Behance",
       "descripcion": "Strive Haus makes cinematic launch videos for venture-backed and YC-backed startups. We're hiring a senior motion designer to animate product launch films end to end.\n What you'll do\n • Animate 30-90 second launch videos: UI animation, typography, 2D/3D motion, transitions\n • Turn scripts and storyboards into polished motion, working directly with the founder\n • Ship fast: typical turnaround is 1-2 weeks per video\n What we're looking for\n • A reel that shows exceptional timing, easing and taste\n • Expert After Effects; Cinema 4D or Blender is a plus\n • Experience with SaaS or product launch videos\n • Comfort with AI video tools, or eagerness to learn them\n • Good English and reliable async communication\n Details\n • Remote, monthly contract, $3,000-4,000 USD depending on skill\n • Paid test project as part of the process\n To apply: send your reel and the one project you're proudest of.",
-      "vista": "2026-11-10T20:23:16.190Z"
-    },
-    {
-      "id": "371015",
-      "tipo": "CONTRACT",
-      "titulo": "Graphic designer for social media agency",
-      "presupuesto": "300–500 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371015/Graphic-designer-for-social-media-agency",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Regen Digital",
-      "contacto": "Taylor Ashley",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Freelance Social Media Graphic Designer \n Regen | Remote | Part-time / project-based\n About Regen \n Regen is a B2B digital marketing agency. We plan and deliver organic social, paid social, and content systems for clients across tech, professional services, and consumer brands. We already brief the work. We need a designer who can take that brief and run with the creative, so we are not stuck in Canva revisions or art-directing every frame.\n The Role \n You will own the visual side of client social content. That means turning briefs, brand guidelines, and studio/lifestyle photography into feed-ready assets, stories, carousels, and short-form cover frames that look intentional, on-brand, and ready to post.\n We are not looking for someone who waits for pixel-perfect instructions. We will tell you the goal, the platform, the brand rules, the assets and the copy. You decide the layout, hierarchy, crop, type treatment, and visual direction, then deliver clean files with light revision rounds. 80% of the time we will have a visual direction for you to follow, but we need someone who can help us speed up the process for clients. \n What You Will Work On \n Social media graphics for Instagram and LinkedIn (static posts, carousels, story frames, thumbnails)\n Light illustration and graphic treatments that sit with lifestyle and studio photography\n Repurposing existing assets into new sizes and formats without losing quality\n Building simple, reusable templates where it speeds delivery\n Wo",
       "vista": "2026-11-10T20:23:16.190Z"
     }
   ]
