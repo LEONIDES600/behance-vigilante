@@ -1,6 +1,127 @@
 {
-  "actualizado": "2026-11-12T11:04:56.926Z",
+  "actualizado": "2026-11-12T12:11:27.005Z",
   "ofertas": [
+    {
+      "id": "371525",
+      "tipo": "FULLTIME",
+      "titulo": "Short-Form Video Editor - 2D & 3D Anatomy animation",
+      "presupuesto": "1500–1800 USD/mes",
+      "enlace": "https://www.behance.net/joblist/fulltime/371525/Short-Form-Video-Editor-2D-3D-Anatomy-animation",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "Recover Pain",
+      "contacto": "Recover Pain",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "Behance",
+      "descripcion": "With over 2.1M followers across IG, FB, TikTok, and YouTube, we’re on a mission to help millions overcome chronic back pain and sciatica with practical, science-backed content.\n Instagram: @recoverpain\n We already have a team of editors and are hiring another Short-Form Video Editor to join our fast-growing media team on a contract-to-hire basis (fully remote). You will start off on a contract video to video basis, and have the potential to get a full time position.\n You will be editing HIGH-level reels and videos to look like this: https://www.instagram.com/reel/DcqeNZBJjXV/\n Role\n As a Short-Form Video Editor, you’ll be responsible for transforming raw video and animation assets into high-retention clips for Instagram Reels, TikTok, and YouTube Shorts.\n Our editing team already produces HIGH level videos including 2D & 3D animation, vfx… These videos reach millions worldwide and serve as the top of funnel to one of the fastest-growing online health companies.\n You’ll work directly with our founder and creative team to deliver scroll-stopping edits that combine storytelling, motion graphics, and clear educational takeaways. This role requires precision, speed, and creativity - with the opportunity to grow into a full-time leadership position if you thrive.\n Responsibilities\n Edit and deliver multiple short-form videos per week optimized for Reels, TikTok, and Shorts.\n Integrate motion graphics and anatomy-based animations (After Effect)\n Adapt edits for platform-specific for",
+      "vista": "2026-11-12T12:11:27.005Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Edición de vídeo corto con motion graphics en Premiere/After Effects y 3D como extra encaja con Leo; no tiene animación anatómica, así que la carta ofrece una prueba.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\n\nTurning raw footage and anatomy animations into short, clear reels that keep people watching to the end is a great challenge, and your mission of helping people with back pain and sciatica makes it even more meaningful.\n\nI am Leo Gómez from LeoVisual.nl, a creative studio in Amsterdam. I have been making short performance ads for 2 years, and I edit in Premiere and After Effects with motion graphics and 3D. ORBE and SILENCIO are two cinematic ads I made from start to finish: idea, visuals, editing and sound design.\n\nFor your reels I would start with a strong hook in the first seconds, place the anatomy animation right where the explanation needs it, add simple text and motion graphics so the main point is easy to follow, and then adapt the timing and format for Reels, TikTok and Shorts. I would also keep project files clean and build reusable templates for the team.\n\nI don't have an anatomy reel in my portfolio yet, so I am happy to do a paid test video in your style first.\n\nWhich software and file formats do your animators use for the 2D and 3D anatomy assets?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [
+          "menciona años"
+        ],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1325,
+          "salida": 1487,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.050035,
+        "generada": "2026-11-12T12:10:50.328Z"
+      }
+    },
+    {
+      "id": "371423",
+      "tipo": "FULLTIME",
+      "titulo": "Video Editor",
+      "presupuesto": "0 USD/año",
+      "enlace": "https://www.behance.net/joblist/fulltime/371423/Video-Editor",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "Consulting.com",
+      "contacto": "Brogan Wykerd",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "web externa",
+      "descripcion": "As a Long-Form Video Editor, you will be responsible for crafting engaging, cinematic videos that connect on a personal level and hold attention from start to finish. You will work closely with Iman Gadzhi and the content team to shape narratives that feel authentic, intentional, and visually compelling.\n This role goes beyond cutting footage. You are a storyteller. Your work should elevate everyday moments into cohesive narratives that resonate emotionally and reinforce the brand.\n What You'll Do \n Edit high-quality videos for YouTube, turning raw footage into polished, engaging stories.\n Collaborate closely with the lead editor to manage multiple video projects while maintaining consistently high standards.\n Enhance storytelling through colour grading, pacing, music selection, motion graphics, and visual effects.\n Work across a range of content formats when needed, including YouTube videos, ads, internal videos, and program content.\n Attend daily team calls with the editing and design teams and stay aligned on priorities and timelines.\n Coordinate weekly with your Head of Department to ensure deliverables are met.\n Continuously develop your creative skill set and bring new ideas, techniques, and inspiration into the editing process.\n AI in Your Timeline \n AI is becoming a big part of how we edit and create content.\n We're looking for editors who are curious about AI and interested in using it to make their work faster, more creative and more efficient. You don't need to be ",
+      "vista": "2026-11-12T12:11:27.005Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con edición, motion e IA, pero piden experiencia amplia y demostrada en YouTube de formato largo, y Leo no tiene piezas de ese tipo en el portfolio.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Brogan,\n\nYou need long-form YouTube videos that feel personal and cinematic and keep people watching to the end, made by an editor who also brings AI into the timeline.\nI run LeoVisual.nl, an AI creative studio in Amsterdam. My closest work is ORBE and SILENCIO, two cinematic ads where I did the idea, AI generation, edit and sound. I also make product videos and motion graphics for a home brand that sells across Europe.\nI work in Premiere, After Effects and Adobe, and I use Kling and Seedance for AI B-roll and visual elements. My approach: find the story in the raw footage first, build the pacing and music around it, then add colour, motion graphics and AI visuals only where they help the story.\nTo be honest, I have no long-form YouTube edits in my portfolio yet, and my video editing experience is under 2 years. So I am happy to do a test edit on your footage so you can judge my storytelling directly.\nI am an EU citizen working remotely, and my English is good for daily work and team calls.\nWould you like me to start with a test edit of one of Iman's vlog-style videos, and which format do you need most right now?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [
+          "menciona años"
+        ],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1274,
+          "salida": 1151,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0287158,
+        "generada": "2026-11-12T12:11:07.429Z"
+      }
+    },
+    {
+      "id": "371403",
+      "tipo": "FULLTIME",
+      "titulo": "E-commerce & Shopify Store Designer",
+      "presupuesto": "0 USD/año",
+      "enlace": "https://www.behance.net/joblist/fulltime/371403/E-commerce-Shopify-Store-Designer",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "DOLLAR SHOP LTD",
+      "contacto": "Muhammad Aryan",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "Behance",
+      "descripcion": "We are looking for a skilled E-commerce & Shopify Store Designer to help build, customize, and optimize high-converting online stores. \n Key Responsibilities:﻿ \n * Design and customize professional Shopify store layouts using modern themes (such as Dawn and Rise).﻿ \n * Optimize product pages, collections, and overall user navigation for maximum customer engagement and sales.﻿ \n * Ensure mobile responsiveness and clean aesthetic branding to drive international e-commerce growth.﻿ \n Requirements:﻿ \n * Proven experience in Shopify store design and e-commerce UI/UX setup.﻿ \n * Strong eye for product layout, color grading, and branding.﻿ \n * Ability to deliver high-quality design projects efficiently.",
+      "vista": "2026-11-12T12:11:27.005Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con diseño web y e-commerce, aunque Leo no tiene una tienda Shopify en el portfolio; la carta lo dice con honestidad y ofrece una prueba.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Muhammad,\n\nA store that converts needs product pages and collections that are clear, work well on mobile and match the brand. That is where I would focus for Dollar Shop.\nI'm Leo Gómez from LeoVisual.nl, an AI creative studio in Amsterdam. I'm an EU citizen and I work remotely.\nI have built 3D scroll websites in code (LUMEN, FORJA and MORVAIN). For a home brand that sells on Amazon in several European countries (under NDA), I made listing images and videos, A+ content and their website.\nTo be honest, I don't have a Shopify store in my portfolio yet. The work is close, though: product layout, visual hierarchy and branding for e-commerce.\nThis is how I would work: first review the current store and the best-selling products. Then define a simple visual system (colors, fonts, image style). Next, redesign the home, collection and product pages on Dawn or Rise. Finally, check every page on mobile before publishing.\nI'm happy to do a short test, for example a redesigned product page, so you can see the result before you decide.\nWhich store would I start with, and is it already live on Shopify or still being set up?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 499,
+          "salida": 1479,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0321758,
+        "generada": "2026-11-12T12:11:23.675Z"
+      }
+    },
     {
       "id": "567767",
       "tipo": "FREELANCE",
@@ -3058,57 +3179,6 @@
       "dondeSolicitar": "",
       "descripcion": "原創角色動畫 × 混合媒材動畫 × 節目視覺設計\n我們是影像製作團隊，目前有一項節目視覺設計委託案，希望尋找具有創意與個人美術風格的動畫創作者或設計團隊合作。\n本案主要包含節目片頭動畫及整體視覺包裝，希望透過原創角色、動態設計與不同媒材的結合，發展出具有辨識度的視覺風格。\n一、委託內容\n1. 片頭動畫\n•動畫長度約 10–15 秒。\n•整體創意概念及視覺風格發展。\n•原創角色設計與角色設定（角色形式及數量尚未確定）。\n•分鏡及動畫製作。\n•真人實景與 2D 動畫合成，或其他適合的混合媒材表現方式。\n•節目名稱及片頭動畫。\n2. 節目視覺包裝\n希望建立一套完整且可重複使用的視覺系統，包含：\n•節目 Logo／標準字\n•人物介紹字幕（Lower Third）\n•段落標題\n•動態轉場\n•片尾版型\n•其他必要的視覺圖卡及動態元素\n實際製作項目可依提案內容討論。\n二、我們期待的創作者\n希望你具有獨特的美術觀點，擅長將創意轉化為有趣的視覺及動態表現。\n歡迎以下不同領域的創作者：\n•2D 手繪動畫／角色動畫\n•Motion Graphics／動態視覺設計\n•Mixed Media Animation／混合媒材動畫\n•實驗動畫／插畫動態設計\n•AI-assisted Animation／AI 輔助動畫創作\n三、應徵方式\n請提供：\n1、個人作品集\n2、相關動畫、角色設計、動態視覺或混合媒材作品。\n3、初步創作方向及建議製作方式。\n4、角色設計、片頭動畫、節目視覺包裝的分項報價。\n5、預計製作時程。\n四、專案資訊\n•影片規格：1920 × 1080／16:9\n•片頭長度：約 10–15 秒\n•節目規模：暫定4 集，每集 15 分鐘內\n•合作方式：個人接案者及小型工作室皆可\n預算請依創作方向與實際工作範圍提出報價。\n附檔為視覺方向參考，並非指定美術風格或既定角色設計。歡迎提出不同的創作詮釋與製作方式",
       "vista": "2026-11-10T20:05:22.928Z"
-    },
-    {
-      "id": "564463",
-      "tipo": "FREELANCE",
-      "titulo": "Motion Design and Graphic Design for a Show",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/564463/Motion-Design-and-Graphic-Design-for-a-Show",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Moksha",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 9,
-      "dondeSolicitar": "",
-      "descripcion": "Je recherche un motion designer/graphiste pour concevoir les éléments visuels d’un spectacle orchestral sur Hisaishi et Sakamoto. Dessiner, animer, projeter...",
-      "vista": "2026-11-10T20:05:22.928Z"
-    },
-    {
-      "id": "566733",
-      "tipo": "FREELANCE",
-      "titulo": "Logo and Branding Kit Update",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566733/Logo-and-Branding-Kit-Update",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a graphic designer to update my logo and branding kit, with a budget of about 500. The work should refresh my brand’s visual identity and provide updated branding assets.",
-      "vista": "2026-11-10T20:03:30.582Z"
-    },
-    {
-      "id": "566709",
-      "tipo": "FREELANCE",
-      "titulo": "Slide Layout Design Inspired by Palantir and Anduril",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566709/Slide-Layout-Design-Inspired-by-Palantir-and-Anduril",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "ICAT Logistics",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a graphic designer to create polished slide layouts, using Palantir and Anduril as visual references. The layouts should capture a similarly modern, structured, technology-focused presentation aesthetic.",
-      "vista": "2026-11-10T20:02:24.775Z"
     }
   ]
 }
