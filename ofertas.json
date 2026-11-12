@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T21:22:50.303Z",
+  "actualizado": "2026-11-12T21:29:18.247Z",
   "ofertas": [
+    {
+      "id": "568065",
+      "tipo": "FREELANCE",
+      "titulo": "Pitch Deck and Valuation Report Design for a Consulting Firm",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568065/Pitch-Deck-and-Valuation-Report-Design-for-a-Consulting-Firm",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Hi, we are a consulting firm that conducts research for clients and need a designer to assist with pitch decks and valuation reports. Please provide sample presentation decks so we can evaluate your previous work and design quality.",
+      "vista": "2026-11-12T21:29:18.247Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Diseño de presentaciones está en las «dudosas»: Leo no tiene decks en el portfolio, así que la carta lo dice y ofrece una muestra corta.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nPitch decks and valuation reports need to make dense research and numbers easy to follow and look credible in front of your clients.\nTo be honest, I don't have presentation decks in my portfolio yet. So instead of only telling you, I'm happy to redesign 2–3 slides from one of your current decks as a short sample.\nThe closest work I can show is A+ content and listing images for a home brand that sells on Amazon in several European countries. There, the job was turning product data into clear, structured visual pages. I also design graphics for ads and social media.\nHow I would approach it:\n1. Build a simple template in your brand: grid, fonts, colours, and styles for charts and tables.\n2. Apply it to your deck or report, with clean, readable charts for the valuation figures.\n3. Deliver editable files in the format your team uses, plus a PDF.\nFor a first deck or report: 500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nWhich format does your team edit in, and how many slides or pages does a typical deck or report have?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 413,
+          "salida": 1450,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.045647,
+        "generada": "2026-11-12T21:29:17.457Z"
+      }
+    },
     {
       "id": "568063",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.031139,
         "generada": "2026-11-11T09:25:07.586Z"
-      }
-    },
-    {
-      "id": "567011",
-      "tipo": "FREELANCE",
-      "titulo": "WordPress Development for Multiple Projects",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567011/WordPress-Development-for-Multiple-Projects",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We are seeking an experienced Wordpress developer to work on various projects. The ideal candidate should have a strong background in web development and be proficient in using Wordpress, PHP, JS and HTML5. This role involves developing and maintaining websites, ensuring they are responsive and optimized for performance.\nDeliverables\n• Develop and maintain Wordpress websites\n• Ensure websites are responsive and optimized\n• Collaborate on design and functionality improvements",
-      "vista": "2026-11-11T09:22:47.953Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Son webs en WordPress, que Leo hace, pero piden un desarrollador con experiencia y PHP, y Leo no es programador senior; la carta lo dice con honestidad.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\n\nYou need someone to build and maintain several WordPress websites and keep them responsive, fast and easy to improve over time.\n\nI build websites in WordPress and in code (HTML/CSS/JS), using an AI-assisted workflow. Some examples: LUMEN and FORJA, 3D scroll websites made in code with three.js and GSAP. I also made the website for a home brand that sells on Amazon in several European countries (under NDA).\n\nTo be honest: I am not a senior PHP developer. My strength is responsive design and front-end, and a clean WordPress setup. My process would be: review each site and its goals, set up or fix the theme and structure, make it responsive, optimize images and loading speed, then test it on mobile and desktop.\n\nIf it helps, I am happy to do a short paid test on one page first.\n\nPrice: 2,500 USD for the first project, with 50% upfront, delivery in 7–10 days and 2 rounds of changes.\n\nHow many websites are there at the start, and do they use a page builder or a custom theme?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 486,
-          "salida": 1147,
-          "cacheLeida": 2835,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.025451,
-        "generada": "2026-11-11T09:22:46.925Z"
       }
     }
   ]
