@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T19:11:01.562Z",
+  "actualizado": "2026-11-12T19:37:51.112Z",
   "ofertas": [
+    {
+      "id": "568031",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Visual Identity Design for a Personal Brand",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568031/Brand-Visual-Identity-Design-for-a-Personal-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a Brand Visual Identity Designer to create a cohesive visual identity for my personal brand. I am building an India-first intellectual and advisory brand around Personal Strategy. I am the public face of the brand, and the business will begin with Instagram content and low-ticket intellectual products, followed later by private advisory, workshops and speaking.\nI already have a detailed Brand Bible covering positioning, audience, voice, territory and methodology. I am looking for someone to translate that strategy into a distinctive visual identity and content system. The aesthetic should feel editorial, contemporary, thoughtful, culturally intelligent and premium, not like a conventional coaching brand.",
+      "vista": "2026-11-12T19:37:51.112Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es branding e identidad visual: Leo puede hacerlo, pero no tiene una identidad completa en el portfolio. Remoto y con buen presupuesto, así que se envía con una carta honesta y una muestra corta.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYou already have the strategy in your Brand Bible. Now you need a visual identity and an Instagram content system that feel editorial and premium, not like a typical coaching brand.\n\nI run LeoVisual.nl, an AI creative studio in Amsterdam. I do graphic design for ads and social media, motion graphics and 3D web work. My cinematic AI ads ORBE and SILENCIO show how I handle a calm, thoughtful and premium look.\nTo be honest, I don't have a full personal brand identity in my portfolio yet. So I'm happy to start with a short sample direction based on your Brand Bible, so you can judge the fit before we go further.\n\nHow I would work:\n1. Read your Brand Bible and turn the positioning and voice into 2–3 visual directions (moodboards).\n2. Develop the chosen direction: wordmark, typography, colour palette and image style.\n3. Build the content system: Instagram post and carousel templates, plus covers for your low-ticket products.\n4. Deliver a short guidelines document so the system stays consistent.\n\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\n\nDo you already have references (magazines, brands or accounts) that are close to the editorial feel you want?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 571,
+          "salida": 1064,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.038559,
+        "generada": "2026-11-12T19:37:50.044Z"
+      }
+    },
     {
       "id": "567955",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.041883,
         "generada": "2026-11-11T06:55:07.285Z"
-      }
-    },
-    {
-      "id": "566943",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Identity Refresh and Marketing Templates for HVAC Wholesale Dealer",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566943/Brand-Identity-Refresh-and-Marketing-Templates-for-HVAC-Wholesale-Dealer",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Yükseller Zirve Mühendislik A.Ş.",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Yükseller Zirve Mühendislik A.Ş. için logo ve görsel kimliğimizi yenileyecek bir marka kimliği tasarımcısı arıyoruz. Bosch ve Buderus toptan bayisi olarak HVAC sektöründe faaliyet gösteriyoruz ve proje bütçemiz 1.000–2.000 USD'dir. Ürün katalogları, satış teklifleri ve sosyal medya gönderileri için düzenlenebilir şablonlara ihtiyacımız var. HVAC, mühendislik veya endüstriyel B2B markalama deneyimi tercih edilir.",
-      "vista": "2026-11-11T06:47:03.502Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Rediseño de logo e identidad con plantillas: Leo puede hacerlo, aunque no tiene una identidad B2B industrial en el portfolio (el cliente indica 1.000–2.000 USD, un rango y no una cifra concreta).",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\n\nYou need a refreshed logo and visual identity that feels solid and technical for a Bosch and Buderus wholesale dealer, plus editable templates your team can reuse for product catalogs, sales quotes and social media posts.\nI have no HVAC or industrial B2B identity in my portfolio yet, so I'll say that up front. The closest work I have is for a home brand selling on Amazon in several European countries (under NDA): many product images, A+ content and a website. That meant keeping one brand look consistent across a lot of product material.\nHow I would do it: review your current logo and materials, show 2–3 refresh directions, then finish the chosen one with colors, typography and usage rules. After that I would build the catalog, quote and social templates in an editable format so your team can update them on its own.\nIf it helps you decide, I'm happy to make a short sample first, for example one catalog page or one social post in a new direction.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhich software does your team use to edit documents (InDesign, Canva, Word/PowerPoint), so I can build the templates in that format?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 593,
-          "salida": 1491,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.046367,
-        "generada": "2026-11-11T06:47:02.577Z"
       }
     }
   ]
