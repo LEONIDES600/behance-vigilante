@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T13:37:30.732Z",
+  "actualizado": "2026-11-12T14:02:08.767Z",
   "ofertas": [
+    {
+      "id": "567863",
+      "tipo": "FREELANCE",
+      "titulo": "Twórca video ai",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567863/Tworca-video-ai",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Szukam doświadczonego twórcy do kompleksowej realizacji krótkiego spotu reklamowego (15\") w oparciu o AI. \nZakres prac:\n- wygenerowanie spójnych jakościowo ujęć wideo w AI (wraz z retuszem ewentualnych artefaktów),\n- montaż spotu oraz połączenie wygenerowanego materiału z dostarczonymi zdjęciami i oprawą graficzną \n- kolorkorekcja i postprodukcja obrazu,\n- udźwiękowienie: dobór muzyki (z licencją komercyjną) oraz przygotowanie ścieżki lektorskiej Ai,\n- eksport plików emisyjnych zgodnych ze specyfikacją TV oraz digital\nCzego oczekujemy:\n- udokumentowanego doświadczenia w komercyjnych produkcjach wideo AI (nie szukamy osób początkujących – kluczowa jest jakość obrazu i sprawny warsztat montażowy/postprodukcyjny),\nW zgłoszeniu prosimy o podanie:\n- linków do zrealizowanych spotów / reklam AI (najlepiej łączących AI z montażem i napisami).\n- szacunkowej wyceny całościowej oraz najkrótszego możliwego terminu realizacji.",
+      "vista": "2026-11-12T14:02:08.767Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Spot de 15\" hecho con IA de principio a fin; encaja con ORBE y SILENCIO, y no exige polaco de forma explícita.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYou need a 15-second AI spot done end to end: consistent AI shots, an edit that combines them with your photos and graphics, colour, sound, and TV and digital exports.\nI'm writing in English because I don't speak Polish.\nORBE and SILENCIO are two cinematic AI ads I made from idea to generation, edit and sound. You can see them in my portfolio below.\nHere's how I would do it: first a shot list and style frames based on your brief. Then I generate the shots in Kling and Seedance and clean up artefacts in After Effects.\nAfter that I edit in Premiere with your photos, graphics and titles, then do colour correction and post.\nFor sound, I'll use music with a commercial licence and an AI voiceover from your approved script. I'll send you voice options before the final mix.\nI'll export to your broadcaster's TV spec sheet and to the digital formats you need.\nTotal price: 2,500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nCould you send me the TV spec sheet and tell me which language the voiceover should be in?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 798,
+          "salida": 1776,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.053707,
+        "generada": "2026-11-12T14:02:07.797Z"
+      }
+    },
     {
       "id": "567843",
       "tipo": "FREELANCE",
@@ -3250,23 +3289,6 @@
       "dondeSolicitar": "web externa",
       "descripcion": "We are looking for a Graphic Designer Trainee to join our creative team in Barcelona through an educational internship agreement ( convenio de prácticas ).\n What will you do?\n Create visual content for social media and $360^\\circ$ campaigns.\n Assist with branding, visual identity, and client presentation design.\n Adapt digital formats, multimedia assets, and handle basic video editing.\n Explore visual trends and integrate generative AI tools into creative workflows.\n What are we looking for?\n Student in Graphic Design, Visual Arts, Advertising, or related fields eligible for a university internship agreement .\n Proficiency in Adobe Creative Cloud (Photoshop, Illustrator, InDesign, Premiere).\n Working knowledge of Figma and generative AI tools (Midjourney, etc.) is a plus.\n Strong aesthetic sense, proactivity, and eagerness to learn in a collaborative environment.\n Portfolio / Behance link is mandatory .\n What do we offer?\n Direct mentorship from our Creative Direction on real-world projects for leading brands.\n A dynamic, flexible, and growth-oriented agency culture.",
       "vista": "2026-11-10T20:11:47.206Z"
-    },
-    {
-      "id": "566743",
-      "tipo": "FREELANCE",
-      "titulo": "Grafica Packaging per 200 Articoli di Cancelleria",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566743/Grafica-Packaging-per-200-Articoli-di-Cancelleria",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Paperfast Srl",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Abbiamo bisogno di supporto urgente per realizzare la grafica del packaging di 200 articoli di cancelleria della nostra nuova linea di prodotti. Le grafiche dovranno essere preparate per l'invio ai fornitori asiatici. Offriamo anche la possibilità di lavorare presso la nostra sede per velocizzare l'attività.",
-      "vista": "2026-11-10T20:05:22.928Z"
     }
   ]
 }
