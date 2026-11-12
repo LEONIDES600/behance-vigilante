@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T11:01:51.930Z",
+  "actualizado": "2026-11-12T11:04:56.926Z",
   "ofertas": [
+    {
+      "id": "567767",
+      "tipo": "FREELANCE",
+      "titulo": "Logo And Brand Identity Design For Gym Apparel",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567767/Logo-And-Brand-Identity-Design-For-Gym-Apparel",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m launching a gym apparel brand, and need a designer to create a strong logo and cohesive visual identity. The style must be modern, bold, and clean, with branding that works across gym clothing. Please provide relevant work examples, your process, estimated timeline, quote, and the number of concepts and revision rounds included.",
+      "vista": "2026-11-12T11:04:56.926Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo e identidad de marca: Leo puede hacerlo con IA y diseño gráfico, pero no tiene ninguna pieza de logo en su portfolio y el presupuesto es bajo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nA gym apparel brand needs a logo that still reads well when it's printed small on a sleeve, embroidered on a cap or used big across a hoodie, so bold and clean is the right direction.\nTo be transparent, I don't have a gym logo in my portfolio yet. My closest work is graphic design and product visuals for brands, for example a home brand selling in several European countries, where I made listing images, A+ content and the website, all in one consistent style.\nMy process: a short brief on your audience and references, then a few logo directions (wordmark and symbol) explored with AI and refined by hand in Adobe, then the chosen one finished as vector files with colors, typography and mockups on t-shirts, hoodies and tags.\nQuote: 250 USD, 50% upfront, delivery in 7–10 days, 2 rounds of revisions included.\nIf you'd like to see how I'd approach it first, I'm happy to do a short sample direction.\nDo you already have a brand name, and which garments will you launch with first?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 446,
+          "salida": 1062,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0236238,
+        "generada": "2026-11-12T11:04:55.906Z"
+      }
+    },
     {
       "id": "567797",
       "tipo": "FREELANCE",
@@ -3069,23 +3108,6 @@
       "cierraEnDias": 14,
       "dondeSolicitar": "",
       "descripcion": "I need a graphic designer to create polished slide layouts, using Palantir and Anduril as visual references. The layouts should capture a similarly modern, structured, technology-focused presentation aesthetic.",
-      "vista": "2026-11-10T20:02:24.775Z"
-    },
-    {
-      "id": "566753",
-      "tipo": "FREELANCE",
-      "titulo": "AI Image Upscaling for Maximum Resolution",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566753/AI-Image-Upscaling-for-Maximum-Resolution",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We are looking for someone to show us how to create images using AI and upscaling images to achieve the highest possible resolution. \nAttached is an image that was generated using ChatGPT and you can see that the image and text is pixelated. \nWe need someone to show us how to solve this problem as well as create series of prompts to achieve different design styles.",
       "vista": "2026-11-10T20:02:24.775Z"
     }
   ]
