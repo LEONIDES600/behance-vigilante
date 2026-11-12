@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T19:04:52.504Z",
+  "actualizado": "2026-11-12T19:07:37.194Z",
   "ofertas": [
+    {
+      "id": "567975",
+      "tipo": "FREELANCE",
+      "titulo": "UI Design for a SaaS Website",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/567975/UI-Design-for-a-SaaS-Website",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a UI designer to create the user interface for a SaaS website. The design should support a clear, intuitive, and professional web experience for the platform’s users.",
+      "vista": "2026-11-12T19:07:37.194Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Diseño UI de una web SaaS: encaja con su diseño web; no hay una pieza SaaS igual, así que se ofrece una pantalla de muestra.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA SaaS website works when users understand the product right away and always know the next step, so clarity and hierarchy come first.\nMy closest work is LUMEN, FORJA and MORVAIN, 3D scroll websites I designed and built in code (three.js + GSAP). In each one, the structure and visual hierarchy guide the visitor through every section.\nI don't have a SaaS UI piece in my portfolio yet, so I'm happy to start with a short sample screen so you can judge the fit.\nHow I would work:\n1. Review your product, users and main flows, and agree on the list of pages.\n2. Wireframes for the key pages, then the visual style (type, colour, components).\n3. Final UI in Figma for desktop and mobile, ready to hand off to development (or I can build it in code).\nPrice: 1000 USD for the project, 50% upfront, delivery in 7–10 days with 2 rounds of revisions.\nWhich pages or screens do you need: only the marketing website, or also the in-app dashboard?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 393,
+          "salida": 1263,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0274318,
+        "generada": "2026-11-12T19:07:36.365Z"
+      }
+    },
     {
       "id": "567989",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.038323,
         "generada": "2026-11-11T05:57:55.637Z"
-      }
-    },
-    {
-      "id": "566931",
-      "tipo": "FREELANCE",
-      "titulo": "Spanish-Speaking Graphic Designer for Ongoing Meta Ad Creatives",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566931/Spanish-Speaking-Graphic-Designer-for-Ongoing-Meta-Ad-Creatives",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Elevate Design",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a Spanish-speaking graphic designer based in Latin America to create social media ads and Meta ad creatives for US marketing agencies. This is ongoing monthly work at $1,000 per month for each assigned client, beginning with a paid $40 test project. The work includes static ads, carousel creatives, and ad resizes.",
-      "vista": "2026-11-11T05:50:58.420Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden un diseñador que viva en Latinoamérica, y Leo está en Ámsterdam.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 465,
-          "salida": 407,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.024175,
-        "generada": "2026-11-11T05:50:57.682Z"
       }
     }
   ]
