@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T21:45:48.243Z",
+  "actualizado": "2026-11-12T22:25:47.875Z",
   "ofertas": [
+    {
+      "id": "568137",
+      "tipo": "FREELANCE",
+      "titulo": "Corporate Brand Identity Refresh Project",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568137/Corporate-Brand-Identity-Refresh-Project",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Corporate business",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "TEXHAI is seeking an experienced corporate brand identity designer to refresh the visual identity of an established African corporate organisation. The project focuses on modernising the existing logo and developing a professional, consistent brand identity across corporate communications, stationery and presentations.",
+      "vista": "2026-11-12T22:25:47.875Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es un encargo de branding y logo, y Leo no tiene ninguna pieza de identidad en el portfolio. Se envía con una carta honesta que ofrece una muestra corta.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nAn established corporate organisation needs a logo that feels modern without losing its recognition, and a system that keeps stationery, communications and presentations consistent.\nTo be transparent: I don't have a corporate identity refresh in my portfolio yet. My work is graphic design, motion and AI-assisted visuals. For a home brand selling across Europe, I made many listing images, A+ content and a website that all had to follow one consistent visual language.\nHow I would approach it:\n1. Review the current logo and materials, and agree on what must stay recognisable.\n2. Present 2–3 refreshed logo directions with colour and typography.\n3. Build the chosen direction into stationery, a presentation template and short brand guidelines.\nI'm happy to start with a short sample direction so you can judge the fit.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nCould you share the current logo and tell me which elements the organisation wants to keep?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 428,
+          "salida": 862,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.033947,
+        "generada": "2026-11-12T22:25:47.090Z"
+      }
+    },
     {
       "id": "568077",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.036075,
         "generada": "2026-11-11T09:52:55.937Z"
-      }
-    },
-    {
-      "id": "567015",
-      "tipo": "FREELANCE",
-      "titulo": "Responsive UX Enhancement & User Journey Optimization",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567015/Responsive-UX-Enhancement-User-Journey-Optimization",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We are seeking a skilled UI/UX designer to improve the usability and responsiveness of the existing application.\nThe focus is on making important user journeys more intuitive, improving the responsive experience, and resolving inconsistencies throughout the current interface.\nThis project should build upon the existing product rather than replace its current design direction.\nProject Scope\n1. User Journey Analysis\nReview existing navigation and user flows.\nIdentify confusing interactions and unnecessary steps.\nImprove the structure of important pages.\nSimplify access to frequently used actions.\n2. Responsive Interface Design\nOptimize existing layouts for desktop screens.\nImprove tablet and mobile experiences.\nAdjust navigation patterns for smaller screens.\nEnsure components adapt properly to different resolutions.\n3. UX and Visual Improvements\nImprove page hierarchy and content organization.\nRefine typography, spacing, and alignment.\nImprove buttons, cards, forms, and menus.\nEstablish consistent interaction patterns.\n4. Feedback and Accessibility\nImprove loading and empty states.\nCreate understandable success and error messages.\nImprove keyboard navigation and focus visibility.\nEnsure readable typography and sufficient contrast.\n5. Performance-Aware Design\nIdentify heavy visual elements and unnecessary UI complexity.\nRecommend lighter interface patterns.\nCoordinate with developers on frontend optimization opportunities.",
-      "vista": "2026-11-11T09:30:33.379Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es diseño web y responsive, pero Leo no tiene un caso de UX de aplicación: carta honesta que ofrece una prueba con un flujo.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nYou need your key user journeys to feel simpler and your app to work well on desktop, tablet and mobile, while keeping the design direction it already has.\nI design and build websites in code. LUMEN and FORJA, for example, are 3D scroll websites made with three.js + GSAP, where layout, hierarchy and responsive behaviour had to stay clear on every screen size.\nTo be honest, I don't have a UX case study for an application in my portfolio yet. So I'm happy to start by redesigning one important flow as a short test before you decide.\nHow I would work: review your current navigation and flows and list where users get stuck or take extra steps. Then redesign the key screens in Figma for desktop, tablet and mobile, keeping your current style. After that, make buttons, cards, forms and menus consistent, add loading, empty, success and error states, and check contrast, focus visibility and keyboard navigation. Finally, write clear handoff notes for your developers, including where lighter UI patterns could help performance.\nPrice: 5000 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhich user journeys matter most to you right now, and is the app web-based or native?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 829,
-          "salida": 1227,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.042031,
-        "generada": "2026-11-11T09:30:32.227Z"
       }
     }
   ]
