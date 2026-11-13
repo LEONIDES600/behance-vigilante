@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T08:24:27.400Z",
+  "actualizado": "2026-11-13T08:32:53.266Z",
   "ofertas": [
+    {
+      "id": "568287",
+      "tipo": "FREELANCE",
+      "titulo": "Thumbnail Design for a Geometry Dash Journey Project",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568287/Thumbnail-Design-for-a-Geometry-Dash-Journey-Project",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a thumbnail for an extensive Geometry Dash project that symbolizes a journey, and that the idea that the journey itself is often the goal. My budget is $50–$400, and I want the design to communicate this theme clearly and engagingly.",
+      "vista": "2026-11-13T08:32:53.266Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Miniatura para YouTube: diseño gráfico para redes con IA y 3D, encaja con sus servicios y el presupuesto es aceptable.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi!\n\nYour Geometry Dash project needs a thumbnail that shows the journey matters more than the finish line, and it still has to grab attention in a busy feed.\nI'm Leo, from LeoVisual.nl, a small AI creative studio in Amsterdam. I make graphic design for ads and social media, motion graphics and 3D. For storytelling, my closest work is ORBE and SILENCIO, two cinematic AI ads where one image or shot has to carry a whole idea.\nI don't have a Geometry Dash thumbnail in my portfolio yet, so I'm happy to send a quick rough sketch first so you can see the direction.\nHow I would do it: 2–3 concept sketches (for example, the cube on a long winding path of levels where the road itself glows more than the end), then the final design with AI image generation, 3D elements and work in Photoshop/Adobe, with bold contrast and text that is easy to read at small sizes.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you want the thumbnail to show specific levels or icons from your project, and will it have a title on it?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 421,
+          "salida": 1048,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.037639,
+        "generada": "2026-11-13T08:32:52.440Z"
+      }
+    },
     {
       "id": "568279",
       "tipo": "FREELANCE",
@@ -3867,45 +3906,6 @@
         },
         "costeUSD": 0.032503,
         "generada": "2026-11-11T15:19:24.125Z"
-      }
-    },
-    {
-      "id": "567183",
-      "tipo": "FREELANCE",
-      "titulo": "Branding for an Italian Ice Food Truck",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567183/Branding-for-an-Italian-Ice-Food-Truck",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Italian Ice food truck owner",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "am looking for a creative graphic designer to develop branding for my Italian Ice food truck. The project includes creating a professional logo, brand colors, and a cohesive visual identity that reflects a fun, refreshing, and memorable brand. I am not looking for a truck wrap design or extensive branding materials at this time. My budget for this project is $200, so please submit proposals that fit within that range. Experience with food and beverage branding is a plus. I am seeking a clean, professional design that will help my business stand out and connect with customers.",
-      "vista": "2026-11-11T14:43:07.209Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es branding y logo, algo que Leo puede hacer, pero no tiene ningún logo en el portfolio. El pago de 200 USD es aceptable.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nAn Italian Ice truck needs a logo that people can read and remember quickly from the street, with colors that look cold, fresh and fun.\nI'll be honest: I don't have a food truck logo in my portfolio yet. I do graphic design for ads and social media. For a home brand that sells on Amazon in several European countries, I made many product images and A+ content that all had to look like one brand.\nHow I would work:\n1. A short questionnaire about your flavors, your customers and the feeling you want.\n2. 2–3 logo directions, explored with AI and finished cleanly in Adobe.\n3. You choose one, I refine it and build the color palette and fonts around it.\n4. Final files (SVG, PNG, PDF) plus a one-page guide for using the logo and colors.\nIf you prefer, I can make a quick rough sketch of one direction first, so you can see my style before you decide.\nPrice: 200 USD, with 50% upfront. Delivery in 7–10 days, with 2 rounds of changes included.\nDo you already have a name and some flavors or colors you want to show, or are we starting from zero?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 200,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 510,
-          "salida": 1026,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.036735,
-        "generada": "2026-11-11T14:43:05.918Z"
       }
     }
   ]
