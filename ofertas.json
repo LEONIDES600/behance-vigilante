@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T16:09:31.506Z",
+  "actualizado": "2026-11-13T16:21:28.612Z",
   "ofertas": [
+    {
+      "id": "568507",
+      "tipo": "FREELANCE",
+      "titulo": "Structural Packaging Design",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568507/Structural-Packaging-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Moss & Jade",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are looking for a freelance packaging designer or studio to develop elegant, functional and cost-effective packaging for our upcoming curated gift sets.\nThe gift sets may combine ceramics, glass, wood, metal, marble and candles. We need expertise in both structural packaging and visual design, with particular emphasis on protecting fragile products during shipping.\nOur goal is to create a modular packaging system that can accommodate multiple gift-set SKUs with minimal changes, while delivering a sophisticated, premium unboxing experience.\nWe are currently exploring suitable collaborators for an upcoming project, with potential for ongoing work.",
+      "vista": "2026-11-13T16:21:28.612Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es packaging y no hay piezas así en el portfolio; además piden ingeniería estructural para productos frágiles, así que la carta se lo dice con honestidad.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYour gift sets mix fragile materials like ceramics, glass, marble and candles. That means the packaging has to protect them during shipping and still feel premium when the box is opened.\nTo be upfront: I don't have a packaging project in my portfolio yet. My closest work is product images, listing visuals and A+ content for a home brand that sells across Europe (under NDA), plus my graphic design and 3D work.\nThis is how I would approach it: design one modular box family (an outer shipping box, a rigid gift box and inserts that change for each SKU), then create the visual system (materials, finishes, typography and print), and show it all in realistic 3D mockups of the unboxing.\nOn the structural side, I can propose box formats and insert layouts. However, your box manufacturer should check the final dielines and test how well they protect the products.\nIf you'd like to see my approach before you decide, I'm happy to make a short sample first.\nProposal: 500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nHow many gift-set SKUs and product sizes should the first modular system cover?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 538,
+          "salida": 1497,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.047087,
+        "generada": "2026-11-13T16:21:27.419Z"
+      }
+    },
     {
       "id": "568499",
       "tipo": "FREELANCE",
@@ -3870,45 +3909,6 @@
         },
         "costeUSD": 0.030827,
         "generada": "2026-11-12T05:42:27.463Z"
-      }
-    },
-    {
-      "id": "567647",
-      "tipo": "FREELANCE",
-      "titulo": "3D Modeling of Shoes",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567647/3D-Modeling-of-Shoes",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "신발 3D 모델링 작업이 필요합니다. 예산은 200-250만원이며, 신발 형태를 정확하게 구현한 3D 모델을 제작해 주실 디자이너를 찾고 있습니다. 신발은 총 2가지 제품이며 제품당 200~250만원입니다",
-      "vista": "2026-11-12T04:34:35.363Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden modelado 3D preciso de calzado, una especialidad técnica de moda que no está en el portfolio, y el cliente escribe en coreano.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 445,
-          "salida": 786,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.032495,
-        "generada": "2026-11-12T04:34:34.064Z"
       }
     }
   ]
