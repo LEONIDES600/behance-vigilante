@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T17:07:33.551Z",
+  "actualizado": "2026-11-13T17:43:53.261Z",
   "ofertas": [
+    {
+      "id": "568539",
+      "tipo": "FREELANCE",
+      "titulo": "Freelance Apparel Graphic Designer",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568539/Freelance-Apparel-Graphic-Designer",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "The Real Dads",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Freelance Apparel Graphic Designer\nWe're looking for a talented freelance graphic designer to develop original apparel graphics and execute seasonal collections under the direction of our Creative Producer.",
+      "vista": "2026-11-13T17:43:53.261Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Gráficos para ropa y diseño de identidad: Leo puede hacerlos con IA y Adobe, pero no tiene piezas de ropa en el portfolio, así que la carta ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYou need original apparel graphics for seasonal collections, made to fit The Real Dads' voice and your Creative Producer's direction.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. I do graphic design, motion and 3D, including ad and social visuals and a large set of product images for a home brand that sells on Amazon in several European countries.\nI don't have apparel graphics in my portfolio yet, so I'm happy to start with a short sample graphic based on your brief.\nHow I would work:\n1. Go through the brief and references with your Creative Producer and set the theme for each collection.\n2. Explore concepts with AI tools like GPT Image and Nano Banana Pro, then refine and finish them in Adobe.\n3. Send a first round of graphics, adjust them with your feedback and deliver final files in the formats you need for printing.\nPrice: 1000 USD for the collection, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nHow many graphics do you need for the first seasonal collection, and which print method and file formats do you use?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 422,
+          "salida": 1033,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.037343,
+        "generada": "2026-11-13T17:43:52.349Z"
+      }
+    },
     {
       "id": "568527",
       "tipo": "FREELANCE",
@@ -3870,45 +3909,6 @@
         },
         "costeUSD": 0.0453158,
         "generada": "2026-11-12T05:53:42.804Z"
-      }
-    },
-    {
-      "id": "567673",
-      "tipo": "FREELANCE",
-      "titulo": "Dropshipping Advertising — Paid Media Specialist",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567673/Dropshipping-Advertising-Paid-Media-Specialist",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "davidoutwear",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "PROJECT: DaviDoutwear — Dropshipping Advertising — Paid Media Specialist (Google & Meta Ads)\nHello,\nWe are Davidoutwear, a fashion brand looking for experienced Google Ads and Meta Ads (Facebook & Instagram) specialists to help promote our fashion products in the United States.\nJob Responsibilities:\nDevelop advertising strategies for Davidoutwear.\nSet up and manage Google Ads and Facebook/Instagram campaigns.\nResearch and target potential customers in the U.S. market.\nOptimize advertising budgets and campaign performance.\nIncrease website traffic, brand awareness, and online sales.\nMonitor, analyze, and report advertising results.\nCandidate Requirements:\nProven experience with Google Ads and Meta Ads.\nExperience working with fashion or e-commerce brands is preferred.\nAbility to develop effective advertising strategies for the U.S. market.\nStrong understanding of advertising optimization and sales growth.\nInterest in a potential long-term partnership.\nApplication – 100% FREE\nNo application fee.\nNo registration fee.\nFree to submit your application.\nNo payment is required to apply for this project.\nHow to Apply:\nIf you are interested in working with Davidoutwear, please complete the application form below.\nGoogle Forms Application: https://forms.gle/vc4t3wUzexrhZmSy9\nPlease provide information about your professional experience, portfolio, proposed advertising strategy, and service pricing.\nOur team will review your application and contact suitable candidates for potential colla",
-      "vista": "2026-11-12T05:52:16.784Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden un especialista en gestión de campañas de Google Ads y Meta Ads con experiencia demostrada, algo que Leo no tiene confirmado; además, la oferta tiene señales de posible estafa (Google Forms y «solicitud 100 % gratis»).",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 972,
-          "salida": 499,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.028863,
-        "generada": "2026-11-12T05:52:15.945Z"
       }
     }
   ]
