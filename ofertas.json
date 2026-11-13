@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T10:45:32.506Z",
+  "actualizado": "2026-11-13T11:17:13.368Z",
   "ofertas": [
+    {
+      "id": "568333",
+      "tipo": "FREELANCE",
+      "titulo": "Commercial Photo Retouching, Outpainting, and Generative Fill",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568333/Commercial-Photo-Retouching-Outpainting-and-Generative-Fill",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Je recherche un spécialiste de la retouche photo commerciale, de l’outpainting et du Generative Fill pour réaliser des modifications d’images professionnelles.",
+      "vista": "2026-11-13T11:17:13.368Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con su trabajo de imagen de producto con IA y Adobe, pero no tiene una pieza de retoque puro y la oferta está en francés.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYou need commercial photos retouched, extended with outpainting and edited with Generative Fill, with a clean and professional result.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. For a home brand selling on Amazon in several European countries, I made many product images for listings and A+ content. That meant editing, extending and fixing images with Adobe, GPT Image and Nano Banana Pro.\nMy portfolio doesn't have a retouching-only case study, so I'm happy to edit 1–2 of your images first as a short test.\nHow I would work: review your images and references, agree on the style and output formats, then retouch and outpaint, and deliver final files in the sizes you need.\nPrice: 1000 USD for the project, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nI write in English; if you prefer French, I can still read your briefs carefully.\nHow many images are there, and what are they for (e-commerce, ads, print)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 409,
+          "salida": 1162,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.039871,
+        "generada": "2026-11-13T11:17:11.991Z"
+      }
+    },
     {
       "id": "568313",
       "tipo": "FREELANCE",
@@ -3867,45 +3906,6 @@
         },
         "costeUSD": 0.043827,
         "generada": "2026-11-11T16:20:22.748Z"
-      }
-    },
-    {
-      "id": "567233",
-      "tipo": "FREELANCE",
-      "titulo": "Quick-turnaround Data Visualization Vector Art for Social Media Vertical Videos",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567233/Quick-turnaround-Data-Visualization-Vector-Art-for-Social-Media-Vertical-Videos",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "e26 Creative",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a data visualization illustrator to quickly create vector artwork for a series of short, vertical-format social media videos. The artwork will be animated for use across the video series.\n** The budget shown in this Behance post is for the FIRST video only, and there are 7 total videos that need art **\nYou must be experienced developing 2D data visualization vector art (simple, clean charts, graphs, icons and other aesthetically pleasing ways to visualize data). You must perfectly understand English in order to fully understand the video script, data and ideas being conveyed.\nVery tight turnaround, with the art for the first video due Monday, November 16.\nBudget is USD$75/hr. This post is for the first video, but there are 6 additional videos with similar budgets. Here's the breakdown of hours:\n-Videos 1 - 6 are 8 hours each\n-Video 7 has fewer visuals and is 6 hours\nTotal project budget for all 7 videos is USD$4,050.00\nPlease send me samples of data visualization art that you've done.\nYou'll need to sign a nondisclosure agreement (NDA) before we start work.\nReference sample - ideally the data viz art will look similar to this:\nhttps://www.youtube.com/shorts/PQRiKEYObp8",
-      "vista": "2026-11-11T16:04:15.018Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con diseño gráfico y motion graphics, pero Leo no tiene piezas de visualización de datos en el portfolio y piden muestras e inglés perfecto, así que la carta le ofrece una prueba.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nYou need clean, simple 2D charts, graphs and icons that turn each script's data into vector art that is easy to animate in vertical videos, and you need it fast.\nTo be transparent: I don't have a pure data visualization piece in my portfolio yet. The closest work is a series of listing images and videos for a home brand selling on Amazon across Europe (under NDA). There I made a lot of clean graphics that explain product information at a glance, plus motion graphics in After Effects.\nHow I would do it: read the script and data, sketch one frame per data point, build the charts and icons as layered vectors in a consistent style close to your reference, and deliver files already separated for animation.\nI'm happy to do a short paid or free test on one chart from the first video before you decide, and to sign the NDA.\nFor the first video: 600 USD (8 h at your rate), 50% upfront, 2 rounds of changes. My usual delivery time is 7–10 days, so please tell me if Monday is a fixed date and we can see whether we can make it work for video 1.\nWill you share the script and data for the first video once the NDA is signed, and do you already have a color palette and fonts for the series?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 600,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 765,
-          "salida": 1545,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.048135,
-        "generada": "2026-11-11T16:03:50.890Z"
       }
     }
   ]
