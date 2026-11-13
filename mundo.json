@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-13T07:04:00.838Z",
+  "actualizado": "2026-11-13T18:25:01.582Z",
   "ofertas": [
+    {
+      "id": "161936",
+      "tipo": "FULL_TIME",
+      "titulo": "AI Scientist (LATAM)",
+      "presupuesto": "",
+      "enlace": "https://jobicy.com/jobs/161936-ai-scientist-latam",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "LATAM",
+      "empresa": "TRM Labs",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Build a Safer World.\n TRM Labs provides AI-powered intelligence solutions that help public and private sector agencies investigate and disrupt crime. TRM's platforms enable investigators to trace illicit activity, build cases, and construct operating pictures of threat networks. Leading agencies and businesses worldwide rely on TRM to make the world safer and more secure.\n TRM Labs provides AI-powered intelligence solutions, including our AI investigations platform Ardence, that help public and private sector agencies investigate and disrupt crime and global security threats. At TRM, you'll join a mission-driven, fast-paced team made up of experts in law enforcement, data science, engineering, and financial intelligence, tackling complex global challenges daily.\n As an AI Scientist on our ",
+      "vista": "2026-11-13T18:25:01.582Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de investigación en ML que pide más de 5 años de ML práctico, Python/SQL, Spark y modelos en producción. Además exige estar en LATAM y coincidir 4 horas con el horario de PST.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1538,
+          "salida": 381,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.028767,
+        "generada": "2026-11-13T18:25:00.570Z"
+      },
+      "fuente": "jobicy"
+    },
     {
       "id": "1komma5/jobs/werkstudent-in-community-management-m-w-d",
       "tipo": "PART_TIME",
