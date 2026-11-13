@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T00:07:02.838Z",
+  "actualizado": "2026-11-13T00:15:49.265Z",
   "ofertas": [
+    {
+      "id": "568173",
+      "tipo": "FREELANCE",
+      "titulo": "Logo and Mini Brand Guide for Roaring Fork Ranch",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568173/Logo-and-Mini-Brand-Guide-for-Roaring-Fork-Ranch",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for someone to create a distinctive logo and visual identity for my family’s Colorado ranch, Roaring Fork Ranch, located on the Dolores River and Roaring Fork Creek. The logo will primarily be used for signage and merchandise, and should include a full-size primary logo, a simplified secondary mark, branding colors, and a mini brand guide. I’d like the design to draw from the local topography, land or water formations, Colorado cutthroat trout native to the area, and potentially fly fishing, which is a primary purpose of the ranch.",
+      "vista": "2026-11-13T00:15:49.265Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo y guía de marca con un buen presupuesto, pero en el portfolio no hay ningún logo ni identidad de marca, así que se envía con una carta honesta.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nRoaring Fork Ranch has a strong story to build on: the Dolores River, Roaring Fork Creek, the native Colorado cutthroat trout and fly fishing. The mark needs to work just as well on a gate sign as on a cap or a mug.\nTo be honest, I don't have a ranch logo in my portfolio yet. My work is in graphic design, motion and AI-assisted visuals. That includes many images, A+ content and a website for a home brand selling on Amazon in several European countries, where keeping one consistent look across many pieces was the core of the job.\nHow I'd approach it: first, a short moodboard with topography lines, river shapes and cutthroat colours. Then 2–3 logo directions explored with AI and redrawn cleanly in Adobe. The chosen one becomes a full primary logo and a simplified secondary mark, checked at small sizes and in one colour for signage and merchandise.\nThe mini brand guide would cover the colour palette, logo usage, clear space and fonts.\nIf you'd like, I can send a quick sample direction before you decide.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nDo you see the trout as the hero of the mark, or more as a detail inside a landscape of the river and hills?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 535,
+          "salida": 1583,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.048795,
+        "generada": "2026-11-13T00:15:48.504Z"
+      }
+    },
     {
       "id": "568171",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.056431,
         "generada": "2026-11-11T11:14:46.437Z"
-      }
-    },
-    {
-      "id": "567041",
-      "tipo": "FREELANCE",
-      "titulo": "T-Shirt Design Refinement for JULIANO WORLD",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567041/T-Shirt-Design-Refinement-for-JULIANO-WORLD",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "JULIANO WORLD",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We need a creative illustrator and graphic designer to refine, enhance, and experiment with four existing T-shirt design concepts for JULIANO WORLD, an emerging Australian creative luxury brand. We will provide the current artwork as a starting point. The work involves developing multiple variations of typography, colours, textures, compositions, and illustrative details, with an emphasis on creative experimentation and professional refinement rather than creating entirely new designs from scratch.",
-      "vista": "2026-11-11T10:21:49.575Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con diseño gráfico y variaciones con IA, pero en el portfolio no hay camisetas ni merchandising, así que la carta es honesta y ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYou want to push four existing JULIANO WORLD T-shirt concepts further by trying different typography, colours, textures and compositions, while keeping the original ideas.\nTo be clear from the start: I don't have a T-shirt collection in my portfolio yet. My closest work is graphic design and a large set of product images for a home brand selling on Amazon across Europe, where I made many visual variations around one brand look.\nHow I would work: first, review each artwork and any brand references you have. Then create 3–4 directions per design (type, palette, texture, illustrative details), using AI image tools to explore quickly and Adobe to refine and clean up. Finally, narrow down with you and deliver the final files in the formats you need.\nIf it helps, I can refine one of the four concepts first as a short sample before you decide.\nPrice: 250 USD for the four designs, with 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhich printing method will you use (screen print, DTG or embroidery), and is there a limit on the number of colours per design?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 507,
-          "salida": 1406,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.044323,
-        "generada": "2026-11-11T10:21:48.511Z"
       }
     }
   ]
