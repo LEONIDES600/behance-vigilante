@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T11:17:13.368Z",
+  "actualizado": "2026-11-13T11:19:30.807Z",
   "ofertas": [
+    {
+      "id": "568335",
+      "tipo": "FREELANCE",
+      "titulo": "Minimal Premium Brand Website Visual System and Homepage Design",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568335/Minimal-Premium-Brand-Website-Visual-System-and-Homepage-Design",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a web designer to create a visual system for my brand website, including one homepage design and a simple style guide for me to build the remaining pages myself. The budget is $150, and I need a Figma file only with no development work. The style guide should cover fonts, colors, buttons, and product card layouts, using a minimal, warm, premium aesthetic.",
+      "vista": "2026-11-13T11:19:30.807Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Diseño web de una home y una guía de estilo en Figma, encaja con sus webs, y 150 USD está dentro del rango.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA minimal, warm and premium homepage with a clear style guide in Figma is a smart way to keep every future page consistent while you build the rest yourself.\nMy closest work is LUMEN, FORJA and MORVAIN, 3D scroll websites made in code. For you this would be design only, delivered as a Figma file.\nHow I would approach it:\n1. A short moodboard with 2 directions for the warm, premium look, so you can choose one early.\n2. A style guide covering fonts and sizes, the color palette, buttons with their states, and product card layouts.\n3. A homepage design built from those same components, so you can reuse them on the other pages.\nPrice: 150 USD, 50% upfront. Delivery in 7–10 days, with 2 rounds of changes.\nWhat kind of products will the cards show, and do you already have a logo or brand colors I should start from?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 150,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 448,
+          "salida": 1082,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0240318,
+        "generada": "2026-11-13T11:19:29.847Z"
+      }
+    },
     {
       "id": "568333",
       "tipo": "FREELANCE",
@@ -3867,45 +3906,6 @@
         },
         "costeUSD": 0.040507,
         "generada": "2026-11-11T16:28:59.884Z"
-      }
-    },
-    {
-      "id": "567261",
-      "tipo": "FREELANCE",
-      "titulo": "Illustrations For A First Children's Book For Ages 2–5",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567261/Illustrations-For-A-First-Childrens-Book-For-Ages-25",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Je recherche un illustrateur pour mon premier livre destiné aux enfants de 2 à 5 ans. J’ai besoin d’illustrations adaptées à cette tranche d’âge pour accompagner l’histoire et créer une expérience visuelle engageante.",
-      "vista": "2026-11-11T16:20:25.698Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Ilustración infantil sin portfolio igual: se puede hacer con IA si no exige dibujo a mano, pero el cliente escribe en francés y el presupuesto es bajo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYour first book for children aged 2 to 5 needs simple, warm illustrations with the same characters on every page, so the story is easy for little ones to follow.\nTo be clear from the start: I work with AI, and I don't have a children's book in my portfolio yet. My work is AI image and video, like the ORBE and SILENCIO cinematic ads and lots of product images and videos for a home brand.\nHere is how I would do it: 1) read your story and agree on a style (soft colours, round shapes, clear scenes), 2) design the main character and keep it the same in every scene, 3) make one illustration per page with GPT Image or Nano Banana Pro, 4) finish and fix details in Adobe so the files are ready to print.\nBefore you decide, I can make a short free sample: your main character and one page of the book.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nI write in English (sorry, no French), and I'm happy to keep things clear and simple in writing.\nHow many pages or illustrations does the book have, and could you share the text or a short description of the main character?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 433,
-          "salida": 1396,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.043827,
-        "generada": "2026-11-11T16:20:22.748Z"
       }
     }
   ]
