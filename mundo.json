@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-12T22:56:22.846Z",
+  "actualizado": "2026-11-13T00:58:02.255Z",
   "ofertas": [
+    {
+      "id": "grail-talent/jobs/creator-manager-belgium",
+      "tipo": "FULL_TIME",
+      "titulo": "Creator Manager - Belgium",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/grail-talent/jobs/creator-manager-belgium?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Belgium",
+      "empresa": "Grail Talent",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Fully Remote - Work from anywhere 🌍\n Flexible hours - Choose your own schedule ⏰\n No Base Salary - Uncapped commission means unlimited earning potential! 💸\n We're looking for the best managers Belgium has to offer! If you like the idea of taking control of your earnings, keep reading...\n About us:\n Grail Talent is an Influencer Management Agency that connects our diverse and carefully curated roster of content creators with digital marketing opportunities, working with brands and record labels to advertise products and music on social media through influencer promotion and performance marketing.\n We work with some of the biggest players in Music and New Media, including Sony Music Entertainment and Amazon Prime Video, to help promote the next viral sensation or hit show. In doing so, we ",
+      "vista": "2026-11-13T00:58:02.255Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de ventas y gestión de talento solo a comisión, sin sueldo fijo, y pide estar en Bélgica; no tiene nada que ver con los servicios de Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1311,
+          "salida": 340,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.027039,
+        "generada": "2026-11-13T00:58:01.248Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "mindful-souls/jobs/ai-video-editor",
       "tipo": "FULL_TIME",
