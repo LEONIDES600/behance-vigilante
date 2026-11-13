@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T15:36:34.056Z",
+  "actualizado": "2026-11-13T15:37:52.289Z",
   "ofertas": [
+    {
+      "id": "568385",
+      "tipo": "FREELANCE",
+      "titulo": "Logo Design And Basic Brand Guidelines For Three Business Branches",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568385/Logo-Design-And-Basic-Brand-Guidelines-For-Three-Business-Branches",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Tech Guard",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We’re looking for a graphic designer to create a set of three logos and a short brand guide for three divisions of a small Irish company. The logos should work as a family, with a clear shared identity, while each division has its own colour and character. We’re rebranding existing services, so this is a fresh start, not a refresh of the current logos.",
+      "vista": "2026-11-13T15:37:52.289Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es un encargo de logo y branding: Leo puede hacerlo con su flujo de diseño, pero no tiene un logo en el portfolio, así que la carta lo dice y ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA family of three logos that share one clear identity, while each division gets its own colour and character, is a great brief. It's even better as a fresh start rather than a refresh.\nTo be transparent: my portfolio doesn't include a logo or brand identity project yet. My closest work is graphic design for a home goods brand that sells across Europe (under NDA). I made listing images, A+ content and a website, and everything had to look consistent across many pieces.\nHow I would approach it: first a short brief about the company and the three divisions. Then 2–3 concept directions for the shared mark. Next, the chosen direction becomes three versions, each with its own colour and personality, delivered as vector files made in Adobe. The short brand guide would cover logo usage, colour palettes, typography and a few application examples.\nIf it helps you decide, I'm happy to do a short sample or test first.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nWhat are the three divisions, and is there anything in the current branding you want to move away from?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 466,
+          "salida": 1302,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0285038,
+        "generada": "2026-11-13T15:37:51.221Z"
+      }
+    },
     {
       "id": "568397",
       "tipo": "FREELANCE",
@@ -3872,45 +3911,6 @@
         },
         "costeUSD": 0.044523,
         "generada": "2026-11-11T22:40:11.678Z"
-      }
-    },
-    {
-      "id": "371451",
-      "tipo": "FULLTIME",
-      "titulo": "Senior Product Designer (With Data Visualization)",
-      "presupuesto": "2000–3000 USD/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/371451/Senior-Product-Designer-(With-Data-Visualization)",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Monks",
-      "contacto": "Juan Manuel Sotelo",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "About the Role  \n We’re looking for a Senior Product Designer who thrives in complex environments, brings clarity through design, and delivers consistent, user-centered experiences at scale. You’ll play a key role in shaping enterprise-level digital products, collaborating closely with internal client stakeholders to define, discover, and design impactful solutions. \n What You'll Do  \n Own end-to-end product design efforts for customer-oriented applications and platforms.\n Facilitate strategic sessions with client peers and stakeholders as needed. \n Design intuitive, visually compelling, and scalable UI/UX solutions rooted in best practices and business/user insights. \n Collaborate cross-functionally with product managers, developers, and other designers to maintain consistency across platforms and ensure design intent is preserved.\n Make confident, strategic design decisions and communicate them clearly across various teams and contexts. \n Will need to have a good understanding and experience working with data. Data Visualization. Ability to present data and understand why that data is important. \n What We’re Looking For  \n 8+ years of experience in Product Design, with a strong portfolio demonstrating consumer-oriented product and app design. \n Proven ability to work independently with minimal oversight while maintaining strong team collaboration. \n Exceptional communication skills, including experience in client-facing roles and working directly with decision-makers. \n Str",
-      "vista": "2026-11-11T21:29:11.600Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden 8+ años como Product Designer senior de UI/UX y visualización de datos, y el contrato parece limitado a LATAM; no encaja con el perfil ni con la ubicación de Leo.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 901,
-          "salida": 393,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0120638,
-        "generada": "2026-11-11T21:29:10.606Z"
       }
     }
   ]
