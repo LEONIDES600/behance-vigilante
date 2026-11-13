@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T08:01:35.821Z",
+  "actualizado": "2026-11-13T08:12:15.959Z",
   "ofertas": [
+    {
+      "id": "568277",
+      "tipo": "FREELANCE",
+      "titulo": "Senior Graphic Designer for Bilingual Food Label Packaging Artwork Adaptation",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568277/Senior-Graphic-Designer-for-Bilingual-Food-Label-Packaging-Artwork-Adaptation",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Dands",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a senior graphic designer to adapt packaging artwork for food labels in English and Arabic. We have different diecuts, and SKUs but the main design is ready. We need to adapt and change flavors. The final label files must be print-ready and suitable for production.",
+      "vista": "2026-11-13T08:12:15.959Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es sobre todo arte final técnico para imprenta (troqueles, SKUs, archivos listos para producción) con maquetación en árabe, y eso no está en el portfolio de Leo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 441,
+          "salida": 592,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.028599,
+        "generada": "2026-11-13T08:12:15.123Z"
+      }
+    },
     {
       "id": "568275",
       "tipo": "FREELANCE",
@@ -3867,45 +3906,6 @@
         },
         "costeUSD": 0.018891,
         "generada": "2026-11-11T14:20:26.929Z"
-      }
-    },
-    {
-      "id": "371265",
-      "tipo": "FULLTIME",
-      "titulo": "Remote Video Editor",
-      "presupuesto": "0 USD/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/371265/Remote-Video-Editor",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Infinite Creatives",
-      "contacto": "BENJAMIN NEWCOMBE",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "We're a premium remote video editing service built for agencies and fast-growing businesses. We work with 100+ agencies and brands worldwide, delivering everything from social media content to commercials, podcasts, and documentaries through a simple monthly subscription model. We're growing our remote editing team and looking for skilled video editors to join us.\n You'll work directly on client projects across a range of formats and styles, supported by a dedicated Project Manager who handles client communication, quality control, and deadlines — so you can focus on the edit.\n What You'll Get: \n - Fully remote: work from anywhere, no commuting.\n - Flexible hours: a schedule that works for you and the client.\n - Varied projects: social content, brand films, documentaries, ads, and more.\n - Supportive team: guidance from your project manager, plus a collaborative editor team chat.\n - Career growth: Editor of the Month and other bonus opportunities.\n - Training & resources to sharpen your editing skills and workflow\n What We're Looking For: \n - Proficiency in Adobe Premiere Pro and/or After Effects (other softwares considered).\n - A strong portfolio demonstrating a range of editing styles and formats.\n - Reliable internet connection with a minimum download speed of 50 Mbps.\n - Strong attention to detail and ability to follow creative briefs accurately.\n - Good communication skills and ability to meet deadlines consistently.\n - Availability to work either part-time (15 hrs/wk) o",
-      "vista": "2026-11-11T14:19:15.138Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Puesto de editor de vídeo en remoto desde cualquier país, con Premiere y After Effects: encaja de lleno y Leo acepta pruebas.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Benjamin,\n\nYour agency clients need editors who follow the brief closely and deliver clean edits on time, across very different formats, from social clips to brand films.\nI edit in Premiere Pro and After Effects, and I also do motion graphics. Two recent examples are ORBE and SILENCIO, cinematic ads where I handled the idea, the AI generation, the edit and the sound.\nI also create many short listing and social videos for a home brand that sells on Amazon in several European countries, so I'm used to delivering a lot of videos with clear specs.\nHow I work: I read the brief and references first, then make a rough cut, refine pacing, graphics and sound, and check every detail before handing it to the Project Manager.\nI don't have a documentary or podcast edit in my portfolio yet, so I'm happy to do the two test edits and show you how I handle them.\nI'm based in Amsterdam (EU citizen) and I work in English and Spanish.\nWhich formats do new editors work on most right now: short social content or longer brand films?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 843,
-          "salida": 1324,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.044027,
-        "generada": "2026-11-11T14:18:47.768Z"
       }
     }
   ]
