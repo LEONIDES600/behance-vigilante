@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T19:31:17.659Z",
+  "actualizado": "2026-11-13T22:00:50.044Z",
   "ofertas": [
+    {
+      "id": "568599",
+      "tipo": "FREELANCE",
+      "titulo": "Social Media Video Filming and Editing",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568599/Social-Media-Video-Filming-and-Editing",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a video editor and photographer to film and edit social media content. The work includes capturing visual content and producing polished videos suitable for social platforms.",
+      "vista": "2026-11-13T22:00:50.044Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "La edición para redes encaja, pero piden grabar y fotografiar, algo que no está en el portfolio de Leo; la carta lo dice con honestidad.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYou need polished videos for social media and the visual content to fill them.\nI'm Leo from LeoVisual.nl, a creative studio in Amsterdam that works with AI. On the editing side, I made ORBE and SILENCIO, cinematic ads created with AI. I handled the idea, generation, editing and sound for both.\nTo be clear: my portfolio doesn't include on-location filming or photography. I can edit footage that you or your team shoot. When you need more material, I can also make extra shots and product images with AI, using Kling, Seedance and Nano Banana Pro.\nMy process: I review your footage and goals, then edit in Premiere and After Effects with motion graphics and captions. Then I export versions sized for each platform (TikTok, Instagram, YouTube).\nI'm happy to do a short test edit first.\nFor 1000 USD: 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nHow many videos do you need, and can you send me the raw footage?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 390,
+          "salida": 1394,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0300398,
+        "generada": "2026-11-13T22:00:48.982Z"
+      }
+    },
     {
       "id": "568577",
       "tipo": "FREELANCE",
@@ -3868,45 +3907,6 @@
         },
         "costeUSD": 0.029355799999999998,
         "generada": "2026-11-12T11:01:39.836Z"
-      }
-    },
-    {
-      "id": "567765",
-      "tipo": "FREELANCE",
-      "titulo": "10-Second Motion Graphics Video for Real Estate Services Website",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567765/10-Second-Motion-Graphics-Video-for-Real-Estate-Services-Website",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a 10-second motion graphics video for a real estate firm to showcase its services and website. The video should communicate the firm’s offerings clearly in a concise, engaging format.",
-      "vista": "2026-11-12T11:01:51.930Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Vídeo corto de motion graphics en remoto con presupuesto aceptable; encaja con sus servicios de motion y edición.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi!\n\nTen seconds isn't much time to show a real estate firm's services and its website, so every second has to count: one clear message, smooth motion and a strong ending on the brand.\nI'm Leo from LeoVisual.nl, a creative studio in Amsterdam. I make short ads and motion graphics. Two examples are ORBE and SILENCIO, cinematic ads I took from idea through editing and sound. I also build websites (LUMEN, FORJA), so showing a site on screen in an attractive way comes naturally to me.\nHere's how I'd do it: first a short script and storyboard (3–4 beats: the problem, the key services, the website, then logo and call to action). Next, animation in After Effects using your brand colors, fonts and website screens. Finally, music and sound design, with exports for web and social.\nI don't have a real estate piece in my portfolio yet. If it helps, I'm happy to make a short sample frame first.\nPrice: 250 USD, with 50% upfront. Delivery in 7–10 days, and 2 rounds of revisions are included.\nWhich 3 services do you most want to highlight? And do you already have a logo and brand guidelines I can use?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 405,
-          "salida": 965,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0215198,
-        "generada": "2026-11-12T11:01:50.717Z"
       }
     }
   ]
