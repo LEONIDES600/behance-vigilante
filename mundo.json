@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-13T00:58:02.255Z",
+  "actualizado": "2026-11-13T03:01:08.627Z",
   "ofertas": [
+    {
+      "id": "remotejobsone/jobs/spanish-language-consumer-reviewer-remote-worldwide",
+      "tipo": "CONTRACTOR",
+      "titulo": "Spanish-Language Consumer Reviewer – Remote (Worldwide)",
+      "presupuesto": "20–30 USD/h",
+      "enlace": "https://himalayas.app/companies/remotejobsone/jobs/spanish-language-consumer-reviewer-remote-worldwide?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Argentina, Chile, Colombia, Mexico, Peru, Spain",
+      "empresa": "RemoteJobsOne",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "IMPORTANT: after you apply, please check your email. We sendyou a link to complete your application — it is not considered until that laststep is done. If you do not see it, check your spam folder.\n This is a fully remote position , open to candidates based in 6 countries, including Spain, Mexico, Argentina, Colombia, Chile, Peru.\n Pay: $20–$30/hr\n Role Title: Spanish-Language Consumer Reviewer\n Role Type: Contractor\n Location: Remote\n Time Commitment: 5-10 hours/week, short-term project\n the company is looking for Spanish-speaking adults to help evaluate and improve AI systems that answer questions about government services. You’ll read sample questions and answers in Spanish and English and tell us whether the wording sounds natural and is easy to follow. Your everyday experience is what",
+      "vista": "2026-11-13T03:01:08.627Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "No es un servicio de Leo (evaluar textos de IA) y exige residir en EE. UU. y experiencia reciente con trámites del gobierno de EE. UU.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 896,
+          "salida": 579,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.030159,
+        "generada": "2026-11-13T03:01:07.509Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "grail-talent/jobs/creator-manager-belgium",
       "tipo": "FULL_TIME",
