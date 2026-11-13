@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T19:24:19.952Z",
+  "actualizado": "2026-11-13T19:31:17.659Z",
   "ofertas": [
+    {
+      "id": "568577",
+      "tipo": "FREELANCE",
+      "titulo": "Ambient Motion Loop for Restaurant Display Artworks",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568577/Ambient-Motion-Loop-for-Restaurant-Display-Artworks",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Earls Kitchen + Bar",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are a multi-unit restaurant chain looking for an experienced Motion Designer to bring a curated suite of 8 static, high-resolution Midjourney artworks to life as an ambient digital art loop for our restaurant displays.\nThis is living digital decor rather than fast-paced commercial editing. We require slow, ambient loops (soft botanical morphing, fluid light refraction, atmospheric drift, etc) that seamlessly integrate into an upscale hospitality environment without distracting guests.",
+      "vista": "2026-11-13T19:31:17.659Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Encargo de motion graphics y vídeo con IA en remoto y con buen presupuesto; encaja con lo que hace Leo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nTurning your 8 Midjourney artworks into slow, calm loops that sit quietly in the room, without pulling guests' attention, is a nice brief, and I would treat it as a set rather than 8 separate clips.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. My closest work is ORBE and SILENCIO, cinematic ads made with AI where I handled the generation, edit and sound, with a focus on mood and pacing.\nI don't have an ambient display loop like this in my portfolio yet, so I'm happy to animate one of your artworks first as a short sample.\nHow I would do it: animate each artwork with image-to-video AI (Kling or Seedance) using soft prompts like botanical morphing, light refraction and atmospheric drift. Then I would refine the motion in After Effects, match the colour to the original art, and build seamless loops with no visible cut or jump.\nPrice: 2500 USD for the full set of 8 loops, 50% upfront, delivery in 7–10 days, with 2 rounds of changes included.\nWhat resolution and orientation are your displays, and how long should each loop be?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 523,
+          "salida": 973,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.036547,
+        "generada": "2026-11-13T19:31:16.595Z"
+      }
+    },
     {
       "id": "568573",
       "tipo": "FREELANCE",
@@ -3868,45 +3907,6 @@
         },
         "costeUSD": 0.0215198,
         "generada": "2026-11-12T11:01:50.717Z"
-      }
-    },
-    {
-      "id": "567705",
-      "tipo": "FREELANCE",
-      "titulo": "Beauty brand idendity",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567705/Beauty-brand-idendity",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "About us: \nbibi is a new Singapore beauty brand, launched with lip colour line. It sells mainly on TikTok Shop and Shopee, with a lot of LIVE selling. \nPersonality: \nFun, unserious, quirky and witty, made for everyday modern women. \nWhat we need: \nA brand identity system covering logo refinement, colour palette, typography, a graphic or illustration style, and simple rules for how it all fits together. We’ll use it across packaging, TikTok and Shopee assets, LIVE overlays and pop-up events.\nMust work hard on mobile: \nIt has to be loud and recognisable in a fast TikTok scroll and on small product tiles. It also needs to be easy for a small part-time team to use without a designer on hand, so templates are a plus.",
-      "vista": "2026-11-12T07:02:19.064Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es branding de una marca de belleza con plantillas para redes y lo puede hacer con IA, pero no tiene una identidad completa en el portfolio.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nbibi needs an identity that stays loud and recognisable in a fast TikTok scroll and on tiny Shopee tiles, and that a small part-time team can use without a designer.\nI don't have a full beauty brand identity in my portfolio yet, so I'm happy to start with a short sample, like one TikTok frame and one product tile, before you decide.\nWhat is close: graphic design for ads and social, and for a home brand selling on Amazon in several European countries I made many listing images, videos and A+ content, all designed to read well on small screens.\nHow I would do it: refine the logo so it works small and bold, set a high-contrast colour palette and two typefaces, explore a playful graphic style with AI, and write one page of simple rules.\nThen I would make editable templates for TikTok posts, Shopee tiles and LIVE overlays in the tool your team already uses, so they only need to swap text and products.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nWhich tool does your team use every day to make assets: Canva, Figma or something else?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 588,
-          "salida": 1342,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.044187,
-        "generada": "2026-11-12T07:02:18.051Z"
       }
     }
   ]
