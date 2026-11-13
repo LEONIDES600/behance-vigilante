@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-12T22:48:28.365Z",
+  "actualizado": "2026-11-13T00:07:02.838Z",
   "ofertas": [
+    {
+      "id": "568171",
+      "tipo": "FREELANCE",
+      "titulo": "Packaging Design for CPG Brands",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568171/Packaging-Design-for-CPG-Brands",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Sud Scrub",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "The Job\nWe're looking for a highly creative Packaging Designer who can help us develop packaging concepts for upcoming products and potentially contribute to our broader 2027 brand refresh.\nWe don't just need someone who can make an attractive design. We need someone who understands how to build a strong visual concept, explore different creative directions, and turn those ideas into packaging that works in the real world.\nYou should have a strong eye for design, understand consumer product packaging, and know how to balance creativity with practical production requirements.\nYou'll work with us to explore ideas, challenge existing design directions, and develop packaging that makes our products stand out in a competitive e-commerce market.\nWhat You Must Be Great At\n1. Creative Concept Development\nDevelop original packaging concepts based on the brand's direction, product positioning, and target customers.\nExplore multiple creative directions rather than relying on one initial idea.\nPresent concepts through mood boards, visual references, and packaging mockups.\nBring your own creative perspective while understanding how to work within an established brand identity.\n2. Product Packaging Design\nDesign packaging for physical consumer products, from initial concepts to final execution.\nCreate cohesive packaging systems across multiple products and variations.\nUnderstand visual hierarchy, typography, color, layout, and other elements that make packaging recognizable and appealing.\n",
+      "vista": "2026-11-13T00:07:02.838Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es packaging y Leo no tiene proyectos de packaging en el portfolio; se envía con una carta honesta que propone la exploración de concepto pagada que ellos mismos ofrecen.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nYou need packaging concepts that stand out in e-commerce listings and also work on the shelf and for the manufacturer, maybe as part of your 2027 brand refresh.\nI'll be honest from the start: my portfolio does not have finished packaging projects yet, so I understand if that is a deal-breaker for you.\nMy closest work is on the e-commerce side. For a home brand that sells on Amazon in several European countries (under NDA), I made many listing images and videos, A+ content and the website, so I know how a product has to read in a small thumbnail.\nHow I would work: a short brief with your team and a review of your current brand assets, then 3 creative directions with mood boards and references, then packaging mockups for one SKU, and after your feedback, the system across the line.\nFor the final files, I would work from your manufacturer's dielines and specs and check every detail with them before printing.\nYour idea of a paid initial concept is the best way to test this, and I am happy to start there.\nFor the project my price is 5000 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of changes. I work remotely from Amsterdam (CET).\nHow many SKUs are in the first launch, and do you already have dielines from your packaging supplier?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1705,
+          "salida": 1690,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.055615,
+        "generada": "2026-11-13T00:07:01.991Z"
+      }
+    },
     {
       "id": "568155",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.044323,
         "generada": "2026-11-11T10:21:48.511Z"
-      }
-    },
-    {
-      "id": "567037",
-      "tipo": "FREELANCE",
-      "titulo": "Motion Graphic Designer for LED Wall and Live Show Visuals",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567037/Motion-Graphic-Designer-for-LED-Wall-and-Live-Show-Visuals",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "KESPETTACOLO di entertainment e dinner show",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Stiamo cercando un Motion Graphic Designer creativo e di talento da inserire nel team creativo di KESPETTACOLO, brand italiano pluripremiato di entertainment e dinner show. La collaborazione può avvenire da remoto e richiede la creazione di visual animati ad alto impatto per LED wall, performance live, eventi musicali ed esperienze immersive. Il professionista dovrà realizzare loop senza soluzione di continuità, transizioni dinamiche e animazioni guidate dalla musica, contribuendo ad aumentare atmosfera ed energia degli spettacoli. Richiediamo portfolio, showreel ed esempi di progetti per LED wall o live event.",
-      "vista": "2026-11-11T10:12:15.814Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con motion graphics y vídeo con IA en remoto, pero piden ejemplos de LED wall o eventos en vivo que Leo no tiene, así que ofrecemos una prueba; la oferta está en italiano y respondemos en inglés.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYour shows need seamless loops, dynamic transitions and music-driven visuals that bring more atmosphere and energy to the LED wall.\nI'm Leo Gómez from LeoVisual.nl, an AI creative studio in Amsterdam. To be honest, I don't have an LED wall or live-event project in my portfolio yet, so I'd be happy to make a short test loop for one of your shows first.\nMy closest work is ORBE and SILENCIO, two cinematic ads made with AI where I did the idea, generation, editing and sound. I also do motion graphics and 3D in After Effects and Premiere.\nHow I would work: get your screen resolution and the music for each moment, agree on a visual style per song, generate the base footage with Kling or Seedance, then animate it and sync it to the beat in After Effects, and export clean seamless loops in the format your playback system needs.\nFor the project: 2500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nI work in English and Spanish.\nWhat resolution and aspect ratio is your LED wall, and how many loops or songs do you need for the first show?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 609,
-          "salida": 1598,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.048571,
-        "generada": "2026-11-11T10:12:14.772Z"
       }
     }
   ]
