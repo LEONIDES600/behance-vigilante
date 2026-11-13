@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T16:21:28.612Z",
+  "actualizado": "2026-11-13T17:07:33.551Z",
   "ofertas": [
+    {
+      "id": "568527",
+      "tipo": "FREELANCE",
+      "titulo": "Complete Branding Solution for a Fitness and Wellness Studio",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568527/Complete-Branding-Solution-for-a-Fitness-and-Wellness-Studio",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a designer to create and manage a complete branding solution for my fitness and wellness studio. The work should establish a cohesive visual identity that supports the studio’s brand presence.",
+      "vista": "2026-11-13T17:07:33.551Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es branding completo: lo puede entregar con diseño gráfico e IA, pero no tiene ninguna identidad igual en el portfolio, así que la carta lo dice y ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nA fitness and wellness studio needs a look that feels the same everywhere: on the door, on Instagram and on the website. That's what a complete branding package should give you.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. I don't have a full studio identity in my portfolio yet. My closest work is for a home brand that sells across Europe (under NDA): many listing images and videos, A+ content and a website, all in one consistent visual style.\nHow I would do it:\n1. A short brief about your studio, your clients and the feeling you want.\n2. 2–3 logo and visual directions to choose from.\n3. The chosen direction finished: logo versions, colour palette, typography and a simple brand guide.\n4. Templates for social media and signage so you can use the brand from day one.\nIf you'd like, I can make a short sample direction first so you can see my approach.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes included.\nWhen you say \"manage\" the branding, do you mean ongoing help after delivery, like social posts? Or is the identity package enough for now?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 402,
+          "salida": 1004,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.036683,
+        "generada": "2026-11-13T17:07:32.667Z"
+      }
+    },
     {
       "id": "568507",
       "tipo": "FREELANCE",
@@ -3870,45 +3909,6 @@
         },
         "costeUSD": 0.028863,
         "generada": "2026-11-12T05:52:15.945Z"
-      }
-    },
-    {
-      "id": "567671",
-      "tipo": "FREELANCE",
-      "titulo": "Dropshipping Advertising — Paid Media Specialist (Google & Meta Ads)",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567671/Dropshipping-Advertising-Paid-Media-Specialist-(Google-Meta-Ads)",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "davidoutwear",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "PROJECT: DaviDoutwear — Dropshipping Advertising — Paid Media Specialist (Google & Meta Ads)\nHello,\nWe are Davidoutwear, a fashion brand looking for experienced Google Ads and Meta Ads (Facebook & Instagram) specialists to help promote our fashion products in the United States.\nJob Responsibilities:\nDevelop advertising strategies for Davidoutwear.\nSet up and manage Google Ads and Facebook/Instagram campaigns.\nResearch and target potential customers in the U.S. market.\nOptimize advertising budgets and campaign performance.\nIncrease website traffic, brand awareness, and online sales.\nMonitor, analyze, and report advertising results.\nCandidate Requirements:\nProven experience with Google Ads and Meta Ads.\nExperience working with fashion or e-commerce brands is preferred.\nAbility to develop effective advertising strategies for the U.S. market.\nStrong understanding of advertising optimization and sales growth.\nInterest in a potential long-term partnership.\nApplication – 100% FREE\nNo application fee.\nNo registration fee.\nFree to submit your application.\nNo payment is required to apply for this project.\nHow to Apply:\nIf you are interested in working with Davidoutwear, please complete the application form below.\nGoogle Forms Application: https://forms.gle/vc4t3wUzexrhZmSy9\nPlease provide information about your professional experience, portfolio, proposed advertising strategy, and service pricing.\nOur team will review your application and contact suitable candidates for potential colla",
-      "vista": "2026-11-12T05:42:28.423Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden gestionar campañas de Google y Meta Ads con experiencia demostrada, algo que Leo no tiene confirmado, y además desvían a un formulario externo con señales de posible estafa.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 983,
-          "salida": 595,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.030827,
-        "generada": "2026-11-12T05:42:27.463Z"
       }
     }
   ]
