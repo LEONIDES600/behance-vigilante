@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T16:08:11.620Z",
+  "actualizado": "2026-11-13T16:09:31.506Z",
   "ofertas": [
+    {
+      "id": "568499",
+      "tipo": "FREELANCE",
+      "titulo": "Pet Food And Litter Packaging Design In The UAE",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568499/Pet-Food-And-Litter-Packaging-Design-In-The-UAE",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a designer to create packaging for pet supplies, including pet food and litter products, for the UAE market. The packaging should clearly communicate the product category and appeal to pet owners.",
+      "vista": "2026-11-13T16:09:31.506Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es packaging de producto y Leo puede hacerlo con IA, pero no tiene ninguna pieza de packaging en el portfolio.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nIn the UAE, pet owners choose fast on the shelf. Your food and litter packs need to show the product type and the pet right away, and they need to look trustworthy.\nTo be honest, I don't have a packaging project in my portfolio yet. My closest work is for a home brand that sells on Amazon in several European countries. I made many product images, listing visuals and A+ content where each product and its benefits had to be clear in seconds.\nHow I would do it:\n1. A short brief: products, pack sizes, dielines, brand colours and required texts (English/Arabic).\n2. 2–3 visual directions with realistic mockups made with AI, so you can choose one.\n3. I apply the chosen direction to each pack (food and litter) and prepare the files on your dielines, checking the specs with your printer.\nIf you prefer, I can first do a short sample for one pack.\nPrice: 250 USD, with 50% paid upfront. Delivery in 7–10 days, with 2 rounds of changes.\nHow many products and sizes do you need, and do you already have the dielines and the Arabic text?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 401,
+          "salida": 1341,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0290238,
+        "generada": "2026-11-13T16:09:30.499Z"
+      }
+    },
     {
       "id": "568493",
       "tipo": "FREELANCE",
@@ -3870,45 +3909,6 @@
         },
         "costeUSD": 0.032495,
         "generada": "2026-11-12T04:34:34.064Z"
-      }
-    },
-    {
-      "id": "567623",
-      "tipo": "FREELANCE",
-      "titulo": "3D GLB Models of Five Bikes From Photos",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567623/3D-GLB-Models-of-Five-Bikes-From-Photos",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need 3D GLB (glTF 2.0) models created for five bikes using supplied photos as references. The final models should accurately represent each bike and be delivered in the requested GLB format.",
-      "vista": "2026-11-12T02:50:47.598Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Leo hace 3D y webs en three.js, pero no tiene en el portfolio modelos de producto fieles a partir de fotos; carta honesta que ofrece hacer primero una bici de prueba.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nYou need five bikes turned into accurate GLB (glTF 2.0) models from your reference photos, ready to use wherever you plan to show them.\n3D is part of my work, and I've built 3D scroll websites in code with three.js + GSAP (LUMEN, FORJA and MORVAIN), so I know the real-time 3D setting these files are made for.\nTo be honest, I don't have bike models in my portfolio yet, so I'm happy to model one bike first as a test before you commit to all five.\nMy process: study the photos and set up the proportions, block out the frame and wheels, add the details (drivetrain, handlebars, saddle, cables), apply materials and colours that match each bike, then export to GLB and check every file in a glTF viewer.\nPrice: 500 USD for the five models, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhat will the models be used for (web viewer, AR, configurator), and do you have a polygon or file-size limit?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 399,
-          "salida": 1284,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.042271,
-        "generada": "2026-11-12T02:50:46.598Z"
       }
     }
   ]
