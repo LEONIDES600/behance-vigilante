@@ -1,22 +1,22 @@
 {
   "version": "v3.2 · 07/11/2026",
-  "actualizado": "2026-11-13T18:21:10.388Z",
-  "ultimaPasadaConDatos": "2026-11-13T18:21:09.926Z",
+  "actualizado": "2026-11-13T18:51:37.527Z",
+  "ultimaPasadaConDatos": "2026-11-13T18:51:37.021Z",
   "ciegoDesde": null,
   "proxyBehance": "jina",
-  "pasadas": 6393,
+  "pasadas": 6419,
   "hoy": {
     "fecha": "2026-11-13",
-    "nuevas": 387,
-    "alto": 18,
-    "medio": 29,
-    "bajo": 18,
-    "no": 135,
-    "enCola": 41,
-    "enMundo": 6,
-    "cartas": 47,
+    "nuevas": 419,
+    "alto": 19,
+    "medio": 31,
+    "bajo": 19,
+    "no": 139,
+    "enCola": 43,
+    "enMundo": 7,
+    "cartas": 50,
     "cartasError": 0,
-    "costeCartasUSD": 1.5516
+    "costeCartasUSD": 1.6412
   },
   "fuentes": {
     "behance": {
@@ -42,7 +42,7 @@
     "jobicy": {
       "fallosSeguidos": 0,
       "pausadaHasta": null,
-      "ultimaConsulta": "2026-11-13T17:22:34.924Z"
+      "ultimaConsulta": "2026-11-13T18:24:16.061Z"
     },
     "himalayas": {
       "fallosSeguidos": 0,
