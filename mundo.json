@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-13T21:58:28.336Z",
+  "actualizado": "2026-11-13T23:59:59.401Z",
   "ofertas": [
+    {
+      "id": "xperteez-technology/jobs/adobe-xd-specialist-remote",
+      "tipo": "CONTRACTOR",
+      "titulo": "Adobe XD Specialist, Remote",
+      "presupuesto": "150 USD/h",
+      "enlace": "https://himalayas.app/companies/xperteez-technology/jobs/adobe-xd-specialist-remote?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "India, Indonesia, Poland, United States",
+      "empresa": "Xperteez Technology",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Rate: Up to $150/hr\n Type: Contract\n Location: Remote\n Skills & technologies\n Mobile App Design\n UI Design\n Web Design\n Design Systems\n Responsive Design\n Screen Recording\n Interactive Prototyping\n AI Training\n Digital Product Design\n UX Design\n Adobe XD\n In this hourly, remote contract role, you will work as an Adobe XD Specialist (SME) to create realistic, challenging computer-based tasks using Adobe XD and related user interface, user experience, and digital product design workflows.\n Key responsibilities\n Create realistic Adobe XD tasks: Develop professional UI/UX design and prototyping challenges and document them in SuperAnnotate.\n Prepare the work environment: Ensure Adobe XD is accessible and that design files, assets, components, fonts, and references are available before recordin",
+      "vista": "2026-11-13T23:59:59.401Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exige 5+ años de UI/UX y dominio profesional de Adobe XD (que Leo no ha usado y Figma no lo sustituye), y solo admite residentes en India, Indonesia, Polonia o EE. UU.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1450,
+          "salida": 500,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.030795,
+        "generada": "2026-11-13T23:59:58.364Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "experts-inside-ag/jobs/projektleiter-microsoft-cloud-und-ai",
       "tipo": "FULL_TIME",
