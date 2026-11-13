@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T08:35:13.907Z",
+  "actualizado": "2026-11-13T10:45:32.506Z",
   "ofertas": [
+    {
+      "id": "568313",
+      "tipo": "FREELANCE",
+      "titulo": "Professional Business Content Writing and Editing",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568313/Professional-Business-Content-Writing-and-Editing",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m seeking a reliable, skilled writer to create clear, professional, and engaging written content for my business. You will write and edit website content, blog posts, articles, business materials, professional emails, messages, and other business communications; improve existing copy; research topics; proofread thoroughly; and follow specified formatting requirements and deadlines. Content must maintain a consistent professional tone and read naturally for a US English-speaking audience.",
+      "vista": "2026-11-13T10:45:32.506Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es redacción y corrección de textos que deben sonar naturales para lectores de EE. UU., lo que en la práctica exige inglés nativo o C1/C2; Leo tiene B1 y el copywriting no está entre sus servicios.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 474,
+          "salida": 670,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.030291,
+        "generada": "2026-11-13T10:45:31.731Z"
+      }
+    },
     {
       "id": "568289",
       "tipo": "FREELANCE",
@@ -3867,45 +3906,6 @@
         },
         "costeUSD": 0.048135,
         "generada": "2026-11-11T16:03:50.890Z"
-      }
-    },
-    {
-      "id": "567237",
-      "tipo": "FREELANCE",
-      "titulo": "Professional E-commerce & Shopify Store Designer",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567237/Professional-E-commerce-Shopify-Store-Designer",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m seeking a designer for a monthly salaried position with compensation of $4,000 per month. Please share your relevant experience and portfolio.",
-      "vista": "2026-11-11T16:04:15.018Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Diseño de tienda e-commerce encaja con webs, imágenes de producto y A+ de Amazon; el cliente paga 4.000 USD/mes, y la carta dice con claridad que no hay ninguna tienda Shopify en el portfolio.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\n\nYou need a designer who can make your e-commerce and Shopify store look professional and help it sell, on a steady monthly basis.\nFor a home brand that sells on Amazon in several European countries (under NDA), I made many listing images and videos, A+ content and the brand website.\nI also built LUMEN, FORJA and MORVAIN, 3D scroll websites made in code (three.js + GSAP).\nI don't have a Shopify store in my portfolio yet, so I'm happy to do a short test or a sample page first.\nMy plan: review your current store and products, design the key pages (home, collection, product), create product images and banners with AI, then set it up in Shopify and adjust it with you.\nThe $4,000 per month works for me. For the first month: 50% upfront, first delivery in 7–10 days, and 2 rounds of changes.\nIs this a new store or a redesign of an existing one, and how many products do you sell?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 4000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 388,
-          "salida": 1608,
-          "cacheLeida": 2835,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.034279,
-        "generada": "2026-11-11T16:04:13.812Z"
       }
     }
   ]
