@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T11:19:30.807Z",
+  "actualizado": "2026-11-13T11:56:23.006Z",
   "ofertas": [
+    {
+      "id": "285845",
+      "tipo": "FULLTIME",
+      "titulo": "100% Remote - Full Time Creative Designer - APAC Region",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/285845/100-Remote-Full-Time-Creative-Designer-APAC-Region",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "Wunderfauks",
+      "contacto": "Wunderfauks Integrated Creative Agency",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "Behance",
+      "descripcion": "We're looking for 100% remote full-time creative designers (Full-Time positions) in APAC Region to assist our team and looking for individuals that is able to take on leadership leadership roles and to build a team with or around them. Currently looking into these respective countries only (Malaysia, Indonesia, Thailand, Vietnam, and Philippines).\n Job Description:\n Propose & Idea Campaign and Artworks\n Print, Digital, Interactive\n Execute artworks & creatives\n We would also like if you have the following:\n Motivated (\"Let's Do This\" attitude)\n Ability to work independently as well as in a team.\n Resourceful/Initiative\n Passionate about design\n A strong online design portfolio\n Knowledge of Adobe Creative Suite\n Web Development (Knowledge)\n Good conceptual skills\n If you are interested, do fill in this form (let us know when you've done so): https://forms.gle/imxpJHpyykMupY6K9",
+      "vista": "2026-11-13T11:56:23.006Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Solo contratan a residentes de Malasia, Indonesia, Tailandia, Vietnam y Filipinas; Leo vive en Países Bajos.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 557,
+          "salida": 326,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.023743,
+        "generada": "2026-11-13T11:56:20.992Z"
+      }
+    },
     {
       "id": "568335",
       "tipo": "FREELANCE",
@@ -3867,45 +3906,6 @@
         },
         "costeUSD": 0.047375,
         "generada": "2026-11-11T16:54:05.068Z"
-      }
-    },
-    {
-      "id": "567273",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Identity Design for FYRM, a Lifestyle Brand and Community",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567273/Brand-Identity-Design-for-FYRM-a-Lifestyle-Brand-and-Community",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "FYRM",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m building FYRM, a gender-neutral lifestyle brand and community for city-based, young professionals, founders, and athletes aged from their early 20s to mid-30s. Our budget is around $1,000–$2,000, and I’d like to start ASAP. FYRM is for people who know what they need to do and show up every day to do it, captured in our line: “Good days, earned.” We are launching through founder-led Instagram and TikTok content before expanding into products, beginning with sparkling hydration. I need a flexible brand identity that works across social content, community building, merchandise, and future product applications.",
-      "vista": "2026-11-11T16:29:01.082Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Branding/identidad: se puede hacer con IA y diseño gráfico, pero no hay una identidad igual en el portfolio, así que la carta lo dice claro.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nFYRM needs an identity that feels earned and real on a founder's Instagram and TikTok, and that still works later on merch and on a sparkling hydration can.\nTo be honest, I don't have a full brand identity case in my portfolio yet. What I do have is related work: for a home brand selling on Amazon in several European countries, I made many product images, listing videos, A+ content and the website. I also make cinematic AI ads like ORBE and SILENCIO, so content for social is a big part of my work.\nHow I would do it:\n1. A short call about the audience, tone and \"Good days, earned.\"\n2. Moodboards and 2–3 visual directions (logo, type, colors).\n3. The final system: logo versions, palette, typography, social templates and a simple brand guide.\n4. Mockups on merch and a first can, so you can see it in real use.\nIf it helps, I'm happy to do a short sample direction first.\nPrice: 2000 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nDo you already have a name style or any brands you like as a reference for the look of FYRM?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 548,
-          "salida": 1207,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.040507,
-        "generada": "2026-11-11T16:28:59.884Z"
       }
     }
   ]
