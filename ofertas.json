@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T00:15:49.265Z",
+  "actualizado": "2026-11-13T03:18:37.610Z",
   "ofertas": [
+    {
+      "id": "366197",
+      "tipo": "FULLTIME",
+      "titulo": "Senior Photo Editor & Compositing Artist for E-commerce | Remote",
+      "presupuesto": "25.000–40.000 USD/año",
+      "enlace": "https://www.behance.net/joblist/fulltime/366197/Senior-Photo-Editor-Compositing-Artist-for-E-commerce-Remote",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "Mendota Merchants LLC",
+      "contacto": "Michael Goldberg",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "Behance",
+      "descripcion": "Fully Remote — Worldwide\n Full-Time, Long-Term Position\n Salary: $2,000–$3,500 USD/month, depending on portfolio, skill level, and experience\n We are an established U.S. e-commerce company looking for an exceptionally skilled Photo Editor / Compositing Artist to join our creative team full-time.\n This position is ideal for someone who loves taking ordinary product photography and turning it into polished, realistic commercial imagery.\n You will create product and lifestyle images for Amazon and other major e-commerce marketplaces by combining product photography, stock photography, models, environments, and AI-generated imagery into seamless finished images.\n What You Will Be Creating \n Your work will include:\n Advanced Photoshop compositing and photo manipulation\n High-end product retouching\n Realistic e-commerce lifestyle images\n Combining photographed products with models and new environments\n Integrating stock and AI-generated imagery with real product photography\n Replacing or rebuilding backgrounds\n Precise masking and selections\n Matching lighting, perspective, color and depth between multiple images\n Creating realistic shadows and reflections\n Color correction and image enhancement\n Cleaning and improving product photography\n Preparing polished final images for Amazon and other e-commerce platforms\n The finished image should look like it was professionally photographed as a single scene—not assembled from multiple sources.\n What We Are Looking For \n Advanced Adobe Pho",
+      "vista": "2026-11-13T03:18:37.610Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con sus imágenes de listing para Amazon con IA, pero piden Photoshop avanzado y ejemplos de antes y después de composición que no están en su portfolio, así que conviene ofrecer una prueba.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Michael,\n\nYou need someone who can turn ordinary product photos into Amazon lifestyle images that look like a single real photo shoot, not a collage.\nFor a home brand that sells on Amazon in several European countries (under NDA), I created many listing images and videos and A+ content. I combined real product photos with AI-generated scenes and finished them with Adobe tools.\nMy process: clean and retouch the product shot, then build or generate the new environment (GPT Image, Nano Banana Pro). After that, I match the light, perspective and color and add realistic shadows and reflections so the product fits naturally in the scene.\nTo be honest, my Behance is stronger in AI video and 3D web than in pure Photoshop compositing. That client work is under NDA, so I can't publish before-and-after examples.\nThat's why I'm happy to do a test with one of your product photos so you can judge the realism yourself.\nI work remotely from Amsterdam (EU citizen). My English is at a working level and Spanish is my native language.\nWhich product category would you like me to use for the test, and do you have a reference image that shows the level you expect?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1327,
+          "salida": 1535,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.051003,
+        "generada": "2026-11-13T03:18:35.966Z"
+      }
+    },
     {
       "id": "568173",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.047335,
         "generada": "2026-11-11T11:45:09.652Z"
-      }
-    },
-    {
-      "id": "371341",
-      "tipo": "FULLTIME",
-      "titulo": "Director de arte (Mid)",
-      "presupuesto": "1000–2000 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371341/Director-de-arte-(Mid)",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "trii",
-      "contacto": "Edi Lopez",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Nacimos para revolucionar el mercado bursátil y financiero en LATAM. Liberar a las personas de la complejidad financiera a través de una de las plataformas de inversión más grandes de latinoamérica. Presentes en Colombia, Perú y Chile con cerca de 40 empleados de más de 6 nacionalidades.\n En trii buscamos un director@ de arte (Mid) : alguien curios@, con ganas de aprender, crear y crecer en un entorno que apuesta por la innovación, la velocidad y las ideas frescas.\n Trabajar en trii 🤟🏻\n Remuneración en Dólares\n Vacante tiempo completo\n Responsabilidades\n Crear piezas digitales, animaciones y videos con alto estándar visual.\n Aplicar y mantener la consistencia de la marca en todos los assets.\n Utilizar herramientas de IA para acelerar y mejorar los procesos creativos.\n Desarrollar artes para campañas, anuncios y contenido social.\n (Plus) Conocimiento en diseño web y maquetación.\n Requisitos\n Portafolio obligatorio con proyectos relevantes.\n Uso demostrable de herramientas de IA en el proceso creativo.\n Creatividad, criterio visual y atención al detalle.\n Buenas habilidades de comunicación y trabajo en equipo.\n (Plus) Experiencia en Startups o Fintech.\n Aplica en trii 🤟🏻\n Debes incluir tu portafolio con y aspiración Salarial al correo: edisson@trii.co\n Importante: Tu portafolio debe mostrar ejemplos concretos de cómo usas IA en tu proceso creativo.",
-      "vista": "2026-11-11T11:14:47.372Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Encaja de lleno (piezas, animación y vídeo con IA, anuncios, redes y web como plus) y es remoto; ojo: el sueldo publicado, que seguramente es mensual, queda por debajo de los 3.000 €/mes.",
-        "categoria": "CREATIVO",
-        "idioma": "es",
-        "carga": "alta",
-        "texto": "¡Hola, Edi!\n\ntrii necesita a alguien que convierta la complejidad financiera en piezas, animaciones y vídeos claros y cuidados, que use la IA para ir más rápido y que mantenga la marca coherente en cada pieza.\nSoy Leo Gómez, de LeoVisual.nl, un estudio creativo con IA en Ámsterdam. En ORBE y SILENCIO, dos anuncios cinematográficos hechos con IA, me encargué de la idea, la generación con Kling y Seedance, el montaje y el sonido, con Premiere y After Effects.\nComo plus, también hago webs en código, como LUMEN, una web 3D con scroll hecha con three.js y GSAP.\nEn trii trabajaría así: partir de vuestro manual de marca, crear una base de estilos y prompts coherente, generar imágenes con GPT Image y Nano Banana Pro, animar y editar en After Effects y Premiere, y adaptar cada pieza a anuncios y redes.\nPuedo enseñaros paso a paso cómo uso la IA en cada proyecto. No tengo experiencia en fintech, pero, si os sirve, haré encantado una prueba con una pieza de campaña para trii.\nMi aspiración salarial es de 3.000 €/mes brutos, en remoto.\n¿Qué formato pesa más ahora en vuestras campañas: vídeo corto para redes o piezas estáticas para anuncios?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 794,
-          "salida": 1954,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.056431,
-        "generada": "2026-11-11T11:14:46.437Z"
       }
     }
   ]
