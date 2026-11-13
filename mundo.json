@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-13T18:25:01.582Z",
+  "actualizado": "2026-11-13T21:58:28.336Z",
   "ofertas": [
+    {
+      "id": "experts-inside-ag/jobs/projektleiter-microsoft-cloud-und-ai",
+      "tipo": "FULL_TIME",
+      "titulo": "Projektleiter Microsoft Cloud und AI",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/experts-inside-ag/jobs/projektleiter-microsoft-cloud-und-ai?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Guernsey, Holy See (Vatican City State), Hungary, Iceland, Ireland, Isle of Man, Italy, Jersey, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Monaco, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Svalbard and Jan Mayen, Sweden, Switzerland, Ukraine, United Kingdom, Åland Islands",
+      "empresa": "Experts Inside AG",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Worum geht es:\n Bei Experts Inside leitest du Microsoft Cloud und AI Projekte , die echte Geschäftsprozesse verändern, nicht nur Lizenzrollouts. Ob M365 Migration, Azure Projekt, Copilot Einführung oder Agentic AI Implementierung: Du hältst die Fäden zusammen, steuerst die Teams und trägst die Verantwortung dafür, dass Projekte in Zeit, Budget und Qualität beim Kunden ankommen.\n Deine Aufgaben:\n Projektleitung M365 & Copilot : Du planst, steuerst und lieferst Microsoft 365 Rollouts und Copilot Einführungen, vom Kickoff bis zur Übergabe in den Betrieb.\n Azure & AI Projekte: Du leitest Projekte auf Azure, von Landing Zones und Migrationen bis zu AI Lösungen mit Azure AI Foundry, Azure OpenAI und Copilot Studio.\n Planung & Controlling: Du erstellst Projektpläne, überwachst Budget und Ressourc",
+      "vista": "2026-11-13T21:58:28.336Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exige alemán muy bueno y al menos 3 años dirigiendo proyectos de IT en el ecosistema Microsoft (M365 y Azure). Leo no cumple ninguno de los dos requisitos.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 2490,
+          "salida": 339,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.031735,
+        "generada": "2026-11-13T21:58:27.224Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "161936",
       "tipo": "FULL_TIME",
