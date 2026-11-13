@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T03:32:45.862Z",
+  "actualizado": "2026-11-13T04:25:46.272Z",
   "ofertas": [
+    {
+      "id": "568215",
+      "tipo": "FREELANCE",
+      "titulo": "Logo Design for a Medieval Record Label",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568215/Logo-Design-for-a-Medieval-Record-Label",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Norgates",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a logo designer to create a distinctive identity for my record label. The logo should suit the label’s medieval music-focused brand and be suitable for use across its promotional materials.",
+      "vista": "2026-11-13T04:25:46.272Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es diseño de logo e identidad: se puede hacer con IA y diseño gráfico, pero en el portfolio no hay ningún logo, así que la carta ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi!\n\nA medieval music label needs a mark that feels old and crafted but still reads clearly on a cover, a poster or a small social icon.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. I do graphic design and motion work, and I made the cinematic AI ads ORBE and SILENCIO, where building a strong atmosphere was the main task.\nTo be honest, I don't have a logo project in my portfolio yet, so I'm happy to send you a short sample direction before you decide.\nHow I would work:\n1. A few quick questions about your music (era, instruments, mood) and a moodboard with manuscripts, heraldry and old lettering.\n2. Three logo concepts, explored with AI image tools and then redrawn as clean vectors in Adobe.\n3. You pick one, we refine it, and I deliver the final files (SVG, PNG, colour, black and white versions) ready for your promo materials.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nShould the logo lean more towards dark and mystical, or more towards a bright, folk and festival feel?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 392,
+          "salida": 1084,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.038243,
+        "generada": "2026-11-13T04:25:45.226Z"
+      }
+    },
     {
       "id": "568209",
       "tipo": "FREELANCE",
@@ -3867,44 +3906,6 @@
         },
         "costeUSD": 0.019667,
         "generada": "2026-11-11T14:18:56.388Z"
-      }
-    },
-    {
-      "id": "371223",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic Designer",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371223/Graphic-Designer",
-      "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "Limitless Producitons",
-      "contacto": "Limitless Productions",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Role Overview - \n We are looking for a Graphic Designer who can develop compelling visual assets for brands, advertising campaigns, social media, digital platforms, and marketing materials. \n Key Responsibilities - \n Design social media posts, carousels, advertisements, banners, brochures, presentations, and promotional creatives. \n Develop visual concepts aligned with brand guidelines and campaign objectives.\n Create layouts using appropriate typography, colours, imagery, and composition.\n Collaborate with copywriters, social media managers, marketers, and video editors.\n Adapt designs to different platforms and dimensions while maintaining consistency.\n Incorporate feedback and deliver production-ready creative assets. \n Keep up with current design trends while maintaining quality and originality.",
-      "vista": "2026-11-11T14:19:15.139Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Encaja con su trabajo: diseño gráfico para anuncios y redes, con motion graphics y 3D; no dice que sea presencial, así que la carta pregunta si es remoto.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYou need someone who can turn brand guidelines and campaign goals into social posts, carousels, ads and banners that look consistent on every platform and size.\nThat kind of work is a big part of what I do at LeoVisual.nl, a small AI creative studio in Amsterdam.\nFor a home brand that sells on Amazon in several European countries (under NDA), I designed many listing images, videos and A+ content in one visual style.\nI also made ORBE and SILENCIO, cinematic AI ads where I handled the idea, generation, editing and sound.\nHow I would work with you: read the brief and guidelines, propose 2–3 visual directions, build the layouts in Adobe with clear typography and composition, then adapt the approved design to each format and deliver production-ready files.\nI also do motion graphics and 3D, so working with your video editors would be easy.\nMy English is at a working level (B1), and I'm happy to do a short test task.\nIs this role remote, and which brands or campaigns would I start with?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 478,
-          "salida": 1251,
-          "cacheLeida": 2835,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.027499,
-        "generada": "2026-11-11T14:19:10.231Z"
       }
     }
   ]
