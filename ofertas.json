@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T22:00:50.044Z",
+  "actualizado": "2026-11-13T22:35:02.586Z",
   "ofertas": [
+    {
+      "id": "568629",
+      "tipo": "FREELANCE",
+      "titulo": "Premium Can Design for a New UK Soft Drink (330ml Sleek Can)",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568629/Premium-Can-Design-for-a-New-UK-Soft-Drink-(330ml-Sleek-Can)",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We're a new UK drinks brand launching a premium soft drink, and we're looking for an experienced packaging designer to create our can.\nWe already have a clear creative direction and early concepts, which we'll share in full with shortlisted designers once they've signed an NDA.\nThe look and feel we're after: premium, clean, modern and minimal, with realistic ingredient imagery at the heart of the design. It needs to feel high-end on the shelf and stand out in a fridge.\nFormat: 330ml sleek can. The exact template and print method will come from our manufacturer, so experience preparing artwork for can production (labels, shrink sleeves or digital can printing) is a big plus.\nWhat we need from you:\n- A custom wordmark, refined from our concept\n- Front and back can artwork (we'll supply all legal text, nutrition and barcode content)\n- A realistic ingredient image or illustration, licensed for commercial use\n- Print-ready files to the printer's spec, plus editable source files\n- 3D can mockups for our website and social media\n- Full transfer of copyright on completion\nTo apply, please share:\n- 2–3 can or drinks packaging projects you've worked on\n- Your price for a project like this\n- Your typical timeline\n- How many revision rounds you include\nWe're looking to start soon and would love to hear from designers who care about detail and craft.",
+      "vista": "2026-11-13T22:35:02.586Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es packaging de lata y Leo no tiene proyectos de bebidas: se envía con honestidad, apoyándose en su trabajo de imagen de producto y 3D, y ofreciendo una prueba.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nA premium can that looks high-end on the shelf and stands out in a fridge needs a clean layout and an ingredient image that feels real. That's where I would put most of the work.\nTo be honest, I don't have a can or drinks packaging project in my portfolio yet. My closest work is for a home brand that sells on Amazon in several European countries (under NDA). For them I made many product images, listing videos and A+ content. I also work in 3D, for example on the 3D scroll websites LUMEN and FORJA.\nHow I would work: 1) refine the wordmark from your concept, 2) create the ingredient image from scratch with AI image tools I use in paid work (GPT Image, Nano Banana Pro) and finish it in Adobe, 3) design the front and back artwork on your manufacturer's template with your legal text, nutrition info and barcode, 4) prepare print files to the printer's spec and check them with their prepress team, plus editable source files, 5) make 3D can mockups for your website and social media.\nBecause I don't have a can project to show you, I'm happy to do a short test first, for example the front of the can.\nPrice: 2500 USD, with 50% upfront. Timeline: 7–10 days after I receive your concepts and the template. 2 revision rounds included, and full copyright transfer on completion.\nHas your manufacturer already confirmed the print method (shrink sleeve, label or digital can printing)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 785,
+          "salida": 1818,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.054495,
+        "generada": "2026-11-13T22:35:01.492Z"
+      }
+    },
     {
       "id": "568599",
       "tipo": "FREELANCE",
@@ -3868,45 +3907,6 @@
         },
         "costeUSD": 0.0236238,
         "generada": "2026-11-12T11:04:55.906Z"
-      }
-    },
-    {
-      "id": "567797",
-      "tipo": "FREELANCE",
-      "titulo": "Otomotiv ve Gümrük Firması İçin Logo Tasarımı",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567797/Otomotiv-ve-Guemruek-Firmas-cin-Logo-Tasarm",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Taxfreecar",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Otomotiv ve gümrük alanında faaliyet gösteren firmamız için profesyonel bir logo tasarımına ihtiyacım var. Tasarım, markamızın sektörünü net ve güvenilir biçimde yansıtmalıdır.",
-      "vista": "2026-11-12T11:01:51.930Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es un logo (no hay ninguno en el portfolio), está en turco pero no exige el idioma y el presupuesto llega a 250 USD; se envía en inglés y con honestidad.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi!\n\nYou need a logo that makes Taxfreecar look clear and trustworthy to people dealing with cars and customs, two fields where trust matters a lot.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. Most of my portfolio is AI ad films (ORBE and SILENCIO) and 3D websites (LUMEN, FORJA), plus graphic design and motion work. I don't have a logo project like this to show yet, so I'm happy to send you a quick first sketch before you decide.\nHow I would work:\n1) A short brief about your services, your customers and the colours you like.\n2) Initial concepts that combine automotive and customs ideas (road, border, document, approval check) in a simple, solid style.\n3) Polish the one you choose into final vector files (SVG, PDF, PNG), in colour and one-colour versions.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nShould the logo show the full name \"Taxfreecar\", or do you also want an icon that works on its own (for example on number plates, documents or a favicon)? And is English OK for communication?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 439,
-          "salida": 1350,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.029355799999999998,
-        "generada": "2026-11-12T11:01:39.836Z"
       }
     }
   ]
