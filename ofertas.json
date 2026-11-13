@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T03:18:37.610Z",
+  "actualizado": "2026-11-13T03:32:45.862Z",
   "ofertas": [
+    {
+      "id": "568209",
+      "tipo": "FREELANCE",
+      "titulo": "2D Motion Graphics Animation for Original Character YouTube Shorts",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568209/2D-Motion-Graphics-Animation-for-Original-Character-YouTube-Shorts",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a 2D animator who can use motion graphics to bring my original character to life in a couple of short clips for my YouTube Shorts.",
+      "vista": "2026-11-13T03:32:45.862Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Motion graphics para YouTube Shorts encaja con sus servicios; no hay una pieza igual de animación de personaje, así que se ofrece una muestra corta.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi!\n\nYour original character needs to move and feel alive in a short vertical format, and the first seconds of a Short have to catch attention.\nI make motion graphics in After Effects, and I made ORBE and SILENCIO, two short cinematic ads where I did the idea, editing, timing and sound myself.\nI don't have a 2D character animation piece exactly like this in my portfolio, so I'm happy to animate a short sample first so you can check the style.\nHow I would do it: 1) get your character files and split them into parts, 2) rig the character in After Effects, 3) animate the clips in 9:16 for Shorts with motion and sound in sync, 4) export them ready to upload.\nPrice: 250 USD for the clips, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\n\nDo you have the character in layered files (PSD or AI), and about how long should each clip be?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 406,
+          "salida": 1054,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.037699,
+        "generada": "2026-11-13T03:32:44.866Z"
+      }
+    },
     {
       "id": "366197",
       "tipo": "FULLTIME",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.027499,
         "generada": "2026-11-11T14:19:10.231Z"
-      }
-    },
-    {
-      "id": "567103",
-      "tipo": "FREELANCE",
-      "titulo": "Y2K Social Media Graphic Design Support",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567103/Y2K-Social-Media-Graphic-Design-Support",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "NYA",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We’re preparing for our first launch in February 2027.\nWe’re looking for a graphic designer to bring our social media content plan to life through Instagram posts, carousels, stories, and reusable templates.\nOur brand identity and content plan are already developed. The visual direction combines editorial layouts, magazine-inspired covers, expressive typography, and playful Y2K references. \nWe’ll provide brand guidelines, visual references, copy, and photography as it becomes available. We’re looking for someone with a strong eye for Y2K, fashion and culture who can contribute ideas and translate our direction into distinctive designs.\nPlease share relevant portfolio examples, your availability, and your pricing approach. There’s potential for ongoing collaboration after the initial launch.",
-      "vista": "2026-11-11T11:45:10.842Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Encaja: diseño gráfico para Instagram con plantillas, aunque no hay ninguna pieza Y2K/moda en el portfolio, así que se ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA first launch with a clear identity needs posts, carousels and stories that feel like one magazine, plus templates your team can reuse after February.\nFor a home brand that sells on Amazon in several European countries (under NDA), I designed many listing images and A+ content, always following their brand guidelines. So I am used to making many consistent pieces from one visual direction.\nI don't have a Y2K or fashion piece in my portfolio yet, so I am happy to make a short sample first (for example, one magazine-style cover post and one story) with your guidelines.\nHow I would work: 1) study your guidelines, references and content plan, 2) propose 2–3 cover and carousel layouts with expressive type and playful Y2K details, 3) design the posts, carousels and stories, 4) deliver editable templates (Figma or Adobe) for future content.\nPricing: 500 USD for the initial launch set, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nI am also open to ongoing work after the launch.\nHow many posts, carousels and stories do you need for the launch set?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 580,
-          "salida": 1542,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.047335,
-        "generada": "2026-11-11T11:45:09.652Z"
       }
     }
   ]
