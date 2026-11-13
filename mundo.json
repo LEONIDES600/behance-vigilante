@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-13T06:37:26.371Z",
+  "actualizado": "2026-11-13T07:04:00.838Z",
   "ofertas": [
+    {
+      "id": "1komma5/jobs/werkstudent-in-community-management-m-w-d",
+      "tipo": "PART_TIME",
+      "titulo": "Werkstudent:in Community Management (m/w/d)",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/1komma5/jobs/werkstudent-in-community-management-m-w-d?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Germany",
+      "empresa": "1KOMMA5˚",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "1komma5°\n Bei 1KOMMA5° verfolgen wir eine Vision: Living on wind and sunlight forever for free . Dafür bauen wir mit Heartbeat AI das Energiesystem der Zukunft. Bist du dabei? \nWir bringen regionales Handwerk und skalierbare Software zusammen: Solar, Speicher, Wärmepumpe und E-Mobilität denken wir nicht einzeln, sondern steuern sie als intelligentes, integriertes Gesamtsystem in unserem virtuellen Kraftwerk. Direkt verbunden mit dem Strommarkt – in Echtzeit, vollautomatisiert. So wird Energie dann genutzt, wenn sie erneuerbar verfügbar und besonders günstig ist. Bis 2030 wollen wir 1,5 Millionen Haushalte auf erneuerbare Energien umstellen. Über 3.000 Menschen arbeiten jeden Tag daran, an mehr als 80 Standorten weltweit, von Finnland bis Australien. \n Du willst Verantwortung übernehmen und",
+      "vista": "2026-11-13T07:04:00.838Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exige alemán escrito con soltura y estar matriculado en una universidad alemana; además es community management, no producción creativa.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 2131,
+          "salida": 288,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.029279,
+        "generada": "2026-11-13T07:04:00.102Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "155227",
       "tipo": "CONTRACT",
