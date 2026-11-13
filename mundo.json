@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-13T05:04:01.662Z",
+  "actualizado": "2026-11-13T06:37:26.371Z",
   "ofertas": [
+    {
+      "id": "155227",
+      "tipo": "CONTRACT",
+      "titulo": "Content Designer | LATAM",
+      "presupuesto": "",
+      "enlace": "https://jobicy.com/jobs/155227-content-designer-latam",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "LATAM",
+      "empresa": "Fueled",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Location : Remote – Central or South America (Open to applicants anywhere in Central or South America)\n Fueled is a leading digital strategy, design, and engineering agency. We are a 300+ person team that has designed and built hundreds of digital products and experiences for brands like Google, Apple, The New York Times, ESPN, Victoria’s Secret, MGM Resorts, Albertsons, and CLEAR.\n As a Senior Content Designer at Fueled, you’ll bring clarity to complex product experiences through thoughtful, strategic content design. You’ll partner closely with design, product, and engineering teams to shape content systems that scale by moving beyond copy to define structure, meaning, and user understanding across digital products.\n Intentionally remote, our team thrives in a culture that values flexibil",
+      "vista": "2026-11-13T06:37:26.371Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Solo aceptan residentes en Centroamérica o Sudamérica, y piden un perfil senior de UX writing y estrategia de contenidos con más de 4 años, que Leo no tiene.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1416,
+          "salida": 369,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.028039,
+        "generada": "2026-11-13T06:37:25.630Z"
+      },
+      "fuente": "jobicy"
+    },
     {
       "id": "taskus/jobs/head-of-delivery-ai-operations-7144072234",
       "tipo": "FULL_TIME",
