@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T15:34:11.694Z",
+  "actualizado": "2026-11-13T15:36:34.056Z",
   "ofertas": [
+    {
+      "id": "568397",
+      "tipo": "FREELANCE",
+      "titulo": "Facial Likeness Refinement for a Watercolor and Ink Graphic Novel",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568397/Facial-Likeness-Refinement-for-a-Watercolor-and-Ink-Graphic-Novel",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Hi, I’m working on a personal illustrated graphic novel of approximately 80–90 pages in a watercolor-and-ink style with realistic elements. The illustrations are already complete, and I need the facial likeness and consistency of the two main characters refined using real photos as references, while preserving the original artistic style and composition.",
+      "vista": "2026-11-13T15:36:34.056Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Retoque de rostros con IA en ilustraciones ya hechas; Leo puede hacerlo, pero no tiene ninguna novela gráfica ni acuarela en el portfolio y son 80–90 páginas.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nYour two main characters need to look like the real people in your photos and stay consistent across 80–90 pages, without losing your watercolor-and-ink style or changing the compositions.\nTo be honest, I don't have a graphic novel in my portfolio. I have done a lot of paid image work with AI tools like GPT Image and Nano Banana Pro, including keeping products consistent across many images, plus retouching in Adobe tools.\nHow I would do it: first, build a reference sheet for each character from your photos. Then refine the faces panel by panel with AI, using those references. After that, retouch by hand so the ink lines, paper texture and watercolor washes match your original art. Last, check every page side by side to keep the likeness consistent.\nBefore you decide, I can do a free short test on one or two pages so you can judge the result.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nAbout how many panels show the two characters, and how many reference photos do you have of each?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 465,
+          "salida": 1136,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0251798,
+        "generada": "2026-11-13T15:36:33.025Z"
+      }
+    },
     {
       "id": "568411",
       "tipo": "FREELANCE",
@@ -3872,45 +3911,6 @@
         },
         "costeUSD": 0.0120638,
         "generada": "2026-11-11T21:29:10.606Z"
-      }
-    },
-    {
-      "id": "567509",
-      "tipo": "FREELANCE",
-      "titulo": "Luxury Brand Identity And Packaging Design For AQAL Home Décor And Gifting Brand",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567509/Luxury-Brand-Identity-And-Packaging-Design-For-AQAL-Home-Dcor-And-Gifting-Brand",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm seeking an experienced luxury brand identity and packaging designer for AQAL, a premium home décor and gifting brand inspired by Somali heritage. I need a complete elegant, minimalist identity covering the logo, monogram, typography, color palette, heritage-inspired patterns, brand guidelines, luxury packaging, shopping bags, stationery, and social media assets. Experience with luxury homeware and lifestyle branding is preferred.",
-      "vista": "2026-11-11T21:28:02.643Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Branding y packaging de lujo: no hay una pieza igual en el portfolio, pero Leo puede hacerlo con IA y diseño gráfico; carta honesta con muestra ofrecida.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nAQAL needs an identity that feels calm, premium and clearly rooted in Somali heritage, and that stays consistent from the monogram to the shopping bag and the Instagram feed.\nTo be honest, I don't have a full luxury branding project in my portfolio yet. My closest work is for a home goods brand that sells on Amazon in several European countries (under NDA): many product images and videos, A+ content and the website, all in one visual style.\nHow I would do it: first a short moodboard with heritage references (textiles, architecture, patterns), then 2 logo and monogram directions. After you choose one, I build the typography, color palette and patterns, and finally apply them to packaging, bags, stationery and social media templates, with simple brand guidelines in PDF.\nIf you prefer, I can make a short sample first (one monogram idea and a pattern) so you can see the direction before deciding.\nPrice: 500 USD for the full package, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhich heritage elements matter most to you for the patterns, for example traditional textiles, Somali script or architecture?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 509,
-          "salida": 898,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0205958,
-        "generada": "2026-11-11T21:28:01.752Z"
       }
     }
   ]
