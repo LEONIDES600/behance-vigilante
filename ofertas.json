@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T04:25:46.272Z",
+  "actualizado": "2026-11-13T08:01:35.821Z",
   "ofertas": [
+    {
+      "id": "568275",
+      "tipo": "FREELANCE",
+      "titulo": "Amazon Listing Images Design",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568275/Amazon-Listing-Images-Design",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "A ECO STAR",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Project Name： Premium Amazon Listing Design for HavenUp Dog Ramp \nBudget： $600 USD \nTimeline： Estimated project duration: 14–28 days or longer \nAbout the Brand： At HavenUp, we believe that thoughtful design should enhance the everyday life shared between pets and their families. Our brand is inspired by modern pet owners who value comfort, aesthetics, and meaningful connection with their pets. We focus on creating products that feel functional, premium, and beautifully integrated into modern homes. \nAbout the Product：The product is a premium dog ramp designed for stability, durability, and modern living spaces. \nProject Goal： We are looking for a skilled Amazon listing designer to create a complete visual kit that clearly communicates the product’s value while maintaining a premium and trustworthy brand image. The design should help the product stand out in the Amazon marketplace while remaining clean, modern, and easy to understand on mobile devices.",
+      "vista": "2026-11-13T08:01:35.821Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Imágenes de listing de Amazon encaja con su trabajo para la marca de hogar bajo NDA; el cliente ofrece 600 USD.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nA premium dog ramp needs a listing that shows stability and size at a glance and still looks at home in a modern living room, especially on mobile.\nI recently created many listing images and videos, plus A+ content, for a home brand that sells on Amazon in several European countries (under NDA, so I can share details privately).\nFor HavenUp I would work like this:\n1. Review your product photos, specs and main competitors to define the key benefits and the visual style.\n2. Create the main image on white and lifestyle scenes in modern homes with AI tools (GPT Image, Nano Banana Pro), finished in Adobe and keeping the real product accurate.\n3. Design infographics for stability, materials, dimensions and use, with large, clean text that reads well on mobile.\nPrice: 600 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nHow many images do you need in the kit, and do you already have product photos or 3D files of the ramp?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 600,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 654,
+          "salida": 1249,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.042591,
+        "generada": "2026-11-13T08:01:34.763Z"
+      }
+    },
     {
       "id": "568215",
       "tipo": "FREELANCE",
@@ -3867,45 +3906,6 @@
         },
         "costeUSD": 0.044027,
         "generada": "2026-11-11T14:18:47.768Z"
-      }
-    },
-    {
-      "id": "371245",
-      "tipo": "CONTRACT",
-      "titulo": "Graphic designer/Production artist",
-      "presupuesto": "15–20 USD/h",
-      "enlace": "https://www.behance.net/joblist/fulltime/371245/Graphic-designerProduction-artist",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "COAR Global",
-      "contacto": "Ilvana Hamalukic",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Position Title: Graphic designer/Production artist\n Reference No.: 260210\n Position Location: Thailand or Remote (Southeast Asia timezone)\n Contract Duration: 6 months (with the possibility of transition to a full time contract subject to satisfactory performance)\n Contract Scope: Deliverables-based consultancy contract\n Coordinator: Senior Graphic Designer\n Overview: This scope of work (SoW) outlines the Graphic Designer consultancy with the Center for Operational Analysis and Research (COAR). The Graphic Designer/Production artist will oversee and develop the process of building/maintaining COAR’s visual identity by deﬁning requirements, visualizing and creating graphics including illustrations, logos, layouts and infographics. The Graphic Designer will be responsible for producing digital/online publications, shaping the visual aspects of websites (High Fidelity wireframes, prototypes), and more. Shortlisted candidates will be invited to complete a practical design assignment to assess technical skills and alignment with the organization’s visual standards. \n About COAR: COAR is an independent social enterprise that directly supports practitioners, policymakers, and donors by facilitating humanitarian and development interventions in complex, fragile, and high-risk environments. COAR delivers neutral and objective research and analysis, which identiﬁes - but does not inﬂuence - local stakeholders, relationships, interests, and analyzes broader political, economic, social, ",
-      "vista": "2026-11-11T14:19:15.139Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "El puesto es de maquetación editorial y exige como requisito duro 3 años de diseño de publicaciones, dominio experto de InDesign y artes finales para imprenta, además de horario del sudeste asiático. Nada de eso aparece en el perfil de Leo.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1930,
-          "salida": 569,
-          "cacheLeida": 2835,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.019667,
-        "generada": "2026-11-11T14:18:56.388Z"
       }
     }
   ]
