@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T18:27:25.664Z",
+  "actualizado": "2026-11-13T18:36:44.797Z",
   "ofertas": [
+    {
+      "id": "367613",
+      "tipo": "FULLTIME",
+      "titulo": "Experienced Video Editor (Creative & Performance Content)",
+      "presupuesto": "0 USD/año",
+      "enlace": "https://www.behance.net/joblist/fulltime/367613/Experienced-Video-Editor-(Creative-Performance-Content)",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "Outsource Direct",
+      "contacto": "Sam Cosme",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "web externa",
+      "descripcion": "We're looking for an experienced remote Video Editor with a strong eye for storytelling, pacing, visual rhythm, and audience retention .\n You'll work across short-form social, branded content, performance creative, YouTube and other digital video formats.\n We're particularly interested in editors whose portfolios demonstrate:\n Strong storytelling and pacing \n Short-form / social-first editing \n Creative use of B-roll and sound design \n Motion graphics or After Effects \n Commercial, creator or brand work \n Experience: 2+ years preferred\n Location: Remote, Philippines\n Your portfolio is the most important part of your application.\n We want to see work where you made creative decisions , not simply followed a template.\n Apply through the job-specific application link provided.",
+      "vista": "2026-11-13T18:36:44.797Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Aunque la ficha dice «Anywhere», la descripción pide estar en Filipinas (agencia de outsourcing filipina) y no indica sueldo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 481,
+          "salida": 379,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.024499,
+        "generada": "2026-11-13T18:36:43.218Z"
+      }
+    },
     {
       "id": "568557",
       "tipo": "FREELANCE",
@@ -3870,45 +3909,6 @@
         },
         "costeUSD": 0.048295,
         "generada": "2026-11-12T06:35:28.051Z"
-      }
-    },
-    {
-      "id": "567677",
-      "tipo": "FREELANCE",
-      "titulo": "UI/UX Modernization and Design System Improvement",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567677/UIUX-Modernization-and-Design-System-Improvement",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We are looking for an experienced UI/UX designer to improve the existing MetaRace platform by refining its user interface, enhancing usability, and completing a consistent design system. The goal is to modernize the current experience without completely redesigning the product or changing its established visual direction. Project Scope 1. Existing Interface Improvement Review and improve existing page layouts. Establish better visual hierarchy and content organization. Refine spacing, alignment, typography, and color consistency. Improve the overall visual quality of existing screens. 2. Design System Development Establish a consistent color palette and typography system. Create reusable buttons, inputs, cards, and navigation components. Define component sizes, spacing rules, and interaction patterns. Organize and document the complete Figma component library. 3. UX Improvements Simplify important navigation flows. Reduce unnecessary interactions and confusing steps. Improve wallet connection and related user interactions. Provide clearer feedback for user actions. 4. Responsive Design Improve desktop, tablet, and mobile layouts. Ensure consistent component behavior across screen sizes. Optimize navigation and content presentation for smaller screens.",
-      "vista": "2026-11-12T05:55:02.837Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es diseño web y UI en Figma, pero Leo no tiene en el portfolio un sistema de diseño completo y documentado, así que la carta ofrece una muestra.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\n\nYou want MetaRace to feel more modern and consistent without losing its current visual direction. A clear design system is a good way to get there.\n\nAt LeoVisual.nl I design and build websites. LUMEN and FORJA are 3D scroll websites I made in code (three.js + GSAP). On both, layout, typography and responsive behaviour were a core part of the work.\nMy portfolio doesn't include a full documented Figma design system yet. I'm happy to start with a short sample: one of your current screens refined, plus a few base components.\n\nHow I would do it:\n1) Review your current screens and flows, including wallet connection and how the app responds to user actions.\n2) Define the colour palette, typography, spacing rules and core components (buttons, inputs, cards, navigation).\n3) Apply them to the key screens for desktop, tablet and mobile.\n4) Organise and document the Figma component library.\n\nPrice: 1000 USD, 50% upfront. Delivery in 7–10 days, with 2 rounds of changes.\n\nHow many screens does the platform have today? Is there already a Figma file, or only the live product?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 721,
-          "salida": 1446,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.032403799999999996,
-        "generada": "2026-11-12T05:55:01.821Z"
       }
     }
   ]
