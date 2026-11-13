@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T16:05:27.508Z",
+  "actualizado": "2026-11-13T16:06:56.119Z",
   "ofertas": [
+    {
+      "id": "568481",
+      "tipo": "FREELANCE",
+      "titulo": "AI-Generated Book Covers for State Bird Field Guide Series",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568481/AI-Generated-Book-Covers-for-State-Bird-Field-Guide-Series",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Nature's Boon",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a book cover designer who is highly skilled in AI image generation to create a series of book covers for a new series of state bird field guides. This will be an ongoing project with 40-50 covers and potentially many more in other series.\nEach cover will feature one iconic bird for that state as a large hero image set in its natural habitat. The bird must be fully photorealistic, indistinguishable from a professional wildlife photograph, with no trace of the AI look. Experienced birders will study this cover closely, so plumage, feather structure, bill, eyes, feet and posture all have to be exactly right for the species.\nThe cover must also be extremely eye catching on a bookshelf and as a small thumbnail in Amazon and Google search results. The design will become a template for the whole series, with a new bird for each state.\nI have attached a sheet of six concept covers that show the style we want. Please treat them as direction for layout, lighting and mood, not as finished art. We expect the final bird to be more accurate and more photorealistic than these concepts.",
+      "vista": "2026-11-13T16:06:56.119Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con imagen fotorrealista con IA y miniaturas para Amazon, pero Leo no tiene portadas de libro ni fotos de fauna en el portfolio; ofrecemos una portada de prueba.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nYou need a cover template for your state bird series that stands out on a shelf and as a small Amazon thumbnail, with each bird accurate enough for experienced birders.\nI don't have book covers in my portfolio yet, so I'd like to show you rather than tell you: I can make one test cover with a species you choose before we start.\nThe closest work I can point to is product imagery for a home brand selling on Amazon in several European countries (under NDA). I made many listing images and A+ content there, designed to read clearly at thumbnail size.\nHow I'd work: first I collect real reference photos of the species (plumage, bill, eyes, feet, posture). Then I generate with GPT Image and Nano Banana Pro and check every detail against the references. After that I retouch and do the layout in Adobe, building one template for the whole series.\nI'll check every bird closely against the references, and I'd also suggest a quick look from one of your birders on the first covers.\nMy price is 500 USD for this first stage: the series template plus the first covers. I'd like to agree with you how many covers go in this batch. Terms: 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhich state and bird would you like for the test cover, and is the title and text layout from your concept sheet already final?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 672,
+          "salida": 1318,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0296478,
+        "generada": "2026-11-13T16:06:55.212Z"
+      }
+    },
     {
       "id": "568469",
       "tipo": "FREELANCE",
@@ -3870,45 +3909,6 @@
         },
         "costeUSD": 0.0226238,
         "generada": "2026-11-12T02:27:48.706Z"
-      }
-    },
-    {
-      "id": "567617",
-      "tipo": "FREELANCE",
-      "titulo": "2D Explainer Animation and Fuel System Diagram for Helicopter Pilot Training",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567617/2D-Explainer-Animation-and-Fuel-System-Diagram-for-Helicopter-Pilot-Training",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "SkyLogic Academy",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "SkyLogic Academy is building online ground school courses for helicopter pilots, and I'm looking for a motion designer and technical illustrator to make our visuals clearer and more engaging than the black-and-white drawings in flight manuals. This first project is two pieces: a short 2D explainer animation of vortex ring state (a hazard where a helicopter descends into its own rotor downwash) and a clean, modern diagram of a helicopter fuel system. No aviation background is needed; I'll provide the technical content, reference material and accuracy reviews. If the first project goes well, there is ongoing work for a growing library of lessons.",
-      "vista": "2026-11-12T02:23:03.962Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Encaja con motion graphics y diseño gráfico explicativo, en remoto y con buen presupuesto; no hay una pieza igual, así que se ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nTurning vortex ring state and a fuel system into visuals a student pilot understands at first glance is a great goal, and a big step up from black-and-white manual drawings.\nI don't have a helicopter or aviation explainer in my portfolio yet, so I'm happy to make a short sample first so you can judge the style.\nRelated work: ORBE and SILENCIO, short cinematic ads with AI where I handled the idea, generation, editing and sound. I also made listing images and A+ content for a home brand selling on Amazon in several European countries, where every image had to explain a product clearly.\nHow I would do it: 1) storyboard the VRS sequence from your script and references, 2) design one style frame for both pieces, 3) build the fuel system diagram in vector with clear colour coding and labels, 4) animate the explainer in After Effects with clean motion graphics, 5) adjust everything after your accuracy review.\nPrice: 1000 USD for both pieces, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you already have a script or voiceover for the vortex ring state animation, and how long should it be?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 577,
-          "salida": 1588,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.049063,
-        "generada": "2026-11-12T02:23:03.196Z"
       }
     }
   ]
