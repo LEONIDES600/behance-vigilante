@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T17:43:53.261Z",
+  "actualizado": "2026-11-13T18:27:25.664Z",
   "ofertas": [
+    {
+      "id": "568557",
+      "tipo": "FREELANCE",
+      "titulo": "Creativi per Beauty e Profumi con Competenze Grafiche e AI Generativa",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568557/Creativi-per-Beauty-e-Profumi-con-Competenze-Grafiche-e-AI-Generativa",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Still Beauty srl",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Cerco creativi con competenze grafiche, content creation e AI generativa, specializzati nel settore beauty e profumi. L’obiettivo è creare una relazione continuativa nel tempo di affiancamento durante lo studio e realizzazione di campagne pubblicitarie di settore e successivo sviluppo e declinazione per gli output print, web e social.",
+      "vista": "2026-11-13T18:27:25.664Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con campañas creadas con IA y su adaptación a redes y web, pero no tiene piezas de beauty ni de branding, la parte de impresión está por demostrar y la oferta está en italiano.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA beauty and fragrance campaign needs one strong visual idea that keeps the same look across print, web and social.\nI build campaigns with generative AI from start to finish. For ORBE and SILENCIO, two cinematic AI ads, I did the idea, generation, editing and sound. For a home brand that sells across Europe (under NDA), I produced many product images, product videos and A+ content.\nHere is how I would approach it: first a short moodboard and concept, then key visuals made with GPT Image and Nano Banana Pro, and short videos with Kling or Seedance. After that, I would adapt everything to print, web and social formats in Adobe.\nMy portfolio doesn't have a beauty or perfume piece yet, so I'm happy to start with a short sample or a test on one of your products.\nFor a first campaign the price is 2500 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of revisions. After that, we can continue on an ongoing basis.\nI work in English and Spanish, so I hope that works for you.\nWhich product would the first campaign be for, and which formats do you need first?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 493,
+          "salida": 1686,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.036291800000000006,
+        "generada": "2026-11-13T18:27:24.551Z"
+      }
+    },
     {
       "id": "568539",
       "tipo": "FREELANCE",
@@ -3870,45 +3909,6 @@
         },
         "costeUSD": 0.032403799999999996,
         "generada": "2026-11-12T05:55:01.821Z"
-      }
-    },
-    {
-      "id": "567675",
-      "tipo": "FREELANCE",
-      "titulo": "Graphic Design for Clothing and Skincare Brand Assets",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567675/Graphic-Design-for-Clothing-and-Skincare-Brand-Assets",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm seeking a freelance graphic designer for multiple brand design needs: a clothing brand logo and social media posts with a $300 budget, 10 Instagram post designs and a brand kit with a ₹15,000 budget, and skincare product packaging and label design with a $500 budget. The Instagram and brand-kit work is needed within 2 weeks.",
-      "vista": "2026-11-12T05:53:44.154Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Branding y packaging no están en el portfolio y una parte se paga en INR; la carta solo ofrece el packaging en USD (500) y deja el resto para presupuestar aparte.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nYour skincare line needs packaging and labels that look premium on the shelf and in photos, and your clothing brand needs a logo and posts that feel consistent.\nI don't have a packaging project in my portfolio yet, so I'm happy to start with a short sample or a test label before you decide.\nWhat I can show: product images, videos, A+ content and web for a home brand selling on Amazon in several European countries, plus graphic design for ads and social media.\nHow I'd approach the packaging: 1) a quick brief on your products, audience and references, 2) two label directions shown on AI-made mockups, 3) final files for the chosen direction, prepared with your printer's specs.\nFor the skincare packaging and label design I'd work with your 500 USD budget, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nI can quote the logo and social posts separately. I invoice in USD or EUR, not INR.\nWhich products need packaging, and how many label sizes or formats are there?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 464,
-          "salida": 2143,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0453158,
-        "generada": "2026-11-12T05:53:42.804Z"
       }
     }
   ]
