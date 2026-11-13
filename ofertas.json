@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T08:32:53.266Z",
+  "actualizado": "2026-11-13T08:35:13.907Z",
   "ofertas": [
+    {
+      "id": "568289",
+      "tipo": "FREELANCE",
+      "titulo": "Custom Typeface for From The Waters Personal Brand Identity",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568289/Custom-Typeface-for-From-The-Waters-Personal-Brand-Identity",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m developing a new logo and brand identity for my client’s personal brand, “FROM THE WATERS,” and need a custom typeface specifically for the main brand name. My client admires the custom typography used in the NOBIA brand identity and wants a similarly distinctive approach, rather than using an off-the-shelf font. The scope is focused on the typography/typeface only, as I am handling the wider logo and brand identity work.",
+      "vista": "2026-11-13T08:35:13.907Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es tipografía a medida para un logotipo, cerca del branding; no hay una pieza igual en el portfolio, así que la carta lo dice y ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYou need custom lettering for \"FROM THE WATERS\" that looks distinctive, like the NOBIA typography, and fits into the identity you are building.\nTo be honest, I don't have a custom typeface project in my portfolio yet. My closest work is graphic design for ads and social media, and the visual style of my 3D websites LUMEN and FORJA.\nThis is how I would work: first a short moodboard based on NOBIA and your logo direction, then 2–3 different letter directions for the name, and then I refine the chosen one in vector (Adobe Illustrator), with custom shapes, spacing and kerning for the full name.\nYou get the letters and the full wordmark as vector files (AI, SVG, PDF), ready to use in your logo.\nIf it helps you decide, I can first make a short sample with 2–3 letters in one direction.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you need only the vector wordmark and letters, or also an installable font file (OTF)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 480,
+          "salida": 1510,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0327198,
+        "generada": "2026-11-13T08:35:13.181Z"
+      }
+    },
     {
       "id": "568287",
       "tipo": "FREELANCE",
@@ -3867,45 +3906,6 @@
         },
         "costeUSD": 0.034279,
         "generada": "2026-11-11T16:04:13.812Z"
-      }
-    },
-    {
-      "id": "371395",
-      "tipo": "FULLTIME",
-      "titulo": "Designer digital DA et UI web F/H",
-      "presupuesto": "36.000–40.800 EUR/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371395/Designer-digital-DA-et-UI-web-FH",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Mozby",
-      "contacto": "Agence Mozby",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Rejoindre Mozby \n Mozby est un groupe de communication intégré, implanté à Paris et à Toulouse. Nous accompagnons les entreprises de la stratégie de marque à la réalisation de leurs projets : identité visuelle, expériences digitales, contenus et événements.\n Cette approche engage notre travail sur toute la chaîne : comprendre les enjeux d’une entreprise, définir une direction créative et la traduire en réalisations cohérentes, précises et utilisables. Nous attendons des choix argumentés, une exécution maîtrisée et des livrables fiables jusque dans leurs détails.\n Nous recherchons un designer digital capable de porter une direction artistique forte et de la concrétiser dans des interfaces web et SaaS de haut niveau. Vous interviendrez sur des projets clients et internes, de la recherche initiale à la préparation de leur mise en œuvre. Votre contribution doit relier identité de marque, expérience utilisateur et qualité de réalisation.\n Mozby associe un esprit entrepreneurial, une organisation flexible et une forte exigence professionnelle. Le poste est en télétravail depuis la France. L’autonomie s’accompagne d’une communication claire, de points d’avancement réguliers et d’une responsabilité sur la qualité du travail livré.\n Vos responsabilités \n • Définir une direction artistique. Analyser le brief, le positionnement et les usages ; conduire la recherche, construire des territoires visuels et défendre une recommandation claire.\n • Construire des identités cohérentes. Travaill",
-      "vista": "2026-11-11T15:19:26.252Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Exige teletrabajo desde Francia y, en la práctica, francés; además pide una dirección de arte e identidad sólidas que no están en el portfolio.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 2457,
-          "salida": 425,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.032503,
-        "generada": "2026-11-11T15:19:24.125Z"
       }
     }
   ]
