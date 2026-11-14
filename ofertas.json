@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-13T23:32:21.218Z",
+  "actualizado": "2026-11-14T01:50:59.883Z",
   "ofertas": [
+    {
+      "id": "568673",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity for a Coffee Trailer",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568673/Brand-Identity-for-a-Coffee-Trailer",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a designer to create a cohesive brand identity for my coffee trailer. The identity should establish a recognizable visual presence for the mobile coffee business.",
+      "vista": "2026-11-14T01:50:59.883Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es branding remoto con buen presupuesto, pero en el portfolio no hay ninguna identidad de marca, así que se envía con una carta honesta y ofreciendo una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA coffee trailer needs an identity people recognize from across the street and remember on the cup, the menu board and Instagram.\nI'm Leo Gómez from LeoVisual.nl, a creative studio in Amsterdam that works with AI.\nI don't have a coffee brand identity in my portfolio yet. So I'm happy to start with a short sample, a first logo idea and colour palette, so you can see my work before you decide.\nMy graphic design for ads and social media, and the many listing images and A+ content I made for a home brand that sells on Amazon, show how I keep one visual style across many pieces.\nHow I would do it: a short questionnaire about your coffee, customers and location. Then 2–3 moodboard directions, then logo, colours and typography. Last, I'd apply it to the trailer, cups, menu and social media templates, with a simple brand guide.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have a name and a style in mind for the trailer, for example rustic, modern or playful?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 394,
+          "salida": 1228,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.041131,
+        "generada": "2026-11-14T01:50:58.663Z"
+      }
+    },
     {
       "id": "568641",
       "tipo": "FREELANCE",
@@ -3868,45 +3907,6 @@
         },
         "costeUSD": 0.0287158,
         "generada": "2026-11-12T12:11:07.429Z"
-      }
-    },
-    {
-      "id": "371403",
-      "tipo": "FULLTIME",
-      "titulo": "E-commerce & Shopify Store Designer",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371403/E-commerce-Shopify-Store-Designer",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "DOLLAR SHOP LTD",
-      "contacto": "Muhammad Aryan",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "We are looking for a skilled E-commerce & Shopify Store Designer to help build, customize, and optimize high-converting online stores. \n Key Responsibilities:﻿ \n * Design and customize professional Shopify store layouts using modern themes (such as Dawn and Rise).﻿ \n * Optimize product pages, collections, and overall user navigation for maximum customer engagement and sales.﻿ \n * Ensure mobile responsiveness and clean aesthetic branding to drive international e-commerce growth.﻿ \n Requirements:﻿ \n * Proven experience in Shopify store design and e-commerce UI/UX setup.﻿ \n * Strong eye for product layout, color grading, and branding.﻿ \n * Ability to deliver high-quality design projects efficiently.",
-      "vista": "2026-11-12T12:11:27.005Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con diseño web y e-commerce, aunque Leo no tiene una tienda Shopify en el portfolio; la carta lo dice con honestidad y ofrece una prueba.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Muhammad,\n\nA store that converts needs product pages and collections that are clear, work well on mobile and match the brand. That is where I would focus for Dollar Shop.\nI'm Leo Gómez from LeoVisual.nl, an AI creative studio in Amsterdam. I'm an EU citizen and I work remotely.\nI have built 3D scroll websites in code (LUMEN, FORJA and MORVAIN). For a home brand that sells on Amazon in several European countries (under NDA), I made listing images and videos, A+ content and their website.\nTo be honest, I don't have a Shopify store in my portfolio yet. The work is close, though: product layout, visual hierarchy and branding for e-commerce.\nThis is how I would work: first review the current store and the best-selling products. Then define a simple visual system (colors, fonts, image style). Next, redesign the home, collection and product pages on Dawn or Rise. Finally, check every page on mobile before publishing.\nI'm happy to do a short test, for example a redesigned product page, so you can see the result before you decide.\nWhich store would I start with, and is it already live on Shopify or still being set up?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 499,
-          "salida": 1479,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0321758,
-        "generada": "2026-11-12T12:11:23.675Z"
       }
     }
   ]
