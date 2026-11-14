@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T14:08:45.656Z",
+  "actualizado": "2026-11-14T14:52:51.880Z",
   "ofertas": [
+    {
+      "id": "568875",
+      "tipo": "FREELANCE",
+      "titulo": "Web3 Character Illustrator (Crypto Native)",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568875/Web3-Character-Illustrator-(Crypto-Native)",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "About Taifoon:\nTaifoon (taifoon.io) is a Web3 infrastructure project building a coordination layer for AI agents. We need a consistent visual identity for our ecosystem.\nThe Role:\nWe are looking for a talented Illustrator to design original character mascots (cyber-entities). They will be used as NFT avatars and Telegram stickers. We want a dark, minimalistic, and cyber-oriented style with neon green accents.\nRequirements:\n· Strong experience in Adobe Illustrator and character design.\n· Crypto Native: You must be an active crypto user and understand Web3 culture.\n· Full creative freedom is provided, but the final style must match our high-tech aesthetic.\nWhat we offer:\n· Long-term collaboration.\n· Flexible budget.",
+      "vista": "2026-11-14T14:52:51.880Z",
+      "carta": {
+        "decision": "espera",
+        "motivo": "Las mascotas e ilustración con IA encajan como dudosa, pero exigen ser «crypto native» y eso no consta en los datos de Leo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nTaifoon needs a family of cyber-entity mascots with one consistent style that works as NFT avatars and still reads clearly as small Telegram stickers: dark, minimal, with neon green accents.\nI am Leo Gómez, an AI creative studio in Amsterdam. Your project is close to my own work: I build showcases and \"offices\" of AI agent systems (one agent per department, Telegram/WhatsApp agents), so the idea of coordinated AI agents is very familiar to me.\nI don't have a character mascot set in my portfolio yet, so to be transparent I'd be happy to start with a short sample: one mascot so you can judge the style first.\nHow I would work:\n1. A moodboard and 2–3 style directions (dark base, neon green, cyber shapes).\n2. Explore character concepts with AI, then refine the chosen one into clean final artwork in Adobe.\n3. Build a simple character sheet so every new entity stays consistent, then export versions for avatars and stickers.\nPrice: 1000 USD for the first set, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nHow many characters do you want in the first set, and should they share one base body or each have their own look?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "Piden ser «crypto native» (usuario activo de cripto y Web3). ¿Lo eres? Si es así, ¿lo menciono en la carta?",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 598,
+          "salida": 1388,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.045147,
+        "generada": "2026-11-14T14:52:51.053Z"
+      }
+    },
     {
       "id": "568865",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.0419918,
         "generada": "2026-11-12T14:15:25.789Z"
-      }
-    },
-    {
-      "id": "371585",
-      "tipo": "CONTRACT",
-      "titulo": "Godot Game Engine expert — micro1",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/371585/Godot-Game-Engine-expert-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "Godot Game Engine Expert\n Remote | Independent contractor\n Advertised pay is US$70–US$130 per hour.\n Micro1 lists this role as remote and does not specify eligible countries. Check eligibility on the linked application.\n micro1 is engaging Godot specialists for an AI training project involving practical 2D/3D game-development tasks and clear, step-by-step workflow explanations.\n Scope: create and modify games; build gameplay mechanics, animations and interfaces; use GDScript, scenes, nodes and physics; debug and optimize games; perform advanced Godot tasks; and develop workflow instructions and detailed prompts.\n Requirements: strong professional Godot experience; GDScript or C# programming; understanding of 2D/3D development, scenes, nodes and animation; ability to develop, debug and optimize gameplay systems; access to Godot and screen-recording capability; English at B2 or above; and clear technical explanations.\n Preferred: a Godot project portfolio; a relevant master's or PhD; human-data, annotation, RLHF or AI-evaluation experience; multiplayer, physics or UI/UX development; and professional game-development experience.\n Apply directly to micro1 through the external application button on this advert.\n I’m sharing this opportunity as an independent referrer and may receive a referral payment if you apply through the Micro1 link on this advert and meet Micro1’s referral conditions. I’m not part of Micro1’s hiring team. Apply through the Micro1 link attached to this listin",
-      "vista": "2026-11-12T14:15:38.087Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden un experto en Godot con mucha experiencia programando juegos en GDScript o C# e inglés B2, y Leo no tiene experiencia en Godot ni en desarrollo de juegos.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 745,
-          "salida": 449,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0125598,
-        "generada": "2026-11-12T14:15:35.817Z"
       }
     }
   ]
