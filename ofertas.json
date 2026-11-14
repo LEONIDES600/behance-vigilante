@@ -1,6 +1,86 @@
 {
-  "actualizado": "2026-11-14T17:45:16.529Z",
+  "actualizado": "2026-11-14T18:44:48.395Z",
   "ofertas": [
+    {
+      "id": "568963",
+      "tipo": "FREELANCE",
+      "titulo": "Logo Design for a New Shop",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568963/Logo-Design-for-a-New-Shop",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Please complete the verification process to confirm the transaction with the customer",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a logo for my new shop, with a budget of $500. The logo should provide a clear, professional visual identity for the business.",
+      "vista": "2026-11-14T18:44:48.395Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Un logo no está en su portfolio, así que va como dudosa con carta honesta. Ojo: el nombre de la empresa es un mensaje de «verificación» típico de estafa; no pagues nada ni entres en enlaces externos para «verificar».",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi!\n\nA new shop needs a logo that looks clear and professional from day one, on the sign, on social media and on packaging.\nI run LeoVisual.nl, an AI creative studio in Amsterdam. I do graphic design for ads and social media, plus AI ad films like ORBE and SILENCIO, where I take care of the visual identity of each piece.\nI don't have a logo project in my portfolio yet, so I'm happy to make a short first sample before you decide.\nHow I would work: a short brief about your shop and your customers, 3 first logo directions, then we refine the one you like. You get final files in colour, black and white, and the sizes for web and print.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes included.\nWhat does your shop sell, and do you already have a name and colours in mind?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 388,
+          "salida": 1038,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.037307,
+        "generada": "2026-11-14T18:44:30.768Z"
+      }
+    },
+    {
+      "id": "568965",
+      "tipo": "FREELANCE",
+      "titulo": "Branding and Illustration for a New Coffee Brand",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568965/Branding-and-Illustration-for-a-New-Coffee-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m launching a new coffee brand and need a designer to create its branding and custom illustration work. The visuals should establish a distinctive, cohesive identity for the brand.\nBrand Name: SAKA (incorporating both English lettering and Japanese characters—e.g., \nMarket: Canada (Specialty Coffee)\nMission: SAKA exists to bring rare, specialty coffee varieties from emerging and underrepresented growing regions to the Canadian market. At the core of our brand is radical transparency, ethical direct-trade partnerships, and celebrating the real farmers behind every harvest.\nTarget Audience\n• Demographics: Millennials and Gen X (ages 28–55+), urban and suburban Canadian coffee enthusiasts, design-conscious consumers, and ethical shoppers.\n• Mindset: Appreciates craft, origin traceability, cultural storytelling, and elevated everyday rituals. Drawn to brands that balance modern minimalism with rich, authentic heritage.",
+      "vista": "2026-11-14T18:44:48.395Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding e ilustración con IA: Leo puede entregarlo, pero no tiene una identidad de marca parecida en el portfolio. La carta lo reconoce y ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nSAKA needs an identity that feels modern and minimal but still carries the stories of the farmers and regions behind each coffee, in both English and Japanese.\nTo be upfront, I don't have a full coffee branding project in my portfolio yet. My closest work is a cohesive visual system for a home brand selling on Amazon in several European countries (under NDA): listing images, videos and A+ content that all had to feel like one brand. I also made ORBE and SILENCIO, cinematic AI ads where I handled the idea, visuals, editing and sound.\nHere's how I would approach it: first a short moodboard and 2 logo directions. Then I would develop the chosen direction into colours, typography and a set of custom illustrations, generated with AI and refined in Adobe. The last step is a simple brand guide with packaging mock-ups.\nFor the Japanese characters, I would ask you or a native speaker to confirm the final wording.\nIf it helps, I'm happy to make a short sample first so you can see the style before deciding.\nPrice: 5000 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nHave you already chosen the Japanese characters for SAKA, or should the identity explore a few options?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [
+          "exagera el inglés"
+        ],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 681,
+          "salida": 1585,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0350238,
+        "generada": "2026-11-14T18:44:47.427Z"
+      }
+    },
     {
       "id": "568933",
       "tipo": "FREELANCE",
@@ -3825,84 +3905,6 @@
         },
         "costeUSD": 0.0156358,
         "generada": "2026-11-12T14:14:34.377Z"
-      }
-    },
-    {
-      "id": "371609",
-      "tipo": "CONTRACT",
-      "titulo": "Digital Artist — micro1",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/371609/Digital-Artist-micro1",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "Eligibility: You must be based in the United States, excluding California.\n micro1 is seeking Digital Artists for an AI image-evaluation project. Upload original digital images or photographs, compare them with AI-generated versions, identify differences in anatomy, colour, lighting, perspective and texture, detect artifacts, and provide precise written feedback. No prior AI experience is required.\n Preferred qualifications include at least two years in digital art, retouching, compositing, 3D rendering, design, colour grading or photography; a portfolio of original work; proficiency with tools such as Photoshop, Lightroom, Procreate or Blender; and strong written and verbal visual communication.\n Engagement: Remote contractor, United States only. Candidates must be located in the United States and have valid authorisation to contract there. Advertised compensation: US$21-US$35/hour. Hours, project availability and payment terms are determined by micro1; work and acceptance are not guaranteed. Confirm the applicable rate and payment terms with micro1 before accepting work.\n Apply directly to micro1 through the external application button on this advert.\n I’m sharing this opportunity as an independent referrer and may receive a referral payment if you apply through this link and meet micro1’s referral conditions. Micro1 handles hiring decisions and questions about the role or application.",
-      "vista": "2026-11-12T14:15:38.087Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Exige residir en Estados Unidos (sin California) y tener autorización para contratar allí; Leo vive en Países Bajos.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 649,
-          "salida": 479,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.012775799999999999,
-        "generada": "2026-11-12T14:14:40.459Z"
-      }
-    },
-    {
-      "id": "371607",
-      "tipo": "CONTRACT",
-      "titulo": "Graphic Designer — micro1",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/371607/Graphic-Designer-micro1",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "Eligibility: You must be based in the United States, excluding California.\n micro1 is seeking U.S.-based Graphic Designers for an AI image-evaluation project. Upload your own original photographs, compare them with AI-generated counterparts, identify visual artifacts or quality issues, and give precise written feedback on lighting, composition, perspective and texture. Work includes iterative reviews as project guidance evolves.\n Preferred backgrounds include graphic design, photography, digital imaging, photo editing or a related creative discipline. Strong visual attention to detail, a methodical approach and excellent written English are important. Image evaluation, annotation or digital quality-assurance experience is preferred. No prior AI experience is required.\n Engagement: Independent contractor, remote within the United States. micro1 advertises US$21-US$35/hour. Hours, project availability and payment terms are determined by micro1; work and acceptance are not guaranteed.\n Apply directly to micro1 through the external application button on this advert.\n I’m sharing this opportunity as an independent referrer and may receive a referral payment if you apply through this link and meet micro1’s referral conditions. Micro1 handles hiring decisions and questions about the role or application.",
-      "vista": "2026-11-12T14:15:38.087Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Exige residir en EE. UU. (sin California), Leo está en Países Bajos; además es evaluación de imágenes de IA con fotos propias, no un encargo de diseño.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 619,
-          "salida": 542,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.013915799999999999,
-        "generada": "2026-11-12T14:14:46.079Z"
       }
     }
   ]
