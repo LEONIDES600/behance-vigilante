@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T22:46:37.180Z",
+  "actualizado": "2026-11-14T23:10:55.317Z",
   "ofertas": [
+    {
+      "id": "569111",
+      "tipo": "FREELANCE",
+      "titulo": "Iconic S Logo Design for THE STANDARD Premium Lifestyle Brand",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569111/Iconic-S-Logo-Design-for-THE-STANDARD-Premium-Lifestyle-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "THE STANDARD",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m building THE STANDARD, a premium lifestyle brand and community rooted in discipline, accountability, purpose, faith, strength, growth, and holding ourselves to a higher standard. I need an iconic, standalone “S” logo mark that subtly integrates a cross into its construction without appearing overtly religious, forced, or gimmicky. The symbol should read first as a strong, premium S, with the cross becoming apparent on closer inspection. It must avoid generic gym aesthetics and support an elevated luxury lifestyle apparel direction defined by Prada-like restraint, AMIRI-inspired attitude, premium materials, minimal branding, strong silhouettes, and timeless appeal.",
+      "vista": "2026-11-14T23:10:55.317Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es un logo de marca de ropa: Leo hace diseño gráfico, pero no tiene ningún logo en el portfolio, así que la carta lo dice claro y ofrece primero un boceto corto.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nTHE STANDARD needs an S that reads first as a strong, restrained luxury mark, with the cross showing only when you look closer. That balance is the hard part, and it is what I would focus on.\n\nI run LeoVisual.nl, a creative studio in Amsterdam working in graphic design, 3D and AI visuals. I don't have a standalone logo mark like this in my portfolio yet, so I'm happy to start with a short sketch of one direction before you commit.\n\nHow I would work:\n1. Short brief on references (Prada restraint, AMIRI attitude) and what to avoid (gym look, obvious religious symbols).\n2. 3 rough directions for how the cross sits inside the S: negative space, stroke intersection, or cut geometry.\n3. Refine one direction into a clean vector mark in Adobe, checked at small sizes and in one color.\n4. Mockups on apparel and materials (embroidery, embossed leather, metal hardware) so you can see it in real use.\n\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes, final files in AI, SVG, PDF and PNG.\n\nShould the mark also work next to a \"THE STANDARD\" wordmark, or will it always stand alone?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 587,
+          "salida": 1093,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.039203,
+        "generada": "2026-11-14T23:10:54.389Z"
+      }
+    },
     {
       "id": "569103",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.0306198,
         "generada": "2026-11-12T14:13:47.932Z"
-      }
-    },
-    {
-      "id": "371617",
-      "tipo": "CONTRACT",
-      "titulo": "Graphic and Editorial Design Expert — micro1",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/371617/Graphic-and-Editorial-Design-Expert-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "micro1 is seeking Graphic and Editorial Design Experts for an AI training project. Review posters, covers, layouts and brand materials against briefs and audiences; assess hierarchy, spacing, typography, colour and image use; flag production issues; and explain each decision in writing.\n Applicants need professional design experience for a company, studio, publisher or client. Relevant backgrounds include graphic designer, editorial or publication designer, layout designer, art director and brand designer. Regular use of InDesign, Illustrator, Photoshop or Figma, experience delivering real production files and clear written English are expected.\n Engagement: Independent contractor, fully remote worldwide. The application page advertises US$50-US$105/hour. Hours, project availability and payment terms are determined by micro1; work and acceptance are not guaranteed. Eligibility remains subject to micro1's country and project requirements.\n Selection includes a resume and short profile, curation interview, experience review and, if selected, an initial reviewed task.\n Apply directly to micro1 through the external application button on this advert.\n I’m sharing this opportunity as an independent referrer and may receive a referral payment if you apply through this link and meet micro1’s referral conditions. Micro1 handles hiring decisions and questions about the role or application.",
-      "vista": "2026-11-12T14:15:38.087Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja en remoto y está bien pagado, pero Leo no tiene diseño editorial en el portfolio y la plaza pide inglés escrito claro (él tiene B1).",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Anabel,\n\nThanks for sharing this. micro1 needs designers who can review posters, covers, layouts and brand materials against a brief and explain each decision in writing. That is close to how I check my own work before I deliver it.\nI run LeoVisual.nl, an AI creative studio in Amsterdam. I do graphic design for ads and social media, and motion graphics and 3D.\nFor a home brand that sells on Amazon in several European countries (under NDA), I delivered many listing images and A+ content. That work meant checking hierarchy, spacing, typography, colour and image use against marketplace rules and real production specs.\nI also design and build 3D scroll websites like LUMEN and FORJA, where layout and type hierarchy are central.\nTo be honest: I don't have editorial or publication pieces in my portfolio, and my working English is B1, clear but simple. I work with Adobe tools and Figma.\nI'm happy to do micro1's reviewed task so they can judge my feedback directly.\nDo you know if the first task is a written review of existing layouts, or does it also include fixing the files?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 653,
-          "salida": 1319,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.029591799999999998,
-        "generada": "2026-11-12T14:14:02.682Z"
       }
     }
   ]
