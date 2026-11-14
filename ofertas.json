@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T23:15:23.519Z",
+  "actualizado": "2026-11-14T23:42:46.882Z",
   "ofertas": [
+    {
+      "id": "569117",
+      "tipo": "FREELANCE",
+      "titulo": "Motion Designer / TV Promo Editor – The Bold and the Beautiful",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569117/Motion-Designer-TV-Promo-Editor-The-Bold-and-the-Beautiful",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "OmniMedia Group / OmniPlay",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "OmniMedia Group / OmniPlay is looking for a motion designer or TV promo editor to create an editable template for weekly “This Week on The Bold and the Beautiful” promos. We want a polished broadcast-style look and a workflow that makes it easy to replace footage and text every week. There may also be an opportunity for ongoing weekly editing work.",
+      "vista": "2026-11-14T23:42:46.882Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Plantilla de motion graphics y edición de promos encaja con After Effects/Premiere y sus anuncios con IA; remoto y presupuesto razonable.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA weekly \"This Week on The Bold and the Beautiful\" promo needs to look polished every single time, but swapping in new footage and text should only take minutes, not a full rebuild.\nI edit and design motion graphics in Premiere and After Effects. My cinematic ads ORBE and SILENCIO show my editing, pacing and sound work (behance.net/leostudiocreative).\nI don't have a soap opera promo in my portfolio yet, so I'm happy to make a short style frame or a sample first.\nHere's how I would build it:\n1. Two or three broadcast-style looks (titles, lower thirds, transitions, end card with day and time) for you to pick from.\n2. The final template in After Effects, with controls for text, footage placeholders and colors, plus Premiere-editable versions where it helps.\n3. A simple guide so anyone on your team can update the promo each week.\nPrice: 1000 USD for the template, with 50% upfront, delivery in 7–10 days and 2 rounds of changes. I'd also be glad to handle the ongoing weekly edits.\nWhat length and formats do you need each week (for example a 30-second TV spot plus vertical social cutdowns)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 490,
+          "salida": 1044,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.037835,
+        "generada": "2026-11-14T23:42:46.012Z"
+      }
+    },
     {
       "id": "569113",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.0171078,
         "generada": "2026-11-12T15:11:51.808Z"
-      }
-    },
-    {
-      "id": "371621",
-      "tipo": "CONTRACT",
-      "titulo": "Art and Photography Curators — micro1",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371621/Art-and-Photography-Curators-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Hello Realign — independent micro1 referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "micro1 is seeking Art and Photography Curators for an AI training project. Review artworks and image sets for attribution, context and presentation; assess their fit with a theme or collection; flag provenance, condition, rights or ownership concerns; check labels and descriptions; and explain decisions in writing.\n Applicants need professional experience curating, acquiring, cataloguing or attributing art or photography for museums, galleries, auction houses, archives or collections. Relevant backgrounds include curator, collections or exhibitions specialist, gallery director, auction specialist, archivist and registrar. Experience with selections, attribution, displays, loans or acquisitions is expected. Photography specialists should understand prints, editions and photographic processes. Clear written English is essential.\n Engagement: Independent contractor, fully remote worldwide. The application page advertises US$50-US$105/hour. Hours, project availability and payment terms are determined by micro1; work and acceptance are not guaranteed. Eligibility remains subject to micro1's country and project requirements.\n Selection includes a resume and short profile, a curation interview about exhibitions, collections and attribution, experience review and, if selected, an initial reviewed task.\n Apply directly to micro1 through the external application button on this advert.\n I’m sharing this opportunity as an independent referrer and may receive a referral payment if you app",
-      "vista": "2026-11-12T14:15:38.087Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden experiencia profesional como curador, archivero o especialista de subastas en museos o galerías (atribución, procedencia, ediciones fotográficas), y Leo no la tiene.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 713,
-          "salida": 437,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.026587,
-        "generada": "2026-11-12T14:13:31.923Z"
       }
     }
   ]
