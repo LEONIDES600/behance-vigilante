@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T05:06:03.293Z",
+  "actualizado": "2026-11-14T07:06:34.945Z",
   "ofertas": [
+    {
+      "id": "568743",
+      "tipo": "FREELANCE",
+      "titulo": "Photorealistic AI Fashion Video Ads",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568743/Photorealistic-AI-Fashion-Video-Ads",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Scorp",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We’re looking for a full-time AI video artist to translate our creative briefs into photorealistic fashion advertisements that look and move like live-action footage. You’ll create videos from scratch and rework approved footage featuring influencers, models, and fashion products.",
+      "vista": "2026-11-14T07:06:34.945Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Anuncios de vídeo fotorrealistas con IA, justo su servicio principal; remoto y con buen presupuesto.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nYou need fashion ads that look and move like real live-action footage, made from your briefs and from approved footage of influencers, models and products.\nI make cinematic ads with AI. ORBE and SILENCIO are two of them, and I handled the idea, generation, editing and sound on both.\nI don't have a fashion piece in my portfolio yet, so I'm happy to make a short sample or do a test based on one of your briefs first.\nMy process: break the brief into shots, create consistent stills of the looks and products (Nano Banana Pro, GPT Image), animate them with Kling and Seedance, and rework your approved footage where needed.\nThen I edit, grade and add motion and sound in Premiere and After Effects so the final ad feels like a real shoot.\nFor this project my price is 2500 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nHow many ads and formats do you need first, and will you share the approved influencer footage and product references at the start?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 433,
+          "salida": 927,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.035267,
+        "generada": "2026-11-14T07:06:33.972Z"
+      }
+    },
     {
       "id": "568721",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.037827,
         "generada": "2026-11-12T13:12:12.943Z"
-      }
-    },
-    {
-      "id": "371289",
-      "tipo": "FULLTIME",
-      "titulo": "Social Media Associate / Copywriter",
-      "presupuesto": "55.000–65.000 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371289/Social-Media-Associate-Copywriter",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Diagonal Media",
-      "contacto": "Lillian Isabella",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Diagonal Media (DGNL) is a NYC creative consultancy helping brands, companies, nonprofits and individuals communicate clearly and powerfully through ideation, video production and design. \n We're looking for a copywriter with a social media background to lead social content across our client roster. \n You have a point of view on what stops the scroll, and the results to back it up. \n What You'll Do: \n - Concept and write social copy for Instagram, TikTok, LinkedIn, Facebook and more \n - Keep client content calendars on track \n - Repurpose existing content so it goes further, and bring trend ideas to the team \n - Manage handoffs with design, creative and account teams \n - Monitor community activity and support light analytics and reporting \n What We're Looking For \n - 2 to 4 years in social media and/or copywriting \n - A portfolio of social content you've written, with results (engagement, growth or other performance signals) \n - Comfort managing multiple clients and deadlines at once \n - Organized, detail-oriented and flexible enough to test and adjust \n Bonus: agency experience, social scheduling and reporting tools, CMS platforms, and simple design in Canva or Figma. \n The Details: \n - Full-time, fully remote \n - 10am to 5pm Eastern, with a flexible one-hour lunch \n - $55,000 to $65,000 a year, depending on experience \n To apply, send your resume and portfolio to hello@dgnl.co, and tell us about one piece of social content you're proud of and what it achieved.",
-      "vista": "2026-11-12T12:22:22.580Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es un puesto de copywriter en inglés con horario fijo de Nueva York (de 16:00 a 23:00 en Ámsterdam) y piden resultados de redes demostrables: con inglés B1 y su portfolio no encaja.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 741,
-          "salida": 575,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.029459,
-        "generada": "2026-11-12T12:22:17.283Z"
       }
     }
   ]
