@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-14T02:01:44.931Z",
+  "actualizado": "2026-11-14T04:04:47.349Z",
   "ofertas": [
+    {
+      "id": "ryze-superfoods/jobs/senior-video-editing-manager",
+      "tipo": "FULL_TIME",
+      "titulo": "Senior Video Editing Manager",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/ryze-superfoods/jobs/senior-video-editing-manager?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Austria, Brazil, Bulgaria, Georgia, Pakistan, Philippines, Serbia",
+      "empresa": "RYZE Superfoods",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "COMPANY 🌱\nRYZE was founded in 2019 by Andrée Werner and Rashad Hossain, out of a parents' basement, with a mission to change daily health, starting with the morning routine: a nutrient-dense mushroom coffee delivering clean energy, mental clarity, and immune support. Built on a Direct-to-Consumer foundation with a performance marketing engine, RYZE achieved hockey-stick growth and a community of over 1 million active subscribers.\nDTC remains the foundation, but RYZE has expanded into mass retail, quickly becoming the #2 items in Target's overall coffee category and is now executing a multi-channel expansion, with a cross-category launch coming in early 2027. RYZE is uniquely positioned to redefine how people think about daily wellness.\nWe’re a lean, fast-moving, mission-driven team who be",
+      "vista": "2026-11-14T04:04:47.349Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Solo contratan desde Austria, Brasil, Bulgaria, Georgia, Pakistán, Filipinas y Serbia (no España ni Países Bajos), y piden un manager sénior para dirigir a 10-15 editores.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1632,
+          "salida": 422,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.029963,
+        "generada": "2026-11-14T04:04:46.254Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "scandiweb/jobs/seo-strategy-manager-with-focus-on-ai-9411227820",
       "tipo": "FULL_TIME",
