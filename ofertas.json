@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T23:46:10.341Z",
+  "actualizado": "2026-11-14T23:50:35.993Z",
   "ofertas": [
+    {
+      "id": "569121",
+      "tipo": "FREELANCE",
+      "titulo": "Branding for an Artisanal Silk Sleep and Daywear Company",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569121/Branding-for-an-Artisanal-Silk-Sleep-and-Daywear-Company",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a designer to create branding for my artisanal silk company specializing in sleepwear and daywear. The branding should establish a cohesive identity for the business and its products.",
+      "vista": "2026-11-14T23:50:35.993Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es branding sin pieza igual en el portfolio, pero se puede hacer con IA y el presupuesto es aceptable; carta honesta que ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nAn artisanal silk sleep and daywear brand needs an identity that feels as soft and premium as the fabric itself, and that looks the same on labels, social media and product photos.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. To be honest, I don't have a full branding project in my portfolio yet. But I have made many product images, listing visuals and A+ content for a home brand that sells across Europe, and cinematic AI ads like ORBE and SILENCIO, so I'm used to building one consistent look around a product.\nHow I would work:\n1. A short questionnaire about your story, your customers and your references.\n2. A moodboard with 2 visual directions (colors, typography, tone).\n3. Logo, color palette, typography and a simple brand guide, plus mockups on labels, packaging and social posts.\nIf it helps, I can make a short sample first so you can see my approach before you decide.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have a brand name and a feeling in mind, for example minimal and calm, or more luxurious and romantic?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 399,
+          "salida": 1347,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0291358,
+        "generada": "2026-11-14T23:50:35.078Z"
+      }
+    },
     {
       "id": "569119",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.0134358,
         "generada": "2026-11-12T15:11:36.419Z"
-      }
-    },
-    {
-      "id": "371637",
-      "tipo": "CONTRACT",
-      "titulo": "Music Expert (Music Teacher / Musician) — micro1",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371637/Music-Expert-(Music-Teacher-Musician)-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "micro1 is engaging music teachers, musicians and other Music Experts for an audio-annotation project supporting AI training. Apply analytical listening and music-theory knowledge to real-world recordings. No prior AI experience is required.\n Work includes listening to 30–90-second field recordings, identifying instruments, tempo, key and background events, adding structured notes and timestamps, comparing recordings of the same song and evaluating AI-generated descriptions. The project includes a brief paid onboarding/calibration session and short weekly online syncs.\n Preferred qualifications include at least three years of hands-on music or audio experience as a musician, teacher, producer, session player or similar, strong analytical listening and the ability to identify key and tempo using relative pitch and reference tools. Conservatory training or a music-theory or performance degree is highly desirable. Audio annotation, transcription or sound-analysis experience is preferred. Strong English, high-quality headphones, a quiet workspace and stable internet are important.\n Engagement: Contractor. Advertised compensation: US$20–US$45/hour. Remote. Micro1’s live role page does not list eligible countries. Check eligibility in the linked application.\n Apply directly to micro1 through the external application button on this advert.\n I'm sharing this opportunity as an independent referrer and may receive a referral payment if you apply through the micro1 link I provide and mee",
-      "vista": "2026-11-12T15:11:53.373Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden un experto en música (teoría musical, identificar tonalidad y tempo de oído, años como músico o profesor) para anotar audio, y Leo no tiene esa formación.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 751,
-          "salida": 537,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.014343799999999999,
-        "generada": "2026-11-12T15:11:43.141Z"
       }
     }
   ]
