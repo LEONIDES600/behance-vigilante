@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T18:44:48.395Z",
+  "actualizado": "2026-11-14T19:36:55.653Z",
   "ofertas": [
+    {
+      "id": "569029",
+      "tipo": "FREELANCE",
+      "titulo": "Custom Logo Design for Shop",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569029/Custom-Logo-Design-for-Shop",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "All the details about the order are available at the link below.",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a custom logo for my shop, with a budget of $500. I need a distinctive, professional logo that represents the business and can be used across shop branding materials.",
+      "vista": "2026-11-14T19:36:55.653Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es un logo, que encaja como dudosa porque no hay ningún logo en el portfolio; el cliente dice 500 USD, así que se ofrece ese precio y una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi!\nA distinctive logo that works across all your shop materials needs a clear idea behind it, not just a nice shape. I would start by understanding your shop, your customers and the feeling you want people to get.\nTo be honest, I don't have a logo project in my portfolio yet. My work is mostly visual content made with AI, like the cinematic ads ORBE and SILENCIO, plus product images and graphic design for a home brand that sells online.\nHere is how I would work: first a short brief with you. Then I would explore a few directions with AI and refine them in Adobe. Last, the chosen logo, cleaned up, with color and black-and-white versions and files ready for print and web.\nIf you like, I can make a quick sample direction first, so you can check if my style fits before you decide.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes included.\nWhat does your shop sell, and are there any colors or styles you already like or want to avoid?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 396,
+          "salida": 1257,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.041719,
+        "generada": "2026-11-14T19:36:54.467Z"
+      }
+    },
     {
       "id": "568963",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.0392438,
         "generada": "2026-11-12T14:14:27.259Z"
-      }
-    },
-    {
-      "id": "371611",
-      "tipo": "CONTRACT",
-      "titulo": "Photographer — micro1",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/371611/Photographer-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "Eligibility: You must be based in the United States, excluding California.\n micro1 is seeking Photographers to evaluate and improve visual data quality for an AI training project. Upload original photographic content, compare it with AI-generated counterparts, identify visual flaws and artifacts, document differences in lighting, composition, perspective and texture, and provide precise written feedback through iterative review cycles. No prior AI experience is required.\n Preferred qualifications include a background in photography, digital imaging, photo editing, graphic design or a related creative field; meticulous visual attention; strong written English; and clear collaboration. Image evaluation, annotation or quality-assurance experience is preferred.\n Engagement: Contractor, remote within the United States. Advertised compensation: US$21-US$35/hour. Hours, project availability and payment terms are determined by micro1; work and acceptance are not guaranteed. Confirm the applicable rate and payment terms with micro1 before accepting work.\n Apply directly to micro1 through the external application button on this advert.\n I’m sharing this opportunity as an independent referrer and may receive a referral payment if you apply through this link and meet micro1’s referral conditions. Micro1 handles hiring decisions and questions about the role or application.",
-      "vista": "2026-11-12T14:15:38.087Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Exige vivir en EE. UU. (sin contar California) y es de fotografía, algo que no está en tu portfolio.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 624,
-          "salida": 627,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0156358,
-        "generada": "2026-11-12T14:14:34.377Z"
       }
     }
   ]
