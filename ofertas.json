@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T12:19:58.728Z",
+  "actualizado": "2026-11-14T14:08:45.656Z",
   "ofertas": [
+    {
+      "id": "568865",
+      "tipo": "FREELANCE",
+      "titulo": "Marketing Promotion and Video Editing Support",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568865/Marketing-Promotion-and-Video-Editing-Support",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "SZUKAM KREATYWNEJ OSOBY DO MARKETINGU I SOCIAL MEDIÓW! \nSzukam osoby z głową pełną pomysłów, która pomoże nam rozwinąć marketing szkoły tańca i skutecznie dotrzeć do nowych kursantów.\nNie chodzi tylko o prowadzenie social mediów i publikowanie postów. Szukam kogoś, kto potrafi tworzyć angażujące treści, planować skuteczne kampanie reklamowe i przekładać działania marketingowe na realne zapisy na zajęcia.\n🎯 Główny cel:\nZwiększenie rozpoznawalności szkoły tańca, skuteczna promocja poszczególnych kursów i zajęć oraz przede wszystkim pozyskiwanie nowych kursantów poprzez działania w mediach społecznościowych.\nSzukam osoby, która nie tylko realizuje powierzone zadania, ale również sama wychodzi z inicjatywą, proponuje rozwiązania i wie, jak zamienić dobry pomysł w skuteczną reklamę.",
+      "vista": "2026-11-14T14:08:45.656Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Oferta entera en polaco para captar alumnos locales de una escuela de baile: hace falta polaco y gestionar campañas de anuncios, que Leo no tiene confirmado.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 735,
+          "salida": 484,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.027615,
+        "generada": "2026-11-14T14:08:44.880Z"
+      }
+    },
     {
       "id": "568833",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.0125598,
         "generada": "2026-11-12T14:15:35.817Z"
-      }
-    },
-    {
-      "id": "567863",
-      "tipo": "FREELANCE",
-      "titulo": "Twórca video ai",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567863/Tworca-video-ai",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Szukam doświadczonego twórcy do kompleksowej realizacji krótkiego spotu reklamowego (15\") w oparciu o AI. \nZakres prac:\n- wygenerowanie spójnych jakościowo ujęć wideo w AI (wraz z retuszem ewentualnych artefaktów),\n- montaż spotu oraz połączenie wygenerowanego materiału z dostarczonymi zdjęciami i oprawą graficzną \n- kolorkorekcja i postprodukcja obrazu,\n- udźwiękowienie: dobór muzyki (z licencją komercyjną) oraz przygotowanie ścieżki lektorskiej Ai,\n- eksport plików emisyjnych zgodnych ze specyfikacją TV oraz digital\nCzego oczekujemy:\n- udokumentowanego doświadczenia w komercyjnych produkcjach wideo AI (nie szukamy osób początkujących – kluczowa jest jakość obrazu i sprawny warsztat montażowy/postprodukcyjny),\nW zgłoszeniu prosimy o podanie:\n- linków do zrealizowanych spotów / reklam AI (najlepiej łączących AI z montażem i napisami).\n- szacunkowej wyceny całościowej oraz najkrótszego możliwego terminu realizacji.",
-      "vista": "2026-11-12T14:02:08.767Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Spot de 15\" hecho con IA de principio a fin; encaja con ORBE y SILENCIO, y no exige polaco de forma explícita.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou need a 15-second AI spot done end to end: consistent AI shots, an edit that combines them with your photos and graphics, colour, sound, and TV and digital exports.\nI'm writing in English because I don't speak Polish.\nORBE and SILENCIO are two cinematic AI ads I made from idea to generation, edit and sound. You can see them in my portfolio below.\nHere's how I would do it: first a shot list and style frames based on your brief. Then I generate the shots in Kling and Seedance and clean up artefacts in After Effects.\nAfter that I edit in Premiere with your photos, graphics and titles, then do colour correction and post.\nFor sound, I'll use music with a commercial licence and an AI voiceover from your approved script. I'll send you voice options before the final mix.\nI'll export to your broadcaster's TV spec sheet and to the digital formats you need.\nTotal price: 2,500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nCould you send me the TV spec sheet and tell me which language the voiceover should be in?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 798,
-          "salida": 1776,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.053707,
-        "generada": "2026-11-12T14:02:07.797Z"
       }
     }
   ]
