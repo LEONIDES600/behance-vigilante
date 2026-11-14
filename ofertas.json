@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T21:47:10.951Z",
+  "actualizado": "2026-11-14T22:46:37.180Z",
   "ofertas": [
+    {
+      "id": "569103",
+      "tipo": "FREELANCE",
+      "titulo": "Full Design Services for a Cosmetic Brand",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569103/Full-Design-Services-for-a-Cosmetic-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Kozmetik markam için kapsamlı tasarım hizmetine ihtiyacım var. Bütçem 3.000 USD ve markanın tüm tasarım ihtiyaçlarını kapsayan eksiksiz bir çalışma istiyorum.",
+      "vista": "2026-11-14T22:46:37.180Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding y packaging de cosmética con buen presupuesto (3.000 USD), pero no hay piezas de identidad ni packaging en el portfolio; la descripción está en turco, aunque el título está en inglés.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nYour cosmetic brand needs one complete, consistent design system, so the logo, packaging and visuals all look like the same brand.\nI am Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. I have to be honest: my portfolio does not have a logo or packaging project yet. What I do have is a lot of product imagery: listing images and videos, A+ content and a website for a home brand that sells in several European countries (under NDA), plus cinematic AI ads like ORBE and SILENCIO.\nMy plan for you: 1) a short brief about your audience, products and references; 2) 2–3 visual directions (logo, colours, typography); 3) packaging mockups for your main products; 4) product images and social media visuals that use the same style.\nIf it helps, I can first make a short free sample (for example, one direction on one product) so you can see the quality before you decide.\nBudget: 3000 USD, 50 % upfront, delivery in 7–10 days, with 2 rounds of changes.\nHow many products (and packaging types) do you need designed in this first phase?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 3000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 438,
+          "salida": 1037,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.037487,
+        "generada": "2026-11-14T22:46:36.263Z"
+      }
+    },
     {
       "id": "569097",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.029591799999999998,
         "generada": "2026-11-12T14:14:02.682Z"
-      }
-    },
-    {
-      "id": "371615",
-      "tipo": "CONTRACT",
-      "titulo": "Art Buying and Photography Representation Expert — micro1",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/371615/Art-Buying-and-Photography-Representation-Expert-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "micro1 is seeking Art Buying and Photography Representation Experts for a fully remote AI training project. Review creative briefs and cost estimates, judge the fit of photographers or artists, evaluate pricing and usage rights, flag contract or logistics gaps, and explain each decision in clear written English.\n Applicants need professional experience commissioning, licensing or representing photographers or other visual artists for agencies, brands, publications or studios. Relevant backgrounds include art buyer, photo buyer, creative or agency producer, photography agent, artist representative and licensing manager. Experience with real briefs, estimates, negotiation, contracts and delivery is required.\n Engagement: Independent contractor, fully remote worldwide. The application page advertises US$50-US$105/hour. Hours, project availability and payment terms are determined by micro1; work and acceptance are not guaranteed. Eligibility remains subject to micro1's country and project requirements.\n Selection includes a resume and short profile, a curation interview, experience review and, if selected, an initial reviewed task.\n Apply directly to micro1 through the external application button on this advert.\n I’m sharing this opportunity as an independent referrer and may receive a referral payment if you apply through this link and meet micro1’s referral conditions. Micro1 handles hiring decisions and questions about the role or application.",
-      "vista": "2026-11-12T14:15:38.087Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden experiencia profesional como art buyer, agente de fotógrafos o responsable de licencias (presupuestos, derechos, contratos), y Leo no tiene esa trayectoria; además, la solicitud se hace fuera de Behance mediante un enlace de referido.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 673,
-          "salida": 464,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0125718,
-        "generada": "2026-11-12T14:14:08.196Z"
       }
     }
   ]
