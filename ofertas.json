@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T23:42:46.882Z",
+  "actualizado": "2026-11-14T23:46:10.341Z",
   "ofertas": [
+    {
+      "id": "569119",
+      "tipo": "FREELANCE",
+      "titulo": "Enhancement of Live iPhone Puccini Opera Recording",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569119/Enhancement-of-Live-iPhone-Puccini-Opera-Recording",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need an experienced audio and video enhancer to improve a live iPhone recording of a Puccini opera. The work should upgrade the piano sound and create a balanced, polished video presentation while preserving the live performance.",
+      "vista": "2026-11-14T23:46:10.340Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "La edición y el acabado del vídeo encajan, pero restaurar audio de piano en directo es especializado y no hay una pieza igual en el portfolio; se envía siendo honestos y ofreciendo una prueba.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nA live opera recorded on an iPhone holds something special, and the goal is to make the piano and the whole video feel cleaner and more balanced without losing that live feeling.\n\nI'm Leo, from LeoVisual.nl, a creative studio in Amsterdam. My closest work is ORBE and SILENCIO, two cinematic ads where I handled the editing and the sound. To be honest, I don't have a live opera or concert restoration in my portfolio yet, so I'm happy to do a short test on a 1-minute excerpt first, so you can hear and see the result before deciding.\n\nHow I would work, with Premiere, After Effects and Adobe tools:\n1. Audio: reduce room noise and hiss, gently EQ and balance the piano so it sounds fuller, and keep the voices natural and in front.\n2. Video: stabilize, color-correct and keep the framing consistent, plus simple titles (opera, singers, pianist) if you want them.\n3. Final export in good quality for YouTube or any other platform you need.\n\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\n\nHow long is the recording, and is it one continuous iPhone take or several clips?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 423,
+          "salida": 1188,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0260518,
+        "generada": "2026-11-14T23:46:09.368Z"
+      }
+    },
     {
       "id": "569117",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.014343799999999999,
         "generada": "2026-11-12T15:11:43.141Z"
-      }
-    },
-    {
-      "id": "371633",
-      "tipo": "CONTRACT",
-      "titulo": "Photography and Cinematography Expert — micro1",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/371633/Photography-and-Cinematography-Expert-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "micro1 is seeking Photography and Cinematography Experts for an AI training project. Assess photo and video work against client briefs and audiences. Evaluate exposure, focus, colour, framing, lens choice and camera movement, identify technical problems and explain your decisions in clear written English.\n Applicants need professional shooting experience for clients, productions, publications or brands. Relevant backgrounds include photographer, cinematographer, director of photography, camera operator and video producer. Experience with real briefs, shoots, post-production and client delivery, plus regular use of professional cameras and Lightroom, Photoshop, DaVinci Resolve or Premiere, is expected.\n Engagement: Independent contractor, fully remote worldwide. The application page advertises US$50–US$105/hour. Hours, project availability and payment terms are determined by micro1. Work and acceptance are not guaranteed. Eligibility remains subject to micro1's country and project requirements.\n Selection includes a resume and short profile, curation interview, experience review and, if selected, an initial reviewed task.\n Apply directly to micro1 through the external application button on this advert.\n I'm sharing this opportunity as an independent referrer and may receive a referral payment if you apply through the micro1 link I provide and meet micro1's referral conditions. I'm not part of micro1's hiring team and do not make hiring decisions. Candidates are never charged. ",
-      "vista": "2026-11-12T15:11:53.373Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden experiencia profesional rodando con cámara real como fotógrafo o director de fotografía, y Leo no la tiene; además es un trabajo de evaluar material para entrenar IA, no un encargo creativo, y la candidatura se hace en la web de micro1.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 707,
-          "salida": 684,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0171078,
-        "generada": "2026-11-12T15:11:51.808Z"
       }
     }
   ]
