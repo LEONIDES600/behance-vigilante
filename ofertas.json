@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T01:50:59.883Z",
+  "actualizado": "2026-11-14T02:47:35.206Z",
   "ofertas": [
+    {
+      "id": "568685",
+      "tipo": "FREELANCE",
+      "titulo": "3D Artist for AI Project",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568685/3D-Artist-for-AI-Project",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We're seeking a 3D artist for our AI project, with a budget of $1,000–$3,000. Please share your portfolio and examples of relevant 3D work for consideration.",
+      "vista": "2026-11-14T02:47:35.206Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Leo tiene 3D en webs y anuncios con IA, pero ninguna pieza de ilustración 3D igual y el encargo es muy poco concreto; se envía con una muestra corta.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYou need 3D visuals for an AI project, and the first step is getting a look that fits what the product actually does.\nAt LeoVisual.nl, a creative AI studio in Amsterdam, I've made 3D scroll websites in code (LUMEN, FORJA and MORVAIN, built with three.js + GSAP), and I also do motion graphics and 3D work for ads.\nI don't have a standalone 3D illustration piece exactly like this in my portfolio yet. So I'm happy to make a short sample first, so you can check the style before we start.\nHow I'd work: first we agree on the visual direction with a few quick references, then I build the 3D scenes or assets, and finally I deliver them in the formats you need (stills, loops or web-ready).\nPrice: 2500 USD for the project, 50% upfront, delivery in 7–10 days and 2 rounds of changes included.\nWhat will the 3D be used for: still illustrations, animated scenes or interactive 3D for a website?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 393,
+          "salida": 1072,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.038007,
+        "generada": "2026-11-14T02:47:34.142Z"
+      }
+    },
     {
       "id": "568673",
       "tipo": "FREELANCE",
@@ -3866,47 +3905,6 @@
         },
         "costeUSD": 0.050035,
         "generada": "2026-11-12T12:10:50.328Z"
-      }
-    },
-    {
-      "id": "371423",
-      "tipo": "FULLTIME",
-      "titulo": "Video Editor",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371423/Video-Editor",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Consulting.com",
-      "contacto": "Brogan Wykerd",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "As a Long-Form Video Editor, you will be responsible for crafting engaging, cinematic videos that connect on a personal level and hold attention from start to finish. You will work closely with Iman Gadzhi and the content team to shape narratives that feel authentic, intentional, and visually compelling.\n This role goes beyond cutting footage. You are a storyteller. Your work should elevate everyday moments into cohesive narratives that resonate emotionally and reinforce the brand.\n What You'll Do \n Edit high-quality videos for YouTube, turning raw footage into polished, engaging stories.\n Collaborate closely with the lead editor to manage multiple video projects while maintaining consistently high standards.\n Enhance storytelling through colour grading, pacing, music selection, motion graphics, and visual effects.\n Work across a range of content formats when needed, including YouTube videos, ads, internal videos, and program content.\n Attend daily team calls with the editing and design teams and stay aligned on priorities and timelines.\n Coordinate weekly with your Head of Department to ensure deliverables are met.\n Continuously develop your creative skill set and bring new ideas, techniques, and inspiration into the editing process.\n AI in Your Timeline \n AI is becoming a big part of how we edit and create content.\n We're looking for editors who are curious about AI and interested in using it to make their work faster, more creative and more efficient. You don't need to be ",
-      "vista": "2026-11-12T12:11:27.005Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con edición, motion e IA, pero piden experiencia amplia y demostrada en YouTube de formato largo, y Leo no tiene piezas de ese tipo en el portfolio.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Brogan,\n\nYou need long-form YouTube videos that feel personal and cinematic and keep people watching to the end, made by an editor who also brings AI into the timeline.\nI run LeoVisual.nl, an AI creative studio in Amsterdam. My closest work is ORBE and SILENCIO, two cinematic ads where I did the idea, AI generation, edit and sound. I also make product videos and motion graphics for a home brand that sells across Europe.\nI work in Premiere, After Effects and Adobe, and I use Kling and Seedance for AI B-roll and visual elements. My approach: find the story in the raw footage first, build the pacing and music around it, then add colour, motion graphics and AI visuals only where they help the story.\nTo be honest, I have no long-form YouTube edits in my portfolio yet, and my video editing experience is under 2 years. So I am happy to do a test edit on your footage so you can judge my storytelling directly.\nI am an EU citizen working remotely, and my English is good for daily work and team calls.\nWould you like me to start with a test edit of one of Iman's vlog-style videos, and which format do you need most right now?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [
-          "menciona años"
-        ],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1274,
-          "salida": 1151,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0287158,
-        "generada": "2026-11-12T12:11:07.429Z"
       }
     }
   ]
