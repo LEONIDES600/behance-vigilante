@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T10:06:47.526Z",
+  "actualizado": "2026-11-14T12:19:58.728Z",
   "ofertas": [
+    {
+      "id": "568833",
+      "tipo": "FREELANCE",
+      "titulo": "Logo for a clothing brand and design sketches ",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568833/Logo-for-a-clothing-brand-and-design-sketches-",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a designer to create a logo for apparel brand and 3 clothing designs (for t-shirts, sweatshirts and jackets) including data sheets. \nThe work should support a cohesive visual identity across branded apparel.\nMinimalism is the key word around this brand: clean, uncluttered, with no decorative elements (example of reference brands in attached with Aime Leon Dore, about:blank and Sweethatco). We would like to have the same vibe with our own identity. \n- Discreet, tone-on-tone and understated branding — no large logos on the chest\n- Subtle colours. \nWhat we want to avoid:\n- Flashy streetwear graphics, colour gradients\n- The generic minimalism of tech start-ups\n- Anything that looks like a pre-defined template\nThe essence in one sentence: high-end without going over the top. It’s the details that matter. \nFor more information, please message me. \nI am myself trying to create some design sketches for the clothing, so happy to exchange with you on the designs ideas!\nBest,\nPierre",
+      "vista": "2026-11-14T12:19:58.728Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Además del logo, pide diseño de ropa con fichas técnicas para producción (moda para taller), algo que Leo no puede entregar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 697,
+          "salida": 528,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.028343,
+        "generada": "2026-11-14T12:19:57.948Z"
+      }
+    },
     {
       "id": "568785",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.053707,
         "generada": "2026-11-12T14:02:07.797Z"
-      }
-    },
-    {
-      "id": "567843",
-      "tipo": "FREELANCE",
-      "titulo": "Short-Form Beauty Video Content for Instagram Reels and TikTok",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567843/Short-Form-Beauty-Video-Content-for-Instagram-Reels-and-TikTok",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Teeez Cosmetics",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for a freelance beauty content creator to film and edit short-form makeup videos for Instagram Reels and TikTok. The content should feature bold makeup looks, close-up product swatches, and quick tutorials in a playful style that appeals to Gen Z and millennial audiences.",
-      "vista": "2026-11-12T13:37:30.732Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja en edición y vídeo corto con IA, pero piden una creadora que grabe maquillaje ante la cámara, y eso Leo no lo hace; la carta lo dice con claridad.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nTeeez needs bold, playful Reels and TikToks that stop Gen Z and millennial viewers mid-scroll, with close-up swatches and quick tutorials that show the product clearly.\nTo be upfront: I'm not an on-camera makeup artist. I run an AI creative studio in Amsterdam, and I can help in two ways. I can edit footage you or your models film, or I can create the product shots with AI.\nI made the cinematic AI ads ORBE and SILENCIO, from the idea and generation to the edit and sound. I've also made many listing images and product videos for a home brand that sells across Europe.\nMy process: first a short brief on looks and products. Then I plan the hooks and shots, generate close-ups and swatches with Kling, Seedance and Nano Banana Pro, and edit in Premiere and After Effects. I finish with fast cuts, text and trending-style pacing in 9:16.\nI don't have a beauty piece in my portfolio yet, so I'm happy to make a short sample first.\nPrice: 500 USD, with 50% upfront. Delivery takes 7–10 days and includes 2 rounds of changes.\nHow many videos do you need, and will you supply footage of the looks or do you want everything made with AI?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 455,
-          "salida": 1185,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.040515,
-        "generada": "2026-11-12T13:37:29.846Z"
       }
     }
   ]
