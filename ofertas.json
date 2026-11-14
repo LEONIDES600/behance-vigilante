@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T14:52:51.880Z",
+  "actualizado": "2026-11-14T15:03:23.067Z",
   "ofertas": [
+    {
+      "id": "568887",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Design for a Home Café and Bakery",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568887/Brand-Design-for-a-Home-Caf-and-Bakery",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a brand designer to create a cohesive visual identity for my home café and bakery. The work should establish a distinctive brand presence suited to a café and baked-goods business.",
+      "vista": "2026-11-14T15:03:23.067Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es branding completo y Leo no tiene una identidad de marca en el portfolio; se envía con una carta honesta y la oferta de una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nA home café and bakery needs a brand that feels warm and personal, and that looks the same on a menu, a bread bag and an Instagram post.\nTo be upfront, I don't have a café identity in my portfolio yet. My closest work is for a home brand that sells in several European countries (under NDA). For them I kept one visual style across many product images, A+ content and the website. I also do graphic design for ads and social media.\nHere's how I'd approach it: a short questionnaire about your story, products and customers, then 2–3 moodboard directions to choose from. After that I'd design the logo, colour palette, typography and a few applications (menu, labels, social media templates), and finish with a simple brand guide.\nIf it helps you decide, I'm happy to make a short sample direction first.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nWhat is the café's name, and do you already have a feeling or colours in mind?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 396,
+          "salida": 1150,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.039579,
+        "generada": "2026-11-14T15:03:22.195Z"
+      }
+    },
     {
       "id": "568875",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.0283718,
         "generada": "2026-11-12T14:14:59.878Z"
-      }
-    },
-    {
-      "id": "371603",
-      "tipo": "CONTRACT",
-      "titulo": "AI Video Editor (Premiere Pro & After Effects) — micro1",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/371603/AI-Video-Editor-(Premiere-Pro-After-Effects)-micro1",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "micro1 is engaging AI Video Editors with Premiere Pro and After Effects expertise for a video-data annotation and AI-training project. No prior AI experience is required; previous AI-training experience is listed as a preference.\n Work includes comparing AI-generated videos, selecting higher-quality outputs, explaining decisions about transitions, pacing, composition, effects and storytelling, identifying technical artifacts or editing inconsistencies, and refining video-quality standards.\n Preferred qualifications: Adobe Premiere Pro and After Effects proficiency, including effects, transitions, keyframing and compositing; professional video-editing, motion-graphics and visual-storytelling experience. Backgrounds in directing, cinematography, editing, VFX or related production disciplines are valued. Detailed visual judgment and clear written feedback are important.\n Engagement: Contractor. Advertised compensation: US$20–US$40/hour. Remote; micro1’s live role page does not list eligible countries. Check eligibility in the linked application.\n Apply directly to micro1 through the external application button on this advert.\n I’m sharing this opportunity as an independent referrer and may receive a referral payment if you apply through this link and meet micro1’s referral conditions. Micro1 handles hiring decisions and questions about the role or application.",
-      "vista": "2026-11-12T14:15:38.087Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Evaluar vídeos con IA usando Premiere y After Effects encaja con su trabajo, es remoto para cualquier país y paga 20–40 USD/h.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Anabel!\n\nComparing AI-generated videos and explaining clearly why one works better takes an editor's eye and real hands-on time with AI video tools.\nI'm Leo Gómez from LeoVisual.nl, an AI creative studio in Amsterdam. I edit in Premiere Pro and After Effects, and I make cinematic AI ads from start to finish (idea, generation with Kling and Seedance, editing and sound), like ORBE and SILENCIO.\nA big part of that work is spotting what breaks in AI video, like flicker, warped objects, characters that change between shots and jumpy cuts, and deciding what to keep or regenerate.\nFor each comparison I would watch both outputs in full and check artifacts frame by frame where needed. Then I would judge pacing, transitions, composition and storytelling, and write a short, structured reason for my choice.\nI haven't done AI-training work before, but I'm happy to start with a test task.\nMy rate is 25 USD/h, which is within the advertised range.\nIs the work paid per task or per hour, and how many hours per week do you expect?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 668,
-          "salida": 1936,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0419918,
-        "generada": "2026-11-12T14:15:25.789Z"
       }
     }
   ]
