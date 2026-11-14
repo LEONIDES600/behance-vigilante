@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T02:47:35.206Z",
+  "actualizado": "2026-11-14T02:52:03.082Z",
   "ofertas": [
+    {
+      "id": "568689",
+      "tipo": "FREELANCE",
+      "titulo": "2D Artist for an AI Project",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568689/2D-Artist-for-an-AI-Project",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m seeking a 2D artist for our AI project, with a budget of $1,000–$3,000. The artist will create polished 2D visual assets that support the project’s creative and product needs.",
+      "vista": "2026-11-14T02:52:03.082Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Se envía como dudosa: es ilustración 2D, que Leo puede hacer con IA, pero no tiene una serie igual en el portfolio, así que la carta lo dice claro y ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYou need polished 2D visual assets for your AI project. They have to work for both the creative side and the product side, in one consistent style.\nI'm Leo from LeoVisual.nl, an AI creative studio in Amsterdam. To be upfront, my portfolio doesn't have a pure 2D illustration series yet. What I do have is visual work made with AI and finished in Adobe. Examples are ORBE and SILENCIO, two cinematic AI ads, and a large set of listing images for a European home brand where every asset had to keep the same look.\nHere's how I would work on this:\n1. We agree on a short style guide with a few references.\n2. I create options with GPT Image and Nano Banana Pro.\n3. I clean up and refine each asset in Adobe, then export it in the formats you need.\nIf it helps, I can make a short sample or do a test before we start.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nHow many assets do you need, and is there a style or reference you already like?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 396,
+          "salida": 1532,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0328238,
+        "generada": "2026-11-14T02:52:02.016Z"
+      }
+    },
     {
       "id": "568685",
       "tipo": "FREELANCE",
@@ -3864,47 +3903,6 @@
         },
         "costeUSD": 0.0117998,
         "generada": "2026-11-12T12:22:21.596Z"
-      }
-    },
-    {
-      "id": "371525",
-      "tipo": "FULLTIME",
-      "titulo": "Short-Form Video Editor - 2D & 3D Anatomy animation",
-      "presupuesto": "1500–1800 USD/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/371525/Short-Form-Video-Editor-2D-3D-Anatomy-animation",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Recover Pain",
-      "contacto": "Recover Pain",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "With over 2.1M followers across IG, FB, TikTok, and YouTube, we’re on a mission to help millions overcome chronic back pain and sciatica with practical, science-backed content.\n Instagram: @recoverpain\n We already have a team of editors and are hiring another Short-Form Video Editor to join our fast-growing media team on a contract-to-hire basis (fully remote). You will start off on a contract video to video basis, and have the potential to get a full time position.\n You will be editing HIGH-level reels and videos to look like this: https://www.instagram.com/reel/DcqeNZBJjXV/\n Role\n As a Short-Form Video Editor, you’ll be responsible for transforming raw video and animation assets into high-retention clips for Instagram Reels, TikTok, and YouTube Shorts.\n Our editing team already produces HIGH level videos including 2D & 3D animation, vfx… These videos reach millions worldwide and serve as the top of funnel to one of the fastest-growing online health companies.\n You’ll work directly with our founder and creative team to deliver scroll-stopping edits that combine storytelling, motion graphics, and clear educational takeaways. This role requires precision, speed, and creativity - with the opportunity to grow into a full-time leadership position if you thrive.\n Responsibilities\n Edit and deliver multiple short-form videos per week optimized for Reels, TikTok, and Shorts.\n Integrate motion graphics and anatomy-based animations (After Effect)\n Adapt edits for platform-specific for",
-      "vista": "2026-11-12T12:11:27.005Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Edición de vídeo corto con motion graphics en Premiere/After Effects y 3D como extra encaja con Leo; no tiene animación anatómica, así que la carta ofrece una prueba.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\n\nTurning raw footage and anatomy animations into short, clear reels that keep people watching to the end is a great challenge, and your mission of helping people with back pain and sciatica makes it even more meaningful.\n\nI am Leo Gómez from LeoVisual.nl, a creative studio in Amsterdam. I have been making short performance ads for 2 years, and I edit in Premiere and After Effects with motion graphics and 3D. ORBE and SILENCIO are two cinematic ads I made from start to finish: idea, visuals, editing and sound design.\n\nFor your reels I would start with a strong hook in the first seconds, place the anatomy animation right where the explanation needs it, add simple text and motion graphics so the main point is easy to follow, and then adapt the timing and format for Reels, TikTok and Shorts. I would also keep project files clean and build reusable templates for the team.\n\nI don't have an anatomy reel in my portfolio yet, so I am happy to do a paid test video in your style first.\n\nWhich software and file formats do your animators use for the 2D and 3D anatomy assets?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [
-          "menciona años"
-        ],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1325,
-          "salida": 1487,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.050035,
-        "generada": "2026-11-12T12:10:50.328Z"
       }
     }
   ]
