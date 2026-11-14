@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-14T08:07:47.141Z",
+  "actualizado": "2026-11-14T12:14:43.050Z",
   "ofertas": [
+    {
+      "id": "entrepreneur-cooperative/jobs/short-form-video-editor",
+      "tipo": "CONTRACTOR",
+      "titulo": "Short-Form Video Editor",
+      "presupuesto": "1500–2000 USD/mes",
+      "enlace": "https://himalayas.app/companies/entrepreneur-cooperative/jobs/short-form-video-editor?utm_source=api",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Brazil, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas), Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands, Suriname, Trinidad and Tobago, Turks and Caicos Islands, Uruguay, Venezuela, Virgin Islands, British, Virgin Islands, U.S.",
+      "empresa": "Entrepreneur Cooperative",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "**PLEASE SUBMIT YOUR CV IN ENGLISH ** \n Location: Remote – Latin America\n Work Arrangement: Fully Remote\n Employment Type: Full-Time Independent Contractor\n Number of Openings: 1 Position\n Industry: Creative Agency / Branding / Social Media\n Compensation: $1,500–$2,000 USD per month\n Schedule: Monday–Friday | 9:00 AM–5:00 PM U.S. Central Time\n English Proficiency: Strong professional English required\n About the Company\n Our client is a Dallas-based creative agency that works as a full-service digital brand team for founder-led businesses in lifestyle, hospitality, wellness, and design.\n The agency believes its clients are already brand rich, they're just not spending it online. The team shoots, designs, and publishes high-volume, on-brand content for a roster of visually driven brands, and",
+      "vista": "2026-11-14T12:14:43.050Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Solo contratan desde Latinoamérica, piden jornada completa en horario de EE. UU. (Central) e inglés profesional fuerte.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 2034,
+          "salida": 570,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.034531,
+        "generada": "2026-11-14T12:14:41.878Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "bitrefill/jobs/senior-organic-growth-manager-seo-ai-search",
       "tipo": "FULL_TIME",
@@ -3380,24 +3420,6 @@
       "descripcion": "Position: Motion Capture Animator\n Work structure: Remote, within 6 hours time zone difference to Poland \n Contract duration: 9-12 months\n Start date: As soon as possible\n At Side, we partner with some of the world's leading developers and publishers to solve complex production challenges and help bring exceptional games to life. From concept through live operations, our co-development teams work as trusted extensions of our clients' studios, contributing expertise across design, engineering, art, audio, QA, and production. \n What you will be doing:\n Data Cleaning & Tracking \n Identify, label, and track raw point-cloud data from studio shoots, manually fixing marker swaps or mislabeled tracking points. \n Reconstruct missing data points caused by actor occlusions (e.g., when a limb is hidde",
       "vista": "2026-10-31T22:40:00.644Z",
       "fuente": "himalayas"
-    },
-    {
-      "id": "158206",
-      "tipo": "FULL_TIME",
-      "titulo": "AI Trainers Network - English",
-      "presupuesto": "",
-      "enlace": "https://jobicy.com/jobs/158206-ai-trainers-network-english",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Australia,  Canada,  Ireland,  Malaysia,  New Zealand,  Singapore,  UK,  USA",
-      "empresa": "Welo Global",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Welo Data, part of Welocalize, is a global AI data company with 500,000+ contributors delivering high-quality, ethical data to train the world’s most advanced AI systems. We’re building smarter, more human AI with a diverse community in 100+ countries.\n At Welo Data, Limitless AI. Limitless You. isn’t just a slogan—it’s our promise. We build smarter AI through the power of human contribution, offering limitless opportunities for our global community to grow, contribute, and work on their terms.\n Are you detail-oriented and curious about tech? \n Welo Data is building a global network of linguists, language enthusiasts, and culturally aware contributors to shape safer, smarter AI.\n By joining our talent community, you'll be first in line for flexible, remote projects in annotation, evaluatio",
-      "vista": "2026-10-31T14:31:08.138Z",
-      "fuente": "jobicy"
     }
   ]
 }
