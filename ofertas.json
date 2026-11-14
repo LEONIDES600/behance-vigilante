@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T07:06:34.945Z",
+  "actualizado": "2026-11-14T10:06:47.526Z",
   "ofertas": [
+    {
+      "id": "568785",
+      "tipo": "FREELANCE",
+      "titulo": "Digital Marketing for Real Estate",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568785/Digital-Marketing-for-Real-Estate",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Avacasa",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a digital marketer with real estate expertise to support marketing efforts for my real estate business. The project will be in the luxury farmland space in India and we need to run social media campaigns and google and meta ads.",
+      "vista": "2026-11-14T10:06:47.526Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Leo puede hacer las piezas creativas para redes y anuncios, pero no gestiona campañas de Google/Meta ni tiene experiencia en inmobiliaria; la carta lo deja claro.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nLuxury farmland is a visual sell. Buyers need to feel the land, the light and the lifestyle before they visit, and your social campaigns and ads need creatives that show that.\nTo be upfront: I'm not a real estate marketer and I don't manage Google or Meta ad accounts. If running the campaigns is the main part of the job, I'm not the right fit. Where I can help is the creative side.\nI make cinematic ads with AI. ORBE and SILENCIO in my portfolio cover the idea, generation, editing and sound. I've also made many product images and videos for a home brand that sells across Europe.\nFor Avacasa, I would: 1) agree on 2–3 campaign angles with you, 2) create social posts and short vertical ad videos from your photos and drone footage, enhanced with AI where it helps, 3) deliver everything in the formats Instagram, Facebook and Google need.\nI don't have a real estate piece yet, so I'm happy to make a short sample first.\nPrice: 250 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you already have photos or drone footage of the farmland, or would the visuals need to be built from scratch?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 402,
+          "salida": 1661,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.049823,
+        "generada": "2026-11-14T10:06:46.496Z"
+      }
+    },
     {
       "id": "568743",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.040515,
         "generada": "2026-11-12T13:37:29.846Z"
-      }
-    },
-    {
-      "id": "567837",
-      "tipo": "FREELANCE",
-      "titulo": "Instagram Launch and Digital Advertising Design for VEXIA Dental Shop",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567837/Instagram-Launch-and-Digital-Advertising-Design-for-VEXIA-Dental-Shop",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Busco un/a diseñador/a gráfico/a freelance, preferiblemente ubicado/a en Guayaquil, Ecuador, para crear piezas de lanzamiento para Instagram y publicidad digital de VEXIA Dental Shop. Somos una distribuidora ecuatoriana de equipos, tecnología y materiales odontológicos y médicos, dirigida a odontólogos, clínicas y laboratorios dentales. Ya contamos con logo y manual de marca para guiar las piezas.",
-      "vista": "2026-11-12T13:12:13.778Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Diseño de piezas para Instagram y anuncios digitales con manual de marca ya hecho: encaja; Guayaquil es solo preferencia y el trabajo es remoto.",
-        "categoria": "CREATIVO",
-        "idioma": "es",
-        "carga": "media",
-        "texto": "¡Hola!\nLanzar VEXIA Dental Shop en Instagram pide piezas que transmitan confianza técnica a odontólogos, clínicas y laboratorios, y que respeten al detalle vuestro logo y manual de marca.\nPara una marca de hogar que vende en Amazon en varios países de Europa he hecho muchas imágenes y vídeos de producto. También he hecho anuncios cinematográficos con IA como ORBE y SILENCIO, desde la idea hasta el montaje y el sonido.\nLo plantearía así: reviso el manual y los productos clave, propongo una línea visual para el lanzamiento (posts, carrusel, stories y piezas de anuncio) y, cuando la aprobéis, preparo todos los formatos listos para publicar y para pautar.\nTrabajo en remoto desde Ámsterdam, no estoy en Guayaquil. Os puedo enviar avances y coordinar por mensaje o videollamada en el horario que os vaya bien.\nPropuesta: 250 USD, con el 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿Cuántas piezas necesitáis para el lanzamiento y tenéis ya fotos de los equipos o hay que crear las imágenes de producto?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 523,
-          "salida": 1037,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.037827,
-        "generada": "2026-11-12T13:12:12.943Z"
       }
     }
   ]
