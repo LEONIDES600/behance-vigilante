@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T02:52:03.082Z",
+  "actualizado": "2026-11-14T05:06:03.293Z",
   "ofertas": [
+    {
+      "id": "568721",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Design for Specialty Coffee Packaging, Logo, and Character",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568721/Brand-Design-for-Specialty-Coffee-Packaging-Logo-and-Character",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a brand designer to create packaging for a specialty coffee roast, along with a logo and a distinctive brand character design. The work should establish a cohesive visual identity across the coffee packaging and brand assets.",
+      "vista": "2026-11-14T05:06:03.293Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encargo de branding, packaging y personaje: Leo puede hacerlo con IA y diseño, pero no tiene una pieza igual en el portfolio.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nA specialty coffee roast needs a logo, a character and a package that all feel like one brand, so the character works on the bag and the logo still reads on a small label.\nI don't have a coffee packaging project in my portfolio yet, so I'm happy to make a short sample first, for example one character sketch or one logo direction, so you can judge the fit.\nThe closest work I can point to is product images and content for a home goods brand that sells in several European countries (under NDA), plus my graphic design, 3D and motion work.\nHow I would do it: a moodboard based on your roast and audience, then 2–3 logo directions, then the character built in the same style, and finally the packaging design with realistic mockups of the bag.\nI work with AI tools (GPT Image, Nano Banana Pro) for exploration, and with Adobe to refine and finish everything.\nPrice: 5000 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you already have a bag format and a printer, so I can design to their specs from the start?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 428,
+          "salida": 1041,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.037527,
+        "generada": "2026-11-14T05:06:02.317Z"
+      }
+    },
     {
       "id": "568689",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.029459,
         "generada": "2026-11-12T12:22:17.283Z"
-      }
-    },
-    {
-      "id": "371273",
-      "tipo": "FULLTIME",
-      "titulo": "Senior Graphic Illustrators",
-      "presupuesto": "2–5 USD/h",
-      "enlace": "https://www.behance.net/joblist/fulltime/371273/Senior-Graphic-Illustrators",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "DataVale AI",
-      "contacto": "DataVale AI",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "🔥 WE’RE HIRING! 🎨 | IMMEDIATE JOINING | LIMITED SPOTS\n Love turning creative ideas into stunning visuals? This is your chance to put your talent to work on exciting AI-powered projects! 🚀\n DataVale AI is looking for talented Graphic Illustrators who are passionate about digital art, character design, and visual storytelling.\n 🎨 WHO WE’RE LOOKING FOR\n We’re seeking creative minds with skills in:\n ✅ Character design, expressions & emotions\n ✅ Clean linework and professional digital illustration\n ✅ Shading, contrast & visual storytelling\n ✅ Maintaining character consistency and attention to detail\n ✅ Following creative guidelines and meeting deadlines\n 🚀 WHY JOIN US?\n ✨ Work on exciting AI and creative projects\n ✨ Showcase your creativity in real-world applications\n ✨ Collaborate on innovative AI-driven initiatives\n ✨ Turn your artistic skills into meaningful contributions\n ⚡ Immediate joining | Limited spots available\n 👉 APPLY NOW: https://forms.gle/fhDvfRhKrRAn1qrZ6\n Know someone who would be a great fit? Tag them in the comments or share this post with your creative network! 🤝\n Let’s create something extraordinary together. 🎨🔥\n #Hiring\n #GraphicIllustrator\n #GraphicDesign \n #DigitalIllustration \n #AIJobs\n #ArtificialIntelligence g\n #CreativeJobs\n #ImmediateJoining \n #DataValeAI\n #WeAreHiring\n #workfromhome\n #wfh \n #Remote",
-      "vista": "2026-11-12T12:22:22.580Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Pagan 2–5 USD/h, por debajo del mínimo de 8 USD/h, y piden ilustración digital de personajes a mano, que no está en el portfolio de Leo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 825,
-          "salida": 395,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0117998,
-        "generada": "2026-11-12T12:22:21.596Z"
       }
     }
   ]
