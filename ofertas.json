@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T19:36:55.653Z",
+  "actualizado": "2026-11-14T21:47:10.951Z",
   "ofertas": [
+    {
+      "id": "569097",
+      "tipo": "FREELANCE",
+      "titulo": "Logo, Branding y Estrategia de Marketing para Desarrollo de Departamentos",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569097/Logo-Branding-y-Estrategia-de-Marketing-para-Desarrollo-de-Departamentos",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Busco a alguien que me ayude con la creación del logo para un desarrollo de departamentos en Cancún, de igual manera toda la identidad corporativa y una estrategia de marketing para la venta del proyecto.",
+      "vista": "2026-11-14T21:47:10.951Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo e identidad entran en «dudosa»: no hay una pieza igual en el portfolio, así que se envía con oferta de muestra y sin prometer gestión de campañas.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "alta",
+        "texto": "¡Hola!\n\nUn desarrollo de departamentos en Cancún necesita una marca que transmita confianza y estilo de vida desde el primer vistazo, y que funcione igual en un render, una valla o un anuncio de Instagram.\nSoy Leo, de LeoVisual.nl, un estudio creativo con IA en Ámsterdam. Todavía no tengo un logo inmobiliario en el portfolio, así que puedo hacerte primero una muestra corta para que veas la dirección antes de decidir.\nLo que sí puedo enseñarte: ORBE y SILENCIO, anuncios cinematográficos hechos con IA, y LUMEN y FORJA, webs 3D con scroll. Son el tipo de piezas que ayudan a presentar un proyecto así.\nCómo lo haría:\n1) 2–3 propuestas de logo y elegimos una.\n2) Identidad completa: colores, tipografías, aplicaciones y una guía básica.\n3) Un plan de marketing práctico para la venta: mensajes, público, canales y calendario de contenido, con ideas de anuncios y piezas para redes. Es un plan claro para aplicar; no incluye la gestión de campañas de pago.\nPrecio: 1000 USD, 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿Ya tienes nombre para el desarrollo y sabes a qué comprador va dirigido (inversor extranjero, vivienda local o renta vacacional)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 431,
+          "salida": 1756,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.051839,
+        "generada": "2026-11-14T21:47:09.898Z"
+      }
+    },
     {
       "id": "569029",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.0125718,
         "generada": "2026-11-12T14:14:08.196Z"
-      }
-    },
-    {
-      "id": "371613",
-      "tipo": "CONTRACT",
-      "titulo": "Brand and Social Creative Expert — micro1",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/371613/Brand-and-Social-Creative-Expert-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "micro1 is seeking Brand and Social Creative Experts for an AI training project. Review posts, advertisements, videos and campaign concepts for their goals and audience; assess brand voice and platform fit; flag claims, disclosure, rights or policy concerns; and explain your decisions in writing.\n Applicants need professional experience creating or directing brand, marketing or social creative for a company, agency or client. Relevant backgrounds include brand creative, creative strategist, art director, copywriter, content lead and creative producer. Experience with real campaigns from brief through approvals, publishing and results, familiarity with at least two major social platforms, and clear written English are expected.\n Engagement: Independent contractor, fully remote worldwide. The application page advertises US$50-US$105/hour. Hours, project availability and payment terms are determined by micro1; work and acceptance are not guaranteed. Eligibility remains subject to micro1's country and project requirements.\n Selection includes a resume and short profile, curation interview, experience review and, if selected, an initial reviewed task.\n Apply directly to micro1 through the external application button on this advert.\n I’m sharing this opportunity as an independent referrer and may receive a referral payment if you apply through this link and meet micro1’s referral conditions. Micro1 handles hiring decisions and questions about the role or application.",
-      "vista": "2026-11-12T14:15:38.087Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es trabajo de revisión de anuncios y contenido social para entrenar IA y está bien pagado, pero no es creación y piden inglés escrito claro (Leo tiene B1).",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Anabel!\n\nmicro1 needs people who can look at an ad, post or video and say clearly if it fits the brand, the audience and the platform, and where the risks are with claims, disclosure or rights.\nMaking that kind of content is my daily work at LeoVisual.nl, an AI creative studio in Amsterdam. For ORBE and SILENCIO, two cinematic ads made with AI, I handled the idea, generation, editing and sound.\nFor a home brand that sells on Amazon in several European countries (under NDA), I create listing images and videos, A+ content and the website, so I am used to working within platform rules.\nFor each review I would follow simple steps: read the goal and the audience, check brand voice and platform fit, flag any claims, disclosure or rights issues, and explain my decision in short, clear written notes.\nMy English is a solid working level (B1), and I write in plain, direct sentences. Spanish is my native language.\nI am happy to do the reviewed initial task so you can see how I explain my decisions.\nIs the project open to contractors based in the Netherlands, and does it include video ads as well as static posts?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 666,
-          "salida": 1799,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0392438,
-        "generada": "2026-11-12T14:14:27.259Z"
       }
     }
   ]
