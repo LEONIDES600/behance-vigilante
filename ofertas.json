@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T15:03:23.067Z",
+  "actualizado": "2026-11-14T17:45:16.529Z",
   "ofertas": [
+    {
+      "id": "568933",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Design for Digital Media and Print",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/568933/Brand-Design-for-Digital-Media-and-Print",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Catsfly Media",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are looking for a skilled graphic designer to develop brand design materials for both digital media and print applications, maintaining strict visual consistency, clean typography, and print-ready production quality across deliverables.",
+      "vista": "2026-11-14T17:45:16.529Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es branding para digital e impresión: Leo puede hacerlo con su diseño gráfico, pero no tiene una identidad completa en el portfolio, así que la carta lo dice claramente.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYou need brand materials that work as one system across digital and print, with clean typography and files ready for production.\nI'm Leo from LeoVisual.nl, an AI creative studio in Amsterdam. To be clear from the start, my portfolio doesn't have a full brand identity project yet.\nWhat I do have is graphic design for ads and social media. I also made a large set of listing images and A+ content for a home brand that sells on Amazon in several European countries, and every piece had to follow the same visual rules.\nHow I would work:\n1. A short style sheet first: colors, type pairing, grid and logo use.\n2. The digital pieces, built from that sheet.\n3. The print versions in Adobe, using the specs from your printer.\nIf it helps, I can make a short sample piece first so you can check the style before we go further.\nPrice: 250 USD for the project, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nWhich pieces do you need first? And do you already have a logo and brand guidelines, or are we starting from zero?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 399,
+          "salida": 1379,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.044171,
+        "generada": "2026-11-14T17:45:15.521Z"
+      }
+    },
     {
       "id": "568887",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.013915799999999999,
         "generada": "2026-11-12T14:14:46.079Z"
-      }
-    },
-    {
-      "id": "371605",
-      "tipo": "CONTRACT",
-      "titulo": "Video Production Specialist — micro1",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/371605/Video-Production-Specialist-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "micro1 is seeking Video Production Specialists to contribute creative and technical expertise to an AI training project. Work includes producing and editing video content to briefs; assessing footage for storytelling, visual appeal and technical accuracy; providing actionable feedback; documenting production workflows; and helping with content sourcing, annotation and evaluation.\n Preferred qualifications include extensive production experience from planning through post-production; proficiency with Adobe Premiere Pro, Final Cut Pro or DaVinci Resolve; strong visual storytelling and a varied portfolio; familiarity with formats and codecs; clear written and verbal feedback; and effective remote collaboration. No prior AI experience is required.\n Engagement: Remote independent contractor. micro1 advertises US$20-US$60/hour. Hours, project availability and payment terms are determined by micro1; work and acceptance are not guaranteed. Eligibility remains subject to micro1's country and project requirements.\n Apply directly to micro1 through the external application button on this advert.\n I’m sharing this opportunity as an independent referrer and may receive a referral payment if you apply through this link and meet micro1’s referral conditions. Micro1 handles hiring decisions and questions about the role or application.",
-      "vista": "2026-11-12T14:15:38.087Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Edición y producción de vídeo en remoto, usa Premiere y la tarifa de 25 USD/h entra en su rango; no exigen DaVinci ni experiencia con IA.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Anabel,\n\nThanks for sharing this. micro1 needs people who can produce and edit video to a brief and give clear and useful feedback on footage, and that is the kind of work I do every day.\nI run LeoVisual.nl, a creative studio in Amsterdam that uses AI. For ORBE and SILENCIO, two cinematic ads made with AI, I handled everything from the idea to generation, editing and sound.\nI also make product images and listing videos for a home brand that sells across Europe. In that work I check every clip for story, visual quality and technical problems before delivery.\nI edit in Premiere and After Effects and also do motion graphics. I work in English at a B1 level, and I write short, clear notes when I review footage.\nMy rate is 25 USD/h, which is inside micro1's range. I am happy to do a test task.\nI will apply through the micro1 link in your post. Do you know whether the first tasks are mainly editing to briefs or mainly reviewing and annotating footage?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 633,
-          "salida": 1262,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0283718,
-        "generada": "2026-11-12T14:14:59.878Z"
       }
     }
   ]
