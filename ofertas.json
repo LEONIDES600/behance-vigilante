@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T00:52:27.990Z",
+  "actualizado": "2026-11-15T01:04:16.070Z",
   "ofertas": [
+    {
+      "id": "569149",
+      "tipo": "FREELANCE",
+      "titulo": "Mascot, Truck Wrap, and Brand Redesign for a Lawn Care Business",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569149/Mascot-Truck-Wrap-and-Brand-Redesign-for-a-Lawn-Care-Business",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Lawn care business owner",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a refreshed brand identity for my lawn care business, including a new character mascot, a more professional truck wrap, and improved text-based logos and typography. Please retain my existing core color scheme while expanding the brand into a more polished and cohesive visual system. I would like the brand mascot to be a friendly bobcat with a red shirt containing the company logo, and a black hat. You can view my website here: https://www.corneliuslawnandgarden.com/",
+      "vista": "2026-11-15T01:04:16.070Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Proyecto de branding con mascota y rotulación de camioneta: puede hacerlo con diseño gráfico e IA, pero no tiene una pieza igual en el portfolio.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nA friendly bobcat mascot, cleaner text logos and a truck wrap that all keep your current colors would give your lawn care business a more professional and consistent look.\nI don't have a mascot or truck wrap project in my portfolio yet, so I'm happy to start with a quick sample of the bobcat before you commit. My closest work is graphic design and AI image production for brands. For example, for a home goods brand selling across Europe I made many product images, listing content and a website that all had to work as one visual system.\nHow I would do it:\n1. Start from your current colors and propose 2–3 directions for the text logos and typography.\n2. Design the bobcat (red shirt with your logo, black hat) in a few poses you can reuse on the truck, website and social media.\n3. Lay out the truck wrap on your vehicle's template, ready for your wrap printer.\n4. Deliver a short brand sheet with colors, fonts and logo versions.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nWhat make and model is the truck, and does your wrap shop have a template or print specs I should follow?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 508,
+          "salida": 1518,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.047387,
+        "generada": "2026-11-15T01:04:15.054Z"
+      }
+    },
     {
       "id": "569147",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.023631,
         "generada": "2026-11-12T15:31:59.288Z"
-      }
-    },
-    {
-      "id": "371645",
-      "tipo": "CONTRACT",
-      "titulo": "Video Editor Specialist — micro1",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371645/Video-Editor-Specialist-micro1",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "micro1 is engaging a video editor to turn raw footage into finished pieces for web, broadcast and social media on a customer project. Shape the story and pacing, respond to creative feedback, manage media assets and versions, and use motion graphics, sound design and colour correction where the brief calls for them.\n A professional editing portfolio and proficiency with tools such as Premiere Pro, Final Cut Pro or DaVinci Resolve are preferred. Experience working across formats and communicating creative decisions is valuable. Prior AI experience is optional.\n Engagement: Contractor. Advertised compensation: US$10–US$40/hour. Remote. Check the linked micro1 application for current location eligibility.\n Apply directly to micro1 through the external application button on this advert.\n I'm sharing this opportunity as an independent referrer and may receive a referral payment if you apply through the micro1 link I provide and meet micro1's referral conditions. I'm not part of micro1's hiring team and do not make hiring decisions. Candidates are never charged. Please direct questions about the role or the micro1 application to micro1.",
-      "vista": "2026-11-12T15:11:53.373Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Edición de vídeo en remoto con motion y sonido, y piden Premiere; la tarifa de 25 USD/h entra en el rango de 10–40 USD/h.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Anabel,\n\nThanks for sharing this. Turning raw footage into finished pieces for web and social, with good pacing and clean versions, is the kind of editing I do every week.\nTwo examples: ORBE and SILENCIO are cinematic ads I made with AI. I handled the idea, the footage generation, the edit and the sound design. I also edit many product and listing videos for a home brand that sells across Europe (under NDA), in different formats and versions.\nMy process: review the brief and the footage, build a first cut focused on story and rhythm, add motion graphics (After Effects), sound and colour correction where needed, and then apply feedback in clear, named versions.\nI work in Premiere Pro, After Effects and the Adobe suite. I'm based in Amsterdam (EU citizen) and work remotely.\nMy rate is 25 USD/hour, which is within the range in the advert, and I'm happy to do a test edit.\nWhat kind of footage and formats will the customer project use?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 588,
-          "salida": 1279,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.042927,
-        "generada": "2026-11-12T15:11:24.370Z"
       }
     }
   ]
