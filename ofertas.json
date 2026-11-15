@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T13:54:17.650Z",
+  "actualizado": "2026-11-15T14:04:48.474Z",
   "ofertas": [
+    {
+      "id": "569379",
+      "tipo": "FREELANCE",
+      "titulo": "Logo and Branding Refresh for a Pizza Pop-Up Business",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569379/Logo-and-Branding-Refresh-for-a-Pizza-Pop-Up-Business",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic designer to refresh the logo and branding for my pizza pop-up business. The updated identity should support a cohesive, recognizable look for the business.",
+      "vista": "2026-11-15T14:04:48.474Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es logo y branding, que Leo puede hacer, pero no tiene una pieza de identidad igual en el portfolio; la carta lo dice y ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA pizza pop-up needs people to recognize it fast: on the sign, the box, the menu and Instagram. So the refreshed logo has to work small, big and in motion, and stay consistent everywhere.\nI'm Leo from LeoVisual.nl, an AI creative studio in Amsterdam. I don't have a logo refresh like this in my portfolio yet. Most of my work is graphic design for ads and social, motion graphics and AI ad films like ORBE and SILENCIO, where a consistent look across every piece matters a lot.\nHow I would do it:\n1) A short questionnaire about your pizza, your vibe and what to keep from the current logo.\n2) 2–3 logo directions to choose from.\n3) Refine the chosen one and add colors, fonts and a simple brand sheet.\n4) Files ready for your box, menu, stickers and social posts.\nIf you prefer, I can make a quick sample direction first so you can see the style before you decide.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nWhat do you like most about your current logo, and what would you want to keep?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 404,
+          "salida": 1258,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.041771,
+        "generada": "2026-11-15T14:04:47.660Z"
+      }
+    },
     {
       "id": "569373",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.0082638,
         "generada": "2026-11-12T19:01:14.468Z"
-      }
-    },
-    {
-      "id": "371675",
-      "tipo": "CONTRACT",
-      "titulo": "Art Related Professional — micro1",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371675/Art-Related-Professional-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "Remote contract · US$35–105 per hour.\n Micro1 is seeking experienced visual creatives to curate image collections for an AI research project. You will compare images for composition, light, colour, styling, originality and technical execution. Explain which images you select and why, then compare judgments with other specialists to keep the collection consistent across genres.\n Micro1 welcomes professionals with a portfolio in photography, art direction, graphic or brand design, illustration or curation. The project calls for clear written critiques and an eye for visual trends. No previous AI experience is required.\n Apply directly to Micro1 using the external application button on this advert. I share this opening as an independent referrer and may receive a referral fee if you apply through my link and meet Micro1’s referral conditions. There is no charge to applicants. Micro1 handles applications and hiring decisions.",
-      "vista": "2026-11-12T19:01:35.482Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es remoto y está bien pagado, y Leo tiene buen ojo visual por sus anuncios y sus imágenes de producto, pero curar y criticar imágenes no es su servicio y piden críticas escritas en inglés (Leo tiene B1).",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Anabel,\n\nThanks for sharing this. Micro1 needs people who can judge images on composition, light, colour, styling and originality, explain each choice clearly and keep the collection consistent with other specialists.\n\nI run LeoVisual.nl, an AI creative studio in Amsterdam. Judging images like this is part of my daily work. For my cinematic AI ads ORBE and SILENCIO, I generated and compared many frames for light, mood and composition before choosing the ones for the final edit. For a European home brand (under NDA), I produced many product and listing images and chose the final ones for styling and technical quality.\n\nI have not curated a collection for AI research before. I am happy to do a short test critique so you can see how I explain my choices. My English is a good working level (B1), and I write short, structured notes. The hourly range in the listing works for me.\n\nI will also apply through the external button. Which genres is the project starting with: photography, illustration or design?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 496,
-          "salida": 1294,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0284638,
-        "generada": "2026-11-12T19:01:29.339Z"
       }
     }
   ]
