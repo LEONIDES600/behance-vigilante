@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-15T14:38:44.223Z",
+  "actualizado": "2026-11-15T21:06:27.117Z",
   "ofertas": [
+    {
+      "id": "zulay-kitchen/jobs/e-commerce-graphic-designer-5257514675",
+      "tipo": "FULL_TIME",
+      "titulo": "E-Commerce Graphic Designer",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/zulay-kitchen/jobs/e-commerce-graphic-designer-5257514675?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Panama",
+      "empresa": "Zulay Kitchen",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "E-Commerce Graphic Designer \n Creative & Conversion-Focused\nAnyone can make a product look good. Can you make it sell?\nAt Zulay Kitchen , we’re looking for a creative thinker who can turn everyday kitchen products into something people actually want to buy.\nEvery image is an opportunity to grab attention, stand out from the competition, and drive sales.\n And the exciting part? You get to see if your ideas actually work. \nResearch. Create. Launch. Check the numbers. Did conversions go up? Awesome! Didn’t work? Find out why, improve it, and try again.What You’ll Do \n Create to sell: Design Amazon listing images, infographics, A+ Content, and marketing assets.\n Think creatively: Develop fresh concepts that make products stand out.\n Know your audience: Research customers, competitors, and buyi",
+      "vista": "2026-11-15T21:06:27.117Z",
+      "carta": {
+        "decision": "espera",
+        "motivo": "Encaja de lleno (listings, infografías y A+ de Amazon con Photoshop e IA), pero la oferta indica Panamá como ubicación y puede exigir residir allí.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nTurning everyday kitchen products into listing images that stop the scroll and get the click is a challenge I enjoy. Each image has to explain the product in a second and look better than the competitor next to it.\nI do this kind of work for a home brand that sells on Amazon in several European countries (under NDA, so I can't name it). I make listing images and videos and A+ content, and I build AI agents that support their team.\nHere is how I work: I study competitors and customer reviews to find what buyers care about. Then I plan the concept for each slot (main image, infographics, lifestyle, A+). I produce the images in Photoshop with AI tools like GPT Image and Nano Banana Pro, and I retouch and composite them until they look real and clean.\nI also like the test-and-improve part: going through the numbers with the e-commerce team and using them for the next version.\nTo be clear about two things: I'm based in Amsterdam (EU citizen), and my working English is intermediate (B1). I'm happy to do a test with one of your products.\nIs this role open to candidates outside Panama, and which product line would I start with?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "La oferta pone «Remoto · Panama». ¿La envío igual (la carta ya pregunta si aceptan candidatos fuera de Panamá) o la descartamos?",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 880,
+          "salida": 1877,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.056055,
+        "generada": "2026-11-15T21:06:25.838Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "162355",
       "tipo": "CONTRACT",
@@ -3645,24 +3685,6 @@
       "dondeSolicitar": "",
       "descripcion": "Welo Data, part of Welocalize, is a global AI data company with 500,000+ contributors delivering high-quality, ethical data to train the world’s most advanced AI systems. We’re building smarter, more human AI with a diverse community in 100+ countries.\n At Welo Data, Limitless AI. Limitless You. isn’t just a slogan—it’s our promise. We build smarter AI through the power of human contribution, offering limitless opportunities for our global community to grow, contribute, and work on their terms.\n Are you detail-oriented and curious about tech? \n Welo Data is building a global network of linguists, language enthusiasts, and culturally aware contributors to shape safer, smarter AI.\n By joining our talent community, you’ll be first in line for flexible, remote projects in annotation, evaluatio",
       "vista": "2026-11-03T21:32:44.191Z",
-      "fuente": "jobicy"
-    },
-    {
-      "id": "158788",
-      "tipo": "FULL_TIME",
-      "titulo": "AI Trainers Network - Maori",
-      "presupuesto": "",
-      "enlace": "https://jobicy.com/jobs/158788-ai-trainers-network-maori",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Welo Global",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Welo Data, part of Welocalize, is a global AI data company with 500,000+ contributors delivering high-quality, ethical data to train the world’s most advanced AI systems. We’re building smarter, more human AI with a diverse community in 100+ countries.\n At Welo Data, Limitless AI. Limitless You. isn’t just a slogan—it’s our promise. We build smarter AI through the power of human contribution, offering limitless opportunities for our global community to grow, contribute, and work on their terms.\n Are you detail-oriented and curious about tech? \n Welo Data is building a global network of linguists, language enthusiasts, and culturally aware contributors to shape safer, smarter AI.\n By joining our talent community, you’ll be first in line for flexible, remote projects in annotation, evaluatio",
-      "vista": "2026-11-03T21:32:44.192Z",
       "fuente": "jobicy"
     }
   ]
