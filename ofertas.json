@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T10:51:35.241Z",
+  "actualizado": "2026-11-15T11:04:04.035Z",
   "ofertas": [
+    {
+      "id": "569279",
+      "tipo": "FREELANCE",
+      "titulo": "PAWVEDA's Animated, Responsive, and Interactive Website Designer",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569279/PAWVEDAs-Animated-Responsive-and-Interactive-Website-Designer",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "PAWVEDA",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a designer to create an animated, responsive, and interactive website for my herbal pet supplements brand. I have a detailed list of milestones to achieve, and I want to get the website to not look generic or basic.",
+      "vista": "2026-11-15T11:04:04.035Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Web animada e interactiva que no parezca genérica: encaja con sus webs 3D con scroll en código (LUMEN, FORJA).",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nAn herbal pet supplements brand needs a website that feels warm, natural and trustworthy, and animation can do that without making it look like a generic template.\nI build animated scroll websites in code (HTML/CSS/JS with three.js + GSAP). Two examples are LUMEN and FORJA: 3D, scroll-driven sites where the motion follows the story of the brand.\nFor PAWVEDA, this is how I would do it:\n1. Go through your milestone list and define the sections, the content and the visual direction (herbs, ingredients, happy pets).\n2. Design the key screens and the animation ideas before building, so you can approve them first.\n3. Build the site responsive from the start, with scroll animations and interactive product sections that also work well on mobile.\n4. Test it, polish it and hand it over with everything you need.\nPrice: 500 USD, 50% upfront. Delivery in 7–10 days, with 2 rounds of changes included.\nCould you share your milestone list and tell me if you already have product photos and a logo, or if I should work with your current brand assets?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 425,
+          "salida": 903,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.034755,
+        "generada": "2026-11-15T11:04:03.199Z"
+      }
+    },
     {
       "id": "569265",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.040375,
         "generada": "2026-11-12T18:55:40.717Z"
-      }
-    },
-    {
-      "id": "348315",
-      "tipo": "FULLTIME",
-      "titulo": "Graphics Designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/348315/Graphics-Designer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Kommo",
-      "contacto": "Valentina Irdyneeva",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "We’re looking for a Graphic Designer in Latam who’s ready to grow, experiment, and create visuals that actually make an impact.\n If you love clean design, understand how visuals communicate ideas, and want to work in a fast-moving international team, this might be for you.\n Location: Remote / Argentina\n Compensation: $700\n What you’ll do\n • Create eye-catching, on-brand visuals in Figma\n • Design graphics for storyboards in collaboration with the product team\n • Work with marketing to develop high-converting visual materials\n • Create attractive communicative materials that convey the required idea\n • Adapt content for different markets and audiences\n • Maintain visual consistency across all assets\n What we’re looking for\n • 6+ months of experience in graphic/web design\n • Strong Figma skills \n • Solid portfolio (we care more about your work than your CV)\n • Understanding of basic web design principles\n • English B2+ (team communication is in English) and Spanish",
-      "vista": "2026-11-12T16:18:49.339Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Buscan a alguien que viva en Latinoamérica (Argentina) y Leo está en Países Bajos; además piden inglés B2+ y Leo tiene B1.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 531,
-          "salida": 417,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.025459,
-        "generada": "2026-11-12T16:17:59.393Z"
       }
     }
   ]
