@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T17:40:39.116Z",
+  "actualizado": "2026-11-15T17:48:11.173Z",
   "ofertas": [
+    {
+      "id": "569475",
+      "tipo": "FREELANCE",
+      "titulo": "Minimalist Premium Clothing Brand Logo and Apparel Designs",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569475/Minimalist-Premium-Clothing-Brand-Logo-and-Apparel-Designs",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "A designer to create the logo and apparel designs for a minimalist, premium clothing brand.\nVersions:\n-A short 3-letter logo on its own\n-The same logo with the full brand name\nStyle:\n-Bold, clean sans-serif lettering\n-Editorial, luxury, quiet\n-A subtle classic/baroque touch\nInspiration:\n-Aimé Leon Dore: restraint, heritage feel, small understated branding\nAvoid:\n-Loud streetwear graphics\n-Gradients\n-Generic tech-startup look\n-Anything template-like\nScope:\n-Logo\n-Designs for t-shirts and jackets\nTone:\n-Expensive without shouting. The detail is the point.",
+      "vista": "2026-11-15T17:48:11.173Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es un logo con diseños de ropa, que Leo puede hacer, pero no tiene ningún logo de marca de ropa en el portfolio; el presupuesto es aceptable.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYour brand needs a mark that feels expensive through restraint: a bold, clean 3-letter logo with a quiet baroque detail, and apparel that whispers instead of shouting.\nI'm Leo, from LeoVisual.nl, a creative studio in Amsterdam. I do graphic design and brand visuals, and my cinematic AI ads ORBE and SILENCIO show the calm, editorial look I like to work in.\nTo be honest, I don't have a clothing brand logo in my portfolio yet, so I'm happy to make a short sample first so you can judge the direction.\nHow I would do it:\n1. A short moodboard based on the Aimé Leon Dore restraint and heritage feel.\n2. 2-3 monogram directions in bold sans-serif, with the baroque touch only in one small detail (a cut, a terminal or a small ornament).\n3. Refine the chosen one, then build the lockup with the full brand name. No gradients, no template look.\n4. Apply it to t-shirts and jackets: small chest marks, back neck and label details, with mockups and vector files.\nPrice: 250 USD, 50% upfront, delivery in 7-10 days, with 2 rounds of changes.\nWhat is the brand name and which 3 letters will the short logo use?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 592,
+          "salida": 1226,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.041883,
+        "generada": "2026-11-15T17:48:10.496Z"
+      }
+    },
     {
       "id": "569469",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.0135278,
         "generada": "2026-11-12T19:10:49.857Z"
-      }
-    },
-    {
-      "id": "567953",
-      "tipo": "FREELANCE",
-      "titulo": "Diseño de Logotipo para Doctor",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567953/Diseno-de-Logotipo-para-Doctor",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Busco un diseñador de logotipos para crear la identidad visual de un doctor. Necesito un logotipo profesional, claro y adecuado para el sector médico.",
-      "vista": "2026-11-12T19:11:01.561Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es diseño de logo/identidad: Leo puede hacerlo con diseño gráfico, pero no tiene un logo publicado en el portfolio.",
-        "categoria": "CREATIVO",
-        "idioma": "es",
-        "carga": "baja",
-        "texto": "¡Hola!\nUn logotipo médico tiene que transmitir confianza y cercanía a primera vista, y verse bien en una placa, una receta o una web.\nSoy Leo, de LeoVisual.nl, un estudio creativo en Ámsterdam. Hago diseño gráfico, imágenes de producto y webs para marcas. Por ejemplo, para una marca de hogar he hecho imágenes de listing, contenido A+ y la web.\nSeré claro: no tengo un logotipo médico publicado en el portfolio. Por eso le propongo empezar con una muestra corta para que vea el enfoque antes de decidir.\nMi proceso sería este: un breve cuestionario sobre su especialidad y su público, 3 propuestas iniciales, el desarrollo de la elegida y la entrega en SVG, PDF y PNG, en versión a color y en monocromo.\nPrecio: 500 USD, con un 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿Cuál es la especialidad del doctor y el logotipo llevará su nombre o el de la consulta?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 389,
-          "salida": 994,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.022035799999999998,
-        "generada": "2026-11-12T19:11:00.771Z"
       }
     }
   ]
