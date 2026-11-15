@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T11:04:04.035Z",
+  "actualizado": "2026-11-15T12:47:18.445Z",
   "ofertas": [
+    {
+      "id": "569333",
+      "tipo": "FREELANCE",
+      "titulo": "Nuovo Brand E UI/UX Per App Di Fantacalcio",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569333/Nuovo-Brand-E-UIUX-Per-App-Di-Fantacalcio",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Vorrei rinnovare la mia app di fantacalcio con un nuovo brand e un'esperienza UI/UX aggiornata. Il progetto comprende la definizione dell'identità visiva e il redesign dell'interfaccia dell'app.",
+      "vista": "2026-11-15T12:47:18.445Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding y UI/UX de app pueden hacerse con IA y Figma, pero no hay identidad de marca ni rediseño de app en el portfolio; la oferta está en italiano y la carta va en inglés.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nA fantasy football app needs to be clear: users have to check lineups, scores and standings in seconds. The new brand should make that feel exciting without making the screens crowded.\nI'm Leo from LeoVisual.nl, an AI creative studio in Amsterdam. I design and build websites like LUMEN, FORJA and MORVAIN, which are 3D scroll sites made in code. I also create visuals and ads with AI. My portfolio doesn't have an app redesign or a full brand identity yet, so I'm happy to start with a short sample: one logo direction and one redesigned key screen.\nHow I would work:\n1. Review the current app and its main flows (lineup, live scores, leagues).\n2. Brand: 2–3 visual directions (logo, colours, typography), then refine the one you choose.\n3. UI/UX: wireframes of the key screens in Figma, then final screens and a simple style guide.\nPrice: 5000 USD, with 50% upfront. Delivery in 7–10 days, with 2 rounds of changes.\nHow many screens does the app have now? And is there anything about the current brand (name, colours, tone) that you want to keep?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 443,
+          "salida": 1645,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.049667,
+        "generada": "2026-11-15T12:47:17.699Z"
+      }
+    },
     {
       "id": "569279",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.0346638,
         "generada": "2026-11-12T18:57:00.283Z"
-      }
-    },
-    {
-      "id": "568003",
-      "tipo": "FREELANCE",
-      "titulo": "Strength-Focused Personal Training Logo Design",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568003/Strength-Focused-Personal-Training-Logo-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Mindstir Media",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a logo featuring a strong, flexing bicep that conveys strength, fitness, and our company’s dedication to personal training.",
-      "vista": "2026-11-12T18:55:41.465Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es diseño de logo, que Leo puede hacer con IA y diseño gráfico, pero no tiene ningún logo en el portfolio; se envía con una carta honesta y ofreciendo una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi!\nYou need a logo built around a strong, flexing bicep that instantly says strength, fitness and a real commitment to personal training.\nTo be honest, I don't have a logo project like this in my portfolio yet. My work is mostly AI-made ads like ORBE and SILENCIO, plus graphic design for ads and social media.\nSo I'm happy to start with a short sample or a test before you decide.\nHow I'd do it: explore several bicep concepts with AI image tools, choose the strongest directions with you, then rebuild the chosen one as a clean vector in Adobe so it reads well small, large, in one colour and on dark backgrounds.\nYou'd get the final files in vector and PNG, plus a simple version for social media.\nPrice: 5000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have the brand name, colours or a style in mind (bold and modern, or a more classic gym badge)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 390,
-          "salida": 1191,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.040375,
-        "generada": "2026-11-12T18:55:40.717Z"
       }
     }
   ]
