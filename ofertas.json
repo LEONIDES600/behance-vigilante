@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T17:38:19.086Z",
+  "actualizado": "2026-11-15T17:40:39.116Z",
   "ofertas": [
+    {
+      "id": "569469",
+      "tipo": "FREELANCE",
+      "titulo": "Hi dear!",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569469/Hi-dear",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "New offer",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for freelancers to help launch a new home goods brand. I need support with brand identity, packaging, website design, copywriting, and visual content. You can take on an individual task based on your specialty. The expected timeline is 4–6 weeks.",
+      "vista": "2026-11-15T17:40:39.116Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Marca de hogar remota que acepta tareas sueltas: Leo puede encargarse del diseño web y del contenido visual, que encajan con su portfolio.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA new home goods brand needs a website and visual content that look like one consistent brand from day one.\nI'd like to take on the website design and the visual content (product images and short videos).\nI've worked with a home brand that sells in several European countries (under NDA) on listing images and videos, A+ content and their website.\nI also built LUMEN, FORJA and MORVAIN, 3D scroll websites coded with three.js + GSAP.\nHow I'd do it: first a short brief on your products, audience and style, then a moodboard and homepage design for your approval, then the full build plus a first set of product images and videos made with AI and finished in Adobe.\nPackaging and brand identity aren't in my portfolio, so I'd leave those to a specialist, or I can do a short test piece first if you'd like.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have a logo and product photos, or would the visual content start from scratch?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 421,
+          "salida": 1355,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.029383799999999998,
+        "generada": "2026-11-15T17:40:38.088Z"
+      }
+    },
     {
       "id": "569463",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.022035799999999998,
         "generada": "2026-11-12T19:11:00.771Z"
-      }
-    },
-    {
-      "id": "567975",
-      "tipo": "FREELANCE",
-      "titulo": "UI Design for a SaaS Website",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567975/UI-Design-for-a-SaaS-Website",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for a UI designer to create the user interface for a SaaS website. The design should support a clear, intuitive, and professional web experience for the platform’s users.",
-      "vista": "2026-11-12T19:07:37.194Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Diseño UI de una web SaaS: encaja con su diseño web; no hay una pieza SaaS igual, así que se ofrece una pantalla de muestra.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA SaaS website works when users understand the product right away and always know the next step, so clarity and hierarchy come first.\nMy closest work is LUMEN, FORJA and MORVAIN, 3D scroll websites I designed and built in code (three.js + GSAP). In each one, the structure and visual hierarchy guide the visitor through every section.\nI don't have a SaaS UI piece in my portfolio yet, so I'm happy to start with a short sample screen so you can judge the fit.\nHow I would work:\n1. Review your product, users and main flows, and agree on the list of pages.\n2. Wireframes for the key pages, then the visual style (type, colour, components).\n3. Final UI in Figma for desktop and mobile, ready to hand off to development (or I can build it in code).\nPrice: 1000 USD for the project, 50% upfront, delivery in 7–10 days with 2 rounds of revisions.\nWhich pages or screens do you need: only the marketing website, or also the in-app dashboard?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 393,
-          "salida": 1263,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0274318,
-        "generada": "2026-11-12T19:07:36.365Z"
       }
     }
   ]
