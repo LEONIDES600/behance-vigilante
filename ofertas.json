@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T14:04:48.474Z",
+  "actualizado": "2026-11-15T16:59:51.320Z",
   "ofertas": [
+    {
+      "id": "569433",
+      "tipo": "FREELANCE",
+      "titulo": "Book Cover Fix",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569433/Book-Cover-Fix",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need someone to fix my book cover and improve the existing design. Budget amount: $350 to $450. The book cover I uploaded is intended as a reference for the artist I hire. I purchased it on Etsy, but I can’t use it because the seller disclosed after the sale that AI or AI-assisted technology was used to create it. I wrote my manuscript myself, so I believe my cover should also be created by a human. I feel it would be unfair to future readers to present them with a finished book that AI had a hand in creating.",
+      "vista": "2026-11-15T16:59:51.320Z",
+      "carta": {
+        "decision": "espera",
+        "motivo": "El diseño gráfico de portadas puede encajar, pero el cliente exige cero IA y LeoVisual es un estudio con IA: hace falta que Leo confirme que puede hacerla entera a mano.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYou need a new version of your book cover, made by a person, that keeps the feel of the Etsy reference but with no AI in any part of it. I understand why this matters to you as an author.\nI want to be honest from the start: my studio, LeoVisual.nl, usually works with AI tools. For your cover I would not use any generative AI at all. I would design it from zero in Adobe, using my graphic design work, and only licensed fonts and stock images or my own elements.\nHow I would do it: first I study the reference and your genre, then I send you 2 short layout ideas, and after you choose one I build the final front cover (and spine and back if you need them).\nTo show the work is human-made, I can send you the layered working files and screenshots of the steps.\nI do not have a book cover in my portfolio yet, so I am happy to make a short sample first so you can see my style.\nPrice: 450 USD, 50 % upfront, delivery in 7–10 days, with 2 rounds of changes.\nIs this cover for ebook only, or also for print (and if print, do you already know the trim size and page count)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 450,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "¿Puedes hacer esta portada entera tú mismo en Adobe, sin IA generativa en ningún paso, y enseñarle al cliente los archivos con capas como prueba?",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 489,
+          "salida": 1620,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.049351,
+        "generada": "2026-11-15T16:59:49.695Z"
+      }
+    },
     {
       "id": "569379",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.0216598,
         "generada": "2026-11-12T19:04:51.679Z"
-      }
-    },
-    {
-      "id": "371677",
-      "tipo": "CONTRACT",
-      "titulo": "Senior Book Editor — micro1",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371677/Senior-Book-Editor-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "Remote contract · US$80–120 per hour. Micro1 prefers US-based editors and will consider qualified applicants elsewhere.\n Edit manuscripts for clarity, voice and narrative structure. You will recommend line edits and larger revisions, trace gaps in plot or character development, and give authors and project stakeholders specific editorial feedback. The project also involves developing editorial guidelines and reviewing AI-generated editorial work for style and accuracy.\n Micro1 seeks experienced editors of published books for established publishers or authors. Work on award-winning or bestselling books is a plus. The assignment draws on literary judgment, command of English, and the ability to explain changes across genres. No prior AI experience is required.\n Apply directly to Micro1 using the external application button on this advert. I share this opening as an independent referrer and may receive a referral fee if you apply through my link and meet Micro1’s referral conditions. There is no charge to applicants. Micro1 handles applications and hiring decisions.",
-      "vista": "2026-11-12T19:01:35.482Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es edición de libros (manuscritos, estructura narrativa) con inglés de nivel experto y experiencia en libros publicados: no es su especialidad.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 546,
-          "salida": 274,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0082638,
-        "generada": "2026-11-12T19:01:14.468Z"
       }
     }
   ]
