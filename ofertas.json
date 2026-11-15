@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T16:59:51.320Z",
+  "actualizado": "2026-11-15T17:38:19.086Z",
   "ofertas": [
+    {
+      "id": "569463",
+      "tipo": "FREELANCE",
+      "titulo": "Hi dear!",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569463/Hi-dear",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "New offer",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for freelancers to help launch a new home goods brand. I need support with brand identity, packaging, website design, copywriting, and visual content. You can take on an individual task based on your specialty. The expected timeline is 4–6 weeks.",
+      "vista": "2026-11-15T17:38:19.086Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Marca de hogar nueva que busca web y contenido visual, dos cosas que Leo ya ha hecho para una marca de hogar real.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nA new home goods brand needs product visuals and a website that look consistent from day one, and those are the two tasks I'd like to take on.\nI recently worked with a home brand that sells across several European countries (under NDA, so I can't name it). For them I made many product images and videos, A+ content and their website, using AI tools like GPT Image, Nano Banana Pro and Kling, with editing in Premiere and After Effects.\nI also build websites in code, including 3D scroll sites like LUMEN and FORJA (three.js + GSAP).\nHow I'd work: first I'd review your products and brand direction, then make a short visual style test, then produce the product images and short videos, and finally build the website using those same visuals.\nPrice: 1000 USD for the task you assign me (website or a visual content pack), 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have product samples or photos, and which task do you need covered first, the website or the visual content?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 420,
+          "salida": 981,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.036295,
+        "generada": "2026-11-15T17:38:17.804Z"
+      }
+    },
     {
       "id": "569433",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.0274318,
         "generada": "2026-11-12T19:07:36.365Z"
-      }
-    },
-    {
-      "id": "567989",
-      "tipo": "FREELANCE",
-      "titulo": "Freelance Content Creation and Graphic Design for a Luxury Fashion Showroom",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567989/Freelance-Content-Creation-and-Graphic-Design-for-a-Luxury-Fashion-Showroom",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Sabor Showroom",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a freelance content creator and graphic designer to support a luxury fashion showroom with polished visual content and design assets.",
-      "vista": "2026-11-12T19:04:52.504Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Piden contenido y diseño para redes de un showroom de moda, que encaja con sus anuncios con IA y su contenido de producto; no exige nada técnico de moda.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA luxury fashion showroom needs visuals that feel calm, premium and consistent on every post, and that is the kind of content I would like to build for you.\nAt LeoVisual.nl, my AI creative studio in Amsterdam, I made ORBE and SILENCIO, two cinematic ads created with AI (idea, generation, editing and sound).\nI also create many product images and videos for a home brand that sells in several European countries (under NDA), together with A+ content and their website.\nI don't have a fashion piece in my portfolio yet, so I am happy to make a short free sample with one of your looks first.\nMy process: 1) a short moodboard and visual rules based on your brand, 2) images and short videos made with AI, plus editing in Premiere and After Effects, 3) graphic design for posts, stories and reels, 4) final files ready for each platform.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nWhich platforms do you want to focus on, and how many pieces do you need each month?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 405,
-          "salida": 972,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0216598,
-        "generada": "2026-11-12T19:04:51.679Z"
       }
     }
   ]
