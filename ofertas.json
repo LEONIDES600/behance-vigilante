@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T10:18:16.510Z",
+  "actualizado": "2026-11-15T10:51:35.241Z",
   "ofertas": [
+    {
+      "id": "569265",
+      "tipo": "FREELANCE",
+      "titulo": "Magazine Design",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569265/Magazine-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Hello,\nAryan here.\nWe are planning to launch our own real estate magazine, “THE MARK,” under the banner of our real estate company. This will be our first publication, and we are currently looking to collaborate with an experienced graphic/editorial designer who has a strong understanding of magazine design, layout, typography, and visual storytelling.\nWe are looking for someone who can help us develop a premium, professional, and visually appealing magazine that reflects our brand identity and the real estate industry.\nOur initial budget for this project is up to ₹50,000 (negotiable), depending on the designer’s experience, creative approach, and the scope of work.\nWe would love to connect with someone who has relevant experience in editorial or magazine design. If you are interested, please share your portfolio, previous work, and a brief overview of how you could contribute to this project.\nLooking forward to connecting and potentially working together.\nRegards,\nAryan",
+      "vista": "2026-11-15T10:51:35.241Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "El pago es en INR (₹50.000) y piden un diseñador editorial de revistas con experiencia, algo que no está en el portfolio de Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 618,
+          "salida": 477,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.027007,
+        "generada": "2026-11-15T10:51:34.339Z"
+      }
+    },
     {
       "id": "569237",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.025459,
         "generada": "2026-11-12T16:17:59.393Z"
-      }
-    },
-    {
-      "id": "371661",
-      "tipo": "CONTRACT",
-      "titulo": "ParaView Scientific Visualization Specialist — micro1",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371661/ParaView-Scientific-Visualization-Specialist-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "Use ParaView to turn engineering simulations and scientific data into clear 3D visualisations for a micro1 AI training project. Work with simulation outputs, including computational fluid dynamics (CFD) and finite element analysis (FEA). Document how you reach each visual result and review technical tasks for accuracy.\n You must currently have access to ParaView. micro1 prefers professional hands-on experience visualising scientific datasets, a background in engineering, physics or a related field, and the ability to explain technical decisions clearly.\n Independent contractor. Remote. micro1 lists US$63–US$122 per hour. The listing does not specify eligible countries. Check your location eligibility in the micro1 application.\n Apply directly to micro1 through either external application button on this advert.\n I’m sharing this opportunity as an independent referrer and may receive a referral payment if you apply through the micro1 link and meet the referral conditions. micro1 handles applications and hiring decisions. Candidates are never charged.",
-      "vista": "2026-11-12T16:18:49.339Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es visualización científica con ParaView a partir de simulaciones CFD/FEA y piden formación en ingeniería o física: ni la herramienta ni ese perfil técnico están entre lo que Leo hace.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 556,
-          "salida": 480,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.012423799999999999,
-        "generada": "2026-11-12T16:18:05.404Z"
       }
     }
   ]
