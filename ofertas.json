@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T04:12:01.946Z",
+  "actualizado": "2026-11-15T05:57:24.178Z",
   "ofertas": [
+    {
+      "id": "569191",
+      "tipo": "FREELANCE",
+      "titulo": "Corporate Logo & Brand Identity Designe",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569191/Corporate-Logo-Brand-Identity-Designe",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are seeking an experienced designer to create a modern, minimalist, and timeless corporate logo for Shrimali Enterprises LLP, a manufacturing company based in Jodhpur, India.\nOur company initially focuses on footwear manufacturing, with plans to expand into other industries.\n**Design Preferences:**\n- Style: Minimalist, modern, professional, geometric, and elegant.\n- Symbol: Preferably an abstract geometric eagle, but open to creative alternatives.\n- Colors: Royal blue or navy.\n- Typography: Clean, premium sans-serif.\n- Identity: Strong, distinctive, trustworthy, and internationally appealing.\n- Avoid generic shoe symbols, templates, and overly complicated designs.\n**Deliverables:** 3 original logo concepts, revisions, vector source files (AI, SVG, EPS), PNG, logo variations, typography, color palette, and a basic brand guide.\n**Timeline:** 2–4 weeks.\nPlease share relevant corporate branding work, your design process, and pricing.",
+      "vista": "2026-11-15T05:57:24.178Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo e identidad corporativa: Leo puede hacerlo, pero no tiene ningún logo en el portfolio, así que la carta lo dice y ofrece un boceto previo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nShrimali Enterprises needs a logo that works for footwear now and can grow with the company into other industries. A geometric eagle in navy or royal blue with a clean sans-serif is a good way to stay strong and timeless without using a shoe symbol.\n\nTo be honest, I don't have a corporate logo case in my portfolio yet. My work is mostly graphic design, motion and 3D web projects like LUMEN and FORJA, where clean geometric visuals matter a lot. Before you commit, I'm happy to send a short sample sketch of the eagle direction.\n\nMy process:\n1. A short brief and a look at manufacturing and premium brands in your market.\n2. Exploring many eagle forms with AI-assisted sketching, then choosing 3 original concepts and redrawing them by hand as clean vectors in Adobe.\n3. Refining the concept you choose, then building the logo variations, typography and color palette.\n4. Delivering AI, SVG, EPS and PNG files plus a basic brand guide.\n\nPrice: 250 USD, 50% upfront. Delivery in 7–10 days, with 2 rounds of changes.\n\nWill the logo also need to work very small or as a single color, for example embossed on shoes, soles or packaging?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 700,
+          "salida": 1257,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.042935,
+        "generada": "2026-11-15T05:57:22.834Z"
+      }
+    },
     {
       "id": "569171",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.012555799999999999,
         "generada": "2026-11-12T16:18:25.090Z"
-      }
-    },
-    {
-      "id": "371649",
-      "tipo": "CONTRACT",
-      "titulo": "Krita Expert — micro1",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371649/Krita-Expert-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "Micro1 is looking for Krita artists to demonstrate professional illustration and digital-painting workflows for AI training. Create and refine character designs, concept art and 2D animations. Record your screen and explain how you use brushes, masks, layers and colour tools.\n Applicants need professional hands-on Krita experience, access to the software, screen-recording capability and English at B2 level or above. A portfolio in illustration or concept art is preferred.\n Independent contractor. Remote. Check country eligibility in the Micro1 application. Micro1 advertises US$21–US$70 per hour.\n Apply directly to micro1 through the external application button on this advert.\n I'm sharing this opportunity as an independent referrer and may receive a referral payment if you apply through the micro1 link I provide and meet micro1's referral conditions. I'm not part of micro1's hiring team and do not make hiring decisions. Candidates are never charged. Please direct questions about the role or the micro1 application to micro1.",
-      "vista": "2026-11-12T16:18:49.339Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden experiencia profesional en Krita y pintura digital a mano grabada en pantalla, y Leo no puede demostrar eso.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 546,
-          "salida": 519,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0131638,
-        "generada": "2026-11-12T16:18:31.431Z"
       }
     }
   ]
