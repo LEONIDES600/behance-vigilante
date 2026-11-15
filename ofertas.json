@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T06:02:55.936Z",
+  "actualizado": "2026-11-15T08:54:22.471Z",
   "ofertas": [
+    {
+      "id": "569217",
+      "tipo": "FREELANCE",
+      "titulo": "Senior UI/UX and Brand Identity Design for Professional Digital Products",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569217/Senior-UIUX-and-Brand-Identity-Design-for-Professional-Digital-Products",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m seeking a Senior UI/UX & Brand Identity Designer to create professional digital product interfaces, user experiences, and complete brand identity systems. The project is remote, should be completed within 3 to 6 weeks, and the budget is negotiable based on scope. Strong skills in Figma, Adobe Illustrator, corporate branding, and design systems are required.",
+      "vista": "2026-11-15T08:54:22.471Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Piden UI/UX y branding sénior: Leo tiene webs, pero no tiene ningún caso de identidad corporativa, así que la carta lo dice y ofrece una muestra.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nYou need product interfaces, user flows and a complete brand identity that feel like one consistent system, with a clear design system behind them.\nI'm Leo from LeoVisual.nl, an AI creative studio in Amsterdam. I designed and built LUMEN, FORJA and MORVAIN, 3D scroll websites made in code. I also created the website, listing images and A+ content for a home brand that sells in several European countries, so I'm used to keeping one visual language across many screens and formats.\nTo be honest, I don't have a full corporate brand identity case in my portfolio yet. I'm happy to do a short sample first (for example, one logo direction and one key screen) so you can judge the fit.\nHow I would work: 1) a short brief on your product, users and brand values; 2) a moodboard and 2 identity directions; 3) a design system in Figma (colours, type, components); 4) the key screens and flows; 5) brand guidelines and source files.\nPrice: 500 USD, with 50% upfront. First full delivery in 7–10 days, plus 2 rounds of changes.\nWhat type of product is it (web app, mobile app, SaaS), and about how many screens do you need?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 474,
+          "salida": 1591,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.048711,
+        "generada": "2026-11-15T08:54:21.237Z"
+      }
+    },
     {
       "id": "569193",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.011731799999999999,
         "generada": "2026-11-12T16:18:09.905Z"
-      }
-    },
-    {
-      "id": "371653",
-      "tipo": "CONTRACT",
-      "titulo": "Inkscape Design Specialist — micro1",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371653/Inkscape-Design-Specialist-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "Micro1 is looking for Inkscape specialists to demonstrate vector-design workflows for AI training. Create and improve SVG illustrations, logos and other assets. Show how you use Bézier curves, nodes, layers and path operations, and explain the process step by step.\n Applicants need professional Inkscape and SVG experience, access to Inkscape, screen-recording capability and English at B2 level or above. A portfolio of vector-design projects is preferred.\n Independent contractor. Remote. Check country eligibility in the Micro1 application. Micro1 advertises US$25–US$70 per hour.\n Apply directly to micro1 through the external application button on this advert.\n I'm sharing this opportunity as an independent referrer and may receive a referral payment if you apply through the micro1 link I provide and meet micro1's referral conditions. I'm not part of micro1's hiring team and do not make hiring decisions. Candidates are never charged. Please direct questions about the role or the micro1 application to micro1.",
-      "vista": "2026-11-12T16:18:49.339Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Exige experiencia profesional con Inkscape, que Leo no tiene confirmada, e inglés B2 o superior para explicar el proceso grabando la pantalla; además es una referencia que se solicita en la web de micro1.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 561,
-          "salida": 740,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.017643799999999998,
-        "generada": "2026-11-12T16:18:19.710Z"
       }
     }
   ]
