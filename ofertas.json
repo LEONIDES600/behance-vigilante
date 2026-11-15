@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T12:53:11.530Z",
+  "actualizado": "2026-11-15T13:54:17.650Z",
   "ofertas": [
+    {
+      "id": "569373",
+      "tipo": "FREELANCE",
+      "titulo": "Food-First Thumbnail Design",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569373/Food-First-Thumbnail-Design",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for an experienced YouTube thumbnail designer and creative strategist for my established cooking channel with over 175,000 subscribers.\nMy content focuses on cinematic cooking, barbecue, culinary traditions, and food history. I put significant effort into production quality, and I'm looking for someone who can bring that same level of creativity and attention to my video packaging.\nI'm especially interested in food-first thumbnails that make the finished dish the star rather than relying on exaggerated facial expressions, clickbait graphics, or conventional YouTube thumbnail formulas.\nI currently design my own thumbnails, but I'm looking for a long-term creative partner who can bring fresh ideas, improve click-through rates, develop a recognizable visual identity, and help with title and thumbnail strategy.\nI'm looking for an ongoing creative relationship rather than a one-off design project.",
+      "vista": "2026-11-15T13:54:17.650Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Diseño gráfico para YouTube con estética cinematográfica, encaja con sus servicios; no tiene miniaturas en el portfolio, así que se ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA cinematic cooking channel deserves thumbnails where the finished dish is the hero, not a shocked face, and I like that you want a consistent visual identity instead of the usual formulas.\nI run LeoVisual.nl, an AI creative studio in Amsterdam. My closest work is ORBE and SILENCIO, cinematic ads I made with AI (idea, generation, editing and sound), and a large set of product images for a home brand selling across Europe. In both, the goal was to make one product look irresistible in a single frame.\nHow I would work: first I review your recent videos and current thumbnails, then I define a visual system (lighting, color grade, dish framing, type and title placement), then I design 2-3 options per video from your stills, using Photoshop and AI to clean up and enhance. We pair each option with title ideas so they work together.\nI don't have YouTube thumbnails in my portfolio yet, so I'm happy to redesign one of your recent thumbnails as a sample first.\nFor a first set of thumbnails and the visual direction: 250 USD, 50% upfront, delivery in 7-10 days and 2 rounds of revisions. After that we can agree on an ongoing rhythm.\nWhich recent video would you like me to use for the sample?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 626,
+          "salida": 1276,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.043019,
+        "generada": "2026-11-15T13:54:16.838Z"
+      }
+    },
     {
       "id": "569349",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.0284638,
         "generada": "2026-11-12T19:01:29.339Z"
-      }
-    },
-    {
-      "id": "371671",
-      "tipo": "FULLTIME",
-      "titulo": "Head of Communications — micro1",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371671/Head-of-Communications-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "Micro1 is hiring a full-time Head of Communications to lead external communications for its AI business. Write and shape launch and partnership messaging, company announcements, executive talking points and briefing materials. Help company leaders prepare interviews and bylines, and guide how complex technical work is explained to a public audience.\n The role also owns PR strategy, relationships with journalists and creators, earned media across print, digital, broadcast and podcasts, agency management and crisis communications. Micro1 seeks experience leading communications for high-growth technology companies, strong writing and storytelling, media relationships, and a track record of handling major launches and announcements.\n Full-time, remote. Check current country eligibility on Micro1. The detailed vacancy gives a base salary of US$150,000–US$200,000 per year, equity eligibility and possible performance-based bonuses. Its headline separately lists compensation of US$250,000–US$400,000 per year.\n Apply directly to Micro1 using this advert’s external application button. I share this opening as an independent referrer and may receive a referral fee if you apply through my link and meet Micro1’s referral conditions. There is no charge to applicants. Micro1 handles applications and hiring decisions.",
-      "vista": "2026-11-12T19:01:35.482Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es un puesto de dirección de comunicación y PR que pide experiencia con prensa, redacción de alto nivel en inglés y trayectoria liderando lanzamientos, y nada de eso está en el perfil de Leo.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 613,
-          "salida": 412,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0112918,
-        "generada": "2026-11-12T19:01:34.569Z"
       }
     }
   ]
