@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T18:18:45.396Z",
+  "actualizado": "2026-11-15T18:31:36.054Z",
   "ofertas": [
+    {
+      "id": "569515",
+      "tipo": "FREELANCE",
+      "titulo": "Music Video Production and Cover Artwork for an Independent Artist",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569515/Music-Video-Production-and-Cover-Artwork-for-an-Independent-Artist",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Follow the link to accept offer",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m seeking freelancers to help create a music video for an independent artist, with an expected timeline of 4–6 weeks. You can contribute to a specific area based on your expertise, including concept development, filming, editing, motion graphics, or cover artwork.",
+      "vista": "2026-11-15T18:31:36.054Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "El trabajo encaja (vídeo musical con IA, montaje, motion y portada), pero el campo de empresa «Follow the link to accept offer» parece estafa: responde solo dentro de la plataforma y no abras enlaces externos.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA music video for an independent artist needs a clear visual idea that fits the song, and a cover that feels like part of the same world.\nI can help with concept, editing, motion graphics and cover artwork. I don't do live filming, but I can create cinematic footage with AI (Kling, Seedance) or edit footage you already have.\nMy closest work is ORBE and SILENCIO, cinematic ads made with AI where I did the idea, generation, editing and sound.\nHow I would work: 1) listen to the track and send a short concept and moodboard, 2) generate the scenes and edit them to the beat in Premiere and After Effects, 3) design the cover with the same look.\nI don't have a cover artwork piece like this in my portfolio yet, so I'm happy to make a short sample first.\nPrice: 1000 USD, 50% upfront, first full delivery in 7–10 days after the concept is approved, with 2 rounds of changes, inside your 4–6 week timeline.\nWhat is the genre and mood of the song, and do you already have any footage of the artist?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 446,
+          "salida": 1533,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.047439,
+        "generada": "2026-11-15T18:31:34.984Z"
+      }
+    },
     {
       "id": "569499",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.054335,
         "generada": "2026-11-12T20:45:02.128Z"
-      }
-    },
-    {
-      "id": "368737",
-      "tipo": "FULLTIME",
-      "titulo": "Asistente de Dirección de Arte – Wicked Family",
-      "presupuesto": "800–1000 USD/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/368737/Asistente-de-Direccion-de-Arte-Wicked-Family",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Wicked",
-      "contacto": "Wicked Studios",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Área: Dirección de Arte y Producción 3D\n Modalidad: Remoto\n Marcas: 3dWicked, B3DSERK, SW3D y Pixel Pop\n Sobre Wicked Family\n En Wicked Family nos especializamos en la creación de personajes, esculturas digitales y coleccionables 3D de alta calidad, desarrollados para una comunidad internacional de apasionados por la cultura geek y la impresión 3D.\n Estamos buscando un Asistente de Dirección de Arte con experiencia sólida en producción 3D, desarrollo de personajes y supervisión artística, que trabaje directamente con nuestro Director de Arte y contribuya a mantener los estándares de calidad de nuestras marcas.\n Objetivo del cargo\n Ser el principal apoyo del Director de Arte, supervisando, filtrando y validando los avances de producción antes de presentarlos para aprobación final.\n Buscamos una persona con criterio artístico y técnico avanzado, capaz de identificar problemas, proponer soluciones, coordinar equipos y garantizar que cada proyecto cumpla con nuestros estándares visuales y de producción.\n Responsabilidades principales\n Supervisión artística y control de calidad\n Revisar y validar avances de modelado, renderizado y preparación de archivos para impresión 3D.\n Trabajar directamente con los supervisores de modelado, render y corte para garantizar la calidad de las entregas.\n Detectar errores de anatomía, proporciones, likeness, composición, poses, materiales, iluminación y acabados.\n Solicitar correcciones y verificar su implementación antes de presentar los proyectos",
-      "vista": "2026-11-12T20:03:19.911Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden 4–6 años de dirección de arte y escultura de personajes en 3D (ZBrush, preparación de STL para impresión), algo que Leo no tiene en su portfolio.",
-        "categoria": "CREATIVO",
-        "idioma": "es",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 2496,
-          "salida": 437,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.033719,
-        "generada": "2026-11-12T20:03:14.571Z"
       }
     }
   ]
