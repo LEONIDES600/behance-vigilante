@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T01:57:25.844Z",
+  "actualizado": "2026-11-15T03:12:39.290Z",
   "ofertas": [
+    {
+      "id": "569165",
+      "tipo": "FREELANCE",
+      "titulo": "Weekly Post-Production Editor ",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569165/Weekly-Post-Production-Editor-",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Joseph Chen Inc",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are looking for a reliable, long-term post-production finishing artist with film or high-end commercial experience to handle the final polish for a weekly 1-hour YouTube fitness and wellness series.\nYou will not be responsible for creative story editing. Each week, you will receive a locked, 1-hour rough cut assembled in Final Cut Pro (via FCP XML). Your role is to bring that timeline into DaVinci Resolve and deliver a cohesive, commercial-grade visual and audio finish.\nEdit Polish & Rotoscoping: Refine rough transitions, tighten pacing around physical workout movements, smooth out jump cuts, and cleanly mask/rotoscope subjects when needed.\nColor Grading: Manually balance flat Log footage shot under mixed lighting (warm indoor spotlights vs. cool window daylight). Maintain natural, consistent skin tones across the entire 1-hour timeline without relying on heavy preset LUTs.\nDialogue Cleanup & Mix: Remove hollow room/hallway echo from vocal tracks (using DaVinci Voice Isolation, iZotope RX, or equivalent), apply clean compression, and balance provided music beds to YouTube loudness standards.\nWeekly Turnaround: Raw XML timelines are delivered every Monday. First polished draft is due Thursday, with final delivery (including minor revisions) due Friday.",
+      "vista": "2026-11-15T03:12:39.289Z",
+      "carta": {
+        "decision": "espera",
+        "motivo": "Es edición de vídeo y encaja, pero todo el flujo es en DaVinci Resolve, y DaVinci no está confirmado entre las herramientas de Leo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\n\nEvery week you need a reliable finishing pass on a locked 1-hour fitness episode. That means natural, consistent skin tones, clean dialogue and loudness that's ready for YouTube.\nMy closest work is ORBE and SILENCIO, two cinematic ads I made with AI. On both I handled the edit, the look and the sound through to final delivery. I usually edit in Premiere and After Effects.\nI don't have a 1-hour series or a rotoscoping piece like this in my portfolio yet. I'm happy to do a short test on one segment before we start.\nFor each episode I would:\n1. Import the FCP XML into DaVinci Resolve and check the conform.\n2. Smooth the jump cuts and tighten the pacing around the workout moves.\n3. Balance the Log footage shot by shot so the warm spotlights and cool daylight match.\n4. Remove the room echo with voice isolation, add light compression and mix the music to YouTube loudness standards.\nThe price is 250 USD per episode, with 50% upfront and 2 rounds of changes included. For the first episode I'd ask for 7–10 days to set up the grade and the audio chain. After that I'd follow your Monday / Thursday / Friday schedule.\nCould you send me about 5 minutes of the raw Log footage and audio so I can show you a test grade and cleanup?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "¿Puedes trabajar de verdad en DaVinci Resolve (importar el FCP XML, etalonar footage Log y limpiar audio) y entregar un capítulo de 1 hora cada semana?",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 808,
+          "salida": 2395,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.066127,
+        "generada": "2026-11-15T03:12:38.373Z"
+      }
+    },
     {
       "id": "569157",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.035431800000000006,
         "generada": "2026-11-12T16:18:48.449Z"
-      }
-    },
-    {
-      "id": "567921",
-      "tipo": "FREELANCE",
-      "titulo": "Shopify Website Design for a Fashion Brand",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567921/Shopify-Website-Design-for-a-Fashion-Brand",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a Shopify website designer to create an online store for my fashion brand. The site should present the brand and its products through a polished, easy-to-navigate e-commerce experience.",
-      "vista": "2026-11-12T15:59:00.919Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es diseño web y encaja, pero Leo no tiene ninguna tienda Shopify en el portfolio, así que la carta lo dice y ofrece una maqueta de muestra.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nFor a fashion brand, the store has to show off the products. Your Shopify site needs clean collection and product pages, simple navigation and a smooth path to checkout, on mobile too.\nI design and build websites for brands. Examples are LUMEN, FORJA and MORVAIN, which are 3D scroll sites built in code (three.js + GSAP). I've also made the website, listing images and A+ content for a home brand that sells on Amazon in several European countries.\nI don't have a Shopify store in my portfolio yet. I'm happy to start with a short home page mockup so you can check the style before we go further.\nHere's how I'd work: first I review your brand, products and references. Then I design the home, collection and product pages in Figma. Next I set up the Shopify theme with your products, menus and mobile layout. Last, I do final checks and give you a short handover so you can update the store yourself.\nPrice: 500 USD, with 50% upfront. Delivery takes 7–10 days and includes 2 rounds of revisions.\nDo you already have a Shopify plan, a logo and product photos, or are we starting from scratch?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 389,
-          "salida": 1502,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.046591,
-        "generada": "2026-11-12T15:59:00.003Z"
       }
     }
   ]
