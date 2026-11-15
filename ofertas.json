@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T08:54:22.471Z",
+  "actualizado": "2026-11-15T10:18:16.510Z",
   "ofertas": [
+    {
+      "id": "569237",
+      "tipo": "FREELANCE",
+      "titulo": "Logo Design for a Client",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569237/Logo-Design-for-a-Client",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Ik zoek een grafisch ontwerper die een logo voor mij kan ontwerpen. Het logo moet een professionele visuele identiteit voor mijn project of bedrijf creëren.",
+      "vista": "2026-11-15T10:18:16.510Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es un encargo de logo e identidad: Leo puede hacerlo con IA y Adobe, aunque no tiene logos en el portfolio. El presupuesto llega a 250 USD y es remoto.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi!\nYou need a logo that gives your project or business a professional visual identity from day one. I'm based in Amsterdam and I'm writing in English, I hope that's okay.\nTo be honest, I don't have a logo project in my portfolio yet. My graphic design work is mostly ads, product images and Amazon A+ content for a home brand that sells in several European countries, where the visuals had to look consistent across many pieces.\nHere's how I would work:\n1. A short brief about your name, audience, style and colours.\n2. Exploring several directions with AI and sketches, then showing you 3 clear options.\n3. Refining the one you choose in Adobe and delivering it in colour, black and white and the main file formats.\nIf you prefer, I can make a short free sample first so you can see my approach.\nPrice: 250 USD, 50% upfront. Delivery in 7–10 days, with 2 rounds of changes.\nWhat's the name of your project, and what sector is it in?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 394,
+          "salida": 1134,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.039251,
+        "generada": "2026-11-15T10:18:15.697Z"
+      }
+    },
     {
       "id": "569217",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.012423799999999999,
         "generada": "2026-11-12T16:18:05.404Z"
-      }
-    },
-    {
-      "id": "371659",
-      "tipo": "CONTRACT",
-      "titulo": "Consulting Specialist – Executive Presentation Review — micro1",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371659/Consulting-Specialist-Executive-Presentation-Review-micro1",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "micro1 is engaging consulting specialists to review executive presentations for a customer’s AI training project. Reconstruct and refine PowerPoint decks, turn complex material into clear visual stories and data visualisations, and give feedback on slide structure, narrative flow and design decisions.\n Applicants must have at least two years of client-facing work at a consulting firm. Advanced PowerPoint and presentation-design skills, a portfolio showing data visualisation and visual storytelling, and strong written editing skills are preferred. Prior AI experience is not required.\n Independent contractor. Remote within the United States, United Kingdom, Canada or Australia. micro1 advertises US$150–US$350 per hour.\n Apply directly to micro1 through either external application button on this advert.\n I’m sharing this opportunity as an independent referrer and may receive a referral payment if you apply through the micro1 link and meet the referral conditions. micro1 handles applications and hiring decisions. Candidates are never charged.",
-      "vista": "2026-11-12T16:18:49.339Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Solo admite residentes en EE. UU., Reino Unido, Canadá o Australia y exige dos años de experiencia de cara al cliente en una consultora, algo que Leo no tiene.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 563,
-          "salida": 444,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.011731799999999999,
-        "generada": "2026-11-12T16:18:09.905Z"
       }
     }
   ]
