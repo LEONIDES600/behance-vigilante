@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T01:04:16.070Z",
+  "actualizado": "2026-11-15T01:57:25.844Z",
   "ofertas": [
+    {
+      "id": "569157",
+      "tipo": "FREELANCE",
+      "titulo": "女性保健食品與保養品包裝、攝影及銷售網站設計",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569157/-",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I am seeking a design partner to assist with packaging design, product photography, sales page creation, and website development for a line of women’s health supplements and wellness products. The goal is to establish a cohesive visual identity that reflects the brand and product characteristics, while effectively supporting online sales.",
+      "vista": "2026-11-15T01:57:25.844Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Web, páginas de venta e imágenes de producto con IA encajan; el packaging y la identidad no tienen pieza igual en el portfolio y la «fotografía» sería con IA, no en estudio.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\n\nYour women's health and wellness line needs one clear visual identity across the packaging, product images and the website, so that everything helps you sell online.\nFor a home brand that sells on Amazon in several European countries (under NDA), I made many listing images and videos, A+ content and the website, so the same look ran through every channel. I also build websites in code, like LUMEN and FORJA, 3D scroll sites made with three.js and GSAP.\nHow I would do it: first a short visual direction (colors, type, mood) for you to approve, then the packaging, then the product images, and last the sales page and website using the same system.\nTo be honest: I don't have a packaging project in my portfolio yet, so I am happy to do a short sample first. The product photos would be made with AI (GPT Image, Nano Banana Pro), starting from your real product or packaging files, not a studio shoot.\nPrice: 5000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nHow many products are in the line, and do you already have a logo and brand name, or should that be part of the work?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 451,
+          "salida": 1056,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.037919,
+        "generada": "2026-11-15T01:57:24.857Z"
+      }
+    },
     {
       "id": "569149",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.046591,
         "generada": "2026-11-12T15:59:00.003Z"
-      }
-    },
-    {
-      "id": "567895",
-      "tipo": "FREELANCE",
-      "titulo": "Corporate Photography and Videography for LinkedIn Employer Branding",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/567895/Corporate-Photography-and-Videography-for-LinkedIn-Employer-Branding",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "A company employing remote software developers",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a corporate photographer and videographer in São Paulo, Brazil, to capture professional portraits and workplace B-roll of our remote software developers for LinkedIn employer-branding content.",
-      "vista": "2026-11-12T15:32:00.116Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Hay que estar en São Paulo para hacer fotos y grabar en persona, y Leo está en Ámsterdam y trabaja con IA, no como fotógrafo en el lugar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 424,
-          "salida": 347,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.023631,
-        "generada": "2026-11-12T15:31:59.288Z"
       }
     }
   ]
