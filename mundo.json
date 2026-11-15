@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-15T00:51:17.395Z",
+  "actualizado": "2026-11-15T14:38:44.223Z",
   "ofertas": [
+    {
+      "id": "162355",
+      "tipo": "CONTRACT",
+      "titulo": "Website & App Tester | Remote, freelancer",
+      "presupuesto": "",
+      "enlace": "https://jobicy.com/jobs/162355-website-app-tester-remote-freelancer",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "LATAM",
+      "empresa": "Testlio",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "About Testlio \n Hi there! We're Testlio, a global software testing company that has been helping businesses improve their digital products since 2012.\nWe work with companies around the world to test websites, mobile apps, and online payment systems. Our freelance community helps us identify issues and make sure these products work as expected for real customers.\nLearn more about us at www.testlio.com .\n We're looking for people in Paraguay and Uruguay to help test online payments for an international payments technology company.\n Requirements\n Location: Currently living in Paraguay or Uruguay.\n Payment methods: Access to at least one of the following:\n Paraguay: Visa, Mastercard, American Express, Infonet, USDC, USDT.\n Uruguay: Visa, Mastercard, American Express, Diners Club, OCA, Lider, C",
+      "vista": "2026-11-15T14:38:44.223Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exige vivir en Paraguay o Uruguay con medios de pago locales, y es testing de pagos, no un servicio de Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 954,
+          "salida": 268,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.024171,
+        "generada": "2026-11-15T14:38:43.499Z"
+      },
+      "fuente": "jobicy"
+    },
     {
       "id": "dygitized/jobs/google-ads-search-specialist-m-w-d-automatisierte-search-kampagnen-mit-ki-ba",
       "tipo": "CONTRACTOR",
@@ -3623,24 +3663,6 @@
       "dondeSolicitar": "",
       "descripcion": "Welo Data, part of Welocalize, is a global AI data company with 500,000+ contributors delivering high-quality, ethical data to train the world’s most advanced AI systems. We’re building smarter, more human AI with a diverse community in 100+ countries.\n At Welo Data, Limitless AI. Limitless You. isn’t just a slogan—it’s our promise. We build smarter AI through the power of human contribution, offering limitless opportunities for our global community to grow, contribute, and work on their terms.\n Are you detail-oriented and curious about tech? \n Welo Data is building a global network of linguists, language enthusiasts, and culturally aware contributors to shape safer, smarter AI.\n By joining our talent community, you’ll be first in line for flexible, remote projects in annotation, evaluatio",
       "vista": "2026-11-03T21:32:44.192Z",
-      "fuente": "jobicy"
-    },
-    {
-      "id": "158741",
-      "tipo": "FULL_TIME",
-      "titulo": "AI Trainers Network - Lao",
-      "presupuesto": "",
-      "enlace": "https://jobicy.com/jobs/158741-ai-trainers-network-lao",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Welo Global",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Welo Data, part of Welocalize, is a global AI data company with 500,000+ contributors delivering high-quality, ethical data to train the world’s most advanced AI systems. We’re building smarter, more human AI with a diverse community in 100+ countries.\n At Welo Data, Limitless AI. Limitless You. isn’t just a slogan—it’s our promise. We build smarter AI through the power of human contribution, offering limitless opportunities for our global community to grow, contribute, and work on their terms.\n Are you detail-oriented and curious about tech? \n Welo Data is building a global network of linguists, language enthusiasts, and culturally aware contributors to shape safer, smarter AI.\n By joining our talent community, you’ll be first in line for flexible, remote projects in annotation, evaluatio",
-      "vista": "2026-11-03T19:24:03.195Z",
       "fuente": "jobicy"
     }
   ]
