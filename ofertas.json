@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-14T23:50:35.993Z",
+  "actualizado": "2026-11-15T00:14:23.478Z",
   "ofertas": [
+    {
+      "id": "569125",
+      "tipo": "FREELANCE",
+      "titulo": "Logomarca e Identidade Visual para o Supercarro Artesanal Brasileiro VYVYRUS",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569125/Logomarca-e-Identidade-Visual-para-o-Supercarro-Artesanal-Brasileiro-VYVYRUS",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "# VYVYRUS | Criação de Logotipo Automotivo\nA Vyvyrus é um projeto independente brasileiro de desenvolvimento de um supercarro artesanal, produzido em pequena escala. O veículo possui uma proposta própria de engenharia, incluindo o desenvolvimento de um motor V4 exclusivo, e busca resgatar a personalidade, a emoção e a tradição dos automóveis esportivos brasileiros.\nO nome Vyvyrus está associado, dentro do conceito do projeto, ao significado de **temporal**. A ideia é representar uma força interminável em meio a uma indústria automotiva cada vez mais silenciosa e dominada pelos veículos elétricos. A marca simboliza a emoção mecânica, a quebra da monotonia e a continuidade do legado dos esportivos brasileiros.\n### Direção visual\nBuscamos uma identidade com aparência de fabricante de supercarros, transmitindo força, velocidade, exclusividade e personalidade.\nComo referências, gostamos da identidade própria de modelos como o Ford Mustang, com seu cavalo, o Nissan GT-R, com sua tipografia característica, e o Dodge Viper, com seu símbolo de serpente. Não queremos reproduzir esses elementos, mas desenvolver algo com personalidade e reconhecimento próprios.\nEstamos abertos a diferentes interpretações visuais, como um símbolo inspirado no olho de uma tempestade, uma forma abstrata que represente sua força ou um monograma geométrico relacionado à letra V.\nTambém apreciamos a combinação entre o design automotivo retrô-futurista das décadas de 1970 e 1980 e a estética dos supercarros con",
+      "vista": "2026-11-15T00:14:23.477Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "El presupuesto máximo real es de R$ 200 (unos 35–40 USD) por todo el logo, muy por debajo del mínimo de 100 USD por proyecto; además, es un trabajo de logo y sin portfolio igual.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1541,
+          "salida": 723,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.035619,
+        "generada": "2026-11-15T00:14:22.540Z"
+      }
+    },
     {
       "id": "569121",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.011559799999999999,
         "generada": "2026-11-12T15:11:30.423Z"
-      }
-    },
-    {
-      "id": "371639",
-      "tipo": "CONTRACT",
-      "titulo": "Senior AI Trainer (US Based) — micro1",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371639/Senior-AI-Trainer-(US-Based)-micro1",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Micro1 Opportunities | Independent Referrer",
-      "contacto": "Anabel Reign",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "micro1 is engaging US-based Senior AI Video Trainers for a customer AI-evaluation project. Use professional video-production expertise to assess AI-generated video quality.\n Work includes comparing videos, explaining selection decisions in detail, evaluating composition, editing, pacing, motion graphics and storytelling, using annotation tools, refining evaluation guidelines and collaborating with other professionals. Occasional verbal clarification may be required.\n Preferred qualifications include at least two years of hands-on AI training, data labelling, rubric or video-annotation experience and professional expertise in video editing, filmmaking, motion graphics, VFX or related creative production. Directing, cinematography, editing, VFX and motion-graphics backgrounds are valued. Familiarity with Premiere Pro, After Effects and DaVinci Resolve, strong visual literacy, precision and patience are important.\n Engagement: Contractor. Advertised compensation: US$20–US$40/hour. Remote within the United States. The linked micro1 application contains the current eligibility requirements.\n Apply directly to micro1 through the external application button on this advert.\n I'm sharing this opportunity as an independent referrer and may receive a referral payment if you apply through the micro1 link I provide and meet micro1's referral conditions. I'm not part of micro1's hiring team and do not make hiring decisions. Candidates are never charged. Please direct questions about the ro",
-      "vista": "2026-11-12T15:11:53.373Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Solo admite residentes en EE. UU. (US-based, remoto dentro de Estados Unidos) y Leo vive en Países Bajos.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 719,
-          "salida": 498,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0134358,
-        "generada": "2026-11-12T15:11:36.419Z"
       }
     }
   ]
