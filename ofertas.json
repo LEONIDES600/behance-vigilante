@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T04:13:51.233Z",
+  "actualizado": "2026-11-16T05:30:45.079Z",
   "ofertas": [
+    {
+      "id": "569649",
+      "tipo": "FREELANCE",
+      "titulo": "T-Shirt Graphic Design at €500–€1,000 per Graphic",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569649/T-Shirt-Graphic-Design-at-5001000-per-Graphic",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "ScorpoinEXO",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "티셔츠에 사용할 그래픽 디자인이 필요합니다. 그래픽당 예산은 €500~€1,000이며, 티셔츠용으로 완성도 높은 디자인을 제작해 주실 디자이너를 찾고 있습니다.\n그래픽 주제 1 : motorcycle helmet, motorcycle, ScorpionEXO (brand name)\n그래픽 주제 2 : motorcycle intercom, motorcycle helmet, motorcycle, EXOCOM (brand name)\n그래픽 style : vary as creator's artwork style \nBase T shirt color : Black / Blue / Red / Navy / White",
+      "vista": "2026-11-16T05:30:45.079Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Diseño gráfico para camisetas que Leo puede hacer con IA y Adobe, aunque no tiene ninguna camiseta en el portfolio. Buen presupuesto.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYou need two strong T-shirt graphics, one for ScorpionEXO with the helmet and motorcycle and one for EXOCOM with the intercom, helmet and motorcycle. Both have to look good on black, blue, red, navy and white shirts.\nI don't have a T-shirt design in my portfolio yet. My work is graphic design, 3D and AI visuals for brands, including the cinematic AI ads ORBE and SILENCIO and many product images for a home brand that sells across Europe. I'm happy to make a short sample first so you can see the style.\nHow I would do it:\n1. You send me your brand assets and the helmet and intercom models you want to show.\n2. I make 2–3 style directions with AI (GPT Image, Nano Banana Pro) for each graphic.\n3. I finish the design you choose in Adobe, with the logo clean and readable.\n4. You get high-resolution print files with color versions for dark and light shirts.\nPrice: 1000 USD per graphic, 50% upfront. Delivery in 7–10 days, with 2 rounds of changes.\nDo you have a printing method in mind (screen print, DTG or DTF), and does your printer need vector files?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 582,
+          "salida": 1392,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.045163,
+        "generada": "2026-11-16T05:30:44.066Z"
+      }
+    },
     {
       "id": "569625",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.043943,
         "generada": "2026-11-12T21:45:47.450Z"
-      }
-    },
-    {
-      "id": "568065",
-      "tipo": "FREELANCE",
-      "titulo": "Pitch Deck and Valuation Report Design for a Consulting Firm",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568065/Pitch-Deck-and-Valuation-Report-Design-for-a-Consulting-Firm",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Hi, we are a consulting firm that conducts research for clients and need a designer to assist with pitch decks and valuation reports. Please provide sample presentation decks so we can evaluate your previous work and design quality.",
-      "vista": "2026-11-12T21:29:18.247Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Diseño de presentaciones está en las «dudosas»: Leo no tiene decks en el portfolio, así que la carta lo dice y ofrece una muestra corta.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nPitch decks and valuation reports need to make dense research and numbers easy to follow and look credible in front of your clients.\nTo be honest, I don't have presentation decks in my portfolio yet. So instead of only telling you, I'm happy to redesign 2–3 slides from one of your current decks as a short sample.\nThe closest work I can show is A+ content and listing images for a home brand that sells on Amazon in several European countries. There, the job was turning product data into clear, structured visual pages. I also design graphics for ads and social media.\nHow I would approach it:\n1. Build a simple template in your brand: grid, fonts, colours, and styles for charts and tables.\n2. Apply it to your deck or report, with clean, readable charts for the valuation figures.\n3. Deliver editable files in the format your team uses, plus a PDF.\nFor a first deck or report: 500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nWhich format does your team edit in, and how many slides or pages does a typical deck or report have?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 413,
-          "salida": 1450,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.045647,
-        "generada": "2026-11-12T21:29:17.457Z"
       }
     }
   ]
