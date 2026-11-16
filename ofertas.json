@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T05:30:45.079Z",
+  "actualizado": "2026-11-16T05:41:16.593Z",
   "ofertas": [
+    {
+      "id": "569657",
+      "tipo": "FREELANCE",
+      "titulo": "Complete Branding for a New Product Brand Launch",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569657/Complete-Branding-for-a-New-Product-Brand-Launch",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm preparing to launch a new brand and need an India-based branding expert to create the complete visual identity. The project includes a logo, packaging design, color theme, and related brand assets needed for launch.",
+      "vista": "2026-11-16T05:41:16.593Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden expresamente a alguien con base en India, y Leo vive en Países Bajos; además es branding y packaging, que no está en su portfolio.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 408,
+          "salida": 334,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.023307,
+        "generada": "2026-11-16T05:41:15.623Z"
+      }
+    },
     {
       "id": "569649",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.033947,
         "generada": "2026-11-12T22:25:47.090Z"
-      }
-    },
-    {
-      "id": "568077",
-      "tipo": "FREELANCE",
-      "titulo": "Product, UI/UX, Research, Design Systems, and Responsive Design",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568077/Product-UIUX-Research-Design-Systems-and-Responsive-Design",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for support across product design, UI design, UX design, UX research, design systems, and responsive design. The work should create intuitive, consistent digital experiences that perform effectively across screen sizes.",
-      "vista": "2026-11-12T21:45:48.243Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Diseño web y landings encajan, pero no hay casos de investigación UX ni de sistemas de diseño en el portfolio; se envía con carta honesta.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou need digital screens that feel intuitive, stay consistent and work well on every screen size, backed by a clear design system.\nI design and build websites and landing pages with an AI-assisted workflow. LUMEN, FORJA and MORVAIN are 3D scroll websites I built in code (three.js + GSAP).\nI don't have a dedicated UX research or design system case study in my portfolio yet, so I'm happy to start with a short sample screen or a test.\nHow I'd approach it: a quick review of your product and users, then the key flows and wireframes in Figma, then a small component library (colours, type, buttons, forms) and finally the UI adapted for desktop, tablet and mobile.\nFor a first scope like this: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nIs this for an existing product that needs a redesign or a new one, and roughly how many screens do you have in mind?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 422,
-          "salida": 1363,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.043943,
-        "generada": "2026-11-12T21:45:47.450Z"
       }
     }
   ]
