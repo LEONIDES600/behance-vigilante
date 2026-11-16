@@ -1,6 +1,48 @@
 {
-  "actualizado": "2026-11-16T01:08:31.777Z",
+  "actualizado": "2026-11-16T03:09:52.183Z",
   "ofertas": [
+    {
+      "id": "content-mindset/jobs/ai-video-editor",
+      "tipo": "CONTRACTOR",
+      "titulo": "AI Video Editor",
+      "presupuesto": "640 USD/mes",
+      "enlace": "https://himalayas.app/companies/content-mindset/jobs/ai-video-editor?utm_source=api",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Content Mindset",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Hi there! Do not apply until you have read this entire job posting. We can tell when someone hasn't, and those applications will not be considered.\n About Us\n Content Mindset is a small but growing video editing agency. We partner with social media teams to handle 100% of their video editing needs. You will be working alongside a team of editors, and you'll be getting edits that push you to grow as an editor.\n We are hiring a freelance short-form video editor dedicated to one of our clients: a software company that markets to e-commerce brands. The client posts 3 times per week, and you will be the editor behind those videos.\n The Style\n The main inspiration for this role is Rourke's Instagram page: \n Study it before you apply. Think cinematic AI-generated scenes, bold animated text, fast ",
+      "vista": "2026-11-16T03:09:52.182Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja muy bien (vídeo con IA, Kling, Premiere, motion graphics), pero piden inglés casi fluido (Leo tiene B1), las reuniones del viernes por la tarde en PST caen de madrugada en Ámsterdam y la paga es baja: 50 USD por vídeo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYour client needs 3 vertical videos a week that sell software to e-commerce brands, with cinematic AI scenes, bold animated text and fast pacing that keep viewers watching. I studied the Rourke-style reference and that mix of AI visuals and motion graphics is the kind of work I enjoy most.\nAt LeoVisual.nl I made ORBE and SILENCIO, cinematic ads made with AI where I handled the idea, generation, editing and sound. I also make product images and videos for an e-commerce home brand, so storefronts, product pages and checkout flows are familiar to me.\nMy workflow for each script: generate the scenes in Kling or Seedance, edit in Premiere Pro, build the animated text, popups and UI callouts in After Effects, add clean high-resolution screen recordings and proofread every caption.\nTo be clear from the start: my working English is B1, which is fine for written review notes and captions, though not fluent. I am based in Amsterdam, so Friday evening PST is very early Saturday for me. I can join when needed or send async updates.\nThe rate of 50 USD per video works for me, with 2 rounds of revisions per video and a reliable turnaround for the 3-per-week schedule. I am happy to do a test video first.\nWhich day of the week do the scripts usually arrive, and how many hours before posting do you need the final cut?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [
+          "exagera el inglés"
+        ],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1386,
+          "salida": 1816,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.056859,
+        "generada": "2026-11-16T03:09:51.177Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "hirehawk/jobs/e-commerce-operations-manager-latam",
       "tipo": "FULL_TIME",
@@ -3701,24 +3743,6 @@
       "titulo": "AI Trainers Network - Southeast Asia Talent Hub (Ex-Singapore Residents)",
       "presupuesto": "",
       "enlace": "https://jobicy.com/jobs/158799-ai-trainers-network-southeast-asia-talent-hub-ex-singapore-residents",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Welo Global",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Welo Data, part of Welocalize, is a global AI data company with 500,000+ contributors delivering high-quality, ethical data to train the world’s most advanced AI systems. We’re building smarter, more human AI with a diverse community in 100+ countries.\n At Welo Data, Limitless AI. Limitless You. isn’t just a slogan—it’s our promise. We build smarter AI through the power of human contribution, offering limitless opportunities for our global community to grow, contribute, and work on their terms.\n Are you detail-oriented and curious about tech? \n Welo Data is building a global network of linguists, language enthusiasts, and culturally aware contributors to shape safer, smarter AI.\n By joining our talent community, you’ll be first in line for flexible, remote projects in annotation, evaluatio",
-      "vista": "2026-11-03T21:32:44.191Z",
-      "fuente": "jobicy"
-    },
-    {
-      "id": "158798",
-      "tipo": "CONTRACT",
-      "titulo": "AI Trainers Network - Somali",
-      "presupuesto": "",
-      "enlace": "https://jobicy.com/jobs/158798-ai-trainers-network-somali",
       "encaje": "medio",
       "remoto": true,
       "ubicacion": "Anywhere",
