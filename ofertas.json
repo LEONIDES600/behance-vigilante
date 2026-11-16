@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T18:19:37.952Z",
+  "actualizado": "2026-11-16T18:28:08.238Z",
   "ofertas": [
+    {
+      "id": "570079",
+      "tipo": "FREELANCE",
+      "titulo": "Multi-Disciplinary Design Support for a New Home Goods Brand Launch",
+      "presupuesto": "10.000–25.000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570079/Multi-Disciplinary-Design-Support-for-a-New-Home-Goods-Brand-Launch",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Follow the link to accept offer",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m launching a new home goods brand and need freelance support across brand identity, packaging, website design, copywriting, and visual content. The project is expected to take 4–6 weeks, and freelancers can take on an individual task based on their specialty.",
+      "vista": "2026-11-16T18:28:08.238Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Encaja con la web y el contenido visual de una marca de hogar, como el trabajo bajo NDA; branding y packaging, sin pieza igual. Ojo: «Follow the link to accept offer» en el campo de empresa parece phishing, no pinches enlaces externos.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nA new home goods brand needs a website and visuals that feel like one clear brand from the first day.\nI would like to take the website design and visual content part of your launch.\nI recently worked for a home brand that sells in several European countries (under NDA): product images and videos, A+ content and their website.\nI also build 3D scroll websites in code, like LUMEN and FORJA (three.js + GSAP).\nHow I would do it: a short call to understand your products and tone, then a homepage design and a few product visuals for your approval, and after that the full site and the content set.\nFor brand identity and packaging I don't have a finished piece like that in my portfolio, so I can make a short sample or a test first if you want.\nBudget: 25,000 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhich part do you need first: the website or the product visuals?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 25000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 448,
+          "salida": 1525,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.047287,
+        "generada": "2026-11-16T18:28:07.458Z"
+      }
+    },
     {
       "id": "570067",
       "tipo": "FREELANCE",
@@ -3862,47 +3901,6 @@
         },
         "costeUSD": 0.0164558,
         "generada": "2026-11-13T15:31:32.746Z"
-      }
-    },
-    {
-      "id": "371779",
-      "tipo": "FULLTIME",
-      "titulo": "VIDEO EDITOR & MOTION GRAPHICS EDITOR (REMOTE)",
-      "presupuesto": "0 EUR/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/371779/VIDEO-EDITOR-MOTION-GRAPHICS-EDITOR-(REMOTE)",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "4REEL Agency",
-      "contacto": "P.R. van Oudenallen",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "🎬 WE'RE HIRING – VIDEO EDITOR & MOTION GRAPHICS EDITOR (REMOTE) \n 4REEL Agency is a Netherlands-based creative content agency looking for a skilled Video Editor & Motion Graphics Editor for long-term, full-time collaboration.\n We create high-quality short-form content for clients across different industries.\n 🎥 WHAT YOU'LL DO \n Edit short-form videos in Adobe Premiere Pro .\n Create motion graphics, text animations and visual effects in After Effects .\n Add B-roll, sound design, color grading and smooth transitions.\n Research client brands and follow their editing styles and references.\n Handle feedback, revisions and deadlines professionally.\n Check your work carefully before delivery to avoid mistakes and unnecessary exports.\n 💻 REQUIREMENTS \n Advanced Premiere Pro & After Effects skills , including Dynamic Link and Premiere Pro Team Projects.\n 3-5 years experience with editing short form content with AE & Premiere Pro\n Excellent spoken and written English, and knows how to properly translate to European language on premiere pro.\n Experience with professional client or agency projects.\n Strong attention to detail and ability to work independently.\n Powerful editing computer (MacBook Pro/iMac preferred), capable of using plugins such as RSMB.\n At least 1.5 TB free storage and a fast, reliable internet connection for large footage transfers.\n Minimum 40 hours/week availability (required). Up to 48 hours/week is a bonus.\n Preferably available Monday–Friday, 09:00–17:00 Nethe",
-      "vista": "2026-11-13T15:34:11.694Z",
-      "carta": {
-        "decision": "espera",
-        "motivo": "Encaja: edición y motion en Premiere/After Effects, remoto, agencia neerlandesa y horario CET. Pero piden 3–5 años e inglés excelente, y para postular hay que dar las specs del ordenador.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\n\nYou need an editor who can take 7–8 short-form videos a week from rough cut to a clean export in Premiere Pro and After Effects, while keeping the team updated along the way.\nI'm Leo Gómez from LeoVisual.nl, based in Amsterdam, so Monday–Friday 09:00–17:00 CET and 40 hours a week work well for me.\nTwo relevant pieces: ORBE and SILENCIO, cinematic ads where I handled the idea, AI generation, editing and sound. I also make many listing videos for a home brand that sells on Amazon across Europe (under NDA, so I can share samples privately).\nI work in Premiere, After Effects and Adobe on editing, motion graphics, text animation and sound design, and I use AI video tools like Kling and Seedance, which fits your AI-assisted motion graphics bonus.\nTo be transparent: I have about 2 years of experience making short performance ads, which is less than your 3–5 years, and my English is a working B1 level, clear in writing and on calls. Spanish is my native language and I have basic Dutch.\nI'm happy to do the 6-hour automotive test so you can judge my speed and quality directly.\nAvailability: full-time, Monday–Friday, Amsterdam time (CET/CEST). My setup: [computer model, RAM, free storage].\nWhich reference styles are your current automotive clients asking for?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "¿Qué ordenador tienes (modelo, procesador, RAM y almacenamiento libre)? Piden al menos 1,5 TB libres y que pueda usar plugins como RSMB.",
-        "avisos": [
-          "menciona años"
-        ],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1578,
-          "salida": 2493,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.056771800000000004,
-        "generada": "2026-11-13T15:31:59.431Z"
       }
     }
   ]
