@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T05:41:16.593Z",
+  "actualizado": "2026-11-16T07:45:29.040Z",
   "ofertas": [
+    {
+      "id": "569699",
+      "tipo": "FREELANCE",
+      "titulo": "Complete Visual Identity for a Bold, Edgy Coffee Brand",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569699/Complete-Visual-Identity-for-a-Bold-Edgy-Coffee-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We’re seeking a graphic designer and branding specialist to create the complete visual identity for our new coffee brand. We need a fun, bold, slightly edgy, unconventional brand system that translates our vision into a distinctive and cohesive visual language across packaging, social media, store branding, and other collateral. Please share relevant examples of previous brand identity and packaging work; we will provide a detailed brief and further project information.",
+      "vista": "2026-11-16T07:45:29.040Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding y packaging completos: Leo puede hacerlo con IA, pero no tiene casos de identidad ni de packaging en su portfolio, así que la carta lo dice y ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nA bold, slightly edgy coffee brand needs a visual language that feels the same on a bag, an Instagram post and a store wall, not just a nice logo.\nTo be honest, I don't have a dedicated brand identity or packaging case in my portfolio yet. What I can show is how I build a strong, consistent look across many pieces: AI ad films like ORBE and SILENCIO, and a lot of product images, videos and A+ content for a home brand that sells on Amazon in several European countries (under NDA).\nHow I would approach it: read your brief, propose 2–3 visual directions (moodboard, colour, type, first logo ideas), develop the chosen one into a logo system and simple guidelines, then apply it to packaging, social media templates and store/collateral mockups. I work with AI tools, Adobe and 3D for the mockups.\nIf it helps you decide, I'm happy to do a short sample first, for example one direction applied to a coffee bag and a social post.\nPrice: 1000 USD for the full project, 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nHow many packaging formats (bag sizes, cups, labels) do you need in the first round?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 488,
+          "salida": 1288,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.042707,
+        "generada": "2026-11-16T07:45:28.143Z"
+      }
+    },
     {
       "id": "569657",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.040047,
         "generada": "2026-11-12T22:48:27.631Z"
-      }
-    },
-    {
-      "id": "568137",
-      "tipo": "FREELANCE",
-      "titulo": "Corporate Brand Identity Refresh Project",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568137/Corporate-Brand-Identity-Refresh-Project",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Corporate business",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "TEXHAI is seeking an experienced corporate brand identity designer to refresh the visual identity of an established African corporate organisation. The project focuses on modernising the existing logo and developing a professional, consistent brand identity across corporate communications, stationery and presentations.",
-      "vista": "2026-11-12T22:25:47.875Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es un encargo de branding y logo, y Leo no tiene ninguna pieza de identidad en el portfolio. Se envía con una carta honesta que ofrece una muestra corta.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nAn established corporate organisation needs a logo that feels modern without losing its recognition, and a system that keeps stationery, communications and presentations consistent.\nTo be transparent: I don't have a corporate identity refresh in my portfolio yet. My work is graphic design, motion and AI-assisted visuals. For a home brand selling across Europe, I made many listing images, A+ content and a website that all had to follow one consistent visual language.\nHow I would approach it:\n1. Review the current logo and materials, and agree on what must stay recognisable.\n2. Present 2–3 refreshed logo directions with colour and typography.\n3. Build the chosen direction into stationery, a presentation template and short brand guidelines.\nI'm happy to start with a short sample direction so you can judge the fit.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nCould you share the current logo and tell me which elements the organisation wants to keep?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 428,
-          "salida": 862,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.033947,
-        "generada": "2026-11-12T22:25:47.090Z"
       }
     }
   ]
