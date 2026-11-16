@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T10:55:18.378Z",
+  "actualizado": "2026-11-16T11:00:05.753Z",
   "ofertas": [
+    {
+      "id": "569777",
+      "tipo": "FREELANCE",
+      "titulo": "Luxury Children's Book Box Packaging Design",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569777/Luxury-Childrens-Book-Box-Packaging-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Maison Gaia Online Store WLL",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a designer to create luxury packaging for a children's book box, including a refined coffret enfant concept. The design should feel premium while remaining appropriate and appealing for children.",
+      "vista": "2026-11-16T11:00:05.753Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Diseño de packaging: Leo puede hacerlo con IA, diseño gráfico y 3D, pero no tiene ninguna pieza de packaging en el portfolio.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA children's book box that feels luxurious but still warm and playful for kids is a nice balance to work on, and the coffret enfant concept is where it can really stand out.\nI want to be honest: I don't have a packaging project in my portfolio yet. My closest work is product images and listing visuals for a home brand that sells in several European countries, plus graphic design and 3D for premium web projects like LUMEN and MORVAIN.\nHow I would approach it: a short moodboard with 2 or 3 directions (colours, materials, typography, a soft illustrated element), then the chosen concept applied to the box and the coffret, with 3D mockups so you can see it before printing. I would build the final files on your printer's dieline.\nIf it helps, I can make a short sample concept first so you can see the direction before deciding.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have a box size and a printer (with a dieline), or should the concept come first?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 406,
+          "salida": 917,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0205638,
+        "generada": "2026-11-16T11:00:04.390Z"
+      }
+    },
     {
       "id": "569771",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.037699,
         "generada": "2026-11-13T03:32:44.866Z"
-      }
-    },
-    {
-      "id": "366197",
-      "tipo": "FULLTIME",
-      "titulo": "Senior Photo Editor & Compositing Artist for E-commerce | Remote",
-      "presupuesto": "25.000–40.000 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/366197/Senior-Photo-Editor-Compositing-Artist-for-E-commerce-Remote",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Mendota Merchants LLC",
-      "contacto": "Michael Goldberg",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Fully Remote — Worldwide\n Full-Time, Long-Term Position\n Salary: $2,000–$3,500 USD/month, depending on portfolio, skill level, and experience\n We are an established U.S. e-commerce company looking for an exceptionally skilled Photo Editor / Compositing Artist to join our creative team full-time.\n This position is ideal for someone who loves taking ordinary product photography and turning it into polished, realistic commercial imagery.\n You will create product and lifestyle images for Amazon and other major e-commerce marketplaces by combining product photography, stock photography, models, environments, and AI-generated imagery into seamless finished images.\n What You Will Be Creating \n Your work will include:\n Advanced Photoshop compositing and photo manipulation\n High-end product retouching\n Realistic e-commerce lifestyle images\n Combining photographed products with models and new environments\n Integrating stock and AI-generated imagery with real product photography\n Replacing or rebuilding backgrounds\n Precise masking and selections\n Matching lighting, perspective, color and depth between multiple images\n Creating realistic shadows and reflections\n Color correction and image enhancement\n Cleaning and improving product photography\n Preparing polished final images for Amazon and other e-commerce platforms\n The finished image should look like it was professionally photographed as a single scene—not assembled from multiple sources.\n What We Are Looking For \n Advanced Adobe Pho",
-      "vista": "2026-11-13T03:18:37.610Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con sus imágenes de listing para Amazon con IA, pero piden Photoshop avanzado y ejemplos de antes y después de composición que no están en su portfolio, así que conviene ofrecer una prueba.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Michael,\n\nYou need someone who can turn ordinary product photos into Amazon lifestyle images that look like a single real photo shoot, not a collage.\nFor a home brand that sells on Amazon in several European countries (under NDA), I created many listing images and videos and A+ content. I combined real product photos with AI-generated scenes and finished them with Adobe tools.\nMy process: clean and retouch the product shot, then build or generate the new environment (GPT Image, Nano Banana Pro). After that, I match the light, perspective and color and add realistic shadows and reflections so the product fits naturally in the scene.\nTo be honest, my Behance is stronger in AI video and 3D web than in pure Photoshop compositing. That client work is under NDA, so I can't publish before-and-after examples.\nThat's why I'm happy to do a test with one of your product photos so you can judge the realism yourself.\nI work remotely from Amsterdam (EU citizen). My English is at a working level and Spanish is my native language.\nWhich product category would you like me to use for the test, and do you have a reference image that shows the level you expect?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1327,
-          "salida": 1535,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.051003,
-        "generada": "2026-11-13T03:18:35.966Z"
       }
     }
   ]
