@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T07:45:29.040Z",
+  "actualizado": "2026-11-16T09:45:55.785Z",
   "ofertas": [
+    {
+      "id": "569741",
+      "tipo": "FREELANCE",
+      "titulo": "Video Editor & Motion Designer",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569741/Video-Editor-Motion-Designer",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "KORU MEDYA",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Video Editor & Motion Designer\nEkibimize, yeni nesil video üretim teknolojilerine hâkim, yaratıcı ve dinamik bir kurgu uzmanı arıyoruz!\nGeleneksel video kurgu anlayışının ötesine geçebilen; motion design, animasyon ve yapay zekâ destekli görsel üretim araçlarını kullanarak etkileyici, yenilikçi ve yüksek kaliteli videolar üretebilen bir ekip arkadaşı arıyoruz.\nMarkalar, kurumlar, reklam kampanyaları ve dijital platformlar için özgün görsel anlatım dili oluşturabilecek, fikirleri yaratıcı ve dinamik videolara dönüştürebilecek bir profesyonelle çalışmak istiyoruz.",
+      "vista": "2026-11-16T09:45:55.785Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Encaja con su trabajo (edición, motion design y vídeo con IA) y el presupuesto no es demasiado bajo; la oferta está en turco pero no exige turco, así que la carta va en inglés.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYou are looking for an editor who can go beyond classic cutting and combine motion design, animation and AI-generated visuals into videos for brands and campaigns.\nThat mix is the core of my studio. ORBE and SILENCIO are two cinematic ads I made with AI, from the idea through generation and editing to sound design.\nFor your projects I would work like this: a short creative direction and storyboard, then AI shots generated with Kling or Seedance and stills with GPT Image or Nano Banana Pro, followed by editing in Premiere and motion graphics in After Effects, finishing with sound and exports for each platform.\nIf you need a style I don't have in my portfolio yet, I'm happy to make a short sample or do a test first.\nFor a project like this my price is 250 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of changes included.\nI work in English and Spanish, remotely from Amsterdam.\nWhat would the first video be: a brand film, an ad for a campaign, or social content, and roughly how long?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 635,
+          "salida": 1148,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.040495,
+        "generada": "2026-11-16T09:45:54.715Z"
+      }
+    },
     {
       "id": "569699",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.055615,
         "generada": "2026-11-13T00:07:01.991Z"
-      }
-    },
-    {
-      "id": "568155",
-      "tipo": "FREELANCE",
-      "titulo": "Création D’Un Logo Et Direction Artistique Brute Pour Une Société De Production",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568155/Cration-DUn-Logo-Et-Direction-Artistique-Brute-Pour-Une-Socit-De-Production",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Je recherche un artiste pour créer le logo de ma société de production et, si possible, développer l’ensemble de sa direction artistique. Je souhaite un univers très brut et veux échanger avec un créatif afin de définir les idées et l’orientation visuelle, car je n’ai pas encore de concept précis.",
-      "vista": "2026-11-12T22:48:28.365Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Logo y dirección artística de marca: Leo puede hacerlo con IA y diseño gráfico, pero no tiene ninguna pieza de branding en el portfolio, y la oferta está en francés (contestamos en inglés).",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA production company with a raw visual universe needs a logo that holds up on screen as well as on paper, and it makes sense to shape the idea together instead of starting from a fixed brief.\nI'm Leo, an AI creative studio in Amsterdam. I don't speak French, so I'd work with you in English (or Spanish) if that suits you.\nMy closest work is ORBE and SILENCIO, two cinematic ads made with AI where I handled the idea, generation, editing and sound. I don't have a logo or branding project in my portfolio yet, so I'm happy to start with a short sample or test.\nHow I'd do it: first a call to talk about your references and the kind of films you make. Then 2–3 raw visual directions as moodboards. Next, the logo built from the direction you pick. Finally, a short art direction guide with typography, colours, textures and how the brand appears in titles and video.\nPrice: 1000 USD for the logo and art direction, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhat kind of productions does your company make (films, ads, music videos), and do you have 2 or 3 references that feel \"raw\" to you?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 463,
-          "salida": 1160,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.040047,
-        "generada": "2026-11-12T22:48:27.631Z"
       }
     }
   ]
