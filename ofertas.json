@@ -1,6 +1,84 @@
 {
-  "actualizado": "2026-11-16T17:51:18.323Z",
+  "actualizado": "2026-11-16T17:53:48.982Z",
   "ofertas": [
+    {
+      "id": "570037",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Design for an Activity Brand",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570037/Brand-Design-for-an-Activity-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for an experienced brand designer to refine and elevate the existing visual identity of Just Because, a boutique DIY activity-kit brand.\nThe goal is to make the current branding feel more cohesive, polished, professional and distinctive, while preserving its established personality and creative direction.\nScope of work includes:\n- Refining the existing brand identity and visual system.\n- Developing a consistent set of brand guidelines.\n- Designing branded cards, inserts and printed materials.\n- Creating social media templates for Instagram and other platforms.\n- Designing stickers, labels and other branded assets.\n- Ensuring consistency across packaging, digital and print materials.\nI'm looking for someone with a strong portfolio in branding, packaging and lifestyle or retail brands, with excellent attention to detail and typography.\nThis is an identity refinement project, not a complete rebrand. Existing brand assets and guidelines will be provided.",
+      "vista": "2026-11-16T17:53:48.982Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es branding y packaging, sin pieza igual en el portfolio, y piden mucho por un presupuesto bajo; se envía con carta honesta y una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nRefining Just Because's identity without losing its personality is mostly about tightening the system: type hierarchy, colour use, spacing and a few repeatable layouts that work on cards, labels and Instagram alike.\nTo be upfront, I don't have a dedicated branding or packaging case in my portfolio. My closest work is graphic design for ads and social media, plus listing images, A+ content and a website for a home brand selling across Europe (under NDA), where everything had to stay consistent across many formats.\nHow I would approach it:\n1. Review your current assets and guidelines and list the inconsistencies.\n2. Turn the type, colour and layout rules into a clear, short brand guidelines document.\n3. Apply them to cards, inserts, stickers, labels and editable social media templates.\nIf it helps, I can make a short sample first, for example one insert card and one Instagram template.\nPrice: 250 USD, 50% upfront, delivery in 7-10 days and 2 rounds of revisions.\nWhich pieces feel least consistent with the brand right now, and do you print them yourself or with a specific printer?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 634,
+          "salida": 1354,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0302158,
+        "generada": "2026-11-16T17:53:37.777Z"
+      }
+    },
+    {
+      "id": "569995",
+      "tipo": "FREELANCE",
+      "titulo": "Info",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569995/Info",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Accept order here",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm launching a new home goods brand and need freelance support across brand identity, packaging, website design, copywriting, and visual content. The project is expected to take 4–6 weeks, and you can take on an individual task based on your specialty.",
+      "vista": "2026-11-16T17:53:48.982Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Marca de hogar que necesita web y contenido visual, justo lo que Leo ya hizo para una marca de hogar (bajo NDA); identidad y packaging solo con una muestra previa.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\n\nA new home goods brand needs a website and visual content that look consistent from day one, and that is the part I would like to take on.\nI recently worked for a home brand that sells across several European countries (under NDA): many product images and videos, A+ content and their website. I have also built 3D scroll websites in code like LUMEN and FORJA (three.js + GSAP).\nHow I would do it: first a short call about your products and style, then a small set of key visuals and a homepage design, and after your feedback the full website and the product images and short videos made with AI.\nI do not have a pure brand identity or packaging case in my portfolio. If you want, I can make a short sample first so you can decide.\nPrice: 5000 USD for the website and visual content, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nHow many products will you launch with, and do you already have a name and logo?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 412,
+          "salida": 1024,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0227278,
+        "generada": "2026-11-16T17:53:48.040Z"
+      }
+    },
     {
       "id": "570035",
       "tipo": "FREELANCE",
@@ -3825,86 +3903,6 @@
         },
         "costeUSD": 0.0393678,
         "generada": "2026-11-13T15:32:58.402Z"
-      }
-    },
-    {
-      "id": "371629",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic Designer & Creative Assistant",
-      "presupuesto": "30–60 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371629/Graphic-Designer-Creative-Assistant",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Welch Art Studio",
-      "contacto": "Debbie Nash Welch Artelier",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Position Overview\n This is a unique hybrid role for a designer who thrives in a fast-paced cultural environment and is comfortable wearing multiple hats. The Graphic Designer & Creative Assistant will split their time between producing high-quality visual design across print and digital channels and providing day-to-day creative and administrative support to the gallery's marketing, exhibitions, and events functions. The ideal candidate is a skilled designer with a strong aesthetic sensibility, excellent organization, and the flexibility to move seamlessly between focused design work and collaborative support tasks.\n Key Responsibilities \n Graphic Design (approx. 60% of role)\n Design and produce exhibition-related materials, including invitations, catalogues, price lists, wall texts, and signage.\n Create print collateral such as postcards, posters, brochures, flyers, and advertisements.\n Develop digital assets for social media, email newsletters, website banners, and digital advertising.\n Maintain and evolve the gallery's visual identity and brand guidelines across all touchpoints.\n Prepare print-ready files, liaise with printers and vendors, and manage proofing through to final production.\n Photograph or coordinate photography of exhibitions, artworks, and events as needed.\n Edit and retouch images for use across marketing and sales channels.\n Creative & Marketing Support (approx. 40% of role)\n Assist in planning and executing marketing campaigns and exhibition promotion tim",
-      "vista": "2026-11-13T15:34:11.694Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es diseño gráfico remoto y encaja con lo digital, motion y web, pero tiene mucho de impresión y branding, y algunas tareas parecen presenciales; además, el sueldo publicado es claramente un error.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Debbie,\n\nA gallery needs invitations, social posts and newsletters that all share one clear visual identity and are ready before each opening.\nI run LeoVisual.nl, a small AI creative studio in Amsterdam. I work in graphic design, motion graphics, video editing and web.\nFor a home brand selling on Amazon in several European countries (under NDA), I designed many listing images, A+ content and the website, with the same look across every channel.\nI also built LUMEN, FORJA and MORVAIN, 3D scroll websites coded with three.js and GSAP. I edit video and motion graphics in Premiere and After Effects, which are on your preferred list.\nFor you, I would first review your current identity. Then I would build reusable templates for invitations, social posts and newsletters, and make each exhibition's materials from that shared system.\nMy portfolio is stronger in digital work than in print catalogues, so I'm happy to do a short test, for example an invitation and its social media versions for an upcoming show.\nI work remotely from Amsterdam, so on-site tasks like event setup or photographing exhibitions would need someone local, but I can edit and retouch those photos.\nMy working English is B1 and my native language is Spanish.\n\nWhich exhibition is coming up next, and which materials would you need first?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1455,
-          "salida": 2078,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0479798,
-        "generada": "2026-11-13T15:33:47.836Z"
-      }
-    },
-    {
-      "id": "371587",
-      "tipo": "FULLTIME",
-      "titulo": "Head of Creative Design & Strategy",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371587/Head-of-Creative-Design-Strategy",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Lux Decor Collection",
-      "contacto": "Qurat ul Ain Saeed",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Hi Mursaleen,\n I hope you are doing good.\n Lux Decor Collection is a growing private label e-commerce brand, selling across major marketplaces including Amazon, Walmart, TikTok Shop, Target, eBay, Wayfair, SHEIN, Temu, & more. We are looking for a Head of Creative Design & Strategy to develop modern, commercially focused visual content for our growing range of home textiles & apparel products.\n Key Responsibilities:\n • Create modern, commercial creatives for home textiles, bedding, home décor, and apparel\n • Create visually appealing and conversion-focused Amazon A+ Content (Enhanced Brand Content/EBC) images and layouts.\n • Design high-quality product infographics, comparison charts, lifestyle visuals, and branded content for Amazon product listings.\n • Translate product features, benefits, and brand messaging into engaging visual content that enhances customer experience and drives conversions.\n • Ensure all A+ Content designs comply with Amazon's image specifications, guidelines, and branding requirements.\n • Develop e-commerce listings, lifestyle creatives, infographics, banners, campaigns, and short-form videos\n • Develop creative concepts aligned with U.S. market trends and consumer aesthetics\n • Leverage AI tools for image generation, product visualization, and video creation\n • Lead and manage the creative team, assigning projects, reviewing output, and maintaining quality and deadlines\n • Collaborate with Product R&D, Marketing, E-commerce, and Merchandising teams\n R",
-      "vista": "2026-11-13T15:34:11.694Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "El trabajo (A+, infografías y vídeo con IA para una marca de hogar) encaja muy bien, pero piden más de 5 años como senior o lead y haber dirigido un equipo, y Leo no tiene ninguna de las dos cosas.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Qurat ul Ain,\n\nLux Decor Collection needs a steady flow of A+ content, infographics, lifestyle visuals and short videos for home textiles and apparel across many marketplaces, and AI can make that faster without losing quality.\nI run LeoVisual.nl, a small AI creative studio in Amsterdam (EU citizen, fully remote). For a home brand that sells on Amazon in several European countries, I made many listing images and videos, A+ content and the website. That work is under NDA, so I cannot share public listing links, but I can show samples privately on a call.\nI also make cinematic AI ads like ORBE and SILENCIO (idea, generation, editing and sound) with Kling and Seedance, and I use GPT Image and Nano Banana Pro for product images in paid work.\nTo be honest: I do not have 5+ years at a senior/lead level, and I have not managed a design team. My strength is producing the work myself, fast, with AI and Adobe tools.\nFor your products I would start with one bedding listing: main image, infographics, comparison chart, lifestyle scenes and an A+ layout in Amazon specs, then a short video. I am happy to do a test on one of your products.\nMy expected salary is 3,000 EUR gross per month.\nIs this role more hands-on production, or mainly leading the existing team?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [
-          "menciona años"
-        ],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1064,
-          "salida": 2051,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0458758,
-        "generada": "2026-11-13T15:34:09.809Z"
       }
     }
   ]
