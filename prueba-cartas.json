@@ -1,76 +1,102 @@
 {
-  "fecha": "2026-11-10T19:58:52.970Z",
+  "fecha": "2026-11-16T22:32:42.969Z",
   "modelo": "claude-opus-5-5",
-  "costeTotalUSD": 0.0979,
+  "costeTotalUSD": 0.1866,
   "resultados": [
     {
-      "id": "565131",
-      "titulo": "Branding Completo para Marca de Pickleball no Brasil",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565131/Branding-Completo-para-Marca-de-Pickleball-no-Brasil",
+      "id": "570313",
+      "titulo": "Branding Completo Para Dos Empresas De Marketing",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570313/Branding-Completo-Para-Dos-Empresas-De-Marketing",
       "carta": {
         "decision": "dudosa",
-        "motivo": "Leo puede hacer branding con IA, pero no tiene ningún branding completo en el portfolio y la oferta está en portugués; la carta lo dice con honestidad.",
+        "motivo": "Branding completo de dos marcas: no hay pieza igual en el portfolio, así que se envía con una muestra antes de pagar.",
         "categoria": "CREATIVO",
         "idioma": "es",
         "carga": "alta",
-        "texto": "¡Hola!\n\nSu marca de pickleball necesita una base clara para el mercado brasileño: posicionamiento, identidad visual, un branding book y mockups de posts que muestren cómo se ve la marca en redes.\nLe escribo en español porque no hablo portugués. Puedo trabajar en español o en inglés, y los textos finales del branding book en portugués conviene que los revise usted.\nNo tengo en mi portfolio un branding completo como este. Lo más parecido es mi trabajo para una marca de hogar que vende en Amazon en varios países de Europa: imágenes y vídeos de producto, contenido A+ y web, con un estilo coherente en todas las piezas. Si quiere, antes de empezar le preparo una muestra corta de una dirección visual.\nCómo lo haría: 1) un breve cuestionario para definir el público, el tono y el posicionamiento; 2) dos o tres direcciones visuales hechas con IA para que elija una; 3) logo, paleta, tipografías y la arquitectura de la línea de productos; 4) el branding book en PDF y los mockups de posts.\nPrecio: 500 USD, 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿La marca ya tiene nombre y una primera línea de productos (palas, bolas, ropa) o definimos también la arquitectura desde cero?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 424,
-          "salida": 1454,
-          "cacheLeida": 0,
-          "cacheEscrita": 2835
-        },
-        "costeUSD": 0.044951,
-        "generada": "2026-11-10T19:58:26.842Z"
-      }
-    },
-    {
-      "id": "565219",
-      "titulo": "Luxury Travel Magazine Redesign and Editorial Art Direction",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565219/Luxury-Travel-Magazine-Redesign-and-Editorial-Art-Direction",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Leo hace diseño gráfico y dirección visual, pero no tiene ningún trabajo editorial ni de revista en el portfolio, así que se envía con una carta honesta y una prueba.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nA luxury travel magazine depends on its visual rhythm: the covers, the feature openers and the way photography and type work together on the page. That is where I would focus your redesign.\nI'm Leo Gómez from LeoVisual.nl, an AI creative studio in Amsterdam. To be honest, I don't have a magazine redesign in my portfolio yet. My closest work is graphic design for ads and social media, and the art direction of cinematic AI ads like ORBE and SILENCIO, where the mood and image quality had to feel premium.\nHere is how I would approach it:\nFirst, review your current issues and agree on the target look.\nSecond, build a moodboard and a visual direction covering typography, grid, colour and photo style.\nThird, redesign the key templates: cover, contents page, feature opener and standard spreads.\nFinally, put together a short style guide so your team can keep the look consistent.\nBefore you commit, I'm happy to do a short test of one redesigned feature spread.\nBudget: 2500 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nIs the magazine for print, digital or both, and how many page templates do you need?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "texto": "¡Hola!\nTus dos empresas de marketing, una para marcas en general y otra para restaurantes, necesitan identidades que se distingan entre sí pero que se reconozcan como del mismo equipo.\nSoy Leo, director creativo de LeoVisual.nl.\nAntes de que pagues nada, te envío una dirección de logo para cada marca aplicada a una tarjeta de visita.\nCómo lo haría: 1) breve sobre público y tono de cada marca, 2) direcciones de logo, 3) identidad visual (color, tipografía, recursos gráficos), 4) manual de marca y papelería para ambas.\nPrecio: 2500 USD por las dos marcas, 50 % por adelantado, entrega en 3 semanas y 2 rondas de cambios.\n¿Prefieres que las dos marcas compartan algún elemento visual o que sean totalmente independientes?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
         "precioUSD": 2500,
         "anticipoPct": 50,
-        "plazo": "7–10 días",
+        "plazo": "3 semanas",
         "pregunta": "",
         "avisos": [],
         "modelo": "claude-opus-5-5",
         "tokens": {
-          "entrada": 401,
-          "salida": 1414,
-          "cacheLeida": 2835,
-          "cacheEscrita": 0
+          "entrada": 460,
+          "salida": 1164,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
         },
-        "costeUSD": 0.030451,
-        "generada": "2026-11-10T19:58:41.316Z"
+        "costeUSD": 0.048825,
+        "generada": "2026-11-16T22:31:41.123Z"
       }
     },
     {
-      "id": "565233",
-      "titulo": "3D Animated Illustration Video for a Tech Startup",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/565233/3D-Animated-Illustration-Video-for-a-Tech-Startup",
+      "id": "570281",
+      "titulo": "Owner Story Video Advertisement Creation",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570281/Owner-Story-Video-Advertisement-Creation",
       "carta": {
         "decision": "enviar",
-        "motivo": "Encaja con lo que hace Leo (vídeo con IA, motion graphics y 3D), es remoto y el cliente fija 1.000 USD, dentro del rango.",
+        "motivo": "Anuncio cinematográfico con IA mezclado con metraje real: encaja de lleno con ORBE/SILENCIO y su flujo con Kling y Seedance.",
         "categoria": "CREATIVO",
         "idioma": "en",
         "carga": "media",
-        "texto": "Hi!\nYou need a 3D illustration video that makes your tech startup easy to understand and good to look at.\nI run LeoVisual.nl, an AI creative studio in Amsterdam. ORBE and SILENCIO are cinematic ads I made with AI, from the idea through generation and editing to sound. I also build 3D scroll websites like LUMEN and FORJA, so I'm used to presenting tech products in 3D.\nI don't have a 3D explainer exactly like this in my portfolio yet, so I'm happy to make a short style frame or test first.\nHow I would do it: 1) a short script and storyboard based on your product, 2) 2–3 style frames for you to approve, 3) 3D and motion work with Kling/Seedance, After Effects and 3D tools, 4) final edit with music and sound.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nHow long should the video be, and do you already have a script or voice-over?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
+        "texto": "Hi!\nYou need a 35-second Meta ad that sells franchise ownership through the founder's story, with real footage and AI scenes that feel like one professional shoot.\nClosest example of my work, a cinematic AI campaign:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I'd do it: a short script built around the founder's 12+ years, AI scenes (Kling, Seedance) matched to your footage's light, lens and colour, then edit, grade and sound in Premiere and After Effects.\nI'm Leo Gómez, creative director at LeoVisual.nl. Pilot: 500 USD, 50% upfront, 2–5 days, 2 rounds of changes.\nWhich moments of the founder's story do you already have on real footage, and which need AI scenes?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "2–5 días",
+        "pregunta": "",
+        "avisos": [
+          "menciona años"
+        ],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 620,
+          "salida": 1259,
+          "cacheLeida": 4741,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0286082,
+        "generada": "2026-11-16T22:31:53.783Z"
+      }
+    },
+    {
+      "id": "570147",
+      "titulo": "Launch Design Support for a New Home Goods Brand",
+      "presupuesto": "5000–10.000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570147/Launch-Design-Support-for-a-New-Home-Goods-Brand",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "oferta trampa: «Follow the link»",
+        "filtro": "trampa",
+        "categoria": "",
+        "idioma": "",
+        "carga": "",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "filtro previo (sin API)",
+        "tokens": null,
+        "costeUSD": 0,
+        "generada": "2026-11-16T22:31:54.295Z"
+      }
+    },
+    {
+      "id": "570067",
+      "titulo": "Desdobramento de Identidade Visual para Laboratório de Patologia",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570067/Desdobramento-de-Identidade-Visual-para-Laboratorio-de-Patologia",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con diseño gráfico y plantillas para redes, pero no hay proyecto de branding en el portfolio, así que se ofrece una muestra antes de pagar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nApplying your existing brandbook to a pathology report template, an institutional presentation, stationery and social templates takes strict consistency. Everything should feel minimal, sophisticated and corporate, and the report has to stay clear and easy to read.\nHow I'd do it: 1) study the brandbook and set one shared grid and type hierarchy, 2) design the report template and presentation, 3) adapt the stationery and social templates, 4) deliver editable files.\nBefore you pay anything, I'll send you one page of the report template laid out with your brandbook.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nPrice: 1000 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich format do you need for the templates: Figma, PowerPoint, Canva or InDesign?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
         "precioUSD": 1000,
         "anticipoPct": 50,
         "plazo": "7–10 días",
@@ -78,13 +104,97 @@
         "avisos": [],
         "modelo": "claude-opus-5-5",
         "tokens": {
-          "entrada": 369,
-          "salida": 1022,
-          "cacheLeida": 2835,
+          "entrada": 498,
+          "salida": 1291,
+          "cacheLeida": 4741,
           "cacheEscrita": 0
         },
-        "costeUSD": 0.022483,
-        "generada": "2026-11-10T19:58:51.323Z"
+        "costeUSD": 0.0287602,
+        "generada": "2026-11-16T22:32:06.299Z"
+      }
+    },
+    {
+      "id": "569943",
+      "titulo": "AI Content Creator for Images and Video",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569943/AI-Content-Creator-for-Images-and-Video",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Encaja de lleno: imágenes y vídeo con IA a partir de productos reales para marcas premium.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nTurning real products into AI images and video that keep proportions, materials and finishes intact is the core of your brief, and it is where I focus as creative director at LeoVisual.nl.\nClosest example, a cinematic product campaign:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I'd work: product references and a style board first; images in GPT Image and Nano Banana Pro, retouched in Adobe; video in Kling and Seedance, edited in Premiere and After Effects for pacing and clean frames.\n2500 USD, 50% upfront, 2–4 weeks, 2 rounds of changes.\nHow many products and video pieces do you plan for the first batch?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 817,
+          "salida": 1144,
+          "cacheLeida": 4741,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0270962,
+        "generada": "2026-11-16T22:32:17.947Z"
+      }
+    },
+    {
+      "id": "569899",
+      "titulo": "Cafe Brand Logo, Poster, and Packaging Design",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569899/Cafe-Brand-Logo-Poster-and-Packaging-Design",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo, cartel y packaging para una cafetería: Leo puede hacerlo, pero no tiene proyecto de branding, así que la carta ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA café brand works best when the logo, the poster and the packaging feel like one voice, from the cup in a customer's hand to the wall of your café.\nI'm Leo Gómez, creative director at LeoVisual.nl, working in graphic design, motion and 3D.\nBefore you pay anything, I'll send you one logo direction mocked up on your coffee cup and bag.\nMy process: a short brief on your café's style and customers, 2 logo directions, then the poster and packaging built from the one you choose.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nWhat is your café's name, and which packaging pieces do you need (cups, coffee bags, takeaway boxes)?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 410,
+          "salida": 1077,
+          "cacheLeida": 4741,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.024128200000000002,
+        "generada": "2026-11-16T22:32:28.385Z"
+      }
+    },
+    {
+      "id": "569835",
+      "titulo": "Graphic Design for Church Christmas Carol",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569835/Graphic-Design-for-Church-Christmas-Carol",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Encaja: es una pieza de diseño gráfico para un evento, remota y con presupuesto razonable; como no hay una pieza igual en Behance, se ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi!\nA church Christmas carol night needs a design that feels warm and welcoming to your congregation, while making the date, time and place impossible to miss.\nI'm Leo Gómez, creative director at LeoVisual.nl. My approach: a festive but reverent look (candlelight, stars, classic serif titles), a clear hierarchy for the event details, and a final file ready for print, plus a social media version if useful.\nBefore you pay anything, I'll send you one design direction with your event name and details on a poster mockup.\nPrice: 250 USD, 50% upfront, delivery in 2–5 days, 2 rounds of changes included.\nDo you already have the date, venue and any church logo or colours you'd like included?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "2–5 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 396,
+          "salida": 1331,
+          "cacheLeida": 4741,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0291522,
+        "generada": "2026-11-16T22:32:42.037Z"
       }
     }
   ]
