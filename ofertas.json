@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T17:55:59.288Z",
+  "actualizado": "2026-11-16T18:03:30.496Z",
   "ofertas": [
+    {
+      "id": "570051",
+      "tipo": "FREELANCE",
+      "titulo": "Launch Design Support for a New Home Goods Brand",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570051/Launch-Design-Support-for-a-New-Home-Goods-Brand",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "New home goods brand",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m launching a new home goods brand and need freelance support across brand identity, packaging, website design, copywriting, and visual content. You can take on an individual task based on your specialty, with an expected timeline of 4–6 weeks.",
+      "vista": "2026-11-16T18:03:30.496Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Web y contenido visual para una marca de hogar encaja de lleno con lo que ya ha hecho para una marca de hogar bajo NDA; se deja fuera el branding y el packaging.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA new home goods brand needs a website and visuals that make the products feel real and desirable from launch day, and that is the part I would like to take on.\nI have worked for a home goods brand that sells on Amazon in several European countries (under NDA), creating many product images and videos, A+ content and their website. I also build 3D scroll websites in code, like LUMEN and FORJA.\nHow I would do it: a short call to define the style and key products, then a homepage design using your product photos plus AI lifestyle images, then the full site built and a set of visuals adapted for web and social.\nI don't have a full brand identity or packaging project in my portfolio, so I would focus on the website and visual content. If it helps, I can make a short sample first.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you already have product photos, or should the visuals start from samples or renders?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 429,
+          "salida": 1409,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.044891,
+        "generada": "2026-11-16T18:03:29.597Z"
+      }
+    },
     {
       "id": "570041",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.028991799999999998,
         "generada": "2026-11-13T15:32:21.732Z"
-      }
-    },
-    {
-      "id": "371685",
-      "tipo": "FULLTIME",
-      "titulo": "UI/UX",
-      "presupuesto": "25–35 USD/h",
-      "enlace": "https://www.behance.net/joblist/fulltime/371685/UIUX",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "The Chart Auditors",
-      "contacto": "Mark Leggett",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "About the Position \n We are looking for a creative, innovative, and detail-oriented UI/UX Designer to join our growing team.\n The ideal candidate should have a passion for creating intuitive, visually appealing, and user-friendly digital experiences. You will be responsible for designing and improving user interfaces and experiences for websites, mobile applications, and other digital products.\n You will collaborate with developers, product managers, and other creative professionals to transform ideas and business requirements into effective digital solutions.\n Key Responsibilities \n • Design intuitive and visually appealing user interfaces for websites and mobile applications.\n • Create wireframes, prototypes, mockups, and user flows.\n • Conduct user research to understand customer needs and behaviors.\n • Develop user-centered design solutions that improve usability and accessibility.\n • Collaborate with developers to ensure accurate implementation of designs.\n • Maintain consistent design systems, layouts, and visual guidelines.\n • Review existing interfaces and recommend improvements.\n • Incorporate feedback and make design adjustments where necessary.\n • Stay informed about emerging UI/UX trends and design technologies.\n Qualifications & Requirements \n • Previous experience in UI/UX design, product design, or a related creative field.\n • Proficiency in Figma, Adobe XD, Sketch, or similar design tools.\n • Understanding of wireframing, prototyping, and user journey mapping.",
-      "vista": "2026-11-13T15:34:11.694Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Remoto y la tarifa encaja, y Leo diseña y hace webs, pero no tiene casos de apps móviles ni de investigación con usuarios.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Mark,\n\nYou need someone who can turn business requirements into interfaces that feel clear, consistent and easy to use, and who works closely with developers so the designs get built right.\nI design and build websites myself: LUMEN, FORJA and MORVAIN are 3D scroll websites made in code (three.js + GSAP). On those projects I handled the layout, typography and responsive behaviour from the start.\nI also designed and built the website for a home brand that sells on Amazon in several European countries (under NDA), along with its product images and A+ content.\nMy process: review the current interface and user flows, wireframe the key screens, prototype in Figma, then work with the developers until the build matches the design.\nI don't have a mobile app case study in my portfolio yet, so I'm happy to do a short test on one of your screens to show how I would approach it.\nMy rate is 25 USD/h. I'm based in Amsterdam (EU), and I work in Spanish and in working-level English.\nWhich product would I start on first: the website or the mobile app?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 787,
-          "salida": 1570,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0351478,
-        "generada": "2026-11-13T15:32:39.970Z"
       }
     }
   ]
