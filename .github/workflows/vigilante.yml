@@ -20,6 +20,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # 16/11/2026: el GITHUB_TOKEN puede relanzar el workflow (workflow_dispatch) sin DISPATCH_PAT
 
 concurrency:
   # La prueba de cartas va por su propio carril: así no espera a que termine la
@@ -122,7 +123,9 @@ jobs:
       - name: Encadenar la siguiente vigilancia
         if: success()
         env:
-          GH_PAT: ${{ secrets.DISPATCH_PAT }}
+          # 16/11/2026: si no hay DISPATCH_PAT se usa el token propio del workflow
+          # (GitHub sí permite que el GITHUB_TOKEN lance workflow_dispatch).
+          GH_PAT: ${{ secrets.DISPATCH_PAT || github.token }}
         run: |
           if [ -z "$GH_PAT" ]; then
             echo "Sin DISPATCH_PAT: no se reencadena (la red de seguridad es el cron)."
