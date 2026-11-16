@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T18:35:56.699Z",
+  "actualizado": "2026-11-16T18:48:58.724Z",
   "ofertas": [
+    {
+      "id": "570097",
+      "tipo": "FREELANCE",
+      "titulo": "Social Media Strategy, Creation, Management for Luxury Plastic Surgery Practice",
+      "presupuesto": "10.000–25.000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570097/Social-Media-Strategy-Creation-Management-for-Luxury-Plastic-Surgery-Practice",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Luxury plastic surgery practice",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a social media content strategist and manager for my luxury plastic surgery practice. The work will focus on planning, creating, capturing, editing, and managing social media content that supports a premium, luxury-oriented brand presence.",
+      "vista": "2026-11-16T18:48:58.724Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja en creación y edición de contenido para redes, pero pide grabar en la clínica y gestionar cuentas, y Leo no tiene piezas de estrategia ni del sector médico.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nA luxury plastic surgery practice needs social content that feels premium and calm, and that patients can trust, not just more posts.\nI run LeoVisual.nl, an AI creative studio in Amsterdam. My closest work is ORBE and SILENCIO, cinematic ads made with AI (idea, generation, editing and sound), and a lot of product images and videos for a European home brand (under NDA).\nI don't have a clinic or medical piece in my portfolio yet, so I'm happy to make a short sample or do a paid test first.\nHere's how I'd work: a simple content plan and a visual style for the brand, then your team films short clips in the practice on a phone, using a shot list I send. I edit them into Reels, TikToks and Stories with motion graphics, and I schedule them.\nI'm remote, so I can't film on site. I'd use AI only for brand visuals, never to show patient results.\nPrice: 25,000 USD, 50% upfront, first delivery in 7–10 days and 2 rounds of changes.\nWhich platforms matter most to you, and is there someone at the practice who could film the clips?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 25000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 436,
+          "salida": 1224,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.041219,
+        "generada": "2026-11-16T18:48:57.782Z"
+      }
+    },
     {
       "id": "570085",
       "tipo": "FREELANCE",
@@ -3862,45 +3901,6 @@
         },
         "costeUSD": 0.0251798,
         "generada": "2026-11-13T15:36:33.025Z"
-      }
-    },
-    {
-      "id": "568411",
-      "tipo": "FREELANCE",
-      "titulo": "character designer",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568411/character-designer",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "# We're Hiring – 3D Game Artist\nWe are looking for a talented and creative **3D Game Artist** to join our game development team.\n**Responsibilities:**\n- Create high-quality 3D game assets.\n- Design 3D characters, outfits, accessories, and props.\n- Create environments, vehicles, trains, and obstacles.\n- Develop optimized, game-ready 3D models.\n- Create realistic textures and materials.\n- Collaborate with the UI/UX and game development teams.\n**Requirements:**\n- Strong experience in 3D modeling and texturing.\n- Proficiency in Blender, Maya, or similar software.\n- Knowledge of UV mapping, retopology, and optimization.\n- Understanding of game-ready asset production.\n- A strong portfolio showcasing previous 3D work.\n- Creativity and attention to detail.\n**How to Apply:**\nInterested candidates are requested to share their portfolio, previous work, experience, and expected salary/rates.\n**Join us and help bring our game world to life!**",
-      "vista": "2026-11-13T15:34:11.694Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden un artista 3D de videojuegos con modelado listo para juego, UV, retopología y Blender/Maya, una especialidad técnica que Leo no tiene en su portfolio.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 682,
-          "salida": 640,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.016127799999999998,
-        "generada": "2026-11-13T15:31:15.839Z"
       }
     }
   ]
