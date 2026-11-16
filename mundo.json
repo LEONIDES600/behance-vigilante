@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-16T17:40:47.408Z",
+  "actualizado": "2026-11-16T20:48:43.877Z",
   "ofertas": [
+    {
+      "id": "162716",
+      "tipo": "FULL_TIME",
+      "titulo": "Commercial Manager - Europe",
+      "presupuesto": "",
+      "enlace": "https://jobicy.com/jobs/162716-commercial-manager-europe",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Ireland,  UK",
+      "empresa": "Lyra Health",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "About Lyra \n Lyra Health is the leading provider of mental health solutions for employers supporting more than 20 million people globally. The company has delivered 13 million sessions of mental health care, published more than 20 peer-reviewed studies, and delivered unmatched outcomes in terms of access, clinical effectiveness and cost efficiency. Extensive peer-reviewed research confirms Lyra’s transformative care model helps people recover twice as fast and results in a 26% annual reduction in overall healthcare claims costs. Lyra is transforming access to life-changing mental health care through Lyra Empower, the only fully integrated, AI-powered platform combining the highest-quality care and technology solutions.\n Lyra Health are recruiting a Commercial Manager to assist with strateg",
+      "vista": "2026-11-16T20:48:43.876Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de dirección comercial y ventas, pide residencia en Reino Unido o Irlanda, inglés fluido y más de 5 años de experiencia en gestión comercial; no encaja con los servicios de Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1509,
+          "salida": 299,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.027011,
+        "generada": "2026-11-16T20:48:43.235Z"
+      },
+      "fuente": "jobicy"
+    },
     {
       "id": "micro1/jobs/ai-agent-tester",
       "tipo": "CONTRACTOR",
@@ -3956,24 +3996,6 @@
       "descripcion": "Headquarters: Syracuse, NY URL: https://breakthroughdesign.com Senior Creative &amp; Web Designer Position (Contract) Breakthrough Design Group Inc. Job Description Breakthrough is looking for a Senior Creative &amp; Web Designer to work on a contract basis (10-30 hours/week, with potential for full-time hire). Your primary responsibilities will include: A zeal to live, and to share life with those around you. To better understand the human condition, it's unique struggles, and strengths. And for each individual client - an excitement to make lives better, to understand and improve others' pain points, and weaknesses, and to want to help them grow and change the world via their web, creative, and digital experiences. Requirements: Demonstrable (Currently Live) Web Design Demonstrable Creat",
       "vista": "2026-11-10T19:42:37.366Z",
       "fuente": "wwr"
-    },
-    {
-      "id": "1137690",
-      "tipo": "REMOTE",
-      "titulo": "Toptal — Operations Expert with Python for AI Supply Chain Task Design",
-      "presupuesto": "",
-      "enlace": "https://remoteOK.com/remote-jobs/remote-operations-expert-with-python-for-ai-supply-chain-task-design-toptal-1137690",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere in the World",
-      "empresa": "Toptal",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Docker Git Inventory Management Supply Chain Microsoft Excel Python SAP SAP Production Planning SQL Supply Chain Operations Overview A fast-growing AI data company is hiring supply chain practitioners to design expert-level Terminal-Bench tasks for evaluating AI agents. You will turn real planning work into end-to-end challenges, each with files, a working solution and an automated correctness check. The goal is to build a benchmark grounded in real operations work. ***THIS IS A TASK BASED COMPENSATION MODEL. PLEASE CHECK THE APPLICATION QUESTIONS FOR MORE DETAILS.*** Responsibilities â¢ Design expert-level Terminal-Bench tasks by turning a real supply chain task from your work into a challenge an AI agent solves end to end. â¢ Define the files, data exports and systems each task runs on",
-      "vista": "2026-11-10T19:42:37.366Z",
-      "fuente": "remoteok"
     }
   ]
 }
