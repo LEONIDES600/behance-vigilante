@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T19:26:58.816Z",
+  "actualizado": "2026-11-16T19:32:21.612Z",
   "ofertas": [
+    {
+      "id": "570161",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Kit Design for a YouTube Investigation Business",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570161/Brand-Kit-Design-for-a-YouTube-Investigation-Business",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "YouTube investigative channel owner",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a brand designer to create a cohesive brand kit for my YouTube investigation business. The brand identity should support a professional, recognizable presence across my channel and related content.",
+      "vista": "2026-11-16T19:32:21.612Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es un encargo de branding con buen presupuesto, pero Leo no tiene un brand kit igual en el portfolio; la carta lo dice con honestidad y ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nAn investigation channel needs a look that feels serious and trustworthy, and that viewers can recognise at a glance in thumbnails, banners and video graphics.\nTo be honest, I don't have a full brand kit like this in my portfolio yet. I do graphic design for ads and social media, plus motion graphics, and I made cinematic AI ads like ORBE and SILENCIO, where tone and visual consistency matter a lot.\nHere is how I would do it:\n1. A short brief about your channel, your audience and the feeling you want.\n2. 2–3 visual directions (logo idea, colours, fonts) for you to choose from.\n3. The final kit: logo versions, colour palette, fonts, thumbnail template, channel banner and a simple brand guide.\nIf it helps, I can make a short sample direction first so you can see if my style fits.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nWhat tone do you want viewers to feel: calm and documentary, or more urgent, like true crime?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 403,
+          "salida": 1196,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.040527,
+        "generada": "2026-11-16T19:32:20.919Z"
+      }
+    },
     {
       "id": "570147",
       "tipo": "FREELANCE",
@@ -3862,45 +3901,6 @@
         },
         "costeUSD": 0.047715,
         "generada": "2026-11-13T16:05:25.828Z"
-      }
-    },
-    {
-      "id": "371579",
-      "tipo": "FULLTIME",
-      "titulo": "AI Content Creator",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371579/AI-Content-Creator",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "JKB Group sp. z o.o.",
-      "contacto": "Elli Gatzaki",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "AI Content Creator \n Szukamy osoby, która z AI zrobi fabrykę treści: setki grafik, opisów, zdjęć produktowych i krótkich filmów miesięcznie, w spójnym stylu marki i bez spadku jakości.\n W JKB Group budujemy zespół kreatywny od początku oparty na AI. Nie szukamy grafika, który „czasem używa Midjourney”. Szukamy kogoś, kto projektuje procesy produkcji treści, a AI traktuje jak cały zespół wykonawczy.\n Lokalizacja: 100% zdalnie (siedziba firmy: Czerwieńsk) · Forma: B2B lub umowa o pracę · Start: od zaraz\n Czym będziesz się zajmować \n Odpowiadasz za produkcję treści we wszystkich formatach, od briefu do gotowego pliku.\n •      Budujesz powtarzalne pipeline’y: z jednego zdjęcia produktu robisz pełen pakiet materiałów na wszystkie kanały.\n •      Pilnujesz spójności marki i jakości (ręczny retusz tam, gdzie AI nie domaga).\n •      Dobierasz i wdrażasz stack narzędzi AI od zera, testujesz nowości i pilnujesz kosztów subskrypcji.\n •      Współpracujesz z marketingiem i performance, żeby treści odpowiadały na dane z kampanii.\n Najważniejsze jest portfolio pokazujące materiały zrobione z AI na poziomie, który można opublikować bez wstydu.\n Wymagania \n •      Min. 2 lata doświadczenia w tworzeniu treści wizualnych (grafika, foto, wideo lub content marketing).\n •      Portfolio z realizacjami AI: obrazy, wideo i copy.\n •      Oko do kompozycji, typografii i koloru; umiesz ocenić, czy generacja jest „do użycia”.\n •      Umiesz świadomie sterować AI: piszesz precyzyjne prompty, poprawiasz ",
-      "vista": "2026-11-13T15:41:18.319Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Exige polaco muy bueno y trabajar en remoto solo desde Polonia, aunque el puesto de contenido con IA encajaría.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 2269,
-          "salida": 442,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0185158,
-        "generada": "2026-11-13T15:40:31.353Z"
       }
     }
   ]
