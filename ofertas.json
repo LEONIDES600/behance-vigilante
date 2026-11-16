@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T20:38:56.874Z",
+  "actualizado": "2026-11-16T21:01:30.447Z",
   "ofertas": [
+    {
+      "id": "570313",
+      "tipo": "FREELANCE",
+      "titulo": "Branding Completo Para Dos Empresas De Marketing",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570313/Branding-Completo-Para-Dos-Empresas-De-Marketing",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Busco un diseñador que desarrolle el branding de mis dos emprendimientos: una empresa de marketing para marcas en general y otra especializada en restaurantes. Necesito el logotipo, la identidad visual, el manual de marca y la papelería para ambas marcas.",
+      "vista": "2026-11-16T21:01:30.447Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es branding completo: Leo puede hacerlo, pero no tiene una pieza igual en el portfolio, así que la carta lo dice con honestidad y ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "alta",
+        "texto": "¡Hola!\nLanzar a la vez dos marcas, una de marketing para todo tipo de marcas y otra para restaurantes, pide dos identidades con personalidad propia que se vean del mismo nivel.\nTe soy sincero: todavía no tengo en mi portfolio un branding completo con manual de marca. Sí tengo diseño gráfico y dirección visual. Para una marca de hogar que vende en Amazon en varios países de Europa hice muchas imágenes y vídeos de producto, contenido A+ y la web, todo con la misma línea visual. También hice los anuncios cinematográficos con IA ORBE y SILENCIO.\nLo haría así:\n1) Un cuestionario breve sobre el público, el tono y la competencia de cada marca.\n2) Dos o tres propuestas de logotipo para cada marca.\n3) Con las elegidas, la paleta, las tipografías y los elementos gráficos.\n4) El manual de marca y la papelería de las dos marcas.\nSi quieres, antes de empezar te preparo una muestra corta para una de las dos y así ves el enfoque.\nEl precio para las dos marcas es de 2500 USD, con un 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿Ya tienes los nombres de las dos marcas y alguna referencia visual que te guste?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 442,
+          "salida": 1543,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.047623,
+        "generada": "2026-11-16T21:01:29.626Z"
+      }
+    },
     {
       "id": "570281",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.0290238,
         "generada": "2026-11-13T16:09:30.499Z"
-      }
-    },
-    {
-      "id": "568493",
-      "tipo": "FREELANCE",
-      "titulo": "Collegiate-Style Brand Identity for Pharmacist Continuing Education Program",
-      "presupuesto": "5000–10.000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568493/Collegiate-Style-Brand-Identity-for-Pharmacist-Continuing-Education-Program",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m seeking an illustrator and brand designer to create a collegiate-style identity for a new continuing education program for pharmacists. This focused brand sprint includes a logo and supporting marks, a small illustration and badge library, and concept mockups for items such as a varsity hoodie, cap, and stationery. I’d like to arrange a quick call within the coming days and can share the full brief beforehand.",
-      "vista": "2026-11-13T16:08:11.619Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Branding e ilustración con IA: Leo lo puede hacer, pero no tiene identidades en el portfolio, así que la carta ofrece una muestra antes.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA collegiate look is a smart way to make continuing education for pharmacists feel like a community people want to join, not just a requirement.\nI'm Leo, I run LeoVisual.nl, an AI-assisted creative studio in Amsterdam. I do graphic design, 3D and product visuals. For a home brand that sells across Europe (under NDA), I made a large set of product images and A+ content in one consistent visual style.\nTo be honest, I don't have a collegiate identity in my portfolio yet, so I'm happy to do a short sample (a draft crest or badge) before you decide.\nHow I would do it: first, a moodboard of varsity type, crests and color directions based on your brief. Next, the logo and supporting marks, refined as vectors. Then a small illustration and badge library in the same style. Last, mockups of the hoodie, cap and stationery.\nPrice: 10,000 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nA call this week works for me. Do you already have a program name and colors, or should those be part of the sprint?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 10000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 488,
-          "salida": 897,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0204918,
-        "generada": "2026-11-13T16:08:10.555Z"
       }
     }
   ]
