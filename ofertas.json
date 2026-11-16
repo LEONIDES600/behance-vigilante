@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T17:53:48.982Z",
+  "actualizado": "2026-11-16T17:55:59.288Z",
   "ofertas": [
+    {
+      "id": "570041",
+      "tipo": "FREELANCE",
+      "titulo": "High-Quality Backlink Building for SEO",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570041/High-Quality-Backlink-Building-for-SEO",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need an SEO freelancer who specializes in building high-quality backlinks to strengthen my website’s search-engine optimization efforts. The work should focus specifically on quality link acquisition.",
+      "vista": "2026-11-16T17:55:59.288Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden un especialista en conseguir backlinks para SEO, y Leo no ofrece ese servicio ni tiene trabajos así en el portfolio.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 395,
+          "salida": 403,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.010239799999999999,
+        "generada": "2026-11-16T17:55:58.289Z"
+      }
+    },
     {
       "id": "570037",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.0351478,
         "generada": "2026-11-13T15:32:39.970Z"
-      }
-    },
-    {
-      "id": "371669",
-      "tipo": "CONTRACT",
-      "titulo": "Creative Designer | Brand, Product & Motion Design",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371669/Creative-Designer-Brand-Product-Motion-Design",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "SUPR GLOBAL GROUP",
-      "contacto": "Admond Huang",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Creative Designer | Brand, Product & Motion Design\n Company: SUPR™ Global\n Work Arrangement: Remote / Freelance / Long-Term Collaboration\n Industry: Performance, Wellness & E-Commerce\n About SUPR™\n SUPR™ is a growing performance and wellness brand focused on creating products that improve everyday living, from performance to recovery and sleep.\n We're looking for a highly creative, detail-oriented designer who can turn strong concepts into exceptional visuals.\n We don't need someone who simply puts text and images together. We want a designer who understands visual storytelling, product presentation, advertising psychology, and what makes a brand stand out.\n What You'll Be Doing\n - Develop original creative concepts for product campaigns, digital advertising, and brand launches.\n - Design premium product visuals, realistic mockups, and high-converting Meta, TikTok, and e-commerce advertisements.\n - Recreate and elevate creative references with exceptional attention to detail.\n - Produce motion graphics, animated advertisements, and short-form promotional content.\n - Use AI tools professionally to enhance creative production, realism, and efficiency.\n - Maintain brand consistency across campaigns, packaging, and digital platforms.\n - Experiment with typography, layouts, textures, compositions, and visual directions.\n What We're Looking For\n - Strong proficiency in Adobe Photoshop, Illustrator, After Effects, and relevant creative software.\n - Advanced understanding of AI-assis",
-      "vista": "2026-11-13T15:34:11.694Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Encaja bien: piden visuales de producto, anuncios para Meta/TikTok, motion y uso de IA, todo dentro de sus servicios; el packaging y el branding se cuentan con honestidad.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Admond,\n\nSUPR needs product visuals and ads that feel premium and intentional, not obviously AI-made, across static, motion and e-commerce.\nFor a home brand that sells on Amazon in several European countries (under NDA), I made many listing images and videos, A+ content and the website, with one consistent look across all of it.\nI also made ORBE and SILENCIO, cinematic ads built with AI, where I handled the idea, generation, editing and sound.\nFor SUPR, I would start from the product and the buyer and write 2–3 concepts. Then I would generate and composite with GPT Image, Nano Banana Pro, Kling or Seedance and finish in Adobe tools (After Effects, Premiere), so the result looks real and on-brand.\nI don't have a packaging or full brand identity project to show yet, so I'm happy to do a short test with one of your products first.\nI'm based in Amsterdam (EU), work remotely and I'm open to a long-term collaboration.\nMy rate is 25 USD/h. For fixed projects: 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhich product would you like to start with, and do you need static Meta ads or short video first?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1152,
-          "salida": 1708,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0393678,
-        "generada": "2026-11-13T15:32:58.402Z"
       }
     }
   ]
