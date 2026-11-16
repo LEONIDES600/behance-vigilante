@@ -5,6 +5,19 @@ cada ~5 min), puntúa si cada oferta nueva encaja con los servicios de Leo y la
 envía a Telegram con una propuesta honesta lista para copiar. Funciona aunque el
 PC esté apagado.
 
+## Novedades de la v3.3 (16/11/2026): filtros anti-trampa y carta v2
+- Antes de escribir la carta (sin gastar API) se descartan las **ofertas trampa**
+  («Follow the link to accept offer», «Accept order here», «Verification», «Hi dear!»,
+  «New offer», «Information», enlace externo para aceptar o verificar…), las que
+  **exigen vivir fuera de la UE** o **recibir producto físico**, y las que dicen
+  **«no AI»**, «without AI» u «organic only». Quedan en la cola como «descartar»
+  (con `carta.filtro`). Las trampas **no llegan a Telegram**.
+- La carta sigue las reglas v2: nunca «no tengo esto en mi portfolio» (en su lugar,
+  una muestra corta y concreta), sin «AI studio» si la oferta no habla de IA,
+  enlace al proyecto de Behance más parecido, plazo según el tamaño del encargo
+  (`carta.plazo`), español o inglés y firma «Leo Gómez · LeoVisual.nl».
+- Prueba en seco de los filtros: `PRUEBA_FILTROS=1 node vigilante.js`.
+
 ## Novedades de la v3.1 (31/10/2026): empleo remoto en todo el mundo
 - Nuevas webs: **Remotive** (API pública, 1 consulta cada 6 h: pide máx. 4 al día),
   **Jobicy** (1 por hora) e **Himalayas** (3 búsquedas rotando cada 2 h). Se estrenan

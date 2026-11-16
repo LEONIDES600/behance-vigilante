@@ -11,6 +11,13 @@
  * v3.2: si existe ANTHROPIC_API_KEY, la API escribe la carta de cada oferta de
  * Behance que encaja en el momento de detectarla (Telegram + campo «carta» de la cola).
  *
+ * v3.3 (16/11/2026): filtros previos sin API (trampas, residencia fuera de la UE o
+ * producto físico, «no AI») → carta «descartar» con carta.filtro; las trampas no se
+ * avisan por Telegram. Carta con las reglas v2 (sin reconocer carencias, muestra
+ * concreta, sin «AI studio» si la oferta no habla de IA, enlace al proyecto de
+ * Behance más parecido, plazo según el tamaño, español o inglés, firma fija).
+ * Prueba en seco de los filtros: PRUEBA_FILTROS=1 node vigilante.js
+ *
  * Secretos del repositorio: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID (y opcionales:
  * DISPATCH_PAT, CLAUDE_ROUTINE_TOKEN, ANTHROPIC_API_KEY). GITHUB_TOKEN lo inyecta el workflow.
  * Estado: estado/seen.json (persistido entre ejecuciones con actions/cache)
@@ -21,7 +28,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const VERSION = 'v3.2 · 07/11/2026';
+const VERSION = 'v3.3 · 16/11/2026';
 
 // ───────────────────────────── Configuración ─────────────────────────────
 // Behance: dos listas ordenadas por «lo más reciente» (sort=recent). Una oferta
@@ -200,6 +207,119 @@ function encaje(job) {
   }
   return { nivel, motivos, altos, medios };
 }
+
+// ───────────── Filtros previos a la carta (v3.3, 16/11/2026) ─────────────
+// Tras el análisis de los 40 rechazos de Behance (Drive › 02_Empleo ›
+// «2026-11-16_Analisis_propuestas_rechazadas_Behance»): antes de llamar a la API
+// se descartan, sin gastar nada, las ofertas trampa, las que exigen vivir fuera
+// de la UE o recibir producto físico, y las que no quieren IA. La oferta queda en
+// la cola con carta.decision = 'descartar' y carta.filtro = tipo, para que la
+// tarea de envío la apunte como DESCARTADA. Las trampas no se avisan por Telegram.
+
+// Trampas: frases que salen en el título, la empresa o el contacto de las ofertas
+// falsas de Behance («Follow the link to accept offer», «Accept order here»…).
+const TRAMPA_FRASES = /follow the link|accept (the |this |your |an? )?(offer|order)\b|order notify\b|hi dear|verification (link|process|code|required|needed)|complete (the )?verification|confirm (the )?transaction|details about the (order|offer)|(at|via|through|on) the link below/i;
+// …o que son, enteros, una sola palabra de cebo («Info», «Verification», «New offer»).
+const TRAMPA_CAMPO = /^(info|information|verification|verify|new offer|offer|new order|order|notification|order notify|hi|hello|hi dear|dear)[\s!.:]*$/i;
+// En la descripción: un enlace externo para aceptar, verificar o confirmar.
+const URL_EXTERNA = '(?:https?:\\/\\/|www\\.|bit\\.ly\\/|t\\.me\\/|wa\\.me\\/|tinyurl\\.com\\/|forms\\.gle\\/)\\S+';
+const VERBO_TRAMPA = '(?:accept (?:the |this |our |my |your )?(?:offer|order|job|project|invitation|invite|contract|payment)|verif(?:y|ication)|claim (?:the |your )?(?:offer|order|job|payment|reward)|confirm (?:the |your )?(?:transaction|order|offer|payment|identity|account))';
+const TRAMPA_ENLACE = new RegExp(`${URL_EXTERNA}[\\s\\S]{0,150}?\\b${VERBO_TRAMPA}|\\b${VERBO_TRAMPA}[\\s\\S]{0,150}?${URL_EXTERNA}`, 'i');
+const TRAMPA_DESCRIPCION = /follow the link to (accept|verify|confirm)|accept (the |this |your )?(offer|order) (here|via|at|on|through|using|by)\b|complete (the )?verification|confirm (the )?transaction|verify your (account|identity|profile)/i;
+// Plantilla de la campaña falsa «new home goods brand» (13 de las 100 ofertas de la
+// cola del 16/11/2026 la llevaban, aunque la empresa cambiara de nombre).
+const TRAMPA_PLANTILLA = /take on an individual task based on (your|their) special(ty|ity|i[sz]ation)|contribute to a specific area based on your expertise/i;
+
+// Ubicación: residencia obligatoria en un país fuera de la UE. Suiza, Noruega e
+// Islandia no se filtran aquí (libre circulación): decide la API. Solo casos
+// claros; lo dudoso lo sigue decidiendo la API (que también descarta por ubicación).
+// «US», «USA», «UK» se convierten antes en «united states» / «united kingdom»
+// distinguiendo mayúsculas (así «contact us» no cuenta).
+const FUERA_UE = '(?:united states(?: of america)?|america|canada|united kingdom|england|scotland|wales|great britain|britain|australia|new zealand|india|pakistan|bangladesh|sri lanka|nepal|philippines|indonesia|malaysia|singapore|vietnam|thailand|china|hong kong|taiwan|japan|south korea|korea|nigeria|kenya|ghana|south africa|egypt|morocco|israel|turkey|türkiye|uae|united arab emirates|dubai|abu dhabi|saudi arabia|ksa|qatar|kuwait|bahrain|oman|brazil|brasil|mexico|méxico|argentina|colombia|chile|peru|perú|venezuela|ecuador|ukraine|russia|serbia|georgia|armenia|gujarat|surat|ahmedabad|mumbai|delhi|bangalore|bengaluru|hyderabad|chennai|kolkata|pune|karachi|lahore|dhaka|manila|lagos|nairobi|cairo|riyadh|toronto|vancouver|london|new york|nyc|los angeles|california|texas|florida|sydney|melbourne)';
+const FUERA_UE_ES = '(?:estados unidos|ee\\.? ?uu\\.?|canad[aá]|reino unido|inglaterra|australia|india|pakist[aá]n|filipinas|china|jap[oó]n|brasil|m[eé]xico|argentina|colombia|chile|per[uú]|venezuela|ecuador|uruguay|paraguay|bolivia|guatemala|costa rica|panam[aá]|rep[uú]blica dominicana|cuba|puerto rico|marruecos|emiratos|dub[aá]i|turqu[ií]a|rusia|ucrania)';
+const PERSONA = '(?:designers?|freelancers?|candidates?|editors?|creatives?|talent|applicants?|someone|somebody|persons?|people|videographers?|photographers?|artists?|professionals?|contractors?|individuals?|creators?|animators?|illustrators?|marketers?|developers?|team members?)';
+// No cuenta cuando el cliente habla de sí mismo («I'm a US-based artist…»).
+const NO_AUTO = "(?<!\\b(?:i'?m|i am|we'?re|we are|as)\\s+(?:an?\\s+)?(?:[\\w-]+\\s+){0,3})";
+// «US-based candidates are preferred» es una preferencia, no una exigencia: no cuenta.
+const NO_PREFERIDO = '(?!\\s+(?:are\\s+|is\\s+)?(?:preferred|a plus|a bonus|ideal|welcome|encouraged|desirable))';
+const NO_ES_PERSONA = '(?![- ]?(?:company|companies|startup|brand|business|agency|team|firm|client|studio|organi[sz]ation|e-?commerce|retailer|shop|store|charity|non-?profit|restaurant|cafe|café|bakery|clinic|practice|school|church|band|artist|podcast|channel|label|manufacturer|supplier))';
+const UBICACION_REQUISITO = [
+  new RegExp(`\\b${FUERA_UE}[- ](?:only|residents?|citizens?)\\b`, 'i'),
+  new RegExp(`${NO_AUTO}\\b${FUERA_UE}[- ]based ${NO_ES_PERSONA}(?:[\\w-]+ ){0,2}${PERSONA}\\b${NO_PREFERIDO}`, 'i'),
+  new RegExp(`\\b(?:must|should|need to|needs to|have to|has to|required to|requirement:?)\\s+(?:be\\s+)?(?:physically\\s+)?(?:based|located|living|resident|residing|reside|live)\\s+(?:in|within)\\s+(?:the\\s+)?${FUERA_UE}\\b`, 'i'),
+  new RegExp(`${NO_AUTO}\\b${PERSONA}\\s+(?:who\\s+(?:is|are|lives?)\\s+|that\\s+(?:is|are|lives?)\\s+|currently\\s+)?(?:based|located|living|residing|resident)\\s+in\\s+(?:the\\s+)?${FUERA_UE}\\b${NO_PREFERIDO}`, 'i'),
+  new RegExp(`\\b(?:looking for|seeking|hiring|need|want)\\s+(?:an?\\s+)?(?:[\\w-]+\\s+){0,3}${PERSONA}\\s+(?:from|in)\\s+(?:the\\s+)?${FUERA_UE}\\b${NO_PREFERIDO}`, 'i'),
+  new RegExp(`\\b(?:only|exclusively)\\s+(?:accept(?:ing)?|consider(?:ing)?|hir(?:e|ing)|work(?:ing)? with|open to)\\s+(?:[\\w-]+\\s+){0,3}(?:from|in|based in|located in)\\s+(?:the\\s+)?${FUERA_UE}\\b`, 'i'),
+  new RegExp(`\\b(?:from|in)\\s+(?:the\\s+)?${FUERA_UE}\\s+only\\b`, 'i'),
+  new RegExp(`\\b(?:que\\s+viva|que\\s+resida|residente|resida|ubicad[oa]|con\\s+base|radicad[oa]|que\\s+est[eé])\\s+en\\s+${FUERA_UE_ES}\\b`, 'i'),
+  new RegExp(`\\b(?:solo|s[oó]lamente|[uú]nicamente)\\s+(?:para\\s+|de\\s+|en\\s+|desde\\s+)?(?:\\w+\\s+){0,2}(?:de|en|desde)?\\s*${FUERA_UE_ES}\\b`, 'i'),
+];
+const siglasUbicacion = (t) => t
+  .replace(/\b(?:U\.S\.A\.|U\.S\.A|USA|U\.S\.|US)(?!\w)/g, 'united states')
+  .replace(/\b(?:U\.K\.|UK)(?!\w)/g, 'united kingdom');
+// Producto físico: hay que recibirlo, tenerlo en la mano o grabarse con él.
+const NO_ES_FOTO = '(?!\\s*(?:photos?|images?|pictures?|shots?|info|information|details|files?|links?|descriptions?|specs?|catalog(?:ue)?|list|page|data|assets|renders?|mockups?|references?|of)\\b)';
+const PRODUCTO_FISICO = [
+  new RegExp(`\\b(?:ship|send|mail|courier)(?:ed|ing)?\\s+(?:it\\s+|them\\s+)?(?:to\\s+)?you\\b[^.]{0,60}?\\b(?:products?|samples?|goods|food|garments?|clothing|merch)\\b${NO_ES_FOTO}`, 'i'),
+  /\b(?:products?|samples?|goods|kit)\s+(?:will\s+be\s+|would\s+be\s+|is\s+|are\s+|can\s+be\s+)?(?:shipped|sent|mailed|couriered)\s+to\s+(?:you|your)\b(?!\s*(?:e-?mail|inbox))/i,
+  /\b(?:receive|have|hold|handle)\s+(?:the\s+|our\s+|a\s+)?(?:physical\s+)?(?:products?|samples?)\s+(?:in hand|on hand|physically|at (?:your|home))|\b(?:physical|real|actual)\s+(?:products?|samples?)\s+(?:in|on)\s+hand\b|\bproduct in hand\b/i,
+  /\b(?:film|record|shoot|photograph)\w*\s+(?:yourself\s+)?(?:using|with|holding|unboxing|wearing|trying)\s+(?:the|our|my)\s+(?:products?|items?|samples?)\b/i,
+  new RegExp(`\\b(?:te\\s+)?(?:enviamos|enviaremos|mandamos|mandaremos|recibir[áa]s?|recibes)\\s+(?:el|los|la|las|un|unos|una)?\\s*(?:productos?|muestras?|art[íi]culos?)\\b(?!\\s*(?:fotos?|im[áa]genes))`, 'i'),
+];
+// Sin IA: lo dicen expresamente («no AI», «without AI», «organic only»…).
+const SIN_IA = [
+  /(?<!\b(?:have|has|had|use|uses|using|with|currently|there (?:is|are))\s+)\bno\s+(?:ai\b|a\.i\.)(?![- ]?(?:experience|knowledge|skills?|background|expertise|required|needed|necessary|tools?|yet|currently|in place|at the moment|agents?|automation))/i,
+  /\bwithout\s+(?:using\s+|the\s+use\s+of\s+|any\s+)?(?:ai\b|a\.i\.|artificial intelligence|generative ai)/i,
+  /\b(?:not|never)\s+(?:be\s+)?(?:ai[- ]generated|generated (?:by|with) ai|made (?:by|with) ai|created (?:by|with) ai)\b/i,
+  /\bno\s+(?:ai|generative ai)[- ](?:generated|images?|art|artwork|content|videos?|visuals?)\b/i,
+  /\borganic\s+(?:content\s+|growth\s+|reach\s+|footage\s+|videos?\s+|visuals\s+)?only\b(?!\s+(?:ingredients|products?|cotton|food|materials?|produce|farming|skincare|brands?))/i,
+  /\bonly\s+organic\s+(?:content|footage|videos?|visuals|posts|photos?|imagery)\b/i,
+  /\bhand[- ]?drawn\s+only\b|\bonly\s+hand[- ]?drawn\b/i,
+  /\b(?:do not|don'?t|please don'?t|please do not|must not|mustn'?t|cannot|can'?t|should not|shouldn'?t)\s+use\s+(?:any\s+)?(?:ai\b|a\.i\.|generative ai|artificial intelligence|midjourney|ai tools?)/i,
+  /\bai[- ]free\b|\bhuman[- ]made only\b/i,
+  /\bsin\s+(?:usar\s+|uso\s+de\s+)?(?:ia|inteligencia artificial)\b|\bnada\s+de\s+ia\b|\bno\s+(?:usar|utilizar|uses|utilices)\s+(?:la\s+)?(?:ia|inteligencia artificial)\b|\bsem\s+(?:ia|intelig[eê]ncia artificial)\b/i,
+];
+
+const recorte = (m) => (m ? m[0].replace(/\s+/g, ' ').trim().slice(0, 60) : '');
+
+// Devuelve { tipo: 'trampa' | 'ubicacion' | 'sin-ia', motivo } o null si pasa.
+function filtroPrevio(job) {
+  const campos = [job.title, job.empresa, job.contacto].map((c) => String(c || '').trim()).filter(Boolean);
+  const desc = String(job.description || '');
+  for (const c of campos) {
+    if (TRAMPA_CAMPO.test(c)) return { tipo: 'trampa', motivo: `oferta trampa: «${c.slice(0, 40)}»` };
+    const m = c.match(TRAMPA_FRASES);
+    if (m) return { tipo: 'trampa', motivo: `oferta trampa: «${recorte(m)}»` };
+  }
+  const t = desc.match(TRAMPA_DESCRIPCION) || desc.match(TRAMPA_ENLACE);
+  if (t) return { tipo: 'trampa', motivo: `oferta trampa: enlace externo para aceptar o verificar («${recorte(t)}»)` };
+  if (TRAMPA_PLANTILLA.test(desc)) return { tipo: 'trampa', motivo: 'oferta trampa: plantilla de la campaña falsa «new home goods brand»' };
+  const texto = `${job.title || ''}\n${desc}`;
+  for (const re of SIN_IA) {
+    const m = texto.match(re);
+    if (m) return { tipo: 'sin-ia', motivo: `no quieren IA: «${recorte(m)}»` };
+  }
+  const textoUbi = siglasUbicacion(texto);
+  for (const re of UBICACION_REQUISITO) {
+    const m = textoUbi.match(re);
+    if (m) return { tipo: 'ubicacion', motivo: `ubicación: exige vivir fuera de la UE («${recorte(m)}»)` };
+  }
+  for (const re of PRODUCTO_FISICO) {
+    const m = texto.match(re);
+    if (m) return { tipo: 'ubicacion', motivo: `ubicación: hay que recibir producto físico («${recorte(m)}»)` };
+  }
+  return null;
+}
+
+// Carta de una oferta descartada por un filtro previo (mismo formato que la de la API).
+function cartaDeFiltro(f) {
+  return {
+    decision: 'descartar', motivo: f.motivo, filtro: f.tipo, categoria: '', idioma: '', carga: '', texto: '',
+    precioUSD: null, anticipoPct: null, plazo: '', pregunta: '', avisos: [],
+    modelo: 'filtro previo (sin API)', tokens: null, costeUSD: 0, generada: new Date().toISOString(),
+  };
+}
+const FILTRO_STAT = { trampa: 'filtroTrampa', ubicacion: 'filtroUbicacion', 'sin-ia': 'filtroSinIA' };
 
 function idioma(texto) {
   const es = (texto.match(/\b(de|para|con|que|buscamos|necesito|necesitamos|dise[ñn]o|v[ií]deo|empresa|marca|nuestro|nuestra|proyecto)\b/gi) || []).length;
@@ -860,8 +980,8 @@ function mensajeTelegram(job, enc, lineaRevision) {
   const c = job.carta;
   if (c && !c.error) {
     const icono = { enviar: '🟢', dudosa: '🟡', espera: '⏳', descartar: '⛔' }[c.decision] || '•';
-    const precio = c.precioUSD != null ? ` · ${c.precioUSD} USD, ${c.anticipoPct} % por adelantado` : '';
-    partes.push('', `${icono} Revisión IA: <b>${esc(c.decision.toUpperCase())}</b>${esc(precio)} — ${esc(c.motivo)}`);
+    const precio = c.precioUSD != null ? ` · ${c.precioUSD} USD, ${c.anticipoPct} % por adelantado${c.plazo ? ', ' + c.plazo : ''}` : '';
+    partes.push('', `${icono} ${c.filtro ? 'Filtro (sin API)' : 'Revisión IA'}: <b>${esc(c.decision.toUpperCase())}</b>${esc(precio)} — ${esc(c.motivo)}`);
     if (c.pregunta) partes.push(`❓ ${esc(c.pregunta)}`);
     if (c.avisos && c.avisos.length) partes.push(`⚠️ Revisar: ${esc(c.avisos.join(', '))}`);
     if (c.texto) partes.push('', '— Carta lista —', esc(c.texto));
@@ -1088,10 +1208,10 @@ const CARTA_TIMEOUT_MS = 60000;
 const CARTA_SISTEMA = `Eres quien revisa y contesta las ofertas de empleo y encargos de Leo Gómez (LeoVisual.nl), de Behance y de webs de empleo remoto. Recibes UNA oferta y devuelves, con la herramienta responder_oferta, si se envía y la carta lista para pegar. Responde SIEMPRE llamando a responder_oferta (una vez), nunca con texto suelto; los campos que no apliquen van vacíos. Nadie la revisa antes de enviarla: tiene que estar perfecta y ser 100 % honesta.
 
 QUIÉN ES LEO (solo puedes usar estos hechos)
-- Leo Gómez, LeoVisual.nl: estudio creativo con IA en Ámsterdam (Países Bajos). Ciudadano de la UE (nacionalidad española).
-- Portfolio: behance.net/leostudiocreative · leovisual.nl · contact@leovisual.nl
+- Leo Gómez, director creativo de LeoVisual.nl («creative director at LeoVisual.nl»), en Ámsterdam (Países Bajos). Ciudadano de la UE (nacionalidad española). Trabaja con IA como herramienta, pero la IA no es su identidad (ver PRESENTACIÓN).
+- Perfil: behance.net/leostudiocreative · leovisual.nl · contact@leovisual.nl
 - Trabajos reales que puedes citar (elige como mucho 2, los que más se parezcan a la oferta):
-  · ORBE y SILENCIO: anuncios cinematográficos hechos con IA (idea, generación, montaje y sonido).
+  · ORBE y SILENCIO: anuncios cinematográficos (idea, generación, montaje y sonido).
   · LUMEN, FORJA y MORVAIN: webs 3D con scroll, hechas en código (three.js + GSAP).
   · Showcases y oficinas de sistemas de agentes de IA (un agente por departamento, informes diarios, agentes de WhatsApp/Telegram, n8n/Make).
   · Para una marca de hogar que vende en Amazon en varios países de Europa (bajo NDA: NUNCA la nombres): agentes de IA, muchas imágenes y vídeos de listing, contenido A+ y web.
@@ -1101,21 +1221,42 @@ QUIÉN ES LEO (solo puedes usar estos hechos)
 - Experiencia: edición de vídeo menos de 2 años; anuncios cortos de rendimiento 2 años (solo si la oferta pide un número). No menciones estudios.
 - Tarifa por hora: 25 USD/h. Sueldo esperado (solo si la oferta lo pide): 3.000 €/mes brutos.
 - Acepta pruebas. NO están confirmados (no los pongas): DaVinci Resolve, gestión de Meta Ads.
-- PROHIBIDO: premios, años, cifras o clientes inventados; «exactamente lo que hago»; nombrar «Claude» o «Anthropic»; prometer resultados.
+- PROHIBIDO: premios, años, cifras, clientes o proyectos inventados; «exactamente lo que hago»; nombrar «Claude» o «Anthropic»; prometer resultados.
+
+PROYECTOS DE BEHANCE (enlace directo al más parecido; nunca inventes otro enlace)
+- Webs y landings: https://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through
+- Inmobiliaria o arquitectura: https://www.behance.net/gallery/258576079/See-It-Before-Its-Built-Interactive-Off-Plan-Website
+- Moda, fotos o vídeo de ropa con modelo: https://www.behance.net/gallery/255880675/MASTER-AVATAR-AI-Swimwear-2026
+- Anuncio, producto o campaña: https://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl
+- Cine, videoclip o historia: https://www.behance.net/gallery/254527569/Where-Imagination-Becomes-Real-AI-Cinematic-Short
+- Motion o arte visual: https://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling
+- Amazon, listing o e-commerce: https://www.behance.net/gallery/251447375/Premium-Amazon-Listing-Design-for-Living-Logic
+- Agentes de IA y automatización: https://www.behance.net/gallery/257253261/AI-Agent-Offices-A-Day-Inside-Three-Businesses
+- Branding, logo, packaging, ilustración, diseño de prendas o estampados, redes sociales o editorial: todavía NO hay proyecto. No pongas enlace de proyecto: ofrece la muestra (ver CARTA) y el perfil.
 
 DECISIÓN
 - "enviar": encaja con sus servicios — vídeo o cine con IA, anuncios y UGC con IA, edición de vídeo, motion graphics, imágenes y vídeo de producto, listings y A+ de Amazon, diseño gráfico de anuncios y redes, contenido para Instagram/TikTok/YouTube, webs y landings (también 3D), diseño web, automatización y agentes de IA para empresas y para vendedores de Amazon, implementación o consultoría de IA y automatización (n8n/Make/Zapier, chatbots, asistentes), sin ser programador senior.
-- "dudosa": se envía igual, con carta honesta que no promete lo que no hay en el portfolio — logo, branding o identidad, packaging, presentaciones, ilustración o concept art con IA, VFX/rotoscopia/composición, diseño de producto con IA, gestión de cuentas o del marketplace de Amazon (Amazon account manager / specialist; si pide PPC o Meta Ads avanzado como requisito duro, dilo con honestidad) y todo lo que Leo pueda entregar con IA aunque no tenga una pieza igual.
-- "descartar": exige una especialidad que Leo no puede entregar (joyería o moda para taller, arquitectura/interiores, CAD técnico, ilustración infantil a mano, tatuajes, lettering a mano, arte final de imprenta muy técnico como requisito principal), presencial o híbrido, residencia en un país concreto que no sea España ni Países Bajos (p. ej. «solo Brasil»), idioma que no sea español o inglés como requisito, inglés C1/C2 o nativo obligatorio, reuniones diarias en horario de EE. UU., pago en INR o muy bajo (100 USD o menos por un proyecto entero, o menos de 8 USD/h), programación pura, ventas, contenido para adultos, o pide «X+ años» muy por encima de lo que tiene como requisito duro de una herramienta.
+- "dudosa": se envía igual, con carta honesta que ofrece una muestra corta en lugar de prometer lo que no hay en el portfolio — logo, branding o identidad, packaging, presentaciones, ilustración o concept art con IA, VFX/rotoscopia/composición, diseño de producto con IA, gestión de cuentas o del marketplace de Amazon (Amazon account manager / specialist; si pide PPC o Meta Ads avanzado como requisito duro, dilo con honestidad) y todo lo que Leo pueda entregar con IA aunque no tenga una pieza igual.
+- "descartar": exige una especialidad que Leo no puede entregar (joyería o moda para taller, arquitectura/interiores, CAD técnico, ilustración infantil a mano, tatuajes, lettering a mano, arte final de imprenta muy técnico como requisito principal), presencial o híbrido, residencia en un país concreto que no sea España ni Países Bajos (p. ej. «solo Brasil», «designer in India»), recibir o manipular producto físico, idioma que no sea español o inglés como requisito, inglés C1/C2 o nativo obligatorio, reuniones diarias en horario de EE. UU., pago en INR o muy bajo (100 USD o menos por un proyecto entero, o menos de 8 USD/h), programación pura, ventas, contenido para adultos, la oferta dice que no quiere IA («no AI», «without AI», «organic only», «hand-drawn only»), parece una trampa (enlace externo para aceptar o verificar, «Follow the link», «Accept order», «Verification», «Hi dear»), o pide «X+ años» muy por encima de lo que tiene como requisito duro de una herramienta.
 - "espera": encaja, pero la oferta pide algo que no está en estos hechos y sin lo cual no se puede enviar (un dato, un número de años exacto, un archivo concreto). Escribe igualmente la carta y pon en pregunta_para_leo la pregunta exacta y corta.
 
+PRESENTACIÓN
+- Leo se presenta como «creative director at LeoVisual.nl» / «director creativo de LeoVisual.nl».
+- Si la oferta NO habla de IA (el usuario te lo dice en «¿La oferta habla de IA?»), la carta no menciona la IA en ningún sitio: nada de «AI studio», «AI creative studio», «AI-driven», «studio that works with AI», «created with AI», «con IA». Los enlaces de proyectos sí pueden llevar «AI» en la dirección.
+- Si la oferta SÍ habla de IA, puedes decir que trabaja con IA y cómo la usaría.
+
 CARTA (si no es "descartar")
-- Idioma: el de la oferta. Si la empresa o el contacto escribe en español, en español.
-- 8 a 15 líneas, texto plano, sin markdown, sin emojis, sin asunto.
+- Idioma: español si la oferta está escrita en español; en cualquier otro caso (inglés, portugués, italiano, alemán, chino…), inglés. Nunca otro idioma.
+- 8 a 12 líneas, texto plano, sin markdown, sin emojis, sin asunto, sin texto de plantilla («[…]», «PEGA AQUÍ»).
+- Usa solo datos de ESTA oferta (sector, producto, nombres): no metas otro sector, otro producto ni otro nombre.
 - Saluda por el nombre de pila si el contacto es una persona; si no, «Hi!» / «¡Hola!».
-- Primera frase sobre SU necesidad (no sobre Leo). Después 1–2 trabajos reales que se parezcan y cómo lo haría (pasos concretos y breves). Si no hay una pieza igual, dilo con naturalidad y ofrece una muestra corta o una prueba.
-- Si es FREELANCE: incluye el precio que te dé el usuario (no lo cambies), 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.
-- Termina con una pregunta concreta sobre el proyecto y, en líneas aparte, el portfolio (behance.net/leostudiocreative · leovisual.nl) y la firma «Leo Gómez · LeoVisual.nl».
+- Primera frase sobre SU necesidad, con un detalle concreto de su brief (no sobre Leo).
+- Después, la prueba más parecida: su enlace de PROYECTOS DE BEHANCE en una línea propia (uno; como mucho dos) y cómo lo haría (pasos concretos y breves).
+- NUNCA reconozcas una carencia. Prohibido: «I don't have … in my portfolio (yet)», «my portfolio doesn't include…», «To be honest / to be transparent…», «I haven't done … before», «no tengo todavía…», «aún no he hecho…», «I understand if that is a deal-breaker». Si no hay una pieza igual, en su lugar ofrece en UNA frase una muestra corta y concreta antes de que pague, ligada a su brief (p. ej. «Before you pay anything, I'll send you one logo direction mocked up on your hoodie and cap.» / «Antes de que pagues nada, te envío una dirección de logo aplicada a tu bolsa de café.»). Nunca inventes experiencia, clientes, años ni proyectos. Si el cliente pregunta después por experiencia, Leo responderá la verdad.
+- Si es FREELANCE: el precio que te dé el usuario (no lo cambies), 50 % por adelantado, el plazo según el tamaño del encargo y 2 rondas de cambios. Devuelve ese plazo en el campo plazo.
+- Plazo según el tamaño: pieza suelta (un logo, un cartel o flyer, una miniatura, un banner, una ilustración, un vídeo corto) 2–5 días; identidad visual, packaging, web o un lote de varias piezas 7–10 días; proyecto grande (campaña, serie de vídeos, web compleja, trabajo continuo) el plazo que pida el cliente o uno realista (p. ej. 2–4 semanas). Si el cliente da un plazo, respétalo si es posible.
+- En FREELANCE la carta va en el mensaje de Behance, que admite como mucho 1.000 caracteres: no pases de 900 caracteres en total, contando enlaces y firma.
+- Termina con una pregunta concreta sobre el proyecto y, en líneas aparte, el perfil (behance.net/leostudiocreative · leovisual.nl) y la firma exacta «Leo Gómez · LeoVisual.nl». Nunca «Leonry».
 
 motivo: una frase corta en español para Leo (por qué se envía o se descarta).`;
 
@@ -1136,8 +1277,9 @@ const CARTA_HERRAMIENTA = {
       carta: { type: 'string', description: 'La carta completa. Vacía si la decisión es "descartar".' },
       pregunta_para_leo: { type: 'string', description: 'Solo si la decisión es "espera"; si no, vacía.' },
       precio_cliente: { type: 'number', description: 'Cifra concreta en USD que el cliente dice que pagará en la descripción; 0 si no dice ninguna o no es freelance.' },
+      plazo: { type: 'string', description: 'Plazo de entrega que pones en la carta (p. ej. «2–5 días», «7–10 días», «3 semanas»), en español. Vacío si no es freelance.' },
     },
-    required: ['decision', 'motivo', 'categoria', 'idioma', 'carga', 'carta', 'pregunta_para_leo', 'precio_cliente'],
+    required: ['decision', 'motivo', 'categoria', 'idioma', 'carga', 'carta', 'pregunta_para_leo', 'precio_cliente', 'plazo'],
     additionalProperties: false,
   },
 };
@@ -1166,6 +1308,13 @@ function opcionesPrecio(job) {
   return rangoUSD(job);
 }
 
+// ¿La oferta habla de IA? Lo decide el código (no el modelo) para la regla de la
+// presentación: si no la menciona, la carta tampoco (v3.3).
+const HABLA_DE_IA = /\b(ai|a\.i\.|ia|genai)\b|artificial intelligence|inteligencia artificial|intelig[eê]ncia artificial|generative|generativ[ao]|midjourney|\bkling\b|\brunway\b|\bveo\b|\bsora\b|stable diffusion|chatgpt|\bgpt\b|\bllms?\b|machine learning|seedance|higgsfield|nano banana|\bflux\b|dall-?e|heygen|elevenlabs/i;
+function hablaDeIA(job) {
+  return HABLA_DE_IA.test(`${job.title || ''}\n${job.description || ''}\n${(job.categorias || []).join(' ')}`);
+}
+
 function textoOfertaParaCarta(job, precios) {
   const esFreelance = job.tipoBase === 'FREELANCE' || job.type === 'FREELANCE';
   const lineas = [
@@ -1177,6 +1326,7 @@ function textoOfertaParaCarta(job, precios) {
     `Remoto: ${job.remoto === true ? 'sí' : job.remoto === false ? 'no' : 'no indicado'}${job.ubicacion ? ' · ' + [].concat(job.ubicacion).join(', ') : ''}`,
     `Solicitantes: ${job.solicitantes ?? 'no indicado'} · Cierra en: ${job.cierraEnDias != null ? job.cierraEnDias + ' días' : 'no indicado'}`,
     job.categorias && job.categorias.length ? `Categorías: ${job.categorias.join(', ')}` : '',
+    `¿La oferta habla de IA?: ${hablaDeIA(job) ? 'SÍ (puedes decir que Leo trabaja con IA)' : 'NO (la carta no menciona la IA en ningún sitio)'}`,
     '',
     'Descripción:',
     (job.description || '(sin descripción)').slice(0, CARTA_DESC_MAX),
@@ -1190,8 +1340,17 @@ function textoOfertaParaCarta(job, precios) {
   return lineas.filter((l) => l !== '').join('\n').replace(/\nDescripción:/, '\n\nDescripción:');
 }
 
-// Comprobaciones de honestidad sobre la carta ya escrita (no la cambian: avisan).
-function avisosCarta(texto) {
+// Comprobaciones de honestidad y de las reglas v2 sobre la carta ya escrita (no la
+// cambian: avisan; la tarea de envío pule solo esas frases). ctx: { iaEnOferta, esFreelance }.
+function avisosCarta(texto, ctx = {}) {
+  const sinEnlaces = String(texto || '').replace(/https?:\/\/\S+/g, ' ');
+  const extra = [];
+  if (/don'?t (yet )?have[^.\n]{0,80}portfolio|not (yet )?in my portfolio|portfolio (doesn'?t|does not|isn'?t)|to be (honest|transparent)|haven'?t (yet )?(done|worked on|designed|made)|no tengo (todav[ií]a|a[uú]n)|a[uú]n no (tengo|he)|todav[ií]a no (tengo|he)|deal[- ]?breaker/i.test(sinEnlaces)) extra.push('reconoce una carencia');
+  if (ctx.iaEnOferta === false && /\b(ai|a\.i\.|ia)\b|artificial intelligence|inteligencia artificial|\bgenerative\b/i.test(sinEnlaces)) extra.push('habla de IA y la oferta no');
+  if (/\bleonry\b/i.test(texto)) extra.push('firma «Leonry»');
+  if (/\[[^\]]*\]|pega aqu[ií]|paste here/i.test(texto)) extra.push('texto de plantilla');
+  if (texto && !/Leo G[oó]mez · LeoVisual\.nl/.test(texto)) extra.push('falta la firma «Leo Gómez · LeoVisual.nl»');
+  if (ctx.esFreelance && texto && texto.length > 1000) extra.push(`${texto.length} caracteres (máx. 1.000 en el mensaje)`);
   const reglas = [
     [/\bclaude\b|\banthropic\b/i, 'nombra la herramienta'],
     [/\bfluent\b|\bnative (english|speaker)\b|\bbiling[üu]e\b/i, 'exagera el inglés'],
@@ -1200,8 +1359,11 @@ function avisosCarta(texto) {
     [/\baward|premio/i, 'menciona premios'],
     [/exactly what i do|exactamente lo que hago/i, 'frase prohibida'],
   ];
-  return reglas.filter(([re]) => re.test(texto)).map(([, m]) => m);
+  return [...reglas.filter(([re]) => re.test(texto)).map(([, m]) => m), ...extra];
 }
+
+// Plazo por defecto si el modelo no devuelve ninguno (según la carga del encargo).
+const PLAZO_POR_CARGA = { baja: '2–5 días', media: '7–10 días', alta: '2–4 semanas' };
 
 function costeUSD(modelo, u) {
   const p = CARTA_PRECIOS[modelo];
@@ -1284,9 +1446,9 @@ async function redactarCarta(job, state) {
     texto: x.decision === 'descartar' ? '' : texto,
     precioUSD: precio,
     anticipoPct: esFreelance ? 50 : null,
-    plazo: esFreelance ? '7–10 días' : '',
+    plazo: esFreelance ? (String(x.plazo || '').trim() || PLAZO_POR_CARGA[x.carga] || '7–10 días') : '',
     pregunta: x.pregunta_para_leo || '',
-    avisos: [...avisos, ...avisosCarta(texto)],
+    avisos: x.decision === 'descartar' ? avisos : [...avisos, ...avisosCarta(texto, { iaEnOferta: hablaDeIA(job), esFreelance })],
     modelo: CARTA_MODELO,
     tokens: { entrada: u.input_tokens || 0, salida: u.output_tokens || 0, cacheLeida: u.cache_read_input_tokens || 0, cacheEscrita: u.cache_creation_input_tokens || 0 },
     costeUSD: costeUSD(CARTA_MODELO, u),
@@ -1312,23 +1474,56 @@ async function pruebaCarta() {
       budget: o.presupuesto, remoto: o.remoto, ubicacion: o.ubicacion, empresa: o.empresa, contacto: o.contacto,
       solicitantes: o.solicitantes, cierraEnDias: o.cierraEnDias, description: o.descripcion,
     };
-    const c = await redactarCarta(job, estado);
+    const filtro = filtroPrevio(job);
+    const c = filtro ? cartaDeFiltro(filtro) : await redactarCarta(job, estado);
     total += (c && c.costeUSD) || 0;
     console.log(`\n══ ${o.id} · ${o.titulo} · ${o.presupuesto}`);
     console.log(JSON.stringify({ ...c, texto: undefined }, null, 1));
     if (c && c.texto) console.log(`── carta ──\n${c.texto}`);
     resultados.push({ id: o.id, titulo: o.titulo, presupuesto: o.presupuesto, enlace: o.enlace, carta: c });
     // A Telegram, para que Leo vea cada carta en el móvil (en silencio).
-    if (process.env.TELEGRAM_BOT_TOKEN && c) {
+    if (process.env.TELEGRAM_BOT_TOKEN && c && !(filtro && filtro.tipo === 'trampa')) {
       const cab = `🧪 PRUEBA de carta (${esc(CARTA_MODELO)}) · no se ha enviado nada\n<b>${esc(o.titulo)}</b>\n💰 ${esc(o.presupuesto || '—')} · ${esc(o.enlace)}`;
       const cuerpo = c.error ? `⚠️ Error: ${esc(c.error)}`
-        : `Decisión: <b>${esc(c.decision.toUpperCase())}</b>${c.precioUSD != null ? ' · ' + c.precioUSD + ' USD' : ''} — ${esc(c.motivo)}${c.avisos.length ? '\n⚠️ ' + esc(c.avisos.join(', ')) : ''}${c.texto ? '\n\n' + esc(c.texto) : ''}`;
+        : `${c.filtro ? 'Filtro (sin API)' : 'Decisión'}: <b>${esc(c.decision.toUpperCase())}</b>${c.precioUSD != null ? ' · ' + c.precioUSD + ' USD' + (c.plazo ? ', ' + esc(c.plazo) : '') : ''} — ${esc(c.motivo)}${c.avisos.length ? '\n⚠️ ' + esc(c.avisos.join(', ')) : ''}${c.texto ? '\n\n' + esc(c.texto) : ''}`;
       await sendTelegram(`${cab}\n\n${cuerpo}`, { silencioso: true, html: true });
     }
   }
   console.log(`\nCoste total de la prueba: ${total.toFixed(4)} USD (${CARTA_MODELO}).`);
   const pub = await actualizarArchivoCola('prueba-cartas.json', () => ({ fecha: new Date().toISOString(), modelo: CARTA_MODELO, costeTotalUSD: Math.round(total * 1e4) / 1e4, resultados }), 'prueba de cartas con la API');
   console.log(`Resultado guardado en la rama cola (prueba-cartas.json): ${pub}`);
+}
+
+// Prueba EN SECO de los filtros previos (v3.3): PRUEBA_FILTROS=1 node vigilante.js
+// Pasa los filtros por las ofertas de ofertas.json y mundo.json de la rama «cola»
+// (o de los archivos locales de PRUEBA_ARCHIVOS, separados por comas) y lo muestra
+// en el log. No llama a la API, no avisa por Telegram y no escribe nada.
+async function pruebaFiltros() {
+  const locales = (process.env.PRUEBA_ARCHIVOS || '').split(',').map((x) => x.trim()).filter(Boolean);
+  const fuentes = locales.length ? locales : [COLA_ARCHIVO, MUNDO_ARCHIVO];
+  const resumen = { total: 0, trampa: 0, ubicacion: 0, 'sin-ia': 0, pasan: 0, apiDecia: {} };
+  for (const f of fuentes) {
+    let datos;
+    if (locales.length) datos = JSON.parse(fs.readFileSync(f, 'utf8'));
+    else {
+      const res = await fetch(`https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY || 'LEONIDES600/behance-vigilante'}/${COLA_RAMA}/${f}`, { signal: AbortSignal.timeout(30000) });
+      datos = await res.json();
+    }
+    console.log(`\n══ ${f}: ${(datos.ofertas || []).length} ofertas`);
+    for (const o of datos.ofertas || []) {
+      const job = { title: o.titulo, empresa: o.empresa, contacto: o.contacto, description: o.descripcion };
+      const r = filtroPrevio(job);
+      resumen.total++;
+      const antes = (o.carta && (o.carta.decision || (o.carta.error ? 'error' : ''))) || '—';
+      if (r) {
+        resumen[r.tipo]++;
+        resumen.apiDecia[antes] = (resumen.apiDecia[antes] || 0) + 1;
+        console.log(`  ⛔ ${String(o.id).padEnd(8)} [${r.tipo}] ${r.motivo} · antes: ${antes} · ${String(o.titulo).slice(0, 60)} | ${String(o.empresa || '').slice(0, 30)}`);
+      } else resumen.pasan++;
+    }
+  }
+  console.log(`\nResumen: ${JSON.stringify(resumen)}`);
+  return resumen;
 }
 
 // ───────────────────────────────── Estado ─────────────────────────────────
@@ -1400,7 +1595,7 @@ function saveState(state) {
 
 function contar(state, clave) {
   const hoy = new Date().toISOString().slice(0, 10);
-  if (!state.stats || state.stats.fecha !== hoy) state.stats = { fecha: hoy, nuevas: 0, alto: 0, medio: 0, bajo: 0, no: 0, enCola: 0, enMundo: 0, cartas: 0, cartasError: 0, costeCartasUSD: 0 };
+  if (!state.stats || state.stats.fecha !== hoy) state.stats = { fecha: hoy, nuevas: 0, alto: 0, medio: 0, bajo: 0, no: 0, enCola: 0, enMundo: 0, cartas: 0, cartasError: 0, costeCartasUSD: 0, filtroTrampa: 0, filtroUbicacion: 0, filtroSinIA: 0 };
   state.stats[clave] = (state.stats[clave] || 0) + 1;
 }
 
@@ -1467,6 +1662,7 @@ async function diagnostico() {
 async function main() {
   if (process.env.DIAGNOSTICO === '1') return diagnostico();
   if (process.env.PRUEBA_CARTA) return pruebaCarta();
+  if (process.env.PRUEBA_FILTROS) return pruebaFiltros();
   let state = loadState();
   const firstRun = state === null;
   if (firstRun) state = estadoVacio();
@@ -1605,6 +1801,15 @@ async function main() {
     }
     const enc = encaje(job);
     contar(state, enc.nivel);
+    // v3.3: trampas, ubicación fuera de la UE / producto físico y «no AI» se
+    // descartan aquí, sin llamar a la API (la carta queda como «descartar»).
+    const filtro = filtroPrevio(job);
+    if (filtro) {
+      job.carta = cartaDeFiltro(filtro);
+      contar(state, FILTRO_STAT[filtro.tipo]);
+      console.log(`  Filtro previo [${filtro.tipo}] ${filtro.motivo}: ${job.title}`);
+    }
+    const esTrampa = !!filtro && filtro.tipo === 'trampa';
     const esBehance = job.sourceKey === 'behance';
     // Webs que no son Behance: solo se avisan (y se guardan en mundo.json) las que
     // encajan; el resto se marca como vista sin mensaje, para no llenar Telegram.
@@ -1613,8 +1818,9 @@ async function main() {
       continue;
     }
     if (!esBehance) {
-      // v3.2: también se escribe la carta de las webs mundiales que encajan.
-      const carta = await redactarCarta(job, state);
+      // v3.2: también se escribe la carta de las webs mundiales que encajan
+      // (salvo si ya la ha descartado un filtro previo).
+      const carta = filtro ? null : await redactarCarta(job, state);
       if (carta) {
         job.carta = carta;
         contar(state, carta.error ? 'cartasError' : 'cartas');
@@ -1622,6 +1828,7 @@ async function main() {
       }
       paraMundo.push({ job, enc });
       contar(state, 'enMundo');
+      if (esTrampa) { console.log(`  Sin aviso (oferta trampa) [${job.source}]: ${job.title}`); continue; }
       avisosFuente[job.sourceKey] = (avisosFuente[job.sourceKey] || 0) + 1;
       if (avisosFuente[job.sourceKey] > MUNDO_AVISOS_MAX_POR_FUENTE) {
         console.log(`  Solo a mundo.json (tope de ${MUNDO_AVISOS_MAX_POR_FUENTE} avisos de ${job.source} por pasada): ${job.title}`);
@@ -1630,7 +1837,7 @@ async function main() {
     }
     const aClaude = ROUTINE_SOURCES.includes(job.sourceKey) && NIVELES_A_COLA.includes(enc.nivel);
     // v3.2: la carta se escribe AHORA con la API (si hay clave), antes de avisar.
-    if (aClaude) {
+    if (aClaude && !filtro) {
       const carta = await redactarCarta(job, state);
       if (carta) {
         job.carta = carta;
@@ -1639,8 +1846,10 @@ async function main() {
         console.log(`  Carta API: ${carta.error ? 'ERROR ' + carta.error : `${carta.decision}${carta.precioUSD != null ? ' ' + carta.precioUSD + ' USD' : ''} (${carta.costeUSD != null ? carta.costeUSD.toFixed(4) : '?'} USD)`}`);
       }
     }
-    const revision = aClaude ? await fireRoutine(job, state) : 'no-aplica';
+    const revision = aClaude && !filtro ? await fireRoutine(job, state) : 'no-aplica';
     if (aClaude) { paraCola.push({ job, enc }); contar(state, 'enCola'); }
+    // Las trampas no se avisan por Telegram (quedan en la cola como «descartar»).
+    if (esTrampa) { console.log(`  Sin aviso (oferta trampa) [${job.source}]: ${job.title}`); continue; }
     const lineaRevision = {
       lanzada: '🤖 Revisión automática en marcha: si encaja, la contesto y te aviso.',
       'limite-hora': '⏸ Revisión automática en pausa (más de 20 en 1 h): revísala tú.',
@@ -1663,4 +1872,4 @@ if (require.main === module) {
   main().catch((e) => { console.error(e); process.exit(1); });
 }
 
-module.exports = { main, encaje, redactarCarta, precioFreelance, rangoUSD, opcionesPrecio, textoOfertaParaCarta, avisosCarta, CARTA_SISTEMA, idioma, buildProposal, extractBehanceJobs, behanceEstado, nodoAOferta, enrichBehance, mensajeTelegram, publicarCola, publicarEstado, publicarMundo, routineText, fireRoutine, passesFilters, formatoDinero, ubicacionPermitida, sourceRemotive, sourceJobicy, sourceHimalayas, himalayasOferta, SOURCES };
+module.exports = { main, encaje, filtroPrevio, cartaDeFiltro, redactarCarta, precioFreelance, rangoUSD, opcionesPrecio, textoOfertaParaCarta, avisosCarta, CARTA_SISTEMA, idioma, buildProposal, extractBehanceJobs, behanceEstado, nodoAOferta, enrichBehance, mensajeTelegram, publicarCola, publicarEstado, publicarMundo, routineText, fireRoutine, passesFilters, formatoDinero, ubicacionPermitida, sourceRemotive, sourceJobicy, sourceHimalayas, himalayasOferta, SOURCES };

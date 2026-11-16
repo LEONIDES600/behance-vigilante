@@ -165,6 +165,33 @@ lo conviertas en un aviso por pasada: sería spam cada 3 minutos.
   Tampoco `temperature`/`top_p`/`top_k`, prefill ni `thinking: disabled`. Coste medido ≈ 0,03 USD/carta.
   Prueba sin avisar: *Run workflow* con `prueba_carta` = nº de ofertas (o
   `PRUEBA_CARTA=3 node vigilante.js` en local, con la clave en el entorno).
+- v3.3 (16/11/2026): **filtros previos y carta v2**, tras el análisis de los 40 rechazos de
+  Behance (Drive › 02_Empleo › «2026-11-16_Analisis_propuestas_rechazadas_Behance» y
+  «2026-11-16_Tarea_Envio_Behance_v2_texto_para_aprobar»).
+  - `filtroPrevio(job)` corre ANTES de la API (todas las fuentes, tras `encaje`):
+    `trampa` (título/empresa/contacto con «Follow the link», «accept offer/order», «Order Notify»,
+    «Hi dear», «Verification link»…, o que son solo «Info», «Information», «Verification»,
+    «New offer»; enlace externo para aceptar/verificar en la descripción; plantilla de la
+    campaña «new home goods brand»), `ubicacion` (residencia OBLIGATORIA fuera de la UE —«preferred»
+    no cuenta; «US»/«UK» se convierten distinguiendo mayúsculas— o recibir producto físico) y
+    `sin-ia` («no AI», «without AI», «organic only», «hand-drawn only», «sin IA»…). Solo casos
+    claros: lo dudoso lo sigue decidiendo la API. El resultado es `cartaDeFiltro` =
+    `{ decision: 'descartar', filtro, motivo, modelo: 'filtro previo (sin API)' }`: la oferta va
+    igual a la cola (la tarea la apunta como DESCARTADA) pero no gasta API ni lanza la tarea.
+    Las trampas NO se avisan por Telegram; ubicación y sin IA llegan en silencio.
+    Contadores `filtroTrampa`, `filtroUbicacion`, `filtroSinIA` en estado.json.
+  - `CARTA_SISTEMA`: Leo es «creative director at LeoVisual.nl»; si la oferta no habla de IA
+    (lo calcula `hablaDeIA` y va en el mensaje), la carta no la menciona; nunca reconoce
+    carencias (en su lugar, una muestra corta y concreta, sin inventar); enlace directo al
+    proyecto de Behance más parecido (lista PROYECTOS DE BEHANCE: si se publica uno nuevo, se
+    añade ahí y en Drive › 13_Portfolio_Que_Falta_Behance); plazo según el tamaño (campo
+    `plazo` de la herramienta → `carta.plazo`); español solo si la oferta está en español, si
+    no inglés; freelance ≤ 900 caracteres; firma «Leo Gómez · LeoVisual.nl».
+  - `avisosCarta(texto, ctx)` añade avisos: «reconoce una carencia», «habla de IA y la oferta
+    no», «Leonry», plantilla, falta la firma, más de 1.000 caracteres (freelance).
+  - Prueba EN SECO de los filtros (sin API, sin Telegram, sin escribir):
+    `PRUEBA_FILTROS=1 node vigilante.js` (lee ofertas.json y mundo.json de la rama cola, o
+    `PRUEBA_ARCHIVOS=a.json,b.json`). La prueba de cartas (`prueba_carta`) aplica también el filtro.
 - `SOURCES` — plataformas vigiladas (añadir/quitar aquí).
 - `SEARCHES` — términos de búsqueda de Behance (`''` = portada del joblist).
 - `INCLUDE` / `EXCLUDE` — palabras clave para el filtro de relevancia, comunes a
