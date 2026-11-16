@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T18:48:58.724Z",
+  "actualizado": "2026-11-16T19:01:32.437Z",
   "ofertas": [
+    {
+      "id": "570113",
+      "tipo": "FREELANCE",
+      "titulo": "Gaming and Streamer Profile, Social Media, and Product Branding Design",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570113/Gaming-and-Streamer-Profile-Social-Media-and-Product-Branding-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a designer to create gaming and streamer-focused profile pictures, social media posts, and product branding assets for gamers.",
+      "vista": "2026-11-16T19:01:32.437Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "El diseño para redes encaja, pero el branding y el estilo gaming no aparecen en su portfolio. Va con una carta honesta y una muestra de prueba.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYou need one consistent visual style for gamers and streamers that works across profile pictures, social posts and product branding.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. I do graphic design for ads and social media, motion graphics and product visuals.\nFor a home brand selling on Amazon in several European countries, I made a large set of product images, listing visuals and A+ content, all in one style. I also made ORBE and SILENCIO, cinematic ads created with AI.\nI don't have a gaming piece in my portfolio yet, so I'm happy to make a short sample first, such as one profile picture.\nHow I would work: a moodboard and style direction, then profile picture options, then social post templates and the product branding assets. Everything is delivered in the sizes each platform needs.\nPrice: 250 USD, with 50% upfront. Delivery in 7–10 days, with 2 rounds of changes included.\nHow many profile pictures and posts do you need, and do you already have a logo or colors for the product brand?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 395,
+          "salida": 1044,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.037455,
+        "generada": "2026-11-16T19:01:31.712Z"
+      }
+    },
     {
       "id": "570097",
       "tipo": "FREELANCE",
@@ -3862,45 +3901,6 @@
         },
         "costeUSD": 0.0285038,
         "generada": "2026-11-13T15:37:51.221Z"
-      }
-    },
-    {
-      "id": "568397",
-      "tipo": "FREELANCE",
-      "titulo": "Facial Likeness Refinement for a Watercolor and Ink Graphic Novel",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568397/Facial-Likeness-Refinement-for-a-Watercolor-and-Ink-Graphic-Novel",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Hi, I’m working on a personal illustrated graphic novel of approximately 80–90 pages in a watercolor-and-ink style with realistic elements. The illustrations are already complete, and I need the facial likeness and consistency of the two main characters refined using real photos as references, while preserving the original artistic style and composition.",
-      "vista": "2026-11-13T15:36:34.056Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Retoque de rostros con IA en ilustraciones ya hechas; Leo puede hacerlo, pero no tiene ninguna novela gráfica ni acuarela en el portfolio y son 80–90 páginas.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nYour two main characters need to look like the real people in your photos and stay consistent across 80–90 pages, without losing your watercolor-and-ink style or changing the compositions.\nTo be honest, I don't have a graphic novel in my portfolio. I have done a lot of paid image work with AI tools like GPT Image and Nano Banana Pro, including keeping products consistent across many images, plus retouching in Adobe tools.\nHow I would do it: first, build a reference sheet for each character from your photos. Then refine the faces panel by panel with AI, using those references. After that, retouch by hand so the ink lines, paper texture and watercolor washes match your original art. Last, check every page side by side to keep the likeness consistent.\nBefore you decide, I can do a free short test on one or two pages so you can judge the result.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nAbout how many panels show the two characters, and how many reference photos do you have of each?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 465,
-          "salida": 1136,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0251798,
-        "generada": "2026-11-13T15:36:33.025Z"
       }
     }
   ]
