@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T18:03:30.496Z",
+  "actualizado": "2026-11-16T18:18:13.615Z",
   "ofertas": [
+    {
+      "id": "570065",
+      "tipo": "FREELANCE",
+      "titulo": "Multi-Disciplinary Design Support for a New Home Goods Brand Launch",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570065/Multi-Disciplinary-Design-Support-for-a-New-Home-Goods-Brand-Launch",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Follow the link to accept offer",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m launching a new home goods brand and need freelance specialists to support brand identity, packaging, website design, copywriting, and visual content. You can take on an individual task based on your specialty, with work expected to be completed within 4–6 weeks.",
+      "vista": "2026-11-16T18:18:13.615Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Marca nueva de hogar que busca web y contenido visual: encaja con su trabajo real para una marca de hogar y con sus webs 3D.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nA new home goods brand needs a website and visuals that look consistent from day one, so people trust it from the first product page.\nI would like to take the website design and the visual content (product images and short product videos).\nI have done similar work for a home brand that sells on Amazon in several European countries (under NDA): listing images and videos, A+ content and their website.\nI also build 3D scroll websites in code, like LUMEN and FORJA (three.js + GSAP).\nHow I would work: 1) a short call about your products and style, 2) a moodboard and the homepage design, 3) building the site and creating the product visuals with AI (GPT Image, Kling), 4) final adjustments.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days (well within your 4–6 weeks) and 2 rounds of changes.\nWhich part would you like me to take: the website, the visual content, or both? And do you already have product photos?\n\nPortfolio: behance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 445,
+          "salida": 1347,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.043715,
+        "generada": "2026-11-16T18:18:12.820Z"
+      }
+    },
     {
       "id": "570051",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.014043799999999999,
         "generada": "2026-11-13T15:32:07.557Z"
-      }
-    },
-    {
-      "id": "371803",
-      "tipo": "FULLTIME",
-      "titulo": "Creative Specialist",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371803/Creative-Specialist",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "CashBee",
-      "contacto": "Daria Romashko",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Creative Specialist (Graphic & Motion )\n У CashBee ми будуємо performance-маркетинг компанію нового покоління — прозору, структуровану та орієнтовану на результат. Ми віримо, що сильні креативи народжуються там, де є зрозумілі процеси, простір для ідей і команда, яка цінує професійний підхід до роботи.\n Зараз ми шукаємо Creative Specialist рівня Middle — людину, яка добре відчуває сучасні тренди в дизайні, вміє створювати креативи, що привертають увагу та працюють на результат, і хоче розвиватися разом із командою, для якої якість, тестування гіпотез і постійний розвиток є частиною щоденної роботи.\n Що важливо для цієї ролі:  \n розуміння базових принципів побудови креативу (кольори / перспектива / позиціювання елементів)\n впевнене володіння пакетом програм Adobe (After Effects, Photoshop)\n мати пул власних напрацювань використання AI інструментів + бажання тестувати нові\n актуальний досвід роботи з продакшеном статики та відео (спеціалісти з досвідом роботи в gambling вертикалі розглядаються в приоритеті)\n наявне портфоліо\n вміння планувати свій робочий день\n Чим ти будеш займатись: \n створювати відеокреативи та статичні банери\n тестувати та освоювати нові інструменти дизайну\n працювати з 2D / 3D анімацією та motion-ефектами\n адаптувати дизайни під різні формати, платформи та гео\n шукати референси та нові ідеї для креативів\n Що пропонуємо \n Конкурентну заробітну плату\n Гнучкий графік роботи\n Можливість працювати з офісу у Варшаві або full remote\n 20 днів оплачуваної відпустки",
-      "vista": "2026-11-13T15:34:11.694Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Encaja con lo que hace (anuncios en vídeo y estáticos con IA, motion, After Effects) y es 100 % remoto; ojo: el equipo escribe en ucraniano, aunque no lo piden como requisito.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Daria,\n\nYou need someone who can make video creatives and static banners that get attention, then adapt them fast to different formats, platforms and geos so the team can keep testing hypotheses.\n\nTwo pieces of my work come close to this. ORBE and SILENCIO are cinematic ads I made with AI: idea, generation, editing and sound. For a home brand selling on Amazon in several European countries, I produced a large volume of product images and videos, which meant many variations and formats.\n\nMy workflow: references and ideas first, then AI generation (Kling, Seedance, GPT Image, Nano Banana Pro), then finishing in After Effects, Photoshop and Premiere with motion graphics and 2D/3D animation, and finally the resizing for each format and market.\n\nTo be transparent: I have not worked in the gambling vertical yet. I work in English (working level) and Spanish, not Ukrainian. I'm happy to do a test creative so you can see my speed and quality.\n\nWhich formats and platforms take most of your production right now: short vertical video or static banners?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 958,
-          "salida": 1228,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.028991799999999998,
-        "generada": "2026-11-13T15:32:21.732Z"
       }
     }
   ]
