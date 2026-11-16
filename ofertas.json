@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T17:50:01.465Z",
+  "actualizado": "2026-11-16T17:51:18.323Z",
   "ofertas": [
+    {
+      "id": "570035",
+      "tipo": "FREELANCE",
+      "titulo": "Multidisciplinary Design Support for New Home Goods Brand Launch",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570035/Multidisciplinary-Design-Support-for-New-Home-Goods-Brand-Launch",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Information",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm launching a new home goods brand and need freelance support across brand identity, packaging, website design, copywriting, and visual content. You can take on an individual task based on your specialty, with an expected timeline of 4–6 weeks.",
+      "vista": "2026-11-16T17:51:18.323Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Marca de hogar que necesita web y contenido visual, lo mismo que Leo ya hizo para una marca de hogar en Amazon; identidad y packaging se ofrecen con una muestra.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA new home goods brand needs its website, product visuals and packaging to feel like one brand from day one.\nI'd suggest I take on the website and visual content, since that's where my work is strongest.\nFor a home brand that sells on Amazon in several European countries (under NDA), I created many product images and videos, A+ content and the website.\nI also build 3D scroll websites in code (three.js + GSAP), like LUMEN and FORJA.\nHere's how I'd do it: a short call about your products and audience, then a moodboard and homepage design, then the build and a set of AI product images and short videos in the same style.\nI don't have packaging or full brand identity work in my portfolio yet, so for those I'm happy to do a short sample first.\nPrice: 1000 USD for the task, 50% upfront, delivery in 7–10 days with 2 rounds of changes.\nWhich part would you like to start with, and do you already have a logo and product photos?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 430,
+          "salida": 1307,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0284598,
+        "generada": "2026-11-16T17:51:17.153Z"
+      }
+    },
     {
       "id": "569985",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.0458758,
         "generada": "2026-11-13T15:34:09.809Z"
-      }
-    },
-    {
-      "id": "568421",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Identity and Packaging Design",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568421/Brand-Identity-and-Packaging-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m seeking a designer to create a brand identity and packaging design, with a total budget of $600. The work should establish a cohesive visual identity and translate it into packaging artwork.",
-      "vista": "2026-11-13T15:26:55.916Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Branding y packaging encajan con lo que Leo puede hacer con IA y diseño gráfico, pero no tiene ninguna pieza igual en el portfolio, así que la carta lo dice y ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYou need a clear visual identity that carries over to your packaging, so the brand looks the same everywhere it shows up.\nTo be honest, I don't have a full branding and packaging project in my portfolio yet. My closest work is for a home brand that sells on Amazon across Europe (under NDA). For them I made many product listing images and videos, A+ content and their website, all in one visual style.\nHere is how I would do it: first a short brief about your product, audience and references. Then 2 or 3 identity directions (logo, colors, type, graphic style). Once you pick one, I turn it into a small brand guide and the packaging artwork, plus mockups so you can see it on the real product.\nIf it helps you decide, I can make a short free sample first, like a mood board or a first logo sketch.\nPrice: 600 USD, with 50% upfront. Delivery in 7–10 days, with 2 rounds of changes.\nWhat product is the packaging for, and do you already have the box or bag size and the printer's specs?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 600,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 399,
-          "salida": 850,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0191958,
-        "generada": "2026-11-13T15:26:40.133Z"
       }
     }
   ]
