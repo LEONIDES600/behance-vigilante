@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T22:03:11.359Z",
+  "actualizado": "2026-11-16T22:56:16.860Z",
   "ofertas": [
+    {
+      "id": "570385",
+      "tipo": "FREELANCE",
+      "titulo": "Branding for a NYC-Style Pizza Brand",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570385/Branding-for-a-NYC-Style-Pizza-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for branding for a NYC-style pizza brand. The identity should capture the recognizable character and appeal of New York–style pizza.",
+      "vista": "2026-11-16T22:56:16.860Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding e identidad: se puede hacer con diseño gráfico e IA, pero no hay ninguna marca parecida en el portfolio.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA NYC-style pizza brand needs an identity people recognize right away. It should be bold, a bit gritty and full of character, and work just as well on a pizza box as on an Instagram post.\nTo be honest, I don't have a full pizza brand identity in my portfolio yet. Most of my work is AI-driven visuals, motion and web. For example, ORBE and SILENCIO are cinematic AI ads, and LUMEN is a 3D scroll website. In both, building a strong visual character was the core of the job.\nHow I would approach it:\n1. A short moodboard with New York references: street signage, classic pizzeria storefronts and subway typography.\n2. Two or three logo and identity directions (logo, colors, type) for you to choose from.\n3. The chosen direction applied to a pizza box, a menu and a few social posts.\nIf it helps you decide, I'm happy to make a short sample direction first.\nMy price for this would be 1000 USD, with 50% upfront. Delivery takes 7–10 days and includes 2 rounds of changes.\nDo you already have a brand name, and will the identity be used mainly for a physical pizzeria, for delivery, or for both?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 386,
+          "salida": 1242,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.041379,
+        "generada": "2026-11-16T22:56:15.813Z"
+      }
+    },
     {
       "id": "570371",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.024215,
         "generada": "2026-11-13T19:24:19.001Z"
-      }
-    },
-    {
-      "id": "367613",
-      "tipo": "FULLTIME",
-      "titulo": "Experienced Video Editor (Creative & Performance Content)",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/367613/Experienced-Video-Editor-(Creative-Performance-Content)",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Outsource Direct",
-      "contacto": "Sam Cosme",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "We're looking for an experienced remote Video Editor with a strong eye for storytelling, pacing, visual rhythm, and audience retention .\n You'll work across short-form social, branded content, performance creative, YouTube and other digital video formats.\n We're particularly interested in editors whose portfolios demonstrate:\n Strong storytelling and pacing \n Short-form / social-first editing \n Creative use of B-roll and sound design \n Motion graphics or After Effects \n Commercial, creator or brand work \n Experience: 2+ years preferred\n Location: Remote, Philippines\n Your portfolio is the most important part of your application.\n We want to see work where you made creative decisions , not simply followed a template.\n Apply through the job-specific application link provided.",
-      "vista": "2026-11-13T18:36:44.797Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Aunque la ficha dice «Anywhere», la descripción pide estar en Filipinas (agencia de outsourcing filipina) y no indica sueldo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 481,
-          "salida": 379,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.024499,
-        "generada": "2026-11-13T18:36:43.218Z"
       }
     }
   ]
