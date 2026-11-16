@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T12:28:45.928Z",
+  "actualizado": "2026-11-16T13:35:41.508Z",
   "ofertas": [
+    {
+      "id": "569865",
+      "tipo": "FREELANCE",
+      "titulo": "Solicitud colaboración web CASA-BID",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569865/Solicitud-colaboracion-web-CASA-BID",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Hola, soy Cristina, diseñadora gráfica y directora de arte.\nBusco un desarrollador freelance para CASA-BID (www.casa-bid.com), una plataforma inmobiliaria creada con Claude y GitHub.\nNecesitamos revisar el código e implementar el nuevo branding y diseño responsive que prepararé, sin perder las funcionalidades actuales. El objetivo es una primera actualización en tres semanas y después un rediseño más completo.\n¿Te interesaría valorar el proyecto? ¿Tienes disponibilidad y podrías indicarme tus tarifas?\n¡Gracias!",
+      "vista": "2026-11-16T13:35:41.508Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Implementar en código un nuevo branding y diseño responsive en una web existente encaja con sus webs en código; remoto y buen presupuesto.",
+        "categoria": "WEB",
+        "idioma": "es",
+        "carga": "media",
+        "texto": "Hola, Cristina:\nPara CASA-BID lo importante es que el nuevo branding y el diseño responsive entren bien en el código sin romper nada de lo que ya funciona, y que la primera actualización esté lista en tres semanas.\nHago webs en código con un flujo apoyado en IA (HTML/CSS/JS), como LUMEN y FORJA, dos webs 3D con scroll hechas con three.js y GSAP.\nLo plantearía así: primero reviso el repositorio de GitHub y hago una lista de las funcionalidades actuales; después aplico tu diseño (colores, tipografías, componentes) página por página, adapto móvil y tablet, y pruebo que cada función siga funcionando antes de publicar.\nNo soy un programador backend senior, así que si en la revisión aparece algo de lógica o de base de datos fuera de mi alcance, te lo diré claramente desde el principio.\nPara esta primera actualización, la tarifa sería de 2500 USD, con un 50 % por adelantado, entrega en 7–10 días desde que tenga tus diseños y acceso al código, y 2 rondas de cambios. Después podemos valorar juntos el rediseño completo.\nTengo disponibilidad para empezar ya.\n¿Me podrías dar acceso de lectura al repositorio y decirme si me pasarás los diseños en Figma, para confirmarte el alcance exacto?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 555,
+          "salida": 1231,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.041835,
+        "generada": "2026-11-16T13:35:40.440Z"
+      }
+    },
     {
       "id": "569835",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.043407,
         "generada": "2026-11-13T08:24:13.568Z"
-      }
-    },
-    {
-      "id": "568281",
-      "tipo": "FREELANCE",
-      "titulo": "Hand Cream Packaging and Brand Identity Design",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568281/Hand-Cream-Packaging-and-Brand-Identity-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a packaging designer to create the design for a hand cream product and develop the overall brand identity. The work should establish a cohesive visual presence across the product packaging and core brand elements.",
-      "vista": "2026-11-13T08:24:27.400Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Packaging y branding con IA: Leo puede hacerlo, aunque no tiene una pieza igual en el portfolio; se envía con una carta honesta y ofreciendo una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA hand cream needs packaging and a brand identity that work as one system, so the tube or jar, the box and the core brand elements all speak the same visual language.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. To be honest, I don't have a packaging or full identity project in my portfolio yet. But I have made a lot of product visuals for a home brand that sells on Amazon in several European countries (listing images, videos and A+ content), and every piece had to look like the same brand.\nHere's how I'd approach it: a short brief on your audience and tone, then 2–3 directions (logo, colour palette, typography, mood). Once you pick one, I'd apply it to your packaging layout and put together a small brand sheet so everything stays consistent.\nIf it helps you decide, I'm happy to make a short sample of one direction first.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nDo you already have the format (tube, jar or box) and the dieline from your manufacturer, and a name for the brand?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 402,
-          "salida": 1291,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0280278,
-        "generada": "2026-11-13T08:24:26.638Z"
       }
     }
   ]
