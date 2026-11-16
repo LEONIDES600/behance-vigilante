@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T21:48:49.439Z",
+  "actualizado": "2026-11-16T21:55:41.856Z",
   "ofertas": [
+    {
+      "id": "570363",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity & Shopify Website Designer for Women's Golf & Lifestyle Brand",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570363/Brand-Identity-Shopify-Website-Designer-for-Womens-Golf-Lifestyle-Brand",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm building a women's golf and lifestyle apparel brand based in New York City, with a focus on combining performance, style, and modern femininity.\nI'm looking for a creative designer to collaborate with on building the brand's visual identity and online presence from the ground up. Ideally, I'm looking for someone with a strong aesthetic sense and experience in fashion, lifestyle, or premium consumer brands.\nKey areas of collaboration:\n- Brand Identity & Strategy: Develop a cohesive brand identity, including visual direction, typography, color palette, and overall brand aesthetics.\n- Website & Shopify Design: Design a modern, visually compelling, and user-friendly e-commerce website that reflects the brand's identity and delivers a seamless shopping experience.\n- Creative Direction: Help establish a consistent visual language across the website, digital content, and other brand touchpoints.",
+      "vista": "2026-11-16T21:55:41.856Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja la parte web y de dirección visual, pero no hay branding completo ni tienda Shopify en el portfolio; se envía con carta honesta y muestra.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nA women's golf brand that mixes performance, style and modern femininity needs one clear visual language, from the colors and fonts to how the store feels when you shop.\nAt LeoVisual.nl I design websites and visual content, using AI in my workflow. Two examples: LUMEN, FORJA and MORVAIN, 3D scroll websites built in code (three.js + GSAP), and work for a home brand that sells in several European countries (under NDA), where I made product images, videos, A+ content and the website.\nTo be honest, I don't have a full brand identity or a Shopify store in my portfolio yet, so I'm happy to start with a short sample (a moodboard and 2 visual directions) before you decide.\nHow I would work:\n1) Moodboard and visual direction for the brand.\n2) Typography, color palette and simple brand guidelines.\n3) Store design in Figma, then built on a Shopify theme.\n4) Visual rules for product photos, social content and other touchpoints.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you already have a brand name, product photos or reference brands you love for the look?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 652,
+          "salida": 1549,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.048583,
+        "generada": "2026-11-16T21:55:41.117Z"
+      }
+    },
     {
       "id": "570351",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.036291800000000006,
         "generada": "2026-11-13T18:27:24.551Z"
-      }
-    },
-    {
-      "id": "568539",
-      "tipo": "FREELANCE",
-      "titulo": "Freelance Apparel Graphic Designer",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568539/Freelance-Apparel-Graphic-Designer",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "The Real Dads",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Freelance Apparel Graphic Designer\nWe're looking for a talented freelance graphic designer to develop original apparel graphics and execute seasonal collections under the direction of our Creative Producer.",
-      "vista": "2026-11-13T17:43:53.261Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Gráficos para ropa y diseño de identidad: Leo puede hacerlos con IA y Adobe, pero no tiene piezas de ropa en el portfolio, así que la carta ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou need original apparel graphics for seasonal collections, made to fit The Real Dads' voice and your Creative Producer's direction.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. I do graphic design, motion and 3D, including ad and social visuals and a large set of product images for a home brand that sells on Amazon in several European countries.\nI don't have apparel graphics in my portfolio yet, so I'm happy to start with a short sample graphic based on your brief.\nHow I would work:\n1. Go through the brief and references with your Creative Producer and set the theme for each collection.\n2. Explore concepts with AI tools like GPT Image and Nano Banana Pro, then refine and finish them in Adobe.\n3. Send a first round of graphics, adjust them with your feedback and deliver final files in the formats you need for printing.\nPrice: 1000 USD for the collection, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nHow many graphics do you need for the first seasonal collection, and which print method and file formats do you use?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 422,
-          "salida": 1033,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.037343,
-        "generada": "2026-11-13T17:43:52.349Z"
       }
     }
   ]
