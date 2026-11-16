@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-15T20:08:52.894Z",
+  "actualizado": "2026-11-16T04:13:51.233Z",
   "ofertas": [
+    {
+      "id": "569625",
+      "tipo": "FREELANCE",
+      "titulo": "Complete Branding and Product Design for a Padel Brand",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569625/Complete-Branding-and-Product-Design-for-a-Padel-Brand",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Independent padel brand founder",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m building my own padel brand and need an illustrator, designer, and brand builder to create a complete visual identity and launch campaign. I need a brand name, logo, design theme, color identity, website and social-media illustrations, plus product designs for padel rackets, bags, packaging boxes, padel balls, overgrips, and related items. I also want a campaign concept that turns the brand name into a compelling story, along with teaser photos and videos ahead of launch.",
+      "vista": "2026-11-16T04:13:51.233Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja la campaña con vídeo y foto con IA, pero branding, logo y diseño de producto no están en el portfolio y la carga es alta para 500 USD.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nA new padel brand needs one clear story that connects the name, the logo, the products and the launch teasers, so everything feels like the same brand from day one.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. For the teaser part, my closest work is ORBE and SILENCIO, two cinematic ads made with AI (idea, generation, editing and sound). I also make product images and videos for a home brand that sells on Amazon in several European countries.\nTo be honest, I don't have a full branding or logo project in my portfolio yet, so I can do a short free sample first (for example, a name idea with a first logo direction) before you decide.\nHow I would do it: 1) name options and the campaign story, 2) logo, colors and design theme, 3) visual designs and mockups for rackets, bags, balls, overgrips and boxes, 4) teaser photos and short videos made with AI.\nThe product designs would be visual concepts and mockups, not technical files for the factory.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have a name idea or a style you like, or should I start from zero?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 496,
+          "salida": 969,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.036359,
+        "generada": "2026-11-16T04:13:50.222Z"
+      }
+    },
     {
       "id": "569529",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.045647,
         "generada": "2026-11-12T21:29:17.457Z"
-      }
-    },
-    {
-      "id": "568063",
-      "tipo": "FREELANCE",
-      "titulo": "Website Design for a Nail Salon",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568063/Website-Design-for-a-Nail-Salon",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Nail salon owner",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a web designer to create a professional website for my nail salon. The site should present the salon and its services clearly to prospective clients.",
-      "vista": "2026-11-12T21:22:50.302Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Web para un salón de uñas: encaja con su servicio de diseño web y el presupuesto llega a 250 USD.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYour salon needs a website that shows your space and services clearly, so new clients can quickly see what you offer and how to book.\nI design and build websites at LeoVisual.nl. LUMEN, FORJA and MORVAIN are three of my websites, built in code, with a strong focus on visuals and smooth scrolling.\nI don't have a nail salon site in my portfolio yet, so I'm happy to send a short homepage sample first.\nFor your salon, this is how I would do it:\n1. Plan the structure: home, services and prices, gallery of your work, about the salon, and contact/location with a booking button.\n2. Design a clean, elegant look based on your colours and photos, and show it to you before I build anything.\n3. Build the site so it works well on mobile, then publish it on your domain.\nPrice: 250 USD, with 50% upfront and the rest on delivery. Delivery takes 7–10 days and includes 2 rounds of changes.\nDo you already have a domain, a logo and photos of your work, or should I plan the design without them?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 372,
-          "salida": 971,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.035903,
-        "generada": "2026-11-12T21:22:49.443Z"
       }
     }
   ]
