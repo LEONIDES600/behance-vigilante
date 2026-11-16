@@ -1,6 +1,86 @@
 {
-  "actualizado": "2026-11-16T20:48:43.877Z",
+  "actualizado": "2026-11-16T21:46:02.323Z",
   "ofertas": [
+    {
+      "id": "micro1/jobs/stem-expert-5001388069",
+      "tipo": "CONTRACTOR",
+      "titulo": "STEM Expert",
+      "presupuesto": "60–120 USD/h",
+      "enlace": "https://himalayas.app/companies/micro1/jobs/stem-expert-5001388069?utm_source=api",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "micro1",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "STEM Expert\n Pay: $60–$120/hour\n Location: Global, fully remote\n Job Type: Contractor (~15 hours per week)\n Schedule: Flexible—you choose the hours and days you work, including weekends if desired\n We are looking for highly skilled STEM and scientific-domain experts to contribute to an AI training project involving technical problem-solving, scientific reasoning, data analysis, and Python.\n The work involves solving, reviewing, and validating challenging problems within your area of expertise. A representative task may require analyzing a scientific or mathematical problem, developing a rigorous solution, using Python to perform calculations or simulations, and evaluating whether an AI-generated answer is technically correct.\n This is a very coding heavy role. Candidates but have experienc",
+      "vista": "2026-11-16T21:46:02.323Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden ser experto en una ciencia (química, biología, matemáticas, física, etc.) y mucho Python para entrenar IA, y eso no es lo que hace Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1247,
+          "salida": 510,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.030183,
+        "generada": "2026-11-16T21:45:54.551Z"
+      },
+      "fuente": "himalayas"
+    },
+    {
+      "id": "micro1/jobs/e-commerce-data-catalog-specialist-3986931196",
+      "tipo": "CONTRACTOR",
+      "titulo": "E-commerce Data & Catalog Specialist",
+      "presupuesto": "40–50 USD/h",
+      "enlace": "https://himalayas.app/companies/micro1/jobs/e-commerce-data-catalog-specialist-3986931196?utm_source=api",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "micro1",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Job Title: E-commerce Data & Catalog Specialist\n Job Type: Contractor\n Location: Remote\n Job Summary: In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required — your domain knowledge is what matters.\n Key Responsibilities:\n Manage, structure, and curate large-scale e-commerce product catalogs, ensuring data accuracy and consistency across platforms.\n Develop, implement, and refine product taxonomy frameworks to simulate real-world e-commerce classifications and browsing experiences.\n Normalize and map product data sourced from diverse databases, applying best practices in structured dataset management.\n Create and model realisti",
+      "vista": "2026-11-16T21:46:02.323Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de datos y catálogo para entrenar IA que exige SQL/NoSQL, diseño de esquemas y taxonomías de catálogos grandes, y Leo no tiene esa especialidad.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1138,
+          "salida": 697,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0190918,
+        "generada": "2026-11-16T21:46:01.541Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "162716",
       "tipo": "FULL_TIME",
@@ -3938,64 +4018,6 @@
         "generada": "2026-11-11T14:06:02.668Z"
       },
       "fuente": "jobicy"
-    },
-    {
-      "id": "161235",
-      "tipo": "CONTRACT",
-      "titulo": "Mid/Senior AI Cinematic Video Editor (Freelance - Full Remote - Portugal)",
-      "presupuesto": "28.000–58.000 USD/año",
-      "enlace": "https://jobicy.com/jobs/161235-mid-senior-ai-cinematic-video-editor-freelance-full-remote-portugal",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Portugal",
-      "empresa": "EverAI",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Our Vision & Products\n 🚀 EverAI — Building the Future of AI Companionship \n One of the Top 15 Largest & Fastest-Growing AI Companies in the World \n 50 Million Users in 2 years — Help Us Reach 100M first, 500M next \n At EverAI , we’re shaping what it means to connect with AI. With 50 million users and counting , we're not just building products — we're creating entirely new categories.\n Our flagship product is the world’s largest AI companionship platform , redefining relationships for millions. It is governed by our proprietary moderation system, EverGuard — an internal AI designed to ensure everything we build is safe, ethical, and human-first .\n And we’re only just getting started! \n Our Team\n We are an enthusiastic, passionate and hardworking team of ≈ 100 people. Our founding team has",
-      "vista": "2026-11-11T14:06:08.719Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden contenido NSFW explícito, residir en Portugal y 4–6+ años de experiencia en vídeo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1726,
-          "salida": 398,
-          "cacheLeida": 2835,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.015431,
-        "generada": "2026-11-11T14:06:07.614Z"
-      },
-      "fuente": "jobicy"
-    },
-    {
-      "id": "breakthrough-design-group-senior-creative-web-designer",
-      "tipo": "DESIGN",
-      "titulo": "Breakthrough Design Group — Senior Creative & Web Designer",
-      "presupuesto": "",
-      "enlace": "https://weworkremotely.com/remote-jobs/breakthrough-design-group-senior-creative-web-designer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere in the World",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Headquarters: Syracuse, NY URL: https://breakthroughdesign.com Senior Creative &amp; Web Designer Position (Contract) Breakthrough Design Group Inc. Job Description Breakthrough is looking for a Senior Creative &amp; Web Designer to work on a contract basis (10-30 hours/week, with potential for full-time hire). Your primary responsibilities will include: A zeal to live, and to share life with those around you. To better understand the human condition, it's unique struggles, and strengths. And for each individual client - an excitement to make lives better, to understand and improve others' pain points, and weaknesses, and to want to help them grow and change the world via their web, creative, and digital experiences. Requirements: Demonstrable (Currently Live) Web Design Demonstrable Creat",
-      "vista": "2026-11-10T19:42:37.366Z",
-      "fuente": "wwr"
     }
   ]
 }
