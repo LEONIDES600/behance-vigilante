@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T14:23:11.249Z",
+  "actualizado": "2026-11-16T14:39:08.226Z",
   "ofertas": [
+    {
+      "id": "569919",
+      "tipo": "FREELANCE",
+      "titulo": "Multidisciplinary Design Support for New Home Goods Brand Launch",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569919/Multidisciplinary-Design-Support-for-New-Home-Goods-Brand-Launch",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Verification link",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m launching a new home goods brand and need freelance support across brand identity, packaging, website design, copywriting, and visual content. You can take on an individual task based on your specialty, with work expected to be completed within 4–6 weeks.",
+      "vista": "2026-11-16T14:39:08.225Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Marca de hogar en remoto que deja elegir una tarea: la web y el contenido visual encajan con trabajos reales de Leo; en branding y packaging se ofrece una muestra.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nWhen you launch a home goods brand, the website and the product visuals need to feel like one brand from the first day. That is the part I would like to take on.\nI recently worked with a home brand that sells in several European countries (under NDA). I made product images, listing videos, A+ content and their website for them.\nI also build 3D scroll websites in code, like LUMEN and FORJA (three.js + GSAP).\nHow I would do it: 1) agree with you on the look and tone, 2) make product images and short videos with AI (GPT Image, Nano Banana Pro, Kling) and finish them in Adobe, 3) build the website in code or WordPress with those same visuals.\nI don't have a finished brand identity or packaging project in my portfolio. If you want me on those too, I'm happy to do a short sample first.\nPrice: 5000 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you already have a name, a logo and product photos, or would the website and visuals start from zero?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 435,
+          "salida": 1528,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.047295,
+        "generada": "2026-11-16T14:39:06.449Z"
+      }
+    },
     {
       "id": "569899",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.0327198,
         "generada": "2026-11-13T08:35:13.181Z"
-      }
-    },
-    {
-      "id": "568287",
-      "tipo": "FREELANCE",
-      "titulo": "Thumbnail Design for a Geometry Dash Journey Project",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568287/Thumbnail-Design-for-a-Geometry-Dash-Journey-Project",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a thumbnail for an extensive Geometry Dash project that symbolizes a journey, and that the idea that the journey itself is often the goal. My budget is $50–$400, and I want the design to communicate this theme clearly and engagingly.",
-      "vista": "2026-11-13T08:32:53.266Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Miniatura para YouTube: diseño gráfico para redes con IA y 3D, encaja con sus servicios y el presupuesto es aceptable.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi!\n\nYour Geometry Dash project needs a thumbnail that shows the journey matters more than the finish line, and it still has to grab attention in a busy feed.\nI'm Leo, from LeoVisual.nl, a small AI creative studio in Amsterdam. I make graphic design for ads and social media, motion graphics and 3D. For storytelling, my closest work is ORBE and SILENCIO, two cinematic AI ads where one image or shot has to carry a whole idea.\nI don't have a Geometry Dash thumbnail in my portfolio yet, so I'm happy to send a quick rough sketch first so you can see the direction.\nHow I would do it: 2–3 concept sketches (for example, the cube on a long winding path of levels where the road itself glows more than the end), then the final design with AI image generation, 3D elements and work in Photoshop/Adobe, with bold contrast and text that is easy to read at small sizes.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you want the thumbnail to show specific levels or icons from your project, and will it have a title on it?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 421,
-          "salida": 1048,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.037639,
-        "generada": "2026-11-13T08:32:52.440Z"
       }
     }
   ]
