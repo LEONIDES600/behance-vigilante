@@ -1351,11 +1351,13 @@ function avisosCarta(texto, ctx = {}) {
   if (/\[[^\]]*\]|pega aqu[ií]|paste here/i.test(texto)) extra.push('texto de plantilla');
   if (texto && !/Leo G[oó]mez · LeoVisual\.nl/.test(texto)) extra.push('falta la firma «Leo Gómez · LeoVisual.nl»');
   if (ctx.esFreelance && texto && texto.length > 1000) extra.push(`${texto.length} caracteres (máx. 1.000 en el mensaje)`);
+  // Años: solo avisa si la cifra no sale de la propia oferta (p. ej. «the founder's 12+ years»).
+  const anos = (sinEnlaces.match(/\b\d{1,2}\+? ?(years|años)\b/gi) || []).filter((a) => !String(ctx.textoOferta || '').toLowerCase().includes(a.toLowerCase().replace(/\s+/g, ' ')));
+  if (anos.length) extra.push('menciona años');
   const reglas = [
     [/\bclaude\b|\banthropic\b/i, 'nombra la herramienta'],
     [/\bfluent\b|\bnative (english|speaker)\b|\bbiling[üu]e\b/i, 'exagera el inglés'],
     [/\bexpert\b|\badvanced\b|\bexperto\b/i, 'dice «expert/advanced»'],
-    [/\b\d{1,2}\+? (years|años)\b/i, 'menciona años'],
     [/\baward|premio/i, 'menciona premios'],
     [/exactly what i do|exactamente lo que hago/i, 'frase prohibida'],
   ];
@@ -1448,7 +1450,7 @@ async function redactarCarta(job, state) {
     anticipoPct: esFreelance ? 50 : null,
     plazo: esFreelance ? (String(x.plazo || '').trim() || PLAZO_POR_CARGA[x.carga] || '7–10 días') : '',
     pregunta: x.pregunta_para_leo || '',
-    avisos: x.decision === 'descartar' ? avisos : [...avisos, ...avisosCarta(texto, { iaEnOferta: hablaDeIA(job), esFreelance })],
+    avisos: x.decision === 'descartar' ? avisos : [...avisos, ...avisosCarta(texto, { iaEnOferta: hablaDeIA(job), esFreelance, textoOferta: `${job.title || ''} ${job.description || ''}` })],
     modelo: CARTA_MODELO,
     tokens: { entrada: u.input_tokens || 0, salida: u.output_tokens || 0, cacheLeida: u.cache_read_input_tokens || 0, cacheEscrita: u.cache_creation_input_tokens || 0 },
     costeUSD: costeUSD(CARTA_MODELO, u),
