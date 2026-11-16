@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T18:18:13.615Z",
+  "actualizado": "2026-11-16T18:19:37.952Z",
   "ofertas": [
+    {
+      "id": "570067",
+      "tipo": "FREELANCE",
+      "titulo": "Desdobramento de Identidade Visual para Laboratório de Patologia",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570067/Desdobramento-de-Identidade-Visual-para-Laboratorio-de-Patologia",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Anticorpos Laboratório",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Estou procurando um designer gráfico freelancer com experiência em desdobrar uma identidade visual a partir de um brandbook existente para um laboratório de patologia. O projeto inclui apresentação institucional, modelo de laudo, materiais de papelaria e templates para redes sociais, com uma abordagem minimalista, sofisticada e corporativa.",
+      "vista": "2026-11-16T18:19:37.952Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Ampliar la identidad desde un brandbook es diseño gráfico que Leo puede hacer, pero no tiene ningún trabajo igual en el portfolio, y el cliente escribe en portugués.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "media",
+        "texto": "¡Hola!\nDesdoblar un brandbook existente en piezas de uso diario (presentación institucional, modelo de laudo, papelería y plantillas para redes) exige mantener la identidad con rigor y un estilo minimalista, sofisticado y corporativo, sin reinventar la marca.\nLes digo con claridad que no tengo en el portfolio un desdoblamiento de identidad para un laboratorio. Lo más parecido: para una marca de hogar (bajo NDA) he creado muchas imágenes, contenido A+ y una web manteniendo siempre la misma línea visual, y hago diseño gráfico para anuncios y redes.\nCómo lo haría: 1) revisar el brandbook y fijar retícula, tipografías y jerarquías; 2) maquetar primero el modelo de laudo y una plantilla de redes para validar el estilo; 3) desarrollar la presentación y la papelería; 4) entregar archivos editables y listos para usar.\nSi les sirve, puedo hacer antes una muestra corta (por ejemplo, una plantilla de redes) para que vean el enfoque.\nTrabajo en español e inglés; los textos en portugués los tomaría tal cual me los envíen ustedes.\nPrecio: 1000 USD por el proyecto completo, 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿En qué formato necesitan las plantillas editables (por ejemplo, Word para el laudo y PowerPoint para la presentación)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 480,
+          "salida": 1892,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0403598,
+        "generada": "2026-11-16T18:19:37.273Z"
+      }
+    },
     {
       "id": "570065",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.056771800000000004,
         "generada": "2026-11-13T15:31:59.431Z"
-      }
-    },
-    {
-      "id": "371791",
-      "tipo": "FULLTIME",
-      "titulo": "Art Content Creator",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371791/Art-Content-Creator",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "VanDraw",
-      "contacto": "Lucy S.",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Freelance Artist/Short-Form Video Creator - VanDraw \n Hi everyone! 🌸\n We’re looking for artists, illustrators, and painters to create content for VanDraw, a drawing app that helps anyone learn to draw, while giving artists the chance to grow their skills and try something new.\n What you’ll do: \n Create short, engaging videos showing the app and your drawing process\n Publish up to 1 video per day\n Experiment with drawing ideas, formats, and trends\n Content requirements: \n Original content for a global audience, following our content guidelines\n Videos in English or Spanish\n Payment: \n Fixed monthly payment\n Performance-based bonuses\n Who we’re looking for: \n Artists, illustrators, or painters who enjoy drawing and making short-form videos\n Experience with content creation and social media is a plus\n Reliable and able to publish consistently\n Remote, creators from all countries are welcome 🌎\n Interested?  💌 Message me here on Behance. I’ll be happy to answer questions and share full details.\n Looking forward to hearing from you!\n Lucy | VanDraw",
-      "vista": "2026-11-13T15:34:11.694Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Buscan artistas que se graben dibujando o pintando a mano a diario, y el portfolio de Leo no tiene dibujo ni pintura a mano.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 586,
-          "salida": 555,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.014043799999999999,
-        "generada": "2026-11-13T15:32:07.557Z"
       }
     }
   ]
