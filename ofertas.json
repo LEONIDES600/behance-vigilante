@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T21:55:41.856Z",
+  "actualizado": "2026-11-16T22:03:11.359Z",
   "ofertas": [
+    {
+      "id": "570371",
+      "tipo": "FREELANCE",
+      "titulo": "Art Direction for 2D and 3D Animation",
+      "presupuesto": "5000–10.000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570371/Art-Direction-for-2D-and-3D-Animation",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Let There Be",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for an art director with experience in both 2D and 3D animation to lead the visual direction of an animation project.",
+      "vista": "2026-11-16T22:03:11.359Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con motion y 3D, pero dirigir el arte de una animación 2D/3D va más allá de su portfolio con IA: carta honesta con propuesta de prueba.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nLeading the visual direction of a project that mixes 2D and 3D animation means building one clear look that holds up in both, from the first style frames to the final shots.\nI'm Leo Gómez, from LeoVisual.nl, an AI creative studio in Amsterdam. The closest work I have is ORBE and SILENCIO, cinematic ads made with AI where I handled the idea, generation, editing and sound. I also built LUMEN, FORJA and MORVAIN, 3D scroll websites made in code (three.js + GSAP).\nTo be honest, I don't have a full 2D/3D animation project in my portfolio yet, and my process is AI-driven, using Kling, Seedance, After Effects and 3D work.\nHere's how I would approach it: review your script and references, build a moodboard and colour palette, create style frames for the key scenes in both 2D and 3D, then put together a short visual guide so the whole team stays consistent.\nIf it helps, I can start with a short test: 2–3 style frames for one scene.\nBudget: 10,000 USD, with 50% upfront and the art direction package delivered in 7–10 days, including 2 rounds of changes.\nIs this animation for a series, an ad or a short film, and do you already have a script or storyboard?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 10000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 393,
+          "salida": 1607,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.048707,
+        "generada": "2026-11-16T22:03:10.621Z"
+      }
+    },
     {
       "id": "570363",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.024499,
         "generada": "2026-11-13T18:36:43.218Z"
-      }
-    },
-    {
-      "id": "568557",
-      "tipo": "FREELANCE",
-      "titulo": "Creativi per Beauty e Profumi con Competenze Grafiche e AI Generativa",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568557/Creativi-per-Beauty-e-Profumi-con-Competenze-Grafiche-e-AI-Generativa",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Still Beauty srl",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Cerco creativi con competenze grafiche, content creation e AI generativa, specializzati nel settore beauty e profumi. L’obiettivo è creare una relazione continuativa nel tempo di affiancamento durante lo studio e realizzazione di campagne pubblicitarie di settore e successivo sviluppo e declinazione per gli output print, web e social.",
-      "vista": "2026-11-13T18:27:25.664Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con campañas creadas con IA y su adaptación a redes y web, pero no tiene piezas de beauty ni de branding, la parte de impresión está por demostrar y la oferta está en italiano.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA beauty and fragrance campaign needs one strong visual idea that keeps the same look across print, web and social.\nI build campaigns with generative AI from start to finish. For ORBE and SILENCIO, two cinematic AI ads, I did the idea, generation, editing and sound. For a home brand that sells across Europe (under NDA), I produced many product images, product videos and A+ content.\nHere is how I would approach it: first a short moodboard and concept, then key visuals made with GPT Image and Nano Banana Pro, and short videos with Kling or Seedance. After that, I would adapt everything to print, web and social formats in Adobe.\nMy portfolio doesn't have a beauty or perfume piece yet, so I'm happy to start with a short sample or a test on one of your products.\nFor a first campaign the price is 2500 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of revisions. After that, we can continue on an ongoing basis.\nI work in English and Spanish, so I hope that works for you.\nWhich product would the first campaign be for, and which formats do you need first?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 493,
-          "salida": 1686,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.036291800000000006,
-        "generada": "2026-11-13T18:27:24.551Z"
       }
     }
   ]
