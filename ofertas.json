@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T19:01:32.437Z",
+  "actualizado": "2026-11-16T19:02:47.973Z",
   "ofertas": [
+    {
+      "id": "570117",
+      "tipo": "FREELANCE",
+      "titulo": "Conceptual Brand Commercial for ProCirrus Technologies",
+      "presupuesto": "5000–10.000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570117/Conceptual-Brand-Commercial-for-ProCirrus-Technologies",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "ProCirrus Technologies",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We're seeking a creative video producer or motion graphics designer to develop a high-impact, cinematic brand video (90–120 seconds) for ProCirrus Technologies, an integrated IT platform serving professional firms.\nThe concept is \"From Chaos to Calm.\" We want to visually dramatize the stress, confusion, and complexity of traditional IT—multiple vendors, disconnected systems, cybersecurity threats, compliance demands, AI uncertainty, and endless support handoffs—then transform that chaos into simplicity, confidence, and calm.\nThe film culminates in our core message: One Partner. One Platform. One Desktop.\nThis should be an emotionally compelling conceptual commercial, not a conventional corporate explainer or feature presentation. Think of the creative ambition of Apple's iconic 1984 commercial: memorable storytelling that challenges the status quo and introduces a fundamentally different way of thinking.",
+      "vista": "2026-11-16T19:02:47.973Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Anuncio de marca cinematográfico y conceptual, encaja directamente con ORBE y SILENCIO.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nYou need a 90–120 second film that makes the stress of traditional IT feel real, then turns it into calm and lands on \"One Partner. One Platform. One Desktop.\" A story, not an explainer.\nI made ORBE and SILENCIO, two cinematic ads created with AI. In both, I did the idea, the generation, the editing and the sound myself.\nFor ProCirrus I would work like this:\n1. A short concept and script: the chaos (many vendors, disconnected systems, threats, compliance, endless handoffs) and the turn to calm.\n2. A storyboard and style frames for your approval before production.\n3. AI video generation with Kling and Seedance, plus motion graphics in After Effects for the final message.\n4. Edit, sound design and music in Premiere, delivered in the formats you need.\nPrice: 10,000 USD, 50% upfront. Delivery in 7–10 days, with 2 rounds of changes.\nDo you want a voice-over in the film, or should the story work mainly with images, music and sound?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 10000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 669,
+          "salida": 1279,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0288558,
+        "generada": "2026-11-16T19:02:47.014Z"
+      }
+    },
     {
       "id": "570113",
       "tipo": "FREELANCE",
@@ -3862,45 +3901,6 @@
         },
         "costeUSD": 0.0442998,
         "generada": "2026-11-13T15:41:17.254Z"
-      }
-    },
-    {
-      "id": "568385",
-      "tipo": "FREELANCE",
-      "titulo": "Logo Design And Basic Brand Guidelines For Three Business Branches",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568385/Logo-Design-And-Basic-Brand-Guidelines-For-Three-Business-Branches",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Tech Guard",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We’re looking for a graphic designer to create a set of three logos and a short brand guide for three divisions of a small Irish company. The logos should work as a family, with a clear shared identity, while each division has its own colour and character. We’re rebranding existing services, so this is a fresh start, not a refresh of the current logos.",
-      "vista": "2026-11-13T15:37:52.289Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es un encargo de logo y branding: Leo puede hacerlo con su flujo de diseño, pero no tiene un logo en el portfolio, así que la carta lo dice y ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA family of three logos that share one clear identity, while each division gets its own colour and character, is a great brief. It's even better as a fresh start rather than a refresh.\nTo be transparent: my portfolio doesn't include a logo or brand identity project yet. My closest work is graphic design for a home goods brand that sells across Europe (under NDA). I made listing images, A+ content and a website, and everything had to look consistent across many pieces.\nHow I would approach it: first a short brief about the company and the three divisions. Then 2–3 concept directions for the shared mark. Next, the chosen direction becomes three versions, each with its own colour and personality, delivered as vector files made in Adobe. The short brand guide would cover logo usage, colour palettes, typography and a few application examples.\nIf it helps you decide, I'm happy to do a short sample or test first.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nWhat are the three divisions, and is there anything in the current branding you want to move away from?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 466,
-          "salida": 1302,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0285038,
-        "generada": "2026-11-13T15:37:51.221Z"
       }
     }
   ]
