@@ -1,6 +1,47 @@
 {
-  "actualizado": "2026-11-16T19:39:48.947Z",
+  "actualizado": "2026-11-16T20:38:56.874Z",
   "ofertas": [
+    {
+      "id": "570281",
+      "tipo": "FREELANCE",
+      "titulo": "Owner Story Video Advertisement Creation",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570281/Owner-Story-Video-Advertisement-Creation",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "VepoClean",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Looking for an experienced AI video creator/editor to produce highly realistic, cinematic videos for **VepoClean Franchising**, a U.S.-based company expanding nationally through franchising.\nOur goal is to promote **franchise business ownership, not cleaning services**, through compelling founder storytelling that highlights 12+ years of experience, technology, automation, and centralized business support.\nWe have extensive professional footage and founder images to combine with photorealistic AI-generated scenes using Higgsfield and other tools.\n**Our top priority is maximum realism:** the videos must look professionally filmed, with seamless integration of real and AI-generated footage.\nWe will begin with a **paid 35-second Meta ad pilot**, followed by longer website, landing-page, and additional advertising videos if successful.",
+      "vista": "2026-11-16T20:38:56.874Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Anuncio cinematográfico con IA mezclado con metraje real: encaja de lleno con ORBE y SILENCIO.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYou need a 35-second founder story that sells franchise ownership, not cleaning, and where nobody can tell which shots are real and which are AI.\nI made ORBE and SILENCIO, two cinematic ads created with AI where I handled the idea, generation, editing and sound, so the look and pacing of a filmed spot is what I work toward.\nHow I would do the pilot:\n1. Review your footage and founder images and write a short script around the 12+ years, technology, automation and central support.\n2. Generate the AI scenes (I mainly use Kling and Seedance) matched to your footage in lighting, lens feel and colour, so the cuts stay seamless.\n3. Edit in Premiere, finish with colour, motion and sound design in After Effects and Adobe tools, in vertical and square formats for Meta.\nFor the 35-second pilot: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nDo you already have a voiceover of the founder, or should the story be carried by on-screen text and music?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [
+          "menciona años"
+        ],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 606,
+          "salida": 1030,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.038019,
+        "generada": "2026-11-16T20:38:56.104Z"
+      }
+    },
     {
       "id": "570179",
       "tipo": "FREELANCE",
@@ -3862,45 +3903,6 @@
         },
         "costeUSD": 0.0204918,
         "generada": "2026-11-13T16:08:10.555Z"
-      }
-    },
-    {
-      "id": "568481",
-      "tipo": "FREELANCE",
-      "titulo": "AI-Generated Book Covers for State Bird Field Guide Series",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568481/AI-Generated-Book-Covers-for-State-Bird-Field-Guide-Series",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Nature's Boon",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for a book cover designer who is highly skilled in AI image generation to create a series of book covers for a new series of state bird field guides. This will be an ongoing project with 40-50 covers and potentially many more in other series.\nEach cover will feature one iconic bird for that state as a large hero image set in its natural habitat. The bird must be fully photorealistic, indistinguishable from a professional wildlife photograph, with no trace of the AI look. Experienced birders will study this cover closely, so plumage, feather structure, bill, eyes, feet and posture all have to be exactly right for the species.\nThe cover must also be extremely eye catching on a bookshelf and as a small thumbnail in Amazon and Google search results. The design will become a template for the whole series, with a new bird for each state.\nI have attached a sheet of six concept covers that show the style we want. Please treat them as direction for layout, lighting and mood, not as finished art. We expect the final bird to be more accurate and more photorealistic than these concepts.",
-      "vista": "2026-11-13T16:06:56.119Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con imagen fotorrealista con IA y miniaturas para Amazon, pero Leo no tiene portadas de libro ni fotos de fauna en el portfolio; ofrecemos una portada de prueba.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nYou need a cover template for your state bird series that stands out on a shelf and as a small Amazon thumbnail, with each bird accurate enough for experienced birders.\nI don't have book covers in my portfolio yet, so I'd like to show you rather than tell you: I can make one test cover with a species you choose before we start.\nThe closest work I can point to is product imagery for a home brand selling on Amazon in several European countries (under NDA). I made many listing images and A+ content there, designed to read clearly at thumbnail size.\nHow I'd work: first I collect real reference photos of the species (plumage, bill, eyes, feet, posture). Then I generate with GPT Image and Nano Banana Pro and check every detail against the references. After that I retouch and do the layout in Adobe, building one template for the whole series.\nI'll check every bird closely against the references, and I'd also suggest a quick look from one of your birders on the first covers.\nMy price is 500 USD for this first stage: the series template plus the first covers. I'd like to agree with you how many covers go in this batch. Terms: 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhich state and bird would you like for the test cover, and is the title and text layout from your concept sheet already final?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 672,
-          "salida": 1318,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0296478,
-        "generada": "2026-11-13T16:06:55.212Z"
       }
     }
   ]
