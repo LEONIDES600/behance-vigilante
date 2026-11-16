@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T13:35:41.508Z",
+  "actualizado": "2026-11-16T14:23:11.249Z",
   "ofertas": [
+    {
+      "id": "569899",
+      "tipo": "FREELANCE",
+      "titulo": "Cafe Brand Logo, Poster, and Packaging Design",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569899/Cafe-Brand-Logo-Poster-and-Packaging-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a graphic designer who specializes in the café industry to create a cohesive brand logo, poster, and packaging design for my café.",
+      "vista": "2026-11-16T14:23:11.249Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding y packaging están en la zona dudosa: no hay ninguna pieza de cafetería en el portfolio, pero el cartel es diseño gráfico y en la carta se ofrece una muestra con honestidad.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYour café needs a logo, poster and packaging that look like one brand, so customers recognise it right away on a cup, a bag or a wall.\nTo be honest, I don't have a café branding project in my portfolio yet. I have designed product images and A+ content for a home brand that sells on Amazon in several European countries. That work was about keeping one clear visual style across many pieces. I also design graphics for ads and social media.\nHere is how I would do it: first a short brief and a moodboard about your café's personality. Then 2–3 logo directions to choose from. After that, the poster and the packaging, using the same colours, fonts and style.\nIf it helps, I can make a short sample first, like one logo direction, so you can see my approach before you decide.\nPrice: 500 USD for the whole package, with 50% upfront. Delivery in 7–10 days, with 2 rounds of changes.\nWhich packaging pieces do you need (cups, coffee bags, boxes, labels), and do you already have a name and a style in mind?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 393,
+          "salida": 955,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.035667,
+        "generada": "2026-11-16T14:23:10.055Z"
+      }
+    },
     {
       "id": "569865",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.037639,
         "generada": "2026-11-13T08:32:52.440Z"
-      }
-    },
-    {
-      "id": "568279",
-      "tipo": "FREELANCE",
-      "titulo": "30k Bütçeli Logo Tasarımı ve Kurumsal Kimlik",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568279/30k-Buetceli-Logo-Tasarm-ve-Kurumsal-Kimlik",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Logo tasarımı ve kurumsal kimlik çalışması için 30k bütçe ile bir tasarımcı arıyorum. Markamı profesyonel ve tutarlı biçimde temsil edecek logo ve temel kurumsal kimlik öğelerine ihtiyacım var.",
-      "vista": "2026-11-13T08:24:27.400Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es logo e identidad, que Leo puede hacer con IA pero sin una pieza igual en el portfolio. La oferta está en turco, así que la carta va en inglés y ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou need a logo and basic identity that show your brand in a professional and consistent way, so it looks the same on every touchpoint.\nTo be honest, my portfolio has no stand-alone logo project yet. My closest work is for a home brand that sells across Europe (under NDA). There I created many product images, videos, A+ content and the website, all in one consistent visual style.\nHow I would work:\n1. A short brief about your brand, audience and the style you like.\n2. A moodboard and 3 logo directions, explored with AI and redrawn as clean vectors in Adobe.\n3. You choose one, and I refine it.\n4. Basic identity: logo versions, colour palette, typography and a short brand guide.\nIf you prefer, I can first make a quick sample direction so you can see my approach.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nWhat is your brand name and sector, and which identity items do you need besides the logo (business cards, social media, letterhead)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 458,
-          "salida": 1329,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.043407,
-        "generada": "2026-11-13T08:24:13.568Z"
       }
     }
   ]
