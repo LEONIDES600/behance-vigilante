@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T09:45:55.785Z",
+  "actualizado": "2026-11-16T10:24:00.519Z",
   "ofertas": [
+    {
+      "id": "569761",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity Refinement for SIVANA Recovery House in Madrid",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569761/Brand-Identity-Refinement-for-SIVANA-Recovery-House-in-Madrid",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "SIVANA Recovery House",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a freelance brand designer to refine the concept and visual identity of SIVANA Recovery House, a new recovery club in Madrid. We have a strong starting point and need a logo, brand guidelines, and direction for Instagram. My budget is up to €2,000.",
+      "vista": "2026-11-16T10:24:00.519Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encargo de branding (logo, guía de marca e Instagram), remoto y con buen presupuesto, pero Leo no tiene logos en el portfolio.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA new recovery club in Madrid needs an identity that feels calm and trustworthy from day one, and building on your strong starting point is a good way to get there.\nI'm Leo, from LeoVisual.nl, a creative studio in Amsterdam that works with AI. I'm a native Spanish speaker, which helps with a Madrid audience.\nI'll be honest: my portfolio doesn't have a logo or full brand guidelines project yet. What I do have is graphic design for ads and social media, and a lot of images, videos and A+ content for a home brand that sells on Amazon in several European countries (under NDA), all kept within one consistent visual system.\nHow I would do it: review your current concept, propose 2–3 logo directions, refine the chosen one, then deliver brand guidelines (logo use, colours, typography, image style) and an Instagram direction with a grid and post templates.\nIf you'd like to see how I think first, I'm happy to do a short sample based on your concept.\nPrice: €2,000, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhat does your current starting point include: a name and mood only, or already some colours and a draft logo?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 446,
+          "salida": 1459,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.045959,
+        "generada": "2026-11-16T10:23:59.345Z"
+      }
+    },
     {
       "id": "569741",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.048795,
         "generada": "2026-11-13T00:15:48.504Z"
-      }
-    },
-    {
-      "id": "568171",
-      "tipo": "FREELANCE",
-      "titulo": "Packaging Design for CPG Brands",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568171/Packaging-Design-for-CPG-Brands",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Sud Scrub",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "The Job\nWe're looking for a highly creative Packaging Designer who can help us develop packaging concepts for upcoming products and potentially contribute to our broader 2027 brand refresh.\nWe don't just need someone who can make an attractive design. We need someone who understands how to build a strong visual concept, explore different creative directions, and turn those ideas into packaging that works in the real world.\nYou should have a strong eye for design, understand consumer product packaging, and know how to balance creativity with practical production requirements.\nYou'll work with us to explore ideas, challenge existing design directions, and develop packaging that makes our products stand out in a competitive e-commerce market.\nWhat You Must Be Great At\n1. Creative Concept Development\nDevelop original packaging concepts based on the brand's direction, product positioning, and target customers.\nExplore multiple creative directions rather than relying on one initial idea.\nPresent concepts through mood boards, visual references, and packaging mockups.\nBring your own creative perspective while understanding how to work within an established brand identity.\n2. Product Packaging Design\nDesign packaging for physical consumer products, from initial concepts to final execution.\nCreate cohesive packaging systems across multiple products and variations.\nUnderstand visual hierarchy, typography, color, layout, and other elements that make packaging recognizable and appealing.\n",
-      "vista": "2026-11-13T00:07:02.838Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es packaging y Leo no tiene proyectos de packaging en el portfolio; se envía con una carta honesta que propone la exploración de concepto pagada que ellos mismos ofrecen.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nYou need packaging concepts that stand out in e-commerce listings and also work on the shelf and for the manufacturer, maybe as part of your 2027 brand refresh.\nI'll be honest from the start: my portfolio does not have finished packaging projects yet, so I understand if that is a deal-breaker for you.\nMy closest work is on the e-commerce side. For a home brand that sells on Amazon in several European countries (under NDA), I made many listing images and videos, A+ content and the website, so I know how a product has to read in a small thumbnail.\nHow I would work: a short brief with your team and a review of your current brand assets, then 3 creative directions with mood boards and references, then packaging mockups for one SKU, and after your feedback, the system across the line.\nFor the final files, I would work from your manufacturer's dielines and specs and check every detail with them before printing.\nYour idea of a paid initial concept is the best way to test this, and I am happy to start there.\nFor the project my price is 5000 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of changes. I work remotely from Amsterdam (CET).\nHow many SKUs are in the first launch, and do you already have dielines from your packaging supplier?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1705,
-          "salida": 1690,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.055615,
-        "generada": "2026-11-13T00:07:01.991Z"
       }
     }
   ]
