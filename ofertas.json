@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T19:32:21.612Z",
+  "actualizado": "2026-11-16T19:39:48.947Z",
   "ofertas": [
+    {
+      "id": "570179",
+      "tipo": "FREELANCE",
+      "titulo": "Logo and Branding Design for a New Smoking Paper Company",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570179/Logo-and-Branding-Design-for-a-New-Smoking-Paper-Company",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Roll the Life",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm launching a new smoking paper brand(we do paper filter tips and tubes) and need a logo designer to create the logo and core branding for the business. The identity should establish a distinctive, cohesive visual foundation for the new brand. Would love if the person has some experience in the cannabis space, but not a requirement.",
+      "vista": "2026-11-16T19:39:48.947Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es logo y branding, que no está en su portfolio, pero se puede hacer con IA y el presupuesto es bueno; la carta lo dice con honestidad.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA new brand of filter tips and tubes needs a logo and identity that stand out on a small product and look the same on every pack, display and post.\nI'm Leo from LeoVisual.nl, an AI creative studio in Amsterdam. To be clear from the start: I don't have a logo project in my portfolio yet, and I haven't worked in the cannabis space.\nWhat I do have: for a home brand that sells on Amazon across Europe (under NDA), I made the listing images, A+ content and website, all with one visual style.\nHere's how I would do it: first a short brief on your audience and tone, then a moodboard, then 3 logo directions. I would use AI to explore ideas quickly and Adobe for the final vector work.\nOnce you choose one, I refine it and build the core kit: logo versions, colour palette, typography, and mockups on your tips and tubes.\nIf it helps you decide, I'm happy to make a short sample direction first.\nPrice: 5000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nHow should the brand feel: premium and minimal, or bold and playful?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 453,
+          "salida": 1408,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.044967,
+        "generada": "2026-11-16T19:39:48.209Z"
+      }
+    },
     {
       "id": "570161",
       "tipo": "FREELANCE",
@@ -3862,45 +3901,6 @@
         },
         "costeUSD": 0.0296478,
         "generada": "2026-11-13T16:06:55.212Z"
-      }
-    },
-    {
-      "id": "568469",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Designer for Cycling Apparel Line",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568469/Brand-Designer-for-Cycling-Apparel-Line",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Wannarace",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Creative Brief: Brand Designer for Cycling Apparel Line\nI’m looking to hire a creative resource to help me launch a cycling apparel brand. Full creative brief below:\nBackground\nI’m a cycling coach based in NYC, and am looking to launch an apparel brand as an extension of my business. I have an established audience on YouTube, Instagram, and TikTok, which I will leverage as the primary marketing / selling tool for the brand. The brand name will be Wannarace, which is the name of my coaching business. \nMy overall goal is to have an apparel line of 3-5 cycling jerseys ready to sell by March / April 2027. Before designing the jerseys though, I need to establish my visual brand identity. This is the immediate need I’m looking to hire for.\nDeliverables\n-Brand typography\n-Logo(s)\n-Color palette\n-Brand book outlining the graphics system\nEditable vector files (.AI, .SVG, .PDF), PNG/JPG versions, and commercial usage rights.\nQualifications\nThe ideal candidate will have strong branding experience in apparel and fashion. \nFamiliarity with road cycling culture and experience working in sportswear and performance apparel is a plus.\nTimeline\nFinal deliverables completed by Friday, December 11. \nFirst draft completed by Friday, November 27. Two rounds of revisions included after the first draft.\nProject Details \nTo help inform your work, I will share resources that outline the brand’s mission, values, target audience, and tone, as well as a mood board of existing designs and branding to use ",
-      "vista": "2026-11-13T16:05:27.508Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Branding y brand book para marca de ropa de ciclismo: Leo puede hacerlo, pero no tiene piezas de branding de moda, así que se envía con una carta honesta y ofreciendo una muestra corta; luego puede venir web y contenido.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Max,\n\nWannarace needs an identity that feels true to your coaching and your audience, and that still works later on jerseys, a web store and Instagram.\nTo be honest, I don't have an apparel brand book in my portfolio yet. My closest work is ad and social design, AI-made cinematic ads (ORBE, SILENCIO) and 3D scroll websites built in code (LUMEN, FORJA, MORVAIN). That last part could also help with your web store later.\nHow I would approach it: study your brief, mood board and videos, then present 2–3 logo and type directions with a color palette. After that, refine the chosen direction and build a brand book with the graphics system, delivered as .AI, .SVG, .PDF, PNG and JPG files with commercial usage rights.\nSince I have no apparel piece to show, I'm happy to do a short sample first, for example one logo direction on a jersey mockup.\nPrice: 1250 USD, 50% up front, first draft in 7–10 days (before November 27) and 2 rounds of revisions, so it fits your December 11 deadline.\nDo you already have a feeling for the logo style, like a wordmark, a symbol, or both?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1170,
-          "salida": 1402,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.047715,
-        "generada": "2026-11-13T16:05:25.828Z"
       }
     }
   ]
