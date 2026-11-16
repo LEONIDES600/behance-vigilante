@@ -1,22 +1,22 @@
 {
   "version": "v3.2 · 07/11/2026",
-  "actualizado": "2026-11-16T18:07:38.765Z",
-  "ultimaPasadaConDatos": "2026-11-16T18:07:38.399Z",
+  "actualizado": "2026-11-16T18:38:01.989Z",
+  "ultimaPasadaConDatos": "2026-11-16T18:38:01.540Z",
   "ciegoDesde": null,
   "proxyBehance": "jina",
-  "pasadas": 9980,
+  "pasadas": 10007,
   "hoy": {
     "fecha": "2026-11-16",
-    "nuevas": 446,
-    "alto": 18,
-    "medio": 23,
+    "nuevas": 453,
+    "alto": 21,
+    "medio": 25,
     "bajo": 15,
-    "no": 170,
-    "enCola": 28,
+    "no": 172,
+    "enCola": 33,
     "enMundo": 13,
-    "cartas": 41,
+    "cartas": 46,
     "cartasError": 0,
-    "costeCartasUSD": 1.2947
+    "costeCartasUSD": 1.4931
   },
   "fuentes": {
     "behance": {
