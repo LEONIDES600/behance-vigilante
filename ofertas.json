@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T12:10:48.672Z",
+  "actualizado": "2026-11-16T12:28:45.928Z",
   "ofertas": [
+    {
+      "id": "569835",
+      "tipo": "FREELANCE",
+      "titulo": "Graphic Design for Church Christmas Carol",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569835/Graphic-Design-for-Church-Christmas-Carol",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need graphic design for a church Christmas carol event. The design should clearly promote the occasion and suit a church audience.",
+      "vista": "2026-11-16T12:28:45.928Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Un flyer para un evento encaja con su diseño gráfico de anuncios y redes, en remoto y con un presupuesto aceptable.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi!\n\nA Christmas carol event needs a design people understand at a glance: what it is, when and where, with a warm, respectful look that suits a church audience.\nI'm Leo from LeoVisual.nl, a small AI creative studio in Amsterdam. I do graphic design for ads and social media. For a home brand selling on Amazon in several European countries, I've designed many listing images and A+ content, where clear information hierarchy matters a lot.\nI don't have a church flyer in my portfolio yet, so I'm happy to send a short first sketch so you can see the direction before you decide.\nHow I'd do it:\n1) I'd collect your details (date, time, venue, any verse or church logo).\n2) I'd propose 2 visual directions (for example, classic candlelight or clean and modern).\n3) I'd refine the one you choose and deliver a print-ready PDF plus versions for social media and WhatsApp.\nPrice: 250 USD for the full design, 50% upfront, delivery in 7–10 days, with 2 rounds of changes included.\nWill the flyer be printed (and if so, at what size), or mainly shared online?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 378,
+          "salida": 1462,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.045747,
+        "generada": "2026-11-16T12:28:44.867Z"
+      }
+    },
     {
       "id": "569827",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.0280278,
         "generada": "2026-11-13T08:24:26.638Z"
-      }
-    },
-    {
-      "id": "568277",
-      "tipo": "FREELANCE",
-      "titulo": "Senior Graphic Designer for Bilingual Food Label Packaging Artwork Adaptation",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568277/Senior-Graphic-Designer-for-Bilingual-Food-Label-Packaging-Artwork-Adaptation",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Dands",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a senior graphic designer to adapt packaging artwork for food labels in English and Arabic. We have different diecuts, and SKUs but the main design is ready. We need to adapt and change flavors. The final label files must be print-ready and suitable for production.",
-      "vista": "2026-11-13T08:12:15.959Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es sobre todo arte final técnico para imprenta (troqueles, SKUs, archivos listos para producción) con maquetación en árabe, y eso no está en el portfolio de Leo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 441,
-          "salida": 592,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.028599,
-        "generada": "2026-11-13T08:12:15.123Z"
       }
     }
   ]
