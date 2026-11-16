@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T11:27:38.007Z",
+  "actualizado": "2026-11-16T12:07:33.164Z",
   "ofertas": [
+    {
+      "id": "569821",
+      "tipo": "FREELANCE",
+      "titulo": "Premium Visual Identity Design for a Children’s Brand",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569821/Premium-Visual-Identity-Design-for-a-Childrens-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Maison Gaia Online Store WLL",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm launching Kaia & Keira, a premium set of 36 affirmation cards for children aged 2–3.\nI'm looking for a French-speaking brand designer to create and refine the brand identity. The visual direction should feel premium, warm, elegant and timeless, with Donsje Amsterdam as one of my main references.\nI already have a logo and color palette that can be refined or reworked. The illustrations already exist and are not part of this project.",
+      "vista": "2026-11-16T12:07:33.164Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden un diseñador de marca que hable francés, y Leo no lo habla; el branding encajaría como dudosa.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 497,
+          "salida": 387,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.024723,
+        "generada": "2026-11-16T12:07:32.129Z"
+      }
+    },
     {
       "id": "569797",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.042591,
         "generada": "2026-11-13T08:01:34.763Z"
-      }
-    },
-    {
-      "id": "568215",
-      "tipo": "FREELANCE",
-      "titulo": "Logo Design for a Medieval Record Label",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568215/Logo-Design-for-a-Medieval-Record-Label",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Norgates",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a logo designer to create a distinctive identity for my record label. The logo should suit the label’s medieval music-focused brand and be suitable for use across its promotional materials.",
-      "vista": "2026-11-13T04:25:46.272Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es diseño de logo e identidad: se puede hacer con IA y diseño gráfico, pero en el portfolio no hay ningún logo, así que la carta ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi!\n\nA medieval music label needs a mark that feels old and crafted but still reads clearly on a cover, a poster or a small social icon.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. I do graphic design and motion work, and I made the cinematic AI ads ORBE and SILENCIO, where building a strong atmosphere was the main task.\nTo be honest, I don't have a logo project in my portfolio yet, so I'm happy to send you a short sample direction before you decide.\nHow I would work:\n1. A few quick questions about your music (era, instruments, mood) and a moodboard with manuscripts, heraldry and old lettering.\n2. Three logo concepts, explored with AI image tools and then redrawn as clean vectors in Adobe.\n3. You pick one, we refine it, and I deliver the final files (SVG, PNG, colour, black and white versions) ready for your promo materials.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nShould the logo lean more towards dark and mystical, or more towards a bright, folk and festival feel?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 392,
-          "salida": 1084,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.038243,
-        "generada": "2026-11-13T04:25:45.226Z"
       }
     }
   ]
