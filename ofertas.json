@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T14:39:08.226Z",
+  "actualizado": "2026-11-16T14:46:42.986Z",
   "ofertas": [
+    {
+      "id": "569929",
+      "tipo": "FREELANCE",
+      "titulo": "Verification ",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/569929/Verification-",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Accept offer here",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m launching a new home goods brand and need freelance support across brand identity, packaging, website design, copywriting, and visual content. The expected timeline is 4–6 weeks, and you can take on an individual task based on your specialty.",
+      "vista": "2026-11-16T14:46:42.986Z",
+      "carta": {
+        "decision": "espera",
+        "motivo": "El encargo encaja (web y contenido visual para una marca de hogar), pero el título «Verification» y la empresa «Accept offer here» parecen de una estafa.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA new home goods brand needs a clear look from day one: a website that sells and product visuals that feel like the same brand.\nI recently worked for a home brand that sells on Amazon in several European countries (under NDA). I made many listing images and videos, A+ content and the website. I also build 3D scroll websites in code, like LUMEN and FORJA (three.js + GSAP).\nI would take the website design and the visual content:\n1. A short brief and a moodboard with your style and colours.\n2. Product images and short videos made with AI, all in the same style.\n3. A website or landing page with your products, built in code or WordPress.\nI don't have dedicated branding or packaging pieces in my portfolio yet. If you want, I can make a short sample before we start.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nDo you already have product photos or samples, or do we start from zero?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "El título es «Verification» y la empresa «Accept offer here» (pinta de estafa). ¿La envío igualmente?",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 410,
+          "salida": 1249,
+          "cacheLeida": 0,
+          "cacheEscrita": 2999
+        },
+        "costeUSD": 0.041615,
+        "generada": "2026-11-16T14:46:41.926Z"
+      }
+    },
     {
       "id": "569919",
       "tipo": "FREELANCE",
@@ -3866,45 +3905,6 @@
         },
         "costeUSD": 0.030291,
         "generada": "2026-11-13T10:45:31.731Z"
-      }
-    },
-    {
-      "id": "568289",
-      "tipo": "FREELANCE",
-      "titulo": "Custom Typeface for From The Waters Personal Brand Identity",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568289/Custom-Typeface-for-From-The-Waters-Personal-Brand-Identity",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m developing a new logo and brand identity for my client’s personal brand, “FROM THE WATERS,” and need a custom typeface specifically for the main brand name. My client admires the custom typography used in the NOBIA brand identity and wants a similarly distinctive approach, rather than using an off-the-shelf font. The scope is focused on the typography/typeface only, as I am handling the wider logo and brand identity work.",
-      "vista": "2026-11-13T08:35:13.907Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es tipografía a medida para un logotipo, cerca del branding; no hay una pieza igual en el portfolio, así que la carta lo dice y ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYou need custom lettering for \"FROM THE WATERS\" that looks distinctive, like the NOBIA typography, and fits into the identity you are building.\nTo be honest, I don't have a custom typeface project in my portfolio yet. My closest work is graphic design for ads and social media, and the visual style of my 3D websites LUMEN and FORJA.\nThis is how I would work: first a short moodboard based on NOBIA and your logo direction, then 2–3 different letter directions for the name, and then I refine the chosen one in vector (Adobe Illustrator), with custom shapes, spacing and kerning for the full name.\nYou get the letters and the full wordmark as vector files (AI, SVG, PDF), ready to use in your logo.\nIf it helps you decide, I can first make a short sample with 2–3 letters in one direction.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you need only the vector wordmark and letters, or also an installable font file (OTF)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 480,
-          "salida": 1510,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0327198,
-        "generada": "2026-11-13T08:35:13.181Z"
       }
     }
   ]
