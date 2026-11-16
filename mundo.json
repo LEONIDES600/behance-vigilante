@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-16T13:17:44.534Z",
+  "actualizado": "2026-11-16T17:40:47.408Z",
   "ofertas": [
+    {
+      "id": "micro1/jobs/ai-agent-tester",
+      "tipo": "CONTRACTOR",
+      "titulo": "AI Agent Tester",
+      "presupuesto": "25–45 USD/h",
+      "enlace": "https://himalayas.app/companies/micro1/jobs/ai-agent-tester?utm_source=api",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "micro1",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Role Title: AI Agent Tester \n Role Type: Contractor\n Location: Remote — Europe\n Opportunity Snapshot\n Pay: $25-45/hour\n Time per task: ~1.5 hours per run (evidence and scoring included)\n Onboarding: Once you are presented to the hiring manager, onboarding typically takes 24–48 hours before you can start tasking.\n You’ll need: An active personal popular AI account (Free, Go, or Plus, Pro), an active personal and a smartphone that can screen record\n Your tasks: Run everyday errands with two AI agents, approve key steps, screen record, and score the results\n About the role\n AI agents are starting to handle real-life errands: paying bills, booking trips, doing the groceries. We want to know how well they actually do it, from the point of view of a real user. That’s you.\n You’ll test two AI age",
+      "vista": "2026-11-16T17:40:47.408Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Leo encaja como contratista remoto en Europa con agentes de IA, pero es un puesto de testing (no de construcción) y piden título universitario y 2-3 años de experiencia.",
+        "categoria": "AGENTES",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYou need people in Europe who already use AI every day to run real errands with two agents side by side, record every attempt and score it honestly from a real user's point of view.\nI'm Leo Gómez. I run LeoVisual.nl, an AI creative studio in Amsterdam, and I'm an EU citizen. I use AI tools every day in paid client work.\nI also build AI agent systems for companies and Amazon sellers: one agent per department, daily reports, and WhatsApp/Telegram agents with n8n/Make. So I'm used to checking where an agent needs a confirmation, where it gets stuck and where the user loses control.\nFor each run I would: follow the scenario brief step by step, approve or stop the agent at every key point, screen record the full attempt, then score completion, quality, control issues, satisfaction and time, and add short written notes on what happened and how it felt.\nMy working English is B1 and I keep my written feedback clear and structured. I'm happy to do a test run first.\nMy rate is 25 USD/h, which is within your range.\nHow many runs per week do you expect from each tester, and do the scenarios need to happen in a specific European country?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1054,
+          "salida": 2073,
+          "cacheLeida": 2999,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.046275800000000006,
+        "generada": "2026-11-16T17:40:46.591Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "zulay-kitchen/jobs/e-commerce-graphic-designer-4398154552",
       "tipo": "FULL_TIME",
@@ -3932,24 +3972,6 @@
       "cierraEnDias": null,
       "dondeSolicitar": "",
       "descripcion": "Docker Git Inventory Management Supply Chain Microsoft Excel Python SAP SAP Production Planning SQL Supply Chain Operations Overview A fast-growing AI data company is hiring supply chain practitioners to design expert-level Terminal-Bench tasks for evaluating AI agents. You will turn real planning work into end-to-end challenges, each with files, a working solution and an automated correctness check. The goal is to build a benchmark grounded in real operations work. ***THIS IS A TASK BASED COMPENSATION MODEL. PLEASE CHECK THE APPLICATION QUESTIONS FOR MORE DETAILS.*** Responsibilities â¢ Design expert-level Terminal-Bench tasks by turning a real supply chain task from your work into a challenge an AI agent solves end to end. â¢ Define the files, data exports and systems each task runs on",
-      "vista": "2026-11-10T19:42:37.366Z",
-      "fuente": "remoteok"
-    },
-    {
-      "id": "1137686",
-      "tipo": "REMOTE",
-      "titulo": "iMerit — AI Content Reviewer Video Annotation",
-      "presupuesto": "80.000–90.000 USD/año",
-      "enlace": "https://remoteOK.com/remote-jobs/remote-ai-content-reviewer-video-annotation-imerit-1137686",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "iMerit",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "content writing ai other 100% Remote | Independent Contractor | 35 - 40 USD/hour Help shape the future of AI. Artificial Intelligence is evolving rapidly, and high-quality data plays a key role in making it smarter. We're looking for detail-oriented individuals to contribute to exciting AI projects by reviewing and annotating video content. This is your opportunity to get involved in the world of AI, gain hands-on experience, and contribute to technologies shaping the future. No previous AI or robotics experience required! What you'll do Review and annotate short video clips, identifying objects, actions, and events. Evaluate video clarity, quality, and camera angles. Assess movements and interactions based on project guidelines. Ensure annotations are accurate and consistent. What we're l",
       "vista": "2026-11-10T19:42:37.366Z",
       "fuente": "remoteok"
     }
