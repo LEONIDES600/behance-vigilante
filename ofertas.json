@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T17:46:12.706Z",
+  "actualizado": "2026-11-17T17:50:10.976Z",
   "ofertas": [
+    {
+      "id": "571373",
+      "tipo": "FREELANCE",
+      "titulo": "logo for a new boutique advertising agency",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/571373/logo-for-a-new-boutique-advertising-agency",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m launching a new boutique advertising agency, founded by an award-winning team with 15+ years in the industry, and I’m looking for a designer to create its full brand identity. The brand should feel young and bold but also refined and premium, with a crafted look that could sit just as naturally on a specialty coffee brand as on an agency deck. The scope covers logo concepts and the final logo system, colour palette, typography, key applications, social media templates and brand guidelines.\nideal timeline is two weeks from now, max 3 weeks.",
+      "vista": "2026-11-17T17:50:10.976Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es una identidad de marca completa y Leo no tiene todavía un proyecto de branding, así que se envía ofreciendo una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nYour agency needs an identity that feels young and bold yet refined and premium, crafted enough to sit on a specialty coffee bag as naturally as on an agency deck.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nBefore you pay anything, I'll send you one logo direction shown on an agency deck cover and a social post.\nThen: logo concepts, the final logo system, colour palette, typography, key applications, social media templates and brand guidelines.\n1000 USD, 50% upfront, delivered in 2 weeks, with 2 rounds of changes.\nWhich agencies or brands feel closest to the tone you have in mind?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "2 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 552,
+          "salida": 1063,
+          "cacheLeida": 4741,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0244162,
+        "generada": "2026-11-17T17:50:09.952Z"
+      }
+    },
     {
       "id": "571365",
       "tipo": "FREELANCE",
@@ -3843,45 +3882,6 @@
         },
         "costeUSD": 0.0316278,
         "generada": "2026-11-15T18:18:43.315Z"
-      }
-    },
-    {
-      "id": "569475",
-      "tipo": "FREELANCE",
-      "titulo": "Minimalist Premium Clothing Brand Logo and Apparel Designs",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569475/Minimalist-Premium-Clothing-Brand-Logo-and-Apparel-Designs",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "A designer to create the logo and apparel designs for a minimalist, premium clothing brand.\nVersions:\n-A short 3-letter logo on its own\n-The same logo with the full brand name\nStyle:\n-Bold, clean sans-serif lettering\n-Editorial, luxury, quiet\n-A subtle classic/baroque touch\nInspiration:\n-Aimé Leon Dore: restraint, heritage feel, small understated branding\nAvoid:\n-Loud streetwear graphics\n-Gradients\n-Generic tech-startup look\n-Anything template-like\nScope:\n-Logo\n-Designs for t-shirts and jackets\nTone:\n-Expensive without shouting. The detail is the point.",
-      "vista": "2026-11-15T17:48:11.173Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es un logo con diseños de ropa, que Leo puede hacer, pero no tiene ningún logo de marca de ropa en el portfolio; el presupuesto es aceptable.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYour brand needs a mark that feels expensive through restraint: a bold, clean 3-letter logo with a quiet baroque detail, and apparel that whispers instead of shouting.\nI'm Leo, from LeoVisual.nl, a creative studio in Amsterdam. I do graphic design and brand visuals, and my cinematic AI ads ORBE and SILENCIO show the calm, editorial look I like to work in.\nTo be honest, I don't have a clothing brand logo in my portfolio yet, so I'm happy to make a short sample first so you can judge the direction.\nHow I would do it:\n1. A short moodboard based on the Aimé Leon Dore restraint and heritage feel.\n2. 2-3 monogram directions in bold sans-serif, with the baroque touch only in one small detail (a cut, a terminal or a small ornament).\n3. Refine the chosen one, then build the lockup with the full brand name. No gradients, no template look.\n4. Apply it to t-shirts and jackets: small chest marks, back neck and label details, with mockups and vector files.\nPrice: 250 USD, 50% upfront, delivery in 7-10 days, with 2 rounds of changes.\nWhat is the brand name and which 3 letters will the short logo use?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 592,
-          "salida": 1226,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.041883,
-        "generada": "2026-11-15T17:48:10.496Z"
       }
     }
   ]
