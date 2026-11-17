@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T19:12:54.530Z",
+  "actualizado": "2026-11-17T19:15:14.962Z",
   "ofertas": [
+    {
+      "id": "571417",
+      "tipo": "FREELANCE",
+      "titulo": "Freelance Creative Strategist for US Nutra Supplement Offers",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/571417/Freelance-Creative-Strategist-for-US-Nutra-Supplement-Offers",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m seeking a freelance Creative Strategist for health and wellness supplement offers targeting the US market. This is a two-in-one role focused on generating creative concepts and producing performance-driven creatives for testing and iteration.",
+      "vista": "2026-11-17T19:15:14.962Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Encaja: conceptos y anuncios cortos de rendimiento y diseño para redes; el presupuesto llega a 250 USD, así que no es demasiado bajo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nFor US supplement offers, testing works best with several hooks and angles per offer, cut into short ads you can iterate on fast.\nClosest example of my work, a product campaign:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I'd work: 1) 3–5 concepts per offer (hook, angle, script), 2) produce short video ads and static social designs in 9:16 and 1:1, 3) build new variations from your test results.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nPrice: 250 USD for a first batch, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich offer would you like to start with, and do you already have winning ads we can build on?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 460,
+          "salida": 1358,
+          "cacheLeida": 4741,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0299482,
+        "generada": "2026-11-17T19:15:13.789Z"
+      }
+    },
     {
       "id": "366623",
       "tipo": "FULLTIME",
@@ -3843,45 +3882,6 @@
         },
         "costeUSD": 0.042367,
         "generada": "2026-11-15T20:08:51.860Z"
-      }
-    },
-    {
-      "id": "569517",
-      "tipo": "FREELANCE",
-      "titulo": "Music Video Production and Cover Artwork for an Independent Artist",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569517/Music-Video-Production-and-Cover-Artwork-for-an-Independent-Artist",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Follow the link to accept offer",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m seeking freelancers to help create a music video for an independent artist, with an expected timeline of 4–6 weeks. You can contribute to a specific area based on your expertise, including concept development, filming, editing, motion graphics, or cover artwork.",
-      "vista": "2026-11-15T18:32:56.013Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Encaja con edición, motion graphics, vídeo con IA y portada; Leo no rueda, así que se ofrece sin la grabación. Ojo: la empresa aparece como «Follow the link to accept offer», que puede ser una estafa; no abras enlaces externos ni pagues nada.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\n\nA music video for an independent artist needs a strong concept and an edit that moves with the track. I can help with the concept, editing, motion graphics and the cover artwork. I don't do live filming myself.\nAt LeoVisual.nl I made ORBE and SILENCIO, cinematic ads created with AI, where I handled the idea, generation, editing and sound.\nFor this video I would start from the song and a short moodboard. Then I would generate or edit the shots (Kling, Seedance, Premiere, After Effects), cut them to the beat, add motion graphics and design the cover in the same visual style.\nI don't have a music video in my portfolio yet, so I'm happy to make a short sample for one section of the track first.\nPrice: 5000 USD for the full scope, with 50% upfront. You would get a first complete version in 7–10 days, well within your 4–6 week timeline, plus 2 rounds of revisions.\nDo you already have footage of the artist, or should the video be created fully with AI from a concept?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 448,
-          "salida": 1545,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0332918,
-        "generada": "2026-11-15T18:32:55.025Z"
       }
     }
   ]
