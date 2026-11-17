@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T17:50:10.976Z",
+  "actualizado": "2026-11-17T18:18:16.335Z",
   "ofertas": [
+    {
+      "id": "571393",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity ",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/571393/Brand-Identity-",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We need a designer to build a new brand identity from scratch, covering logo design, fonts, colors, and brand guidelines.",
+      "vista": "2026-11-17T18:18:16.335Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es una identidad de marca completa que Leo puede hacer, pero no hay ningún proyecto de branding en su portfolio, así que la carta ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nA new identity from scratch works best when the logo, fonts, colors and guidelines are built as one system, so every choice has a reason behind it.\n\nI'm Leo Gómez, creative director at LeoVisual.nl. Before you pay anything, I'll send you one logo direction with its font and color pairing, so you can judge the fit.\n\nHow I'd work: a short brief on your brand and audience, 2–3 logo directions, the chosen one refined into a typography and color system, and finally a clear brand guidelines PDF.\n\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\n\nWhat is the brand name, and what does the business do?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 405,
+          "salida": 958,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.044485,
+        "generada": "2026-11-17T18:18:15.394Z"
+      }
+    },
     {
       "id": "571373",
       "tipo": "FREELANCE",
@@ -3843,45 +3882,6 @@
         },
         "costeUSD": 0.0302758,
         "generada": "2026-11-15T18:18:28.914Z"
-      }
-    },
-    {
-      "id": "569505",
-      "tipo": "FREELANCE",
-      "titulo": "Launch Design Support for a New Home Goods Brand",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569505/Launch-Design-Support-for-a-New-Home-Goods-Brand",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Follow the link to accept offer",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m launching a new home goods brand and need freelance support across brand identity, packaging, website design, copywriting, and visual content. You can take on an individual task based on your specialty, with work expected to be completed within 4–6 weeks.",
-      "vista": "2026-11-15T18:18:45.396Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Encaja en web y contenido visual para una marca de hogar, y se puede coger una sola tarea; ojo, el nombre de empresa «Follow the link to accept offer» es raro, así que no abras enlaces externos.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA new home goods brand needs a website and product visuals that look consistent from day one, and that is the part I would like to take on.\nI recently worked for a home brand that sells on Amazon in several European countries (under NDA): AI agents, many listing images and videos, A+ content and their website.\nI also build 3D scroll websites in code, like LUMEN and FORJA (three.js + GSAP).\nHow I would do it: a short brief on your style and products, then a homepage design and a visual direction for your approval, then the build plus a first set of product images and short videos made with AI and finished in Adobe.\nI don't have a full brand identity or packaging project in my portfolio, so I would focus on the website and visual content. I'm happy to make a short sample first.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nDo you already have a logo and product photos, or would the website start from zero?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 432,
-          "salida": 1465,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0316278,
-        "generada": "2026-11-15T18:18:43.315Z"
       }
     }
   ]
