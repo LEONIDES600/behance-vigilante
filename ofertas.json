@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T18:33:56.866Z",
+  "actualizado": "2026-11-17T19:11:41.288Z",
   "ofertas": [
+    {
+      "id": "571415",
+      "tipo": "FREELANCE",
+      "titulo": "Criação de Logotipo",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/571415/Criacao-de-Logotipo",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Buscamos um designer ou estúdio criativo para desenvolver o rebranding completo do Ateliê do Puff, que passará a se chamar **O Ateliê**.\nNosso objetivo é criar uma marca premium, autoral e atemporal, com identidade visual exclusiva, capaz de transmitir tradição, criatividade, autenticidade e sofisticação.\nTemos interesse em explorar referências artesanais, elementos medievais, arquitetura orgânica e tipografia personalizada, mas estamos abertos a propostas criativas que tragam originalidade ao projeto.\nNão buscamos apenas um logotipo. Queremos desenvolver um sistema completo de identidade visual, com aplicações físicas e digitais, incluindo diretrizes para website, e-commerce, aplicativo, redes sociais, embalagens e animações.\nProcuramos profissionais com experiência em branding, identidade visual e direção de arte, capazes de desenvolver um conceito consistente e apresentar soluções criativas fundamentadas.\nA seleção será realizada com base no portfólio, na experiência e na proposta comercial. Aceitamos profissionais independentes e estúdios, com possibilidade de desenvolvimento por etapas.",
+      "vista": "2026-11-17T19:11:41.288Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Rebranding completo y bien pagado, pero no hay proyecto de branding en el portfolio: se ofrece una muestra antes de pagar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nMoving Ateliê do Puff to O Ateliê calls for a premium, timeless identity built on craft references, medieval elements, organic architecture and custom typography.\nI'm Leo, creative director at LeoVisual.nl. Before you pay anything, I'll send you one logo direction for O Ateliê mocked up on packaging and a social post.\nPlan: concept and moodboard, wordmark and symbol, colour and type system, then guidelines for web, e-commerce, app, social, packaging and motion, delivered in stages.\nBudget: 5,000 USD, 50% upfront, 3–4 weeks, 2 rounds of revisions.\nIs there anything from the current brand you want to keep, like colours or symbols?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "3–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 789,
+          "salida": 1564,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.058141,
+        "generada": "2026-11-17T19:11:40.263Z"
+      }
+    },
     {
       "id": "571399",
       "tipo": "FREELANCE",
@@ -3843,45 +3882,6 @@
         },
         "costeUSD": 0.047439,
         "generada": "2026-11-15T18:31:34.984Z"
-      }
-    },
-    {
-      "id": "569499",
-      "tipo": "FREELANCE",
-      "titulo": "Creative Support for New Home Goods Brand Launch",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569499/Creative-Support-for-New-Home-Goods-Brand-Launch",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Follow the link to accept offer",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m launching a new home goods brand and need freelance support across brand identity, packaging, website design, copywriting, and visual content. You can take on an individual task that matches your specialty, with the work expected to be completed within 4–6 weeks.",
-      "vista": "2026-11-15T18:18:45.396Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Marca de hogar que acepta tareas sueltas: encaja con web y con imágenes y vídeo de producto, donde Leo tiene trabajo parecido.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA new home goods brand needs a launch website and product visuals that look clean and feel like one brand, so people trust it from the first visit.\nI would like to take the website and visual content part.\nI recently worked for a home brand that sells in several European countries (under NDA). I made product images and videos, A+ content and their website.\nI also build 3D scroll websites in code (three.js + GSAP), like LUMEN and FORJA, but I can also do a simple, fast website.\nHow I would do it: 1) short call to agree on style, pages and products, 2) a homepage design for your feedback, 3) build the full site and AI product images that match it, 4) final changes and launch.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have a logo and product photos, or should the visuals start from your product files only?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 431,
-          "salida": 967,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.036059,
-        "generada": "2026-11-15T18:18:14.854Z"
       }
     }
   ]
