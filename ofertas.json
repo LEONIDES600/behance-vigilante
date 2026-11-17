@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-16T22:56:16.860Z",
+  "actualizado": "2026-11-17T00:43:10.457Z",
   "ofertas": [
+    {
+      "id": "570405",
+      "tipo": "FREELANCE",
+      "titulo": "Logo pour le langage Pandia",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570405/Logo-pour-le-langage-Pandia",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Université de Bordeaux",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Je cherche à collaborer avec un ou une graphiste pour développer le logo du langage Pandia (voir document joint) et affiner la charte graphique associée. Je souhaite être fortement impliquée dans le processus : j’ai des goûts très précis et j’ai des idées bien spécifiques de ce que je veux faire. Pour autant, j’ai besoin de conseils et d’aide pour la charte graphique et le logo, car je ne sais pas dessiner autrement qu’en codant (toutes les images de ce document sont générées par du code).\nLe logo devra être facilement implémentable en Pandia. Je me chargerai de l’implémentation, et le ou la graphiste proposera un design, des couleurs, et son expertise pour m’aiguiller et m’aider. Le budget maximal est de 1700€.\nLe document joint nous servira de base : nous partirons de mes propositions (qui relèvent de l’amateurisme) pour en faire quelque chose de professionnel et utilisable pour le futur site internet de Pandia.",
+      "vista": "2026-11-17T00:43:10.457Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo y guía de marca para un lenguaje de programación: encaja con lo que puede entregar, pero no hay pieza de branding en el portfolio, así que la carta ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nTurning your code-generated Pandia drafts into a logo you can rebuild in Pandia itself means simple geometry, clear proportions and a small palette.\nI'm Leo, creative director at LeoVisual.nl. How I'd do it: study your document, propose 2–3 directions built from basic shapes, refine the one you choose together with you, and deliver an SVG with exact sizes, colours and spacing rules you can code, plus a short guide for the future website.\nBefore you pay anything, I'll send you one logo direction based on your own drafts.\nPrice: 1000 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich shapes or colours from your document do you want to keep no matter what?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 733,
+          "salida": 1447,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.055577,
+        "generada": "2026-11-17T00:43:09.188Z"
+      }
+    },
     {
       "id": "570385",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.036547,
         "generada": "2026-11-13T19:31:16.595Z"
-      }
-    },
-    {
-      "id": "568573",
-      "tipo": "FREELANCE",
-      "titulo": "Product Photography for Stationery and Card Website",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568573/Product-Photography-for-Stationery-and-Card-Website",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a product photographer to photograph stationery and cards, including greeting cards and bar and bat mitzvah cards, for use on my website. The shoot will take place in Midtown Manhattan, New York City.",
-      "vista": "2026-11-13T19:24:19.952Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es una sesión de fotos presencial en Midtown Manhattan (Nueva York), y Leo trabaja en remoto desde Ámsterdam.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 405,
-          "salida": 380,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.024215,
-        "generada": "2026-11-13T19:24:19.001Z"
       }
     }
   ]
