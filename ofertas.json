@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T08:45:11.490Z",
+  "actualizado": "2026-11-17T10:03:31.293Z",
   "ofertas": [
+    {
+      "id": "570627",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity, Website UI Kit, And Web Page Redesign",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570627/Brand-Identity-Website-UI-Kit-And-Web-Page-Redesign",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "1880",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic designer to develop a complete brand identity for my project, create a website UI kit, and rework existing web design pages using the newly developed visual identity and UI system.",
+      "vista": "2026-11-17T10:03:31.293Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja la parte web y el UI kit, pero en Behance no hay ningún proyecto de branding, así que la carta ofrece una muestra antes de cobrar.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nBuilding the brand identity first and then carrying it into a UI kit and your existing pages is the right order: one system, applied everywhere.\nI'm Leo, creative director at LeoVisual.nl. Closest work, websites built from one visual system:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nBefore you pay anything, I'll send you one identity direction (logo, colours, type) applied to one of your current pages.\nThen: full brand identity, a UI kit in Figma (styles and components) and the redesigned pages.\n1000 USD, 50% upfront, 2–3 weeks, 2 rounds of changes.\nHow many existing pages need the redesign, and are they in Figma or live code?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "2–3 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 442,
+          "salida": 1087,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.047213,
+        "generada": "2026-11-17T10:03:29.943Z"
+      }
+    },
     {
       "id": "372123",
       "tipo": "CONTRACT",
@@ -3850,45 +3889,6 @@
         },
         "costeUSD": 0.037487,
         "generada": "2026-11-14T22:46:36.263Z"
-      }
-    },
-    {
-      "id": "569097",
-      "tipo": "FREELANCE",
-      "titulo": "Logo, Branding y Estrategia de Marketing para Desarrollo de Departamentos",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569097/Logo-Branding-y-Estrategia-de-Marketing-para-Desarrollo-de-Departamentos",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Busco a alguien que me ayude con la creación del logo para un desarrollo de departamentos en Cancún, de igual manera toda la identidad corporativa y una estrategia de marketing para la venta del proyecto.",
-      "vista": "2026-11-14T21:47:10.951Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Logo e identidad entran en «dudosa»: no hay una pieza igual en el portfolio, así que se envía con oferta de muestra y sin prometer gestión de campañas.",
-        "categoria": "CREATIVO",
-        "idioma": "es",
-        "carga": "alta",
-        "texto": "¡Hola!\n\nUn desarrollo de departamentos en Cancún necesita una marca que transmita confianza y estilo de vida desde el primer vistazo, y que funcione igual en un render, una valla o un anuncio de Instagram.\nSoy Leo, de LeoVisual.nl, un estudio creativo con IA en Ámsterdam. Todavía no tengo un logo inmobiliario en el portfolio, así que puedo hacerte primero una muestra corta para que veas la dirección antes de decidir.\nLo que sí puedo enseñarte: ORBE y SILENCIO, anuncios cinematográficos hechos con IA, y LUMEN y FORJA, webs 3D con scroll. Son el tipo de piezas que ayudan a presentar un proyecto así.\nCómo lo haría:\n1) 2–3 propuestas de logo y elegimos una.\n2) Identidad completa: colores, tipografías, aplicaciones y una guía básica.\n3) Un plan de marketing práctico para la venta: mensajes, público, canales y calendario de contenido, con ideas de anuncios y piezas para redes. Es un plan claro para aplicar; no incluye la gestión de campañas de pago.\nPrecio: 1000 USD, 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿Ya tienes nombre para el desarrollo y sabes a qué comprador va dirigido (inversor extranjero, vivienda local o renta vacacional)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 431,
-          "salida": 1756,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.051839,
-        "generada": "2026-11-14T21:47:09.898Z"
       }
     }
   ]
