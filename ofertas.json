@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T15:48:23.497Z",
+  "actualizado": "2026-11-17T16:08:43.747Z",
   "ofertas": [
+    {
+      "id": "353965",
+      "tipo": "FULLTIME",
+      "titulo": "Graphics Designer",
+      "presupuesto": "700 USD/mes",
+      "enlace": "https://www.behance.net/joblist/fulltime/353965/Graphics-Designer",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "Kommo",
+      "contacto": "Valentina Irdyneeva",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "Behance",
+      "descripcion": "Graphic Designer @ Kommo — Remote 🌍 \n Hey! We're Kommo — an international IT company, and we're looking for a Graphic Designer to join our Content team 🎨\n We work across marketing, advertising, and product — creating visuals that reach audiences in multiple countries and languages. If you love clean design, know Figma inside out, and want to grow in a supportive international team, keep reading!\n What you'll be doing: \n Creating on-brand visuals in Figma for web, marketing, and communications\n Collaborating with the product and marketing teams on ad materials and webpage graphics\n Adapting content for different countries and markets\n Maintaining brand consistency across all design assets\n What we're looking for: \n We're looking for a Junior+ or Junior designer\n 6 months of relevant experience as a Graphic or Web Designer\n Strong Figma skills — auto layout, components, the works\n A solid portfolio with a variety of graphic design work\n English B2 or higher — most meetings and communication are in English\n Spanish or Portuguese is a big plus 🌟\n Nice to have: \n Web design experience\n Motion design skills\n Adobe Creative Suite & AI tools\n What we offer: \n Fully remote position\n A small, kind design team: 2 graphic designers + 1 motion designer\n Real room to grow — up to project manager or team lead\n Freedom to pitch your own ideas and see them come to life\n A global team of 600+ people across multiple countries\n How it works: Screening → Online interview → Test task\n Sounds li",
+      "vista": "2026-11-17T16:08:43.747Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Jornada completa por 700 USD/mes son unos 4,4 USD/h, por debajo del mínimo de 8 USD/h; además piden inglés B2 y Leo tiene B1.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 793,
+          "salida": 531,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.037497,
+        "generada": "2026-11-17T16:08:42.634Z"
+      }
+    },
     {
       "id": "571171",
       "tipo": "FREELANCE",
@@ -3843,45 +3882,6 @@
         },
         "costeUSD": 0.042099,
         "generada": "2026-11-15T12:53:10.749Z"
-      }
-    },
-    {
-      "id": "569333",
-      "tipo": "FREELANCE",
-      "titulo": "Nuovo Brand E UI/UX Per App Di Fantacalcio",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569333/Nuovo-Brand-E-UIUX-Per-App-Di-Fantacalcio",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Vorrei rinnovare la mia app di fantacalcio con un nuovo brand e un'esperienza UI/UX aggiornata. Il progetto comprende la definizione dell'identità visiva e il redesign dell'interfaccia dell'app.",
-      "vista": "2026-11-15T12:47:18.445Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Branding y UI/UX de app pueden hacerse con IA y Figma, pero no hay identidad de marca ni rediseño de app en el portfolio; la oferta está en italiano y la carta va en inglés.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nA fantasy football app needs to be clear: users have to check lineups, scores and standings in seconds. The new brand should make that feel exciting without making the screens crowded.\nI'm Leo from LeoVisual.nl, an AI creative studio in Amsterdam. I design and build websites like LUMEN, FORJA and MORVAIN, which are 3D scroll sites made in code. I also create visuals and ads with AI. My portfolio doesn't have an app redesign or a full brand identity yet, so I'm happy to start with a short sample: one logo direction and one redesigned key screen.\nHow I would work:\n1. Review the current app and its main flows (lineup, live scores, leagues).\n2. Brand: 2–3 visual directions (logo, colours, typography), then refine the one you choose.\n3. UI/UX: wireframes of the key screens in Figma, then final screens and a simple style guide.\nPrice: 5000 USD, with 50% upfront. Delivery in 7–10 days, with 2 rounds of changes.\nHow many screens does the app have now? And is there anything about the current brand (name, colours, tone) that you want to keep?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 443,
-          "salida": 1645,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.049667,
-        "generada": "2026-11-15T12:47:17.699Z"
       }
     }
   ]
