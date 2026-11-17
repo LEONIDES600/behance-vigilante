@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T19:11:41.288Z",
+  "actualizado": "2026-11-17T19:12:54.530Z",
   "ofertas": [
+    {
+      "id": "366623",
+      "tipo": "FULLTIME",
+      "titulo": "Social Media Content Creator / Reels & TikTok Intern (Remote)",
+      "presupuesto": "1 USD/h",
+      "enlace": "https://www.behance.net/joblist/fulltime/366623/Social-Media-Content-Creator-Reels-TikTok-Intern-(Remote)",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Anywhere",
+      "empresa": "FIZZY MAG",
+      "contacto": "Fizzy Mag",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "Behance",
+      "descripcion": "About FIZZY MAG\n FIZZY MAG is a female-focused digital publication covering fashion, streetwear, music, art, beauty, culture and the people shaping youth culture. We care about bold visuals, sharp storytelling and giving space to voices and ideas that don't follow the mainstream.\n Our readership lives online — and we're looking for someone who understands how to turn a great story into content people actually want to watch.\n THE VIBE\n This is a three-month remote, mentorship-based internship for someone who wants hands-on experience creating social-first content for a digital publication.\n You'll work with our existing editorial content, articles, photography and other FIZZY MAG assets to develop Reels, TikToks and short-form videos that bring our stories to life.\n This isn't about simply cutting clips together. You'll learn how to identify the hook in an article, translate editorial ideas into short-form storytelling, and develop content that feels native to TikTok and Instagram while staying true to the FIZZY MAG aesthetic.\n You'll work closely with the team, receive feedback, experiment with ideas and see your work become part of a real publication's social presence.\n WHAT YOU'LL BE DOING\n Turning FIZZY MAG articles into engaging Reels, TikToks and other short-form social content\n Identifying the strongest hooks, facts, quotes and visual moments within an article\n Working with existing FIZZY MAG photography, graphics, video and editorial assets\n Editing short-form videos f",
+      "vista": "2026-11-17T19:12:54.530Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Son prácticas sin sueldo (1 USD/h) pensadas para estudiantes, muy por debajo del mínimo de 8 USD/h.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 2216,
+          "salida": 352,
+          "cacheLeida": 4741,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0168522,
+        "generada": "2026-11-17T19:12:52.548Z"
+      }
+    },
     {
       "id": "571415",
       "tipo": "FREELANCE",
@@ -3843,45 +3882,6 @@
         },
         "costeUSD": 0.0332918,
         "generada": "2026-11-15T18:32:55.025Z"
-      }
-    },
-    {
-      "id": "569515",
-      "tipo": "FREELANCE",
-      "titulo": "Music Video Production and Cover Artwork for an Independent Artist",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569515/Music-Video-Production-and-Cover-Artwork-for-an-Independent-Artist",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Follow the link to accept offer",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m seeking freelancers to help create a music video for an independent artist, with an expected timeline of 4–6 weeks. You can contribute to a specific area based on your expertise, including concept development, filming, editing, motion graphics, or cover artwork.",
-      "vista": "2026-11-15T18:31:36.054Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "El trabajo encaja (vídeo musical con IA, montaje, motion y portada), pero el campo de empresa «Follow the link to accept offer» parece estafa: responde solo dentro de la plataforma y no abras enlaces externos.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA music video for an independent artist needs a clear visual idea that fits the song, and a cover that feels like part of the same world.\nI can help with concept, editing, motion graphics and cover artwork. I don't do live filming, but I can create cinematic footage with AI (Kling, Seedance) or edit footage you already have.\nMy closest work is ORBE and SILENCIO, cinematic ads made with AI where I did the idea, generation, editing and sound.\nHow I would work: 1) listen to the track and send a short concept and moodboard, 2) generate the scenes and edit them to the beat in Premiere and After Effects, 3) design the cover with the same look.\nI don't have a cover artwork piece like this in my portfolio yet, so I'm happy to make a short sample first.\nPrice: 1000 USD, 50% upfront, first full delivery in 7–10 days after the concept is approved, with 2 rounds of changes, inside your 4–6 week timeline.\nWhat is the genre and mood of the song, and do you already have any footage of the artist?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 446,
-          "salida": 1533,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.047439,
-        "generada": "2026-11-15T18:31:34.984Z"
       }
     }
   ]
