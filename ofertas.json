@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T16:08:43.747Z",
+  "actualizado": "2026-11-17T16:13:08.405Z",
   "ofertas": [
+    {
+      "id": "571231",
+      "tipo": "FREELANCE",
+      "titulo": "Pizza Box and To-Go Bag Design Using Existing Logo",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/571231/Pizza-Box-and-To-Go-Bag-Design-Using-Existing-Logo",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Blozzom Pizza",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a designer to create branded pizza box and to-go bag designs using our existing logo. The designs should be suitable for food-service packaging production.",
+      "vista": "2026-11-17T16:13:08.405Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es un encargo de packaging (caja de pizza y bolsa) con un buen presupuesto, pero no hay ningún proyecto de packaging en el portfolio, así que se ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nBlozzom Pizza's logo on the pizza box and to-go bag is the first thing your customers see when their order arrives, so it has to look great and print cleanly.\nBefore you pay anything, I'll send you one design direction mocked up on your pizza box and bag.\nMy process: study your logo and colours, design the box lid and sides plus both faces of the bag, show them in realistic mockups, then prepare production-ready files on your supplier's dielines.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nPrice: 1000 USD, 50% upfront. Delivery: 7–10 days, with 2 rounds of revisions.\nDo you already have the box size and dielines from your packaging supplier?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 432,
+          "salida": 1094,
+          "cacheLeida": 4741,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0245562,
+        "generada": "2026-11-17T16:13:06.805Z"
+      }
+    },
     {
       "id": "353965",
       "tipo": "FULLTIME",
@@ -3843,45 +3882,6 @@
         },
         "costeUSD": 0.043019,
         "generada": "2026-11-15T13:54:16.838Z"
-      }
-    },
-    {
-      "id": "569349",
-      "tipo": "FREELANCE",
-      "titulo": "3D-Produktvisualisierung Mit Cinematic CGI Und Produktanimation",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569349/3D-Produktvisualisierung-Mit-Cinematic-CGI-Und-Produktanimation",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Für mein Projekt suche ich einen 3D-Product-Visualization-Artist mit Erfahrung in cinematischem CGI und Produktanimation. Die Visualisierungen sollen Produkte hochwertig und filmisch präsentieren.",
-      "vista": "2026-11-15T12:53:11.530Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Encaja con vídeo de producto y anuncios cinematográficos con IA y 3D, remoto y con presupuesto aceptable; la carta va en inglés porque Leo no habla alemán.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYou want your products presented in a premium, cinematic way, with visuals and animation that feel like a film, not a catalogue. I'm writing in English, I hope that works for you.\n\nTwo pieces of my work are close to this. ORBE and SILENCIO are cinematic ads made with AI, from idea and generation to editing and sound. I have also made many product images and listing videos for a home brand that sells across Europe.\n\nHow I would do it:\n1. Review your product photos or 3D files and agree on the mood, lighting and camera moves.\n2. Build the product shots and animation with 3D and AI video tools (Kling, Seedance), then finish them in After Effects and Premiere.\n3. Deliver the final cut and stills in the formats you need.\n\nMy workflow combines 3D and AI rather than pure CGI rendering. If you would like to see that first, I can make a short test shot of one of your products.\n\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes included.\n\nHow many products and how many seconds of animation do you need, and do you already have 3D models or only photos?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 451,
-          "salida": 1265,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.042099,
-        "generada": "2026-11-15T12:53:10.749Z"
       }
     }
   ]
