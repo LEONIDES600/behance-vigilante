@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-17T07:54:11.681Z",
+  "actualizado": "2026-11-17T11:55:52.763Z",
   "ofertas": [
+    {
+      "id": "99brightminds/jobs/senior-ui-ux-designer",
+      "tipo": "FULL_TIME",
+      "titulo": "Senior UI/UX Designer",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/99brightminds/jobs/senior-ui-ux-designer?utm_source=api",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Jordan",
+      "empresa": "99brightminds",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "99Bright Minds is seeking a creative and experienced Senior UI/UX Designer to lead the design and user experience of the client's bilingual corporate website across desktop and mobile platforms. The ideal candidate will have a strong background in user-centered design, Arabic and English digital experiences, and modern design systems. You will be responsible for ensuring a consistent, accessible, and engaging user experience while maintaining alignment with brand guidelines and business goals.\n Requirements\n Lead UX research activities, user journey mapping, information architecture, and wireframing for new pages, services, and digital features.\n Design high-fidelity user interfaces for desktop and mobile platforms in both Arabic (RTL) and English (LTR).\n Create, maintain, and evolve a com",
+      "vista": "2026-11-17T11:55:52.763Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exige árabe profesional, 5 años de UI/UX, nivel experto en Figma y un proyecto entregado en Arabia Saudí.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1234,
+          "salida": 355,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.035741,
+        "generada": "2026-11-17T11:55:51.650Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "agencyhires/jobs/graphic-designer",
       "tipo": "FULL_TIME",
@@ -3976,46 +4016,6 @@
         },
         "costeUSD": 0.013535799999999999,
         "generada": "2026-11-11T21:16:47.004Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "pubgenius/jobs/ux-ui-designer-9994279374",
-      "tipo": "CONTRACTOR",
-      "titulo": "UX/UI Designer",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/pubgenius/jobs/ux-ui-designer-9994279374?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Romania",
-      "empresa": "pubGENIUS",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "pubGENIUS is a cutting-edge React.js + Next.js agency and Ad Tech startup that develops innovative digital products for clients across the US and Europe. We are seeking a talented UX/UI Designer who is passionate about creating exceptional user experiences that solve real-world problems.\n At pubGENIUS , we believe design is more than just aesthetics. It's about understanding user needs, challenging assumptions and creating digital solutions that are intuitive, effective and delightful. We are looking for a designer who embraces this philosophy — someone who starts with user research, thinks critically and ensures every design decision is grounded in solving a genuine user problem.\n Requirements\n Minimum 2 years of professional experience in UX/UI design\n Strong portfolio showcasing end-to-",
-      "vista": "2026-11-11T21:17:03.525Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Exige inglés C1 para tratar con clientes y 2 años de UX/UI con investigación de usuarios, y Leo no tiene ninguna de las dos cosas.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1374,
-          "salida": 395,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0139958,
-        "generada": "2026-11-11T21:16:51.171Z"
       },
       "fuente": "himalayas"
     }
