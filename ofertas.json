@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T00:43:10.457Z",
+  "actualizado": "2026-11-17T00:53:48.542Z",
   "ofertas": [
+    {
+      "id": "570409",
+      "tipo": "FREELANCE",
+      "titulo": "Pacchetto Completo di Brand Identity e Motion Graphics",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570409/Pacchetto-Completo-di-Brand-Identity-e-Motion-Graphics",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Ciao! Sono un content creator e scrittore specializzato nel mondo Gaming (playstation, curiosità e easter egg) e Giochi da Tavolo (TCG). Cerco un illustratore/motion designer per creare un'identità visiva coerente e originale per i miei canali (YouTube, TikTok, Instagram). Non valuterò alcun portfolio fatto con IA. \nLo stile visivo: Cerco un mix tra illustrazione fumettosa espressiva e l'estetica artigianale dei libri pop-up / paper cutout (bordi ritagliati a mano, profondità 2.5D, richiami al mondo dei videogiochi e della scrittura creativa).\nAvatar / Mascotte del canale: Un mio ritratto illustrato in stile fumetto/cartoon espressivo (ho già le idee chiare sui tratti e sull'abbigliamento), adattabile come immagine profilo su tutti i social. Per farvi capire un po’ chibi e un po’ stile toon yugioh. \nCopertina (Banner) YouTube: Illustrazione panoramica coerente con lo stile dell'avatar, che integri i temi del gaming, dei giochi di carte e della scrittura/narrazione, ottimizzata per le safe-zone di desktop, TV e mobile.\nIcone per le Storie in Evidenza (Instagram): Un set di circa 5-6 piccole icone illustrate: curiosità videogiochi, eventi card games, recensioni, vita privata, momenti con la community, svago, eventi dal vivo\n2 transizione video animate:\nTransizione Card Game (Stile Stop-Motion Paper Cutout se possibile): mi serve transizione per quando cambio i quadratura o momento di un’analisi di un gioco di carte. Pensavo a una sorta di onda con le carte che si alzano e il mi",
+      "vista": "2026-11-17T00:53:48.542Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "El cliente dice que no valorará ningún portfolio hecho con IA, y pide ilustración cartoon artesanal y stop-motion de papel, que no encaja con el trabajo de Leo con IA.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1209,
+          "salida": 450,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.037541,
+        "generada": "2026-11-17T00:53:47.332Z"
+      }
+    },
     {
       "id": "570405",
       "tipo": "FREELANCE",
@@ -3864,45 +3903,6 @@
         },
         "costeUSD": 0.0300398,
         "generada": "2026-11-13T22:00:48.982Z"
-      }
-    },
-    {
-      "id": "568577",
-      "tipo": "FREELANCE",
-      "titulo": "Ambient Motion Loop for Restaurant Display Artworks",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568577/Ambient-Motion-Loop-for-Restaurant-Display-Artworks",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Earls Kitchen + Bar",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We are a multi-unit restaurant chain looking for an experienced Motion Designer to bring a curated suite of 8 static, high-resolution Midjourney artworks to life as an ambient digital art loop for our restaurant displays.\nThis is living digital decor rather than fast-paced commercial editing. We require slow, ambient loops (soft botanical morphing, fluid light refraction, atmospheric drift, etc) that seamlessly integrate into an upscale hospitality environment without distracting guests.",
-      "vista": "2026-11-13T19:31:17.659Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Encargo de motion graphics y vídeo con IA en remoto y con buen presupuesto; encaja con lo que hace Leo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nTurning your 8 Midjourney artworks into slow, calm loops that sit quietly in the room, without pulling guests' attention, is a nice brief, and I would treat it as a set rather than 8 separate clips.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. My closest work is ORBE and SILENCIO, cinematic ads made with AI where I handled the generation, edit and sound, with a focus on mood and pacing.\nI don't have an ambient display loop like this in my portfolio yet, so I'm happy to animate one of your artworks first as a short sample.\nHow I would do it: animate each artwork with image-to-video AI (Kling or Seedance) using soft prompts like botanical morphing, light refraction and atmospheric drift. Then I would refine the motion in After Effects, match the colour to the original art, and build seamless loops with no visible cut or jump.\nPrice: 2500 USD for the full set of 8 loops, 50% upfront, delivery in 7–10 days, with 2 rounds of changes included.\nWhat resolution and orientation are your displays, and how long should each loop be?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 523,
-          "salida": 973,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.036547,
-        "generada": "2026-11-13T19:31:16.595Z"
       }
     }
   ]
