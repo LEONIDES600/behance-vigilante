@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-17T16:36:44.931Z",
+  "actualizado": "2026-11-17T20:41:15.890Z",
   "ofertas": [
+    {
+      "id": "163037",
+      "tipo": "CONTRACT",
+      "titulo": "Product Owner, AI Pod",
+      "presupuesto": "2700–3300 USD/mes",
+      "enlace": "https://jobicy.com/jobs/163037-product-owner-ai-pod",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "LATAM",
+      "empresa": "Enumerate",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "We are seeking a detail-oriented, analytical Product Owner (Contractor) for two AI Pods that build the foundations of Numa, Enumerate ’s AI product line, including Ask Numa and Homeowner Assist. This role is focused on execution, not product strategy or roadmap direction. The Product Owner will own and detail the AI Pod backlog, lead user acceptance testing (UAT) for every release, document test findings clearly, and analyze customer usage and metrics to inform what gets built next. The role reports to the Director of Product Management and works closely with Product Managers and Engineering. This is a strong fit for someone with a QA background who has recently moved into a product role and wants to grow in product management working on live, customer-facing AI products.\n This is a remote",
+      "vista": "2026-11-17T20:41:15.890Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden residir en LATAM y un perfil de Product Owner con experiencia en QA y UAT, que no encaja con Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1550,
+          "salida": 393,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.037765,
+        "generada": "2026-11-17T20:41:14.891Z"
+      },
+      "fuente": "jobicy"
+    },
     {
       "id": "162833",
       "tipo": "CONTRACT",
@@ -3966,46 +4006,6 @@
         },
         "costeUSD": 0.032091,
         "generada": "2026-11-12T01:20:30.573Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "remotejobsone/jobs/car-mounted-360-video-recorder-remote-worldwide",
-      "tipo": "CONTRACTOR",
-      "titulo": "Car-Mounted 360° Video Recorder – Remote (Worldwide)",
-      "presupuesto": "15–20 USD/h",
-      "enlace": "https://himalayas.app/companies/remotejobsone/jobs/car-mounted-360-video-recorder-remote-worldwide?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Canada, France, Germany, India, Netherlands, Singapore, United Kingdom, United States",
-      "empresa": "RemoteJobsOne",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "IMPORTANT: after you apply, please check your email. We sendyou a link to complete your application — it is not considered until that laststep is done. If you do not see it, check your spam folder.\n This is a fully remote position , open to candidates based in 55 countries, including United States, United Kingdom, Canada, Germany, India, France, Netherlands, Singapore.\n Pay: $15–$20/hr\n Pay: $15-20 USD/hour per approved video\n Role Type: Contractor\n Location: Remote\n Job Description\n We are engaging 360° Vehicle Navigation Video Recorders equipped with cameras such as the Insta360 or GoPro MAX to contribute to a customer project by capturing immersive, high-quality vehicle-navigation footage. In this role, you’ll apply your expertise to help train next-generation AI systems. Your work will",
-      "vista": "2026-11-12T01:22:30.824Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es recogida de datos conduciendo con cámara 360° y soporte propios, no un servicio creativo de Leo, y no consta que tenga ese equipo; además paga 15–20 USD/h por vídeo aprobado.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1303,
-          "salida": 794,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0216918,
-        "generada": "2026-11-12T01:20:40.115Z"
       },
       "fuente": "himalayas"
     }
