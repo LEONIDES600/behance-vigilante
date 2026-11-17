@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T10:03:31.293Z",
+  "actualizado": "2026-11-17T11:08:13.184Z",
   "ofertas": [
+    {
+      "id": "570731",
+      "tipo": "FREELANCE",
+      "titulo": "Logo - brand new home renovation business ",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570731/Logo-brand-new-home-renovation-business-",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Hello!\nWe are Round My Way - a brand new business looking for a light-touch logo design to use on a website (something we would develop further if things take off!). We will focus on residential renovations - and we are after a fun, warm, 'anti-corporate' design - which inspires trust and feels cosy/modern.\nRequested Outputs:\n- Primary Logo: The full customized wordmark (“Round My Way”)\n- Submark / Icon: A simplified monogram or icon, to use as a favicon or social media profile picture\n- Header font: We would like to explore the modification/customisation of a highly legible font such as Open Sauce (or similar) for text headings.\nFile Formats: Please could outputs be provided in vector formats (.AI, .EPS, .SVG) and high-resolution web formats (.PNG with transparent background, .JPG)? \nColour Palette: An organic, warm palette that reflects raw building materials and traditional blue collar uniforms - with a pop of more unexpected, modern colours.\nWe have a moodboard if helpful!",
+      "vista": "2026-11-17T11:08:13.184Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con lo que puede entregar, pero no hay proyecto de branding en el portfolio, así que la carta ofrece una muestra previa.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA warm, anti-corporate wordmark for Round My Way that still says \"you can trust us in your home\" is a great brief, and raw-material tones with workwear blues plus one unexpected pop sounds just right.\nI'm Leo, creative director at LeoVisual.nl.\nBefore you pay anything, I'll send you one wordmark direction with a matching favicon icon in your palette.\nThen: review your moodboard, explore directions, refine the chosen one, customise an Open Sauce-style heading font, and deliver AI, EPS, SVG, transparent PNG and JPG files.\n500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nCould you share the moodboard so the first direction starts from it?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 713,
+          "salida": 1488,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.056317,
+        "generada": "2026-11-17T11:08:11.891Z"
+      }
+    },
     {
       "id": "570627",
       "tipo": "FREELANCE",
@@ -3850,45 +3889,6 @@
         },
         "costeUSD": 0.039203,
         "generada": "2026-11-14T23:10:54.389Z"
-      }
-    },
-    {
-      "id": "569103",
-      "tipo": "FREELANCE",
-      "titulo": "Full Design Services for a Cosmetic Brand",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569103/Full-Design-Services-for-a-Cosmetic-Brand",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Kozmetik markam için kapsamlı tasarım hizmetine ihtiyacım var. Bütçem 3.000 USD ve markanın tüm tasarım ihtiyaçlarını kapsayan eksiksiz bir çalışma istiyorum.",
-      "vista": "2026-11-14T22:46:37.180Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Branding y packaging de cosmética con buen presupuesto (3.000 USD), pero no hay piezas de identidad ni packaging en el portfolio; la descripción está en turco, aunque el título está en inglés.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nYour cosmetic brand needs one complete, consistent design system, so the logo, packaging and visuals all look like the same brand.\nI am Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. I have to be honest: my portfolio does not have a logo or packaging project yet. What I do have is a lot of product imagery: listing images and videos, A+ content and a website for a home brand that sells in several European countries (under NDA), plus cinematic AI ads like ORBE and SILENCIO.\nMy plan for you: 1) a short brief about your audience, products and references; 2) 2–3 visual directions (logo, colours, typography); 3) packaging mockups for your main products; 4) product images and social media visuals that use the same style.\nIf it helps, I can first make a short free sample (for example, one direction on one product) so you can see the quality before you decide.\nBudget: 3000 USD, 50 % upfront, delivery in 7–10 days, with 2 rounds of changes.\nHow many products (and packaging types) do you need designed in this first phase?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 3000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 438,
-          "salida": 1037,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.037487,
-        "generada": "2026-11-14T22:46:36.263Z"
       }
     }
   ]
