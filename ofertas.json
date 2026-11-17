@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T16:13:08.405Z",
+  "actualizado": "2026-11-17T16:39:10.038Z",
   "ofertas": [
+    {
+      "id": "571253",
+      "tipo": "FREELANCE",
+      "titulo": "Graphic Design Support for a Six-Month AI Training Project",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/571253/Graphic-Design-Support-for-a-Six-Month-AI-Training-Project",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic designer to support our AI training project for a long-term engagement of over six months. The budget is USD 1,000–3,000 per month.",
+      "vista": "2026-11-17T16:39:10.038Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es diseño gráfico continuo para un proyecto de IA, encaja con Leo; va como dudosa porque está en Branding y no hay proyecto de branding, así que se ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nA six-month AI training project needs visuals that stay consistent from the first module to the last, not one-off pieces.\nI'm Leo Gómez, creative director at LeoVisual.nl. I work with AI tools like GPT Image and Nano Banana Pro, plus Adobe and Figma, for graphic design, motion and 3D.\nHow I'd do it: set up a simple visual system (type, colours, icon and diagram style), then deliver slides, course graphics and social assets on a weekly rhythm.\nBefore you pay anything, I'll send you one sample training slide designed in that system.\nPrice: 2,500 USD per month, 50% upfront each month, 2 rounds of changes per piece, ongoing for the six months.\nWhat will the designs be used for first: course slides, platform screens or promotion?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "6 meses (trabajo continuo, entregas semanales)",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 427,
+          "salida": 1670,
+          "cacheLeida": 4741,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0360562,
+        "generada": "2026-11-17T16:39:09.000Z"
+      }
+    },
     {
       "id": "571231",
       "tipo": "FREELANCE",
@@ -3843,45 +3882,6 @@
         },
         "costeUSD": 0.041771,
         "generada": "2026-11-15T14:04:47.660Z"
-      }
-    },
-    {
-      "id": "569373",
-      "tipo": "FREELANCE",
-      "titulo": "Food-First Thumbnail Design",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569373/Food-First-Thumbnail-Design",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for an experienced YouTube thumbnail designer and creative strategist for my established cooking channel with over 175,000 subscribers.\nMy content focuses on cinematic cooking, barbecue, culinary traditions, and food history. I put significant effort into production quality, and I'm looking for someone who can bring that same level of creativity and attention to my video packaging.\nI'm especially interested in food-first thumbnails that make the finished dish the star rather than relying on exaggerated facial expressions, clickbait graphics, or conventional YouTube thumbnail formulas.\nI currently design my own thumbnails, but I'm looking for a long-term creative partner who can bring fresh ideas, improve click-through rates, develop a recognizable visual identity, and help with title and thumbnail strategy.\nI'm looking for an ongoing creative relationship rather than a one-off design project.",
-      "vista": "2026-11-15T13:54:17.650Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Diseño gráfico para YouTube con estética cinematográfica, encaja con sus servicios; no tiene miniaturas en el portfolio, así que se ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA cinematic cooking channel deserves thumbnails where the finished dish is the hero, not a shocked face, and I like that you want a consistent visual identity instead of the usual formulas.\nI run LeoVisual.nl, an AI creative studio in Amsterdam. My closest work is ORBE and SILENCIO, cinematic ads I made with AI (idea, generation, editing and sound), and a large set of product images for a home brand selling across Europe. In both, the goal was to make one product look irresistible in a single frame.\nHow I would work: first I review your recent videos and current thumbnails, then I define a visual system (lighting, color grade, dish framing, type and title placement), then I design 2-3 options per video from your stills, using Photoshop and AI to clean up and enhance. We pair each option with title ideas so they work together.\nI don't have YouTube thumbnails in my portfolio yet, so I'm happy to redesign one of your recent thumbnails as a sample first.\nFor a first set of thumbnails and the visual direction: 250 USD, 50% upfront, delivery in 7-10 days and 2 rounds of revisions. After that we can agree on an ongoing rhythm.\nWhich recent video would you like me to use for the sample?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 626,
-          "salida": 1276,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.043019,
-        "generada": "2026-11-15T13:54:16.838Z"
       }
     }
   ]
