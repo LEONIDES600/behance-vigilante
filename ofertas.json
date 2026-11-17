@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T15:34:35.745Z",
+  "actualizado": "2026-11-17T15:48:23.497Z",
   "ofertas": [
+    {
+      "id": "571171",
+      "tipo": "FREELANCE",
+      "titulo": "One-Minute Animated Video Inspired by the Opening of Real Time With Bill Maher",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/571171/One-Minute-Animated-Video-Inspired-by-the-Opening-of-Real-Time-With-Bill-Maher",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need an animator to produce a one-minute video inspired by the opening style of “Real Time” with Bill Maher. My budget is $350, and I will provide an outline and storyboard to guide the animation.",
+      "vista": "2026-11-17T15:48:23.497Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Animación y motion graphics de un minuto con storyboard del cliente: encaja con sus servicios y el presupuesto es correcto.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA one-minute opening in the spirit of Real Time, with that bold title rhythm and punchy transitions, built from your own outline and storyboard, sounds like a great brief.\nI'm Leo, creative director at LeoVisual.nl. My closest work in motion and visual storytelling:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nHow I'd do it: turn your storyboard into a few style frames for your approval, animate in After Effects, then time every cut to the music and sound.\nPrice: 350 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nDo you already have the music and voice-over, or should I source the soundtrack too?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 350,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 464,
+          "salida": 1468,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.054921,
+        "generada": "2026-11-17T15:48:22.444Z"
+      }
+    },
     {
       "id": "566185",
       "tipo": "FREELANCE",
@@ -3843,45 +3882,6 @@
         },
         "costeUSD": 0.049667,
         "generada": "2026-11-15T12:47:17.699Z"
-      }
-    },
-    {
-      "id": "569279",
-      "tipo": "FREELANCE",
-      "titulo": "PAWVEDA's Animated, Responsive, and Interactive Website Designer",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569279/PAWVEDAs-Animated-Responsive-and-Interactive-Website-Designer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "PAWVEDA",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for a designer to create an animated, responsive, and interactive website for my herbal pet supplements brand. I have a detailed list of milestones to achieve, and I want to get the website to not look generic or basic.",
-      "vista": "2026-11-15T11:04:04.035Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Web animada e interactiva que no parezca genérica: encaja con sus webs 3D con scroll en código (LUMEN, FORJA).",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nAn herbal pet supplements brand needs a website that feels warm, natural and trustworthy, and animation can do that without making it look like a generic template.\nI build animated scroll websites in code (HTML/CSS/JS with three.js + GSAP). Two examples are LUMEN and FORJA: 3D, scroll-driven sites where the motion follows the story of the brand.\nFor PAWVEDA, this is how I would do it:\n1. Go through your milestone list and define the sections, the content and the visual direction (herbs, ingredients, happy pets).\n2. Design the key screens and the animation ideas before building, so you can approve them first.\n3. Build the site responsive from the start, with scroll animations and interactive product sections that also work well on mobile.\n4. Test it, polish it and hand it over with everything you need.\nPrice: 500 USD, 50% upfront. Delivery in 7–10 days, with 2 rounds of changes included.\nCould you share your milestone list and tell me if you already have product photos and a logo, or if I should work with your current brand assets?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 425,
-          "salida": 903,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.034755,
-        "generada": "2026-11-15T11:04:03.199Z"
       }
     }
   ]
