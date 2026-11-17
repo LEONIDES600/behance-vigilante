@@ -1,6 +1,41 @@
 {
-  "actualizado": "2026-11-17T12:13:52.500Z",
+  "actualizado": "2026-11-17T12:29:30.659Z",
   "ofertas": [
+    {
+      "id": "570853",
+      "tipo": "FREELANCE",
+      "titulo": "Cooperative Ocean Exploration Board Game Design",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570853/Cooperative-Ocean-Exploration-Board-Game-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for freelancers to help create a cooperative board game inspired by ocean exploration, with an expected timeline of 6–8 weeks. You can contribute to a specific area based on your expertise, including character illustrations, card layouts, game board design, packaging, or rulebook editing.",
+      "vista": "2026-11-17T12:29:30.659Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "oferta trampa: plantilla de la campaña falsa «new home goods brand»",
+        "filtro": "trampa",
+        "categoria": "",
+        "idioma": "",
+        "carga": "",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "filtro previo (sin API)",
+        "tokens": null,
+        "costeUSD": 0,
+        "generada": "2026-11-17T12:29:29.952Z"
+      }
+    },
     {
       "id": "570823",
       "tipo": "FREELANCE",
@@ -3850,45 +3885,6 @@
         },
         "costeUSD": 0.0291358,
         "generada": "2026-11-14T23:50:35.078Z"
-      }
-    },
-    {
-      "id": "569119",
-      "tipo": "FREELANCE",
-      "titulo": "Enhancement of Live iPhone Puccini Opera Recording",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569119/Enhancement-of-Live-iPhone-Puccini-Opera-Recording",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need an experienced audio and video enhancer to improve a live iPhone recording of a Puccini opera. The work should upgrade the piano sound and create a balanced, polished video presentation while preserving the live performance.",
-      "vista": "2026-11-14T23:46:10.340Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "La edición y el acabado del vídeo encajan, pero restaurar audio de piano en directo es especializado y no hay una pieza igual en el portfolio; se envía siendo honestos y ofreciendo una prueba.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nA live opera recorded on an iPhone holds something special, and the goal is to make the piano and the whole video feel cleaner and more balanced without losing that live feeling.\n\nI'm Leo, from LeoVisual.nl, a creative studio in Amsterdam. My closest work is ORBE and SILENCIO, two cinematic ads where I handled the editing and the sound. To be honest, I don't have a live opera or concert restoration in my portfolio yet, so I'm happy to do a short test on a 1-minute excerpt first, so you can hear and see the result before deciding.\n\nHow I would work, with Premiere, After Effects and Adobe tools:\n1. Audio: reduce room noise and hiss, gently EQ and balance the piano so it sounds fuller, and keep the voices natural and in front.\n2. Video: stabilize, color-correct and keep the framing consistent, plus simple titles (opera, singers, pianist) if you want them.\n3. Final export in good quality for YouTube or any other platform you need.\n\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\n\nHow long is the recording, and is it one continuous iPhone take or several clips?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 423,
-          "salida": 1188,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0260518,
-        "generada": "2026-11-14T23:46:09.368Z"
       }
     }
   ]
