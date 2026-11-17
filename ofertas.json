@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T12:29:30.659Z",
+  "actualizado": "2026-11-17T13:51:20.148Z",
   "ofertas": [
+    {
+      "id": "570971",
+      "tipo": "FREELANCE",
+      "titulo": "Graphic Design, Marketing, and Video Editing Services",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570971/Graphic-Design-Marketing-and-Video-Editing-Services",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic designer to create flyers, brochures, posters, and social media designs, while also supporting marketing and video-editing work. The work should produce polished promotional visuals for use across print and digital channels.",
+      "vista": "2026-11-17T13:51:20.148Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Encaja con sus servicios: diseño gráfico promocional, piezas para redes y edición de vídeo, en remoto y con un presupuesto aceptable.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYou need polished promotional visuals that work in both print and digital: flyers, brochures, posters and social posts, plus video editing to support your marketing.\nAs creative director at LeoVisual.nl, here is my closest campaign and video work:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nI'd start from your brand colours and message, design one master layout, then adapt it to each print and social format and edit short videos to match.\nBefore you pay anything, I'll send you one flyer draft with your content.\n250 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nWhich piece do you need first, and do you already have a logo and brand colours?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 452,
+          "salida": 1447,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.054453,
+        "generada": "2026-11-17T13:51:18.960Z"
+      }
+    },
     {
       "id": "570853",
       "tipo": "FREELANCE",
@@ -3846,45 +3885,6 @@
         },
         "costeUSD": 0.035619,
         "generada": "2026-11-15T00:14:22.540Z"
-      }
-    },
-    {
-      "id": "569121",
-      "tipo": "FREELANCE",
-      "titulo": "Branding for an Artisanal Silk Sleep and Daywear Company",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569121/Branding-for-an-Artisanal-Silk-Sleep-and-Daywear-Company",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for a designer to create branding for my artisanal silk company specializing in sleepwear and daywear. The branding should establish a cohesive identity for the business and its products.",
-      "vista": "2026-11-14T23:50:35.993Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es branding sin pieza igual en el portfolio, pero se puede hacer con IA y el presupuesto es aceptable; carta honesta que ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nAn artisanal silk sleep and daywear brand needs an identity that feels as soft and premium as the fabric itself, and that looks the same on labels, social media and product photos.\nI'm Leo, from LeoVisual.nl, an AI creative studio in Amsterdam. To be honest, I don't have a full branding project in my portfolio yet. But I have made many product images, listing visuals and A+ content for a home brand that sells across Europe, and cinematic AI ads like ORBE and SILENCIO, so I'm used to building one consistent look around a product.\nHow I would work:\n1. A short questionnaire about your story, your customers and your references.\n2. A moodboard with 2 visual directions (colors, typography, tone).\n3. Logo, color palette, typography and a simple brand guide, plus mockups on labels, packaging and social posts.\nIf it helps, I can make a short sample first so you can see my approach before you decide.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have a brand name and a feeling in mind, for example minimal and calm, or more luxurious and romantic?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 399,
-          "salida": 1347,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0291358,
-        "generada": "2026-11-14T23:50:35.078Z"
       }
     }
   ]
