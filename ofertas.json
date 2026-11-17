@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T16:39:10.038Z",
+  "actualizado": "2026-11-17T17:10:41.319Z",
   "ofertas": [
+    {
+      "id": "571315",
+      "tipo": "FREELANCE",
+      "titulo": "Design Support for Coffee Shop Promo Video, Logo, and Social Media Posts",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/571315/Design-Support-for-Coffee-Shop-Promo-Video-Logo-and-Social-Media-Posts",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm seeking design support for my coffee shop across three projects: a 30-second motion graphics promo video with a $300 budget, a logo with a $150 budget, and social media posts with a $200 budget. I need polished visual assets that promote the coffee shop consistently across video and social channels.",
+      "vista": "2026-11-17T17:10:41.319Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "El vídeo de motion y los posts para redes encajan con sus servicios; para el logo, que aún no tiene en el portfolio, se ofrece una muestra antes del pago.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYour coffee shop needs one consistent look, so I'd start with the logo and carry it into the 30-second promo and the social posts.\nI'm Leo, creative director at LeoVisual.nl. Closest work, a product campaign I directed:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nBefore you pay anything, I'll send you one logo direction mocked up on a coffee cup.\nThen: logo, motion promo (script, animation, music and sound) and a set of posts in the same style.\n650 USD total (150 logo + 300 video + 200 posts), 50% upfront, 7–10 days, 2 rounds of changes.\nHow many social posts do you need, and for which platforms?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 650,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 498,
+          "salida": 1549,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.056677,
+        "generada": "2026-11-17T17:10:40.522Z"
+      }
+    },
     {
       "id": "571253",
       "tipo": "FREELANCE",
@@ -3843,45 +3882,6 @@
         },
         "costeUSD": 0.049351,
         "generada": "2026-11-15T16:59:49.695Z"
-      }
-    },
-    {
-      "id": "569379",
-      "tipo": "FREELANCE",
-      "titulo": "Logo and Branding Refresh for a Pizza Pop-Up Business",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569379/Logo-and-Branding-Refresh-for-a-Pizza-Pop-Up-Business",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a graphic designer to refresh the logo and branding for my pizza pop-up business. The updated identity should support a cohesive, recognizable look for the business.",
-      "vista": "2026-11-15T14:04:48.474Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es logo y branding, que Leo puede hacer, pero no tiene una pieza de identidad igual en el portfolio; la carta lo dice y ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA pizza pop-up needs people to recognize it fast: on the sign, the box, the menu and Instagram. So the refreshed logo has to work small, big and in motion, and stay consistent everywhere.\nI'm Leo from LeoVisual.nl, an AI creative studio in Amsterdam. I don't have a logo refresh like this in my portfolio yet. Most of my work is graphic design for ads and social, motion graphics and AI ad films like ORBE and SILENCIO, where a consistent look across every piece matters a lot.\nHow I would do it:\n1) A short questionnaire about your pizza, your vibe and what to keep from the current logo.\n2) 2–3 logo directions to choose from.\n3) Refine the chosen one and add colors, fonts and a simple brand sheet.\n4) Files ready for your box, menu, stickers and social posts.\nIf you prefer, I can make a quick sample direction first so you can see the style before you decide.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nWhat do you like most about your current logo, and what would you want to keep?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 404,
-          "salida": 1258,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.041771,
-        "generada": "2026-11-15T14:04:47.660Z"
       }
     }
   ]
