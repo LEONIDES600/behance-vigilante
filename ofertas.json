@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T17:44:49.065Z",
+  "actualizado": "2026-11-17T17:46:12.706Z",
   "ofertas": [
+    {
+      "id": "571365",
+      "tipo": "FREELANCE",
+      "titulo": "2D/3D Animator for Long-Term AI Training Project",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/571365/2D3D-Animator-for-Long-Term-AI-Training-Project",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm seeking a 2D/3D animator for an AI training project, with monthly compensation of USD 2,000–5,000 for a long-term engagement of more than six months. The workload is expected to be 3–5 hours per week.",
+      "vista": "2026-11-17T17:46:12.706Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con motion y animación con IA, pero el brief es vago, sin empresa y con pago muy alto para pocas horas; se envía ofreciendo un clip de prueba.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA long-term AI training project at 3–5 hours a week needs an animator who delivers steady, consistent 2D/3D motion every month.\nClosest work, generative motion and cinematic storytelling:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nI'm creative director at LeoVisual.nl and animate with After Effects, 3D and AI video tools like Kling and Seedance.\nBefore you pay anything, I'll send you a short 2D/3D test clip built to your specs.\nTerms: 2,500 USD per month, 50% upfront each month, 2 rounds of changes per batch, for 6+ months.\nWhat will the animations be used for in the training, and which style and format do you need?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "Más de 6 meses (3–5 h/semana)",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 468,
+          "salida": 1968,
+          "cacheLeida": 4741,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.042180199999999994,
+        "generada": "2026-11-17T17:46:11.655Z"
+      }
+    },
     {
       "id": "571343",
       "tipo": "FREELANCE",
@@ -3843,45 +3882,6 @@
         },
         "costeUSD": 0.041883,
         "generada": "2026-11-15T17:48:10.496Z"
-      }
-    },
-    {
-      "id": "569469",
-      "tipo": "FREELANCE",
-      "titulo": "Hi dear!",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569469/Hi-dear",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "New offer",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for freelancers to help launch a new home goods brand. I need support with brand identity, packaging, website design, copywriting, and visual content. You can take on an individual task based on your specialty. The expected timeline is 4–6 weeks.",
-      "vista": "2026-11-15T17:40:39.116Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Marca de hogar remota que acepta tareas sueltas: Leo puede encargarse del diseño web y del contenido visual, que encajan con su portfolio.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA new home goods brand needs a website and visual content that look like one consistent brand from day one.\nI'd like to take on the website design and the visual content (product images and short videos).\nI've worked with a home brand that sells in several European countries (under NDA) on listing images and videos, A+ content and their website.\nI also built LUMEN, FORJA and MORVAIN, 3D scroll websites coded with three.js + GSAP.\nHow I'd do it: first a short brief on your products, audience and style, then a moodboard and homepage design for your approval, then the full build plus a first set of product images and videos made with AI and finished in Adobe.\nPackaging and brand identity aren't in my portfolio, so I'd leave those to a specialist, or I can do a short test piece first if you'd like.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nDo you already have a logo and product photos, or would the visual content start from scratch?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 421,
-          "salida": 1355,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.029383799999999998,
-        "generada": "2026-11-15T17:40:38.088Z"
       }
     }
   ]
