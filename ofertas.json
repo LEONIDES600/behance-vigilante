@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T14:06:56.958Z",
+  "actualizado": "2026-11-17T14:58:21.779Z",
   "ofertas": [
+    {
+      "id": "571079",
+      "tipo": "FREELANCE",
+      "titulo": "Logo Design for a Pediatric Dental Practice",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/571079/Logo-Design-for-a-Pediatric-Dental-Practice",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Ich suche ein Logo für meine Kinderzahnarztpraxis. Das Design soll die Praxis klar und professionell repräsentieren und sich an Kinder sowie ihre Familien richten.",
+      "vista": "2026-11-17T14:58:21.779Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es un logo para una consulta dental infantil: Leo puede hacerlo, pero no tiene ninguna pieza de branding publicada, así que la carta ofrece una muestra gratis antes del pago.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi!\nA logo for your pediatric dental practice has to look professional to parents and feel friendly and calm to kids, all at a glance.\nI'm Leo, creative director at LeoVisual.nl. Before you pay anything, I'll send you one logo direction mocked up on your practice sign and an appointment card.\nHow I'd work: a short brief on your name, colours and tone, then 3 directions, then I refine the one you pick and deliver all files (vector, PNG, full-colour and one-colour versions).\nPrice: 500 USD, 50% upfront, delivery in 2–5 days, 2 rounds of changes.\nDoes the practice already have a name and colours you want to keep?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "2–5 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 442,
+          "salida": 989,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.045253,
+        "generada": "2026-11-17T14:58:20.461Z"
+      }
+    },
     {
       "id": "372211",
       "tipo": "FULLTIME",
@@ -3843,45 +3882,6 @@
         },
         "costeUSD": 0.048711,
         "generada": "2026-11-15T08:54:21.237Z"
-      }
-    },
-    {
-      "id": "569193",
-      "tipo": "FREELANCE",
-      "titulo": "Long-Term Short-Form Video Editing for an International Music Artist Brand",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569193/Long-Term-Short-Form-Video-Editing-for-an-International-Music-Artist-Brand",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m seeking a talented, reliable video editor for a long-term collaboration supporting my international music artist and creative brand. The workload is approximately 80–120 short-form videos per month, depending on complexity. You will edit TikTok, Instagram Reels, and YouTube Shorts from raw footage, adding captions, sound design, transitions, visual effects, and multiple creative versions of the same source material. Please provide your portfolio, monthly price for 80–120 videos, estimated turnaround time, and three examples of your strongest short-form edits.",
-      "vista": "2026-11-15T06:02:55.936Z",
-      "carta": {
-        "decision": "espera",
-        "motivo": "Encaja con edición de vídeo corto, pero piden tres ejemplos concretos de edición short-form y falta confirmar cuáles enviar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\n\nA music artist brand that posts 80–120 shorts a month needs an editor who turns raw footage into many strong versions, fast and with the same look every time.\nI run LeoVisual.nl, a creative studio in Amsterdam. I edit short-form video in Premiere and After Effects, with captions, sound design, transitions and motion graphics.\nTwo pieces to look at: ORBE and SILENCIO, short cinematic ads where I did the idea, edit and sound.\nHow I would work: first we set up a style guide (caption style, pace, sound, transitions), then I cut from your raw footage, make several hook and format versions for TikTok, Reels and Shorts, and deliver in batches.\nFor a third example, I am happy to do a short test edit from your own footage.\nMonthly price for 80–120 videos: 1000 USD, 50% upfront. First batch delivered in 7–10 days, with 2 rounds of changes.\nHow do you share the raw footage, and how many videos would you like in each batch?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "Piden tres ejemplos de edición short-form: ¿qué tres vídeos (enlaces) envío? En la carta están ORBE y SILENCIO, y como tercer ejemplo se ofrece una prueba.",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 536,
-          "salida": 1582,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.048779,
-        "generada": "2026-11-15T06:02:54.661Z"
       }
     }
   ]
