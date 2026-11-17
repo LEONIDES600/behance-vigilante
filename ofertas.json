@@ -1,6 +1,41 @@
 {
-  "actualizado": "2026-11-17T00:53:48.542Z",
+  "actualizado": "2026-11-17T01:21:43.392Z",
   "ofertas": [
+    {
+      "id": "570417",
+      "tipo": "FREELANCE",
+      "titulo": "Australia-Based Freelance Signage or Brand Designer",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570417/Australia-Based-Freelance-Signage-or-Brand-Designer",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Team Pilates",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We’re looking for an Australia-based freelance designer to create a graphic for the street-facing exterior wall of a fitness studio. We want something bold, clean and easy to read from the street. We’ll share photos of the space, brief and design references privately.",
+      "vista": "2026-11-17T01:21:43.392Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "ubicación: exige vivir fuera de la UE («Australia-based freelance designer»)",
+        "filtro": "ubicacion",
+        "categoria": "",
+        "idioma": "",
+        "carga": "",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "filtro previo (sin API)",
+        "tokens": null,
+        "costeUSD": 0,
+        "generada": "2026-11-17T01:21:42.107Z"
+      }
+    },
     {
       "id": "570409",
       "tipo": "FREELANCE",
@@ -3864,45 +3899,6 @@
         },
         "costeUSD": 0.054495,
         "generada": "2026-11-13T22:35:01.492Z"
-      }
-    },
-    {
-      "id": "568599",
-      "tipo": "FREELANCE",
-      "titulo": "Social Media Video Filming and Editing",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568599/Social-Media-Video-Filming-and-Editing",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a video editor and photographer to film and edit social media content. The work includes capturing visual content and producing polished videos suitable for social platforms.",
-      "vista": "2026-11-13T22:00:50.044Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "La edición para redes encaja, pero piden grabar y fotografiar, algo que no está en el portfolio de Leo; la carta lo dice con honestidad.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou need polished videos for social media and the visual content to fill them.\nI'm Leo from LeoVisual.nl, a creative studio in Amsterdam that works with AI. On the editing side, I made ORBE and SILENCIO, cinematic ads created with AI. I handled the idea, generation, editing and sound for both.\nTo be clear: my portfolio doesn't include on-location filming or photography. I can edit footage that you or your team shoot. When you need more material, I can also make extra shots and product images with AI, using Kling, Seedance and Nano Banana Pro.\nMy process: I review your footage and goals, then edit in Premiere and After Effects with motion graphics and captions. Then I export versions sized for each platform (TikTok, Instagram, YouTube).\nI'm happy to do a short test edit first.\nFor 1000 USD: 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nHow many videos do you need, and can you send me the raw footage?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 390,
-          "salida": 1394,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0300398,
-        "generada": "2026-11-13T22:00:48.982Z"
       }
     }
   ]
