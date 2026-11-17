@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T11:48:21.847Z",
+  "actualizado": "2026-11-17T12:13:52.500Z",
   "ofertas": [
+    {
+      "id": "570823",
+      "tipo": "FREELANCE",
+      "titulo": "English E-Commerce Website UI/UX Redesign and Front-End Development",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570823/English-E-Commerce-Website-UIUX-Redesign-and-Front-End-Development",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "UI/UX Redesign and Frontend Development for an Existing E-commerce Site | 7 Days | US$500–800\nWe’re looking for a freelancer who can handle UI design, UX, and frontend development for a one-time project.\nWe already have an English-language custom merchandise site with an existing frontend and defined business logic. Customers can buy ready-made items, customize products with licensed artwork, or upload their own designs. We’d like you to walk through the current site with us, discuss which interactions need to change, then redesign the key screens and implement them in our existing codebase.\nThe goal is for first-time shoppers to understand where to start, how to preview a custom item, and how to review their order before checkout. Visually, we’d like the products and artwork previews to stand out and the interface to feel less templated.\nDeliverables: Editable design files and working frontend pages integrated into the existing project. Timeline: 7 days. Total project budget: US$500–800. Please share one project you personally designed and implemented, along with your quote and the screens you can complete within seven days.",
+      "vista": "2026-11-17T12:13:52.500Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Rediseño UI/UX y front-end de una web en código, encaja con sus webs LUMEN, FORJA y MORVAIN; 800 USD dentro de su presupuesto.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nHelping first-time shoppers know where to start, preview their custom item with your licensed artwork and review the order before checkout is a clear goal for 7 days.\nI'm Leo, creative director at LeoVisual.nl. Websites I designed and coded myself (LUMEN, FORJA, MORVAIN, three.js + GSAP):\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nPlan: walkthrough call, then redesign 3 key screens in Figma (entry/home, product customizer with preview, cart and order review) and implement them in your codebase.\nQuote: 800 USD, 50% upfront, 7 days, 2 rounds of changes, editable files included.\nWhich framework is your current frontend built on?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 800,
+        "anticipoPct": 50,
+        "plazo": "7 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 724,
+          "salida": 1529,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.057181,
+        "generada": "2026-11-17T12:13:51.356Z"
+      }
+    },
     {
       "id": "570791",
       "tipo": "FREELANCE",
@@ -3850,45 +3889,6 @@
         },
         "costeUSD": 0.0260518,
         "generada": "2026-11-14T23:46:09.368Z"
-      }
-    },
-    {
-      "id": "569117",
-      "tipo": "FREELANCE",
-      "titulo": "Motion Designer / TV Promo Editor – The Bold and the Beautiful",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569117/Motion-Designer-TV-Promo-Editor-The-Bold-and-the-Beautiful",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "OmniMedia Group / OmniPlay",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "OmniMedia Group / OmniPlay is looking for a motion designer or TV promo editor to create an editable template for weekly “This Week on The Bold and the Beautiful” promos. We want a polished broadcast-style look and a workflow that makes it easy to replace footage and text every week. There may also be an opportunity for ongoing weekly editing work.",
-      "vista": "2026-11-14T23:42:46.882Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Plantilla de motion graphics y edición de promos encaja con After Effects/Premiere y sus anuncios con IA; remoto y presupuesto razonable.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA weekly \"This Week on The Bold and the Beautiful\" promo needs to look polished every single time, but swapping in new footage and text should only take minutes, not a full rebuild.\nI edit and design motion graphics in Premiere and After Effects. My cinematic ads ORBE and SILENCIO show my editing, pacing and sound work (behance.net/leostudiocreative).\nI don't have a soap opera promo in my portfolio yet, so I'm happy to make a short style frame or a sample first.\nHere's how I would build it:\n1. Two or three broadcast-style looks (titles, lower thirds, transitions, end card with day and time) for you to pick from.\n2. The final template in After Effects, with controls for text, footage placeholders and colors, plus Premiere-editable versions where it helps.\n3. A simple guide so anyone on your team can update the promo each week.\nPrice: 1000 USD for the template, with 50% upfront, delivery in 7–10 days and 2 rounds of changes. I'd also be glad to handle the ongoing weekly edits.\nWhat length and formats do you need each week (for example a 30-second TV spot plus vertical social cutdowns)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 490,
-          "salida": 1044,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.037835,
-        "generada": "2026-11-14T23:42:46.012Z"
       }
     }
   ]
