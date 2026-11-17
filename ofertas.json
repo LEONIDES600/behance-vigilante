@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T05:43:53.085Z",
+  "actualizado": "2026-11-17T06:49:17.623Z",
   "ofertas": [
+    {
+      "id": "570519",
+      "tipo": "FREELANCE",
+      "titulo": "Squarespace Website Redesign",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570519/Squarespace-Website-Redesign",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a website designer to help me redesign my Squarespace website. The project focuses on improving the website’s overall design and presentation.",
+      "vista": "2026-11-17T06:49:17.623Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Rediseño web en remoto, encaja con sus servicios de diseño web; presupuesto aceptable.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA Squarespace redesign focused on overall design and presentation comes down to a clearer layout, stronger visuals and a consistent look on every page.\nI'm Leo, creative director at LeoVisual.nl. My closest work:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nHow I'd do it: review your current site, design a new direction for the homepage, then roll it out to the other pages in Squarespace with consistent typography, colours and spacing.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes included.\nHow many pages does your site have, and is there a website whose style you like?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 408,
+          "salida": 1464,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.054617,
+        "generada": "2026-11-17T06:49:16.686Z"
+      }
+    },
     {
       "id": "570489",
       "tipo": "FREELANCE",
@@ -3856,45 +3895,6 @@
         },
         "costeUSD": 0.037527,
         "generada": "2026-11-14T05:06:02.317Z"
-      }
-    },
-    {
-      "id": "568689",
-      "tipo": "FREELANCE",
-      "titulo": "2D Artist for an AI Project",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568689/2D-Artist-for-an-AI-Project",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m seeking a 2D artist for our AI project, with a budget of $1,000–$3,000. The artist will create polished 2D visual assets that support the project’s creative and product needs.",
-      "vista": "2026-11-14T02:52:03.082Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Se envía como dudosa: es ilustración 2D, que Leo puede hacer con IA, pero no tiene una serie igual en el portfolio, así que la carta lo dice claro y ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou need polished 2D visual assets for your AI project. They have to work for both the creative side and the product side, in one consistent style.\nI'm Leo from LeoVisual.nl, an AI creative studio in Amsterdam. To be upfront, my portfolio doesn't have a pure 2D illustration series yet. What I do have is visual work made with AI and finished in Adobe. Examples are ORBE and SILENCIO, two cinematic AI ads, and a large set of listing images for a European home brand where every asset had to keep the same look.\nHere's how I would work on this:\n1. We agree on a short style guide with a few references.\n2. I create options with GPT Image and Nano Banana Pro.\n3. I clean up and refine each asset in Adobe, then export it in the formats you need.\nIf it helps, I can make a short sample or do a test before we start.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nHow many assets do you need, and is there a style or reference you already like?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 396,
-          "salida": 1532,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0328238,
-        "generada": "2026-11-14T02:52:02.016Z"
       }
     }
   ]
