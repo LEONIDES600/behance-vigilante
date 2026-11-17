@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T18:18:16.335Z",
+  "actualizado": "2026-11-17T18:33:56.866Z",
   "ofertas": [
+    {
+      "id": "571399",
+      "tipo": "FREELANCE",
+      "titulo": "Création D’Un Logo-Symbole Streetwear Autour Du Chiffre 11",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/571399/Cration-DUn-Logo-Symbole-Streetwear-Autour-Du-Chiffre-11",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Je recherche un graphiste spécialisé en identité de marque streetwear inspirée du sport amateur pour créer un monogramme autour du chiffre 11. Mon budget est de 300 € et je souhaite une identité visuelle forte, adaptée à un univers streetwear.",
+      "vista": "2026-11-17T18:33:56.866Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo-monograma streetwear: no hay proyecto de branding en el portfolio, así que se ofrece una muestra corta antes de pagar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi!\nA monogram built around the number 11, with the spirit of amateur sport and a strong streetwear attitude, has to work everywhere: a chest print, a cap, a small woven tag.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nBefore you pay anything, I'll send you one monogram direction for the 11 mocked up on a hoodie and a cap.\nThen: 2–3 directions, you pick one, I refine it and deliver the final files (black, white and colour versions).\nPrice: 300 €, 50% upfront, delivery in 2–5 days, 2 rounds of changes.\nWhich sport or team spirit should the 11 recall: football, basketball, or something local to your brand?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 300,
+        "anticipoPct": 50,
+        "plazo": "2–5 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 485,
+          "salida": 1543,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.056505,
+        "generada": "2026-11-17T18:33:55.849Z"
+      }
+    },
     {
       "id": "571393",
       "tipo": "FREELANCE",
@@ -3843,45 +3882,6 @@
         },
         "costeUSD": 0.036059,
         "generada": "2026-11-15T18:18:14.854Z"
-      }
-    },
-    {
-      "id": "569503",
-      "tipo": "FREELANCE",
-      "titulo": "Launch Design Support for a New Home Goods Brand",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569503/Launch-Design-Support-for-a-New-Home-Goods-Brand",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Follow the link to accept offer",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m launching a new home goods brand and need freelance support across brand identity, packaging, website design, copywriting, and visual content. You can take on an individual task based on your specialty, with work expected to be completed within 4–6 weeks.",
-      "vista": "2026-11-15T18:18:45.396Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Se puede elegir una sola parte del trabajo, y la web y el contenido visual de una marca de hogar encajan con sus trabajos reales.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA new home goods brand needs a website and visuals that feel consistent from day one, and I would like to take on the website design and visual content part of your launch.\nFor a home brand that sells on Amazon in several European countries (under NDA), I made many product images and listing videos, A+ content and their website, so I know this type of product well.\nI also build 3D scroll websites in code (three.js + GSAP), like LUMEN and FORJA.\nHow I would do it:\n1) A short call to understand the brand, the products and your references.\n2) Website structure and design in Figma.\n3) Product images and short videos made with AI (GPT Image, Nano Banana Pro, Kling), edited in Premiere and After Effects.\n4) Building the site and adjusting it with you.\nI don't have a full brand identity or packaging project in my portfolio, so I would focus on web and visuals. If it helps, I can make a short sample first.\nPrice: 5000 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you already have a logo and product photos, or would the visuals start from zero?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 434,
-          "salida": 1397,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0302758,
-        "generada": "2026-11-15T18:18:28.914Z"
       }
     }
   ]
