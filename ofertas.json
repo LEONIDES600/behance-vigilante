@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T11:41:17.690Z",
+  "actualizado": "2026-11-17T11:48:21.847Z",
   "ofertas": [
+    {
+      "id": "570791",
+      "tipo": "FREELANCE",
+      "titulo": "Branding and Webdesign for a Vegan Influencer",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570791/Branding-and-Webdesign-for-a-Vegan-Influencer",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Ich suche kreative Unterstützung für das Branding eines veganen Influencers, einschließlich Webdesign. Ziel ist ein stimmiger, wiedererkennbarer Markenauftritt über digitale und modische Anwendungen hinweg. Gerne Farbvorschläge und Schriftvorschläge, sowie ein Logo\nInfluencername: noah.nebosis",
+      "vista": "2026-11-17T11:48:21.847Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "La web encaja con su portfolio, pero el branding, el logo y el merch no tienen proyecto en Behance, así que la carta ofrece una muestra previa.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA vegan brand for noah.nebosis that feels the same on the website, on social and on a T-shirt needs one clear system: logo, colors and fonts that work everywhere.\nI'm Leo, creative director at LeoVisual.nl. Here is my closest web work:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nBefore you pay anything, I'll send you one logo direction with a color and font proposal, mocked up on a T-shirt.\nThen: a short brand guide (logo, palette, typography), merch mockups and a website design built on the same system.\n1000 USD, 50% upfront, 2–3 weeks, 2 rounds of changes.\nShould the brand feel fresh and playful, or calm and minimal?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "2–3 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 526,
+          "salida": 1392,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.053649,
+        "generada": "2026-11-17T11:48:20.746Z"
+      }
+    },
     {
       "id": "570781",
       "tipo": "FREELANCE",
@@ -3850,45 +3889,6 @@
         },
         "costeUSD": 0.037835,
         "generada": "2026-11-14T23:42:46.012Z"
-      }
-    },
-    {
-      "id": "569113",
-      "tipo": "FREELANCE",
-      "titulo": "Project-Based Graphic Design Support for Print and Digital Brand Materials",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569113/Project-Based-Graphic-Design-Support-for-Print-and-Digital-Brand-Materials",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We’re looking for a talented Graphic Designer to collaborate with our creative team on a project basis, with the potential for a long-term working relationship. This is a remote engagement requiring 15–20 hours per week, and US-based candidates are preferred. You will create polished visual assets for print and digital applications, including marketing collateral, promotional materials, social media graphics, presentations, and other brand-related materials. You will adapt existing brand identities across formats and touchpoints, prepare production-ready artwork, and incorporate creative feedback and art direction from our team.",
-      "vista": "2026-11-14T23:15:23.519Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja el diseño gráfico para redes y material de marketing, pero piden imprenta y presentaciones, que no están en el portfolio, y prefieren candidatos de EE. UU.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYou need someone who can take your existing brand identity and turn it into polished, consistent assets for social media, marketing collateral and presentations, and who works well with your team's feedback and art direction.\nFor a home brand that sells on Amazon in several European countries (under NDA), I designed many listing images and A+ content. All of it followed an existing brand identity across different formats, and it's the closest work I have to what you describe.\nHere's how I would work: first I go through your brand guidelines and current materials, then I deliver a first set of assets in Adobe, apply your feedback and prepare the final files for each format.\nTo be honest, my portfolio has no print collateral or presentation decks yet, so I'm happy to do a short paid test piece first so you can check the quality and the fit.\nI'm based in Amsterdam, in the EU. I know you prefer US-based candidates, so I'm mentioning it upfront.\nProposal for a first project: 1000 USD, 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nWhich materials would you need first, and do you already have brand guidelines and templates I would work from?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 534,
-          "salida": 1341,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0295558,
-        "generada": "2026-11-14T23:15:22.562Z"
       }
     }
   ]
