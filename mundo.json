@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-17T07:23:01.353Z",
+  "actualizado": "2026-11-17T07:54:11.681Z",
   "ofertas": [
+    {
+      "id": "agencyhires/jobs/graphic-designer",
+      "tipo": "FULL_TIME",
+      "titulo": "Graphic Designer",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/agencyhires/jobs/graphic-designer?utm_source=api",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Agencyhires",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "We are hiring a Graphic Designer for our client, one of the most trusted entrepreneurship media brands in the world.\n Our client started as a small digital magazine in Australia and grew into a global education and media company for founders. Today, their content reaches over 1M entrepreneurs each month through podcasts, courses, newsletters, events, social media, and their membership platform.\n Their podcast has featured some of the biggest names in business, including Mark Cuban, Tim Ferriss, Tony Robbins, Richard Branson, Arianna Huffington, Seth Godin, Barbara Corcoran, Daymond John, Reid Hoffman, Simon Sinek, Alex Hormozi, Emma Grede, Neil Patel, Gary Vaynerchuk, and many more.\n Now they need a talented Graphic Designer who can turn ideas, stories, and business insights into compellin",
+      "vista": "2026-11-17T07:54:11.681Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Puesto remoto de diseño gráfico para redes, miniaturas, banners y landings, que encaja con los servicios de Leo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nTurning Foundr's podcast episodes and founder interviews into carousels, YouTube thumbnails and email banners that stop the scroll and still feel on-brand is the kind of daily design work I enjoy most.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen). I design ads, social graphics, listing images and landing pages, working in Adobe tools and Figma.\nClosest example, a campaign built around one clear message:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nMy approach: pull the key insight from each episode or brief, turn it into one strong headline, build layouts, type and color from your brand guidelines, then adapt each piece to every platform and refine it based on feedback and performance.\nBefore any decision, I'll send you one Instagram carousel and one YouTube thumbnail for a recent Foundr episode.\nWhich formats take up most of the weekly volume right now: carousels, thumbnails or campaign assets?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1605,
+          "salida": 1734,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.064805,
+        "generada": "2026-11-17T07:54:10.648Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "150767",
       "tipo": "CONTRACT",
@@ -3976,46 +4016,6 @@
         },
         "costeUSD": 0.0139958,
         "generada": "2026-11-11T21:16:51.171Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "apparatus-ai/jobs/ui-ux-designer",
-      "tipo": "FULL_TIME",
-      "titulo": "UI/UX Designer",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/apparatus-ai/jobs/ui-ux-designer?utm_source=api",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Nepal",
-      "empresa": "Apparatus.ai",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "## Company Overview Apparatus.ai is a forward-thinking technology company dedicated to harnessing the power of artificial intelligence to drive innovation and efficiency. We are committed to creating cutting-edge solutions that empower businesses and individuals worldwide.## Position OverviewWe are seeking a creative and motivated UI/UX Designer to join our dynamic team in Nepal. This role offers the opportunity to work on exciting projects that enhance user experience and interface design. As a UI/UX Designer at Apparatus.ai , you will be at the forefront of design innovation, contributing to the development of impactful solutions.## Key Responsibilities* Design intuitive and engaging user interfaces for web applications.* Collaborate with cross-functional teams to understand user needs a",
-      "vista": "2026-11-11T21:17:03.525Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "El puesto exige estar en Nepal («based in Nepal»), y Leo vive en Países Bajos.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 779,
-          "salida": 320,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0101158,
-        "generada": "2026-11-11T21:16:54.747Z"
       },
       "fuente": "himalayas"
     }
