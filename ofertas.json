@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T01:21:43.392Z",
+  "actualizado": "2026-11-17T01:32:25.501Z",
   "ofertas": [
+    {
+      "id": "570419",
+      "tipo": "FREELANCE",
+      "titulo": "Logo and Basic Brand Identity for a New Lifestyle Brand",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570419/Logo-and-Basic-Brand-Identity-for-a-New-Lifestyle-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m launching a lifestyle brand and need an illustrator to create a logo along with a basic brand identity that establishes a cohesive visual foundation for the launch.",
+      "vista": "2026-11-17T01:32:25.501Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo e identidad básica para una marca de estilo de vida: Leo puede hacerlo, pero no tiene proyecto de branding en el portfolio, así que la carta ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nA new lifestyle brand needs a logo and identity that feel cohesive from launch day, so every piece you put out looks like one brand.\nI'm Leo, creative director at LeoVisual.nl.\nBefore you pay anything, I'll send you one logo direction with a small color palette and type pairing, mocked up on a label and a social post.\nIf it fits, I'll build the full set: logo and variations, color palette, typography and a short brand guide.\nPrice: 2,500 USD, 50% upfront, delivered in 7–10 days with 2 rounds of changes.\nWhat feeling should the brand give people, and do you already have the name and a few visual references?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 443,
+          "salida": 1062,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.046717,
+        "generada": "2026-11-17T01:32:23.993Z"
+      }
+    },
     {
       "id": "570417",
       "tipo": "FREELANCE",
@@ -3860,45 +3899,6 @@
         },
         "costeUSD": 0.055791,
         "generada": "2026-11-13T23:32:20.203Z"
-      }
-    },
-    {
-      "id": "568629",
-      "tipo": "FREELANCE",
-      "titulo": "Premium Can Design for a New UK Soft Drink (330ml Sleek Can)",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568629/Premium-Can-Design-for-a-New-UK-Soft-Drink-(330ml-Sleek-Can)",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We're a new UK drinks brand launching a premium soft drink, and we're looking for an experienced packaging designer to create our can.\nWe already have a clear creative direction and early concepts, which we'll share in full with shortlisted designers once they've signed an NDA.\nThe look and feel we're after: premium, clean, modern and minimal, with realistic ingredient imagery at the heart of the design. It needs to feel high-end on the shelf and stand out in a fridge.\nFormat: 330ml sleek can. The exact template and print method will come from our manufacturer, so experience preparing artwork for can production (labels, shrink sleeves or digital can printing) is a big plus.\nWhat we need from you:\n- A custom wordmark, refined from our concept\n- Front and back can artwork (we'll supply all legal text, nutrition and barcode content)\n- A realistic ingredient image or illustration, licensed for commercial use\n- Print-ready files to the printer's spec, plus editable source files\n- 3D can mockups for our website and social media\n- Full transfer of copyright on completion\nTo apply, please share:\n- 2–3 can or drinks packaging projects you've worked on\n- Your price for a project like this\n- Your typical timeline\n- How many revision rounds you include\nWe're looking to start soon and would love to hear from designers who care about detail and craft.",
-      "vista": "2026-11-13T22:35:02.586Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es packaging de lata y Leo no tiene proyectos de bebidas: se envía con honestidad, apoyándose en su trabajo de imagen de producto y 3D, y ofreciendo una prueba.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nA premium can that looks high-end on the shelf and stands out in a fridge needs a clean layout and an ingredient image that feels real. That's where I would put most of the work.\nTo be honest, I don't have a can or drinks packaging project in my portfolio yet. My closest work is for a home brand that sells on Amazon in several European countries (under NDA). For them I made many product images, listing videos and A+ content. I also work in 3D, for example on the 3D scroll websites LUMEN and FORJA.\nHow I would work: 1) refine the wordmark from your concept, 2) create the ingredient image from scratch with AI image tools I use in paid work (GPT Image, Nano Banana Pro) and finish it in Adobe, 3) design the front and back artwork on your manufacturer's template with your legal text, nutrition info and barcode, 4) prepare print files to the printer's spec and check them with their prepress team, plus editable source files, 5) make 3D can mockups for your website and social media.\nBecause I don't have a can project to show you, I'm happy to do a short test first, for example the front of the can.\nPrice: 2500 USD, with 50% upfront. Timeline: 7–10 days after I receive your concepts and the template. 2 revision rounds included, and full copyright transfer on completion.\nHas your manufacturer already confirmed the print method (shrink sleeve, label or digital can printing)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 785,
-          "salida": 1818,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.054495,
-        "generada": "2026-11-13T22:35:01.492Z"
       }
     }
   ]
