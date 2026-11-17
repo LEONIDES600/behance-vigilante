@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T01:32:25.501Z",
+  "actualizado": "2026-11-17T02:18:19.092Z",
   "ofertas": [
+    {
+      "id": "570431",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity and Packaging Design for Mozziedot Mosquito Repellent Patches",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570431/Brand-Identity-and-Packaging-Design-for-Mozziedot-Mosquito-Repellent-Patches",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a designer to create a cohesive brand identity and packaging design for Mozziedot mosquito repellent patches. The work should establish a clear, recognizable visual presence for the product and its packaging.Title\nModern, Bright, Bold Brand Identity and Packaging Design for Mozziedot Mosquito Repellent Patches\nEdit\nOverview\nI need a modern, funky, bright, and bold brand identity for Mozziedot, an Australian stick-on mosquito repellent patch sold exclusively online. The brand should appeal to parents purchasing for their families while remaining fun and suitable for children. I am open to illustration-led concepts as well as other creative approaches. I need a complete identity including a colour palette, typography, mascot, logo, pouch packaging, 20 mm patch design, display box design, and website imagery for a Shopify store.",
+      "vista": "2026-11-17T02:18:19.092Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding y packaging completos sin pieza igual en el portfolio; se envía ofreciendo una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nMozziedot needs a bright, funky identity that earns parents' trust and still feels fun for kids, with a mascot that reads even on a 20 mm patch.\nBefore you pay anything, I'll send you one mascot and logo direction mocked up on the pouch and a 20 mm patch.\nHow I'd work: moodboard and colour palette, mascot and logo concepts, typography, then pouch, patch and display box, and finally imagery for your Shopify store.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nPrice: 1000 USD, 50% upfront, delivery in 2–3 weeks, 2 rounds of revisions.\nDo you already picture the mascot as a character fighting mosquitoes, or something else entirely?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "2–3 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 680,
+          "salida": 1324,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.052905,
+        "generada": "2026-11-17T02:18:17.765Z"
+      }
+    },
     {
       "id": "570419",
       "tipo": "FREELANCE",
@@ -3860,45 +3899,6 @@
         },
         "costeUSD": 0.041131,
         "generada": "2026-11-14T01:50:58.663Z"
-      }
-    },
-    {
-      "id": "568641",
-      "tipo": "FREELANCE",
-      "titulo": "Senior Freelance Brand Identity Designer for Complete Visual Identity Systems",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568641/Senior-Freelance-Brand-Identity-Designer-for-Complete-Visual-Identity-Systems",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm recruiting senior freelance brand identity designers on behalf of Natalie Micale Schultz, a U.S.-based brand and growth strategist.\nNatalie leads brand strategy, positioning, and creative direction for small and mid-sized businesses. We're building a small roster of 2–3 experienced designers to collaborate on upcoming rebranding projects.\nThese are real, established businesses that have outgrown their current visual identities. We're looking for designers who can translate strategic direction into thoughtful, cohesive brand systems that work across real-world applications.\nThis is remote, project-based freelance work, not a full-time, part-time, or hourly position. Projects are compensated at a flat fee, typically $1,200–$2,000 USD for a complete small-business identity, depending on scope. There's potential for repeat collaborations.\nDesigners based in Latin America or Ukraine are preferred.",
-      "vista": "2026-11-13T23:32:21.218Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es branding e identidad completa: Leo no tiene un sistema de identidad entero en el portfolio y prefieren diseñadores de Latinoamérica o Ucrania (es preferencia, no requisito); se envía con una carta honesta y ofreciendo una prueba.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nEstablished businesses that have outgrown their identity need more than a new logo. They need Natalie's strategy turned into a brand system that holds up in real-world use.\nI'm Leo from LeoVisual.nl, an AI creative studio in Amsterdam. I'm a Spanish citizen based in the EU, not in Latin America or Ukraine, and I know that's your preference.\nTo be honest, I don't have a complete identity system in my portfolio yet. What I do have is consistent brand work across many touchpoints. For a home brand selling on Amazon in several European countries (under NDA), I made listing images, videos, A+ content and their website. I also built 3D scroll websites like LUMEN and FORJA in code.\nHere's how I'd work: study Natalie's positioning brief, explore 2–3 directions, then develop the chosen one into logo, colour, typography and imagery rules. After that I'd apply it to real touchpoints and deliver a short guidelines file.\nI'm happy to do a short test on one of your briefs first so you can judge the fit.\nFor a complete small-business identity I'd work within your flat fee of 1,200–2,000 USD depending on scope: 50% upfront, delivery in 7–10 days and 2 rounds of revisions.\nWhich deliverables does a complete identity usually include for Natalie's clients (guidelines, social templates, stationery)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 649,
-          "salida": 1910,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.055791,
-        "generada": "2026-11-13T23:32:20.203Z"
       }
     }
   ]
