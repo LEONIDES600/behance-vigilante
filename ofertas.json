@@ -1,6 +1,47 @@
 {
-  "actualizado": "2026-11-17T06:49:17.623Z",
+  "actualizado": "2026-11-17T08:20:09.494Z",
   "ofertas": [
+    {
+      "id": "570537",
+      "tipo": "FREELANCE",
+      "titulo": "Social Media posters",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570537/Social-Media-posters",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Բարև Ձեզ։\nԴիմում եմ Ձեզ STEP CONSULTING ՍՊԸ-ի անունից։ Մենք Հայաստանում գործող խորհրդատվական ընկերություն ենք, որն արդեն 14 տարի մատուցում է հաշվապահական, հարկային, իրավաբանական և բիզնես խորհրդատվական ծառայություններ՝ համագործակցելով տեղական և միջազգային ընկերությունների հետ։\nՆերկայումս փնտրում ենք գրաֆիկ դիզայների՝ մեր ընկերության սոցիալական էջերի համար պրոֆեսիոնալ, կրեատիվ և ժամանակակից պոստերներ պատրաստելու նպատակով։\nՄեզ անհրաժեշտ են բացառապես դիզայնի ծառայություններ՝ առանց SMM-ի, էջերի վարման կամ մարքեթինգային այլ ծառայությունների։\nԿցանկանայինք ծանոթանալ Ձեր աշխատանքներին, ինչպես նաև տեղեկանալ մեկ պոստերի պատրաստման և ամսական համագործակցության արժեքներին։\nԿանխավ շնորհակալություն։",
+      "vista": "2026-11-17T08:20:09.494Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Pósteres para las redes de una consultora, solo diseño y en remoto: encaja con el diseño gráfico para redes de Leo y el presupuesto es aceptable.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nSTEP CONSULTING needs modern, professional posters for its social pages, design only, to present 14 years of accounting, tax, legal and business advice in a clear way.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nBefore you pay anything, I'll send you one sample poster for one of your services, for example tax consulting, in your brand colours.\nHow I'd work: a short brief, a clean poster system (grid, type, colours), then the posters ready for each platform.\nFirst set of posters: 250 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes. After that we can agree on a monthly plan.\nWill the posters be in Armenian, English or both, and how many do you need per month?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [
+          "menciona años"
+        ],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 817,
+          "salida": 1433,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.055633,
+        "generada": "2026-11-17T08:20:08.661Z"
+      }
+    },
     {
       "id": "570519",
       "tipo": "FREELANCE",
@@ -3856,45 +3897,6 @@
         },
         "costeUSD": 0.035267,
         "generada": "2026-11-14T07:06:33.972Z"
-      }
-    },
-    {
-      "id": "568721",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Design for Specialty Coffee Packaging, Logo, and Character",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/568721/Brand-Design-for-Specialty-Coffee-Packaging-Logo-and-Character",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a brand designer to create packaging for a specialty coffee roast, along with a logo and a distinctive brand character design. The work should establish a cohesive visual identity across the coffee packaging and brand assets.",
-      "vista": "2026-11-14T05:06:03.293Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encargo de branding, packaging y personaje: Leo puede hacerlo con IA y diseño, pero no tiene una pieza igual en el portfolio.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nA specialty coffee roast needs a logo, a character and a package that all feel like one brand, so the character works on the bag and the logo still reads on a small label.\nI don't have a coffee packaging project in my portfolio yet, so I'm happy to make a short sample first, for example one character sketch or one logo direction, so you can judge the fit.\nThe closest work I can point to is product images and content for a home goods brand that sells in several European countries (under NDA), plus my graphic design, 3D and motion work.\nHow I would do it: a moodboard based on your roast and audience, then 2–3 logo directions, then the character built in the same style, and finally the packaging design with realistic mockups of the bag.\nI work with AI tools (GPT Image, Nano Banana Pro) for exploration, and with Adobe to refine and finish everything.\nPrice: 5000 USD, with 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you already have a bag format and a printer, so I can design to their specs from the start?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 428,
-          "salida": 1041,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.037527,
-        "generada": "2026-11-14T05:06:02.317Z"
       }
     }
   ]
