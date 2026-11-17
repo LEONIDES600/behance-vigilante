@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T11:08:13.184Z",
+  "actualizado": "2026-11-17T11:41:17.690Z",
   "ofertas": [
+    {
+      "id": "570781",
+      "tipo": "FREELANCE",
+      "titulo": "Branding- of Verpakkingsontwerp",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/570781/Branding-of-Verpakkingsontwerp",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Sas Distilleries",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Wij zijn SAS Distilleries, een kleine familiezaak uit de regio Gent. Met BENEDICTI starten we een eigen lijn sauzen en condimenten. Het eerste product is een gefermenteerde chilisaus, er volgen er nog.\nMerknaam, woordmerk, merkconcept, fles en dop (100, 250 en 500 ml) en een eerste etiketvoorstel zijn er al. We zoeken nog een beeldstijl die één geheel vormt met de merknaam, met een eigen embleem per product. Voor de chilisaus is dat een minotaurus.\nInteresse? Stuur je portfolio en een korte voorstelling. In een gesprek geven we graag de volledige uitleg.",
+      "vista": "2026-11-17T11:41:17.690Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Pide branding y packaging (un estilo visual con un emblema por producto) y no hay proyecto igual en el portfolio, así que se ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nBENEDICTI already has its name, wordmark, bottles and a first label, so the missing piece is an image style that feels like one family, with its own emblem per product, starting with a minotaur for the fermented chili sauce.\nI'm Leo Gómez, creative director at LeoVisual.nl in Amsterdam.\nBefore you pay anything, I'll send you one minotaur emblem direction mocked up on your 250 ml label.\nMy approach: study the wordmark, define one shared line and colour system, design the minotaur, then set simple rules so future emblems match.\nPrice: 5000 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nShould the emblems feel engraved and classic, or bold and modern?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 637,
+          "salida": 1238,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.051013,
+        "generada": "2026-11-17T11:41:16.540Z"
+      }
+    },
     {
       "id": "570731",
       "tipo": "FREELANCE",
@@ -3850,45 +3889,6 @@
         },
         "costeUSD": 0.0295558,
         "generada": "2026-11-14T23:15:22.562Z"
-      }
-    },
-    {
-      "id": "569111",
-      "tipo": "FREELANCE",
-      "titulo": "Iconic S Logo Design for THE STANDARD Premium Lifestyle Brand",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569111/Iconic-S-Logo-Design-for-THE-STANDARD-Premium-Lifestyle-Brand",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "THE STANDARD",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m building THE STANDARD, a premium lifestyle brand and community rooted in discipline, accountability, purpose, faith, strength, growth, and holding ourselves to a higher standard. I need an iconic, standalone “S” logo mark that subtly integrates a cross into its construction without appearing overtly religious, forced, or gimmicky. The symbol should read first as a strong, premium S, with the cross becoming apparent on closer inspection. It must avoid generic gym aesthetics and support an elevated luxury lifestyle apparel direction defined by Prada-like restraint, AMIRI-inspired attitude, premium materials, minimal branding, strong silhouettes, and timeless appeal.",
-      "vista": "2026-11-14T23:10:55.317Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es un logo de marca de ropa: Leo hace diseño gráfico, pero no tiene ningún logo en el portfolio, así que la carta lo dice claro y ofrece primero un boceto corto.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nTHE STANDARD needs an S that reads first as a strong, restrained luxury mark, with the cross showing only when you look closer. That balance is the hard part, and it is what I would focus on.\n\nI run LeoVisual.nl, a creative studio in Amsterdam working in graphic design, 3D and AI visuals. I don't have a standalone logo mark like this in my portfolio yet, so I'm happy to start with a short sketch of one direction before you commit.\n\nHow I would work:\n1. Short brief on references (Prada restraint, AMIRI attitude) and what to avoid (gym look, obvious religious symbols).\n2. 3 rough directions for how the cross sits inside the S: negative space, stroke intersection, or cut geometry.\n3. Refine one direction into a clean vector mark in Adobe, checked at small sizes and in one color.\n4. Mockups on apparel and materials (embroidery, embossed leather, metal hardware) so you can see it in real use.\n\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes, final files in AI, SVG, PDF and PNG.\n\nShould the mark also work next to a \"THE STANDARD\" wordmark, or will it always stand alone?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 587,
-          "salida": 1093,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.039203,
-        "generada": "2026-11-14T23:10:54.389Z"
       }
     }
   ]
