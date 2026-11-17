@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-17T14:58:21.779Z",
+  "actualizado": "2026-11-17T14:59:39.027Z",
   "ofertas": [
+    {
+      "id": "571093",
+      "tipo": "FREELANCE",
+      "titulo": "Logo and Brand Identity Design for an IT AI Company",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/571093/Logo-and-Brand-Identity-Design-for-an-IT-AI-Company",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "IT AI company",
+      "contacto": "",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a logo and complete brand identity kit for our IT AI company as a one-time freelance project. The designer should create a cohesive visual identity suitable for a technology and artificial intelligence brand.",
+      "vista": "2026-11-17T14:59:39.027Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo e identidad para una empresa de IA: no hay proyecto de branding en el portfolio, así que la carta ofrece una muestra antes de que paguen.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nYour IT AI company needs a logo that feels precise and modern without the usual circuit-brain clichés, plus a kit that stays cohesive everywhere.\n\nI'm Leo, creative director at LeoVisual.nl. My plan: a short brief, 2–3 logo directions explored fast with AI, then the final vectors refined in Adobe and the full kit (logo versions, colour palette, typography and a simple usage guide).\n\nBefore you pay anything, I'll send you one logo direction mocked up on a website header and a business card.\n\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\n\nWhat is the company name, and do you already have colours or references you like?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 445,
+          "salida": 1104,
+          "cacheLeida": 4741,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0248082,
+        "generada": "2026-11-17T14:59:37.867Z"
+      }
+    },
     {
       "id": "571079",
       "tipo": "FREELANCE",
@@ -3843,45 +3882,6 @@
         },
         "costeUSD": 0.039251,
         "generada": "2026-11-15T10:18:15.697Z"
-      }
-    },
-    {
-      "id": "569217",
-      "tipo": "FREELANCE",
-      "titulo": "Senior UI/UX and Brand Identity Design for Professional Digital Products",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/569217/Senior-UIUX-and-Brand-Identity-Design-for-Professional-Digital-Products",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m seeking a Senior UI/UX & Brand Identity Designer to create professional digital product interfaces, user experiences, and complete brand identity systems. The project is remote, should be completed within 3 to 6 weeks, and the budget is negotiable based on scope. Strong skills in Figma, Adobe Illustrator, corporate branding, and design systems are required.",
-      "vista": "2026-11-15T08:54:22.471Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Piden UI/UX y branding sénior: Leo tiene webs, pero no tiene ningún caso de identidad corporativa, así que la carta lo dice y ofrece una muestra.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nYou need product interfaces, user flows and a complete brand identity that feel like one consistent system, with a clear design system behind them.\nI'm Leo from LeoVisual.nl, an AI creative studio in Amsterdam. I designed and built LUMEN, FORJA and MORVAIN, 3D scroll websites made in code. I also created the website, listing images and A+ content for a home brand that sells in several European countries, so I'm used to keeping one visual language across many screens and formats.\nTo be honest, I don't have a full corporate brand identity case in my portfolio yet. I'm happy to do a short sample first (for example, one logo direction and one key screen) so you can judge the fit.\nHow I would work: 1) a short brief on your product, users and brand values; 2) a moodboard and 2 identity directions; 3) a design system in Figma (colours, type, components); 4) the key screens and flows; 5) brand guidelines and source files.\nPrice: 500 USD, with 50% upfront. First full delivery in 7–10 days, plus 2 rounds of changes.\nWhat type of product is it (web app, mobile app, SaaS), and about how many screens do you need?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 474,
-          "salida": 1591,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.048711,
-        "generada": "2026-11-15T08:54:21.237Z"
       }
     }
   ]
