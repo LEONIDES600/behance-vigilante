@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-17T20:41:15.890Z",
+  "actualizado": "2026-11-18T00:02:54.620Z",
   "ofertas": [
+    {
+      "id": "1137799",
+      "tipo": "REMOTE",
+      "titulo": "Clera — Expert Talent Pool Physical AI",
+      "presupuesto": "",
+      "enlace": "https://remoteOK.com/remote-jobs/remote-expert-talent-pool-physical-ai-clera-1137799",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Clera",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "design education testing travel robotics exec ops digital nomad About the Role Lead physical AI data capture programs that help robots learn from human movement and manipulation. You will set up capture systems, guide demonstrations, and uphold data quality across projects ranging from one week to several months. What You'll Do Set up and maintain teleoperation rigs using VR controllers, leader arms, and ROS or ROS 2, ensuring consistent demonstrations. Design egocentric and manipulation capture systems, including camera placement, task scripts, and quality assurance protocols. Operate motion capture and sensor systems such as OptiTrack, Vicon, IMUs, and LiDAR, and troubleshoot hardware in the field. Plan scene recording, calibration, and data collection across multiple sites. Design robot",
+      "vista": "2026-11-18T00:02:54.620Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de operaciones de robótica y captura de movimiento (ROS, OptiTrack, LiDAR) que pide 5 años de experiencia práctica, manejar equipos físicos y viajar a trabajar in situ; Leo no hace nada de eso.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 976,
+          "salida": 372,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.035049,
+        "generada": "2026-11-18T00:02:53.770Z"
+      },
+      "fuente": "remoteok"
+    },
     {
       "id": "163037",
       "tipo": "CONTRACT",
@@ -3966,46 +4006,6 @@
         },
         "costeUSD": 0.014931799999999999,
         "generada": "2026-11-12T03:22:12.415Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "remotejobsone/jobs/video-data-annotator-remote-worldwide",
-      "tipo": "CONTRACTOR",
-      "titulo": "Video Data Annotator – Remote (Worldwide)",
-      "presupuesto": "8–10 USD/h",
-      "enlace": "https://himalayas.app/companies/remotejobsone/jobs/video-data-annotator-remote-worldwide?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Canada, France, Germany, India, Netherlands, Singapore, United Kingdom, United States",
-      "empresa": "RemoteJobsOne",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "IMPORTANT: after you apply, please check your email. We sendyou a link to complete your application — it is not considered until that laststep is done. If you do not see it, check your spam folder.\n This is a fully remote position , open to candidates based in 55 countries, including United States, United Kingdom, Canada, Germany, India, France, Netherlands, Singapore.\n Pay: $8–$10/hr\n Role Title: Video Data Annotator\n Role Type: Contractor\n Location: Remote\n We are engaging Video Data Annotators to contribute expertise and precision to a customer’s project focused on the advancement of artificial intelligence. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input",
-      "vista": "2026-11-12T01:22:30.824Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es etiquetado de datos y moderación de contenido, no un servicio creativo de Leo, y paga 8–10 USD/h, muy por debajo de sus 25 USD/h.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1129,
-          "salida": 629,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.032091,
-        "generada": "2026-11-12T01:20:30.573Z"
       },
       "fuente": "himalayas"
     }
