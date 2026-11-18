@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-18T00:08:37.199Z",
+  "actualizado": "2026-11-18T02:09:29.046Z",
   "ofertas": [
+    {
+      "id": "clera/jobs/expert-talent-pool-annotation-associate-5074128877",
+      "tipo": "FULL_TIME",
+      "titulo": "Expert Talent Pool, Annotation Associate",
+      "presupuesto": "15–35 USD/h",
+      "enlace": "https://himalayas.app/companies/clera/jobs/expert-talent-pool-annotation-associate-5074128877?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Clera",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "About the Role\n Join an expert network supporting AI training projects as an annotation specialist. You will label a variety of data types to help improve how AI systems learn, with project matching based on your background.\n What You'll Do\n Classify images, video, audio, and documents according to detailed guidelines.\n Annotate 2D and 3D data using boxes, polygons, masks, cuboids, and segments.\n Track objects across video frames and label actions and temporal events.\n Tag entities in text, including names, places, products, and dates.\n Transcribe audio, extract text from scans and photos, and label sounds and speakers.\n Annotate satellite and geospatial imagery and link records across sensors.\n What We're Looking For\n Experience with annotation, labeling, transcription, GIS, QA, or other ",
+      "vista": "2026-11-18T02:09:29.046Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de etiquetado de datos para entrenar IA, fuera de sus servicios creativos, web y de agentes, y Leo no ha usado las herramientas que piden.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 942,
+          "salida": 692,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.041313,
+        "generada": "2026-11-18T02:09:27.791Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "99brightminds/jobs/senior-generative-ai-video-specialist",
       "tipo": "FULL_TIME",
@@ -3964,48 +4004,6 @@
         },
         "costeUSD": 0.0156038,
         "generada": "2026-11-12T07:28:23.796Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "elavate/jobs/junior-creative-strategist",
-      "tipo": "FULL_TIME",
-      "titulo": "Junior Creative Strategist",
-      "presupuesto": "40.000–45.000 GBP/año",
-      "enlace": "https://himalayas.app/companies/elavate/jobs/junior-creative-strategist?utm_source=api",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Guernsey, Holy See (Vatican City State), Hungary, Iceland, Ireland, Isle of Man, Italy, Jersey, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Monaco, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Svalbard and Jan Mayen, Sweden, Switzerland, Ukraine, United Kingdom, Åland Islands",
-      "empresa": "Elavate",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "The role at a glance\n We're hiring a sharp, AI-native Junior Creative Strategist to make sure every video ad we launch is the best version of itself.\n Role: Junior Creative Strategist\n Salary: £40,000 - £45,000 base, depending on experience\n Location: Remote-first, based in the UK or Europe\n Hours: Full-time, flexible\n Reports to: a Senior Creative Strategist\n About Elavate \n Elavate is a UK multi-collagen brand for women 40+, built to help them feel like themselves again through menopause and beyond.\n We launched in 2024 and have grown into one of the fastest-growing DTC brands in the UK. We're fully bootstrapped and have grown almost entirely through performance ads.\n It started when our founder, Alex, got fed up of buying his mum overpriced, low-quality, bad-tasting collagen. So he made",
-      "vista": "2026-11-12T05:24:48.824Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Puesto remoto en Europa (Países Bajos incluido) de revisar y mejorar anuncios de vídeo con IA. Encaja con su edición, sus anuncios de rendimiento y sus flujos de IA.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\n\nGetting 100+ ad concepts a month from raw script to launch-ready, with no second check needed, takes a sharp eye on every edit and a pipeline that gets faster every week.\nI'm Leo Gómez. I run LeoVisual.nl, an AI creative studio in Amsterdam (EU citizen, Spanish nationality). I've made short performance ads for 2 years and I edit in Premiere and After Effects, so I review cuts the way an editor would: captions, clipped words, audio levels, pacing, weak B-roll and hooks that don't connect to the body.\nTwo pieces of my work are close to this role. ORBE and SILENCIO are cinematic ads made with AI: idea, generation with Kling and Seedance, edit and sound. I've also built AI agent systems for businesses, with one agent per department, daily reports and n8n/Make workflows.\nIn the first weeks, I would study your winning ads and their comments to learn what works. Then I'd give clear \"change X because Y\" notes with timestamps in Frame.io, plan cutdowns and extra hooks for each ad, and keep the Notion board up to date so final files reach media buying named and ready.\nOn the AI side, I'd help turn your references and formats into workflows you can reuse, and check AI edits as closely as human ones.\nMy English is at a working level (B1) and Spanish is my native language. I'm happy to do a test review of one of your first drafts.\nWhich part of the pipeline slows you down most right now: first drafts, feedback rounds or influencer files?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [
-          "menciona años"
-        ],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1929,
-          "salida": 1906,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.060831,
-        "generada": "2026-11-12T05:24:47.963Z"
       },
       "fuente": "himalayas"
     }
