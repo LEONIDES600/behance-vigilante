@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-18T19:56:39.732Z",
+  "actualizado": "2026-11-18T22:22:43.699Z",
   "ofertas": [
+    {
+      "id": "remotelytalents/jobs/email-marketing-specialist-26111102",
+      "tipo": "FULL_TIME",
+      "titulo": "Email Marketing Specialist- 26111102",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/remotelytalents/jobs/email-marketing-specialist-26111102?utm_source=api",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Argentina, Bolivia, Bosnia and Herzegovina, Brazil, Chile, Colombia, Mexico, Peru, Uruguay, Venezuela",
+      "empresa": "RemotelyTalents",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Our client is a fast-growing US-based supplement e-commerce brand specializing in vitamin gummies. The company has experienced impressive growth, scaling from approximately a dozen daily orders in 2022 to over 10,000 orders per day today. The company operates with a fully remote international team, primarily across Latin America, and is continuing to expand its in-house marketing and e-commerce capabilities.\n They are looking for a dedicated Email Marketing Specialist to take ownership of its email marketing activities using Klaviyo.\n The email marketing infrastructure is already established and performing well. The goal is to bring in someone who can consistently manage and improve the existing program, maintain effective communication with subscribers, develop email flows and campaigns, ",
+      "vista": "2026-11-18T22:22:43.699Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Solo contratan desde Latinoamérica y Bosnia, exigen inglés fluido y jornada completa en horario de Nueva York, y el email marketing con Klaviyo no es uno de los servicios de Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1386,
+          "salida": 387,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.036989,
+        "generada": "2026-11-18T22:22:42.867Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "163171",
       "tipo": "CONTRACT",
@@ -3960,46 +4000,6 @@
         },
         "costeUSD": 0.0150998,
         "generada": "2026-11-13T05:04:00.749Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "remotejobsone/jobs/spanish-language-consumer-reviewer-remote-worldwide",
-      "tipo": "CONTRACTOR",
-      "titulo": "Spanish-Language Consumer Reviewer – Remote (Worldwide)",
-      "presupuesto": "20–30 USD/h",
-      "enlace": "https://himalayas.app/companies/remotejobsone/jobs/spanish-language-consumer-reviewer-remote-worldwide?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Argentina, Chile, Colombia, Mexico, Peru, Spain",
-      "empresa": "RemoteJobsOne",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "IMPORTANT: after you apply, please check your email. We sendyou a link to complete your application — it is not considered until that laststep is done. If you do not see it, check your spam folder.\n This is a fully remote position , open to candidates based in 6 countries, including Spain, Mexico, Argentina, Colombia, Chile, Peru.\n Pay: $20–$30/hr\n Role Title: Spanish-Language Consumer Reviewer\n Role Type: Contractor\n Location: Remote\n Time Commitment: 5-10 hours/week, short-term project\n the company is looking for Spanish-speaking adults to help evaluate and improve AI systems that answer questions about government services. You’ll read sample questions and answers in Spanish and English and tell us whether the wording sounds natural and is easy to follow. Your everyday experience is what",
-      "vista": "2026-11-13T03:01:08.627Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "No es un servicio de Leo (evaluar textos de IA) y exige residir en EE. UU. y experiencia reciente con trámites del gobierno de EE. UU.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 896,
-          "salida": 579,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.030159,
-        "generada": "2026-11-13T03:01:07.509Z"
       },
       "fuente": "himalayas"
     }
