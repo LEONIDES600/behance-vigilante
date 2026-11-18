@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-18T14:17:36.736Z",
+  "actualizado": "2026-11-18T15:53:22.635Z",
   "ofertas": [
+    {
+      "id": "163108",
+      "tipo": "FULL_TIME",
+      "titulo": "Product Lead - AI Investing",
+      "presupuesto": "",
+      "enlace": "https://jobicy.com/jobs/163108-product-lead-ai-investing",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Portugal",
+      "empresa": "BJAK",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "About BJAK \n The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name.\n Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia.\n Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day.\n We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their pas",
+      "vista": "2026-11-18T15:53:22.635Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exige residir en Portugal y es un puesto senior de Product Lead en fintech, fuera de los servicios de Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1427,
+          "salida": 337,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.036153,
+        "generada": "2026-11-18T15:53:21.505Z"
+      },
+      "fuente": "jobicy"
+    },
     {
       "id": "prometeo-talent/jobs/creative-content-creator-social-video-ads-remote",
       "tipo": "FULL_TIME",
@@ -3962,46 +4002,6 @@
         },
         "costeUSD": 0.0217198,
         "generada": "2026-11-12T20:53:04.360Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "launchmetrics/jobs/marketing-intern",
-      "tipo": "INTERN",
-      "titulo": "Marketing Intern",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/launchmetrics/jobs/marketing-intern?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Italy, Spain, United Kingdom",
-      "empresa": "Launchmetrics",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "ABOUT THE INTERNSHIP\n Launchmetrics , a Lectra company, is the market’s first AI-powered Brand Performance Cloud for the Fashion, Lifestyle and Beauty (FLB) industry. We’re looking for curious, motivated students to join our Global Marketing team for a 6-month internship.\n This is an open application for all of our marketing internships. Depending on your skills and interests, you could join one of four areas:\n Brand & Communications: turn Launchmetrics data into insights and stories for top-tier media.\n Digital Marketing: support email, paid, automation and website projects across the funnel.\n Graphic Design & Social Media: create visual and written content for Instagram and LinkedIn.\n Business Marketing: support account-based marketing (ABM) and campaigns that turn target accounts into s",
-      "vista": "2026-11-12T20:53:18.721Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Son prácticas que exigen estar matriculado en una carrera y firmar un convenio con créditos académicos, algo que no encaja con el perfil de estudio de Leo.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1627,
-          "salida": 580,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0187078,
-        "generada": "2026-11-12T20:53:11.004Z"
       },
       "fuente": "himalayas"
     }
