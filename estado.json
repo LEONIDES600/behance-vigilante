@@ -1,10 +1,10 @@
 {
   "version": "v3.3 · 16/11/2026",
-  "actualizado": "2026-11-18T03:13:01.475Z",
-  "ultimaPasadaConDatos": "2026-11-18T03:10:00.822Z",
+  "actualizado": "2026-11-18T03:43:12.187Z",
+  "ultimaPasadaConDatos": "2026-11-18T03:40:11.500Z",
   "ciegoDesde": null,
   "proxyBehance": "jina",
-  "pasadas": 11849,
+  "pasadas": 11879,
   "hoy": {
     "fecha": "2026-11-18",
     "nuevas": 92,
@@ -23,8 +23,8 @@
   },
   "fuentes": {
     "behance": {
-      "fallosSeguidos": 20,
-      "pausadaHasta": "2026-11-18T03:27:57.927Z",
+      "fallosSeguidos": 21,
+      "pausadaHasta": "2026-11-18T03:58:08.480Z",
       "ultimaConsulta": null
     },
     "wwr": {
