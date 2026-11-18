@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-18T18:20:24.734Z",
+  "actualizado": "2026-11-18T19:56:39.732Z",
   "ofertas": [
+    {
+      "id": "163171",
+      "tipo": "CONTRACT",
+      "titulo": "Lead Creative (Motion Design)",
+      "presupuesto": "",
+      "enlace": "https://jobicy.com/jobs/163171-lead-creative-motion-design",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "LATAM",
+      "empresa": "Superside",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Superside is looking for a Lead Creative (Motion Design) to push the boundaries of what’s possible in motion and animation. \n In this role, you’ll lead a global team of top-tier creatives, delivering world-class motion graphics, digital ads, explainer videos, promos, animated presentations, and more. You’ll shape creative strategy, inspire your team, and partner with leading global brands to deliver impactful work that blends craft, innovation, and cutting-edge technology.\n What You'll Do\n Lead and inspire a team of motion designers, driving creative excellence and innovation across projects.\n Own the creative strategy, workflow, and delivery of multiple projects, ensuring quality, timeliness, and budget alignment.\n Collaborate with your dedicated account teams to successfully grow and dev",
+      "vista": "2026-11-18T19:56:39.732Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es remoto solo para LATAM y exige más de 6 años como líder creativo en agencias de primer nivel, un título universitario (BA) e inglés excelente, muy por encima del perfil de Leo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1550,
+          "salida": 475,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.039405,
+        "generada": "2026-11-18T19:56:38.896Z"
+      },
+      "fuente": "jobicy"
+    },
     {
       "id": "nexford-university/jobs/crm-automation-specialist-4694296988",
       "tipo": "CONTRACTOR",
@@ -3960,46 +4000,6 @@
         },
         "costeUSD": 0.030159,
         "generada": "2026-11-13T03:01:07.509Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "grail-talent/jobs/creator-manager-belgium",
-      "tipo": "FULL_TIME",
-      "titulo": "Creator Manager - Belgium",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/grail-talent/jobs/creator-manager-belgium?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Belgium",
-      "empresa": "Grail Talent",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Fully Remote - Work from anywhere 🌍\n Flexible hours - Choose your own schedule ⏰\n No Base Salary - Uncapped commission means unlimited earning potential! 💸\n We're looking for the best managers Belgium has to offer! If you like the idea of taking control of your earnings, keep reading...\n About us:\n Grail Talent is an Influencer Management Agency that connects our diverse and carefully curated roster of content creators with digital marketing opportunities, working with brands and record labels to advertise products and music on social media through influencer promotion and performance marketing.\n We work with some of the biggest players in Music and New Media, including Sony Music Entertainment and Amazon Prime Video, to help promote the next viral sensation or hit show. In doing so, we ",
-      "vista": "2026-11-13T00:58:02.255Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es un puesto de ventas y gestión de talento solo a comisión, sin sueldo fijo, y pide estar en Bélgica; no tiene nada que ver con los servicios de Leo.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1311,
-          "salida": 340,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.027039,
-        "generada": "2026-11-13T00:58:01.248Z"
       },
       "fuente": "himalayas"
     }
