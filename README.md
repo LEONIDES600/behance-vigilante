@@ -5,6 +5,15 @@ cada ~5 min), puntúa si cada oferta nueva encaja con los servicios de Leo y la
 envía a Telegram con una propuesta honesta lista para copiar. Funciona aunque el
 PC esté apagado.
 
+## Novedades de la v3.4 (19/11/2026): Behance a través del navegador de Leo
+- Desde el 17/11 Behance bloquea (403) a los servidores de GitHub. Ahora Behance lo
+  lee el **navegador de Leo**: una pestaña (el «vigía», que arranca la tarea de las
+  :23) deja cada 3 min las fichas nuevas en un **buzón de Google Apps Script** de su
+  cuenta, y el bot las recoge, filtra y escribe la carta como siempre.
+- La dirección del buzón va en `config.json` de la rama `cola` (`buzonBehance`).
+- Aviso por Telegram si Behance lleva 1 h sin datos, y otro cuando vuelve.
+- La carta enlaza SESTEO para branding y packaging.
+
 ## Novedades de la v3.3 (16/11/2026): filtros anti-trampa y carta v2
 - Antes de escribir la carta (sin gastar API) se descartan las **ofertas trampa**
   («Follow the link to accept offer», «Accept order here», «Verification», «Hi dear!»,

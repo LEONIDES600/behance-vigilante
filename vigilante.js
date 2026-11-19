@@ -28,7 +28,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const VERSION = 'v3.3 · 16/11/2026';
+const VERSION = 'v3.4 · 19/11/2026';
 
 // ───────────────────────────── Configuración ─────────────────────────────
 // Behance: dos listas ordenadas por «lo más reciente» (sort=recent). Una oferta
@@ -42,6 +42,32 @@ const BEHANCE_LISTAS = [
 const BEHANCE_PAGINA2_CADA = 10;   // cada N pasadas se mira también la página 2 (por si llega una ráfaga)
 const LISTAS_CADA = 5;             // las listas van por proxies (Behance bloquea /joblist al runner): cada 5 pasadas
 const LISTAS_TIMEOUT_MS = 12000;
+// BUZÓN (v3.4, 19/11/2026). Desde el 17/11 Behance responde 403 a los servidores de
+// GitHub (fichas, listas y todos los proxies). El navegador de Leo sí lee Behance:
+// una pestaña suya (el «vigía», que pone en marcha la tarea de las :23) deja las
+// fichas nuevas en un buzón de Google Apps Script de su cuenta, y el bot las recoge
+// aquí y sigue igual (encaje, filtros, carta con la API, cola y Telegram). El buzón
+// solo guarda lo que manda el navegador; leerlo da fichas públicas de ofertas. Para
+// escribir hace falta un token que solo tienen el buzón y la tarea.
+// La dirección del buzón se lee de config.json en la rama «cola» (campo
+// «buzonBehance»; se relee cada 15 min), o de la variable BEHANCE_BUZON_URL. Así se
+// activa o se cambia sin reiniciar la vigilancia.
+const CONFIG_ARCHIVO = 'config.json';
+const CONFIG_CADA_MS = 15 * 60000;
+const buzonUrl = (state) => process.env.BEHANCE_BUZON_URL || (state && state.config && state.config.buzonBehance) || '';
+async function leerConfig(state) {
+  if (state.configTs && Date.now() - state.configTs < CONFIG_CADA_MS) return;
+  state.configTs = Date.now();
+  if (!process.env.GITHUB_TOKEN || !process.env.GITHUB_REPOSITORY) return;
+  try {
+    const r = await ghApi(`/contents/${CONFIG_ARCHIVO}?ref=${COLA_RAMA}`);
+    if (r.status === 200) state.config = JSON.parse(Buffer.from(r.json.content, 'base64').toString('utf8'));
+    else if (r.status === 404) state.config = {};
+  } catch (e) { console.log(`  config.json: ${e.message}`); }
+}
+const BUZON_EDAD_MAX_MS = 72 * 3600000;       // fichas publicadas hace más de 3 días: sin aviso
+const BUZON_LATIDO_OK_MS = 20 * 60000;        // el vigía late cada 3 min; 20 min sin latido = parado
+const BEHANCE_SIN_DATOS_AVISO_MS = 60 * 60000; // aviso por Telegram si Behance lleva 1 h sin datos
 // SONDA DE IDs (vía principal desde 31/10/2026). Las fichas de oferta SÍ se leen
 // directamente desde el runner, sin proxies. Los IDs de Behance son impares y
 // crecientes (freelance ~561 000, empleo ~370 000); un ID que no existe (o que es
@@ -687,8 +713,18 @@ async function sourceBehance(state) {
   const all = new Map();
   const fails = [];
   const vias = [];
-  // 1) Sonda de IDs (directa): cada pasada.
-  const sonda = await sondaBehance(state);
+  // 1) Sonda de IDs (directa). Si Behance la bloquea entera (todo 403), se pausa
+  //    sola (5 min doblando hasta 1 h) para no insistir cada minuto.
+  let sonda = { jobs: [], ok: 0, errores: 0, probados: 0, detalles: [] };
+  if ((state.sondaPausaHasta || 0) <= Date.now()) {
+    sonda = await sondaBehance(state);
+    if (sonda.probados && !sonda.ok) {
+      state.sondaFallos = (state.sondaFallos || 0) + 1;
+      const espera = Math.min(5 * 60000 * 2 ** (state.sondaFallos - 1), 60 * 60000);
+      state.sondaPausaHasta = Date.now() + espera;
+      fails.push(`sonda bloqueada, en pausa ${Math.round(espera / 60000)} min`);
+    } else if (sonda.ok) { state.sondaFallos = 0; state.sondaPausaHasta = 0; }
+  }
   for (const job of sonda.jobs) all.set(job.id, job);
   if (sonda.ok) vias.push(`sonda ${sonda.probados} IDs`);
   if (sonda.errores) fails.push(`sonda: ${sonda.errores} errores (${sonda.detalles.join('; ')})`);
@@ -720,7 +756,69 @@ async function sourceBehance(state) {
       fails.push(`listas en pausa ${Math.round(espera / 60000)} min`);
     }
   }
-  return { jobs: [...all.values()], via: vias.join(' + ') || 'ninguno', fails, ok: sonda.ok > 0 || all.size > 0 };
+  // 3) Buzón del navegador de Leo (v3.4): cada pasada.
+  const buzon = await leerBuzon(state);
+  if (buzon.ok) {
+    vias.push(`buzón (${buzon.jobs.length} nuevas, latido ${state.buzonLatido ? Math.round((Date.now() - state.buzonLatido) / 60000) + ' min' : '—'})`);
+    for (const job of buzon.jobs) if (!all.has(job.id)) all.set(job.id, job);
+  } else if (buzonUrl(state)) fails.push(`buzón: ${buzon.motivo}`);
+  // Salud de Behance: hay datos si la sonda o las listas responden, o si el vigía del
+  // navegador ha latido hace poco. Si no los hay en 1 h, avisa UNA vez por Telegram.
+  const latidoOk = state.buzonLatido && Date.now() - state.buzonLatido < BUZON_LATIDO_OK_MS;
+  if (sonda.ok > 0 || all.size > 0 || latidoOk) state.behanceOkTs = Date.now();
+  await saludBehance(state, latidoOk);
+  return { jobs: [...all.values()], via: vias.join(' + ') || 'ninguno', fails, ok: sonda.ok > 0 || all.size > 0 || buzon.ok };
+}
+
+// Lee las fichas que el vigía del navegador dejó en el buzón desde la última vez.
+async function leerBuzon(state) {
+  await leerConfig(state);
+  const url = buzonUrl(state);
+  if (!url) return { ok: false, jobs: [], motivo: 'sin buzón configurado' };
+  try {
+    const res = await fetch(`${url}?desde=${state.buzonDesde || 0}`, { redirect: 'follow', signal: AbortSignal.timeout(20000) });
+    if (!res.ok) return { ok: false, jobs: [], motivo: `HTTP ${res.status}` };
+    const d = await res.json();
+    if (!d || !d.ok) return { ok: false, jobs: [], motivo: 'respuesta no válida' };
+    if (d.latido && d.latido.ts) state.buzonLatido = d.latido.ts;
+    const jobs = [];
+    for (const o of d.ofertas || []) {
+      if (o.recibida > (state.buzonDesde || 0)) state.buzonDesde = o.recibida;
+      const id = String(o.id || '').replace(/\D/g, '');
+      if (!id) continue;
+      const free = o.ruta === 'freelance';
+      const job = {
+        id: `behance:${id}`, sourceKey: 'behance', source: 'Behance', type: free ? 'FREELANCE' : 'FULLTIME', tipoBase: free ? 'FREELANCE' : 'FULLTIME',
+        title: `Oferta ${id}`, url: `https://www.behance.net/joblist/${free ? 'freelance' : 'fulltime'}/${id}/x`, enrich: false, porBuzon: true,
+      };
+      if (!aplicarFicha(job, { jobDetails: o.jd || {} }) || job.cerrada) continue;
+      if (job.publicadaTs && Date.now() - job.publicadaTs > BUZON_EDAD_MAX_MS) job.viejaBuzon = true;
+      jobs.push(job);
+    }
+    return { ok: true, jobs };
+  } catch (e) {
+    return { ok: false, jobs: [], motivo: e.name === 'TimeoutError' ? 'tiempo agotado' : e.message };
+  }
+}
+
+// Aviso por Telegram cuando Behance lleva 1 h sin datos (y de la vuelta). Antes solo
+// había aviso si fallaban TODAS las fuentes: con Behance caída y las webs mundiales
+// bien, el 17–19/11 nadie se enteró en 2 días.
+async function saludBehance(state, latidoOk) {
+  if (!state.behanceOkTs) state.behanceOkTs = Date.now();
+  const sinDatos = Date.now() - state.behanceOkTs;
+  const hora = (ts) => (ts ? new Date(ts).toLocaleString('es-ES', { timeZone: 'Europe/Amsterdam', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) : '—');
+  if (sinDatos >= BEHANCE_SIN_DATOS_AVISO_MS && !state.behanceAvisado) {
+    const texto = buzonUrl(state)
+      ? `⚠️ Behance: no entran ofertas desde ${hora(state.behanceOkTs)}.\n\nBehance bloquea a GitHub y el vigía de tu navegador no manda nada (último latido: ${hora(state.buzonLatido)}). ¿Ordenador apagado o app de Claude cerrada? La tarea de las :23 lo vuelve a poner en marcha cuando el ordenador esté encendido.`
+      : `⚠️ Behance: no entran ofertas desde ${hora(state.behanceOkTs)} (Behance bloquea a GitHub). Las webs mundiales siguen funcionando.`;
+    const ok = await sendTelegram(texto);
+    state.behanceAvisado = true;
+    console.log(`  Aviso de Behance sin datos ${ok ? 'enviado' : 'NO enviado'}.`);
+  } else if (sinDatos < BEHANCE_SIN_DATOS_AVISO_MS && state.behanceAvisado) {
+    await sendTelegram(`✅ Behance vuelve a entrar${latidoOk ? ' (por el vigía de tu navegador)' : ''}. Se reanudan los avisos.`);
+    state.behanceAvisado = false;
+  }
 }
 
 // ──────────────────── Fuente: We Work Remotely (RSS) ────────────────────
@@ -1130,6 +1228,13 @@ async function publicarEstado(state, extra = {}) {
     proxyBehance: state.proxyBehance || null,
     pasadas: state.pasada || 0,
     hoy: { fecha: hoy, ...(state.stats && state.stats.fecha === hoy ? state.stats : {}) },
+    behance: {
+      buzon: buzonUrl(state) ? 'configurado' : 'sin configurar',
+      ultimoLatidoVigia: state.buzonLatido ? new Date(state.buzonLatido).toISOString() : null,
+      ultimoDato: state.behanceOkTs ? new Date(state.behanceOkTs).toISOString() : null,
+      sondaPausadaHasta: state.sondaPausaHasta ? new Date(state.sondaPausaHasta).toISOString() : null,
+      avisoEnviado: !!state.behanceAvisado,
+    },
     fuentes: Object.fromEntries(SOURCES.map((s) => [s.key, { fallosSeguidos: state.sourceFails[s.key] || 0, pausadaHasta: state.sourceSkip[s.key] ? new Date(state.sourceSkip[s.key]).toISOString() : null, ultimaConsulta: state.ultimaConsulta && state.ultimaConsulta[s.key] ? new Date(state.ultimaConsulta[s.key]).toISOString() : null }])),
     ...extra,
   }), 'estado: salud del vigilante');
@@ -1232,7 +1337,8 @@ PROYECTOS DE BEHANCE (enlace directo al más parecido; nunca inventes otro enlac
 - Motion o arte visual: https://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling
 - Amazon, listing o e-commerce: https://www.behance.net/gallery/251447375/Premium-Amazon-Listing-Design-for-Living-Logic
 - Agentes de IA y automatización: https://www.behance.net/gallery/257253261/AI-Agent-Offices-A-Day-Inside-Three-Businesses
-- Branding, logo, packaging, ilustración, diseño de prendas o estampados, redes sociales o editorial: todavía NO hay proyecto. No pongas enlace de proyecto: ofrece la muestra (ver CARTA) y el perfil.
+- Branding, identidad visual, packaging o etiquetas (sobre todo bebidas y productos de consumo): https://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept) — es un «concept project» (marca inventada por Leo): preséntalo como concepto («a concept identity I designed»), nunca como cliente real.
+- Ilustración, diseño de prendas o estampados, redes sociales o editorial: todavía NO hay proyecto. No pongas enlace de proyecto: ofrece la muestra (ver CARTA) y el perfil.
 
 DECISIÓN
 - "enviar": encaja con sus servicios — vídeo o cine con IA, anuncios y UGC con IA, edición de vídeo, motion graphics, imágenes y vídeo de producto, listings y A+ de Amazon, diseño gráfico de anuncios y redes, contenido para Instagram/TikTok/YouTube, webs y landings (también 3D), diseño web, automatización y agentes de IA para empresas y para vendedores de Amazon, implementación o consultoría de IA y automatización (n8n/Make/Zapier, chatbots, asistentes), sin ser programador senior.
@@ -1532,7 +1638,7 @@ async function pruebaFiltros() {
 // Estado: { v:2, seen:[ids], initialized:[fuentes], blindSince, blindNotified, … }.
 // Compatibilidad: si seen.json es un array antiguo, son ids de Behance ya vistos.
 function estadoVacio() {
-  return { seen: new Set(), initialized: new Set(), blindSince: 0, blindNotified: false, sourceFails: {}, sourceSkip: {}, routineFires: [], pasada: 0, proxyBehance: null, ultimaPasadaConDatos: 0, estadoPublicado: 0, stats: null, migradoV3: false, sonda: null, listasFallos: 0, listasPausaHasta: 0, ultimaConsulta: {}, turnos: {}, cartas: [] };
+  return { seen: new Set(), initialized: new Set(), blindSince: 0, blindNotified: false, sourceFails: {}, sourceSkip: {}, routineFires: [], pasada: 0, proxyBehance: null, ultimaPasadaConDatos: 0, estadoPublicado: 0, stats: null, migradoV3: false, sonda: null, listasFallos: 0, listasPausaHasta: 0, ultimaConsulta: {}, turnos: {}, cartas: [], sondaFallos: 0, sondaPausaHasta: 0, buzonDesde: 0, buzonLatido: 0, behanceOkTs: 0, behanceAvisado: false, config: null, configTs: 0 };
 }
 function loadState() {
   try {
@@ -1562,6 +1668,12 @@ function loadState() {
       ultimaConsulta: raw.ultimaConsulta || {},
       turnos: raw.turnos || {},
       cartas: raw.cartas || [],
+      sondaFallos: raw.sondaFallos || 0,
+      sondaPausaHasta: raw.sondaPausaHasta || 0,
+      buzonDesde: raw.buzonDesde || 0,
+      buzonLatido: raw.buzonLatido || 0,
+      behanceOkTs: raw.behanceOkTs || 0,
+      behanceAvisado: !!raw.behanceAvisado,
     };
   } catch {
     return null; // primera ejecución
@@ -1592,6 +1704,12 @@ function saveState(state) {
     ultimaConsulta: state.ultimaConsulta || {},
     turnos: state.turnos || {},
     cartas: state.cartas || [],
+    sondaFallos: state.sondaFallos || 0,
+    sondaPausaHasta: state.sondaPausaHasta || 0,
+    buzonDesde: state.buzonDesde || 0,
+    buzonLatido: state.buzonLatido || 0,
+    behanceOkTs: state.behanceOkTs || 0,
+    behanceAvisado: !!state.behanceAvisado,
   }));
 }
 
@@ -1779,7 +1897,8 @@ async function main() {
     // Webs mundiales: lo publicado hace más de 4 días o de una búsqueda que se estrena
     // no es «nuevo»: se registra sin avisar.
     const mundoViejo = job.sourceKey !== 'behance' && (job.lineaBase || (job.publicadaTs && Date.now() - job.publicadaTs > MUNDO_EDAD_MAX_MS));
-    const sourceReady = !firstRun && state.initialized.has(job.sourceKey) && (!enEstreno || (job.porSonda && reciente)) && !huecoAntiguo && !mundoViejo;
+    // Buzón (v3.4): lo publicado hace más de 3 días se registra sin avisar.
+    const sourceReady = !firstRun && state.initialized.has(job.sourceKey) && (!enEstreno || (job.porSonda && reciente)) && !huecoAntiguo && !mundoViejo && !job.viejaBuzon;
     if (sourceReady) newJobs.push(job);
     else { state.seen.add(job.id); baselined++; }
   }

@@ -192,6 +192,28 @@ lo conviertas en un aviso por pasada: sería spam cada 3 minutos.
   - Prueba EN SECO de los filtros (sin API, sin Telegram, sin escribir):
     `PRUEBA_FILTROS=1 node vigilante.js` (lee ofertas.json y mundo.json de la rama cola, o
     `PRUEBA_ARCHIVOS=a.json,b.json`). La prueba de cartas (`prueba_carta`) aplica también el filtro.
+- v3.4 (19/11/2026): **buzón del navegador de Leo**. Desde el 17/11 19:15 UTC Behance responde
+  403 a los runners de GitHub en TODO (fichas, listas y los proxies jina/codetabs/allorigins/corsproxy;
+  ver `diagnostico.json`). No se intenta esquivar ese bloqueo con otros servidores. En su lugar:
+  - El «vigía» (script que la tarea de las :23 pone en marcha en una pestaña de behance.net del
+    navegador integrado de Leo, `buzon/vigia.js` en la documentación de Drive) lee cada 3 min las
+    dos listas `sort=recent`, abre por `fetch` solo las fichas que el buzón aún no tiene (≤ 25,
+    2,5 s entre fichas) y las manda (POST no-cors, con token) a un **buzón de Google Apps Script**
+    de la cuenta de Leo. El buzón solo guarda lo que manda el navegador (máx. 60 fichas, 500 IDs).
+  - `leerBuzon` (dentro de `sourceBehance`, cada pasada) hace GET `?desde=<ms>` y convierte cada
+    ficha con `aplicarFicha(job, { jobDetails })` → mismo flujo de siempre (encaje, `filtroPrevio`,
+    carta con la API, cola, Telegram). Lo publicado hace más de 3 días entra como línea base.
+  - La dirección del buzón NO está en el código: se lee de `config.json` en la rama `cola`
+    (campo `buzonBehance`, relectura cada 15 min) o de la variable `BEHANCE_BUZON_URL`. Leerlo
+    da fichas públicas; escribir exige el token que solo tienen el buzón y la tarea.
+  - La sonda directa se pausa sola si sale toda bloqueada (5 min doblando hasta 1 h).
+  - `saludBehance`: aviso por Telegram UNA vez si Behance lleva 1 h sin datos (sonda, listas o
+    latido del vigía de hace < 20 min) y aviso de la vuelta. Antes el único aviso era el de
+    «todas las fuentes caídas» y el 17–19/11 nadie se enteró en 2 días.
+  - `estado.json` → bloque `behance` (buzón configurado, último latido del vigía, último dato,
+    pausa de la sonda, aviso enviado).
+  - Carta: enlace de SESTEO (identidad + packaging de bebida, «concept project») para branding,
+    identidad, packaging y etiquetas.
 - `SOURCES` — plataformas vigiladas (añadir/quitar aquí).
 - `SEARCHES` — términos de búsqueda de Behance (`''` = portada del joblist).
 - `INCLUDE` / `EXCLUDE` — palabras clave para el filtro de relevancia, comunes a
