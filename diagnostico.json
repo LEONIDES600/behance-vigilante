@@ -1,13 +1,13 @@
 {
-  "version": "v3.1 · 31/10/2026",
-  "fecha": "2026-10-31T12:24:15.160Z",
+  "version": "v3.3 · 16/11/2026",
+  "fecha": "2026-11-19T22:00:07.711Z",
   "resultados": [
     {
       "url": "https://www.behance.net/joblist?jobType=freelance&sort=recent",
       "proxy": "codetabs",
       "ok": false,
       "via": "codetabs HTTP 522",
-      "ms": 19458,
+      "ms": 19742,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -17,7 +17,7 @@
       "proxy": "corsproxy",
       "ok": false,
       "via": "corsproxy HTTP 401",
-      "ms": 212,
+      "ms": 144,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -27,7 +27,7 @@
       "proxy": "allorigins",
       "ok": false,
       "via": "allorigins no válido (453 B)",
-      "ms": 16667,
+      "ms": 4895,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -35,19 +35,19 @@
     {
       "url": "https://www.behance.net/joblist?jobType=freelance&sort=recent",
       "proxy": "jina",
-      "ok": true,
-      "via": "jina",
-      "ms": 274,
+      "ok": false,
+      "via": "jina HTTP 403",
+      "ms": 197,
       "conEstado": false,
-      "ofertas": 20,
-      "ejemplo": "behance:561563 Freelance Jewelry Design for a Bold Sculptural Statement Collection) | behance:561553 Site Plan Design for a 15000 Sq Ft Hospitality Property in Asansol) | behance:561509 Comprehensive Visual Identity for a Youth Travel Baseball Organization)"
+      "ofertas": 0,
+      "ejemplo": ""
     },
     {
       "url": "https://www.behance.net/joblist?jobType=freelance&sort=recent",
       "proxy": "directo",
       "ok": false,
       "via": "directo HTTP 403",
-      "ms": 26,
+      "ms": 138,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -57,7 +57,7 @@
       "proxy": "codetabs",
       "ok": false,
       "via": "codetabs HTTP 522",
-      "ms": 19432,
+      "ms": 19415,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -67,7 +67,7 @@
       "proxy": "corsproxy",
       "ok": false,
       "via": "corsproxy HTTP 401",
-      "ms": 47,
+      "ms": 100,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -76,8 +76,8 @@
       "url": "https://www.behance.net/joblist?jobType=fulltime&jobType=contract&sort=recent",
       "proxy": "allorigins",
       "ok": false,
-      "via": "allorigins HTTP 500",
-      "ms": 10702,
+      "via": "allorigins HTTP 522",
+      "ms": 19563,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -85,19 +85,19 @@
     {
       "url": "https://www.behance.net/joblist?jobType=fulltime&jobType=contract&sort=recent",
       "proxy": "jina",
-      "ok": true,
-      "via": "jina",
-      "ms": 376,
+      "ok": false,
+      "via": "jina HTTP 403",
+      "ms": 144,
       "conEstado": false,
-      "ofertas": 20,
-      "ejemplo": "behance:360559 GRAPHIC DESIGNER) | behance:370207 Game Developer (Remote Worldwide)) | behance:370205 Indesign)"
+      "ofertas": 0,
+      "ejemplo": ""
     },
     {
       "url": "https://www.behance.net/joblist?jobType=fulltime&jobType=contract&sort=recent",
       "proxy": "directo",
       "ok": false,
       "via": "directo HTTP 403",
-      "ms": 14,
+      "ms": 49,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -107,7 +107,7 @@
       "proxy": "codetabs",
       "ok": false,
       "via": "codetabs HTTP 522",
-      "ms": 19520,
+      "ms": 19564,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -117,7 +117,7 @@
       "proxy": "corsproxy",
       "ok": false,
       "via": "corsproxy HTTP 401",
-      "ms": 23,
+      "ms": 122,
       "conEstado": false,
       "ofertas": 0,
       "ejemplo": ""
@@ -125,231 +125,244 @@
     {
       "url": "https://www.behance.net/joblist/freelance/561599/x",
       "proxy": "allorigins",
-      "ok": true,
-      "via": "allorigins",
-      "ms": 19367,
-      "conEstado": true,
-      "ofertas": 1,
-      "ejemplo": "{\"additionalDetails\":\"####\",\"applicantCount\":0,\"appliedOnDate\":null,\"isSaved\":false,\"title\":\"Création D’Un Maillot De Football\",\"budgetMax\":10000,\"budgetMin\":500,\"categories\":[{\"id\":20,\"name\":\"T-Shirt & Merchandise\"}],\"candidateInfo\":\"####\",\"company\":\"NASEEB \",\"companyLogo\":null,\"companyUrl\":\"https:"
+      "ok": false,
+      "via": "allorigins HTTP 522",
+      "ms": 19544,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
     },
     {
       "url": "https://www.behance.net/joblist/freelance/561599/x",
       "proxy": "jina",
-      "ok": true,
-      "via": "jina",
-      "ms": 312,
+      "ok": false,
+      "via": "jina HTTP 403",
+      "ms": 156,
       "conEstado": false,
-      "ofertas": 1,
-      "ejemplo": "Title: Création D’Un Maillot De Football\n\nURL Source: https://www.behance.net/joblist/freelance/561599/x\n\nMarkdown Content:\nSign In\n\n*   [Explore](https://www.behance.net/?tracking_source=nav20)\n*   ["
+      "ofertas": 0,
+      "ejemplo": ""
     },
     {
       "url": "https://www.behance.net/joblist/freelance/561599/x",
       "proxy": "directo",
-      "ok": true,
-      "via": "directo",
-      "ms": 482,
-      "conEstado": true,
-      "ofertas": 1,
-      "ejemplo": "{\"additionalDetails\":\"####\",\"applicantCount\":0,\"appliedOnDate\":null,\"isSaved\":false,\"title\":\"Création D’Un Maillot De Football\",\"budgetMax\":10000,\"budgetMin\":500,\"categories\":[{\"id\":20,\"name\":\"T-Shirt & Merchandise\"}],\"candidateInfo\":\"####\",\"company\":\"NASEEB \",\"companyLogo\":null,\"companyUrl\":\"https:"
+      "ok": false,
+      "via": "directo HTTP 403",
+      "ms": 60,
+      "conEstado": false,
+      "ofertas": 0,
+      "ejemplo": ""
     }
   ],
   "sonda": [
     {
       "tipo": "freelance",
       "id": 561603,
-      "resultado": "oferta",
-      "ms": 486,
-      "titulo": "Lead Graphic Designer for a High-End Collegiate Apparel Brand",
-      "via": ""
+      "resultado": "error",
+      "ms": 119,
+      "titulo": "",
+      "via": "HTTP 403"
     },
     {
       "tipo": "freelance",
       "id": 561601,
-      "resultado": "no",
-      "ms": 69,
+      "resultado": "error",
+      "ms": 84,
       "titulo": "",
-      "via": ""
+      "via": "HTTP 403"
     },
     {
       "tipo": "empleo",
       "id": 370207,
-      "resultado": "oferta",
-      "ms": 347,
-      "titulo": "Game Developer (Remote-Worldwide)",
-      "via": ""
+      "resultado": "error",
+      "ms": 17,
+      "titulo": "",
+      "via": "HTTP 403"
     },
     {
       "tipo": "empleo",
       "id": 370209,
-      "resultado": "no",
-      "ms": 80,
+      "resultado": "error",
+      "ms": 27,
       "titulo": "",
-      "via": ""
+      "via": "HTTP 403"
     }
   ],
   "rafaga": {
-    "ms": 583,
+    "ms": 248,
     "resultados": [
-      "no",
-      "oferta",
-      "no",
-      "no",
-      "oferta",
-      "oferta",
-      "oferta",
-      "oferta",
-      "no",
-      "no",
-      "no",
-      "no"
+      "error HTTP 403",
+      "error HTTP 403",
+      "error HTTP 403",
+      "error HTTP 403",
+      "error HTTP 403",
+      "error HTTP 403",
+      "error HTTP 403",
+      "error HTTP 403",
+      "error HTTP 403",
+      "error HTTP 403",
+      "error HTTP 403",
+      "error HTTP 403"
     ]
   },
   "mundo": [
     {
       "fuente": "wwr",
       "ok": true,
-      "ofertas": 18,
-      "ms": 150,
+      "ofertas": 20,
+      "ms": 311,
       "via": "directo",
       "fallos": [],
       "niveles": {
-        "bajo": 12,
-        "medio": 3,
-        "alto": 1,
-        "no": 2
+        "medio": 4,
+        "bajo": 9,
+        "no": 6,
+        "alto": 1
       },
       "ejemplos": [
+        "[medio] 6sense — Business Solutions Partner - Enterprise AI · Anywhere in the World",
+        "[alto] Breakthrough Design Group — Senior Creative & Web Designer · Anywhere in the World",
         "[medio] Cata-Kor — Graphic Designer · Anywhere in the World",
         "[medio] Workiva — Principal Experience Designer - Visual Design & Design Systems · Anywhere in the World",
-        "[alto] Current — Senior Product Designer (Webflow) Temp to Perm · Anywhere in the World",
         "[medio] Contra — Senior 3D Designer · Anywhere in the World"
       ],
       "ubicaciones": [
-        "Anywhere in the World"
+        "Anywhere in the World",
+        "Asia Only",
+        "Europe Only",
+        "USA Only"
       ]
     },
     {
       "fuente": "remoteok",
       "ok": true,
-      "ofertas": 99,
-      "ms": 396,
+      "ofertas": 97,
+      "ms": 944,
       "via": "directo",
       "fallos": [],
       "niveles": {
-        "bajo": 61,
-        "no": 29,
-        "alto": 3,
-        "medio": 6
+        "bajo": 33,
+        "no": 59,
+        "medio": 5
       },
       "ejemplos": [
-        "[alto] Apryse — Commercial Account Manager LATAM · Remote",
-        "[medio] iMerit Technology — AI Trainer · US, UK, Canada, Australia + 35 other countries",
-        "[medio] Ultimate Marketing — Customer Support Specialist · ",
-        "[alto] BlueTuskr — Graphic Designer & Video Editor · ",
-        "[alto] Miaplaza — Academic Dean for MiaPrep Online Academy of Ohio · "
+        "[medio] Clera — Expert Talent Pool Physical AI · ",
+        "[medio] Toptal — Operations Expert with Python for AI Supply Chain Task Design · Anywhere in the World",
+        "[medio] iMerit — AI Content Reviewer Video Annotation · ",
+        "[medio] Bjak  — Technical Product Manager AI Stockbroking App · Germany",
+        "[medio] Magic Eden — Senior Growth Product Manager AI Native · Melbourne"
       ],
       "ubicaciones": [
-        "Dallas, Texas",
-        "",
-        "Ohio",
-        "Toronto, Ontario",
         "Remote",
-        "Seattle, Washington",
-        "Your Remote US Home Office",
-        "Copenhagen",
-        "Brazil",
-        "Vancouver",
-        "Menlo Park",
-        "Waltham",
-        "US, UK, Canada, Australia + 35 other countries",
-        "Sterling Heights, Michigan",
-        "Kansas "
+        "",
+        "Paris",
+        "Estonia",
+        "New York",
+        "Warsaw",
+        "Houston",
+        "EMEA",
+        "Any State",
+        "los angeles",
+        "Anywhere in the World",
+        "Boston",
+        "South Carolina",
+        "MÃ¼nchen",
+        "US"
       ]
     },
     {
       "fuente": "remotive",
       "ok": true,
-      "ofertas": 13,
-      "ms": 71,
+      "ofertas": 15,
+      "ms": 96,
       "via": "directo",
       "fallos": [],
       "niveles": {
-        "no": 4,
-        "medio": 4,
-        "bajo": 5
+        "no": 11,
+        "bajo": 3,
+        "medio": 1
       },
       "ejemplos": [
-        "[medio] Senior Back-end Developer · Europe, USA, Canada, Australia, Singapore, Mexico, Saudi Arabia",
-        "[medio] Head of Engineering · Worldwide",
-        "[medio] AI Trainer - Video Annotation · Worldwide",
-        "[medio] Senior back-end Engineer · Europe, USA, UK, Canada, Australia, Ireland, Switzerland, Singapore, Mexico, Iceland, Norway"
+        "[medio] AI Trainer - Video Annotation · Worldwide"
       ],
       "ubicaciones": [
-        "Worldwide",
-        "Europe, USA, Canada, Australia, Singapore, Mexico, Saudi Arabia",
         "USA, Canada, USA timezones",
-        "Europe, USA, Canada, APAC",
-        "Europe, USA, UK, Canada, Australia, Ireland, Switzerland, Singapore, Mexico, Iceland, Norway"
+        "USA, Canada",
+        "Worldwide",
+        "LATAM, Europe, USA, Canada, APAC",
+        "USA",
+        "Europe, USA, Canada, Australia, Singapore, Mexico, Saudi Arabia"
       ]
     },
     {
       "fuente": "jobicy",
       "ok": true,
       "ofertas": 100,
-      "ms": 828,
+      "ms": 193,
       "via": "directo",
       "fallos": [],
       "niveles": {
-        "medio": 3,
-        "no": 77,
-        "bajo": 20
+        "no": 91,
+        "bajo": 7,
+        "medio": 2
       },
       "ejemplos": [
-        "[medio] AI Trainers Network - Danish · Denmark,  France,  Germany,  Spain,  Sweden,  UK,  USA",
-        "[medio] AI Trainers Network - Czech · Czechia,  Slovakia",
-        "[medio] AI Trainers Network - Croatian Talent Hub · Croatia,  Serbia,  USA"
+        "[medio] UI Designer - AI Neobank App · Germany",
+        "[medio] Savvy Commercial and Operations Senior Manager - UK/Poland · Poland,  UK"
       ],
       "ubicaciones": [
-        "Denmark,  France,  Germany,  Spain,  Sweden,  UK,  USA",
-        "Austria,  Croatia,  Germany,  Hungary,  Italy,  Portugal,  Spain,  UK",
-        "Türkiye",
-        "Czechia,  Slovakia",
-        "Austria,  Croatia,  France,  Germany,  Hungary,  Italy,  Poland,  Portugal,  Spain,  UK",
-        "Europe",
-        "APAC,  EMEA",
-        "Croatia,  Serbia,  USA",
+        "Brazil",
+        "LATAM,  Canada,  Europe,  USA",
+        "LATAM,  USA",
+        "LATAM",
         "USA",
-        "Germany,  Portugal,  Spain,  UK",
         "Canada",
-        "Germany",
-        "Denmark,  Germany,  Netherlands,  Portugal,  Spain,  Sweden,  UK",
-        "Austria,  Germany,  Netherlands,  UK",
-        "UK"
+        "UK",
+        "Mexico",
+        "Canada,  USA",
+        "Argentina",
+        "Singapore",
+        "APAC",
+        "Australia",
+        "Philippines",
+        "Czechia,  Finland,  Germany,  Netherlands,  UK"
       ]
     },
     {
       "fuente": "himalayas",
       "ok": true,
-      "ofertas": 19,
-      "ms": 138,
-      "via": "video editor: directo · motion designer: directo · graphic designer: directo",
+      "ofertas": 90,
+      "ms": 3632,
+      "via": "video editor: directo · ai agent: directo · motion designer: directo · ai automation: directo · graphic designer: directo",
       "fallos": [],
       "niveles": {
-        "no": 11,
-        "bajo": 6,
-        "medio": 2
+        "no": 77,
+        "alto": 4,
+        "medio": 5,
+        "bajo": 4
       },
       "ejemplos": [
-        "[medio] Growth Marketing Manager – Paid Media & Klaviyo (AI-First) · ",
-        "[medio] Paid Ads Specialist · "
+        "[alto] Video Editor (Short-form social, paid ads, UGC) - LATAM · Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Brazil, Canada, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas), Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands, Suriname, Trinidad and Tobago, Turks and Caicos Islands, United States, Uruguay, Venezuela, Virgin Islands, British, Virgin Islands, U.S.",
+        "[alto] AI Video Editor · ",
+        "[medio] AI Governance Specialist (m/f/d) · Germany",
+        "[alto] Senior Generative AI Video Specialist · Jordan",
+        "[medio] Visual Designer · Jordan"
       ],
       "ubicaciones": [
-        "",
         "United States",
-        "Albania, Andorra, Argentina, Australia, Austria, Belgium, Belize, Bolivia, Bosnia and Herzegovina, Brazil, Bulgaria, Canada, Chile, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Dominican Republic, Ecuador, El Salvador, Estonia, Finland, France, Germany, Greece, Guatemala, Haiti, Honduras, Hungary, Indonesia, Ireland, Israel, Italy, Jamaica, Japan, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Mexico, Moldova, Montenegro, Morocco, Netherlands, New Zealand, North Macedonia, Norway, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Romania, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sweden, Switzerland, Thailand, Turkey, Ukraine, United Kingdom, United States, Uruguay, Vietnam",
-        "Albania, Andorra, Argentina, Australia, Belgium, Belize, Bolivia, Bosnia and Herzegovina, Brazil, Bulgaria, Canada, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Dominican Republic, Ecuador, El Salvador, Estonia, Finland, France, Germany, Greece, Guatemala, Haiti, Honduras, Hungary, Indonesia, Ireland, Israel, Italy, Jamaica, Japan, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Mexico, Moldova, Montenegro, Morocco, Netherlands, New Zealand, North Macedonia, Norway, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Romania, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sweden, Switzerland, Thailand, Turkey, Ukraine, United Kingdom, United States, Uruguay, Vietnam",
-        "Dominican Republic",
-        "Germany"
+        "Philippines",
+        "India",
+        "United Kingdom",
+        "Brazil",
+        "Mexico",
+        "South Africa",
+        "Argentina, Brazil, Chile, Colombia, Mexico, Uruguay",
+        "Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Brazil, Canada, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas), Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands, Suriname, Trinidad and Tobago, Turks and Caicos Islands, United States, Uruguay, Venezuela, Virgin Islands, British, Virgin Islands, U.S.",
+        "",
+        "Albania, Andorra, Argentina, Australia, Austria, Belgium, Belize, Bolivia, Bosnia and Herzegovina, Brazil, Bulgaria, Canada, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Dominican Republic, Ecuador, El Salvador, Estonia, Finland, France, Germany, Greece, Guatemala, Haiti, Honduras, Iceland, Indonesia, Ireland, Israel, Italy, Jamaica, Japan, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Mexico, Moldova, Montenegro, Morocco, Netherlands, New Zealand, North Macedonia, Norway, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Romania, Saudi Arabia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sweden, Switzerland, Thailand, Turkey, Ukraine, United Arab Emirates, United Kingdom, United States, Uruguay, Vietnam",
+        "Germany",
+        "Poland",
+        "Ukraine",
+        "Canada, France, Germany, India, Netherlands, Philippines, United Kingdom, United States"
       ]
     }
   ]
