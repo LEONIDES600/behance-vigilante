@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-18T22:22:43.699Z",
+  "actualizado": "2026-11-19T00:24:55.880Z",
   "ofertas": [
+    {
+      "id": "yo-ai-labs/jobs/spanish-language-expert-spain-remote",
+      "tipo": "CONTRACTOR",
+      "titulo": "Spanish Language Expert (Spain) - Remote",
+      "presupuesto": "50–60 USD/h",
+      "enlace": "https://himalayas.app/companies/yo-ai-labs/jobs/spanish-language-expert-spain-remote?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Spain",
+      "empresa": "YO AI Labs",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Job Description: E-commerce Simulation Expert\n Job Type: Contractor\n Location: Remote\n About the Role\n We are seeking experienced E-commerce Simulation Experts to support an AI training project focused on improving how AI systems understand online shopping, consumer behavior, and digital retail environments.\n You will use your e-commerce expertise to create realistic digital stores, product catalogs, and shopping scenarios that help train and evaluate AI models. Prior AI experience is not required.\n Key Responsibilities\n Design and build synthetic digital stores with realistic product assortments, pricing, and category structures.\n Create and maintain comprehensive product catalogs, ensuring data quality, consistency, and real-world complexity.\n Develop authentic shopping scenarios and use",
+      "vista": "2026-11-19T00:24:55.880Z",
+      "carta": {
+        "decision": "espera",
+        "motivo": "Buen pago y encaja con tu trabajo en listings y A+ de Amazon, pero exigen 3+ años en e-commerce y no tengo ese dato.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nSynthetic stores only train a model well if the catalogs, prices and shopping scenarios feel like real online retail, with the messy edge cases real shoppers bring.\nI'm Leo Gómez, creative director at LeoVisual.nl. For a home brand selling on Amazon in several European countries I've produced listing images and videos, A+ content, the website and AI agents for the team.\nhttps://www.behance.net/gallery/251447375/Premium-Amazon-Listing-Design-for-Living-Logic\nFor your project I would build each store from real category logic (taxonomy, attributes, price tiers), write shopper prompts in natural Spain Spanish with edge cases like ambiguous sizes or out-of-stock items, and score model answers against a clear rubric, logging recurring errors to improve the dataset.\nI'm a native Spanish speaker with Spanish nationality, based in Amsterdam, and I use LLMs daily in my workflow. I'm happy to do a test task.\nWhich product categories will the first simulated stores cover?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "Piden mínimo 3 años de experiencia práctica en e-commerce (operaciones, merchandising o catálogos). ¿Cuántos años puedes justificar, contando tu trabajo de listings y A+?",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1088,
+          "salida": 2488,
+          "cacheLeida": 0,
+          "cacheEscrita": 4741
+        },
+        "costeUSD": 0.077817,
+        "generada": "2026-11-19T00:24:54.914Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "remotelytalents/jobs/email-marketing-specialist-26111102",
       "tipo": "FULL_TIME",
@@ -3960,46 +4000,6 @@
         },
         "costeUSD": 0.028467,
         "generada": "2026-11-13T05:03:55.952Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "cifor-icraf/jobs/consultancy-technical-writer-and-editor-consultant",
-      "tipo": "CONTRACTOR",
-      "titulo": "Consultancy - Technical Writer and Editor Consultant",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/cifor-icraf/jobs/consultancy-technical-writer-and-editor-consultant?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Sri Lanka",
-      "empresa": "CIFOR-ICRAF",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Overall objective: to strengthen the quality, consistency, accessibilityand visibility of the GCF Knuckles Project’s knowledge products andcommunication outputs, so that Project evidence and results reach and areunderstood by their intended audiences.\n Specific objectives:\n Ensure that written outputs of the Project team and partners are clear,accurate, consistent and of publishable standard through technical review,language editing and proofreading.\n Produce and edit timely, high-quality news, media, technical content andstorytelling content for the ICRAF Sri Lanka country office and Projectchannels.\n Uphold the Project’s house style, terminology and ethical standards inall written communication.\n Summary of responsibilities\n 1.\n 2.\n 3.\n Working arrangements\n Work will be requested throug",
-      "vista": "2026-11-13T05:04:01.662Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es redacción técnica, corrección y edición de textos en inglés (Leo tiene B1), con revisión de traducciones al cingalés y al tamil y relación con medios de Sri Lanka; no es un servicio de Leo.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1540,
-          "salida": 417,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0150998,
-        "generada": "2026-11-13T05:04:00.749Z"
       },
       "fuente": "himalayas"
     }
