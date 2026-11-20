@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-20T06:39:03.597Z",
+  "actualizado": "2026-11-20T08:39:57.028Z",
   "ofertas": [
+    {
+      "id": "remotejobsone/jobs/enterprise-client-partner-enterprise-ai-remote-worldwide-8863377193",
+      "tipo": "FULL_TIME",
+      "titulo": "Enterprise Client Partner, Enterprise AI – Remote (Worldwide)",
+      "presupuesto": "275.000–400.000 USD/año",
+      "enlace": "https://himalayas.app/companies/remotejobsone/jobs/enterprise-client-partner-enterprise-ai-remote-worldwide-8863377193?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Canada, France, Germany, India, Netherlands, Nigeria, United Kingdom, United States",
+      "empresa": "RemoteJobsOne",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "IMPORTANT: after you apply, please check your email. We sendyou a link to complete your application — it is not considered until that laststep is done. If you do not see it, check your spam folder.\n This is a fully remote position , open to candidates based in 55 countries, including Nigeria, United States, United Kingdom, Canada, Germany, India, France, Netherlands.\n Pay: $275,000–$400,000/yr\n Job Title: Enterprise Client Partner, Enterprise AI\n Job Type: Full-time\n Location: San Francisco - Hybrid\n The Role\n We are looking for an Enterprise Client Partner to own and expand strategic relationships with enterprise customers deploying AI agents and AI systems into mission-critical workflows. This role sits at the intersection of commercial strategy, product, deployment, and customer success",
+      "vista": "2026-11-20T08:39:57.028Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de ventas enterprise, híbrido en San Francisco, y pide completar la solicitud mediante un enlace externo enviado por correo; no encaja con Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1614,
+          "salida": 305,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.036891,
+        "generada": "2026-11-20T08:39:55.896Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "mindrift/jobs/iphone-video-data-collection-paid-task-70-3840593974",
       "tipo": "PART_TIME",
@@ -3956,46 +3996,6 @@
         },
         "costeUSD": 0.014135799999999999,
         "generada": "2026-11-14T20:45:14.391Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "pearster/jobs/brand-manager-remote-latam",
-      "tipo": "FULL_TIME",
-      "titulo": "Brand Manager (Remote-LATAM)",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/pearster/jobs/brand-manager-remote-latam?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Brazil, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas), Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands, Suriname, Trinidad and Tobago, Turks and Caicos Islands, Uruguay, Venezuela, Virgin Islands, British, Virgin Islands, U.S.",
-      "empresa": "Pearster",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Spoiler: This is where your next big move begins. \n What this Journey Looks Like \nAt Pearster , we connect talented professionals from around the world with exciting opportunities at international companies. We are a dynamic, people-oriented team passionate about building meaningful professional connections and creating a positive employee experience.\n We are looking for a Brand Manager to join our growing team and lead the development, positioning, and growth of our brand across international markets.\n This role will be responsible for building a strong and consistent brand identity, developing creative marketing strategies, increasing brand awareness, and strengthening our presence across digital channels. We are looking for someone who combines strategic thinking, creativity, and a hand",
-      "vista": "2026-11-14T20:45:18.434Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Solo para residentes en LATAM, exige inglés C1 y 3+ años en brand management; Leo vive en Países Bajos y tiene inglés B1.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1814,
-          "salida": 315,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0141558,
-        "generada": "2026-11-14T20:45:17.748Z"
       },
       "fuente": "himalayas"
     }
