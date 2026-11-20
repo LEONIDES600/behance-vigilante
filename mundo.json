@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-20T02:36:45.742Z",
+  "actualizado": "2026-11-20T04:37:38.627Z",
   "ofertas": [
+    {
+      "id": "remotejobsone/jobs/strategic-project-lead-ai-coding-evaluations-remote-worldwide",
+      "tipo": "FULL_TIME",
+      "titulo": "Strategic Project Lead, AI Coding & Evaluations – Remote (Worldwide)",
+      "presupuesto": "300.000–500.000 USD/año",
+      "enlace": "https://himalayas.app/companies/remotejobsone/jobs/strategic-project-lead-ai-coding-evaluations-remote-worldwide?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Canada, France, Germany, India, Netherlands, South Africa, United Kingdom, United States",
+      "empresa": "RemoteJobsOne",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "IMPORTANT: after you apply, please check your email. We sendyou a link to complete your application — it is not considered until that laststep is done. If you do not see it, check your spam folder.\n This is a fully remote position , open to candidates based in 55 countries, including South Africa, United States, United Kingdom, Canada, Germany, India, France, Netherlands.\n Pay: $300,000–$500,000/yr\n Job Title: Strategic Project Lead, Coding/SWE\n Job Type: Full-Time\n Location: Remote\n The Role \n As a Strategic Projects Lead (SPL), you will own the end-to-end delivery of coding data pipelines used to train frontier AI models. You’ll work closely with AI Lab clients, software engineering experts, reviewers, and internal teams to ensure high-quality, scalable execution. \n What You’ll Do \n Own ",
+      "vista": "2026-11-20T04:37:38.627Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es dirigir proyectos técnicos de datos de código para entrenar modelos de IA (piden carrera de Informática y base sólida de ingeniería de software), no es creativo; además el sueldo no cuadra y te mandan a un enlace externo para completar la solicitud.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1620,
+          "salida": 470,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.040215,
+        "generada": "2026-11-20T04:37:37.582Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "thehivecareers/jobs/freelance-web-designer-7585628955",
       "tipo": "CONTRACTOR",
@@ -3960,46 +4000,6 @@
         },
         "costeUSD": 0.0432958,
         "generada": "2026-11-14T08:07:46.212Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "tugi-tark/jobs/graphic-designer",
-      "tipo": "CONTRACTOR",
-      "titulo": "Graphic Designer",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/tugi-tark/jobs/graphic-designer?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Tugi Tark",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "About us:\n At Tugi Tark , we're redefining customer support with a platform crafted by professionals who truly get it. Our mission? To revolutionize how businesses connect with their customers, ensuring every interaction is impactful. By blending deep industry know-how with innovative technology, we empower support teams to deliver standout experiences that keep customers happy and engaged.\n As a dynamic tech start up, we've just launched our innovative solution and are diving headfirst into the iGaming market. Our aim is to provide online operators worldwide with a tailored platform that elevates their customer support operations, ensuring every interaction is seamless and efficient. Leveraging advanced AI capabilities, our platform not only streamlines support processes but also anticipa",
-      "vista": "2026-11-14T06:06:28.822Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Diseño gráfico freelance y remoto para marketing y redes, con motion e IA como extras; no afirmamos años de diseño gráfico ni experiencia en SaaS.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\n\nYou need someone who can turn marketing briefs into consistent visuals for a newly launched AI support platform: campaign assets, social media, banners, presentations, website visuals and event materials.\nI run LeoVisual.nl, an AI creative studio in Amsterdam. For a home brand that sells on Amazon in several European countries (under NDA), I create many listing images and videos, A+ content and web visuals, all kept consistent with the brand. I have also designed showcases for AI agent systems, so presenting an AI product visually is familiar ground for me.\nI work with Adobe, Figma and AI image tools like GPT Image and Nano Banana Pro, and I can add motion graphics and video editing (Premiere, After Effects) when a campaign needs it.\nHow I would work: read your brand guidelines and the brief, propose a first concept, then adapt it to every format and platform you need. I am happy to do a short test with one of your real briefs.\nMy working English is B1, clear enough for briefs and written feedback.\nMy rate is 25 USD/h. For closed projects: 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nWhat is the first campaign or event you need assets for?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1447,
-          "salida": 2172,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.064223,
-        "generada": "2026-11-14T06:06:16.028Z"
       },
       "fuente": "himalayas"
     }
