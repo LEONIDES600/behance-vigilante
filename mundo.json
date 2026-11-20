@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-20T08:39:57.028Z",
+  "actualizado": "2026-11-20T10:40:54.157Z",
   "ofertas": [
+    {
+      "id": "evolve-digital-gmbh/jobs/ai-operations-manager-m-w-d-remote",
+      "tipo": "FULL_TIME",
+      "titulo": "AI Operations Manager (m/w/d) · Remote",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/evolve-digital-gmbh/jobs/ai-operations-manager-m-w-d-remote?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Germany",
+      "empresa": "Evolve Digital GmbH",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Du willst nicht nur das Tagesgeschäft am Laufen halten, sondern die Vision und ziele eines Unternehmens operativ Realität werden lassen? Bei uns übernimmst du dasdie Ownership für den Bereich Operations und sorgst selbst dafür, dass Ziele, Prozesse und Automationen im Alltag ineinandergreifen, vom Zielsystem bis zur täglichen Umsetzung. Dabei arbeitest du eng mit der Geschäftsführung, und den Teamleads und Projektverantwortlichen zusammen.\n Über EVOLVE \n Wir sind ein ganzheitlicher Wachstumspartner für E-Commerce-Brands im DACH-Raum.AI ist der Kern unserer Dienstleistung und steckt in allem, was wir für unsere Kunden umsetzen. Damit wir für unsere Kunden das beste Ergebnis erzielen, arbeiten wir effizient, planbar und skalierbar und setzen dafür auf klare Strukturen und Prozesse.\n Das wirs",
+      "vista": "2026-11-20T10:40:54.157Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exige alemán fluido y es un puesto de dirección de operaciones (finanzas, RR. HH., liderazgo de equipo), no un servicio creativo ni de agentes.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1884,
+          "salida": 367,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.039211,
+        "generada": "2026-11-20T10:40:53.092Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "remotejobsone/jobs/enterprise-client-partner-enterprise-ai-remote-worldwide-8863377193",
       "tipo": "FULL_TIME",
@@ -3956,46 +3996,6 @@
         },
         "costeUSD": 0.0111478,
         "generada": "2026-11-14T20:45:10.144Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "awisee/jobs/influencer-marketing-operations-manager-campaign-fulfillment",
-      "tipo": "FULL_TIME",
-      "titulo": "Influencer Marketing Operations Manager (Campaign Fulfillment)",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/awisee/jobs/influencer-marketing-operations-manager-campaign-fulfillment?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Brazil, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas), Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands, Suriname, Trinidad and Tobago, Turks and Caicos Islands, Uruguay, Venezuela, Virgin Islands, British, Virgin Islands, U.S.",
-      "empresa": "AWISEE",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "About AWISEE \n AWISEE is a fully remote international marketing agency working across Search, Social and AI Visibility for brands in technology, AI, fintech, gaming and consumer. Our team builds the internal products behind the agency: a creator data platform that scans more than 100,000 creator profiles a day, and the tools our influencer marketing team uses to match creators with brands and run campaigns. We are a small team that ships weekly and uses AI tools in everything we build.\n Team: Influencer Marketing · Experience: 3–5 years · Type: Full-time · Work mode: Remote · Location: Mexico (LatAm)\n About the role\n You will make sure every influencer campaign we sell gets delivered: creators sourced, booked, briefed and live on time. Demand is not our problem. We run 15+ campaigns at onc",
-      "vista": "2026-11-14T20:45:18.434Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Solo admite residentes en Latinoamérica (México) y pide más de 3 años gestionando campañas de influencers, algo que no son los servicios de Leo.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1634,
-          "salida": 350,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.014135799999999999,
-        "generada": "2026-11-14T20:45:14.391Z"
       },
       "fuente": "himalayas"
     }
