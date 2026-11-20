@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-20T00:35:40.494Z",
+  "actualizado": "2026-11-20T02:36:45.742Z",
   "ofertas": [
+    {
+      "id": "thehivecareers/jobs/freelance-web-designer-7585628955",
+      "tipo": "CONTRACTOR",
+      "titulo": "Freelance Web Designer",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/thehivecareers/jobs/freelance-web-designer-7585628955?utm_source=api",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Trinidad and Tobago",
+      "empresa": "TheHiveCareers",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "FREELANCE WEB DESIGNER\n We are looking to build a pool of talented Freelance Web Designers to support the development and launch of corporate websites across multiple brands.\n The ideal candidate has excellent design taste, can translate a business concept into a polished corporate website, and is highly proficient in using AI-powered tools to accelerate the web design and development process.\n What You'll Do\n Design and build professional, modern corporate websites for various brands.\n Translate provided business requirements, branding and content into visually appealing and functional websites.\n Use AI and web development/design tools to accelerate the design and build process.\n Manage the website development process from initial requirements through to successful launch.\n Ensure website",
+      "vista": "2026-11-20T02:36:45.742Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Webs corporativas hechas con IA en 2–3 días encajan de lleno; la descripción no exige residencia (solo aparece Trinidad y Tobago en la ficha).",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nTurning a business concept into a polished corporate website in 2–3 days needs a fast, repeatable process, and that is how I use AI in my web work.\nI'm Leo Gómez, creative director at LeoVisual.nl. My 3D scroll websites LUMEN, FORJA and MORVAIN are built in code (three.js + GSAP):\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nFor each brand: AI-assisted structure and layout from your requirements, design in Figma, build in HTML/CSS/JS or WordPress, responsive checks and launch.\nRate: 25 USD/h, 50% upfront, 2 rounds of changes, each site delivered in 2–3 days.\nWhich platform do your brands usually launch on: WordPress, a website builder or custom code?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 743,
+          "salida": 1967,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.066647,
+        "generada": "2026-11-20T02:36:44.962Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "symphonysol/jobs/senior-motion-designer",
       "tipo": "FULL_TIME",
@@ -3960,46 +4000,6 @@
         },
         "costeUSD": 0.064223,
         "generada": "2026-11-14T06:06:16.028Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "scandiweb/jobs/seo-strategy-manager-with-focus-on-ai-6192977286",
-      "tipo": "FULL_TIME",
-      "titulo": "SEO Strategy Manager (with focus on AI)",
-      "presupuesto": "1800–2100 EUR/mes",
-      "enlace": "https://himalayas.app/companies/scandiweb/jobs/seo-strategy-manager-with-focus-on-ai-6192977286?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "North Macedonia",
-      "empresa": "Scandiweb",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "We are looking for an SEO Strategy Manager who ships client outcomes through agents and automation, not through headcount and manual hours. You own KPI progress across traditional search and AI-driven search experiences.\n You set direction, explain your reasoning clearly, and guide clients toward the right decisions. This role goes beyond producing audits, recommendations, or manual execution. It is about designing the systems and owning the client relationship that turn SEO strategy into measurable results.\n What are the responsibilities of an SEO Strategy Manager?\n Lead SEO strategy and client outcomes \n Own SEO strategy and KPI progress across assigned client accounts.\n Act as the main strategic point of contact for clients, providing clear updates, proactive recommendations, and confid",
-      "vista": "2026-11-14T06:06:28.822Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden experiencia demostrada liderando estrategia SEO para clientes, que Leo no tiene; además el remoto parece limitado a Macedonia del Norte y exigen inglés de nivel alto.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1579,
-          "salida": 403,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0149758,
-        "generada": "2026-11-14T06:06:21.400Z"
       },
       "fuente": "himalayas"
     }
