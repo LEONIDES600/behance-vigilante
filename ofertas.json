@@ -1,6 +1,44 @@
 {
-  "actualizado": "2026-11-20T12:31:18.426Z",
+  "actualizado": "2026-11-20T14:34:38.496Z",
   "ofertas": [
+    {
+      "id": "573083",
+      "tipo": "FREELANCE",
+      "titulo": "Cars marketplace website app design)",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/freelance/573083/Cars-marketplace-website-app-design)",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-20T14:34:38.496Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Diseño web y de app para un marketplace de coches: encaja con sus webs, aunque la oferta no trae descripción.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA cars marketplace depends on how quickly people can filter, compare and trust a listing, so I'd design the website and app around search, the car detail page and the contact flow.\nI'm Leo Gómez, creative director at LeoVisual.nl. Recent web work:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nHow I'd do it: map the key screens (home, search results, car page, seller contact), design them in Figma for desktop and mobile, then refine them with you.\nDesign starts from 300 USD depending on the number of screens, 50% upfront, 7–10 days, 2 rounds of changes.\nDo you need both the website and the mobile app designed, or the website first?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 290,
+          "salida": 1157,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.048635,
+        "generada": "2026-11-20T14:34:37.397Z"
+      }
+    },
     {
       "id": "372629",
       "tipo": "FULLTIME",
@@ -3816,45 +3854,6 @@
         },
         "costeUSD": 0.044891,
         "generada": "2026-11-16T18:03:29.597Z"
-      }
-    },
-    {
-      "id": "570041",
-      "tipo": "FREELANCE",
-      "titulo": "High-Quality Backlink Building for SEO",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570041/High-Quality-Backlink-Building-for-SEO",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need an SEO freelancer who specializes in building high-quality backlinks to strengthen my website’s search-engine optimization efforts. The work should focus specifically on quality link acquisition.",
-      "vista": "2026-11-16T17:55:59.288Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden un especialista en conseguir backlinks para SEO, y Leo no ofrece ese servicio ni tiene trabajos así en el portfolio.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 395,
-          "salida": 403,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.010239799999999999,
-        "generada": "2026-11-16T17:55:58.289Z"
       }
     }
   ]
