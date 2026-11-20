@@ -4,9 +4,9 @@
     {
       "id": "573083",
       "tipo": "FREELANCE",
-      "titulo": "Cars marketplace website app design)",
+      "titulo": "Cars marketplace website app design",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/freelance/573083/Cars-marketplace-website-app-design)",
+      "enlace": "https://www.behance.net/joblist/freelance/573083/Cars-marketplace-website-app-design",
       "encaje": "alto",
       "ubicacion": "",
       "empresa": "",
@@ -17,34 +17,17 @@
       "descripcion": "",
       "vista": "2026-11-20T14:34:38.496Z",
       "carta": {
-        "decision": "enviar",
-        "motivo": "Diseño web y de app para un marketplace de coches: encaja con sus webs, aunque la oferta no trae descripción.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA cars marketplace depends on how quickly people can filter, compare and trust a listing, so I'd design the website and app around search, the car detail page and the contact flow.\nI'm Leo Gómez, creative director at LeoVisual.nl. Recent web work:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nHow I'd do it: map the key screens (home, search results, car page, seller contact), design them in Figma for desktop and mobile, then refine them with you.\nDesign starts from 300 USD depending on the number of screens, 50% upfront, 7–10 days, 2 rounds of changes.\nDo you need both the website and the mobile app designed, or the website first?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 290,
-          "salida": 1157,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.048635,
-        "generada": "2026-11-20T14:34:37.397Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
       }
     },
     {
       "id": "372629",
       "tipo": "FULLTIME",
-      "titulo": "Graphic Designer Video Editor)",
+      "titulo": "Graphic Designer Video Editor",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372629/Graphic-Designer-Video-Editor)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372629/Graphic-Designer-Video-Editor",
       "encaje": "alto",
       "ubicacion": "",
       "empresa": "",
@@ -55,34 +38,17 @@
       "descripcion": "",
       "vista": "2026-11-20T12:31:18.426Z",
       "carta": {
-        "decision": "enviar",
-        "motivo": "Diseño gráfico y edición de vídeo encajan con sus servicios; la oferta no tiene descripción y no dice si es remota, así que la carta lo pregunta.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nA role that combines graphic design and video editing needs someone who can carry one idea from a static ad to a video edit, so every piece looks like the same brand.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen).\nThe closest example of my work is this campaign:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nFor your team I would design ads and social graphics, edit the videos in Premiere and add motion graphics in After Effects, using one visual system across formats.\nI work in Spanish and English, and I'm happy to do a test task.\nIs this role remote, and which channels and formats would the videos mainly be for?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 223,
-          "salida": 1439,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.054007,
-        "generada": "2026-11-20T12:30:49.874Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
       }
     },
     {
       "id": "558735",
       "tipo": "FREELANCE",
-      "titulo": "Graphic Designer)",
+      "titulo": "Graphic Designer",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/freelance/558735/Graphic-Designer)",
+      "enlace": "https://www.behance.net/joblist/freelance/558735/Graphic-Designer",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -93,34 +59,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "enviar",
-        "motivo": "Diseño gráfico encaja con sus servicios; la oferta no tiene descripción, así que se ofrecen piezas sueltas y se pregunta el alcance.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi!\n\nYou're looking for a graphic designer, and since the brief is still open, I'd love to know what the pieces are for: ads, social posts or brand visuals.\nI'm Leo Gómez, creative director at LeoVisual.nl in Amsterdam. Two pieces close to this:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept) (a concept identity I designed)\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I'd work: a short written brief, a first design direction in 2–5 days, then 2 rounds of changes.\nSingle pieces start from 300 USD, 50% upfront.\nWhat will the first design be, and where will it be used?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": 50,
-        "plazo": "2–5 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 287,
-          "salida": 1506,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.055603,
-        "generada": "2026-11-20T11:28:11.423Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
       }
     },
     {
       "id": "572831",
       "tipo": "FREELANCE",
-      "titulo": "3D Motion Designer)",
+      "titulo": "3D Motion Designer",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/freelance/572831/3D-Motion-Designer)",
+      "enlace": "https://www.behance.net/joblist/freelance/572831/3D-Motion-Designer",
       "encaje": "alto",
       "ubicacion": "",
       "empresa": "",
@@ -131,34 +80,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "enviar",
-        "motivo": "Leo hace motion graphics y 3D; el encargo está en inglés y no trae descripción, así que se ofrecen piezas sueltas y se pregunta el alcance.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou're looking for a 3D motion designer, so I'd focus on clean, cinematic 3D motion built around your product and message.\nI'm Leo Gómez, creative director at LeoVisual.nl. My closest motion work:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nHow I'd do it: a short brief and references, one styleframe for your approval, then the 3D build and animation, finished in After Effects with sound and exported in your formats.\nPricing: single pieces from 300 USD, 50% upfront, 2–5 days per piece, 2 rounds of revisions.\nWhat is the piece for, and how long should it be?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": 50,
-        "plazo": "2–5 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 289,
-          "salida": 1342,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.028969400000000003,
-        "generada": "2026-11-20T11:28:51.857Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
       }
     },
     {
       "id": "571525",
       "tipo": "FREELANCE",
-      "titulo": "Infographic Design for Academic Research on Rape Law Reform)",
+      "titulo": "Infographic Design for Academic Research on Rape Law Reform",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/freelance/571525/Infographic-Design-for-Academic-Research-on-Rape-Law-Reform)",
+      "enlace": "https://www.behance.net/joblist/freelance/571525/Infographic-Design-for-Academic-Research-on-Rape-Law-Reform",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -169,34 +101,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "dudosa",
-        "motivo": "Es diseño gráfico que Leo puede hacer, pero no hay una infografía en el portfolio ni descripción; se envía con una muestra antes de pagar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi!\nAn infographic on rape law reform has to turn dense legal research into something clear, accurate and respectful of the subject.\nI'm Leo Gómez, creative director at LeoVisual.nl. My approach: read your findings, map the key points (before and after the reform, data, timeline), build a clean visual hierarchy with a sober palette, then refine typography and icons so it reads well in print and on screen.\nBefore you pay anything, I'll send you a quick layout of one section using your own data.\nPrice: from 300 USD for the infographic, 50% upfront, delivery in 2–5 days, 2 rounds of revisions.\nIs it for a paper, a poster or social media, and are the data and text already final?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": 50,
-        "plazo": "2–5 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 301,
-          "salida": 1146,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.025097400000000002,
-        "generada": "2026-11-20T11:29:56.410Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
       }
     },
     {
       "id": "372591",
       "tipo": "FULLTIME",
-      "titulo": "Looking for a Motion Design Intern)",
+      "titulo": "Looking for a Motion Design Intern",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372591/Looking-for-a-Motion-Design-Intern)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372591/Looking-for-a-Motion-Design-Intern",
       "encaje": "alto",
       "ubicacion": "",
       "empresa": "",
@@ -207,34 +122,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "enviar",
-        "motivo": "Motion design encaja con sus servicios; no dice que sea presencial, así que la carta pregunta si es remoto.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nI saw you're looking for a Motion Design Intern, and I'd like to apply.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen). I work in After Effects and Premiere on motion graphics, video editing and short ads, and I also do graphic design and 3D.\nThis is the closest example of my motion work:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nHow I'd work with you: start from your brand guidelines and references, share a styleframe first, then animate, edit, add sound and deliver in the formats each channel needs.\nI'm happy to do a short test piece with your brand assets.\nIs the internship remote, and what kind of motion work would I mostly be doing?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 224,
-          "salida": 1171,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0252894,
-        "generada": "2026-11-20T11:31:30.999Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
       }
     },
     {
       "id": "363465",
       "tipo": "FULLTIME",
-      "titulo": "Editor de Video Senior)",
+      "titulo": "Editor de Video Senior",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/363465/Editor-de-Video-Senior)",
+      "enlace": "https://www.behance.net/joblist/fulltime/363465/Editor-de-Video-Senior",
       "encaje": "alto",
       "ubicacion": "",
       "empresa": "",
@@ -245,34 +143,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con edición de vídeo, pero piden un perfil senior, no hay descripción y no se sabe si es remoto.",
-        "categoria": "CREATIVO",
-        "idioma": "es",
-        "carga": "media",
-        "texto": "¡Hola!\nBuscáis un editor de vídeo senior que se encargue del montaje de principio a fin, con buen ritmo, sonido cuidado y piezas listas para publicar.\nSoy Leo Gómez, director creativo de LeoVisual.nl, en Ámsterdam (ciudadano de la UE). He hecho anuncios cinematográficos como ORBE y SILENCIO, desde la idea hasta el montaje y el sonido. Aquí tienes una muestra de mi trabajo en campañas:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nTrabajo con Premiere y After Effects, y añado motion graphics y diseño gráfico cuando la pieza lo pide.\nMi forma de trabajar: entender el objetivo de cada vídeo, hacer un primer corte rápido, ajustar ritmo y sonido con vuestro feedback y entregar cada versión en el formato de cada canal.\nHago con gusto una prueba de edición con vuestro material.\n¿Qué tipo de vídeos editaría en el día a día y el puesto es en remoto?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 220,
-          "salida": 1759,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0370334,
-        "generada": "2026-11-20T11:32:14.906Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
       }
     },
     {
       "id": "372579",
       "tipo": "FULLTIME",
-      "titulo": "Senior Graphic Designer)",
+      "titulo": "Senior Graphic Designer",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372579/Senior-Graphic-Designer)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372579/Senior-Graphic-Designer",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -283,34 +164,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "dudosa",
-        "motivo": "El diseño gráfico encaja, pero la oferta no tiene descripción ni dice si es remota: conviene aclararlo antes de comprometerse.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYou're looking for a Senior Graphic Designer, and I'd like to be considered for the role.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam and an EU citizen. I work on graphic design for ads and social media, product images, motion graphics and 3D, using Adobe tools, Premiere and After Effects.\nA campaign I created:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nA concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd work: start from your brand guidelines, share first design directions quickly, then improve them with your team until every file is ready to publish or print.\nI'm happy to do a short test task first.\nIs the role remote, and which channels (print, digital ads, social) will take most of the design time?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 221,
-          "salida": 1480,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0314574,
-        "generada": "2026-11-20T11:32:57.848Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
       }
     },
     {
       "id": "372569",
       "tipo": "FULLTIME",
-      "titulo": "creative designer)",
+      "titulo": "creative designer",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372569/creative-designer)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372569/creative-designer",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -321,34 +185,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "espera",
-        "motivo": "El puesto de diseñador creativo encaja, pero la oferta no tiene descripción y no se sabe si es remota.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou're looking for a creative designer who can take an idea from first concept to finished visuals that are ready to publish in every format.\nI'm Leo Gómez, creative director at LeoVisual.nl. I'm based in Amsterdam and I'm an EU citizen. I work across graphic design, motion graphics, video editing, 3D and websites built in code.\nHere is a recent campaign that shows how I go from concept to final edit and sound:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nIn this role I'd start by learning your brand and goals. Then I'd build a clear visual direction and deliver consistent assets for each channel.\nI'm happy to do a short test task on your brand before you decide.\nWhich channels and formats would this role focus on day to day?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "La oferta no tiene descripción ni dice si es remota. ¿Tienes el texto completo o puedes confirmar que es remota antes de enviarla?",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 215,
-          "salida": 1237,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0265734,
-        "generada": "2026-11-20T11:33:36.914Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «espera»)"
       }
     },
     {
       "id": "372547",
       "tipo": "FULLTIME",
-      "titulo": "Video Editor)",
+      "titulo": "Video Editor",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372547/Video-Editor)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372547/Video-Editor",
       "encaje": "alto",
       "ubicacion": "",
       "empresa": "",
@@ -359,34 +206,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "enviar",
-        "motivo": "Edición de vídeo encaja con Leo; la oferta no tiene descripción y no aclara si es remota, así que la carta pregunta por el enfoque.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou're looking for a video editor, and I'd love to help turn your footage into videos that hold attention from the first second to the last.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen). I edit in Premiere and After Effects, and I treat motion graphics and sound as part of the cut.\nTwo pieces close to this role:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nhttps://www.behance.net/gallery/254527569/Where-Imagination-Becomes-Real-AI-Cinematic-Short\nMy process: review your brief and footage, deliver a first cut quickly, add motion, color and sound, then refine it with your feedback.\nI'm happy to do a short test edit with your own footage.\nWhat kind of videos would this role focus on, and for which platforms and formats?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 216,
-          "salida": 1441,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0306574,
-        "generada": "2026-11-20T11:34:13.720Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
       }
     },
     {
       "id": "372539",
       "tipo": "FULLTIME",
-      "titulo": "Graphic Designer)",
+      "titulo": "Graphic Designer",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372539/Graphic-Designer)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372539/Graphic-Designer",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -397,34 +227,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "espera",
-        "motivo": "El puesto de diseñador gráfico encaja, pero la oferta no tiene descripción ni dice si es remota, así que no se puede comprobar si es presencial o pide residencia.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYou're looking for a full-time graphic designer who can take visual work from the first idea to the finished file and keep it consistent across every channel.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen). I work on graphic design, ad and social visuals, motion graphics and product imagery with Adobe, Premiere and After Effects.\nA concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nA product campaign, from idea to final edit:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I'd start: learn your brand guidelines, review your current materials and deliver a first batch of pieces for feedback in the first week. I'm happy to do a short test task.\nWhich kind of work would take up most of the role: brand and print, ads and social, or motion?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "La oferta llega sin descripción: ¿puedes abrirla y pegar el texto completo, sobre todo si es remota y desde qué país se puede trabajar?",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 218,
-          "salida": 1721,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0362654,
-        "generada": "2026-11-20T11:34:56.761Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «espera»)"
       }
     },
     {
       "id": "372513",
       "tipo": "FULLTIME",
-      "titulo": "Junior Graphic Designer LATAM)",
+      "titulo": "Junior Graphic Designer LATAM",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372513/Junior-Graphic-Designer-LATAM)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372513/Junior-Graphic-Designer-LATAM",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -435,26 +248,9 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "descartar",
-        "motivo": "El puesto es para LATAM, lo que apunta a que hay que vivir en Latinoamérica, y Leo vive en Ámsterdam; además, no hay descripción ni empresa.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 225,
-          "salida": 534,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0125534,
-        "generada": "2026-11-20T11:36:25.044Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «descartar»)"
       }
     },
     {
@@ -473,34 +269,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "dudosa",
-        "motivo": "Leo trabaja con 3D, pero la oferta no tiene descripción, pide un perfil «Senior Lead» y no aclara si es remoto: se envía con una prueba y una pregunta.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\n\nYou're looking for a Senior Lead 3D Designer to lead and shape the 3D work of your team.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam and an EU citizen. 3D, motion graphics and graphic design are part of my daily work.\nThe closest proof is LUMEN, FORJA and MORVAIN, 3D scroll websites I built in code with three.js and GSAP:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nIn the role, I'd start by learning your brand and current pipeline. Then I'd set a clear visual direction for the 3D work and keep every piece consistent across web, video and campaigns.\nI'm happy to do a short test task, so you can see how I work before deciding.\nIs the role fully remote, and is the 3D work mainly for product visuals, web or animation?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 222,
-          "salida": 1408,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0300214,
-        "generada": "2026-11-20T11:37:34.176Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
       }
     },
     {
       "id": "372387",
       "tipo": "FULLTIME",
-      "titulo": "Motion Graphic)",
+      "titulo": "Motion Graphic",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372387/Motion-Graphic)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372387/Motion-Graphic",
       "encaje": "alto",
       "ubicacion": "",
       "empresa": "",
@@ -511,34 +290,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "enviar",
-        "motivo": "Motion graphics es uno de sus servicios principales; la oferta no tiene descripción, pero nada obliga a descartarla.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYou're hiring a full-time motion graphics designer, and motion is a core part of my daily work.\nThis piece shows my style, pacing and visual storytelling:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen). I work in After Effects and Premiere, with graphic design and 3D, so I can take a piece from storyboard to animation, sound and final export.\nIn the role I'd start by learning your brand rules, then build a small motion toolkit (titles, transitions, lower thirds) so every piece stays consistent and quick to produce.\nI'm happy to do a short test animation so you can see how I work.\nWhich formats will the role focus on most: social ads, explainers or brand videos?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 218,
-          "salida": 1241,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.026665400000000002,
-        "generada": "2026-11-20T11:39:36.915Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
       }
     },
     {
       "id": "372371",
       "tipo": "FULLTIME",
-      "titulo": "Graphic Design Logo Packaging Design)",
+      "titulo": "Graphic Design Logo Packaging Design",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372371/Graphic-Design-Logo-Packaging-Design)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372371/Graphic-Design-Logo-Packaging-Design",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -549,34 +311,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "dudosa",
-        "motivo": "Puesto fijo de logo y packaging (dudosa): no hay descripción ni se sabe si es remoto, así que se envía con el concepto SESTEO y la oferta de una prueba.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYou're looking for someone to handle logo and packaging design, where the mark and the pack need to work together as one system.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen), working across graphic design, motion and 3D.\nThe closest example is a concept identity I designed for a sun tea brand, from logo to packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy approach: understand the product and audience, explore a few logo directions, then apply the chosen one across the packaging with mockups and final files.\nI'm happy to start with a test: one logo direction mocked up on one of your packs, so you can judge the fit first.\nIs the role fully remote, and which products or packaging lines would I be working on first?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 226,
-          "salida": 1256,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0269974,
-        "generada": "2026-11-20T11:40:16.410Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
       }
     },
     {
       "id": "372355",
       "tipo": "FULLTIME",
-      "titulo": "Graphic designer)",
+      "titulo": "Graphic designer",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372355/Graphic-designer)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372355/Graphic-designer",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -587,34 +332,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con diseño gráfico, pero la oferta no tiene descripción, empresa ni modalidad: conviene confirmar que es remoto.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nI saw you're looking for a graphic designer, and I'd like to be considered for the role.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen) and working remotely.\nThe closest example of brand graphic design is this Amazon listing and A+ content design:\nhttps://www.behance.net/gallery/251447375/Premium-Amazon-Listing-Design-for-Living-Logic\nAnd this is a concept identity and packaging I designed for a sun tea brand:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nDay to day I design ads, social media content, product images and layouts in Adobe and Figma, and I also do motion graphics and video editing when a project needs it.\nI'm happy to do a short test task based on your brand before any next step.\nWhat would the role focus on first: ads and social content, packaging, or brand materials?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 217,
-          "salida": 1400,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0298414,
-        "generada": "2026-11-20T11:41:52.220Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
       }
     },
     {
       "id": "565233",
       "tipo": "FREELANCE",
-      "titulo": "3D Animated Illustration Video for a Tech Startup)",
+      "titulo": "3D Animated Illustration Video for a Tech Startup",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/freelance/565233/3D-Animated-Illustration-Video-for-a-Tech-Startup)",
+      "enlace": "https://www.behance.net/joblist/freelance/565233/3D-Animated-Illustration-Video-for-a-Tech-Startup",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -625,34 +353,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "enviar",
-        "motivo": "Vídeo animado en 3D para una startup tecnológica: encaja con su trabajo de motion graphics, 3D y edición; la oferta no tiene descripción.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nA 3D animated illustration video can make your startup's tech clear and memorable in a few seconds.\n\nI'm Leo Gómez, creative director at LeoVisual.nl. The closest work to this, motion and visual storytelling:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\n\nHow I'd do it: a short script and storyboard, 2–3 3D style frames for your approval, then animation, edit and sound design.\n\nI'd propose a 30–45 s pilot video for 1,200 €, 50% upfront, delivered in 2–5 days with 2 rounds of revisions.\n\nWhat does your product do, and where will the video be used (website, social or pitch)?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": 50,
-        "plazo": "2–5 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 300,
-          "salida": 1531,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0327934,
-        "generada": "2026-11-20T11:43:19.810Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
       }
     },
     {
       "id": "372351",
       "tipo": "FULLTIME",
-      "titulo": "Video Editor)",
+      "titulo": "Video Editor",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372351/Video-Editor)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372351/Video-Editor",
       "encaje": "alto",
       "ubicacion": "",
       "empresa": "",
@@ -663,34 +374,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "enviar",
-        "motivo": "Puesto de editor de vídeo, encaja con lo que hace Leo; la oferta no tiene descripción y no aclara si es remoto, así que la carta lo pregunta.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou're hiring a video editor, someone who can take raw footage and turn it into clean, well-paced videos ready to publish.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen). I edit in Premiere and After Effects, and I add motion graphics and sound design to the edit.\nThis is the project closest to the role, a cinematic eyewear campaign I edited:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nI also made the ORBE and SILENCIO cinematic ads, from concept to final edit and sound.\nHow I'd work: review your footage and brand guidelines, send a first cut quickly, refine pacing, titles and audio, then export each version for its platform.\nI'm happy to do a test edit if that helps.\nIs the role remote, and what kind of videos would I be editing first?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 216,
-          "salida": 1387,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0295774,
-        "generada": "2026-11-20T11:44:01.401Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
       }
     },
     {
       "id": "372333",
       "tipo": "FULLTIME",
-      "titulo": "WE ARE HIRING CINEMATOGRAPHER MULTIMEDIA CONTENT CREATOR)",
+      "titulo": "WE ARE HIRING CINEMATOGRAPHER MULTIMEDIA CONTENT CREATOR",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372333/WE-ARE-HIRING-CINEMATOGRAPHER-MULTIMEDIA-CONTENT-CREATOR)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372333/WE-ARE-HIRING-CINEMATOGRAPHER-MULTIMEDIA-CONTENT-CREATOR",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -701,34 +395,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "espera",
-        "motivo": "El puesto encaja con vídeo cinematográfico y contenido, pero no tiene descripción ni modalidad, y «cinematographer» puede exigir rodar con cámara de forma presencial.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nYou're looking for someone who can handle the cinematic look and also the day-to-day multimedia content, and that mix is where I'm most useful.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen). I made the cinematic ads ORBE and SILENCIO myself: concept, visuals, editing and sound.\nhttps://www.behance.net/gallery/254527569/Where-Imagination-Becomes-Real-AI-Cinematic-Short\nFor your team I'd start by setting a visual style for the brand (framing, colour, pacing), then turn every piece into versions for Instagram, TikTok and YouTube, edited in Premiere and After Effects with motion graphics where they help.\nI'm happy to do a short test piece on one of your topics so you can see how I work before you decide.\nIs this role remote, and what kind of content would the first month focus on?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "La oferta no tiene descripción ni dice si es remota, y «cinematographer» suele implicar rodar con cámara de forma presencial: ¿tienes experiencia grabando con cámara y quieres enviarla aunque no sepamos si es remota?",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 251,
-          "salida": 1364,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.029257400000000003,
-        "generada": "2026-11-20T11:45:03.704Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «espera»)"
       }
     },
     {
       "id": "372327",
       "tipo": "FULLTIME",
-      "titulo": "Visualizer Graphic Designer)",
+      "titulo": "Visualizer Graphic Designer",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372327/Visualizer-Graphic-Designer)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372327/Visualizer-Graphic-Designer",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -739,34 +416,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "dudosa",
-        "motivo": "Diseño gráfico y visuales encajan, pero no hay descripción ni se sabe si es remoto: se envía y se pregunta.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nA Visualizer Graphic Designer role is about turning briefs into strong key visuals quickly, from the first concept to the final layout, and that is the part of the work I enjoy most.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen), working across graphic design, ad visuals, motion graphics and 3D with Adobe tools.\nA recent campaign visual project:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nAnd a concept identity I designed, from logo to packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nFor each new brief I start with 2–3 quick visual directions, refine the chosen one with your team and deliver final files ready for social, web and print.\nI'm happy to do a short test task so you can see how I work.\nIs the role fully remote, and which brands or types of projects would the visualizer mainly work on?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 223,
-          "salida": 1551,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0328854,
-        "generada": "2026-11-20T11:45:40.127Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
       }
     },
     {
       "id": "372317",
       "tipo": "FULLTIME",
-      "titulo": "video editors)",
+      "titulo": "video editors",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372317/video-editors)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372317/video-editors",
       "encaje": "alto",
       "ubicacion": "",
       "empresa": "",
@@ -777,34 +437,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "enviar",
-        "motivo": "Edición de vídeo encaja con sus servicios; la oferta no trae descripción, así que la carta pregunta por el tipo de vídeo y si es remoto.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou're looking for video editors, and editing is a core part of my daily work as creative director at LeoVisual.nl.\nRecently I edited ORBE and SILENCIO, two cinematic ads where I handled the concept, the edit and the sound.\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nFor your team I'd work in Premiere and After Effects: organise the footage, build a tight first cut, then refine pacing, motion graphics and sound, and deliver a version for each format you need.\nI'm based in Amsterdam (EU citizen), I work remotely, and I'm happy to do a short test edit with your footage.\nWhat kind of videos would the role focus on, and is the position fully remote?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 214,
-          "salida": 1219,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0262094,
-        "generada": "2026-11-20T11:46:47.936Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
       }
     },
     {
       "id": "372315",
       "tipo": "FULLTIME",
-      "titulo": "Graphic Designer)",
+      "titulo": "Graphic Designer",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372315/Graphic-Designer)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372315/Graphic-Designer",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -815,34 +458,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "dudosa",
-        "motivo": "El diseño gráfico encaja, pero la oferta no tiene descripción ni dice si es remota; se envía preguntándolo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYou're hiring a full-time Graphic Designer, and I'd like to be considered for the role.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen). I design ad and social visuals, product imagery, motion graphics and 3D, working in Adobe, Premiere and After Effects.\nTwo pieces close to this kind of work:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept) (a concept identity and packaging I designed)\nIn the first weeks I'd learn your brand guidelines, set up reusable templates for your main formats and then deliver new pieces on a steady, predictable schedule.\nI'm happy to do a short test task so you can see how I work before you decide.\nIs the position fully remote, and which formats will the designer mainly work on: social media, ads, print or web?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 218,
-          "salida": 1364,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.029125400000000003,
-        "generada": "2026-11-20T11:47:28.041Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
       }
     },
     {
       "id": "372307",
       "tipo": "FULLTIME",
-      "titulo": "Graphic Designer)",
+      "titulo": "Graphic Designer",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372307/Graphic-Designer)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372307/Graphic-Designer",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -853,34 +479,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "espera",
-        "motivo": "El diseño gráfico encaja, pero la oferta no tiene descripción y no dice si es remota ni qué pide.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou're hiring a graphic designer, and I'd like to be the person who turns your briefs into clean, consistent visuals across every format you use.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen). I design ads, social content, product images and Amazon listing/A+ content, and I also do motion graphics and video editing.\nThe two pieces closest to day-to-day graphic work:\nhttps://www.behance.net/gallery/251447375/Premium-Amazon-Listing-Design-for-Living-Logic\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I'd start: learn your brand guidelines, deliver a first set of pieces in your real formats, then build reusable templates so the team can move faster. I work with Adobe and Figma, and I'm happy to do a test task.\nWhat kind of work would take most of the designer's time: ads, social media, packaging or web?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "La oferta no tiene descripción: ¿puedes pegarme el texto completo y confirmar si es remota?",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 218,
-          "salida": 1585,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0335454,
-        "generada": "2026-11-20T11:48:11.225Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «espera»)"
       }
     },
     {
       "id": "372305",
       "tipo": "FULLTIME",
-      "titulo": "Junior Graphic Designer)",
+      "titulo": "Junior Graphic Designer",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372305/Junior-Graphic-Designer)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372305/Junior-Graphic-Designer",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -891,34 +500,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "dudosa",
-        "motivo": "El diseño gráfico encaja, pero la oferta no tiene descripción y no dice si es remota; se envía con una carta corta que lo pregunta.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nFor your Junior Graphic Designer role, I'd like to help your team turn briefs into clean, consistent visuals: social posts, ad layouts, banners and brand materials.\nI'm Leo Gómez, creative director at LeoVisual.nl in Amsterdam, working in graphic design, motion graphics and 3D with Adobe, Premiere and After Effects.\nA recent campaign I directed and designed:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nAnd a concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nI'm an EU citizen, and I'm happy to do a short test task so you can see how I work with your brand.\nIs the role remote, and which formats would the designer handle most: social, ads or print?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 221,
-          "salida": 1226,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.026377400000000002,
-        "generada": "2026-11-20T11:48:57.188Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
       }
     },
     {
       "id": "372303",
       "tipo": "FULLTIME",
-      "titulo": "Creative Marketing Lead (Senior Graphic Designer))",
+      "titulo": "Creative Marketing Lead (Senior Graphic Designer)",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372303/Creative-Marketing-Lead-(Senior-Graphic-Designer))",
+      "enlace": "https://www.behance.net/joblist/fulltime/372303/Creative-Marketing-Lead-(Senior-Graphic-Designer)",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -929,34 +521,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "dudosa",
-        "motivo": "El puesto (diseño gráfico y liderazgo creativo de marketing) encaja, pero la oferta no tiene descripción y no dice si es remoto, así que en la carta se pregunta.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYou are looking for a Creative Marketing Lead who can also work hands-on as a senior graphic designer, someone who shapes the campaign ideas and makes the ad and social visuals feel like one brand.\n\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen). I take campaigns from the idea to the final piece: concept, graphic design, motion graphics, video editing and sound. One recent campaign:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\n\nIn this role I would start by reviewing your current brand and channels. Then I would set a clear visual system for ads and social media and produce the pieces every week together with the team. I'm happy to do a short test task first.\n\nIs the role remote, and which channels would the Creative Marketing Lead take care of first?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 232,
-          "salida": 1413,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0301614,
-        "generada": "2026-11-20T11:50:00.214Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
       }
     },
     {
       "id": "372301",
       "tipo": "FULLTIME",
-      "titulo": "Graphic Designer)",
+      "titulo": "Graphic Designer",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372301/Graphic-Designer)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372301/Graphic-Designer",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -967,34 +542,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "enviar",
-        "motivo": "Diseño gráfico encaja, pero la oferta no tiene descripción ni dice si es remota: en la carta se pregunta.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nI saw you're looking for a Graphic Designer, and I'd like to apply for the role.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen). I work on graphic design for ads and social media, branding, product visuals and motion graphics, using Adobe tools, Premiere and After Effects.\nA concept identity I designed, with logo, packaging and labels:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nAnd a product campaign:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nIn the first weeks I'd learn your brand guidelines, build reusable templates for your main formats and start delivering pieces quickly. I'm happy to do a short test task.\nIs the role fully remote, and which formats would you need most: social, ads, print or web?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 218,
-          "salida": 1639,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0346254,
-        "generada": "2026-11-20T11:50:35.273Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
       }
     },
     {
       "id": "368159",
       "tipo": "FULLTIME",
-      "titulo": "Graphic Designer)",
+      "titulo": "Graphic Designer",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/368159/Graphic-Designer)",
+      "enlace": "https://www.behance.net/joblist/fulltime/368159/Graphic-Designer",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
@@ -1005,34 +563,17 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "dudosa",
-        "motivo": "El diseño gráfico encaja, pero la oferta no tiene descripción ni dice si es remota; se envía con una carta general y se pregunta por la modalidad.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou're looking for a graphic designer, and I'd like to apply for the role. I'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam and an EU citizen.\nI design ads, social media content, product images and Amazon listings, and I also work on motion graphics, video editing and 3D.\nA campaign that shows this kind of work:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nAnd a concept identity I designed, from logo to packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nI'm happy to do a short test task with your brand so you can see how I work.\nWhich formats will the role focus on most, and is the position remote?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 218,
-          "salida": 1223,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.026305400000000003,
-        "generada": "2026-11-20T11:53:04.061Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
       }
     },
     {
       "id": "372481",
       "tipo": "FULLTIME",
-      "titulo": "Video Motion Graphics)",
+      "titulo": "Video Motion Graphics",
       "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372481/Video-Motion-Graphics)",
+      "enlace": "https://www.behance.net/joblist/fulltime/372481/Video-Motion-Graphics",
       "encaje": "alto",
       "ubicacion": "",
       "empresa": "",
@@ -1043,26 +584,9 @@
       "descripcion": "",
       "vista": "2026-11-20T11:54:39.214Z",
       "carta": {
-        "decision": "enviar",
-        "motivo": "Motion graphics de vídeo es uno de sus servicios principales; no hay descripción, así que la carta pregunta por el remoto y el alcance.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYou're looking for someone to handle video motion graphics, and I care most about motion that carries the message instead of only decorating it.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen) and working remotely.\nHere is the project closest to this role:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nDay to day I'd work in After Effects and Premiere: brief first, then style frames, animation, edit and sound, delivered in every format your channels need.\nI'm also happy to do a short test piece so you can see how I work before you decide.\nIs the role fully remote, and what will the motion work be for first: ads, social content, product videos or explainers?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 220,
-          "salida": 1146,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0247734,
-        "generada": "2026-11-20T11:54:38.431Z"
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true,
+        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
       }
     },
     {
