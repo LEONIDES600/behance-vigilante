@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-20T21:04:16.984Z",
+  "actualizado": "2026-11-20T22:05:11.975Z",
   "ofertas": [
+    {
+      "id": "573259",
+      "tipo": "FREELANCE",
+      "titulo": "Double-Sided Theatrical Backdrop Illustrations for Tiny Troupers Theater",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573259/Double-Sided-Theatrical-Backdrop-Illustrations-for-Tiny-Troupers-Theater",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Jacob Cramer",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I run Tiny Troupers Theater, a Greater Boston traveling children’s theater program offering interactive performances for ages 2–5, and I need two original coordinated backdrop illustrations completed in approximately 2.5 weeks, ideally by December 8, 2026. My total budget is $300–$500. The illustrations will create an Enchanted Meadow and a Dreamy Nighttime setting in a cohesive painterly children’s picture-book style that feels warm, whimsical, playful, and inviting without becoming overly cartoonish or visually busy. The backdrops will support performances where children help shape stories through imagination, creativity, and early learning.\n– Two original, coordinated double-sided theatrical backdrop illustrations: an Enchanted Meadow and a Dreamy Nighttime landscape, each approximately 79 in W × 87 in H\n– Initial concept sketches and up to two rounds of revisions\n– High-resolution, print-ready final files in PDF, JPG, AI, or PNG format\n– Commercial usage rights for live performances, photography, website, and social media\nCohesive painterly children’s picture-book aesthetic: warm, whimsical, playful, and inviting. The Enchanted Meadow should feature lush greenery, whimsical trees, and colorful flowers; the Dreamy Nighttime scene should include a deep purple sky, glowing yellow stars, and a sense of wonder.\nNo characters, text, or reserved text space should appear in either illustration. Printer templates and production specifications will be provided before final producti",
+      "vista": "2026-11-20T22:05:11.975Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Ilustración infantil pintoresca que Leo puede hacer con IA, pero sin proyecto de ilustración en el portfolio; se ofrece un boceto gratis.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Jacob,\nAn Enchanted Meadow and a Dreamy Nighttime sky with glowing yellow stars that feel warm and painterly, never busy, for ages 2–5 is a lovely brief.\nI'm Leo, creative director at LeoVisual.nl. Before you pay anything, I'll send you a quick concept sketch of the meadow in your picture-book style.\nHow I'd do it: AI-assisted painterly concepts from your references, then refining both scenes in Adobe so they share one palette and light, with no characters or text, and final print-ready files at 79 × 87 in following your printer's template.\nPrice: 500 USD, 50% upfront, 2 rounds of revisions, delivery by December 8 (about 2.5 weeks).\nShould both scenes share the same horizon line, so the switch feels like the same place from day to night?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "2,5 semanas (antes del 8 de diciembre)",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 918,
+          "salida": 1900,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.066007,
+        "generada": "2026-11-20T22:05:10.740Z"
+      }
+    },
     {
       "id": "573243",
       "tipo": "FREELANCE",
@@ -3337,47 +3376,6 @@
         },
         "costeUSD": 0.047623,
         "generada": "2026-11-16T21:01:29.626Z"
-      }
-    },
-    {
-      "id": "570281",
-      "tipo": "FREELANCE",
-      "titulo": "Owner Story Video Advertisement Creation",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570281/Owner-Story-Video-Advertisement-Creation",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "VepoClean",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Looking for an experienced AI video creator/editor to produce highly realistic, cinematic videos for **VepoClean Franchising**, a U.S.-based company expanding nationally through franchising.\nOur goal is to promote **franchise business ownership, not cleaning services**, through compelling founder storytelling that highlights 12+ years of experience, technology, automation, and centralized business support.\nWe have extensive professional footage and founder images to combine with photorealistic AI-generated scenes using Higgsfield and other tools.\n**Our top priority is maximum realism:** the videos must look professionally filmed, with seamless integration of real and AI-generated footage.\nWe will begin with a **paid 35-second Meta ad pilot**, followed by longer website, landing-page, and additional advertising videos if successful.",
-      "vista": "2026-11-16T20:38:56.874Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Anuncio cinematográfico con IA mezclado con metraje real: encaja de lleno con ORBE y SILENCIO.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou need a 35-second founder story that sells franchise ownership, not cleaning, and where nobody can tell which shots are real and which are AI.\nI made ORBE and SILENCIO, two cinematic ads created with AI where I handled the idea, generation, editing and sound, so the look and pacing of a filmed spot is what I work toward.\nHow I would do the pilot:\n1. Review your footage and founder images and write a short script around the 12+ years, technology, automation and central support.\n2. Generate the AI scenes (I mainly use Kling and Seedance) matched to your footage in lighting, lens feel and colour, so the cuts stay seamless.\n3. Edit in Premiere, finish with colour, motion and sound design in After Effects and Adobe tools, in vertical and square formats for Meta.\nFor the 35-second pilot: 500 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nDo you already have a voiceover of the founder, or should the story be carried by on-screen text and music?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [
-          "menciona años"
-        ],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 606,
-          "salida": 1030,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.038019,
-        "generada": "2026-11-16T20:38:56.104Z"
       }
     }
   ]
