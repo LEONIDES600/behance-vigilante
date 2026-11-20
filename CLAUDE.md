@@ -214,6 +214,13 @@ lo conviertas en un aviso por pasada: sería spam cada 3 minutos.
     pausa de la sonda, aviso enviado).
   - Carta: enlace de SESTEO (identidad + packaging de bebida, «concept project») para branding,
     identidad, packaging y etiquetas.
+- v3.5 (20/11/2026): **sin descripción, sin carta**. Desde el 20/11 ~11:54 UTC las listas
+  `sort=recent` vuelven a llegar a ratos por jina, pero las fichas siguen en 403: las ofertas
+  entran solo con el título. `redactarCarta` ya no llama a la API si una oferta de Behance no
+  trae descripción: devuelve `{ error, sinDescripcion: true }` (contador `cartasSinDescripcion`)
+  y la tarea de envío escribe la carta al abrir la ficha real en el navegador de Leo. Telegram
+  lo dice en una línea y no pega la propuesta de plantilla. `extractBehanceJobs` quita los «)»
+  sobrantes del slug (markdown de jina: `[Título](…/slug)`), que salían en título y enlace.
 - `SOURCES` — plataformas vigiladas (añadir/quitar aquí).
 - `SEARCHES` — términos de búsqueda de Behance (`''` = portada del joblist).
 - `INCLUDE` / `EXCLUDE` — palabras clave para el filtro de relevancia, comunes a

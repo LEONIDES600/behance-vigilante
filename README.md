@@ -5,6 +5,14 @@ cada ~5 min), puntúa si cada oferta nueva encaja con los servicios de Leo y la
 envía a Telegram con una propuesta honesta lista para copiar. Funciona aunque el
 PC esté apagado.
 
+## Novedades de la v3.5 (20/11/2026): sin descripción, sin carta
+
+Cuando una oferta de Behance llega solo con el título (las listas pasan por jina, pero la
+ficha sigue bloqueada para GitHub), el bot ya no pide la carta a la API: saldría genérica y
+sin precio. La oferta va a la cola con la carta marcada «sin descripción» y la tarea de envío
+la escribe al abrir la ficha real en el navegador de Leo. También se quita el «)» que se
+colaba al final de algunos títulos y enlaces.
+
 ## Novedades de la v3.4 (19/11/2026): Behance a través del navegador de Leo
 - Desde el 17/11 Behance bloquea (403) a los servidores de GitHub. Ahora Behance lo
   lee el **navegador de Leo**: una pestaña (el «vigía», que arranca la tarea de las

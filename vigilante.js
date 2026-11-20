@@ -28,7 +28,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const VERSION = 'v3.4 · 19/11/2026';
+const VERSION = 'v3.5 · 20/11/2026';
 
 // ───────────────────────────── Configuración ─────────────────────────────
 // Behance: dos listas ordenadas por «lo más reciente» (sort=recent). Una oferta
@@ -539,7 +539,11 @@ function extractBehanceJobs(html) {
   const re = /\/joblist\/(freelance|fulltime|contract)\/(\d+)\/([A-Za-z0-9()%-]+)/g;
   let m;
   while ((m = re.exec(html))) {
-    const [, type, id, slug] = m;
+    const [, type, id] = m;
+    let slug = m[3];
+    // Las listas que llegan como markdown (jina: «[Título](…/joblist/…/slug)») dejan
+    // pegado el «)» del enlace: se quitan los «)» que no cierran ningún «(» del slug.
+    while (slug.endsWith(')') && (slug.match(/\)/g) || []).length > (slug.match(/\(/g) || []).length) slug = slug.slice(0, -1);
     if (jobs.has(id)) continue;
     jobs.set(id, {
       id: `behance:${id}`, sourceKey: 'behance', source: 'Behance', type: type.toUpperCase(), tipoBase: type.toUpperCase(),
@@ -1083,6 +1087,8 @@ function mensajeTelegram(job, enc, lineaRevision) {
     if (c.pregunta) partes.push(`❓ ${esc(c.pregunta)}`);
     if (c.avisos && c.avisos.length) partes.push(`⚠️ Revisar: ${esc(c.avisos.join(', '))}`);
     if (c.texto) partes.push('', '— Carta lista —', esc(c.texto));
+  } else if (c && c.sinDescripcion) {
+    partes.push('', '📝 Llegó sin descripción: la carta se escribe al abrir la ficha en tu navegador.');
   } else if (enc.nivel === 'alto' || enc.nivel === 'medio') {
     if (c && c.error) partes.push('', `⚠️ No se pudo escribir la carta con la API (${esc(c.error.slice(0, 120))}).`);
     const lang = idioma(`${job.title} ${job.description || ''}`);
@@ -1509,6 +1515,12 @@ async function llamarAnthropic(cuerpo) {
 async function redactarCarta(job, state) {
   if (!process.env.ANTHROPIC_API_KEY) return null;
   if (!CARTA_FUENTES.includes(job.sourceKey) || job.gated) return null;
+  // v3.5: sin descripción (Behance no deja leer la ficha desde GitHub y la oferta
+  // llega solo con el título de la lista) la API escribiría una carta a ciegas, sin
+  // precio. No se gasta: la tarea de envío abre la ficha real y escribe la carta.
+  if (job.sourceKey === 'behance' && !String(job.description || '').trim()) {
+    return { error: 'sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real', sinDescripcion: true };
+  }
   const ahora = Date.now();
   state.cartas = (state.cartas || []).filter((t) => t > ahora - 24 * 3600000);
   if (state.cartas.length >= CARTA_MAX_POR_DIA || state.cartas.filter((t) => t > ahora - 3600000).length >= CARTA_MAX_POR_HORA) {
@@ -1715,7 +1727,7 @@ function saveState(state) {
 
 function contar(state, clave) {
   const hoy = new Date().toISOString().slice(0, 10);
-  if (!state.stats || state.stats.fecha !== hoy) state.stats = { fecha: hoy, nuevas: 0, alto: 0, medio: 0, bajo: 0, no: 0, enCola: 0, enMundo: 0, cartas: 0, cartasError: 0, costeCartasUSD: 0, filtroTrampa: 0, filtroUbicacion: 0, filtroSinIA: 0 };
+  if (!state.stats || state.stats.fecha !== hoy) state.stats = { fecha: hoy, nuevas: 0, alto: 0, medio: 0, bajo: 0, no: 0, enCola: 0, enMundo: 0, cartas: 0, cartasError: 0, cartasSinDescripcion: 0, costeCartasUSD: 0, filtroTrampa: 0, filtroUbicacion: 0, filtroSinIA: 0 };
   state.stats[clave] = (state.stats[clave] || 0) + 1;
 }
 
@@ -1944,7 +1956,7 @@ async function main() {
       const carta = filtro ? null : await redactarCarta(job, state);
       if (carta) {
         job.carta = carta;
-        contar(state, carta.error ? 'cartasError' : 'cartas');
+        contar(state, carta.sinDescripcion ? 'cartasSinDescripcion' : carta.error ? 'cartasError' : 'cartas');
         if (carta.costeUSD) state.stats.costeCartasUSD = Math.round(((state.stats.costeCartasUSD || 0) + carta.costeUSD) * 1e4) / 1e4;
       }
       paraMundo.push({ job, enc });
@@ -1962,7 +1974,7 @@ async function main() {
       const carta = await redactarCarta(job, state);
       if (carta) {
         job.carta = carta;
-        contar(state, carta.error ? 'cartasError' : 'cartas');
+        contar(state, carta.sinDescripcion ? 'cartasSinDescripcion' : carta.error ? 'cartasError' : 'cartas');
         if (carta.costeUSD) state.stats.costeCartasUSD = Math.round(((state.stats.costeCartasUSD || 0) + carta.costeUSD) * 1e4) / 1e4;
         console.log(`  Carta API: ${carta.error ? 'ERROR ' + carta.error : `${carta.decision}${carta.precioUSD != null ? ' ' + carta.precioUSD + ' USD' : ''} (${carta.costeUSD != null ? carta.costeUSD.toFixed(4) : '?'} USD)`}`);
       }
