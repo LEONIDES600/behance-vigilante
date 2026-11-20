@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-20T22:05:11.975Z",
+  "actualizado": "2026-11-20T22:17:02.421Z",
   "ofertas": [
+    {
+      "id": "573263",
+      "tipo": "FREELANCE",
+      "titulo": "Graphic designer for a multi-page holiday planning guide for couples ",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573263/Graphic-designer-for-a-multi-page-holiday-planning-guide-for-couples-",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Vesta Method",
+      "contacto": "Sarah Blodgett",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "This is for a small family-systems company. Our first paid product, \"Holidays, on purpose,\" is a multi-page guide that two partners work through together to plan the holiday season: how it should feel, which big days and traditions make the cut, the budget, who owns what, and when they'll check in. It's part guide, part workbook, and people print it or fill it in on screen. The copy is written and the structure is set. We need a designer to turn our working Canva draft into something polished and premium.\nAbout 9 designed letter-size pages, built from our existing Canva draft and copy\n- Clean fill-in elements: tables, checkboxes, \"circle one\" option pills, write-in lines and side-by-side partner worksheets\n- A consistent page system (section headers, callout boxes, tip boxes, footers) we can reuse for future guides\n- An editable Canva file set up so we can update copy without breaking the layout (no locked or tangled grouped elements)\n- A print-ready PDF and a screen-friendly PDF\nYou've designed multi-page workbooks, planners or guides with fill-in layouts, not just social graphics, and you work natively in Canva. \nWhen you apply, please send:\n- 2–3 examples of multi-page workbook, planner or guide layouts\n- Your timeline for the scope above (we'd like to move quickly)\nWarm, calm and grown-up, like a well-designed planner rather than a Pinterest printable. \nLots of content should still feel uncluttered. It has to work for any holiday (Christmas, Hanukkah and more), so no wint",
+      "vista": "2026-11-20T22:17:02.420Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Leo puede maquetar un cuaderno en Canva, pero piden ejemplos de cuadernos de varias páginas que no hay en el portfolio; se ofrecen 2 páginas de muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Sarah,\n\n\"Holidays, on purpose\" needs side-by-side partner worksheets and \"circle one\" pills that stay calm and uncluttered across 9 pages, with no holiday imagery.\nBefore you pay anything, I'll rebuild 2 pages from your Canva draft in your teal, rust and cream palette so you can judge the direction.\nMy plan: set the reusable page system first (section headers, callout and tip boxes, footers), then lay out the fill-in pages, keep the Canva file clean and editable with no tangled groups, and export a print-ready PDF and a screen PDF.\n150 USD fixed, 50% upfront, 2 rounds of changes, first 2 pages by 22 November and the full guide by 25 November.\nWhich page in the current draft feels most crowded right now?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 150,
+        "anticipoPct": 50,
+        "plazo": "primeras 2 páginas el 22 de noviembre, guía completa el 25 de noviembre",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1121,
+          "salida": 1635,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.061519,
+        "generada": "2026-11-20T22:17:01.270Z"
+      }
+    },
     {
       "id": "573259",
       "tipo": "FREELANCE",
@@ -3337,45 +3376,6 @@
         },
         "costeUSD": 0.0323318,
         "generada": "2026-11-16T21:48:48.744Z"
-      }
-    },
-    {
-      "id": "570313",
-      "tipo": "FREELANCE",
-      "titulo": "Branding Completo Para Dos Empresas De Marketing",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570313/Branding-Completo-Para-Dos-Empresas-De-Marketing",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Busco un diseñador que desarrolle el branding de mis dos emprendimientos: una empresa de marketing para marcas en general y otra especializada en restaurantes. Necesito el logotipo, la identidad visual, el manual de marca y la papelería para ambas marcas.",
-      "vista": "2026-11-16T21:01:30.447Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es branding completo: Leo puede hacerlo, pero no tiene una pieza igual en el portfolio, así que la carta lo dice con honestidad y ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "es",
-        "carga": "alta",
-        "texto": "¡Hola!\nLanzar a la vez dos marcas, una de marketing para todo tipo de marcas y otra para restaurantes, pide dos identidades con personalidad propia que se vean del mismo nivel.\nTe soy sincero: todavía no tengo en mi portfolio un branding completo con manual de marca. Sí tengo diseño gráfico y dirección visual. Para una marca de hogar que vende en Amazon en varios países de Europa hice muchas imágenes y vídeos de producto, contenido A+ y la web, todo con la misma línea visual. También hice los anuncios cinematográficos con IA ORBE y SILENCIO.\nLo haría así:\n1) Un cuestionario breve sobre el público, el tono y la competencia de cada marca.\n2) Dos o tres propuestas de logotipo para cada marca.\n3) Con las elegidas, la paleta, las tipografías y los elementos gráficos.\n4) El manual de marca y la papelería de las dos marcas.\nSi quieres, antes de empezar te preparo una muestra corta para una de las dos y así ves el enfoque.\nEl precio para las dos marcas es de 2500 USD, con un 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿Ya tienes los nombres de las dos marcas y alguna referencia visual que te guste?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 442,
-          "salida": 1543,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.047623,
-        "generada": "2026-11-16T21:01:29.626Z"
       }
     }
   ]
