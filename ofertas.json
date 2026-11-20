@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-20T19:13:44.305Z",
+  "actualizado": "2026-11-20T19:34:45.953Z",
   "ofertas": [
+    {
+      "id": "573205",
+      "tipo": "FREELANCE",
+      "titulo": "Illustrazione per Inviti di Compleanno a Tema Harry Potter e LEGO",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573205/Illustrazione-per-Inviti-di-Compleanno-a-Tema-Harry-Potter-e-LEGO",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "ELENA ZABOLOTNYA",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Vorrei un’illustrazione per i biglietti della festa di compleanno di mio figlio, che compie 5 anni. Il design dovrà combinare il tema Harry Potter con lo stile LEGO, in modo allegro e adatto a una festa per bambini.\n– Illustrazione originale a tema Harry Potter e LEGO per gli inviti di compleanno\n– File digitale ad alta risoluzione pronto per la stampa dei biglietti\nGiocoso, colorato e adatto ai bambini, con riferimenti visivi a Harry Potter e LEGO.\nLa festa è per il quinto compleanno del figlio del committente.",
+      "vista": "2026-11-20T19:34:45.953Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es una ilustración suelta para invitaciones que se puede hacer con IA, pero Leo aún no tiene ningún proyecto de ilustración; el presupuesto es aceptable.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi Elena!\nA Harry Potter world in LEGO style for your son's 5th birthday invitations is a lovely idea: bright colours, brick characters, the castle, owls and wands.\nI'm Leo Gómez, creative director at LeoVisual.nl. I work with AI image tools and then finish the design myself.\nBefore you pay anything, I'll send you one quick style direction for the invitation scene.\nHow I'd do it: choose the scene with you, create and refine the illustration, leave clean space for the party details, and deliver a high-resolution print-ready file.\nPrice: 250 USD, 50% upfront, delivery in 2–5 days, 2 rounds of changes.\nWould you like your son's name and age to appear inside the illustration?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "2–5 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 628,
+          "salida": 1305,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.052947,
+        "generada": "2026-11-20T19:34:44.655Z"
+      }
+    },
     {
       "id": "573191",
       "tipo": "FREELANCE",
@@ -3339,45 +3378,6 @@
         },
         "costeUSD": 0.040527,
         "generada": "2026-11-16T19:32:20.919Z"
-      }
-    },
-    {
-      "id": "570147",
-      "tipo": "FREELANCE",
-      "titulo": "Launch Design Support for a New Home Goods Brand",
-      "presupuesto": "5000–10.000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570147/Launch-Design-Support-for-a-New-Home-Goods-Brand",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Follow the link to accept offer",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m launching a new home goods brand and need freelance support across brand identity, packaging, website design, copywriting, and visual content. You can take on an individual task based on your specialty, with an expected timeline of 4–6 weeks.",
-      "vista": "2026-11-16T19:26:58.816Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Marca nueva de hogar que pide web y contenido visual, igual que el trabajo de Leo para una marca de hogar; branding y packaging solo como opción con muestra.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nA new home goods brand needs a launch where the website and the product visuals look like the same brand from day one.\nI've worked for a home goods brand that sells in several European countries (under NDA). For them I made many product images and videos, A+ content and their website. I also build 3D scroll websites in code (LUMEN, FORJA and MORVAIN, with three.js + GSAP).\nI'd take the website design and the visual content:\n1) A short call to agree on the brand direction and the key products.\n2) Homepage and main pages designed and built.\n3) AI product images and short videos for the site and social media.\n4) Final adjustments before launch.\nI don't have a finished brand identity or packaging piece to show, so if you'd like help there too, I can do a short sample first.\nPrice: 10,000 USD, 50% upfront. First delivery in 7–10 days, within your 4–6 week timeline, with 2 rounds of changes.\nWhich products are you launching first, and do you already have a logo and product photos?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 10000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 427,
-          "salida": 1416,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.045023,
-        "generada": "2026-11-16T19:26:43.824Z"
       }
     }
   ]
