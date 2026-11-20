@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-20T20:54:16.548Z",
+  "actualizado": "2026-11-20T22:57:33.456Z",
   "ofertas": [
+    {
+      "id": "remotejobsone/jobs/veterans-intelligence-expert-remote-worldwide",
+      "tipo": "CONTRACTOR",
+      "titulo": "Veterans Intelligence Expert – Remote (Worldwide)",
+      "presupuesto": "50–100 USD/h",
+      "enlace": "https://himalayas.app/companies/remotejobsone/jobs/veterans-intelligence-expert-remote-worldwide?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Canada, France, Germany, India, Netherlands, Singapore, United Kingdom, United States",
+      "empresa": "RemoteJobsOne",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "IMPORTANT: after you apply, please check your email. We sendyou a link to complete your application — it is not considered until that laststep is done. If you do not see it, check your spam folder.\n This is a fully remote position , open to candidates based in 55 countries, including United Kingdom, United States, Canada, Germany, India, France, Netherlands, Singapore.\n Pay: $50–$100/hr\n Role Title: Veterans Intelligence Expert\n Role Type: Contractor\n Location: Remote\n We are engaging U.S. military veterans with intelligence backgrounds to contribute to a high-impact customer project focused on evaluating intelligence analysis, operational reasoning, and military decision-making. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how mo",
+      "vista": "2026-11-20T22:57:33.456Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden veteranos del ejército de EE. UU. con experiencia en inteligencia militar para evaluar IA: es una especialidad que Leo no tiene y no encaja con sus servicios.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1537,
+          "salida": 308,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.036643,
+        "generada": "2026-11-20T22:57:32.523Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "remotejobsone/jobs/ui-ux-designer-remote-worldwide",
       "tipo": "FULL_TIME",
@@ -3948,46 +3988,6 @@
         },
         "costeUSD": 0.029303,
         "generada": "2026-11-16T13:17:25.557Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "xperteez-technology/jobs/graphic-and-editorial-design-expert-remote",
-      "tipo": "CONTRACTOR",
-      "titulo": "Graphic and Editorial Design Expert, Remote",
-      "presupuesto": "50–105 USD/h",
-      "enlace": "https://himalayas.app/companies/xperteez-technology/jobs/graphic-and-editorial-design-expert-remote?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Xperteez Technology",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Role Title: Graphic and Editorial Design Expert\n Role Type: Contract\n Location: Remote\n Opportunity Snapshot\n Location: Fully remote, worldwide\n You’ll need: Professional experience designing for print, web or publications for a company, studio, publisher or client\n Your tasks: Review designs and briefs, judge layout, readability and brief match, and explain your decisions in writing\n You’ll review graphic and editorial design work and judge it: what works, what doesn’t, and why. This is a good fit if you work as a graphic designer, editorial designer, layout designer or art director and make decisions about how a page, a publication or a brand piece looks and reads.\n Scope of Work\n Look at designs (posters, covers, page layouts, brand pieces) and judge which one is stronger for a given br",
-      "vista": "2026-11-16T13:17:44.534Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es un trabajo remoto y bien pagado de evaluar diseños, y Leo hace diseño gráfico para clientes, pero en su portfolio no hay diseño editorial ni de publicaciones.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYou need people who can look at a poster, cover or layout, check it against the brief and explain clearly in writing why it works or doesn't.\nI run LeoVisual.nl, a small AI-driven creative studio in Amsterdam. I do graphic design for paying clients and work from real briefs, with revisions and production files for delivery.\nFor example, I worked with a home brand that sells on Amazon in several European countries (under NDA). For them I designed many listing images and A+ content, where hierarchy, type, readability and fit with the brand style matter in every piece.\nI also build 3D scroll websites in code (LUMEN, FORJA, MORVAIN), so I'm used to judging spacing, type choices and how text and images work together.\nI want to be honest: my portfolio is focused on ads, social media, product and web. I don't have editorial or publication layouts to show. I use Adobe tools and Figma in my daily work.\nI'm happy to do a test review of a few designs so you can see how I explain my decisions in written English. The posted rate works for me.\nWould the work be split into fixed batches of reviews, or is it ongoing hourly work?\n\nbehance.net/leostudiocreative · leovisual.nl\n\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 779,
-          "salida": 1414,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0319958,
-        "generada": "2026-11-16T13:17:42.535Z"
       },
       "fuente": "himalayas"
     }
