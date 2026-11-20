@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-20T23:40:45.684Z",
+  "actualizado": "2026-11-20T23:52:11.099Z",
   "ofertas": [
+    {
+      "id": "573281",
+      "tipo": "FREELANCE",
+      "titulo": "Freelance Infographic & Explainer Designer",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573281/Freelance-Infographic-Explainer-Designer",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "500 Designs",
+      "contacto": "Valentina Buitrago",
+      "solicitantes": 2,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "⚠️PLEASE READ THE WHOLE INFORMATION TO KNOW HOW TO APPLY⚠️\n500 Designs is looking for experienced freelance designers to support an international design project focused on Infographic & Explainer assets.\nWe're especially interested in designers with strong experience in information design, data visualization, diagrams, visual explanations, and structured visual communication.\nHow to Apply\nAll candidates must submit their applications through the following link:\nhttps://sensa-talent-sync.base44.app/?invite=SL209\nImportant: Applications that do not meet the required qualifications, including English proficiency and relevant portfolio experience, will not be considered. Applications must be submitted through the designated link to be reviewed.\nTypes of Work\nYou may be asked to design assets such as:\n-Data-driven infographics and visual reports\n-Educational and informational explainers\n-Process diagrams and workflow visualizations\n-Timelines and step-by-step visual guides\n-Charts, statistics graphics, and data visualizations\n-Comparison graphics and structured information layouts\n-Scientific, technical, or business-related visual explanations\n-Concept illustrations that simplify complex topics\nYou do not need experience with every asset type. We're looking for designers with strong transferable skills in simplifying complex concepts, organizing information accurately, and communicating ideas visually.\nWhat We're Looking For\n-Strong information hierarchy, layout, and visual storyt",
+      "vista": "2026-11-20T23:52:11.099Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Obliga a solicitar a través de un enlace externo (base44.app), lo que apunta a una trampa, y además pide portfolio de infografías que Leo no tiene.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1459,
+          "salida": 440,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.038971,
+        "generada": "2026-11-20T23:52:10.133Z"
+      }
+    },
     {
       "id": "573277",
       "tipo": "FREELANCE",
@@ -3337,45 +3376,6 @@
         },
         "costeUSD": 0.0282998,
         "generada": "2026-11-16T21:48:21.468Z"
-      }
-    },
-    {
-      "id": "570355",
-      "tipo": "FREELANCE",
-      "titulo": "Gaming And Card Game Channel Visual Assets",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570355/Gaming-And-Card-Game-Channel-Visual-Assets",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Cerco un designer per creare un avatar di qualità, immagini per le storie in evidenza di Instagram, una copertina YouTube e due transizioni animate per il mio canale dedicato a gaming e card game.",
-      "vista": "2026-11-16T21:48:49.439Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Encaja: diseño para redes y motion graphics para un canal de gaming, remoto y con buen presupuesto.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi! (I'm replying in English, I hope that works for you.)\nYour gaming and card game channel needs one look that works everywhere: an avatar people recognise, Instagram highlight covers, a YouTube banner and two animated transitions that match.\nI don't have a gaming channel pack in my portfolio yet. What I do have is related work: ORBE and SILENCIO, cinematic ads I made with AI (idea, generation, editing and sound), and a lot of images and videos for a home brand selling on Amazon in several European countries.\nHow I would do it:\n1. A short style direction (colours, card and gaming references, type) for you to approve first.\n2. The avatar, then highlight covers and the YouTube banner in the same style, using AI image tools plus Adobe for the final design.\n3. Two transitions in After Effects, exported ready for your editor.\nIf it helps, I can make a short free sample first, for example the avatar concept.\nPrice: 1000 USD for the full pack, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nWhich card games do you focus on, and do you already have colours or a logo I should follow?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 424,
-          "salida": 1101,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0243158,
-        "generada": "2026-11-16T21:48:33.777Z"
       }
     }
   ]
