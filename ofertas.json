@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-20T19:02:01.330Z",
+  "actualizado": "2026-11-20T19:13:44.305Z",
   "ofertas": [
+    {
+      "id": "573191",
+      "tipo": "FREELANCE",
+      "titulo": "Artist–Creator at an iPad drawing app",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573191/ArtistCreator-at-an-iPad-drawing-app",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Artworkout",
+      "contacto": "Kayla Wu",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are looking for creator–designers from all over the world.\nwe are an iPad app that teaches drawing in a fun and relaxing way.\n We’re a fast-growing team behind the most popular drawing-learning app in its category, regularly hitting #1 in “Education” on the App Store worldwide. The app teaches drawing on the iPad. Our goal is to become the go-to gamified drawing experience — like Duolingo for languages or Simply Piano/Yousician for music — and we’re moving quickly toward it. We currently have 4 million monthly users. Most lessons are delightful tracing and coloring books, but we also have visualization, proportions, construction, warm-ups, and more.\n Average rating: 4.6 (60k+ reviews).\n Huge popularity on TikTok: hundreds of millions of views across dozens of channels in many countries.\nWe’re looking for people who love drawing and enjoy creating TikTok and social media content.\n Goal: promote our drawing-learning app across social platforms.\nWhat you’ll do:\n— Record 1–2 videos per day using our app (following our simple instructions; we’ll provide examples). Mostly cute cartoon animals, anime, etc.\n — Edit the clips and publish them across several social platforms.\n — Work from anywhere — all you need is an iPad and an Apple Pencil.\nRequirements:\n• Confidence working with social media, understanding trends, and basic video editing\n • Ability to use AI tools — or at least feel comfortable using GPT. Videos should be made in different languages. Preferred: Japanese, Korean,",
+      "vista": "2026-11-20T19:13:44.305Z",
+      "carta": {
+        "decision": "espera",
+        "motivo": "Encaja con contenido para TikTok y edición, pero es obligatorio tener iPad y Apple Pencil, y no sabemos si Leo los tiene.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Kayla,\n\nTurning Artworkout's cute cartoon animal and anime lessons into daily TikTok clips is a fun brief, and one video per day works for me.\nI'm Leo Gómez, creative director at LeoVisual.nl. I edit short-form social video in Premiere and CapCut.\nMy plan: record each drawing on the iPad following your curator's example, cut it around a trend-led hook, then use GPT to adapt captions and on-screen text into German, French and Portuguese.\nI can do your test task this week, before anything is paid.\nRate: 500 USD per month, 50% upfront, 2 rounds of changes per video, first clips in 2–5 days.\nWill I publish on your channels or on accounts I create?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "2–5 días para los primeros vídeos; después, 1 vídeo al día",
+        "pregunta": "¿Tienes iPad y Apple Pencil (obligatorios) y puedes comprometerte a grabar al menos un vídeo al día?",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1075,
+          "salida": 1863,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.065895,
+        "generada": "2026-11-20T19:13:42.467Z"
+      }
+    },
     {
       "id": "573181",
       "tipo": "FREELANCE",
@@ -3339,45 +3378,6 @@
         },
         "costeUSD": 0.045023,
         "generada": "2026-11-16T19:26:43.824Z"
-      }
-    },
-    {
-      "id": "570149",
-      "tipo": "FREELANCE",
-      "titulo": "Creative Support for a New Home Goods Brand Launch",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570149/Creative-Support-for-a-New-Home-Goods-Brand-Launch",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Follow the link to accept offer",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m launching a new home goods brand and need freelance support across brand identity, packaging, website design, copywriting, and visual content. You can take on an individual task based on your specialty, with an expected timeline of 4–6 weeks.",
-      "vista": "2026-11-16T19:26:58.816Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Marca de hogar que acepta una sola tarea: Leo puede encargarse de la web y del contenido visual, y ya ha trabajado con una marca de hogar (bajo NDA).",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA new home goods brand needs a website and visuals that feel consistent from day one, so the launch looks ready and trustworthy.\nI would take the website design and visual content (product images and short videos), because this is where my work is strongest.\nFor a home brand that sells on Amazon in several European countries (under NDA), I made many product images and videos, A+ content and the website.\nI also build 3D scroll websites in code, like LUMEN and FORJA (three.js + GSAP).\nHow I would do it: 1) a short call to define the style and the products, 2) moodboard and homepage design, 3) build the site and create the product images and videos with AI, 4) final adjustments.\nI don't have a finished brand identity or packaging piece to show, so for those I can make a short sample first if you want.\nPrice: 5000 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes, well inside your 4–6 week timeline.\nDo you already have product photos or samples, and which platform do you prefer for the website?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 434,
-          "salida": 1389,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.030115799999999998,
-        "generada": "2026-11-16T19:26:58.066Z"
       }
     }
   ]
