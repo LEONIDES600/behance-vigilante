@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-20T17:52:00.759Z",
+  "actualizado": "2026-11-20T19:02:01.330Z",
   "ofertas": [
+    {
+      "id": "573181",
+      "tipo": "FREELANCE",
+      "titulo": "Orçamento Redesign de Logo - Watto Production",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573181/Orcamento-Redesign-de-Logo-Watto-Production",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Watto Productions",
+      "contacto": "Winim Nacaratto",
+      "solicitantes": 5,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Somos a Watto Productions, um estúdio indie de desenvolvimento de jogos do Brasil. Fomos contemplados pelo edital Sampa Games e estamos estruturando melhor a nossa marca, buscando um redesign para a logo do estúdio.\nPrincipais entregas: Redesign da logo da Watto Productions, com entrega dos arquivos finais abertos e em vetor (camadas devidamente separadas, pois planejamos contratar um motion designer futuramente para animar a marca).\nGostaríamos de entender como funciona o seu processo e a sua base de valores para esse escopo. Podemos enviar um briefing com referências e mais detalhes sobre a nossa visão para a marca assim que iniciarmos a conversa.",
+      "vista": "2026-11-20T19:02:01.330Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Redesign de logo para estudio indie de juegos: encaja con branding pero no hay logo igual en el portfolio, se ofrece muestra previa.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi Winim!\nCongrats on the Sampa Games grant. A logo redesign for Watto Productions that a motion designer will animate later needs clean, well-separated vector layers from day one.\nA concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy process: I study your briefing and references, explore a few directions, refine the one you choose and deliver open vector files (SVG, EPS, PDF) with every element on its own named layer, ready for animation.\nBefore you pay anything, I'll send you one logo direction for Watto Productions.\nPrice: 500 USD, 50% upfront, delivery in 2–5 days after the briefing, with 2 rounds of changes.\nWhich elements of your current logo would you like to keep?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "2–5 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 637,
+          "salida": 1486,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.056603,
+        "generada": "2026-11-20T19:01:59.821Z"
+      }
+    },
     {
       "id": "573163",
       "tipo": "FREELANCE",
@@ -3339,45 +3378,6 @@
         },
         "costeUSD": 0.030115799999999998,
         "generada": "2026-11-16T19:26:58.066Z"
-      }
-    },
-    {
-      "id": "570117",
-      "tipo": "FREELANCE",
-      "titulo": "Conceptual Brand Commercial for ProCirrus Technologies",
-      "presupuesto": "5000–10.000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570117/Conceptual-Brand-Commercial-for-ProCirrus-Technologies",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "ProCirrus Technologies",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We're seeking a creative video producer or motion graphics designer to develop a high-impact, cinematic brand video (90–120 seconds) for ProCirrus Technologies, an integrated IT platform serving professional firms.\nThe concept is \"From Chaos to Calm.\" We want to visually dramatize the stress, confusion, and complexity of traditional IT—multiple vendors, disconnected systems, cybersecurity threats, compliance demands, AI uncertainty, and endless support handoffs—then transform that chaos into simplicity, confidence, and calm.\nThe film culminates in our core message: One Partner. One Platform. One Desktop.\nThis should be an emotionally compelling conceptual commercial, not a conventional corporate explainer or feature presentation. Think of the creative ambition of Apple's iconic 1984 commercial: memorable storytelling that challenges the status quo and introduces a fundamentally different way of thinking.",
-      "vista": "2026-11-16T19:02:47.973Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Anuncio de marca cinematográfico y conceptual, encaja directamente con ORBE y SILENCIO.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nYou need a 90–120 second film that makes the stress of traditional IT feel real, then turns it into calm and lands on \"One Partner. One Platform. One Desktop.\" A story, not an explainer.\nI made ORBE and SILENCIO, two cinematic ads created with AI. In both, I did the idea, the generation, the editing and the sound myself.\nFor ProCirrus I would work like this:\n1. A short concept and script: the chaos (many vendors, disconnected systems, threats, compliance, endless handoffs) and the turn to calm.\n2. A storyboard and style frames for your approval before production.\n3. AI video generation with Kling and Seedance, plus motion graphics in After Effects for the final message.\n4. Edit, sound design and music in Premiere, delivered in the formats you need.\nPrice: 10,000 USD, 50% upfront. Delivery in 7–10 days, with 2 rounds of changes.\nDo you want a voice-over in the film, or should the story work mainly with images, music and sound?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 10000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 669,
-          "salida": 1279,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0288558,
-        "generada": "2026-11-16T19:02:47.014Z"
       }
     }
   ]
