@@ -1,6 +1,44 @@
 {
-  "actualizado": "2026-11-20T11:54:39.214Z",
+  "actualizado": "2026-11-20T12:31:18.426Z",
   "ofertas": [
+    {
+      "id": "372629",
+      "tipo": "FULLTIME",
+      "titulo": "Graphic Designer Video Editor)",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372629/Graphic-Designer-Video-Editor)",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-20T12:31:18.426Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Diseño gráfico y edición de vídeo encajan con sus servicios; la oferta no tiene descripción y no dice si es remota, así que la carta lo pregunta.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nA role that combines graphic design and video editing needs someone who can carry one idea from a static ad to a video edit, so every piece looks like the same brand.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen).\nThe closest example of my work is this campaign:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nFor your team I would design ads and social graphics, edit the videos in Premiere and add motion graphics in After Effects, using one visual system across formats.\nI work in Spanish and English, and I'm happy to do a test task.\nIs this role remote, and which channels and formats would the videos mainly be for?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 223,
+          "salida": 1439,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.054007,
+        "generada": "2026-11-20T12:30:49.874Z"
+      }
+    },
     {
       "id": "558735",
       "tipo": "FREELANCE",
@@ -3817,45 +3855,6 @@
         },
         "costeUSD": 0.010239799999999999,
         "generada": "2026-11-16T17:55:58.289Z"
-      }
-    },
-    {
-      "id": "570037",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Design for an Activity Brand",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570037/Brand-Design-for-an-Activity-Brand",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for an experienced brand designer to refine and elevate the existing visual identity of Just Because, a boutique DIY activity-kit brand.\nThe goal is to make the current branding feel more cohesive, polished, professional and distinctive, while preserving its established personality and creative direction.\nScope of work includes:\n- Refining the existing brand identity and visual system.\n- Developing a consistent set of brand guidelines.\n- Designing branded cards, inserts and printed materials.\n- Creating social media templates for Instagram and other platforms.\n- Designing stickers, labels and other branded assets.\n- Ensuring consistency across packaging, digital and print materials.\nI'm looking for someone with a strong portfolio in branding, packaging and lifestyle or retail brands, with excellent attention to detail and typography.\nThis is an identity refinement project, not a complete rebrand. Existing brand assets and guidelines will be provided.",
-      "vista": "2026-11-16T17:53:48.982Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es branding y packaging, sin pieza igual en el portfolio, y piden mucho por un presupuesto bajo; se envía con carta honesta y una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nRefining Just Because's identity without losing its personality is mostly about tightening the system: type hierarchy, colour use, spacing and a few repeatable layouts that work on cards, labels and Instagram alike.\nTo be upfront, I don't have a dedicated branding or packaging case in my portfolio. My closest work is graphic design for ads and social media, plus listing images, A+ content and a website for a home brand selling across Europe (under NDA), where everything had to stay consistent across many formats.\nHow I would approach it:\n1. Review your current assets and guidelines and list the inconsistencies.\n2. Turn the type, colour and layout rules into a clear, short brand guidelines document.\n3. Apply them to cards, inserts, stickers, labels and editable social media templates.\nIf it helps, I can make a short sample first, for example one insert card and one Instagram template.\nPrice: 250 USD, 50% upfront, delivery in 7-10 days and 2 rounds of revisions.\nWhich pieces feel least consistent with the brand right now, and do you print them yourself or with a specific printer?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 634,
-          "salida": 1354,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0302158,
-        "generada": "2026-11-16T17:53:37.777Z"
       }
     }
   ]
