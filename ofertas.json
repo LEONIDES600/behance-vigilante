@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-20T20:01:45.431Z",
+  "actualizado": "2026-11-20T21:04:16.984Z",
   "ofertas": [
+    {
+      "id": "573243",
+      "tipo": "FREELANCE",
+      "titulo": "Freelance Illustrator / Visual Designer — 2D Animated Storytelling Project",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573243/Freelance-Illustrator-Visual-Designer-2D-Animated-Storytelling-Project",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "1708 Media",
+      "contacto": "Will Sherratt",
+      "solicitantes": 4,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We're a storytelling production company seeking a freelance illustrator/designer to collaborate on an upcoming 2D animated storytelling project.\nOur team will lead the story strategy, scripting, creative direction, and animation. We're looking for a creative partner to help develop an original visual style, design characters and scenes, and create layered illustrations that our in-house animator can bring to life.\nThe goal is approachable, emotionally resonant storytelling with a clean, engaging visual style.\nCreative reference: https://www.youtube.com/watch?v=_GeoR5ZN4UQ\nThis is a stylistic reference only. We're looking to create an original visual approach, not replicate the existing work.\nInitial visual concepts and 2–3 style frames for creative approval\nOriginal character designs, backgrounds, and supporting illustrated assets\nIllustration assets for an approximately 90-second animated narrative\nLayered, animation-ready Adobe Illustrator files (or an agreed compatible format) for our in-house animator\nUp to two rounds of consolidated design revisions\nFinal asset quantities and scene complexity will be established during creative development. Animation and final video editing will be handled by our internal team.\nWe're looking for someone with demonstrated experience in character illustration, editorial illustration, or visual development for motion graphics.\nExperience collaborating with After Effects animators and preparing layered artwork for animation is strongly prefe",
+      "vista": "2026-11-20T21:04:16.984Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Ilustración de personajes para animación 2D: Leo no tiene una pieza igual, pero conoce After Effects; se ofrece un style frame por capas como muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Will,\nA clean, emotionally resonant 90-second story needs characters and scenes your animator can move without fighting the files.\nBefore you pay anything, I'll send you one style frame with a main character, split into named Illustrator layers, ready to open in After Effects.\nMy process: 2–3 style frames for approval, then characters, backgrounds and props, with limbs, eyes and mouths on separate layers.\nAs creative director at LeoVisual.nl I make my own motion graphics in After Effects, so I prepare layers the way an animator needs them.\nPrice: 5000 USD for the full project, 50% upfront, 2 rounds of revisions, delivery in 3–4 weeks.\nWhich emotional tone should the story have: warm and gentle, or more upbeat?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "3–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 951,
+          "salida": 1777,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.063679,
+        "generada": "2026-11-20T21:04:15.697Z"
+      }
+    },
     {
       "id": "372657",
       "tipo": "CONTRACT",
@@ -3339,45 +3378,6 @@
         },
         "costeUSD": 0.038019,
         "generada": "2026-11-16T20:38:56.104Z"
-      }
-    },
-    {
-      "id": "570179",
-      "tipo": "FREELANCE",
-      "titulo": "Logo and Branding Design for a New Smoking Paper Company",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570179/Logo-and-Branding-Design-for-a-New-Smoking-Paper-Company",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Roll the Life",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm launching a new smoking paper brand(we do paper filter tips and tubes) and need a logo designer to create the logo and core branding for the business. The identity should establish a distinctive, cohesive visual foundation for the new brand. Would love if the person has some experience in the cannabis space, but not a requirement.",
-      "vista": "2026-11-16T19:39:48.947Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es logo y branding, que no está en su portfolio, pero se puede hacer con IA y el presupuesto es bueno; la carta lo dice con honestidad.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA new brand of filter tips and tubes needs a logo and identity that stand out on a small product and look the same on every pack, display and post.\nI'm Leo from LeoVisual.nl, an AI creative studio in Amsterdam. To be clear from the start: I don't have a logo project in my portfolio yet, and I haven't worked in the cannabis space.\nWhat I do have: for a home brand that sells on Amazon across Europe (under NDA), I made the listing images, A+ content and website, all with one visual style.\nHere's how I would do it: first a short brief on your audience and tone, then a moodboard, then 3 logo directions. I would use AI to explore ideas quickly and Adobe for the final vector work.\nOnce you choose one, I refine it and build the core kit: logo versions, colour palette, typography, and mockups on your tips and tubes.\nIf it helps you decide, I'm happy to make a short sample direction first.\nPrice: 5000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of changes.\nHow should the brand feel: premium and minimal, or bold and playful?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 453,
-          "salida": 1408,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.044967,
-        "generada": "2026-11-16T19:39:48.209Z"
       }
     }
   ]
