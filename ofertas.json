@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-20T22:17:02.421Z",
+  "actualizado": "2026-11-20T23:40:45.684Z",
   "ofertas": [
+    {
+      "id": "573277",
+      "tipo": "FREELANCE",
+      "titulo": "Freelance Comic & Storyboard Illustrator",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573277/Freelance-Comic-Storyboard-Illustrator",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "500 Designs",
+      "contacto": "Valentina Buitrago",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "⚠️PLEASE READ THE WHOLE INFORMATION TO KNOW HOW TO APPLY⚠️\n500 Designs is looking for experienced freelance illustrators to support an international design project focused on Comic & Storyboard assets.\nWe're especially interested in artists with strong experience in sequential art, comic illustration, storyboarding, character consistency, and visual storytelling.\nHow to Apply\nAll candidates must submit their applications through the following link:\n https://sensa-talent-sync.base44.app/?invite=SL209\nImportant: Applications that do not meet the required qualifications, including English proficiency and relevant portfolio experience, will not be considered. Applications must be submitted through the designated link to be reviewed.\nTypes of Work\nYou may be asked to design assets such as:\n-Comic strips and multi-panel comic pages\n-Storyboards for advertising, animation, or visual concepts\n-Sequential illustrations and visual narratives\n-Character-driven scenes and interactions\n-Expressive poses, actions, and storytelling panels\n-Illustrated sequences with speech bubbles, captions, or dialogue\n-Concept sequences showing camera angles, actions, and transitions\nYou do not need experience with every asset type. We're looking for illustrators with strong transferable skills in narrative clarity, expressive drawing, sequential composition, and consistent visual storytelling.\nWhat We're Looking For\n-Strong sequential storytelling, composition, and panel layout skills\n-Excellent drawing ",
+      "vista": "2026-11-20T23:40:45.684Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Obliga a postular en un enlace externo (base44.app), lo que parece una trampa, y pide ilustración de cómic y storyboard dibujada a mano, que Leo no hace.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1492,
+          "salida": 440,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.039103,
+        "generada": "2026-11-20T23:40:44.262Z"
+      }
+    },
     {
       "id": "573263",
       "tipo": "FREELANCE",
@@ -3337,45 +3376,6 @@
         },
         "costeUSD": 0.0243158,
         "generada": "2026-11-16T21:48:33.777Z"
-      }
-    },
-    {
-      "id": "570357",
-      "tipo": "FREELANCE",
-      "titulo": "Designer for a Golf Brand",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570357/Designer-for-a-Golf-Brand",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a designer to collaborate with on various aspects of a women's golf and lifestyle apparel brand I'm currently building, ideally including brand identity and strategy, website and Shopify design, and potentially apparel design if you have experience in activewear.\nI'd love to connect, learn more about your experience, and explore the possibility of working together. Looking forward to hearing from you!",
-      "vista": "2026-11-16T21:48:49.439Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja la parte de web y contenido; branding y Shopify no tienen pieza igual en el portfolio, y el diseño de ropa técnica no lo hace, así que se envía con honestidad.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nA women's golf and lifestyle brand needs one consistent look across the identity, the online store and the content, so it feels premium from day one.\nI run LeoVisual.nl, an AI creative studio in Amsterdam. On the web side, I built LUMEN, FORJA and MORVAIN, 3D scroll websites coded with three.js and GSAP. For a home brand selling across Europe, I produced listing images and videos, A+ content and the website.\nTo be honest, I don't have a full brand identity or a Shopify store in my portfolio yet. I also don't do technical apparel design for production, so that part would be better with an activewear specialist.\nHere's how I'd approach the rest: first a short brand direction (mood, palette, typography, logo concepts), then the website and store design built on it, plus AI product and lifestyle visuals for the launch.\nIf it helps, I'm happy to do a short sample or a test first.\nProposal: 5000 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you already have a brand name, a logo or product photos, or are we starting from zero?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 458,
-          "salida": 1495,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0323318,
-        "generada": "2026-11-16T21:48:48.744Z"
       }
     }
   ]
