@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-21T13:24:29.762Z",
+  "actualizado": "2026-11-21T17:33:58.008Z",
   "ofertas": [
+    {
+      "id": "cronos-europa/jobs/senior-copywriter",
+      "tipo": "FULL_TIME",
+      "titulo": "Senior Copywriter",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/cronos-europa/jobs/senior-copywriter?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Italy",
+      "empresa": "Cronos Europa",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "About Cronos Europa \n Cronos Europa is a leading IT and digital transformation partner dedicated exclusively to European Institutions and agencies, delivering mission‑critical solutions that shape Europe’s digital future. As part of the Cronos Group, one of the most innovative and fastest‑growing tech ecosystems in Europe, we benefit from a vast pool of expertise and cutting‑edge capabilities. With over 1,000 specialists across Belgium, Luxembourg, and the Netherlands, we combine deep institutional knowledge with strong engineering excellence to support long‑term, high‑impact EU programmes requiring reliability, scalability, and innovation.\n About the job \n We are looking for an experienced Senior Copywriter with a minimum of 8 years of relevant professional experience to support the commu",
+      "vista": "2026-11-21T17:33:58.008Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de copywriter sénior que exige 8 años de experiencia e inglés C1, y Leo tiene B1 y no es redactor.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1513,
+          "salida": 294,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.036267,
+        "generada": "2026-11-21T17:33:56.934Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "lifted-an-upwork-company/jobs/videographers-content-creators-and-filmmakers-needed-to-help-train-ai-models",
       "tipo": "CONTRACTOR",
@@ -3950,46 +3990,6 @@
         "generada": "2026-11-17T16:36:44.394Z"
       },
       "fuente": "jobicy"
-    },
-    {
-      "id": "99brightminds/jobs/senior-ui-ux-designer",
-      "tipo": "FULL_TIME",
-      "titulo": "Senior UI/UX Designer",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/99brightminds/jobs/senior-ui-ux-designer?utm_source=api",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Jordan",
-      "empresa": "99brightminds",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "99Bright Minds is seeking a creative and experienced Senior UI/UX Designer to lead the design and user experience of the client's bilingual corporate website across desktop and mobile platforms. The ideal candidate will have a strong background in user-centered design, Arabic and English digital experiences, and modern design systems. You will be responsible for ensuring a consistent, accessible, and engaging user experience while maintaining alignment with brand guidelines and business goals.\n Requirements\n Lead UX research activities, user journey mapping, information architecture, and wireframing for new pages, services, and digital features.\n Design high-fidelity user interfaces for desktop and mobile platforms in both Arabic (RTL) and English (LTR).\n Create, maintain, and evolve a com",
-      "vista": "2026-11-17T11:55:52.763Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Exige árabe profesional, 5 años de UI/UX, nivel experto en Figma y un proyecto entregado en Arabia Saudí.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1234,
-          "salida": 355,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.035741,
-        "generada": "2026-11-17T11:55:51.650Z"
-      },
-      "fuente": "himalayas"
     }
   ]
 }
