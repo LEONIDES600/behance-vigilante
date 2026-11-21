@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-21T00:57:58.830Z",
+  "actualizado": "2026-11-21T03:00:43.969Z",
   "ofertas": [
+    {
+      "id": "z-laser-gmbh/jobs/senior-graphic-designer-m-f-d",
+      "tipo": "FULL_TIME",
+      "titulo": "Senior Graphic Designer (m/f/d)",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/z-laser-gmbh/jobs/senior-graphic-designer-m-f-d?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Germany",
+      "empresa": "Z-LASER GmbH",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "responsibilities\n The Senior Graphic Designer owns and evolves the Exaktera brand and creates the visual content that sales and marketing use directly with customers. The role turns technical products and applications into clear visuals across digital, print and trade show formats, using AI tools where they add value. Specialised production work, such as 3D animation and video shoots, is supported by external agencies. It exists to give the group a single brand owner who leads the move from legacy product brands to Exaktera and keeps every output consistent with it. The position is predominantly remote in Germany, with occasional travel to company locations when required.\n Own, evolve and protect the Exaktera brand identity, guidelines and visual language, and lead the transition from lega",
+      "vista": "2026-11-21T03:00:43.969Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exige vivir en Alemania (remoto solo desde Alemania, con viajes a sus sedes) y 5+ años como diseñador gráfico, muy por encima de la experiencia de Leo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1394,
+          "salida": 428,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.038471,
+        "generada": "2026-11-21T03:00:42.803Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "wow-remote-teams/jobs/video-editor-746434626",
       "tipo": "PART_TIME",
@@ -3950,46 +3990,6 @@
         "generada": "2026-11-16T21:46:01.541Z"
       },
       "fuente": "himalayas"
-    },
-    {
-      "id": "162716",
-      "tipo": "FULL_TIME",
-      "titulo": "Commercial Manager - Europe",
-      "presupuesto": "",
-      "enlace": "https://jobicy.com/jobs/162716-commercial-manager-europe",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Ireland,  UK",
-      "empresa": "Lyra Health",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "About Lyra \n Lyra Health is the leading provider of mental health solutions for employers supporting more than 20 million people globally. The company has delivered 13 million sessions of mental health care, published more than 20 peer-reviewed studies, and delivered unmatched outcomes in terms of access, clinical effectiveness and cost efficiency. Extensive peer-reviewed research confirms Lyra’s transformative care model helps people recover twice as fast and results in a 26% annual reduction in overall healthcare claims costs. Lyra is transforming access to life-changing mental health care through Lyra Empower, the only fully integrated, AI-powered platform combining the highest-quality care and technology solutions.\n Lyra Health are recruiting a Commercial Manager to assist with strateg",
-      "vista": "2026-11-16T20:48:43.876Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es un puesto de dirección comercial y ventas, pide residencia en Reino Unido o Irlanda, inglés fluido y más de 5 años de experiencia en gestión comercial; no encaja con los servicios de Leo.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1509,
-          "salida": 299,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.027011,
-        "generada": "2026-11-16T20:48:43.235Z"
-      },
-      "fuente": "jobicy"
     }
   ]
 }
