@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-21T16:16:43.123Z",
+  "actualizado": "2026-11-21T16:40:52.412Z",
   "ofertas": [
+    {
+      "id": "573547",
+      "tipo": "FREELANCE",
+      "titulo": "Streetwear and Casual Hat Brand Logo Design",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573547/Streetwear-and-Casual-Hat-Brand-Logo-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "House Of Motives",
+      "solicitantes": 2,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a logo design for a hat brand with a streetwear and casual aesthetic. The logo should capture a distinctive, wearable identity suited to the brand’s target market.\n– Primary logo design for the hat brand\n– Logo files suitable for use on hats and brand applications\nStreetwear, casual",
+      "vista": "2026-11-21T16:40:52.412Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es un logo para una marca de gorras: Leo puede hacerlo, pero no tiene un logo igual en el portfolio, así que la carta ofrece una muestra antes de que paguen.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi!\nA streetwear hat logo has to work small and embroidered on the front of a cap, and still feel like something people want to wear.\nI'm Leo, creative director at LeoVisual.nl. Here's a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nBefore you pay anything, I'll send you one logo direction mocked up on a cap.\nThen: 2–3 directions, refine the one you pick, and deliver vector files (SVG, EPS, PDF, PNG) plus a one-color version for embroidery.\n250 USD, 50% upfront, 2–5 days, 2 rounds of changes.\nShould the brand name be the main element, or do you also want a symbol or monogram for the front of the hat?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "2–5 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 481,
+          "salida": 1272,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.051699,
+        "generada": "2026-11-21T16:40:51.369Z"
+      }
+    },
     {
       "id": "573543",
       "tipo": "FREELANCE",
@@ -3252,41 +3291,6 @@
         },
         "costeUSD": 0.012628200000000001,
         "generada": "2026-11-17T08:39:20.157Z"
-      }
-    },
-    {
-      "id": "371853",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic Designer",
-      "presupuesto": "3000–7000 USD/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/371853/Graphic-Designer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Parabol",
-      "contacto": "Andreas Regus",
-      "solicitantes": 0,
-      "cierraEnDias": 29,
-      "dondeSolicitar": "Behance",
-      "descripcion": "We're Hiring: Remote Graphic Designer (US)\n Location: United States (Remote)\n Job Type: Freelance / Contract\n Work Arrangement: Fully Remote\n About the Opportunity\n We're looking for a talented Graphic Designer to collaborate with our team on creative and digital design projects. We're interested in someone with a strong visual sense, fresh ideas, and the ability to turn concepts into polished designs.\n What You'll Do\n Create engaging graphics for digital marketing campaigns.\n Design social media content, banners, and promotional materials.\n Develop branding concepts and visual identities.\n Create website graphics and other digital assets.\n Collaborate with our team and incorporate creative feedback.\n What We're Looking For\n A strong graphic design portfolio.\n Experience with Adobe Photoshop and Illustrator.\n Knowledge of Figma is a plus.\n Excellent typography, layout, and color composition skills.\n Creativity, attention to detail, and reliable communication.\n Ability to work independently and meet deadlines.\n What We Offer\n 100% remote collaboration.\n Flexible working arrangements.\n Competitive project-based compensation.\n Opportunities to work on diverse creative projects.\n Interested?\n We'd love to see your work!\n Please send us your portfolio, a brief introduction, and your availability.\n Candidates must be based in the United States. \n We look forward to connecting with creative professionals!",
-      "vista": "2026-11-17T08:39:22.545Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "ubicación: exige vivir fuera de la UE («must be based in the United States»)",
-        "filtro": "ubicacion",
-        "categoria": "",
-        "idioma": "",
-        "carga": "",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "filtro previo (sin API)",
-        "tokens": null,
-        "costeUSD": 0,
-        "generada": "2026-11-17T08:39:21.354Z"
       }
     }
   ]
