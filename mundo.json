@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-21T17:33:58.008Z",
+  "actualizado": "2026-11-21T19:38:41.285Z",
   "ofertas": [
+    {
+      "id": "evolve-digital-gmbh/jobs/werkstudent-marketing-m-w-d-remote-4880497902",
+      "tipo": "INTERN",
+      "titulo": "Werkstudent Marketing (m/w/d) · Remote",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/evolve-digital-gmbh/jobs/werkstudent-marketing-m-w-d-remote-4880497902?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Germany",
+      "empresa": "Evolve Digital GmbH",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Du studierst Marketing, Medien oder etwas Ähnliches, hast Spaß an Social Media und Creator-Content und behältst auch bei vielen Themen gleichzeitig den Überblick? Bei uns koordinierst du die Zusammenarbeit mit unseren Content Creatorn von der Auswahl bis zur fertigen Lieferung. Du findest passende Creator, verschickst Briefings, prüfst die eingehenden Inhalte und sorgst dafür, dass alles pünktlich und in hoher Qualität bei unseren Videocuttern ankommt.\n Über EVOLVE \n Wir sind ein ganzheitlicher Wachstumspartner für E-Commerce-Brands im DACH-Raum. Für unsere Kunden entstehen jede Woche neue Werbeanzeigen, und Content von Creatorn spielt dabei eine immer größere Rolle. Wir arbeiten datenbasiert und setzen konsequent auf AI, damit Inhalte schnell entstehen und trotzdem auf den Punkt sind.\n Da",
+      "vista": "2026-11-21T19:38:41.285Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exige alemán C2 y estar matriculado en la universidad (Werkstudent), y es coordinación de creadores, no producción creativa.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1659,
+          "salida": 359,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.038151,
+        "generada": "2026-11-21T19:38:40.234Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "cronos-europa/jobs/senior-copywriter",
       "tipo": "FULL_TIME",
@@ -3948,46 +3988,6 @@
         },
         "costeUSD": 0.0146482,
         "generada": "2026-11-17T16:36:41.116Z"
-      },
-      "fuente": "jobicy"
-    },
-    {
-      "id": "162805",
-      "tipo": "CONTRACT",
-      "titulo": "Mid/Senior AI Cinematic Video Editor (Freelance - Remote - Greece)",
-      "presupuesto": "23.000–63.000 USD/año",
-      "enlace": "https://jobicy.com/jobs/162805-mid-senior-ai-cinematic-video-editor-freelance-remote-greece",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Greece",
-      "empresa": "EverAI",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Our Vision & Products\n 🚀 EverAI — Building the Future of AI Companionship \n One of the Top Largest & Fastest-Growing AI Companies in the World \n 60 Million Users in 3 years — Help Us Reach 100M first, 500M next \n At EverAI , we’re shaping what it means to connect with AI. With 60 million users and counting , we're not just building products — we're creating entirely new categories.\n Our flagship product is the world’s largest AI companionship platform , redefining relationships for millions. It is governed by our proprietary moderation system, EverGuard — an internal AI designed to ensure everything we build is safe, ethical, and human-first .\n And we’re only just getting started! \n Our Team\n We are an enthusiastic, passionate and hardworking team of ≈ 100 people. Our founding team has st",
-      "vista": "2026-11-17T16:36:44.931Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden contenido explícito NSFW (para adultos), 4–6+ años de experiencia como requisito y parece limitada a Grecia.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1755,
-          "salida": 349,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0149482,
-        "generada": "2026-11-17T16:36:44.394Z"
       },
       "fuente": "jobicy"
     }
