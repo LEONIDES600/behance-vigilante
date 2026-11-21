@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-21T19:27:51.757Z",
+  "actualizado": "2026-11-21T21:16:28.517Z",
   "ofertas": [
+    {
+      "id": "573659",
+      "tipo": "FREELANCE",
+      "titulo": "Immersive 3D Landing Page for Keyboard-Style Hardware Product Launch",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573659/Immersive-3D-Landing-Page-for-Keyboard-Style-Hardware-Product-Launch",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Space 101",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a web designer to create an immersive 3D landing page for the launch of our keyboard-style device hardware product. My budget for this project is $1,000, and the page should present the product in a compelling, launch-ready digital experience.\n– Immersive 3D landing page design for the keyboard-style hardware product launch\n– Launch-ready page layouts and visual assets for desktop and mobile viewing\nWeb designer with experience creating immersive 3D product landing pages.\nImmersive, three-dimensional, product-focused.\nThe project focuses on a keyboard-style device hardware product launch.\nOur current teaser site being https://www.commanddeck.store/",
+      "vista": "2026-11-21T21:16:28.517Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Landing 3D de producto encaja de lleno con sus webs 3D en código (three.js + GSAP); el cliente fija 1.000 USD.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA keyboard-style device deserves a launch page where people can almost feel the keys, and your CommandDeck teaser is a strong starting point.\nI'm Leo, creative director at LeoVisual.nl. My 3D scroll websites (LUMEN, FORJA, MORVAIN) are built in code with three.js + GSAP:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nMy plan: your device in 3D, rotating as you scroll, keys lighting up section by section, then specs and a clear launch CTA, tuned for desktop and mobile.\nPrice: 1,000 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nDo you already have a 3D model or CAD file of the device, or should I build it from your product photos?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 604,
+          "salida": 1422,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.055191,
+        "generada": "2026-11-21T21:16:27.686Z"
+      }
+    },
     {
       "id": "573627",
       "tipo": "FREELANCE",
@@ -3235,45 +3274,6 @@
         },
         "costeUSD": 0.011692200000000002,
         "generada": "2026-11-17T08:45:10.580Z"
-      }
-    },
-    {
-      "id": "371969",
-      "tipo": "FULLTIME",
-      "titulo": "Motion Designer",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371969/Motion-Designer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "IPA",
-      "contacto": "Liudmyla Т.",
-      "solicitantes": 0,
-      "cierraEnDias": 29,
-      "dondeSolicitar": "Behance",
-      "descripcion": "We are looking for a creative Motion Designer for a popular science YouTube channel.\n We need a professional with strong visual thinking skills who can independently transform complex and abstract ideas into clear, engaging visual stories that capture and retain viewers' attention. \n You will combine motion design, 2D/3D graphics, generative AI, and visual storytelling to create dynamic, high-quality video content.\n Responsibilities\n Visual concepts: Analyze scripts and pre-recorded presenter footage, develop visual metaphors, scene concepts, and storyboards.\n Motion design: Create animations, infographics, 2D/3D graphics, and visual effects using Adobe After Effects.\n Video production: Combine animation, AI-generated visuals, historical footage, and stock materials into cohesive video sequences.\n Technical execution: Handle compositing, tracking, and scene assembly, with a focus on pacing and audience retention.\n Visual research: Find and select historical footage, archival materials, scientific references, and stock videos.\n AI generation: Create images, video clips, and visual assets using generative AI tools.\n Visual guidelines: Develop and improve the project's visual style and guidelines using Claude.\n Workflow optimization: Introduce AI tools and approaches to improve production quality and efficiency.\n Requirements\n Relevant experience: Proven experience in motion design, explainer videos, infographics, and meaningful animation. Long-term experience with popular scien",
-      "vista": "2026-11-17T08:39:22.545Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Motion design con After Effects, 3D e IA generativa para YouTube, en remoto desde cualquier lugar: encaja con sus servicios.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Liudmyla,\n\nTurning abstract ideas from science, history and philosophy into clear visual metaphors that keep viewers watching is a challenge I really enjoy. I'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam. I work in After Effects and Premiere with motion graphics and 3D, and I generate images and clips with Kling, Seedance, GPT Image and Nano Banana Pro.\n\nClosest examples of my work:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nhttps://www.behance.net/gallery/254527569/Where-Imagination-Becomes-Real-AI-Cinematic-Short\n\nFor each video I would read the script and presenter footage, mark the ideas that need a visual and storyboard one metaphor per idea. Then I would generate the AI assets, pull archival and stock footage, and animate, composite and cut for pacing and retention. I also build AI agents and automations (n8n/Make), so I can help speed up the research and the style guidelines. I'm happy to do a test scene from one of your scripts.\n\nHow many videos do you publish per month, and how long are they?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1401,
-          "salida": 1461,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.058529,
-        "generada": "2026-11-17T08:38:42.604Z"
       }
     }
   ]
