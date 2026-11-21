@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-21T05:05:17.134Z",
+  "actualizado": "2026-11-21T07:09:38.393Z",
   "ofertas": [
+    {
+      "id": "156156",
+      "tipo": "FULL_TIME",
+      "titulo": "Senior Commercial Counsel",
+      "presupuesto": "",
+      "enlace": "https://jobicy.com/jobs/156156-senior-commercial-counsel-2",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Ireland,  UK",
+      "empresa": "Deepgram",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Company Overview \n Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300+ organizations build voice offerings that are ‘Powered by Deepgram’, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Daily, Cresta, Granola, and Jack in the Box. Deepgram’s voice-native foundation models are accessed through cloud APIs or as self-hosted and on-premises software, with unmatched accuracy, low latency, and cost efficiency. Backed by a recent Series C led by leading global investors and strategic partners, Deepgram has processed over 50,000 years of audio and transcribed more than 1 trillion words. T",
+      "vista": "2026-11-21T07:09:38.393Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de abogado mercantil sénior y no tiene nada que ver con los servicios creativos, web o de IA de Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1564,
+          "salida": 290,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.036391,
+        "generada": "2026-11-21T07:09:37.560Z"
+      },
+      "fuente": "jobicy"
+    },
     {
       "id": "experts-inside-ag/jobs/projektleiter-in-fur-microsoft-365-und-ki-projekte",
       "tipo": "FULL_TIME",
@@ -3948,46 +3988,6 @@
         },
         "costeUSD": 0.011544200000000001,
         "generada": "2026-11-16T23:47:38.426Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "micro1/jobs/stem-expert-5001388069",
-      "tipo": "CONTRACTOR",
-      "titulo": "STEM Expert",
-      "presupuesto": "60–120 USD/h",
-      "enlace": "https://himalayas.app/companies/micro1/jobs/stem-expert-5001388069?utm_source=api",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "micro1",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "STEM Expert\n Pay: $60–$120/hour\n Location: Global, fully remote\n Job Type: Contractor (~15 hours per week)\n Schedule: Flexible—you choose the hours and days you work, including weekends if desired\n We are looking for highly skilled STEM and scientific-domain experts to contribute to an AI training project involving technical problem-solving, scientific reasoning, data analysis, and Python.\n The work involves solving, reviewing, and validating challenging problems within your area of expertise. A representative task may require analyzing a scientific or mathematical problem, developing a rigorous solution, using Python to perform calculations or simulations, and evaluating whether an AI-generated answer is technically correct.\n This is a very coding heavy role. Candidates but have experienc",
-      "vista": "2026-11-16T21:46:02.323Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden ser experto en una ciencia (química, biología, matemáticas, física, etc.) y mucho Python para entrenar IA, y eso no es lo que hace Leo.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1247,
-          "salida": 510,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.030183,
-        "generada": "2026-11-16T21:45:54.551Z"
       },
       "fuente": "himalayas"
     }
