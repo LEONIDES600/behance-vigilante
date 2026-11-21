@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-21T11:40:55.733Z",
+  "actualizado": "2026-11-21T14:40:33.439Z",
   "ofertas": [
+    {
+      "id": "573515",
+      "tipo": "FREELANCE",
+      "titulo": "On-Set Still Photography for Film Production",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573515/On-Set-Still-Photography-for-Film-Production",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "teja krishna",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for an experienced still photographer to work on set during our film production. You will capture behind-the-scenes images and production stills for publicity, posters, and marketing, covering scenes, cast, crew, and set life without disrupting filming.\nSelects: [200-300] professionally edited, colour-graded final images across the full shoot\nFormats: high-resolution JPEG (minimum [4000 px] long edge, sRGB) for print and publicity, plus web-sized versions (2048 px) for social media and press\nRaw files: full-resolution RAW files are not part of the delivery unless agreed in writing beforehand\nRetouching: basic colour correction, exposure and cleanup on all selects, with [10-15] hero images given full retouching for key art and posters\nExperienced on-set still photographer with the ability to work unobtrusively during active film production.\nPhotography must be captured discreetly during filming to avoid disrupting production.",
+      "vista": "2026-11-21T14:40:33.439Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Buscan fotógrafo de foto fija con experiencia que esté físicamente en el rodaje: es trabajo presencial y fotografía con cámara, una especialidad que Leo no ofrece.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 686,
+          "salida": 396,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.034999,
+        "generada": "2026-11-21T14:40:32.396Z"
+      }
+    },
     {
       "id": "573439",
       "tipo": "FREELANCE",
@@ -3248,47 +3287,6 @@
         },
         "costeUSD": 0.048453,
         "generada": "2026-11-17T08:27:05.431Z"
-      }
-    },
-    {
-      "id": "570537",
-      "tipo": "FREELANCE",
-      "titulo": "Social Media posters",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570537/Social-Media-posters",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Բարև Ձեզ։\nԴիմում եմ Ձեզ STEP CONSULTING ՍՊԸ-ի անունից։ Մենք Հայաստանում գործող խորհրդատվական ընկերություն ենք, որն արդեն 14 տարի մատուցում է հաշվապահական, հարկային, իրավաբանական և բիզնես խորհրդատվական ծառայություններ՝ համագործակցելով տեղական և միջազգային ընկերությունների հետ։\nՆերկայումս փնտրում ենք գրաֆիկ դիզայների՝ մեր ընկերության սոցիալական էջերի համար պրոֆեսիոնալ, կրեատիվ և ժամանակակից պոստերներ պատրաստելու նպատակով։\nՄեզ անհրաժեշտ են բացառապես դիզայնի ծառայություններ՝ առանց SMM-ի, էջերի վարման կամ մարքեթինգային այլ ծառայությունների։\nԿցանկանայինք ծանոթանալ Ձեր աշխատանքներին, ինչպես նաև տեղեկանալ մեկ պոստերի պատրաստման և ամսական համագործակցության արժեքներին։\nԿանխավ շնորհակալություն։",
-      "vista": "2026-11-17T08:20:09.494Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Pósteres para las redes de una consultora, solo diseño y en remoto: encaja con el diseño gráfico para redes de Leo y el presupuesto es aceptable.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nSTEP CONSULTING needs modern, professional posters for its social pages, design only, to present 14 years of accounting, tax, legal and business advice in a clear way.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nBefore you pay anything, I'll send you one sample poster for one of your services, for example tax consulting, in your brand colours.\nHow I'd work: a short brief, a clean poster system (grid, type, colours), then the posters ready for each platform.\nFirst set of posters: 250 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes. After that we can agree on a monthly plan.\nWill the posters be in Armenian, English or both, and how many do you need per month?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [
-          "menciona años"
-        ],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 817,
-          "salida": 1433,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.055633,
-        "generada": "2026-11-17T08:20:08.661Z"
       }
     }
   ]
