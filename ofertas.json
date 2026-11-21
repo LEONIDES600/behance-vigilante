@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-21T09:16:58.382Z",
+  "actualizado": "2026-11-21T09:40:18.822Z",
   "ofertas": [
+    {
+      "id": "573417",
+      "tipo": "FREELANCE",
+      "titulo": "Innovative Dietary Supplement Packaging Design",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573417/Innovative-Dietary-Supplement-Packaging-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "adel belkadi",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for innovative packaging design for a dietary supplement product. The packaging should present the supplement clearly and create a distinctive, appealing product presence.\n– Innovative packaging design concept for a dietary supplement product\n– Production-ready packaging artwork files\nInnovative",
+      "vista": "2026-11-21T09:40:18.822Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Packaging de suplemento: encaja con la identidad conceptual SESTEO, pero no hay un cliente real de packaging, así que se ofrece una muestra antes de pagar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Adel,\nA dietary supplement needs packaging that reads clearly at a glance and still stands out next to competitors on the shelf.\nThe closest piece in my profile is a concept identity and packaging I designed for a sun tea brand:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nI'd review your product and format, propose 2 directions, refine the chosen one and deliver production-ready files on your printer's dieline.\nBefore you pay anything, I'll send you one concept direction mocked up on your supplement container.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nWhat format is it (bottle, jar, pouch or box), and do you already have the dieline from your printer?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 469,
+          "salida": 1296,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.052131,
+        "generada": "2026-11-21T09:40:17.844Z"
+      }
+    },
     {
       "id": "573405",
       "tipo": "FREELANCE",
@@ -3318,45 +3357,6 @@
         },
         "costeUSD": 0.037541,
         "generada": "2026-11-17T00:53:47.332Z"
-      }
-    },
-    {
-      "id": "570405",
-      "tipo": "FREELANCE",
-      "titulo": "Logo pour le langage Pandia",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570405/Logo-pour-le-langage-Pandia",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Université de Bordeaux",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Je cherche à collaborer avec un ou une graphiste pour développer le logo du langage Pandia (voir document joint) et affiner la charte graphique associée. Je souhaite être fortement impliquée dans le processus : j’ai des goûts très précis et j’ai des idées bien spécifiques de ce que je veux faire. Pour autant, j’ai besoin de conseils et d’aide pour la charte graphique et le logo, car je ne sais pas dessiner autrement qu’en codant (toutes les images de ce document sont générées par du code).\nLe logo devra être facilement implémentable en Pandia. Je me chargerai de l’implémentation, et le ou la graphiste proposera un design, des couleurs, et son expertise pour m’aiguiller et m’aider. Le budget maximal est de 1700€.\nLe document joint nous servira de base : nous partirons de mes propositions (qui relèvent de l’amateurisme) pour en faire quelque chose de professionnel et utilisable pour le futur site internet de Pandia.",
-      "vista": "2026-11-17T00:43:10.457Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Logo y guía de marca para un lenguaje de programación: encaja con lo que puede entregar, pero no hay pieza de branding en el portfolio, así que la carta ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nTurning your code-generated Pandia drafts into a logo you can rebuild in Pandia itself means simple geometry, clear proportions and a small palette.\nI'm Leo, creative director at LeoVisual.nl. How I'd do it: study your document, propose 2–3 directions built from basic shapes, refine the one you choose together with you, and deliver an SVG with exact sizes, colours and spacing rules you can code, plus a short guide for the future website.\nBefore you pay anything, I'll send you one logo direction based on your own drafts.\nPrice: 1000 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich shapes or colours from your document do you want to keep no matter what?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 733,
-          "salida": 1447,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.055577,
-        "generada": "2026-11-17T00:43:09.188Z"
       }
     }
   ]
