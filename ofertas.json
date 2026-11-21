@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-21T16:40:52.412Z",
+  "actualizado": "2026-11-21T17:12:39.762Z",
   "ofertas": [
+    {
+      "id": "372713",
+      "tipo": "FULLTIME",
+      "titulo": "CREADOR DE CONTENIDO Y SOCIAL MEDIA",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372713/CREADOR-DE-CONTENIDO-Y-SOCIAL-MEDIA",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-21T17:12:39.762Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "573547",
       "tipo": "FREELANCE",
@@ -3253,44 +3273,6 @@
         },
         "costeUSD": 0.0474442,
         "generada": "2026-11-17T08:39:14.209Z"
-      }
-    },
-    {
-      "id": "371865",
-      "tipo": "FULLTIME",
-      "titulo": "Social Media Manager  (Community fan pages)",
-      "presupuesto": "1000–1500 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371865/Social-Media-Manager-(Community-fan-pages)",
-      "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "Koteyo",
-      "contacto": "Luigi Voltaire",
-      "solicitantes": 0,
-      "cierraEnDias": 29,
-      "dondeSolicitar": "Behance",
-      "descripcion": "We’re hiring a Social Media Manager with a track record of making short-form videos go viral to lead content production and publishing for an entrepreneur. You’ll manage a 20-person team that turns interviews, speeches, and behind-the-scenes footage into videos people watch to the end and share.\n You’ll also oversee the launch and management of 20–30 people all creating multiple campaign-affiliated fan pages or accounts per team member across four platforms . Each page should have a clear editorial angle and formats people come back for.\n What you’ll do\n Spot moments with viral potential. Find the strongest lines, reactions, and exchanges in raw footage and turn them into clear briefs editors can execute quickly.\n Test what gets people watching and sharing. Experiment with opening hooks, pacing, captions, thumbnails, and recurring formats. Use watch time, completion rate, shares, and follower growth to decide what to scale.\n Build on breakout posts. When a video takes off, identify what drove it and lead the team in producing timely follow-ups and platform-specific edits.\n Lead daily production. Assign clips and pages, give editors actionable feedback, approve posts, and coordinate coverage with the campaign communications team.\n Maintain editorial standards. Keep clips in context, verify captions, use cleared footage and music, and make the campaign affiliation clear on every page.\n What we’re looking for\n Experience leading editors, creators, or social media coordinators in",
-      "vista": "2026-11-17T08:39:22.545Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Exige criollo haitiano escrito y francés, paga 1.000–1.500 USD al año y pide dirigir un equipo de 20 personas con resultados virales demostrados.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1030,
-          "salida": 378,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.012628200000000001,
-        "generada": "2026-11-17T08:39:20.157Z"
       }
     }
   ]
