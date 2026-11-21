@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-21T14:40:33.439Z",
+  "actualizado": "2026-11-21T16:16:43.123Z",
   "ofertas": [
+    {
+      "id": "573543",
+      "tipo": "FREELANCE",
+      "titulo": "Naming, Logo, Brand Identity, and Positioning for a Clothing Brand",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573543/Naming-Logo-Brand-Identity-and-Positioning-for-a-Clothing-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Francesco Cavallini",
+      "solicitantes": 2,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Cerco un freelancer che curi naming, logo, brand identity e positioning per il mio brand di abbigliamento. Mi serve un'identità di marca coerente e distintiva, dalla definizione del nome fino agli elementi visivi e strategici del brand.\n– Proposte di naming per il brand di abbigliamento\n– Logo professionale e file finali utilizzabili\n– Sistema di brand identity con palette colori, tipografia ed elementi visivi\n– Posizionamento del brand e linee guida strategiche di base",
+      "vista": "2026-11-21T16:16:43.123Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding completo para una marca de ropa: encaja con la identidad conceptual de Leo y se ofrece una muestra antes de pagar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Francesco,\n\nA clothing brand built from the name to the palette, type and positioning needs one coherent story from day one.\nHere is a concept identity I designed, with logo, palette and packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd work: a short brief on your audience, naming proposals, two logo directions, then the system (palette, typography, visual elements), basic positioning guidelines and final files.\nBefore you pay anything, I'll send you three name ideas and one logo direction mocked up on a clothing label.\nPrice: 2500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhat style and audience do you have in mind for the brand?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 600,
+          "salida": 1420,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.055135,
+        "generada": "2026-11-21T16:16:42.075Z"
+      }
+    },
     {
       "id": "573515",
       "tipo": "FREELANCE",
@@ -3248,45 +3287,6 @@
         "tokens": null,
         "costeUSD": 0,
         "generada": "2026-11-17T08:39:21.354Z"
-      }
-    },
-    {
-      "id": "555763",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Identity Design for Hotel and Construction Company",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/555763/Brand-Identity-Design-for-Hotel-and-Construction-Company",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 11,
-      "dondeSolicitar": "",
-      "descripcion": "Our business operates in both the hospitality and construction sectors, and we need a cohesive brand identity to unify our presence across these industries. The company has presence in the Middle East and in India. The goal is to create a memorable and professional image that reflects our dual focus. We want a designer who can deliver a comprehensive identity package that works for both aspects of our company. The word mark has to be used with the suffix of Hotels and Properties.",
-      "vista": "2026-11-17T08:27:06.295Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Identidad de marca encaja con lo que Leo puede entregar, pero no hay proyecto de branding en el portfolio: se ofrece una muestra antes de pagar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nOne identity that works for both your hotels and your construction side is a great challenge, especially with the word mark carrying the \"Hotels and Properties\" suffix.\nI'm Leo, creative director at LeoVisual.nl.\nBefore you pay anything, I'll send you one logo direction with the suffix, shown on a hotel key card and a site hoarding.\nProcess: short brief, 2-3 directions, then the full package: logo system, colours, typography, usage guide and key applications for both sectors.\nPrice: 5000 USD, 50% upfront, delivery in 7-10 days, 2 rounds of changes.\nShould hospitality and construction share one mark, or one master mark with two sub-versions?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 512,
-          "salida": 1135,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.048453,
-        "generada": "2026-11-17T08:27:05.431Z"
       }
     }
   ]
