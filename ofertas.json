@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-21T17:12:39.762Z",
+  "actualizado": "2026-11-21T19:04:46.712Z",
   "ofertas": [
+    {
+      "id": "573621",
+      "tipo": "FREELANCE",
+      "titulo": "Developmental and Line Editing for the Fantasy Novel Deity",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573621/Developmental-and-Line-Editing-for-the-Fantasy-Novel-Deity",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "ell noille",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m seeking an editor for my fantasy novel, Deity, with a first draft of approximately 120,000 words. Pay starts at $30 per chapter, is negotiable, and will be paid per chapter rather than hourly. I need support with punctuation consistency, stronger and expanded monologues—particularly in the early chapters—critical world-building feedback, and overall developmental and line editing. I have already planned the ending and most major plot points. Candidates with art or website design skills are preferred because I plan to adapt the story into a comic and other future projects.\n– Developmental editing feedback covering story structure, pacing, monologues, and world-building\n– Line-edited manuscript with consistent punctuation and revised prose suggestions\nCandidates with strong editing skills and the ability to provide critical developmental feedback are sought. Art or website design skills are a preferred bonus.\nThe story’s ending and most major plot points are already planned. The novel may later be adapted into a comic and other projects.",
+      "vista": "2026-11-21T19:04:46.712Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Se piden edición de desarrollo y corrección de estilo de una novela de 120.000 palabras en inglés: no es un servicio de Leo, su inglés es B1 y pagan 30 USD por capítulo; lo de arte o web es solo un extra.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 698,
+          "salida": 623,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.039587,
+        "generada": "2026-11-21T19:04:45.605Z"
+      }
+    },
     {
       "id": "372713",
       "tipo": "FULLTIME",
@@ -3234,45 +3273,6 @@
         },
         "costeUSD": 0.0142482,
         "generada": "2026-11-17T08:38:50.118Z"
-      }
-    },
-    {
-      "id": "371881",
-      "tipo": "CONTRACT",
-      "titulo": "Web3 / NFT Character Artist (Crypto Project)",
-      "presupuesto": "600–1200 USD/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/371881/Web3-NFT-Character-Artist-(Crypto-Project)",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Taifoon",
-      "contacto": "Thomas Hansen",
-      "solicitantes": 0,
-      "cierraEnDias": 29,
-      "dondeSolicitar": "Behance",
-      "descripcion": "We are Taifoon (taifoon.io), a Web3 project building a coordination layer for AI agents. We are looking for a talented Character Artist to join our creative team.\n What you will do:\n · Create concept art and illustrations for our AI agents and characters.\n · Design visual assets for our community (NFTs, stickers, banners).\n · Work closely with our Design Director to shape the visual identity of the project.\n Requirements:\n · Strong portfolio in character design, illustration, or concept art.\n · You must be active in the crypto/Web3 space and understand the culture.\n · Ability to work remotely and communicate in English.\n What we offer:\n · Payment in USDT (or fiat, if preferred).\n · Budget: $600 - $1200 per month, with potential for long-term collaboration.\n · Flexible hours and a fast-moving startup environment.\n If you are interested, send me a DM with your portfolio.",
-      "vista": "2026-11-17T08:39:22.545Z",
-      "carta": {
-        "decision": "espera",
-        "motivo": "Encaja como concept art de personajes con IA, pero exigen estar activo en crypto/Web3 y no consta; ojo, es un patrón habitual de estafa crypto por DM.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Thomas,\nGiving Taifoon's AI agents a recognisable cast of characters that also works as NFTs, stickers and banners is a great brief.\nI'm Leo Gómez, creative director at LeoVisual.nl. I work with AI image tools (GPT Image, Nano Banana Pro) plus Adobe to build consistent visual worlds:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nBefore you pay anything, I'll send you one Taifoon agent character in two style directions, shown as a sticker and a banner.\nProcess: style direction with your Design Director, a character sheet per agent, then community assets in sets.\nWithin your $600–1,200/month budget, 50% upfront each month, first character in 2–5 days, 2 rounds of changes.\nHow many agents do you want to define first?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "Piden como requisito estar activo en el mundo crypto/Web3: ¿lo estás de verdad? Si no, mejor descartarla.",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 569,
-          "salida": 2211,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0474442,
-        "generada": "2026-11-17T08:39:14.209Z"
       }
     }
   ]
