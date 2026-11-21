@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-21T03:37:23.334Z",
+  "actualizado": "2026-11-21T06:04:38.426Z",
   "ofertas": [
+    {
+      "id": "573333",
+      "tipo": "FREELANCE",
+      "titulo": "Magazine Design",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573333/Magazine-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Daisha Roberts",
+      "solicitantes": 2,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic designer to create a magazine. The project involves designing a polished, cohesive publication layout suitable for magazine content.\n– Professionally designed magazine layout\n– Print- and digital-ready final magazine files",
+      "vista": "2026-11-21T06:04:38.426Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Maquetación de revista (editorial) sin pieza igual en el portfolio; se envía ofreciendo una doble página de muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Daisha,\n\nA magazine only feels polished when every spread clearly belongs to the same publication, so I'd start by building one layout system: grid, type scale, colour and image rules.\nBefore you pay anything, I'll send you one sample spread designed for your magazine, so you can judge the direction.\nThen I'd lay out all pages on that system and deliver print-ready PDFs (with bleed) plus a digital version.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nPrice: 2500 USD, 50% upfront, 2–3 weeks, 2 rounds of revisions.\nHow many pages will the magazine have, and are the texts and photos ready?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "2–3 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 442,
+          "salida": 1171,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.049523,
+        "generada": "2026-11-21T06:04:37.465Z"
+      }
+    },
     {
       "id": "372663",
       "tipo": "FULLTIME",
@@ -3318,45 +3357,6 @@
         },
         "costeUSD": 0.048707,
         "generada": "2026-11-16T22:03:10.621Z"
-      }
-    },
-    {
-      "id": "570363",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Identity & Shopify Website Designer for Women's Golf & Lifestyle Brand",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570363/Brand-Identity-Shopify-Website-Designer-for-Womens-Golf-Lifestyle-Brand",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm building a women's golf and lifestyle apparel brand based in New York City, with a focus on combining performance, style, and modern femininity.\nI'm looking for a creative designer to collaborate with on building the brand's visual identity and online presence from the ground up. Ideally, I'm looking for someone with a strong aesthetic sense and experience in fashion, lifestyle, or premium consumer brands.\nKey areas of collaboration:\n- Brand Identity & Strategy: Develop a cohesive brand identity, including visual direction, typography, color palette, and overall brand aesthetics.\n- Website & Shopify Design: Design a modern, visually compelling, and user-friendly e-commerce website that reflects the brand's identity and delivers a seamless shopping experience.\n- Creative Direction: Help establish a consistent visual language across the website, digital content, and other brand touchpoints.",
-      "vista": "2026-11-16T21:55:41.856Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja la parte web y de dirección visual, pero no hay branding completo ni tienda Shopify en el portfolio; se envía con carta honesta y muestra.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nA women's golf brand that mixes performance, style and modern femininity needs one clear visual language, from the colors and fonts to how the store feels when you shop.\nAt LeoVisual.nl I design websites and visual content, using AI in my workflow. Two examples: LUMEN, FORJA and MORVAIN, 3D scroll websites built in code (three.js + GSAP), and work for a home brand that sells in several European countries (under NDA), where I made product images, videos, A+ content and the website.\nTo be honest, I don't have a full brand identity or a Shopify store in my portfolio yet, so I'm happy to start with a short sample (a moodboard and 2 visual directions) before you decide.\nHow I would work:\n1) Moodboard and visual direction for the brand.\n2) Typography, color palette and simple brand guidelines.\n3) Store design in Figma, then built on a Shopify theme.\n4) Visual rules for product photos, social content and other touchpoints.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days and 2 rounds of changes.\nDo you already have a brand name, product photos or reference brands you love for the look?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 652,
-          "salida": 1549,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.048583,
-        "generada": "2026-11-16T21:55:41.117Z"
       }
     }
   ]
