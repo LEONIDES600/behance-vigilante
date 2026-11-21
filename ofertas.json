@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-21T10:53:35.525Z",
+  "actualizado": "2026-11-21T11:16:29.691Z",
   "ofertas": [
+    {
+      "id": "573437",
+      "tipo": "FREELANCE",
+      "titulo": "Arabic Fashion marketing agency Identity Design",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573437/Arabic-Fashion-marketing-agency-Identity-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "مرآى",
+      "contacto": "Amani Redwan",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a designer to create an Arabic brand identity for my marketing agency . The identity should establish a cohesive visual presence suited to the fashion industry.\n– fashion marketing agency identity concept\n– Brand identity assets suitable for fashion-brand use\n-english and arabic",
+      "vista": "2026-11-21T11:16:29.691Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Identidad de marca bilingüe árabe/inglés: es branding sin pieza real igual, así que se ofrece una muestra antes de pagar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Amani,\nA fashion marketing agency needs an identity as polished as the brands it works with, and yours has to feel just as strong in Arabic as in English.\nI'm Leo, creative director at LeoVisual.nl. My closest work is a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd do it: a short brief on tone, 2 logo directions pairing Arabic and Latin type, then the full kit: colours, typography and social templates ready for fashion clients.\nBefore you pay anything, I'll send you one logo direction for مرآى shown in Arabic and English side by side.\nPrice: 500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nShould the identity lean towards editorial luxury or bold streetwear energy?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 489,
+          "salida": 1436,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.055011,
+        "generada": "2026-11-21T11:16:28.664Z"
+      }
+    },
     {
       "id": "368497",
       "tipo": "FULLTIME",
@@ -3250,41 +3289,6 @@
         },
         "costeUSD": 0.054617,
         "generada": "2026-11-17T06:49:16.686Z"
-      }
-    },
-    {
-      "id": "570489",
-      "tipo": "FREELANCE",
-      "titulo": "Lagos-Based Videographer and Food Content Creator",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570489/Lagos-Based-Videographer-and-Food-Content-Creator",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for a Lagos-based videographer and food content creator to produce engaging food-focused visual content.\nLooking for a Lagos-based videographer / food content creator 🇳🇬🎥\nI’m Chef Idris, a London-based chef heading to Nigeria to create From the Motherland, a documentary series exploring Nigerian food, its origins and the people behind it.\nI want to take viewers on a journey from ingredient to finished dish. Think discovering how palm oil is extracted, following it into a kitchen and learning how it becomes part of the efo riro we know and love.\nAlongside the cooking, I want honest conversations with food entrepreneurs about building a business in Nigeria, the pressures they face and how they look after their wellbeing.\nI’m looking for a creative who connects with this vision, spots a good story and can help bring it to life through filming and editing. Someone comfortable in markets, kitchens and everyday settings, capturing natural conversations, detailed cooking footage and the atmosphere around us.\nThe feel should be warm, personal, curious and rooted in Nigerian culture, with my personality and the contributors’ voices coming through.\nThe initial production budget is £500, approximately ₦935,000, for a focused pilot and supporting social clips. We’ll agree the scope together.\nIf this sounds like your kind of project, send me examples of your work, your availability and a few words about how you’d approach it.\nI want viewers to say: “I’ve eaten this all my l",
-      "vista": "2026-11-17T05:43:53.085Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "ubicación: exige vivir fuera de la UE («Lagos-Based Videographer»)",
-        "filtro": "ubicacion",
-        "categoria": "",
-        "idioma": "",
-        "carga": "",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "filtro previo (sin API)",
-        "tokens": null,
-        "costeUSD": 0,
-        "generada": "2026-11-17T05:43:52.162Z"
       }
     }
   ]
