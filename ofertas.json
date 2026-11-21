@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-21T19:04:46.712Z",
+  "actualizado": "2026-11-21T19:27:51.757Z",
   "ofertas": [
+    {
+      "id": "573627",
+      "tipo": "FREELANCE",
+      "titulo": "Obróbka Zdjęć i Kreacje Reklamowe",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573627/Obrobka-Zdjec-i-Kreacje-Reklamowe",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Pietrowe.pl",
+      "contacto": "Natalia K",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Polski producent mebli dziecięcych z litego drewna szuka grafika e-commerce do stałej, długofalowej współpracy.\nZakres obowiązków:\n• Obróbka zdjęć naszych realizacji w stałych, miesięcznych pakietach: porządkowanie przestrzeni w kadrze, kadrowanie i poprawa kolorów. Zdjęcia wykonują nasi monterzy w domach klientów, więc nie szukamy fotografa.\n• Przygotowywanie grafik do akcji promocyjnych: posty, relacje, kreacje reklamowe na Facebooka, Instagrama i TikToka oraz banery na stronę.\nWymagania:\n• samodzielność i inicjatywa. Szukamy specjalisty, który sam proponuje pomysły na kreacje i oprawę akcji, a nie tylko wykonuje gotowe wytyczne,\n• doświadczenie w retuszu zdjęć produktowych lub wnętrz (Photoshop, Lightroom) i umiejętność uzyskania reprezentatywnego efektu bez użycia AI,\n• doświadczenie w projektowaniu grafik i reklam do social mediów,\n• terminowość i sprawna komunikacja.\nMile widziane:\n• znajomość specyfiki branży dziecięcej i komunikacji skierowanej do rodziców.\nOferujemy:\n• stałą, regularną współpracę,\n• rozliczenie za stały pakiet obrobionych zdjęć oraz osobno za materiały do każdej akcji promocyjnej.\nW zgłoszeniu prosimy o:\n• link do portfolio z przykładami retuszu (najlepiej przed i po) oraz grafik reklamowych,\n• proponowaną stawkę za pakiet zdjęć oraz orientacyjną stawkę za materiały do jednej akcji.\nSkontaktujemy się z wybranymi osobami.",
+      "vista": "2026-11-21T19:27:51.757Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden de forma explícita retocar las fotos sin IA («bez użycia AI») y experiencia con Photoshop y Lightroom, algo que no aparece en el perfil de Leo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1066,
+          "salida": 561,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.039819,
+        "generada": "2026-11-21T19:27:50.715Z"
+      }
+    },
     {
       "id": "573621",
       "tipo": "FREELANCE",
@@ -3235,44 +3274,6 @@
         },
         "costeUSD": 0.058529,
         "generada": "2026-11-17T08:38:42.604Z"
-      }
-    },
-    {
-      "id": "371917",
-      "tipo": "FULLTIME",
-      "titulo": "Junior Graphic Designer",
-      "presupuesto": "10.000–12.000 EGP/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371917/Junior-Graphic-Designer",
-      "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "Asfoura Books for Children",
-      "contacto": "Salma Helal",
-      "solicitantes": 0,
-      "cierraEnDias": 29,
-      "dondeSolicitar": "web externa",
-      "descripcion": "Asfoura Books for Children is an Egyptian Publishing House Specialized in Childrens books in Egyptian Arabic \n We are looking for a creative and detail-oriented Junior Graphic Designer to join our team. The role focuses on designing engaging visual content for social media, marketing campaigns, and brand communication, while ensuring consistency across all Asfoura Books communication materials.\n Key Responsibilities\n 1. Social Media & Digital Design\n Design engaging posts, stories, carousels, and reels covers for Instagram and other social media platforms.\n Create visual content for marketing campaigns, book launches, events, and promotions.\n Adapt designs to different digital formats and platforms.\n Work closely with the marketing team to translate content ideas and briefs into creative visuals.\n 2. Communication & Marketing Materials\n Design promotional materials, invitations, banners, flyers, certificates, and other brand communication materials.\n Create designs for events, activations, and seasonal campaigns.\n Ensure all designs follow Asfoura's visual identity and branding guidelines.\n 3. Print Production & Coordination\n Prepare print-ready files and ensure correct dimensions, colors, and specifications.\n Coordinate directly with printing houses and suppliers.\n Follow up on printing orders, samples, production quality, and delivery timelines.\n Ensure the final printed materials meet the required quality standards.\n 4. General Creative Support\n Support the marketing team ",
-      "vista": "2026-11-17T08:39:22.545Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "El sueldo es muy bajo (10.000–12.000 EGP al año, unos pocos cientos de USD) y el puesto exige coordinarse con imprentas y proveedores en Egipto.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1065,
-          "salida": 452,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0142482,
-        "generada": "2026-11-17T08:38:50.118Z"
       }
     }
   ]
