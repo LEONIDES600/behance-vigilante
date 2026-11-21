@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-21T09:04:12.676Z",
+  "actualizado": "2026-11-21T09:16:58.382Z",
   "ofertas": [
+    {
+      "id": "573405",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity and Packaging Design for a Cake Bakery Brand",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573405/Brand-Identity-and-Packaging-Design-for-a-Cake-Bakery-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "shaimaa ali",
+      "solicitantes": 9,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m seeking a Brand Identity Designer with strong Adobe Illustrator skills to create a complete visual identity and packaging design for my cake bakery brand. This is a freelance project with a fixed budget of $1,060 USD, and I need a creative designer with a strong branding and packaging portfolio.\n– Complete visual identity for the cake bakery brand\n– Packaging design concepts and production-ready packaging artwork\n– Editable Adobe Illustrator source files\nCreative Brand Identity Designer with strong Adobe Illustrator skills and a strong portfolio in branding and packaging.\nThe designer should demonstrate strong branding and packaging work through their portfolio.",
+      "vista": "2026-11-21T09:16:58.382Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding y packaging de pastelería: se puede entregar, pero solo hay un proyecto conceptual, así que se ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Shaimaa,\nA cake bakery needs a box that looks as good as the cake inside, so the identity and packaging should grow together from day one.\nI'm Leo, creative director at LeoVisual.nl. Closest work, a concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy steps: logo, colours and type first, then cake box and label concepts, then production-ready artwork with editable Illustrator files.\nBefore you pay anything, I'll send you one logo direction mocked up on your cake box.\n1000 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich formats do you need: slice boxes, whole cake boxes, or both?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 629,
+          "salida": 1579,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.058431,
+        "generada": "2026-11-21T09:16:57.396Z"
+      }
+    },
     {
       "id": "573403",
       "tipo": "FREELANCE",
@@ -3318,45 +3357,6 @@
         },
         "costeUSD": 0.055577,
         "generada": "2026-11-17T00:43:09.188Z"
-      }
-    },
-    {
-      "id": "570385",
-      "tipo": "FREELANCE",
-      "titulo": "Branding for a NYC-Style Pizza Brand",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570385/Branding-for-a-NYC-Style-Pizza-Brand",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for branding for a NYC-style pizza brand. The identity should capture the recognizable character and appeal of New York–style pizza.",
-      "vista": "2026-11-16T22:56:16.860Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Branding e identidad: se puede hacer con diseño gráfico e IA, pero no hay ninguna marca parecida en el portfolio.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA NYC-style pizza brand needs an identity people recognize right away. It should be bold, a bit gritty and full of character, and work just as well on a pizza box as on an Instagram post.\nTo be honest, I don't have a full pizza brand identity in my portfolio yet. Most of my work is AI-driven visuals, motion and web. For example, ORBE and SILENCIO are cinematic AI ads, and LUMEN is a 3D scroll website. In both, building a strong visual character was the core of the job.\nHow I would approach it:\n1. A short moodboard with New York references: street signage, classic pizzeria storefronts and subway typography.\n2. Two or three logo and identity directions (logo, colors, type) for you to choose from.\n3. The chosen direction applied to a pizza box, a menu and a few social posts.\nIf it helps you decide, I'm happy to make a short sample direction first.\nMy price for this would be 1000 USD, with 50% upfront. Delivery takes 7–10 days and includes 2 rounds of changes.\nDo you already have a brand name, and will the identity be used mainly for a physical pizzeria, for delivery, or for both?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 386,
-          "salida": 1242,
-          "cacheLeida": 0,
-          "cacheEscrita": 2999
-        },
-        "costeUSD": 0.041379,
-        "generada": "2026-11-16T22:56:15.813Z"
       }
     }
   ]
