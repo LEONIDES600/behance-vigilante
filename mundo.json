@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-21T11:19:56.441Z",
+  "actualizado": "2026-11-21T13:24:29.762Z",
   "ofertas": [
+    {
+      "id": "lifted-an-upwork-company/jobs/videographers-content-creators-and-filmmakers-needed-to-help-train-ai-models",
+      "tipo": "CONTRACTOR",
+      "titulo": "Videographers, Content Creators, and Filmmakers Needed to Help Train AI Models",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/lifted-an-upwork-company/jobs/videographers-content-creators-and-filmmakers-needed-to-help-train-ai-models?utm_source=api",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Argentina, Australia, Bangladesh, Brazil, Canada, Colombia, Egypt, France, Germany, India, Indonesia, Italy, Malaysia, Mexico, Philippines, Poland, Romania, South Africa, Spain, Thailand, Turkey, United Kingdom, United States, Vietnam",
+      "empresa": "Lifted (an Upwork Company)",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Freelancers will film original clips with their own camera and lighting, following a detailed shot brief, line up and export the footage to spec (1080p, 30 fps), and write a short prompt describing each clip.\n Experience as an independent videographer, content creator, or small crew with a well-lit filming setup\n Own camera, lighting, and tripod gear capable of shooting 1080p at 30 fps (one camera is sufficient for most tasks; select tasks require 2+ cameras)\n Ability to deliver 100% original footage with signed releases from all on-camera adults (no minors permitted)\n Intermediate proficiency in English (must be able to navigate the client’s platform, and write short descriptive prompts in English)\n Located in a Country listed below (VPNs not allowed)\nUnited States, Australia, United King",
+      "vista": "2026-11-21T13:24:29.762Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Hay que vivir en uno de los países de la lista y Países Bajos no está (prohíben VPN); además piden grabar con cámara, luces y modelos propios, no vídeo con IA.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 846,
+          "salida": 487,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.037459,
+        "generada": "2026-11-21T13:24:28.779Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "rustlabs/jobs/ai-conversation-reviewer-social-worker-counselor-psychologist-usd-155-task",
       "tipo": "CONTRACTOR",
@@ -3948,46 +3988,6 @@
         },
         "costeUSD": 0.035741,
         "generada": "2026-11-17T11:55:51.650Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "agencyhires/jobs/graphic-designer",
-      "tipo": "FULL_TIME",
-      "titulo": "Graphic Designer",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/agencyhires/jobs/graphic-designer?utm_source=api",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Agencyhires",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "We are hiring a Graphic Designer for our client, one of the most trusted entrepreneurship media brands in the world.\n Our client started as a small digital magazine in Australia and grew into a global education and media company for founders. Today, their content reaches over 1M entrepreneurs each month through podcasts, courses, newsletters, events, social media, and their membership platform.\n Their podcast has featured some of the biggest names in business, including Mark Cuban, Tim Ferriss, Tony Robbins, Richard Branson, Arianna Huffington, Seth Godin, Barbara Corcoran, Daymond John, Reid Hoffman, Simon Sinek, Alex Hormozi, Emma Grede, Neil Patel, Gary Vaynerchuk, and many more.\n Now they need a talented Graphic Designer who can turn ideas, stories, and business insights into compellin",
-      "vista": "2026-11-17T07:54:11.681Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Puesto remoto de diseño gráfico para redes, miniaturas, banners y landings, que encaja con los servicios de Leo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nTurning Foundr's podcast episodes and founder interviews into carousels, YouTube thumbnails and email banners that stop the scroll and still feel on-brand is the kind of daily design work I enjoy most.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen). I design ads, social graphics, listing images and landing pages, working in Adobe tools and Figma.\nClosest example, a campaign built around one clear message:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nMy approach: pull the key insight from each episode or brief, turn it into one strong headline, build layouts, type and color from your brand guidelines, then adapt each piece to every platform and refine it based on feedback and performance.\nBefore any decision, I'll send you one Instagram carousel and one YouTube thumbnail for a recent Foundr episode.\nWhich formats take up most of the weekly volume right now: carousels, thumbnails or campaign assets?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1605,
-          "salida": 1734,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.064805,
-        "generada": "2026-11-17T07:54:10.648Z"
       },
       "fuente": "himalayas"
     }
