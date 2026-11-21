@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-21T03:00:43.969Z",
+  "actualizado": "2026-11-21T05:05:17.134Z",
   "ofertas": [
+    {
+      "id": "experts-inside-ag/jobs/projektleiter-in-fur-microsoft-365-und-ki-projekte",
+      "tipo": "FULL_TIME",
+      "titulo": "Projektleiter:in für Microsoft 365 und KI Projekte",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/experts-inside-ag/jobs/projektleiter-in-fur-microsoft-365-und-ki-projekte?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Guernsey, Holy See (Vatican City State), Hungary, Iceland, Ireland, Isle of Man, Italy, Jersey, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Monaco, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Svalbard and Jan Mayen, Sweden, Switzerland, Ukraine, United Kingdom, Åland Islands",
+      "empresa": "Experts Inside AG",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Worum geht es:\n Bei Experts Inside steuerst du Microsoft 365-, Copilot- und AI-Projekte , die echte Geschäftsprozesse verändern, nicht nur Lizenz-Rollouts. Egal ob klassische M365-Migration, Copilot-Einführung oder Agentic-AI-Implementierung: Du hältst die Fäden zusammen, koordinierst Teams und trägst die Verantwortung für Ergebnisse, die beim Kunden spürbar ankommen. Als Trusted Advisor begleitest du unsere Kunden von der ersten Use-Case-Idee bis zum produktiven Betrieb und übersetzt technologische Möglichkeiten in greifbare Mehrwerte. \n Deine Aufgaben:\n Projektleitung M365 & Copilot : Du planst, steuerst und lieferst Microsoft 365-Rollouts sowie Copilot-Einführungsprojekt, von der Idee und Planung über die Umsetzung bis hin zur weiteren Begleitung des Kunden..\n AI Projekte : Du leitest P",
+      "vista": "2026-11-21T05:05:17.134Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden alemán con soltura, al menos 3 años dirigiendo proyectos de IT y experiencia demostrada con Microsoft 365, y Leo no tiene nada de eso.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 2524,
+          "salida": 374,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.041911,
+        "generada": "2026-11-21T05:05:16.444Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "z-laser-gmbh/jobs/senior-graphic-designer-m-f-d",
       "tipo": "FULL_TIME",
@@ -3948,46 +3988,6 @@
         },
         "costeUSD": 0.030183,
         "generada": "2026-11-16T21:45:54.551Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "micro1/jobs/e-commerce-data-catalog-specialist-3986931196",
-      "tipo": "CONTRACTOR",
-      "titulo": "E-commerce Data & Catalog Specialist",
-      "presupuesto": "40–50 USD/h",
-      "enlace": "https://himalayas.app/companies/micro1/jobs/e-commerce-data-catalog-specialist-3986931196?utm_source=api",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "micro1",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Job Title: E-commerce Data & Catalog Specialist\n Job Type: Contractor\n Location: Remote\n Job Summary: In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required — your domain knowledge is what matters.\n Key Responsibilities:\n Manage, structure, and curate large-scale e-commerce product catalogs, ensuring data accuracy and consistency across platforms.\n Develop, implement, and refine product taxonomy frameworks to simulate real-world e-commerce classifications and browsing experiences.\n Normalize and map product data sourced from diverse databases, applying best practices in structured dataset management.\n Create and model realisti",
-      "vista": "2026-11-16T21:46:02.323Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es un puesto de datos y catálogo para entrenar IA que exige SQL/NoSQL, diseño de esquemas y taxonomías de catálogos grandes, y Leo no tiene esa especialidad.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1138,
-          "salida": 697,
-          "cacheLeida": 2999,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0190918,
-        "generada": "2026-11-16T21:46:01.541Z"
       },
       "fuente": "himalayas"
     }
