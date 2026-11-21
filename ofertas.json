@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-21T09:54:45.249Z",
+  "actualizado": "2026-11-21T10:53:35.525Z",
   "ofertas": [
+    {
+      "id": "368497",
+      "tipo": "FULLTIME",
+      "titulo": "Junior visual designer",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/368497/Junior-visual-designer",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-21T10:53:35.525Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "372689",
       "tipo": "FULLTIME",
@@ -3265,45 +3285,6 @@
         "tokens": null,
         "costeUSD": 0,
         "generada": "2026-11-17T05:43:52.162Z"
-      }
-    },
-    {
-      "id": "570457",
-      "tipo": "FREELANCE",
-      "titulo": "Cinematic 3D Virtual Gift Animation for OURSMILES Livestreaming Platform",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570457/Cinematic-3D-Virtual-Gift-Animation-for-OURSMILES-Livestreaming-Platform",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "OURSMILES, a social media and livestreaming platform",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a professional 3D animator to create a paid, one-time 15-second cinematic virtual gift for OURSMILES, a social media and livestreaming platform. My budget is negotiable, and I need commercial usage rights, final animation files, a total price quotation, and a delivery timeline. The animation will feature a royal warrior and a powerful roaring lion with realistic movement, dramatic golden effects, and spectacular animation. It must use a transparent background, run smoothly on mobile devices, and display above livestream video without blocking controls. I will provide reference images, and this project may lead to additional virtual gift animations.",
-      "vista": "2026-11-17T03:44:41.484Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con su motion y su trabajo cinematográfico, pero no tiene ninguna pieza igual de animación 3D realista de un guerrero y un león, así que la carta ofrece una prueba corta antes del pago.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA royal warrior and a roaring lion with golden effects, playing over the livestream without blocking the controls, makes a strong 15-second gift for OURSMILES.\nClosest work:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nPlan: storyboard from your references, warrior and lion animation, golden effects, then export on a transparent background, light enough for mobile.\nBefore you pay anything, I'll send you a short test of the lion's roar with gold effects on a transparent background.\nPrice: 500 USD total, 50% upfront, delivery in 2–5 days, 2 rounds of changes, commercial rights and final files included.\nWhich format does your app use for gifts (WebM, MP4 with alpha, other) and is there a max file size?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "2–5 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 615,
-          "salida": 1548,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.057125,
-        "generada": "2026-11-17T03:44:40.209Z"
       }
     }
   ]
