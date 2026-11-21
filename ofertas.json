@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-21T11:16:29.691Z",
+  "actualizado": "2026-11-21T11:40:55.733Z",
   "ofertas": [
+    {
+      "id": "573439",
+      "tipo": "FREELANCE",
+      "titulo": "cosmatic packaging design",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573439/cosmatic-packaging-design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Amani Nasab",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We’re looking for a freelance graphic designer experienced in luxury beauty and cosmetic packaging to review and refine our existing bottle label designs and create carton packaging. Strong Adobe Illustrator skills and experience with print-ready files are essential.",
+      "vista": "2026-11-21T11:40:55.733Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es packaging cosmético, encaja como dudosa: no hay una pieza igual, así que se ofrece una muestra antes de que pague.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Amani,\n\nRefining your existing bottle labels and extending them into a carton that feels just as premium means the label and the box should read as one family.\nClosest work, a concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd do it: review the current labels (hierarchy, type, finish), refine them, then build the carton on your dieline in Illustrator and deliver print-ready files.\nBefore you pay anything, I'll send you one refined label direction next to a carton mockup.\n500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nDo you already have the printer's dieline for the carton?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 453,
+          "salida": 1206,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.050267,
+        "generada": "2026-11-21T11:40:54.750Z"
+      }
+    },
     {
       "id": "573437",
       "tipo": "FREELANCE",
@@ -3250,45 +3289,6 @@
         },
         "costeUSD": 0.055633,
         "generada": "2026-11-17T08:20:08.661Z"
-      }
-    },
-    {
-      "id": "570519",
-      "tipo": "FREELANCE",
-      "titulo": "Squarespace Website Redesign",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570519/Squarespace-Website-Redesign",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a website designer to help me redesign my Squarespace website. The project focuses on improving the website’s overall design and presentation.",
-      "vista": "2026-11-17T06:49:17.623Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Rediseño web en remoto, encaja con sus servicios de diseño web; presupuesto aceptable.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA Squarespace redesign focused on overall design and presentation comes down to a clearer layout, stronger visuals and a consistent look on every page.\nI'm Leo, creative director at LeoVisual.nl. My closest work:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nHow I'd do it: review your current site, design a new direction for the homepage, then roll it out to the other pages in Squarespace with consistent typography, colours and spacing.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes included.\nHow many pages does your site have, and is there a website whose style you like?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 408,
-          "salida": 1464,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.054617,
-        "generada": "2026-11-17T06:49:16.686Z"
       }
     }
   ]
