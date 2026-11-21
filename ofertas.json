@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-21T21:16:28.517Z",
+  "actualizado": "2026-11-21T23:52:47.891Z",
   "ofertas": [
+    {
+      "id": "573683",
+      "tipo": "FREELANCE",
+      "titulo": "Projeto photobooth",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573683/Projeto-photobooth",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "nathalia dias",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Oii! Estou à procura de desenvolver uma cabine fotográfica personalizada.\nO conceito é uma cabine com estética minimalista, com acabamento exterior em aço/metal. Já tenho algumas referências visuais e uma simulação da aparência e das proporções que pretendo.\nProcuro um projeto de design industrial que contemple tanto a estrutura externa como a organização técnica e funcional interna, incluindo câmera, ecrã, iluminação, impressora, componentes internos, cablagem e acessos para manutenção.\nO objetivo é desenvolver um modelo 3D e desenhos técnicos completos, que possam ser utilizados por um fabricante para construir a cabine física.",
+      "vista": "2026-11-21T23:52:47.891Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden diseño industrial con planos técnicos completos para que un fabricante construya la cabina (CAD técnico), y Leo no hace eso.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 607,
+          "salida": 333,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.033423,
+        "generada": "2026-11-21T23:52:47.090Z"
+      }
+    },
     {
       "id": "573659",
       "tipo": "FREELANCE",
@@ -3235,45 +3274,6 @@
         },
         "costeUSD": 0.0175682,
         "generada": "2026-11-17T08:45:00.576Z"
-      }
-    },
-    {
-      "id": "371995",
-      "tipo": "FULLTIME",
-      "titulo": "Video Editor (Remote)",
-      "presupuesto": "300–450 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/371995/Video-Editor-(Remote)",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Manarah Solutions",
-      "contacto": "Manarah Solutions",
-      "solicitantes": 0,
-      "cierraEnDias": 29,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Manarah Solutions is a digital marketing & IT agency looking for a creative Video Editor to join our team remotely (full-time, online).\n Responsibilities: \n Edit short-form videos (Reels, TikTok, Stories) and ads for our clients' social media pages\n Add motion graphics, text animations, transitions, sound design and color correction\n Edit Arabic content with accurate subtitles\n Turn raw footage and briefs into engaging, on-brand videos\n Deliver revisions quickly and meet deadlines\n Requirements: \n Strong portfolio of social media / advertising videos (please share it on Behance)\n Proficiency in Premiere Pro / After Effects or CapCut\n Understanding of social media trends and hooks\n Fluent in Arabic\n Reliable internet connection and good communication\n What we offer: \n Monthly salary: $300 – $450 depending on experience\n 100% remote work\n Continuous work with a variety of brands (beauty, healthcare, retail and more)\n To apply: submit your application through Behance with a link to your best video work.",
-      "vista": "2026-11-17T08:45:11.490Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Se descarta porque exige árabe fluido y paga 300–450 USD al mes por jornada completa, unos 2–3 USD/h.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 611,
-          "salida": 415,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.011692200000000002,
-        "generada": "2026-11-17T08:45:10.580Z"
       }
     }
   ]
