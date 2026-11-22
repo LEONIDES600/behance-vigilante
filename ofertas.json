@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-22T13:01:34.535Z",
+  "actualizado": "2026-11-22T13:13:08.171Z",
   "ofertas": [
+    {
+      "id": "573819",
+      "tipo": "FREELANCE",
+      "titulo": "Arabic Brand Identity Design",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573819/Arabic-Brand-Identity-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Muaz qaimari",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a designer to create a brand identity in Arabic. The identity should establish a cohesive visual presence tailored to Arabic-language branding.\n– Arabic brand identity concept\n– Core visual identity assets, including logo usage, color palette, and typography direction",
+      "vista": "2026-11-22T13:13:08.171Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es identidad de marca, que entra en dudosa; se envía ofreciendo una muestra gratis y pidiendo al cliente que confirme los textos en árabe.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Muaz!\n\nAn Arabic identity needs the logo, colours and type to feel native to the script from the start, not translated afterwards.\n\nClosest piece, a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\n\nHow I'd do it: a short brief on your brand and audience, 2 logo directions built on Arabic typefaces, then colour palette, typography direction and logo usage rules in one guide. You confirm all Arabic wording before the final files.\nBefore you pay anything, I'll send you one logo direction in Arabic with a first colour palette.\n\n500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\n\nWhat is the brand name, and what does the business do?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 478,
+          "salida": 1365,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.053547,
+        "generada": "2026-11-22T13:13:07.220Z"
+      }
+    },
     {
       "id": "573815",
       "tipo": "FREELANCE",
@@ -3216,45 +3255,6 @@
         "tokens": null,
         "costeUSD": 0,
         "generada": "2026-11-17T12:29:29.952Z"
-      }
-    },
-    {
-      "id": "570823",
-      "tipo": "FREELANCE",
-      "titulo": "English E-Commerce Website UI/UX Redesign and Front-End Development",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570823/English-E-Commerce-Website-UIUX-Redesign-and-Front-End-Development",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "UI/UX Redesign and Frontend Development for an Existing E-commerce Site | 7 Days | US$500–800\nWe’re looking for a freelancer who can handle UI design, UX, and frontend development for a one-time project.\nWe already have an English-language custom merchandise site with an existing frontend and defined business logic. Customers can buy ready-made items, customize products with licensed artwork, or upload their own designs. We’d like you to walk through the current site with us, discuss which interactions need to change, then redesign the key screens and implement them in our existing codebase.\nThe goal is for first-time shoppers to understand where to start, how to preview a custom item, and how to review their order before checkout. Visually, we’d like the products and artwork previews to stand out and the interface to feel less templated.\nDeliverables: Editable design files and working frontend pages integrated into the existing project. Timeline: 7 days. Total project budget: US$500–800. Please share one project you personally designed and implemented, along with your quote and the screens you can complete within seven days.",
-      "vista": "2026-11-17T12:13:52.500Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Rediseño UI/UX y front-end de una web en código, encaja con sus webs LUMEN, FORJA y MORVAIN; 800 USD dentro de su presupuesto.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nHelping first-time shoppers know where to start, preview their custom item with your licensed artwork and review the order before checkout is a clear goal for 7 days.\nI'm Leo, creative director at LeoVisual.nl. Websites I designed and coded myself (LUMEN, FORJA, MORVAIN, three.js + GSAP):\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nPlan: walkthrough call, then redesign 3 key screens in Figma (entry/home, product customizer with preview, cart and order review) and implement them in your codebase.\nQuote: 800 USD, 50% upfront, 7 days, 2 rounds of changes, editable files included.\nWhich framework is your current frontend built on?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 800,
-        "anticipoPct": 50,
-        "plazo": "7 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 724,
-          "salida": 1529,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.057181,
-        "generada": "2026-11-17T12:13:51.356Z"
       }
     }
   ]
