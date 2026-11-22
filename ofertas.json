@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-22T19:01:59.325Z",
+  "actualizado": "2026-11-22T20:25:07.154Z",
   "ofertas": [
+    {
+      "id": "573933",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity Design for FORGE Fitness and Performance Startup",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573933/Brand-Identity-Design-for-FORGE-Fitness-and-Performance-Startup",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Liam Hill",
+      "solicitantes": 8,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a brand identity designer to create the foundational visual identity for FORGE, an emerging fitness and performance startup. The work should include a bold, minimalist, conceptually meaningful logo, custom typography, and a cohesive, scalable brand system designed to support long-term growth.\n- Primary FORGE logo, recognizable standalone symbol, and versatile logo variations for digital and physical applications.\n- Custom typography, refined color palette, and cohesive visual identity system adaptable to future sub-brands and services.\n- Concise brand guidelines and editable vector/source files (SVG, AI/EPS, PNG) with full commercial usage rights.\nLooking for a creative designer (to compensate for my lack thereof) with strong conceptual thinking, attention to detail, and the ability to translate a deeper brand philosophy into a distinctive visual identity. Portfolio quality, creative alignment, and economic pricing matter more than professional experience or credentials.\nBold, modern, minimalist, and sophisticated, with a strong emphasis on intentional symbolism and custom typography. \nThe visual direction should communicate strength, resilience, transformation, precision, and continuous improvement. I envision a premium, timeless aesthetic with a dark neutral palette and refined copper/amber accents. \nThe design should be distinctive and meaningful without relying on obvious fitness imagery or overly aggressive styling.\nFORGE will serve as the master brand for a growi",
+      "vista": "2026-11-22T20:25:07.154Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Identidad de marca: Leo solo tiene un proyecto concepto, así que se envía ofreciendo una muestra del símbolo; el presupuesto es razonable.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Liam,\nFORGE as a philosophy of strength and transformation, not a typical fitness brand, with dark neutrals and copper/amber accents, is a strong brief.\nI'm Leo, creative director at LeoVisual.nl. Closest work, a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy process: study your concepts and overview, explore symbol directions with AI, refine the chosen one in vector, then build the wordmark, palette and concise guidelines, delivered as SVG, AI/EPS and PNG with full commercial rights.\nBefore you pay anything, I'll send you one FORGE symbol direction in copper on dark.\n500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich of your preliminary concepts feels closest to the philosophy?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1275,
+          "salida": 1702,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.063475,
+        "generada": "2026-11-22T20:25:06.038Z"
+      }
+    },
     {
       "id": "573911",
       "tipo": "FREELANCE",
@@ -3220,45 +3259,6 @@
         },
         "costeUSD": 0.014368200000000001,
         "generada": "2026-11-17T14:05:54.631Z"
-      }
-    },
-    {
-      "id": "372121",
-      "tipo": "CONTRACT",
-      "titulo": "Creative Packaging Designer, Beauty & Haircare",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/372121/Creative-Packaging-Designer-Beauty-Haircare",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Mimane Glow",
-      "contacto": "Kevin Herrera",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "We're looking for a packaging designer to shape how our brand looks on shelf, in hand and on screen as our line grows.\n THE CREATIVE BRIEF\n Our world is warm and editorial: serif typography, sage and warm gold, botanical textures, soft natural light. You'll turn that world into a packaging system, the visual language, typography, color and finishes that make every product feel like one family. You'll start from our existing packaging and carry the look forward as we launch new products.\n WHAT YOU'LL DO\n - Develop creative concepts and visual directions for the packaging system\n - Design the typography, layout and color story across the range\n - Choose finishes and materials (tint, frost, silkscreen, labels) that bring the concepts to life\n - Make sure the designs read clearly as small thumbnails online\n - Take the chosen direction through to print-ready artwork and proofs\n WHAT YOU BRING\n - A portfolio of produced beauty, wellness or lifestyle packaging, with photos of the printed work\n - At least one product line designed as a family\n - A strong eye for typography, serif especially\n - Working knowledge of dielines and print finishes\n - Clear English and a few working hours that overlap US Eastern time\n WHAT WE PROVIDE\n - Brand guidelines (fonts, colors, art direction)\n - Product photography and current packaging files\n - Manufacturer specs\n HOW WE WORK\n - Remote contract, working directly with the founder\n - Start: December or early January\n TO APPLY, SEND\n 1. Your portfolio",
-      "vista": "2026-11-17T14:06:56.958Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Como requisito duro piden 2-3 proyectos de packaging ya impresos (con fotos), troqueles y artes finales para imprenta, y Leo no tiene nada de eso.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 829,
-          "salida": 1038,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0250242,
-        "generada": "2026-11-17T14:06:09.225Z"
       }
     }
   ]
