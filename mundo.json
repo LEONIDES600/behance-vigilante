@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-22T14:07:51.801Z",
+  "actualizado": "2026-11-22T15:41:39.120Z",
   "ofertas": [
+    {
+      "id": "163833",
+      "tipo": "CONTRACT",
+      "titulo": "Lead Creative",
+      "presupuesto": "",
+      "enlace": "https://jobicy.com/jobs/163833-lead-creative",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "LATAM",
+      "empresa": "Superside",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Superside is looking for a Lead Creative with a passion for AI to shape creative excellence across branding, landing pages, ads, social, print, and presentations. You’ll guide a global team of top-tier creatives, combining strategic leadership with hands-on craft to deliver human-centered, high-impact work for leading brands worldwide.\n This role sits at the intersection of creativity and innovation, elevating creative quality while helping evolve our capabilities through the thoughtful use of AI tools. You’ll act as both a mentor and a maker, fostering collaboration, empathy, and clarity across every project. You bring curiosity, composure, and humility to your leadership, helping others grow while delivering consistently outstanding creative work.\n What you’ll do\n Generate and refine vis",
+      "vista": "2026-11-22T15:41:39.120Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto remoto solo para LATAM y exige más de 5 años como Lead Creative con equipos, además de inglés excelente y Figma avanzado.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1533,
+          "salida": 506,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.040587,
+        "generada": "2026-11-22T15:41:38.194Z"
+      },
+      "fuente": "jobicy"
+    },
     {
       "id": "metricool/jobs/technical-seo-ai-search-specialist-fully-remote",
       "tipo": "FULL_TIME",
@@ -3946,46 +3986,6 @@
         "generada": "2026-11-18T00:02:53.770Z"
       },
       "fuente": "remoteok"
-    },
-    {
-      "id": "163037",
-      "tipo": "CONTRACT",
-      "titulo": "Product Owner, AI Pod",
-      "presupuesto": "2700–3300 USD/mes",
-      "enlace": "https://jobicy.com/jobs/163037-product-owner-ai-pod",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "LATAM",
-      "empresa": "Enumerate",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "We are seeking a detail-oriented, analytical Product Owner (Contractor) for two AI Pods that build the foundations of Numa, Enumerate ’s AI product line, including Ask Numa and Homeowner Assist. This role is focused on execution, not product strategy or roadmap direction. The Product Owner will own and detail the AI Pod backlog, lead user acceptance testing (UAT) for every release, document test findings clearly, and analyze customer usage and metrics to inform what gets built next. The role reports to the Director of Product Management and works closely with Product Managers and Engineering. This is a strong fit for someone with a QA background who has recently moved into a product role and wants to grow in product management working on live, customer-facing AI products.\n This is a remote",
-      "vista": "2026-11-17T20:41:15.890Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden residir en LATAM y un perfil de Product Owner con experiencia en QA y UAT, que no encaja con Leo.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1550,
-          "salida": 393,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.037765,
-        "generada": "2026-11-17T20:41:14.891Z"
-      },
-      "fuente": "jobicy"
     }
   ]
 }
