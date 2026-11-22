@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-22T16:38:04.444Z",
+  "actualizado": "2026-11-22T18:37:50.967Z",
   "ofertas": [
+    {
+      "id": "573907",
+      "tipo": "FREELANCE",
+      "titulo": "Elite Infographic Carousel designer",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573907/Elite-Infographic-Carousel-designer",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Kuramo Bay",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "High-quality infographic carousel design for social media. To evoke a prestige neo-noir mood for a 6-slide carousel for the launch of a medical thriller novel. Aspect ratios: 9:16 & 4:5.\nDelivery date: 15th December 2026.",
+      "vista": "2026-11-22T18:37:50.967Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Leo hace diseño gráfico para redes: un carrusel de 6 slides en remoto con buen presupuesto y plazo holgado. Como no hay un proyecto parecido, se ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\n\nA medical thriller launch needs a carousel that feels like the opening scene: deep shadows, cold clinical light and sharp type that keeps people swiping through all 6 slides.\nI'm Leo, creative director at LeoVisual.nl.\nBefore you pay anything, I'll send you slide 1 in 4:5 and 9:16 so you can judge the neo-noir mood with your novel.\nMy plan: set the palette and type system, build the 6 slides so the infographic content reads clearly on a phone, then adapt every slide to both ratios.\nPrice: 500 USD, 50% upfront. Delivery in 7–10 days, well before 15 December, with 2 rounds of changes.\nAre the slide text and cover art ready, or should I shape the copy from the book's blurb?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 473,
+          "salida": 1386,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.053947,
+        "generada": "2026-11-22T18:37:49.908Z"
+      }
+    },
     {
       "id": "573881",
       "tipo": "FREELANCE",
@@ -3220,45 +3259,6 @@
         },
         "costeUSD": 0.038336199999999994,
         "generada": "2026-11-17T14:06:26.234Z"
-      }
-    },
-    {
-      "id": "372065",
-      "tipo": "FULLTIME",
-      "titulo": "Senior Visual Designer (Full-Time)",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/372065/Senior-Visual-Designer-(Full-Time)",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Wakabuy",
-      "contacto": "Desmond Erebi",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "We have an e-commerce and logistics company that helps customers shop from U.S. stores, dealers, and auctions and ship their purchases worldwide. We’re hiring a full-time Senior Graphic & Multimedia Designer with 5+ years of experience in visual, multimedia, print, and marketing design.\n You’ll own the day-to-day design work, from creating campaign concepts to delivering final assets. You’ll work with our marketing and product teams to make our shopping, shipping, and vehicle services easy to understand and visually consistent across channels.\n What you’ll do \n Create social media graphics, digital ads, email graphics, and promotional campaign assets.\n Design website banners, landing page visuals, and graphics for our shopping and shipping platform.\n Create and refine logos, icons, brand guidelines, and reusable design templates.\n Produce short promotional videos, motion graphics, and animated social content.\n Prepare print-ready flyers, brochures, signage, and branded merchandise artwork.\n Manage multiple projects, meet deadlines, and deliver organized, editable source files.\n What we’re looking for \n 5+ years of professional experience across visual, multimedia, print, and marketing design.\n A portfolio that shows strong typography, layout, brand consistency, and the ability to adapt designs for different channels.\n Proficiency with tools such as Figma, Photoshop, and Illustrator, plus a video or motion design tool.\n Clear communication and the ability to take a brief from ",
-      "vista": "2026-11-17T14:06:56.958Z",
-      "carta": {
-        "decision": "espera",
-        "motivo": "Buen encaje (redes, banners, vídeo, motion y web para e-commerce), pero exigen 5+ años y preguntan la fecha de inicio y el horario en hora del Este de EE. UU., que no tengo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Desmond,\n\nMaking Wakabuy's shopping, shipping and vehicle services easy to understand across social, web, email and print needs one consistent visual system, and that is the day-to-day work I would own.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen). My range: cinematic ads (ORBE, SILENCIO: concept, edit and sound), 3D scroll websites built in code (LUMEN, FORJA, MORVAIN), and listing images, videos, A+ content and the website for a home brand selling on Amazon across Europe (under NDA).\nVideo sample, concept, edit and sound by me in Premiere and After Effects:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nWeb and landing visuals:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nBeyond design, I set up workflow automations in n8n and Make, such as daily team reports and WhatsApp/Telegram assistants. Before any decision, I'll send you one Wakabuy shipping idea as a social post, a website banner and a print flyer, so you can see how I adapt it to each channel. My rate is 25 USD/h.\nWhich service would you like to push first: shopping, shipping or vehicles?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "Piden 5+ años de experiencia: ¿la enviamos igual? Y si es que sí, ¿cuándo podrías empezar a tiempo completo y qué horas puedes cubrir en hora del Este de EE. UU.?",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1005,
-          "salida": 2629,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.057548199999999994,
-        "generada": "2026-11-17T14:06:55.632Z"
       }
     }
   ]
