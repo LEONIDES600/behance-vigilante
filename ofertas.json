@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-22T07:13:25.818Z",
+  "actualizado": "2026-11-22T09:49:02.909Z",
   "ofertas": [
+    {
+      "id": "573779",
+      "tipo": "FREELANCE",
+      "titulo": "هوية بصرية",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573779/-",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Nida Elsheikh",
+      "solicitantes": 2,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "احتاج تصميم هوية بصرية مؤسسية تشمل:\nتصميم الشعار بنسخة عربية وإنجليزية (ثنائي اللغة).\nالألوان والخطوط وعناصر الهوية المساندة.\nدليل هوية (Brand Guidelines).\nتطبيقات الهوية على البنود التالية.\nالشخصية المطلوبة\nرسمية وفخمة، وقوية وراسخة. الألوان مفتوحة لاقتراح المصمم، ونرحب باقتراحاتك في الرمز والاتجاه.\nقائمة التطبيقات (19 بنداً)\nالمطبوعات الإدارية\nورقة مراسلات A4 (Letterhead)\nظرف DL (110×220 مم)\nظرف C4 (229×324 مم)\nظرف كبير B4 (250×353 مم)\nبطاقة عمل للموظفين (موحدة التصميم مع تمييز بسيط للقسم)\nدفتر نوته A5\nدفتر نوته A4\nملف عقود (Presentation Folder)\nختم الشركة الدائري (Rubber Stamp)\nفاتورة ضريبية (متوافقة مع اشتراطات هيئة الزكاة والضريبة والجمارك)\nسند قبض وسند صرف\nالبيئة المكتبية\nلوحة الطابق/المبنى (Floor Directory)\nعلم الشركة\nعلم مكتبي (Desk Flag)\nالأصول الرقمية\nقالب PowerPoint للعروض الاستثمارية (15 تخطيطاً فأكثر)\nقالب Word للتقارير الرسمية\nتوقيع بريد إلكتروني للإدارة العليا\nتوقيع بريد إلكتروني للموظفين\nتصميم واجهة الموقع الإلكتروني (الرئيسية، من نحن، الخدم",
+      "vista": "2026-11-22T09:49:02.909Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exige árabe (logo bilingüe, documentos y factura según la normativa fiscal saudí), y son 19 aplicaciones, manual de marca, plantillas y web por 250 USD como mucho.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1020,
+          "salida": 873,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.045875,
+        "generada": "2026-11-22T09:49:02.164Z"
+      }
+    },
     {
       "id": "573753",
       "tipo": "FREELANCE",
@@ -3216,45 +3255,6 @@
         },
         "costeUSD": 0.053649,
         "generada": "2026-11-17T11:48:20.746Z"
-      }
-    },
-    {
-      "id": "570781",
-      "tipo": "FREELANCE",
-      "titulo": "Branding- of Verpakkingsontwerp",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570781/Branding-of-Verpakkingsontwerp",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Sas Distilleries",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Wij zijn SAS Distilleries, een kleine familiezaak uit de regio Gent. Met BENEDICTI starten we een eigen lijn sauzen en condimenten. Het eerste product is een gefermenteerde chilisaus, er volgen er nog.\nMerknaam, woordmerk, merkconcept, fles en dop (100, 250 en 500 ml) en een eerste etiketvoorstel zijn er al. We zoeken nog een beeldstijl die één geheel vormt met de merknaam, met een eigen embleem per product. Voor de chilisaus is dat een minotaurus.\nInteresse? Stuur je portfolio en een korte voorstelling. In een gesprek geven we graag de volledige uitleg.",
-      "vista": "2026-11-17T11:41:17.690Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Pide branding y packaging (un estilo visual con un emblema por producto) y no hay proyecto igual en el portfolio, así que se ofrece una muestra antes de cobrar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nBENEDICTI already has its name, wordmark, bottles and a first label, so the missing piece is an image style that feels like one family, with its own emblem per product, starting with a minotaur for the fermented chili sauce.\nI'm Leo Gómez, creative director at LeoVisual.nl in Amsterdam.\nBefore you pay anything, I'll send you one minotaur emblem direction mocked up on your 250 ml label.\nMy approach: study the wordmark, define one shared line and colour system, design the minotaur, then set simple rules so future emblems match.\nPrice: 5000 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nShould the emblems feel engraved and classic, or bold and modern?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 637,
-          "salida": 1238,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.051013,
-        "generada": "2026-11-17T11:41:16.540Z"
       }
     }
   ]
