@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-21T23:52:47.891Z",
+  "actualizado": "2026-11-22T01:13:40.380Z",
   "ofertas": [
+    {
+      "id": "573697",
+      "tipo": "FREELANCE",
+      "titulo": "Identidad De Marca Para Empresa De Mascotas Con Logo Y Packaging",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573697/Identidad-De-Marca-Para-Empresa-De-Mascotas-Con-Logo-Y-Packaging",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "M Z",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Buscamos crear una identidad de marca para nuestra empresa de la industria de las mascotas. Necesitamos un logo y diseños de packaging coherentes con la nueva identidad visual.\n– Identidad visual de marca para la empresa de mascotas\n– Diseño de logo en formatos utilizables\n– Diseño de packaging alineado con la identidad de marca",
+      "vista": "2026-11-22T01:13:40.380Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Piden branding y packaging: Leo tiene la identidad conceptual SESTEO como prueba, pero ningún caso real del sector mascotas, así que la carta ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "media",
+        "texto": "¡Hola!\nUna marca de mascotas necesita que el logo y el packaging se vean como una sola marca desde el primer vistazo en la estantería.\nSoy director creativo de LeoVisual.nl; esta es una identidad conceptual que diseñé, con logo y packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nCómo lo haría: 1) brief sobre tu público y valores, 2) dos o tres direcciones de logo, 3) paleta y tipografía, 4) packaging aplicado y logo en SVG, PNG y PDF.\nAntes de que pagues nada, te envío una dirección de logo aplicada a uno de tus envases.\nPrecio: 1000 USD, 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿Qué productos tenéis (comida, accesorios, higiene) y cuántos envases hay que diseñar?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 531,
+          "salida": 1387,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.054199,
+        "generada": "2026-11-22T01:13:39.131Z"
+      }
+    },
     {
       "id": "573683",
       "tipo": "FREELANCE",
@@ -3235,45 +3274,6 @@
         },
         "costeUSD": 0.0139842,
         "generada": "2026-11-17T08:44:54.257Z"
-      }
-    },
-    {
-      "id": "362077",
-      "tipo": "FULLTIME",
-      "titulo": "Generalist Technical Artist",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/362077/Generalist-Technical-Artist",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Wonder-Brains",
-      "contacto": "Julia Bratkevich",
-      "solicitantes": 0,
-      "cierraEnDias": 29,
-      "dondeSolicitar": "web externa",
-      "descripcion": "About the Role\n This is a multidisciplinary, art-focused role for Middle to Senior specialists who combine strong visual skills with an interest in games, interactive experiences, and AI-assisted creative production.\n We are open to candidates from a variety of creative backgrounds, including 3D Artists, 3D Generalists, 2D/3D Artists, Gameplay Animators, Motion Designers, Technical Artists, Creative Technical Artists, and other game-art specialists with strong visual and 3D production skills.\n You do not need to be a traditional Technical Artist or a software developer to be a good fit. The core of this role is art and visual production : creating and adapting assets, animation, composition, lighting, materials, VFX, visual feedback, and overall game feel.\n The role focuses on creating and polishing interactive HTML5 playable ads for mobile games . You may work across 2D and 3D asset creation, modeling, animation, materials, lighting, optimization, gameplay polish, and interactive experiences.\n You will work extensively with Blender and game-ready assets , while AI is deeply integrated into the production workflow.\n Playable ads also involve HTML5, JavaScript / TypeScript and gameplay logic, but you are not expected to be a developer or write everything from scratch . A significant part of the coding and implementation can be handled with AI coding agents and AI-assisted tools .\n This is a strong opportunity for an artist who wants to remain hands-on and visually focused whil",
-      "vista": "2026-11-17T08:45:11.490Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Como requisitos obligatorios pide más de 2 años como artista de videojuegos y con Blender, y más de 1 año con Unity o Unreal, y Leo no tiene esa experiencia.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1245,
-          "salida": 582,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0175682,
-        "generada": "2026-11-17T08:45:00.576Z"
       }
     }
   ]
