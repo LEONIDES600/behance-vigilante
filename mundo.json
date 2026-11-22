@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-22T16:13:03.064Z",
+  "actualizado": "2026-11-22T22:25:35.756Z",
   "ofertas": [
+    {
+      "id": "rankings-io/jobs/sr-short-form-video-editor-ai-workflows-remote-latam",
+      "tipo": "CONTRACTOR",
+      "titulo": "Sr. Short-form Video Editor - AI Workflows (Remote, LATAM)",
+      "presupuesto": "3000–4500 USD/mes",
+      "enlace": "https://himalayas.app/companies/rankings-io/jobs/sr-short-form-video-editor-ai-workflows-remote-latam?utm_source=api",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Brazil, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas), Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands, Suriname, Trinidad and Tobago, Turks and Caicos Islands, Uruguay, Venezuela, Virgin Islands, British, Virgin Islands, U.S.",
+      "empresa": "Rankings.io",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Description \n This is a remote independent contractor opportunity working closely with our US-based team. Candidates should have strong English communication skills and availability for scheduled collaboration during US Central or Eastern Time hours. \n Rankings.io is a legal marketing agency for elite law firms. Partnering with our internal marketing team, you'll create short-form video for Rankings.io , Personal Injury Mastermind (PIM), PIMCON, LawHer, Rankings Radio, and our growing family of brands as we expand our shows, podcasts, and YouTube presence.\n About the role \n You're a video editor and storyteller first. You can take a 60-minute podcast, find the 30–90 seconds that will resonate most, and turn that moment into a complete, engaging story.\n You make talking-head footage feel dy",
+      "vista": "2026-11-22T22:25:35.756Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Solo admite residentes en LATAM, exige más de 5 años de edición, inglés con total fluidez y trabajo en horario de EE. UU.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1962,
+          "salida": 351,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.039203,
+        "generada": "2026-11-22T22:25:33.198Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "namecheap-inc/jobs/sr-director-incubation-hub",
       "tipo": "FULL_TIME",
@@ -3944,46 +3984,6 @@
         },
         "costeUSD": 0.0519322,
         "generada": "2026-11-18T00:08:27.510Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "jobrack/jobs/pupmd-media-buyer",
-      "tipo": "CONTRACTOR",
-      "titulo": "PupMD - Media Buyer",
-      "presupuesto": "4000–4500 USD/mes",
-      "enlace": "https://himalayas.app/companies/jobrack/jobs/pupmd-media-buyer?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Bulgaria",
-      "empresa": "JobRack",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Own paid acquisition end to end for a growing dog brand and scale it from near-zero to $1M+ per month in profitable spend. \n $4,000-$4,500/month | Full-time | 9-5 EST\n Requirements\n We're Happy Consumer, a Direct Response Digital and Supplement Seller that has dominated the DR space for the last 2.5 yrs. We are looking for an experienced Media buyer to join our team and own our marketing campaigns and scaler with us for 2027 and beyond. This position is fully remote, offer flexibility and has a lot of room for professional and personal growth.\n We're looking for a Media Buyer who has already taken a brand from near-zero to serious monthly spend and done it profitably. You'll own everything downstream of the creative: Jason makes the ads, you make them work. You'll work closely with him on ",
-      "vista": "2026-11-18T00:08:37.199Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es un puesto de media buyer que exige nivel experto en Meta Ads, haber escalado marcas a más de 800K USD al mes en anuncios y horario 9-5 EST; Leo no puede acreditar nada de eso.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1481,
-          "salida": 519,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.017252200000000002,
-        "generada": "2026-11-18T00:08:32.530Z"
       },
       "fuente": "himalayas"
     }
