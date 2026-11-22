@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-22T05:58:14.255Z",
+  "actualizado": "2026-11-22T10:23:33.931Z",
   "ofertas": [
+    {
+      "id": "1137959",
+      "tipo": "REMOTE",
+      "titulo": "Carrot — Corporate Counsel, Commercial",
+      "presupuesto": "",
+      "enlace": "https://remoteOK.com/remote-jobs/remote-corporate-counsel-commercial-carrot-1137959",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Worldwide",
+      "empresa": "Carrot",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "other About Carrot: Carrot is the leading global fertility and family care platform, built on intelligent care orchestration: the right clinical guidance, at the right moment, in the context of each memberâs life. More than a thousand multinational employers, health plans, and health systems trust Carrot to support millions of members across 195 countries â from pre-pregnancy through menopause and major life moments in between. Carrot's comprehensive clinical program delivers industry-leading cost savings for plan sponsors and award-winning experiences and improved outcomes for millions of people worldwide. Carrot is widely regarded as a defining force in healthcare innovation as a recipient of several top-tier awards, including Fast Company's 'Most Innovative Companies' and CNBC's '10",
+      "vista": "2026-11-22T10:23:33.930Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de abogado (J.D., colegiado en EE. UU., 3+ años en contratos) que no tiene nada que ver con los servicios de Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 2071,
+          "salida": 300,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.038619,
+        "generada": "2026-11-22T10:23:33.254Z"
+      },
+      "fuente": "remoteok"
+    },
     {
       "id": "molecule-xyz/jobs/ai-scientist-entrepreneur-in-residence-1293524166",
       "tipo": "FULL_TIME",
@@ -3944,46 +3984,6 @@
         },
         "costeUSD": 0.0145482,
         "generada": "2026-11-17T16:36:12.619Z"
-      },
-      "fuente": "jobicy"
-    },
-    {
-      "id": "162825",
-      "tipo": "CONTRACT",
-      "titulo": "Mid/Senior AI Cinematic Video Editor (Freelance - Remote - Spain)",
-      "presupuesto": "23.000–63.000 USD/año",
-      "enlace": "https://jobicy.com/jobs/162825-mid-senior-ai-cinematic-video-editor-freelance-remote-spain",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Spain",
-      "empresa": "EverAI",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Our Vision & Products\n 🚀 EverAI — Building the Future of AI Companionship \n One of the Top Largest & Fastest-Growing AI Companies in the World \n 60 Million Users in 3 years — Help Us Reach 100M first, 500M next \n At EverAI , we’re shaping what it means to connect with AI. With 60 million users and counting , we're not just building products — we're creating entirely new categories.\n Our flagship product is the world’s largest AI companionship platform , redefining relationships for millions. It is governed by our proprietary moderation system, EverGuard — an internal AI designed to ensure everything we build is safe, ethical, and human-first .\n And we’re only just getting started! \n Our Team\n We are an enthusiastic, passionate and hardworking team of ≈ 100 people. Our founding team has st",
-      "vista": "2026-11-17T16:36:44.931Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Se descarta porque el puesto incluye crear contenido NSFW explícito (contenido para adultos) y exige 4–6+ años de experiencia, muy por encima de los de Leo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1755,
-          "salida": 480,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0175682,
-        "generada": "2026-11-17T16:36:17.195Z"
       },
       "fuente": "jobicy"
     }
