@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-22T09:49:02.909Z",
+  "actualizado": "2026-11-22T13:01:34.535Z",
   "ofertas": [
+    {
+      "id": "573815",
+      "tipo": "FREELANCE",
+      "titulo": "Complete Brand Identity and Editable Marketing Templates for OG Lab",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573815/Complete-Brand-Identity-and-Editable-Marketing-Templates-for-OG-Lab",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Prisecari Ion",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We're seeking a professional brand identity and graphic designer to create a complete, cohesive visual identity for OG Lab, a mobile cocktail bar, catering, and premium bar-experience company serving private and corporate events. We have an existing logo that needs professional vectorization, refinement, and possible creative improvements. The work should include a practical brand book covering typography, color palettes, backgrounds, graphic elements, and consistent visual guidelines. We also need editable, reusable templates for cocktail menus, service offers, price lists, client presentations, event materials, and Instagram posts and stories. Our goal is a recognizable, professional brand across digital and printed materials, with source files that our team can customize for different clients and events. We're open to creative recommendations from the designer.\n– Refined, professionally vectorized logo with editable source files\n– Brand book covering typography, color palette, backgrounds, graphic elements, and visual-use guidelines\n– Editable templates for cocktail menus, service offers, price lists, client presentations, and event materials\n– Editable Instagram post and story templates\n– Editable source files for all final identity and template assets\nA professional brand identity and graphic designer who can provide creative recommendations and deliver editable source files.\nProfessional, cohesive, recognizable, and premium.\nThe identity must work consistently across bo",
+      "vista": "2026-11-22T13:01:34.535Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Identidad y plantillas encajan con el diseño gráfico de Leo, pero solo hay un proyecto conceptual de branding: se envía ofreciendo una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Ion,\nOG Lab's logo deserves a clean vector rebuild and a premium system that holds up from a printed cocktail menu to an Instagram story.\nA concept identity I designed, with palette, type and packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nPlan: vectorize and refine the logo, build the brand book (type, colors, backgrounds, graphic elements, usage rules), then editable templates for menus, offers, price lists, presentations, event materials and IG posts/stories, all with source files.\nBefore you pay anything, I'll send you the refined logo applied to one cocktail menu page.\nPrice: 500 USD, 50% upfront, 2–3 weeks, 2 rounds of changes.\nWhich software will your team use to edit the templates: Canva, Adobe or Figma?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "2–3 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 852,
+          "salida": 1462,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.056983,
+        "generada": "2026-11-22T13:01:33.488Z"
+      }
+    },
     {
       "id": "573779",
       "tipo": "FREELANCE",
@@ -3216,45 +3255,6 @@
         },
         "costeUSD": 0.057181,
         "generada": "2026-11-17T12:13:51.356Z"
-      }
-    },
-    {
-      "id": "570791",
-      "tipo": "FREELANCE",
-      "titulo": "Branding and Webdesign for a Vegan Influencer",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570791/Branding-and-Webdesign-for-a-Vegan-Influencer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Ich suche kreative Unterstützung für das Branding eines veganen Influencers, einschließlich Webdesign. Ziel ist ein stimmiger, wiedererkennbarer Markenauftritt über digitale und modische Anwendungen hinweg. Gerne Farbvorschläge und Schriftvorschläge, sowie ein Logo\nInfluencername: noah.nebosis",
-      "vista": "2026-11-17T11:48:21.847Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "La web encaja con su portfolio, pero el branding, el logo y el merch no tienen proyecto en Behance, así que la carta ofrece una muestra previa.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA vegan brand for noah.nebosis that feels the same on the website, on social and on a T-shirt needs one clear system: logo, colors and fonts that work everywhere.\nI'm Leo, creative director at LeoVisual.nl. Here is my closest web work:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nBefore you pay anything, I'll send you one logo direction with a color and font proposal, mocked up on a T-shirt.\nThen: a short brand guide (logo, palette, typography), merch mockups and a website design built on the same system.\n1000 USD, 50% upfront, 2–3 weeks, 2 rounds of changes.\nShould the brand feel fresh and playful, or calm and minimal?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "2–3 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 526,
-          "salida": 1392,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.053649,
-        "generada": "2026-11-17T11:48:20.746Z"
       }
     }
   ]
