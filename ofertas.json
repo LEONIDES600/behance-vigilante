@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-22T01:49:23.652Z",
+  "actualizado": "2026-11-22T02:49:56.361Z",
   "ofertas": [
+    {
+      "id": "573711",
+      "tipo": "FREELANCE",
+      "titulo": "Website Redesign and Brand Guide Development",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/freelance/573711/Website-Redesign-and-Brand-Guide-Development",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-22T02:49:56.361Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "573703",
       "tipo": "FREELANCE",
@@ -3235,45 +3255,6 @@
         },
         "costeUSD": 0.047213,
         "generada": "2026-11-17T10:03:29.943Z"
-      }
-    },
-    {
-      "id": "372123",
-      "tipo": "CONTRACT",
-      "titulo": "AI Visual Creator / Brand Content Artist",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/372123/AI-Visual-Creator-Brand-Content-Artist",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Rimoka",
-      "contacto": "Andrei ㅤ",
-      "solicitantes": 0,
-      "cierraEnDias": 29,
-      "dondeSolicitar": "Behance",
-      "descripcion": "AI Visual Creator / Brand Content Artist \n Hi, we’re Rimoka! 💅🏼 We’re a press-on nail brand looking for a creative visual artist to collaborate with us on an ongoing basis using AI tools.\n You’ll develop original, premium images for our campaigns, website, social media, and product launches. We’ll share our brand direction, product photos, and references, and we’d love someone who can bring their own ideas to each project.\n What you’ll do \n Develop visual concepts and create beautiful, distinctive brand imagery using AI tools.\n Combine AI-generated elements with our real product photos.\n Refine each image through compositing, retouching, lighting, and color work so it feels polished and realistic.\n Keep product details, including nail designs, packaging, and logos accurate to the originals.\n Adapt visuals for different formats while maintaining a consistent Rimoka aesthetic.\n Deliver high-resolution final images and editable files where appropriate.\n We’re looking for a strong creative eye, confident AI image creation skills, and the editing ability to turn a promising generation into finished commercial work. Experience with beauty or fashion brands is a plus.\n To apply , please share your portfolio, including examples of AI-assisted images and any before-and-after editing work. Tell us which tools you use, your availability for ongoing projects, and your rates.",
-      "vista": "2026-11-17T08:45:11.490Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Imágenes de producto con IA para una marca de belleza, trabajo continuo y remoto: encaja con lo que hace Leo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Andrei,\nThe key for Rimoka is keeping each nail design, box and logo true to the original while the scene around it feels premium.\nI'm Leo, creative director at LeoVisual.nl.\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nhttps://www.behance.net/gallery/255880675/MASTER-AVATAR-AI-Swimwear-2026\nI'd generate the scene with GPT Image or Nano Banana Pro, composite your real product photo, then refine light and color in Adobe.\nBefore you pay anything, I'll send one before-and-after image made from one of your product photos.\nRate: 25 USD/h, 50% upfront, 2 rounds of changes, first batch in 7-10 days. Available for ongoing work.\nWhich launch would you like to start with?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 714,
-          "salida": 1431,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.055181,
-        "generada": "2026-11-17T08:44:50.010Z"
       }
     }
   ]
