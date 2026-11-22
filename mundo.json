@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-22T12:07:37.130Z",
+  "actualizado": "2026-11-22T14:07:51.801Z",
   "ofertas": [
+    {
+      "id": "metricool/jobs/technical-seo-ai-search-specialist-fully-remote",
+      "tipo": "FULL_TIME",
+      "titulo": "Technical SEO & AI Search Specialist - Fully Remote",
+      "presupuesto": "38.000–44.000 EUR/año",
+      "enlace": "https://himalayas.app/companies/metricool/jobs/technical-seo-ai-search-specialist-fully-remote?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Spain",
+      "empresa": "Metricool",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Metricool is a social media management tool that helps freelancers, agencies, and marketing teams stay on top of their daily work. Behind every post, every campaign, and every search result sits a website that has to load fast, get indexed, and show up where it matters, and your job is to make sure ours always does.\n As our Technical SEO & AI Search Specialist, you’ll report to Merche and work closely with our SEO Specialist and the rest of the team. This isn’t a role that waits for tickets to land: you’ll flag indexability issues before they turn into problems, keep our WordPress site healthy without being asked, and build the lab that explores how AI is changing search from the ground up.\n You’ll work 100% remotely as part of a team that keeps Metricool ’s own website fast, clean and sea",
+      "vista": "2026-11-22T14:07:51.801Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden experiencia previa en SEO técnico de nivel medio-senior (indexabilidad, hreflang, análisis de logs, enlaces tóxicos) como requisito central, y Leo no la tiene.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1652,
+          "salida": 572,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.042383,
+        "generada": "2026-11-22T14:07:50.787Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "remote-va/jobs/amazon-and-walmart-account-manager-1313005470",
       "tipo": "FULL_TIME",
@@ -3944,46 +3984,6 @@
         },
         "costeUSD": 0.037765,
         "generada": "2026-11-17T20:41:14.891Z"
-      },
-      "fuente": "jobicy"
-    },
-    {
-      "id": "162833",
-      "tipo": "CONTRACT",
-      "titulo": "Mid/Senior AI Cinematic Video Editor (Freelance - Remote - Italy)",
-      "presupuesto": "23.000–63.000 USD/año",
-      "enlace": "https://jobicy.com/jobs/162833-mid-senior-ai-cinematic-video-editor-freelance-remote-italy",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Italy",
-      "empresa": "EverAI",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Our Vision & Products\n 🚀 EverAI — Building the Future of AI Companionship \n One of the Top Largest & Fastest-Growing AI Companies in the World \n 60 Million Users in 3 years — Help Us Reach 100M first, 500M next \n At EverAI , we’re shaping what it means to connect with AI. With 60 million users and counting , we're not just building products — we're creating entirely new categories.\n Our flagship product is the world’s largest AI companionship platform , redefining relationships for millions. It is governed by our proprietary moderation system, EverGuard — an internal AI designed to ensure everything we build is safe, ethical, and human-first .\n And we’re only just getting started! \n Our Team\n We are an enthusiastic, passionate and hardworking team of ≈ 100 people. Our founding team has st",
-      "vista": "2026-11-17T16:36:44.931Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Pide contenido explícito NSFW (para adultos), exige vivir en Italia y 4–6+ años de experiencia como requisito.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1755,
-          "salida": 339,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.037505,
-        "generada": "2026-11-17T16:35:59.650Z"
       },
       "fuente": "jobicy"
     }
