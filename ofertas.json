@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-22T02:49:56.361Z",
+  "actualizado": "2026-11-22T06:50:00.057Z",
   "ofertas": [
+    {
+      "id": "573749",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity Designer",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573749/Brand-Identity-Designer",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "elias berg",
+      "solicitantes": 2,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "a brand identity and packaging designer for a minimalist luxury DTC sleep-beauty and loungewear brand (aesthetic similar to Skims, Rhode, and Dore & Rose) to design our logo/wordmark, typography, color palette, and luxury box packaging.\nLogo. Icons. Package design",
+      "vista": "2026-11-22T06:50:00.057Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Identidad y packaging de lujo: encaja con el concepto SESTEO, pero no hay ningún cliente real igual, así que la carta ofrece una muestra antes de que pague.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Elias,\n\nA quiet, minimal wordmark and a luxury box that feels as soft as the loungewear inside will set your sleep-beauty brand apart.\nI'm Leo, creative director at LeoVisual.nl. My closest example is a concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHere's my process: a moodboard and type direction first, then 2–3 wordmark routes, the palette and icons, and finally box mockups and the final files.\nBefore you pay anything, I'll send you one wordmark direction mocked up on your luxury box.\nPrice: 1000 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich will the box hold first: sleep-beauty products, loungewear or both?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 483,
+          "salida": 1201,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.050287,
+        "generada": "2026-11-22T06:49:59.112Z"
+      }
+    },
     {
       "id": "573711",
       "tipo": "FREELANCE",
@@ -3216,45 +3255,6 @@
         },
         "costeUSD": 0.056317,
         "generada": "2026-11-17T11:08:11.891Z"
-      }
-    },
-    {
-      "id": "570627",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Identity, Website UI Kit, And Web Page Redesign",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570627/Brand-Identity-Website-UI-Kit-And-Web-Page-Redesign",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "1880",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a graphic designer to develop a complete brand identity for my project, create a website UI kit, and rework existing web design pages using the newly developed visual identity and UI system.",
-      "vista": "2026-11-17T10:03:31.293Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja la parte web y el UI kit, pero en Behance no hay ningún proyecto de branding, así que la carta ofrece una muestra antes de cobrar.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nBuilding the brand identity first and then carrying it into a UI kit and your existing pages is the right order: one system, applied everywhere.\nI'm Leo, creative director at LeoVisual.nl. Closest work, websites built from one visual system:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nBefore you pay anything, I'll send you one identity direction (logo, colours, type) applied to one of your current pages.\nThen: full brand identity, a UI kit in Figma (styles and components) and the redesigned pages.\n1000 USD, 50% upfront, 2–3 weeks, 2 rounds of changes.\nHow many existing pages need the redesign, and are they in Figma or live code?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "2–3 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 442,
-          "salida": 1087,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.047213,
-        "generada": "2026-11-17T10:03:29.943Z"
       }
     }
   ]
