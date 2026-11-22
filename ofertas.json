@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-22T15:13:36.185Z",
+  "actualizado": "2026-11-22T16:38:04.444Z",
   "ofertas": [
+    {
+      "id": "573881",
+      "tipo": "FREELANCE",
+      "titulo": "Illustration for a Social-Emotional Children’s Travel Picture Book Series",
+      "presupuesto": "10.000–25.000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573881/Illustration-for-a-Social-Emotional-Childrens-Travel-Picture-Book-Series",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Happy Lemming Books",
+      "contacto": "Don LeClair",
+      "solicitantes": 2,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m seeking an illustrator for a long-term children’s picture book series for ages 5–9, with the first four titles—Barcelona, Kyoto, Paris, and Marrakech—ready for illustration. The series follows Sara, a thoughtful and curious young girl, and EJ, a wise old hare, as they take dreamlike journeys to real-world destinations while exploring curiosity, cultural discovery, emotional growth, and wonder. I need an illustrator who can establish a production-quality, consistent character system while creating authentic, recognizable, emotionally meaningful city environments and cultural landmarks. The roadmap includes 20 cities worldwide, with plans to publish 4–5 books per year.\n– Production-quality character designs and a consistent visual system for Sara and EJ\n– Illustrated children’s picture book artwork for the first four titles set in Barcelona, Kyoto, Paris, and Marrakech\n– Authentic, atmospheric environmental illustrations featuring recognizable destinations and cultural landmarks\n– Reusable visual direction to support a 20-city book franchise and future annual releases\nThe ideal illustrator can maintain strong recurring-character consistency, create emotionally resonant storytelling, depict culturally recognizable cities authentically, and develop a scalable visual system for an ongoing multi-book franchise.\nDreamlike, warm, emotionally expressive children’s illustration with authentic cultural and environmental detail. Environments should be atmospheric and supportive of th",
+      "vista": "2026-11-22T16:38:04.444Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es ilustración infantil sin una pieza igual en el portfolio; no exige dibujo a mano, así que se envía ofreciendo una doble página de muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Don,\nSara and EJ wandering a dreamlike Barcelona, seen through a child's feelings rather than a tourist map, is a lovely base for a 20-city series.\nI'm Leo Gómez, creative director at LeoVisual.nl. My plan: first a character system for Sara and EJ (turnarounds, expressions, palette), then a city style guide so every destination feels part of one world, then the spreads title by title.\nBefore you pay anything, I'll send you Sara and EJ on one Barcelona spread, so you can judge consistency and warmth.\nProposal for the first four titles: 25,000 USD, 50% upfront, 2 rounds of revisions per title, character system in 2 weeks and all four books in 16 weeks.\nWhich moment from the Barcelona story would you like to see in the sample spread?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 25000,
+        "anticipoPct": 50,
+        "plazo": "16 semanas (sistema de personajes en 2 semanas)",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 985,
+          "salida": 1774,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.063755,
+        "generada": "2026-11-22T16:38:03.425Z"
+      }
+    },
     {
       "id": "573853",
       "tipo": "FREELANCE",
@@ -3220,45 +3259,6 @@
         },
         "costeUSD": 0.057548199999999994,
         "generada": "2026-11-17T14:06:55.632Z"
-      }
-    },
-    {
-      "id": "570971",
-      "tipo": "FREELANCE",
-      "titulo": "Graphic Design, Marketing, and Video Editing Services",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570971/Graphic-Design-Marketing-and-Video-Editing-Services",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a graphic designer to create flyers, brochures, posters, and social media designs, while also supporting marketing and video-editing work. The work should produce polished promotional visuals for use across print and digital channels.",
-      "vista": "2026-11-17T13:51:20.148Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Encaja con sus servicios: diseño gráfico promocional, piezas para redes y edición de vídeo, en remoto y con un presupuesto aceptable.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou need polished promotional visuals that work in both print and digital: flyers, brochures, posters and social posts, plus video editing to support your marketing.\nAs creative director at LeoVisual.nl, here is my closest campaign and video work:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nI'd start from your brand colours and message, design one master layout, then adapt it to each print and social format and edit short videos to match.\nBefore you pay anything, I'll send you one flyer draft with your content.\n250 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nWhich piece do you need first, and do you already have a logo and brand colours?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 452,
-          "salida": 1447,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.054453,
-        "generada": "2026-11-17T13:51:18.960Z"
       }
     }
   ]
