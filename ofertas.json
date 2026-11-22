@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-22T06:50:00.057Z",
+  "actualizado": "2026-11-22T07:13:25.818Z",
   "ofertas": [
+    {
+      "id": "573753",
+      "tipo": "FREELANCE",
+      "titulo": "Logo Design for MR Designs",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573753/Logo-Design-for-MR-Designs",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Moezam ur Rehman",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a professional logo design for my company, MR Designs, with a budget of $150. The logo should provide a clear and distinctive visual identity for the business.\n– Custom logo concept for MR Designs\n– Final logo files suitable for digital and print use\nProfessional\nContact 03495383757",
+      "vista": "2026-11-22T07:13:25.818Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es un logo, que encaja como dudosa: no hay un logo igual en el portfolio, así que se ofrece una muestra; el cliente dice que pagará 150 USD.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi Moezam,\n\nMR Designs needs a logo that feels professional and distinctive, and works as well on screen as in print.\nI'm Leo, creative director at LeoVisual.nl. The closest piece is a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nBefore you pay anything, I'll send you one logo direction for MR Designs mocked up on a business card and a website header.\nThen: 2–3 refined directions, your pick polished, and final files in SVG, PDF, PNG and JPG, in colour and black/white versions.\nPrice: 150 USD, 50% upfront, delivery in 2–5 days, 2 rounds of changes.\nWhat does MR Designs do, and is there a style or colour you want to avoid?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 150,
+        "anticipoPct": 50,
+        "plazo": "2–5 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 467,
+          "salida": 1262,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.051443,
+        "generada": "2026-11-22T07:13:25.116Z"
+      }
+    },
     {
       "id": "573749",
       "tipo": "FREELANCE",
@@ -3216,45 +3255,6 @@
         },
         "costeUSD": 0.051013,
         "generada": "2026-11-17T11:41:16.540Z"
-      }
-    },
-    {
-      "id": "570731",
-      "tipo": "FREELANCE",
-      "titulo": "Logo - brand new home renovation business ",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570731/Logo-brand-new-home-renovation-business-",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Hello!\nWe are Round My Way - a brand new business looking for a light-touch logo design to use on a website (something we would develop further if things take off!). We will focus on residential renovations - and we are after a fun, warm, 'anti-corporate' design - which inspires trust and feels cosy/modern.\nRequested Outputs:\n- Primary Logo: The full customized wordmark (“Round My Way”)\n- Submark / Icon: A simplified monogram or icon, to use as a favicon or social media profile picture\n- Header font: We would like to explore the modification/customisation of a highly legible font such as Open Sauce (or similar) for text headings.\nFile Formats: Please could outputs be provided in vector formats (.AI, .EPS, .SVG) and high-resolution web formats (.PNG with transparent background, .JPG)? \nColour Palette: An organic, warm palette that reflects raw building materials and traditional blue collar uniforms - with a pop of more unexpected, modern colours.\nWe have a moodboard if helpful!",
-      "vista": "2026-11-17T11:08:13.184Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con lo que puede entregar, pero no hay proyecto de branding en el portfolio, así que la carta ofrece una muestra previa.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA warm, anti-corporate wordmark for Round My Way that still says \"you can trust us in your home\" is a great brief, and raw-material tones with workwear blues plus one unexpected pop sounds just right.\nI'm Leo, creative director at LeoVisual.nl.\nBefore you pay anything, I'll send you one wordmark direction with a matching favicon icon in your palette.\nThen: review your moodboard, explore directions, refine the chosen one, customise an Open Sauce-style heading font, and deliver AI, EPS, SVG, transparent PNG and JPG files.\n500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nCould you share the moodboard so the first direction starts from it?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 713,
-          "salida": 1488,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.056317,
-        "generada": "2026-11-17T11:08:11.891Z"
       }
     }
   ]
