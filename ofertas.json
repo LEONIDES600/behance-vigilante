@@ -1,6 +1,41 @@
 {
-  "actualizado": "2026-11-22T20:25:07.154Z",
+  "actualizado": "2026-11-22T22:25:34.028Z",
   "ofertas": [
+    {
+      "id": "573953",
+      "tipo": "FREELANCE",
+      "titulo": "Children’s Book Illustration",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573953/Childrens-Book-Illustration",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "courtney barden",
+      "solicitantes": 4,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Hi. I’m working on a children’s book which will be around 24 total pages and need illustrations for it. 6 pages of the 24 would be full spreads. Most of the scenes of the book would include a little girl in her bedroom, in the bathtub, and at school on a playground. The story is related to her getting her nails painted so some of the illustrations would include her showing off her nail colors. So there may be about 3-4 different backgrounds needed and then various poses for the little girl and other characters like her mom and classmates. No AI use please.",
+      "vista": "2026-11-22T22:25:34.028Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "no quieren IA: «No AI»",
+        "filtro": "sin-ia",
+        "categoria": "",
+        "idioma": "",
+        "carga": "",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "filtro previo (sin API)",
+        "tokens": null,
+        "costeUSD": 0,
+        "generada": "2026-11-22T22:25:28.944Z"
+      }
+    },
     {
       "id": "573933",
       "tipo": "FREELANCE",
@@ -3221,44 +3256,6 @@
         },
         "costeUSD": 0.011100200000000001,
         "generada": "2026-11-17T14:05:50.000Z"
-      }
-    },
-    {
-      "id": "372125",
-      "tipo": "CONTRACT",
-      "titulo": "Graphic Designer",
-      "presupuesto": "43–45 USD/h",
-      "enlace": "https://www.behance.net/joblist/fulltime/372125/Graphic-Designer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "Red Bull",
-      "contacto": "Monica Linares",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "web externa",
-      "descripcion": "JOB TITLE: Graphic Designer (Contractor)\n RED BULL POINT OF CONTACT: Senior Manager, Advertising\n TYPE OF POSITION: Contractor (1-6 months initially, up to 18 months total)\n LOCATION: 1740 Stewart Street, Santa Monica (HQ)\n SCHEDULE: Full Time, Hybrid\n START DATE: Immediate / Ongoing\n PURPOSE OF THE JOB\n The graphic designer is responsible for creating and editing creative assets for various advertising platforms, encompassing both digital and print still imagery. The designer must possess a sharp eye for detail, a strong understanding of precise brand guideline execution, and proficiency in visual hierarchy & storytelling. This role focuses on the creation and adaptation of a wide array of assets for Brand Marketing, with a particular emphasis\n on static Shopper Marketing, e-Commerce and Trade Marketing creative. The designer is expected to manage a high-output workflow, consistently delivering a variety of advertising assets daily. This person must have a passion for clean and precise design to engage Red Bull's consumers and amplify the brand's consistent presence on digital, print and OOH channels.\n KEY RESPONSIBILITIES\n DESIGN & PRINT PRODUCTION\n • Diligently interpret and execute written briefs from the Advertising Manager, transforming conceptual directions into actionable design tasks.\n • Lead the content selection by reviewing still image footage from our internal archive as well as external content deliveries, to curate suitable content for our advertising assets.\n ",
-      "vista": "2026-11-17T14:06:56.958Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es híbrido con presencia en la sede de Santa Mónica (EE. UU.), a jornada completa, y pide inglés fluido y de 3 a 5 años o más de experiencia.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1625,
-          "salida": 346,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.014368200000000001,
-        "generada": "2026-11-17T14:05:54.631Z"
       }
     }
   ]
