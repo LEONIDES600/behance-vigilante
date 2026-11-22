@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-22T18:37:50.967Z",
+  "actualizado": "2026-11-22T19:01:59.325Z",
   "ofertas": [
+    {
+      "id": "573911",
+      "tipo": "FREELANCE",
+      "titulo": "Streetwear Graphic Design",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573911/Streetwear-Graphic-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Dilan Bramucci",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Cerco uno streetwear graphic designer per creare grafiche in linea con l’estetica streetwear. Il progetto richiede competenze di progettazione visiva per abbigliamento e merchandise.\n– Grafiche originali pronte per applicazione su capi streetwear\n– File di stampa ad alta risoluzione delle grafiche finali\nGraphic designer specializzato in streetwear.\nStreetwear",
+      "vista": "2026-11-22T19:01:59.325Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Gráficas para ropa streetwear: Leo puede hacerlas, pero no tiene proyecto de estampados en el portfolio, así que ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Dilan,\nYou need original streetwear graphics ready to go on garments, plus high-resolution print files of the final designs.\nI'm Leo Gómez, creative director at LeoVisual.nl, working in graphic design, motion and 3D.\nBefore you pay anything, I'll send you one graphic direction mocked up on a hoodie and a tee, so you can judge the style first.\nHow I'd work: a short brief on your references and brand mood, 2–3 rough directions, then the final artwork delivered as high-res print files ready for production.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nHow many graphics do you need, and for which garments and print method (screen print, DTG, embroidery)?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 516,
+          "salida": 1209,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.050579,
+        "generada": "2026-11-22T19:01:58.186Z"
+      }
+    },
     {
       "id": "573907",
       "tipo": "FREELANCE",
@@ -3220,45 +3259,6 @@
         },
         "costeUSD": 0.0250242,
         "generada": "2026-11-17T14:06:09.225Z"
-      }
-    },
-    {
-      "id": "372117",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic Designer",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/372117/Graphic-Designer",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Max Pro",
-      "contacto": "Midul Grafix",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "We’re looking for a creative Graphic Designer to join our team. The ideal candidate has a strong visual sense, pays close attention to detail, and can turn ideas into polished, engaging designs.\n Responsibilities: • Create social media graphics, promotional designs, posters, and other visual content. • Develop concepts and layouts that follow the project brief and brand guidelines. • Make revisions based on feedback and deliver final files on time. • Organize design files and prepare assets for digital use.\n Requirements: • Experience with Adobe Photoshop and Adobe Illustrator. • A portfolio that demonstrates strong design skills and attention to detail. • Good communication, time management, and a willingness to learn. • Ability to work independently and meet agreed deadlines.\n To apply, please share your portfolio, a brief introduction, and your relevant experience.",
-      "vista": "2026-11-17T14:06:56.958Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Puesto remoto de diseño gráfico para redes y piezas promocionales, encaja con sus servicios.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Midul,\n\nMax Pro needs social media graphics, posters and promotional designs that follow the brief and brand guidelines, delivered on time as clean, organised files.\nI'm Leo Gómez, creative director at LeoVisual.nl in Amsterdam. I do graphic design, motion graphics and 3D. I've also made listing images, A+ content and promotional visuals for a home brand that sells in several European countries.\nClosest example of my promotional work:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I work: I read the brief and guidelines, send 2 concept directions, refine them with your feedback, then deliver organised, ready-to-use assets for each platform. I design in Adobe (Photoshop, Illustrator, After Effects).\nBefore you decide, I can send you one social post and one poster for a Max Pro product of your choice.\nWhich channels and formats should I focus on first?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 522,
-          "salida": 1765,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.038336199999999994,
-        "generada": "2026-11-17T14:06:26.234Z"
       }
     }
   ]
