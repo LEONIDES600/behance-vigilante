@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-22T22:25:34.028Z",
+  "actualizado": "2026-11-22T22:37:13.728Z",
   "ofertas": [
+    {
+      "id": "573957",
+      "tipo": "FREELANCE",
+      "titulo": "Branding And Strategy for a Fabric Brand",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573957/Branding-And-Strategy-for-a-Fabric-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "L T",
+      "solicitantes": 5,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need branding and strategy support for my fabric brand. The project should establish a clear brand direction and cohesive visual identity tailored to the fabric market.\n– Brand strategy defining positioning, target audience, and brand direction\n– Cohesive visual identity system for the fabric brand",
+      "vista": "2026-11-22T22:37:13.728Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encargo de estrategia e identidad para una marca de telas, remoto y bien pagado; no hay pieza igual, así que la carta ofrece una muestra antes de pagar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nA fabric brand needs a clear position before any visuals: who buys your fabrics, why they choose you, and how that shows on every label, swatch card and post.\nThe closest example is a concept identity I designed, from strategy to packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy steps: a short brand questionnaire, a positioning and target audience document, two visual directions, then the full system: logo, colours, typography, labels and guidelines.\nBefore you pay anything, I'll send you one visual direction mocked up on a fabric label and swatch card.\n5000 USD, 50% upfront, 2–3 weeks, 2 rounds of changes.\nDo you sell to designers and brands, to retail shops, or directly to end customers?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "2–3 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 474,
+          "salida": 1385,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.053931,
+        "generada": "2026-11-22T22:37:12.657Z"
+      }
+    },
     {
       "id": "573953",
       "tipo": "FREELANCE",
@@ -3217,45 +3256,6 @@
         },
         "costeUSD": 0.0135682,
         "generada": "2026-11-17T14:05:42.708Z"
-      }
-    },
-    {
-      "id": "372161",
-      "tipo": "CONTRACT",
-      "titulo": "Senior Brand Designer at VIIA",
-      "presupuesto": "15–40 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/372161/Senior-Brand-Designer-at-VIIA",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "VIIA",
-      "contacto": "Creative Team",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "VIIA is a modern supplement company building products for focus, everyday stress, mood, sleep, and more. We’re a small, fast-growing team in the middle of a major pivot. We’re launching products, entering new categories, and looking for a fun, wildly creative designer to help shape what VIIA looks like next.\n Are you a young, hungry, creative designer with crazy good skills and deep ai design experience? Come join us, we're growing fast and there's long term job security. This can lead to a full time role quickly for the right person. \n Email your portfolio and why you want to work for us: careers@viiahemp.com \n What you’ll own \n Brand design. Build on VIIA’s identity with a sharp eye for typography, color, composition, and hierarchy.\n Packaging and retail. Take labels, packaging, and displays from first sketch through print production. Work directly with vendors, review proofs, and oversee production runs.\n Web and social. Design website graphics, emails, paid ads, and social content. Use motion graphics to bring launches to life and AI tools to explore and refine ideas.\n Who you are \n You think like a creative director and love doing the design yourself. You know what should catch a customer’s eye and what they need to understand next.\n You bring a point of view, enjoy trading ideas with a small team, and move quickly. When a proof comes back wrong, you get on the phone with the printer.\n You live in the United States , can commit 20–40+ hours a week , and stay reachable du",
-      "vista": "2026-11-17T14:06:56.958Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Exige vivir en Estados Unidos y llevar la producción de imprenta con los proveedores; además, el sueldo indicado no es coherente.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 818,
-          "salida": 344,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.011100200000000001,
-        "generada": "2026-11-17T14:05:50.000Z"
       }
     }
   ]
