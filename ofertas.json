@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-22T13:13:08.171Z",
+  "actualizado": "2026-11-22T15:13:36.185Z",
   "ofertas": [
+    {
+      "id": "573853",
+      "tipo": "FREELANCE",
+      "titulo": "Hi, I am a film producer from Bengalore ",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573853/Hi-I-am-a-film-producer-from-Bengalore-",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Improducer 2025",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Hi, I am a film producer from Bengaluru. I am working on a cinematic opening title sequence inspired by Hampi.\nI have designed a series of images featuring natural stone formations. I want to animate these images with realistic hammer and chisel movements, stone dust, tiny rock fragments, subtle camera movement, and cinematic sound synchronization.\nThe hammer strikes should sync precisely with the stone-carving sound effects. This is for our film's opening technician credits.\nAre you available for this project? If yes, please share your previous motion graphics/VFX work and your estimated budget.\nThank you.",
+      "vista": "2026-11-22T15:13:36.185Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Animación de motion/VFX para los créditos de una película, con efectos de sonido sincronizados; encaja con motion, pero los VFX realistas no tienen una pieza igual en el portfolio, así que se ofrece una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA Hampi-inspired opening for your technician credits, with every hammer strike landing on the carving sound, is a lovely idea.\nI'm Leo, creative director at LeoVisual.nl. Closest motion work:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nMy plan: animate each stone image in After Effects with hammer and chisel movement, stone dust and tiny fragments, add a slow camera push, then edit the sound so each strike hits on the exact frame.\nBefore you pay anything, I'll animate one of your stone images with a few synced strikes.\n250 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nHow many images are in the series, and do you have a target length for the sequence?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 602,
+          "salida": 1359,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.053923,
+        "generada": "2026-11-22T15:13:35.232Z"
+      }
+    },
     {
       "id": "573819",
       "tipo": "FREELANCE",
@@ -3220,41 +3259,6 @@
         },
         "costeUSD": 0.054453,
         "generada": "2026-11-17T13:51:18.960Z"
-      }
-    },
-    {
-      "id": "570853",
-      "tipo": "FREELANCE",
-      "titulo": "Cooperative Ocean Exploration Board Game Design",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/570853/Cooperative-Ocean-Exploration-Board-Game-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for freelancers to help create a cooperative board game inspired by ocean exploration, with an expected timeline of 6–8 weeks. You can contribute to a specific area based on your expertise, including character illustrations, card layouts, game board design, packaging, or rulebook editing.",
-      "vista": "2026-11-17T12:29:30.659Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "oferta trampa: plantilla de la campaña falsa «new home goods brand»",
-        "filtro": "trampa",
-        "categoria": "",
-        "idioma": "",
-        "carga": "",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "filtro previo (sin API)",
-        "tokens": null,
-        "costeUSD": 0,
-        "generada": "2026-11-17T12:29:29.952Z"
       }
     }
   ]
