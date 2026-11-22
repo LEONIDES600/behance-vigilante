@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-22T01:13:40.380Z",
+  "actualizado": "2026-11-22T01:49:23.652Z",
   "ofertas": [
+    {
+      "id": "573703",
+      "tipo": "FREELANCE",
+      "titulo": "Graphic Design for a Skincare Brand",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573703/Graphic-Design-for-a-Skincare-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "ayesha samin",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic designer to create design materials for my skincare brand. The work should support a cohesive, professional visual presence for the brand.\n– Cohesive visual design assets for the skincare brand\n– Editable source files for approved designs",
+      "vista": "2026-11-22T01:49:23.652Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Diseño de marca para skincare: encaja con el concepto de branding de Leo, y la carta ofrece una muestra gratis antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Ayesha,\n\nYour skincare brand needs design assets that feel cohesive and professional, plus editable source files you can keep using.\nI'm Leo, creative director at LeoVisual.nl. Here is a concept identity I designed for a consumer brand:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy process: a short moodboard, then palette, type and graphic elements, then the final assets with editable source files.\nBefore you pay anything, I'll send you one design direction applied to a skincare product mockup.\n250 USD, 50% upfront, 7–10 days and 2 rounds of changes.\nWhich pieces do you need first, and do you already have a logo?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 454,
+          "salida": 1546,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.057071,
+        "generada": "2026-11-22T01:49:22.716Z"
+      }
+    },
     {
       "id": "573697",
       "tipo": "FREELANCE",
@@ -3235,45 +3274,6 @@
         },
         "costeUSD": 0.055181,
         "generada": "2026-11-17T08:44:50.010Z"
-      }
-    },
-    {
-      "id": "372119",
-      "tipo": "FULLTIME",
-      "titulo": "Playable Delivery Manager",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/372119/Playable-Delivery-Manager",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Wonder-brains",
-      "contacto": "Julia Bratkevich",
-      "solicitantes": 0,
-      "cierraEnDias": 29,
-      "dondeSolicitar": "web externa",
-      "descripcion": "For which tasks ? \n Execution Quality \n Own the execution bar across the auditor org: delivery discipline, technical compliance, throughput. Hold it as the org scales.\n Drive cross-unit consistency so all creative units operate on shared standards, workflows, and quality expectations.\n Own delivery timing and quality across the auditor org, and drive improvements to the genre structure and new teams as the org grows.\n Lead adoption of new tools and automations across the auditor org, and bring back what works and what doesn't.\n Team Lead Leadership & Development \n Lead and grow the Auditor Team Leads as managers, setting the bar for how they lead, provide feedback and investing in their growth.\n Hold the operating rhythm for the TL group and act as the first escalation point when team leads need to unblock issues beyond their unit.\n Build a sustainable TL pipeline by spotting and growing high-potential auditors into the next generation of team leads.\n Cross-Functional Collaboration \n Partner with Creative, Product, Partnership Growth and Dev leads to align production reality with creative direction, tool capability, and roadmap.\n Represent the auditor org in cross-pillar decisions on workflow design, capacity, and team structure.\n Channel real production feedback into the development of Sett's internal AI products surface gaps, validate new tooling, and shape what gets built next.\n What kind of professional are we looking for? \n 5+ years of management experience in a high-vol",
-      "vista": "2026-11-17T08:45:11.490Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es un puesto de gestión que exige como requisito obligatorio más de 5 años dirigiendo equipos de producción e inglés fluido, y Leo no cumple ninguno de los dos.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1259,
-          "salida": 400,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0139842,
-        "generada": "2026-11-17T08:44:54.257Z"
       }
     }
   ]
