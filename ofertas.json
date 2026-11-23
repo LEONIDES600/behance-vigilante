@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-23T14:07:21.479Z",
+  "actualizado": "2026-11-23T14:16:20.076Z",
   "ofertas": [
+    {
+      "id": "574271",
+      "tipo": "FREELANCE",
+      "titulo": "Freelance Graphic Design and UI/UX Design Support",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574271/Freelance-Graphic-Design-and-UIUX-Design-Support",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "T N",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m seeking an experienced graphic designer and UI/UX designer for my project on a freelance basis. I need professional-quality work, a fast turnaround, and a reasonable cost. Please provide a portfolio showcasing relevant design work.\n– Professional UI/UX design assets for the project\n– Graphic design materials aligned with the project requirements\nExperienced graphic designer and UI/UX designer with a professional portfolio, fast turnaround capability, and reasonable pricing.\nThe designer must be able to share a portfolio of relevant work and deliver efficiently.",
+      "vista": "2026-11-23T14:16:20.076Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Encaja con diseño gráfico y diseño web/UI; remoto y con buen presupuesto, aunque el brief es poco concreto.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYou need UI/UX assets and graphic materials for your project, delivered fast and at a reasonable cost, backed by a real portfolio.\nI'm Leo Gómez, creative director at LeoVisual.nl in Amsterdam. Closest work: LUMEN, FORJA and MORVAIN, scroll-based websites I designed and built:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nHow I'd work: review your brief, map the key screens and user flow in Figma, design the UI and the matching graphics as one visual system, then hand over clean, organized files.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days, 2 rounds of revisions.\nWhat is the project (app, website or platform), and roughly how many screens and graphic pieces do you need?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 592,
+          "salida": 1279,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.052283,
+        "generada": "2026-11-23T14:16:19.013Z"
+      }
+    },
     {
       "id": "562931",
       "tipo": "FREELANCE",
@@ -3160,27 +3199,6 @@
         "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
         "sinDescripcion": true,
         "corregida": "20/11/2026 (antes: carta a ciegas, decisión «espera»)"
-      }
-    },
-    {
-      "id": "372513",
-      "tipo": "FULLTIME",
-      "titulo": "Junior Graphic Designer LATAM",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372513/Junior-Graphic-Designer-LATAM",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «descartar»)"
       }
     }
   ]
