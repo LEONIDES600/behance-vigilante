@@ -1,6 +1,41 @@
 {
-  "actualizado": "2026-11-23T14:16:20.076Z",
+  "actualizado": "2026-11-23T14:28:14.244Z",
   "ofertas": [
+    {
+      "id": "574275",
+      "tipo": "FREELANCE",
+      "titulo": "UI/UX & Digital Design Opportunities",
+      "presupuesto": "5000–10.000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574275/UIUX-Digital-Design-Opportunities",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Deltek, Inc",
+      "contacto": "Jose Rodriguez",
+      "solicitantes": 5,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Deltek, Inc. is looking for talented freelance designers for upcoming creative and digital projects.\nAreas of expertise include:\n- UI/UX and Web Design\n- Graphic Design\n- Branding & Visual Identity\n- Website & Application Design\n- Digital Product Design\nWe're seeking creative professionals with strong portfolios, relevant experience, and excellent communication skills.\nThis opportunity offers project-based work with potential for ongoing collaboration. Compensation and project details will depend on experience and requirements.\n**Please Provide:**\n1. **Portfolio:** Behance or personal website.\n2. **Experience:** Brief professional introduction.\n3. **Work Samples:** Examples of previous projects.\n4. **Skills:** Design tools and software.\n5. **Availability:** Current freelance availability.\n6. **Contact:** Email and LinkedIn profile.\n**Work Authorization:**\nAre you legally authorized to work in the U.S. as a U.S. citizen, Green Card holder, or valid work visa holder?\n**Next Steps:**\nWe'll review your information to determine whether you're a good fit for our upcoming projects. Suitable candidates may be contacted about potential project opportunities.\n**Schedule a 30-Minute Introductory Call:**\nhttps://calendly.com/deltek-intro-call/30min?month=2026-11",
+      "vista": "2026-11-23T14:28:14.244Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "ubicación: exige vivir fuera de la UE («united states citizen»)",
+        "filtro": "ubicacion",
+        "categoria": "",
+        "idioma": "",
+        "carga": "",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "filtro previo (sin API)",
+        "tokens": null,
+        "costeUSD": 0,
+        "generada": "2026-11-23T14:28:13.375Z"
+      }
+    },
     {
       "id": "574271",
       "tipo": "FREELANCE",
@@ -3178,27 +3213,6 @@
         "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
         "sinDescripcion": true,
         "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
-      }
-    },
-    {
-      "id": "372539",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic Designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372539/Graphic-Designer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «espera»)"
       }
     }
   ]
