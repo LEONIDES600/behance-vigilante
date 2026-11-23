@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-23T00:37:38.984Z",
+  "actualizado": "2026-11-23T01:24:49.410Z",
   "ofertas": [
+    {
+      "id": "573989",
+      "tipo": "FREELANCE",
+      "titulo": "Professional Icon-Only Logo for High-Fidelity Robotics Simulation Startup",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573989/Professional-Icon-Only-Logo-for-High-Fidelity-Robotics-Simulation-Startup",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Double",
+      "contacto": "Luca Piekarski",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a high-quality, professional icon-only logo for my startup, with a budget of $500. Our company develops robotics simulations and generates assets and environments with exceptionally high-fidelity visuals and physics.\n– Professional icon-only logo concept for a robotics simulation startup\n– Final logo files suitable for digital use\nHigh-quality, professional, and technology-focused.\nThe logo must not include a wordmark. The startup focuses on robotics simulations, asset generation, environment generation, high-fidelity visuals, and physics.",
+      "vista": "2026-11-23T01:24:49.409Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es un logo de solo icono, remoto y con buen presupuesto, pero en el portfolio no hay logos tecnológicos: la carta ofrece una muestra antes de pagar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi Luca!\nAn icon-only mark for Double has to say robotics simulation and high-fidelity physics with no wordmark to lean on.\nA concept identity I designed, to show how I build a mark and its system:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy process: 3 directions (a robotic joint, a simulation grid, a physics vector), refine one, test it at favicon size, then deliver SVG, PNG and light/dark versions.\nBefore you pay anything, I'll send you one icon direction shown as an app icon and on a dark UI header.\nPrice: 500 USD, 50% upfront, delivery in 2–5 days, 2 rounds of changes.\nShould the icon lean toward the robot itself or toward the simulated world it moves in?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "2–5 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 562,
+          "salida": 1454,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.055663,
+        "generada": "2026-11-23T01:24:48.303Z"
+      }
+    },
     {
       "id": "573979",
       "tipo": "FREELANCE",
@@ -3219,44 +3258,6 @@
         },
         "costeUSD": 0.045253,
         "generada": "2026-11-17T14:58:20.461Z"
-      }
-    },
-    {
-      "id": "372211",
-      "tipo": "FULLTIME",
-      "titulo": "Kıdemli Videographer",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/372211/Kdemli-Videographer",
-      "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "WeStudio",
-      "contacto": "Muhammed emre Köşker",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Videographer / Video Editörü — We Studio \n Ankara | Hibrit \n Kreatif bakış açısına sahip, özgün video içerikleri üretebilen, kendi hikâye ve kurgu fikirlerini geliştirebilen, güncel trendleri yaratıcı biçimde yorumlayabilen ve yapay zekâ teknolojilerini üretim süreçlerinde etkin kullanabilen bir Videographer / Video Editörü arıyoruz.\n Aradığımız Nitelikler \n Video kurgu ve post-prodüksiyon alanında en az 3 yıl deneyimli,\n Yapay zekâ destekli ses, görsel ve video üretim araçlarını ileri düzeyde kullanabilen ve bu teknolojileri kreatif süreçlere entegre edebilen,\n Adobe Premiere Pro, After Effects, DaVinci Resolve veya eşdeğer profesyonel kurgu ve motion design araçlarına hâkim,\n Görüntü seçimi, kurgu ritmi, müzik ve ses tasarımı konusunda güçlü bir estetik anlayışa sahip,\n Motion graphics, animasyon ve görsel efektlerle video anlatımını zenginleştirebilen,\n Sosyal medya dinamiklerine, güncel video trendlerine ve platformların içerik formatlarına hâkim,\n Verilen brief doğrultusunda özgün fikirler geliştirebilen ve içerikleri farklı mecralara uyarlayabilen,\n Detaylara önem veren, yaratıcı düşünme becerisi yüksek ve ekip çalışmasına yatkın.\n Tercih Sebebi \n Ajans veya prodüksiyon ekibinde çalışma deneyimi ve gerektiğinde video çekim süreçlerine destek verebilmek.\n Başvuru \n CV'ni ve çalışmalarını gösteren portfolyo veya showreel bağlantını bizimle paylaş.\n we@westudio.com.tr\n Portfolyo içermeyen başvurular değerlendirmeye alınmayacaktır.",
-      "vista": "2026-11-17T14:06:56.958Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Puesto híbrido en Ankara (Turquía) que pide al menos 3 años de experiencia en edición de vídeo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 995,
-          "salida": 327,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.034225,
-        "generada": "2026-11-17T14:05:38.488Z"
       }
     }
   ]
