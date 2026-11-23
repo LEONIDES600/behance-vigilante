@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-23T08:23:34.351Z",
+  "actualizado": "2026-11-23T08:34:22.338Z",
   "ofertas": [
+    {
+      "id": "372823",
+      "tipo": "FULLTIME",
+      "titulo": "UI/UX Designer (Remote-Worldwide)",
+      "presupuesto": "160.000–250.000 USD/año",
+      "enlace": "https://www.behance.net/joblist/fulltime/372823/UIUX-Designer-(Remote-Worldwide)",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "En cualquier lugar",
+      "empresa": "micro1",
+      "contacto": "Nehal Ahmed",
+      "solicitantes": 2,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "web externa",
+      "descripcion": "Job Title:  UI/UX Designer\n Job Type:  Full-time\n Location : Remote\n The Role \n We're looking for a UI/UX Designer with exceptional visual taste, strong product instincts, and a passion for crafting intuitive digital experiences. You'll own design across our websites, platforms, and digital products, translating complex workflows into elegant, intuitive, and scalable interfaces.\n This is a hands-on role for someone who thrives in a fast-moving environment, cares deeply about design quality, and knows how to leverage AI to accelerate creative exploration and execution.\n What You'll Be Doing \n Design beautiful, intuitive, and high-performing experiences across web, mobile, and internal platforms.\n Own the end-to-end design process, from early concepts and wireframes to high-fidelity interfaces and interactive prototypes.\n Build and evolve scalable design systems, ensuring consistency across products and experiences.\n Collaborate closely with engineering and product teams to turn complex requirements into polished, production-ready designs.\n Create compelling marketing assets, including landing pages, social media graphics, ads, email campaigns, and presentations.\n Leverage AI-powered design tools to accelerate ideation, asset creation, prototyping, and iteration.\n Continuously refine user experiences through feedback, usability insights, and thoughtful design decisions.\n Balance multiple projects, move quickly, and deliver exceptional work without compromising quality.\n What We",
+      "vista": "2026-11-23T08:34:22.338Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exige trabajar en horario del Pacífico (de 18:00 a 02:00 en Ámsterdam), 3 años o más de UI/UX y dominio avanzado de Figma y de sistemas de diseño, cosas que Leo no puede acreditar.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1063,
+          "salida": 570,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.039987,
+        "generada": "2026-11-23T08:34:21.503Z"
+      }
+    },
     {
       "id": "372819",
       "tipo": "FULLTIME",
@@ -3143,45 +3182,6 @@
         },
         "costeUSD": 0.0360562,
         "generada": "2026-11-17T16:39:09.000Z"
-      }
-    },
-    {
-      "id": "571231",
-      "tipo": "FREELANCE",
-      "titulo": "Pizza Box and To-Go Bag Design Using Existing Logo",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/571231/Pizza-Box-and-To-Go-Bag-Design-Using-Existing-Logo",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Blozzom Pizza",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a designer to create branded pizza box and to-go bag designs using our existing logo. The designs should be suitable for food-service packaging production.",
-      "vista": "2026-11-17T16:13:08.405Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es un encargo de packaging (caja de pizza y bolsa) con un buen presupuesto, pero no hay ningún proyecto de packaging en el portfolio, así que se ofrece una muestra antes de cobrar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nBlozzom Pizza's logo on the pizza box and to-go bag is the first thing your customers see when their order arrives, so it has to look great and print cleanly.\nBefore you pay anything, I'll send you one design direction mocked up on your pizza box and bag.\nMy process: study your logo and colours, design the box lid and sides plus both faces of the bag, show them in realistic mockups, then prepare production-ready files on your supplier's dielines.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nPrice: 1000 USD, 50% upfront. Delivery: 7–10 days, with 2 rounds of revisions.\nDo you already have the box size and dielines from your packaging supplier?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 432,
-          "salida": 1094,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0245562,
-        "generada": "2026-11-17T16:13:06.805Z"
       }
     }
   ]
