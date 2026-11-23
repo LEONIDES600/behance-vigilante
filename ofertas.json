@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-23T20:25:32.059Z",
+  "actualizado": "2026-11-23T21:18:25.052Z",
   "ofertas": [
+    {
+      "id": "574463",
+      "tipo": "FREELANCE",
+      "titulo": "Meme Culture Savvy Illustration and Graphic Design",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/freelance/574463/Meme-Culture-Savvy-Illustration-and-Graphic-Design",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T21:18:25.052Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "574445",
       "tipo": "FREELANCE",
@@ -3195,45 +3215,6 @@
         },
         "costeUSD": 0.066007,
         "generada": "2026-11-20T22:05:10.740Z"
-      }
-    },
-    {
-      "id": "573243",
-      "tipo": "FREELANCE",
-      "titulo": "Freelance Illustrator / Visual Designer — 2D Animated Storytelling Project",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573243/Freelance-Illustrator-Visual-Designer-2D-Animated-Storytelling-Project",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "1708 Media",
-      "contacto": "Will Sherratt",
-      "solicitantes": 4,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We're a storytelling production company seeking a freelance illustrator/designer to collaborate on an upcoming 2D animated storytelling project.\nOur team will lead the story strategy, scripting, creative direction, and animation. We're looking for a creative partner to help develop an original visual style, design characters and scenes, and create layered illustrations that our in-house animator can bring to life.\nThe goal is approachable, emotionally resonant storytelling with a clean, engaging visual style.\nCreative reference: https://www.youtube.com/watch?v=_GeoR5ZN4UQ\nThis is a stylistic reference only. We're looking to create an original visual approach, not replicate the existing work.\nInitial visual concepts and 2–3 style frames for creative approval\nOriginal character designs, backgrounds, and supporting illustrated assets\nIllustration assets for an approximately 90-second animated narrative\nLayered, animation-ready Adobe Illustrator files (or an agreed compatible format) for our in-house animator\nUp to two rounds of consolidated design revisions\nFinal asset quantities and scene complexity will be established during creative development. Animation and final video editing will be handled by our internal team.\nWe're looking for someone with demonstrated experience in character illustration, editorial illustration, or visual development for motion graphics.\nExperience collaborating with After Effects animators and preparing layered artwork for animation is strongly prefe",
-      "vista": "2026-11-20T21:04:16.984Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Ilustración de personajes para animación 2D: Leo no tiene una pieza igual, pero conoce After Effects; se ofrece un style frame por capas como muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Will,\nA clean, emotionally resonant 90-second story needs characters and scenes your animator can move without fighting the files.\nBefore you pay anything, I'll send you one style frame with a main character, split into named Illustrator layers, ready to open in After Effects.\nMy process: 2–3 style frames for approval, then characters, backgrounds and props, with limbs, eyes and mouths on separate layers.\nAs creative director at LeoVisual.nl I make my own motion graphics in After Effects, so I prepare layers the way an animator needs them.\nPrice: 5000 USD for the full project, 50% upfront, 2 rounds of revisions, delivery in 3–4 weeks.\nWhich emotional tone should the story have: warm and gentle, or more upbeat?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "3–4 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 951,
-          "salida": 1777,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.063679,
-        "generada": "2026-11-20T21:04:15.697Z"
       }
     }
   ]
