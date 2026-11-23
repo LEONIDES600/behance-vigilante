@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-23T16:14:16.378Z",
+  "actualizado": "2026-11-23T19:26:29.697Z",
   "ofertas": [
+    {
+      "id": "574435",
+      "tipo": "FREELANCE",
+      "titulo": "Graphic Design for a Jiu-Jitsu Rashguard Clothing Company",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574435/Graphic-Design-for-a-Jiu-Jitsu-Rashguard-Clothing-Company",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Kichi Poo",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic artist to bring my creative vision to life for a Jiu-Jitsu rashguard clothing company. The work will focus on creating apparel graphics suited to rashguard designs.\n– Custom graphic artwork for Jiu-Jitsu rashguards\n– Production-ready apparel design files\nA graphic artist with apparel design experience is sought.\nThe designs are intended for a Jiu-Jitsu clothing brand.",
+      "vista": "2026-11-23T19:26:29.697Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Gráficos para rashguards de una marca de Jiu-Jitsu: Leo puede hacerlos, pero no tiene proyecto de diseño de prendas, así que la carta ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Kichi!\n\nRashguard graphics need to read strong from a distance on the mats and still wrap cleanly around sleeves, panels and seams, so I'd design with the full garment template in mind from the start.\nBefore you pay anything, I'll send you one graphic direction mocked up on a rashguard front, back and sleeves.\nHow I'd work: 1) short call on your vision and references, 2) 2–3 concepts, 3) refine the chosen one, 4) deliver production-ready files sized to your manufacturer's template.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, 2 rounds of revisions.\nDoes your manufacturer print with full sublimation, and do you already have their rashguard template?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 537,
+          "salida": 1411,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.054703,
+        "generada": "2026-11-23T19:26:27.973Z"
+      }
+    },
     {
       "id": "574341",
       "tipo": "FREELANCE",
@@ -3195,45 +3234,6 @@
         },
         "costeUSD": 0.062007,
         "generada": "2026-11-20T20:01:44.193Z"
-      }
-    },
-    {
-      "id": "573205",
-      "tipo": "FREELANCE",
-      "titulo": "Illustrazione per Inviti di Compleanno a Tema Harry Potter e LEGO",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573205/Illustrazione-per-Inviti-di-Compleanno-a-Tema-Harry-Potter-e-LEGO",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "ELENA ZABOLOTNYA",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Vorrei un’illustrazione per i biglietti della festa di compleanno di mio figlio, che compie 5 anni. Il design dovrà combinare il tema Harry Potter con lo stile LEGO, in modo allegro e adatto a una festa per bambini.\n– Illustrazione originale a tema Harry Potter e LEGO per gli inviti di compleanno\n– File digitale ad alta risoluzione pronto per la stampa dei biglietti\nGiocoso, colorato e adatto ai bambini, con riferimenti visivi a Harry Potter e LEGO.\nLa festa è per il quinto compleanno del figlio del committente.",
-      "vista": "2026-11-20T19:34:45.953Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es una ilustración suelta para invitaciones que se puede hacer con IA, pero Leo aún no tiene ningún proyecto de ilustración; el presupuesto es aceptable.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi Elena!\nA Harry Potter world in LEGO style for your son's 5th birthday invitations is a lovely idea: bright colours, brick characters, the castle, owls and wands.\nI'm Leo Gómez, creative director at LeoVisual.nl. I work with AI image tools and then finish the design myself.\nBefore you pay anything, I'll send you one quick style direction for the invitation scene.\nHow I'd do it: choose the scene with you, create and refine the illustration, leave clean space for the party details, and deliver a high-resolution print-ready file.\nPrice: 250 USD, 50% upfront, delivery in 2–5 days, 2 rounds of changes.\nWould you like your son's name and age to appear inside the illustration?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "2–5 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 628,
-          "salida": 1305,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.052947,
-        "generada": "2026-11-20T19:34:44.655Z"
       }
     }
   ]
