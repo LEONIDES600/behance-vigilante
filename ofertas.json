@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-23T03:57:57.796Z",
+  "actualizado": "2026-11-23T06:02:06.837Z",
   "ofertas": [
+    {
+      "id": "574059",
+      "tipo": "FREELANCE",
+      "titulo": "Ilustración Para Negocio Bistró y Café",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574059/Ilustracion-Para-Negocio-Bistro-y-Caf",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Loth Cabello",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Busco un ilustrador para crear piezas visuales para mi negocio de bistró y café. Necesito ilustraciones que apoyen la identidad y comunicación visual del establecimiento.\n– Ilustraciones originales para la identidad visual del bistró y café\n– Archivos finales de las ilustraciones en formatos digitales utilizables\n-Logotipo, Isotipo, manual de uso",
+      "vista": "2026-11-23T06:02:06.837Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Ilustración, logotipo e identidad para un bistró-café: no hay una pieza igual en el portfolio, así que la carta ofrece una muestra antes de cobrar y enlaza la identidad de concepto SESTEO.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "media",
+        "texto": "¡Hola, Loth!\nPara tu bistró y café, las ilustraciones tienen que sentirse cálidas y convivir con el logotipo y el isotipo en la carta, la fachada y las tazas.\nSoy Leo Gómez, director creativo de LeoVisual.nl. Esta es una identidad de concepto que diseñé para una marca de té:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nLo haría así: definir contigo el tono del local, diseñar el logotipo y el isotipo, crear la serie de ilustraciones y redactar el manual de uso, con los archivos finales en vector, PNG y PDF.\nAntes de que pagues nada, te envío una ilustración de prueba aplicada a una taza de tu café.\nPropuesta: 500 USD, 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿Cuántas ilustraciones necesitas y dónde las vas a usar primero?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 511,
+          "salida": 1615,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.058679,
+        "generada": "2026-11-23T06:02:06.077Z"
+      }
+    },
     {
       "id": "372779",
       "tipo": "FULLTIME",
@@ -3200,45 +3239,6 @@
         },
         "costeUSD": 0.062925,
         "generada": "2026-11-17T15:34:15.747Z"
-      }
-    },
-    {
-      "id": "566157",
-      "tipo": "FREELANCE",
-      "titulo": "Shopify Ecommerce Meta Ads Creative Production and Testing",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566157/Shopify-Ecommerce-Meta-Ads-Creative-Production-and-Testing",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 6,
-      "dondeSolicitar": "",
-      "descripcion": "We run a multi-product Shopify ecommerce store and want to test a better way to sell our products through Meta ads. Our current advertising leans heavily on discounts. We need someone who can turn existing product assets into clear demonstrations of what the products do and why customers would buy them at the standard price.\nThis is a two-week hands-on project: develop three product-demonstration messaging angles, create six static ad variations from our supplied photos and approved product information, and launch and manage the tests across Facebook and Instagram within an agreed advertising budget. Keep the standard offer unchanged so we can assess the new creative approach. Monitor purchases and acquisition cost, record the changes, and provide a concise end-of-project summary of what the evidence supports and what still needs more data.\nThe fixed project fee is $1,000. Advertising spend is separate. We supply assets, product details and account access. New photography, video shoots, landing-page development and Google Ads management are not included. The two-week period starts once access and approved inputs are ready. Please share relevant ecommerce creative-testing examples and explain how you would handle a test that produces too few purchases to judge.",
-      "vista": "2026-11-17T15:34:35.745Z",
-      "carta": {
-        "decision": "espera",
-        "motivo": "El trabajo creativo encaja, pero la oferta exige lanzar y gestionar las campañas de Meta Ads, y eso no está confirmado.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nMoving your Meta ads from discounts to clear product demonstrations at full price is a smart test.\nClosest example, e-commerce product visuals built around benefits:\nhttps://www.behance.net/gallery/251447375/Premium-Amazon-Listing-Design-for-Living-Logic\nPlan: 3 demo angles from your approved info, 6 statics (2 per angle) from your photos, launch on Facebook and Instagram, track purchases and CPA in a change log, then a short summary.\nIf a test gets too few purchases, I'd read early signals (CTR, add-to-cart, cost per checkout), extend it or merge cells, and label it \"needs more data\" instead of picking a winner.\nFixed $1,000, 50% upfront, two weeks from access, 2 rounds of changes.\nWhich products do you want to start with?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "2 semanas",
-        "pregunta": "¿Puedes lanzar y gestionar tú las campañas en Meta Ads (crearlas en el Ads Manager y vigilar las compras y el CPA durante dos semanas)? Si no puedes, la descartamos.",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 756,
-          "salida": 1813,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.040232199999999996,
-        "generada": "2026-11-17T15:34:34.524Z"
       }
     }
   ]
