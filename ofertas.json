@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-23T15:52:34.664Z",
+  "actualizado": "2026-11-23T16:02:04.502Z",
   "ofertas": [
+    {
+      "id": "574331",
+      "tipo": "FREELANCE",
+      "titulo": "Animación 3D de producto y comercial publicitario para colección de diseño",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574331/Animacion-3D-de-producto-y-comercial-publicitario-para-coleccion-de-diseno",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Cesar PB",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "¡Hola! Estoy buscando a alguien que me pueda ayudar con un proyecto personal de animación 3D para mi proyecto creativo.\nLa idea es crear un pequeño comercial donde se presenten un CD y un cassette personalizados con las ilustraciones de mis personajes. Ambos tendrían animaciones de giro, apertura de sus estuches y extracción de los productos, para terminar sobre una mesa junto a un póster con la ilustración completa.\nBusco un acabado realista, estilo comercial de producto, con una perspectiva superior y especial atención a los materiales, iluminación y detalles.\nAlgo importante es que me gustaría contar con el archivo editable de Blender, ya que mi intención es crear una plantilla que pueda reutilizar con diferentes personajes, cambiando únicamente las portadas, etiquetas, colores e ilustraciones.\nMe gustaría conocer un poco más sobre tu disponibilidad, presupuesto y tiempo estimado para realizarlo.\n¡Muchas gracias! :)",
+      "vista": "2026-11-23T16:02:04.502Z",
+      "carta": {
+        "decision": "espera",
+        "motivo": "Encaja como anuncio 3D de producto, pero el cliente necesita el archivo editable de Blender y no consta que Leo use Blender.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "alta",
+        "texto": "¡Hola, Cesar!\nUn comercial cenital en el que el CD y el cassette giran, se abren y acaban sobre la mesa junto al póster es una forma muy bonita de presentar a tus personajes.\nMi trabajo más parecido en anuncio de producto:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nCómo lo haría: modelo los estuches, ajusto materiales e iluminación realistas, animo el giro, la apertura y la extracción, y te dejo el archivo de Blender editable como plantilla, con portadas, etiquetas, colores e ilustraciones fáciles de cambiar.\nPrecio: 250 USD, 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios. Antes de que pagues nada, te envío un fotograma de prueba del cassette con una de tus ilustraciones.\n¿Qué duración tienes en mente para el comercial?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "¿Puedes hacer la animación en Blender y entregar el archivo .blend editable como plantilla? Hasta que lo confirmes, la carta no se puede enviar.",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 763,
+          "salida": 1549,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.058367,
+        "generada": "2026-11-23T16:02:03.486Z"
+      }
+    },
     {
       "id": "574323",
       "tipo": "FREELANCE",
@@ -3195,45 +3234,6 @@
         },
         "costeUSD": 0.056603,
         "generada": "2026-11-20T19:01:59.821Z"
-      }
-    },
-    {
-      "id": "573163",
-      "tipo": "FREELANCE",
-      "titulo": "3D art toy design ",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573163/3D-art-toy-design-",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Javier Falcon",
-      "solicitantes": 3,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Hi \nI wanted to reach out because I’m looking for a character designer to create the main mascot for my brand, Zingul.\nI’m aiming for an animated character that blends brutalism, futurism, and pop art, featuring a bold, iconic silhouette that is instantly recognizable. We plan to use this character both for our brand identity/visuals and to produce it as a physical collectible art toy (sculpture/figure).\nAre you currently available for commissions? If so, I’d love to hear about your rates and workflow.",
-      "vista": "2026-11-20T17:52:00.759Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Mascota para marca y figura de colección: encaja con su diseño gráfico y 3D, pero no hay diseño de personajes en el portfolio, así que se ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Javier,\nYes, I'm available. A Zingul mascot that blends brutalism, futurism and pop art needs a silhouette that reads even as a solid black shape, on screen and as a figure on a shelf.\nI'm Leo, creative director at LeoVisual.nl. A concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nWorkflow: 3 silhouette directions, you pick one, then the full colour design, front/side/back turnaround and a 3D model to brief your toy maker. Before you pay anything, I'll send you one Zingul silhouette sketch.\nRate: 250 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nShould the character be ready for animation from day one, or is the collectible figure the priority?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 539,
-          "salida": 1541,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.057311,
-        "generada": "2026-11-20T17:49:56.987Z"
       }
     }
   ]
