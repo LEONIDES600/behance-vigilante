@@ -1,6 +1,85 @@
 {
-  "actualizado": "2026-11-23T13:53:36.708Z",
+  "actualizado": "2026-11-23T14:01:08.573Z",
   "ofertas": [
+    {
+      "id": "372651",
+      "tipo": "FULLTIME",
+      "titulo": "Graphic Designer",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372651/Graphic-Designer",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T14:01:08.573Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "372647",
+      "tipo": "FULLTIME",
+      "titulo": "Creative Lead ( Graphic designer visual content creator Social Media Manager)",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372647/Creative-Lead-(-Graphic-designer-visual-content-creator-Social-Media-Manager)",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T14:01:08.573Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "372775",
+      "tipo": "CONTRACT",
+      "titulo": "2D Anime Animator / Character Artist — Japanese Anime Style",
+      "presupuesto": "500–2000 USD/mes",
+      "enlace": "https://www.behance.net/joblist/fulltime/372775/2D-Anime-Animator-Character-Artist-Japanese-Anime-Style",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "En cualquier lugar",
+      "empresa": "Hye Studio",
+      "contacto": "Coyote Brathwaite",
+      "solicitantes": 0,
+      "cierraEnDias": 30,
+      "dondeSolicitar": "Behance",
+      "descripcion": "2D ANIME ANIMATOR / CHARACTER DESIGNER \n HYE STUDIOS | THE DAY THE SUN BLED \n About HYE Studios \n HYE Studios is an independent creative production company based in Brooklyn, New York, dedicated to emotionally honest storytelling through music, film, visual art, fashion, and animation.\n We are currently developing The Day the Sun Bled , an original dark fantasy anime series exploring mythology, loyalty, sacrifice, grief, and the consequences of pursuing divine power.\n Season One consists of 15 interconnected episodes across three acts: OMENS, EXODUS, and SUN BLED.\n The Opportunity \n We are seeking talented freelance anime artists, character designers, storyboard artists, and 2D animators interested in collaborating on the visual development of this original series.\n Our goal is to establish a distinctive visual identity rooted in Japanese anime production techniques, with cinematic composition, expressive character performances, detailed environments, and sophisticated action choreography.\n We are particularly interested in artists whose portfolios demonstrate an understanding of Japanese animation rather than traditional Western cartoon aesthetics.\n Visual Inspirations \n Our creative references include:\n • Jujutsu Kaisen — Dynamic combat choreography and cinematic direction.\n • Attack on Titan — Dramatic atmosphere, scale, and emotional intensity.\n • Vinland Saga — Grounded character designs and mature storytelling.\n • Fate/Zero — Dark fantasy aesthetics and supernatural com",
+      "vista": "2026-11-23T14:01:08.573Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden animación 2D y diseño de personajes de anime japonés hechos a mano (key animation, storyboard, Toon Boom/TVPaint) y un portfolio de anime, una especialidad que Leo no puede ofrecer; además, la oferta no habla de IA.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1350,
+          "salida": 650,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.042735,
+        "generada": "2026-11-23T14:01:06.938Z"
+      }
+    },
     {
       "id": "372633",
       "tipo": "FULLTIME",
@@ -3075,69 +3154,6 @@
       "titulo": "Senior Lead 3D Designer",
       "presupuesto": "",
       "enlace": "https://www.behance.net/joblist/fulltime/372411/Senior-Lead-3D-Designer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
-      }
-    },
-    {
-      "id": "372387",
-      "tipo": "FULLTIME",
-      "titulo": "Motion Graphic",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372387/Motion-Graphic",
-      "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
-      }
-    },
-    {
-      "id": "372371",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic Design Logo Packaging Design",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372371/Graphic-Design-Logo-Packaging-Design",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
-      }
-    },
-    {
-      "id": "372355",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372355/Graphic-designer",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
