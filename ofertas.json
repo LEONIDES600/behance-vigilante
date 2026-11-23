@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-23T06:02:06.837Z",
+  "actualizado": "2026-11-23T06:11:33.929Z",
   "ofertas": [
+    {
+      "id": "372791",
+      "tipo": "FULLTIME",
+      "titulo": "Lead Graphic Designer",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372791/Lead-Graphic-Designer",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T06:11:33.929Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "574059",
       "tipo": "FREELANCE",
@@ -3200,45 +3220,6 @@
         },
         "costeUSD": 0.054921,
         "generada": "2026-11-17T15:48:22.444Z"
-      }
-    },
-    {
-      "id": "566185",
-      "tipo": "FREELANCE",
-      "titulo": "Shopify Store Setup, Product Upload, And SEO Support",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/566185/Shopify-Store-Setup-Product-Upload-And-SEO-Support",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 6,
-      "dondeSolicitar": "",
-      "descripcion": "We need a Shopify expert to set up a new store, upload products, and improve store visibility through SEO. The work includes configuring the store, organizing product listings, and optimizing pages for better search performance. You should be comfortable handling setup tasks and making recommendations to improve the store’s overall performance. This is a part-time project for someone who can deliver a clean, functional store and help improve its online presence.",
-      "vista": "2026-11-17T15:34:35.745Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con webs y fichas de producto para e-commerce, pero piden experto en Shopify y SEO, que no están confirmados; se envía con una muestra gratis.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nA new Shopify store only performs when the product listings are clearly organized and every page is built to be found in search.\n\nI'm Leo Gómez, creative director at LeoVisual.nl. Closest work, product listing design for e-commerce:\nhttps://www.behance.net/gallery/251447375/Premium-Amazon-Listing-Design-for-Living-Logic\n\nMy plan: configure the store and theme, set up collections, upload products with clean titles, descriptions and images, then optimize titles, meta descriptions, URLs and alt text, plus a short list of recommendations.\nBefore you pay anything, I'll send you one of your product pages fully set up and optimized as a sample.\n\n2500 USD, 50% upfront, 2–3 weeks, 2 rounds of changes.\nHow many products will you launch with, and do you already have a theme or brand assets?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "2–3 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 505,
-          "salida": 1860,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.062925,
-        "generada": "2026-11-17T15:34:15.747Z"
       }
     }
   ]
