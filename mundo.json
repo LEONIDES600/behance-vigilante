@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-22T22:25:35.756Z",
+  "actualizado": "2026-11-23T02:30:52.824Z",
   "ofertas": [
+    {
+      "id": "darkroom/jobs/creator-manager-1704420002",
+      "tipo": "FULL_TIME",
+      "titulo": "Creator Manager",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/darkroom/jobs/creator-manager-1704420002?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Brazil, Portugal, Spain",
+      "empresa": "Darkroom",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "About Darkroom \n Darkroom is the leading next-generation growth marketing firm engineering the brands of tomorrow. Founded in 2017, we set out to redefine what a modern agency could be, by replacing the inertia of legacy advertising behemoths with a model built for speed, intelligence, and measurable impact.\n At our core, Darkroom is a human services company powered by Shadow , a universal AI commerce layer that integrates executive-level strategy with proprietary agentic technology. This fusion enables our teams to deliver outsized returns by enhancing creative output, operational efficiency, and revenue generation across every stage of the customer journey.\n Our track record speaks for itself: billions in attributable revenue driven across e-commerce marketplaces, media networks, DTC eco",
+      "vista": "2026-11-23T02:30:52.823Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de gestión de creadores y alianzas B2B (relaciones, acuerdos comerciales, embudo de altas), no de diseño ni vídeo, y además trabaja con horario de EE. UU. (EST).",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1653,
+          "salida": 633,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.043607,
+        "generada": "2026-11-23T02:30:51.716Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "rankings-io/jobs/sr-short-form-video-editor-ai-workflows-remote-latam",
       "tipo": "CONTRACTOR",
@@ -3944,46 +3984,6 @@
         },
         "costeUSD": 0.038677,
         "generada": "2026-11-18T00:08:06.997Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "ethikos/jobs/ai-workforce-planning-consultant",
-      "tipo": "FULL_TIME",
-      "titulo": "AI Workforce Planning Consultant",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/ethikos/jobs/ai-workforce-planning-consultant?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Spain",
-      "empresa": "Ethikos",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "En Ethikos estamos construyendo una nueva línea de trabajo alrededor del AI Workforce Planning y el rediseño del trabajo en la era de la inteligencia artificial .\n Buscamos profesionales que quieran ayudarnos a responder una pregunta que cada vez más organizaciones se están haciendo:\n ¿Cómo debería rediseñarse una organización cuando la IA empieza a asumir parte del trabajo que hoy realizan las personas? \n No buscamos simplemente implementar herramientas de IA. Buscamos entender cómo cambia el trabajo, qué tareas pueden automatizarse o aumentarse, qué capacidades necesitará la organización y cómo deberían evolucionar roles, equipos y estructuras.\n ¿Qué harás?\n Participarás en proyectos relacionados con:\n AI Workforce Planning.\n Strategic Workforce Planning.\n Análisis de roles, tareas y cap",
-      "vista": "2026-11-18T00:08:37.199Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es consultoría de RR. HH. y diseño organizativo, que Leo no tiene, pero su forma de separar tareas y montar agentes por departamento encaja con la parte de IA y no exigen dominar todas las áreas.",
-        "categoria": "AGENTES",
-        "idioma": "es",
-        "carga": "alta",
-        "texto": "¡Hola!\nLa pregunta que planteáis, cómo debería rediseñarse una organización cuando la IA empieza a asumir parte del trabajo, es la misma que aparece cada vez que monto un sistema de agentes para una empresa.\nSoy Leo Gómez, director creativo de LeoVisual.nl, y diseño oficinas de agentes de IA: un agente por departamento, informes diarios y agentes de WhatsApp/Telegram con n8n/Make.\nhttps://www.behance.net/gallery/257253261/AI-Agent-Offices-A-Day-Inside-Three-Businesses\nPara hacerlo, primero desgloso cada departamento en tareas, separo lo automatizable, lo que la IA puede aumentar y lo que debe seguir siendo humano, y después construyo y pruebo los agentes junto al equipo.\nPuedo aportar a esta nueva línea de Ethikos esa visión práctica de lo que la IA ya hace dentro de un equipo real, para que los escenarios de workforce y el rediseño de puestos partan de lo que la tecnología permite hoy.\nAntes de la entrevista os envío un mapa corto de un rol de ejemplo dividido en tareas automatizables, aumentables y humanas, con las nuevas capacidades que necesitaría el equipo.\n¿Con qué tipo de organizaciones y sectores vais a arrancar los primeros proyectos de AI Workforce Planning?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1466,
-          "salida": 2256,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0519322,
-        "generada": "2026-11-18T00:08:27.510Z"
       },
       "fuente": "himalayas"
     }
