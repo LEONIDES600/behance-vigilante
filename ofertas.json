@@ -1,6 +1,246 @@
 {
-  "actualizado": "2026-11-23T12:13:22.225Z",
+  "actualizado": "2026-11-23T13:53:36.708Z",
   "ofertas": [
+    {
+      "id": "372633",
+      "tipo": "FULLTIME",
+      "titulo": "Social Media Manager",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372633/Social-Media-Manager",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T13:53:36.708Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "372619",
+      "tipo": "FULLTIME",
+      "titulo": "Senior Graphic Designer Art Director",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372619/Senior-Graphic-Designer-Art-Director",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T13:53:36.708Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "372615",
+      "tipo": "FULLTIME",
+      "titulo": "Graphic Design Trainee",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372615/Graphic-Design-Trainee",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T13:53:36.708Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "372611",
+      "tipo": "FULLTIME",
+      "titulo": "Graphic Designer Intern",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372611/Graphic-Designer-Intern",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T13:53:36.708Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "372607",
+      "tipo": "FULLTIME",
+      "titulo": "Graphic Designer",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372607/Graphic-Designer",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T13:53:36.708Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "372583",
+      "tipo": "FULLTIME",
+      "titulo": "Graphic Designer",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372583/Graphic-Designer",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T13:53:36.708Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "372581",
+      "tipo": "FULLTIME",
+      "titulo": "Graphic Designer Marketing",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372581/Graphic-Designer-Marketing",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T13:53:36.708Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "372575",
+      "tipo": "FULLTIME",
+      "titulo": "Graphic Designer",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372575/Graphic-Designer",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T13:53:36.708Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "372573",
+      "tipo": "FULLTIME",
+      "titulo": "Graphic designer",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372573/Graphic-designer",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T13:53:36.708Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "372571",
+      "tipo": "FULLTIME",
+      "titulo": "Graphic Designer (Social Media)",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372571/Graphic-Designer-(Social-Media)",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T13:53:36.708Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "372567",
+      "tipo": "FULLTIME",
+      "titulo": "Video Editor",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372567/Video-Editor",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T13:53:36.708Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "372557",
+      "tipo": "FULLTIME",
+      "titulo": " Visual Designer (Brand)",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372557/-Visual-Designer-(Brand)",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T13:53:36.708Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "574231",
       "tipo": "FREELANCE",
@@ -2911,258 +3151,6 @@
         "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
         "sinDescripcion": true,
         "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
-      }
-    },
-    {
-      "id": "565233",
-      "tipo": "FREELANCE",
-      "titulo": "3D Animated Illustration Video for a Tech Startup",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/freelance/565233/3D-Animated-Illustration-Video-for-a-Tech-Startup",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
-      }
-    },
-    {
-      "id": "372351",
-      "tipo": "FULLTIME",
-      "titulo": "Video Editor",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372351/Video-Editor",
-      "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
-      }
-    },
-    {
-      "id": "372333",
-      "tipo": "FULLTIME",
-      "titulo": "WE ARE HIRING CINEMATOGRAPHER MULTIMEDIA CONTENT CREATOR",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372333/WE-ARE-HIRING-CINEMATOGRAPHER-MULTIMEDIA-CONTENT-CREATOR",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «espera»)"
-      }
-    },
-    {
-      "id": "372327",
-      "tipo": "FULLTIME",
-      "titulo": "Visualizer Graphic Designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372327/Visualizer-Graphic-Designer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
-      }
-    },
-    {
-      "id": "372317",
-      "tipo": "FULLTIME",
-      "titulo": "video editors",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372317/video-editors",
-      "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
-      }
-    },
-    {
-      "id": "372315",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic Designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372315/Graphic-Designer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
-      }
-    },
-    {
-      "id": "372307",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic Designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372307/Graphic-Designer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «espera»)"
-      }
-    },
-    {
-      "id": "372305",
-      "tipo": "FULLTIME",
-      "titulo": "Junior Graphic Designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372305/Junior-Graphic-Designer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
-      }
-    },
-    {
-      "id": "372303",
-      "tipo": "FULLTIME",
-      "titulo": "Creative Marketing Lead (Senior Graphic Designer)",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372303/Creative-Marketing-Lead-(Senior-Graphic-Designer)",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
-      }
-    },
-    {
-      "id": "372301",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic Designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372301/Graphic-Designer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
-      }
-    },
-    {
-      "id": "368159",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic Designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/368159/Graphic-Designer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «dudosa»)"
-      }
-    },
-    {
-      "id": "372481",
-      "tipo": "FULLTIME",
-      "titulo": "Video Motion Graphics",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372481/Video-Motion-Graphics",
-      "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-20T11:54:39.214Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true,
-        "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
       }
     }
   ]
