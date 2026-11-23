@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-23T01:24:49.410Z",
+  "actualizado": "2026-11-23T03:50:06.316Z",
   "ofertas": [
+    {
+      "id": "574027",
+      "tipo": "FREELANCE",
+      "titulo": "Website Redesign And Rebranding Guidelines",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574027/Website-Redesign-And-Rebranding-Guidelines",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "RBS Intellect",
+      "contacto": "Hannie Nguyen",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a brand-new website design along with comprehensive branding guidelines as part of a rebranding project. The work should establish a cohesive visual identity and translate it into a polished website experience.\n– Brand guidelines covering core visual identity elements\n– High-fidelity website design layouts ready for development",
+      "vista": "2026-11-23T03:50:06.316Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "La web encaja con sus servicios, pero las guías de marca son identidad visual sin cliente real en el portfolio, así que la carta ofrece una muestra antes de cobrar.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Hannie,\nA rebrand works best when the guidelines and the website are built as one system, so the new identity carries straight into high-fidelity layouts ready for development.\nWebsites I've designed: https://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nA concept identity I designed: https://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nPlan: review the current brand, define logo, colour, type and imagery rules, then deliver a guidelines PDF and Figma layouts for desktop and mobile.\nBefore you pay anything, I'll send one visual direction for RBS Intellect applied to your homepage hero.\n5000 USD, 50% upfront, 3–4 weeks, 2 rounds of changes.\nWhich pages does the new site need?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "3–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 493,
+          "salida": 1387,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.054047,
+        "generada": "2026-11-23T03:50:05.175Z"
+      }
+    },
     {
       "id": "573989",
       "tipo": "FREELANCE",
@@ -3219,45 +3258,6 @@
         },
         "costeUSD": 0.0248082,
         "generada": "2026-11-17T14:59:37.867Z"
-      }
-    },
-    {
-      "id": "571079",
-      "tipo": "FREELANCE",
-      "titulo": "Logo Design for a Pediatric Dental Practice",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/571079/Logo-Design-for-a-Pediatric-Dental-Practice",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Ich suche ein Logo für meine Kinderzahnarztpraxis. Das Design soll die Praxis klar und professionell repräsentieren und sich an Kinder sowie ihre Familien richten.",
-      "vista": "2026-11-17T14:58:21.779Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es un logo para una consulta dental infantil: Leo puede hacerlo, pero no tiene ninguna pieza de branding publicada, así que la carta ofrece una muestra gratis antes del pago.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi!\nA logo for your pediatric dental practice has to look professional to parents and feel friendly and calm to kids, all at a glance.\nI'm Leo, creative director at LeoVisual.nl. Before you pay anything, I'll send you one logo direction mocked up on your practice sign and an appointment card.\nHow I'd work: a short brief on your name, colours and tone, then 3 directions, then I refine the one you pick and deliver all files (vector, PNG, full-colour and one-colour versions).\nPrice: 500 USD, 50% upfront, delivery in 2–5 days, 2 rounds of changes.\nDoes the practice already have a name and colours you want to keep?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "2–5 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 442,
-          "salida": 989,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.045253,
-        "generada": "2026-11-17T14:58:20.461Z"
       }
     }
   ]
