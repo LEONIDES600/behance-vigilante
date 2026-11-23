@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-23T10:50:22.818Z",
+  "actualizado": "2026-11-23T11:01:17.676Z",
   "ofertas": [
+    {
+      "id": "574185",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity Design for an Online Education Business",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574185/Brand-Identity-Design-for-an-Online-Education-Business",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Genixy Academy",
+      "solicitantes": 3,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a designer to create a cohesive brand identity for my online education business. The identity should establish a professional and recognizable visual presence across the business.\n– Cohesive brand identity system for the online education business\n– Brand color palette and typography selections",
+      "vista": "2026-11-23T11:01:17.676Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Identidad de marca: se envía con el concepto SESTEO y una muestra de logo gratis antes de pagar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA cohesive identity for Genixy Academy should make your online courses feel professional and instantly recognizable, from the logo to the color palette and typography.\nHere is a concept identity I designed (logo, palette, type and applications):\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy process: a short brief, 2–3 directions, then the chosen one built into a system: logo, palette, typography and a simple guide for your course pages and social posts.\nBefore you pay anything, I'll send you one logo direction mocked up on a course thumbnail.\nPrice: 500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWho are your students, and is there a feeling the brand should avoid?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 457,
+          "salida": 1290,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.051963,
+        "generada": "2026-11-23T11:01:16.278Z"
+      }
+    },
     {
       "id": "574175",
       "tipo": "FREELANCE",
@@ -3124,45 +3163,6 @@
         },
         "costeUSD": 0.044485,
         "generada": "2026-11-17T18:18:15.394Z"
-      }
-    },
-    {
-      "id": "571373",
-      "tipo": "FREELANCE",
-      "titulo": "logo for a new boutique advertising agency",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/571373/logo-for-a-new-boutique-advertising-agency",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m launching a new boutique advertising agency, founded by an award-winning team with 15+ years in the industry, and I’m looking for a designer to create its full brand identity. The brand should feel young and bold but also refined and premium, with a crafted look that could sit just as naturally on a specialty coffee brand as on an agency deck. The scope covers logo concepts and the final logo system, colour palette, typography, key applications, social media templates and brand guidelines.\nideal timeline is two weeks from now, max 3 weeks.",
-      "vista": "2026-11-17T17:50:10.976Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es una identidad de marca completa y Leo no tiene todavía un proyecto de branding, así que se envía ofreciendo una muestra antes de cobrar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nYour agency needs an identity that feels young and bold yet refined and premium, crafted enough to sit on a specialty coffee bag as naturally as on an agency deck.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nBefore you pay anything, I'll send you one logo direction shown on an agency deck cover and a social post.\nThen: logo concepts, the final logo system, colour palette, typography, key applications, social media templates and brand guidelines.\n1000 USD, 50% upfront, delivered in 2 weeks, with 2 rounds of changes.\nWhich agencies or brands feel closest to the tone you have in mind?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "2 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 552,
-          "salida": 1063,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0244162,
-        "generada": "2026-11-17T17:50:09.952Z"
       }
     }
   ]
