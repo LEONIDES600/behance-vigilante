@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-23T03:50:06.316Z",
+  "actualizado": "2026-11-23T03:57:57.796Z",
   "ofertas": [
+    {
+      "id": "372779",
+      "tipo": "FULLTIME",
+      "titulo": "Video Editor Short Form ReelsTikTok (Remote Part time)",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372779/Video-Editor-Short-Form-ReelsTikTok-(Remote-Part-time)",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T03:57:57.796Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "574027",
       "tipo": "FREELANCE",
@@ -3219,45 +3239,6 @@
         },
         "costeUSD": 0.040232199999999996,
         "generada": "2026-11-17T15:34:34.524Z"
-      }
-    },
-    {
-      "id": "571093",
-      "tipo": "FREELANCE",
-      "titulo": "Logo and Brand Identity Design for an IT AI Company",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/571093/Logo-and-Brand-Identity-Design-for-an-IT-AI-Company",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "IT AI company",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a logo and complete brand identity kit for our IT AI company as a one-time freelance project. The designer should create a cohesive visual identity suitable for a technology and artificial intelligence brand.",
-      "vista": "2026-11-17T14:59:39.027Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Logo e identidad para una empresa de IA: no hay proyecto de branding en el portfolio, así que la carta ofrece una muestra antes de que paguen.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\n\nYour IT AI company needs a logo that feels precise and modern without the usual circuit-brain clichés, plus a kit that stays cohesive everywhere.\n\nI'm Leo, creative director at LeoVisual.nl. My plan: a short brief, 2–3 logo directions explored fast with AI, then the final vectors refined in Adobe and the full kit (logo versions, colour palette, typography and a simple usage guide).\n\nBefore you pay anything, I'll send you one logo direction mocked up on a website header and a business card.\n\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\n\nWhat is the company name, and do you already have colours or references you like?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 445,
-          "salida": 1104,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0248082,
-        "generada": "2026-11-17T14:59:37.867Z"
       }
     }
   ]
