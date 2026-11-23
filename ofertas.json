@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-23T06:11:33.929Z",
+  "actualizado": "2026-11-23T08:23:34.351Z",
   "ofertas": [
+    {
+      "id": "372819",
+      "tipo": "FULLTIME",
+      "titulo": "Photo Editor Retoucher",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372819/Photo-Editor-Retoucher",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T08:23:34.351Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "330481",
+      "tipo": "FULLTIME",
+      "titulo": "3D Visualizer Renderer",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/330481/3D-Visualizer-Renderer",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T08:23:34.351Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "372791",
       "tipo": "FULLTIME",
@@ -3142,84 +3182,6 @@
         },
         "costeUSD": 0.0245562,
         "generada": "2026-11-17T16:13:06.805Z"
-      }
-    },
-    {
-      "id": "353965",
-      "tipo": "FULLTIME",
-      "titulo": "Graphics Designer",
-      "presupuesto": "700 USD/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/353965/Graphics-Designer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anywhere",
-      "empresa": "Kommo",
-      "contacto": "Valentina Irdyneeva",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Graphic Designer @ Kommo — Remote 🌍 \n Hey! We're Kommo — an international IT company, and we're looking for a Graphic Designer to join our Content team 🎨\n We work across marketing, advertising, and product — creating visuals that reach audiences in multiple countries and languages. If you love clean design, know Figma inside out, and want to grow in a supportive international team, keep reading!\n What you'll be doing: \n Creating on-brand visuals in Figma for web, marketing, and communications\n Collaborating with the product and marketing teams on ad materials and webpage graphics\n Adapting content for different countries and markets\n Maintaining brand consistency across all design assets\n What we're looking for: \n We're looking for a Junior+ or Junior designer\n 6 months of relevant experience as a Graphic or Web Designer\n Strong Figma skills — auto layout, components, the works\n A solid portfolio with a variety of graphic design work\n English B2 or higher — most meetings and communication are in English\n Spanish or Portuguese is a big plus 🌟\n Nice to have: \n Web design experience\n Motion design skills\n Adobe Creative Suite & AI tools\n What we offer: \n Fully remote position\n A small, kind design team: 2 graphic designers + 1 motion designer\n Real room to grow — up to project manager or team lead\n Freedom to pitch your own ideas and see them come to life\n A global team of 600+ people across multiple countries\n How it works: Screening → Online interview → Test task\n Sounds li",
-      "vista": "2026-11-17T16:08:43.747Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Jornada completa por 700 USD/mes son unos 4,4 USD/h, por debajo del mínimo de 8 USD/h; además piden inglés B2 y Leo tiene B1.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 793,
-          "salida": 531,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.037497,
-        "generada": "2026-11-17T16:08:42.634Z"
-      }
-    },
-    {
-      "id": "571171",
-      "tipo": "FREELANCE",
-      "titulo": "One-Minute Animated Video Inspired by the Opening of Real Time With Bill Maher",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/571171/One-Minute-Animated-Video-Inspired-by-the-Opening-of-Real-Time-With-Bill-Maher",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need an animator to produce a one-minute video inspired by the opening style of “Real Time” with Bill Maher. My budget is $350, and I will provide an outline and storyboard to guide the animation.",
-      "vista": "2026-11-17T15:48:23.497Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Animación y motion graphics de un minuto con storyboard del cliente: encaja con sus servicios y el presupuesto es correcto.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA one-minute opening in the spirit of Real Time, with that bold title rhythm and punchy transitions, built from your own outline and storyboard, sounds like a great brief.\nI'm Leo, creative director at LeoVisual.nl. My closest work in motion and visual storytelling:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nHow I'd do it: turn your storyboard into a few style frames for your approval, animate in After Effects, then time every cut to the music and sound.\nPrice: 350 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nDo you already have the music and voice-over, or should I source the soundtrack too?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 350,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 464,
-          "salida": 1468,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.054921,
-        "generada": "2026-11-17T15:48:22.444Z"
       }
     }
   ]
