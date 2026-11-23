@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-23T09:24:00.135Z",
+  "actualizado": "2026-11-23T10:25:10.012Z",
   "ofertas": [
+    {
+      "id": "574159",
+      "tipo": "FREELANCE",
+      "titulo": "Team Photoshoot and Founder Brand Introduction Video for Rugas Tech",
+      "presupuesto": "10.000–25.000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574159/Team-Photoshoot-and-Founder-Brand-Introduction-Video-for-Rugas-Tech",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Rugas technologies",
+      "contacto": "spandan choundiyal",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a professional team photoshoot for Rugas Tech’s 15 members in Bangalore, along with filming and editing a two-minute introductory video featuring our founder and brand. Our budget for the complete project is INR 20,000. The visuals should present our team and brand professionally for introductory and promotional use.\n– Professional team photographs featuring 15 Rugas Tech members\n– Filmed and edited two-minute founder and brand introduction video\nThe shoot will take place in Bangalore and must cover both team photography and a founder-led brand introduction.",
+      "vista": "2026-11-23T10:25:10.012Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Hay que estar en persona en Bangalore para la sesión de fotos y el rodaje, y pagan en INR (20.000 INR, unos 240 USD por todo).",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 25000,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 590,
+          "salida": 462,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.035935,
+        "generada": "2026-11-23T10:25:09.257Z"
+      }
+    },
     {
       "id": "361907",
       "tipo": "FULLTIME",
@@ -3124,45 +3163,6 @@
         },
         "costeUSD": 0.0340042,
         "generada": "2026-11-17T17:44:48.071Z"
-      }
-    },
-    {
-      "id": "571315",
-      "tipo": "FREELANCE",
-      "titulo": "Design Support for Coffee Shop Promo Video, Logo, and Social Media Posts",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/571315/Design-Support-for-Coffee-Shop-Promo-Video-Logo-and-Social-Media-Posts",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm seeking design support for my coffee shop across three projects: a 30-second motion graphics promo video with a $300 budget, a logo with a $150 budget, and social media posts with a $200 budget. I need polished visual assets that promote the coffee shop consistently across video and social channels.",
-      "vista": "2026-11-17T17:10:41.319Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "El vídeo de motion y los posts para redes encajan con sus servicios; para el logo, que aún no tiene en el portfolio, se ofrece una muestra antes del pago.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYour coffee shop needs one consistent look, so I'd start with the logo and carry it into the 30-second promo and the social posts.\nI'm Leo, creative director at LeoVisual.nl. Closest work, a product campaign I directed:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nBefore you pay anything, I'll send you one logo direction mocked up on a coffee cup.\nThen: logo, motion promo (script, animation, music and sound) and a set of posts in the same style.\n650 USD total (150 logo + 300 video + 200 posts), 50% upfront, 7–10 days, 2 rounds of changes.\nHow many social posts do you need, and for which platforms?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 650,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 498,
-          "salida": 1549,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.056677,
-        "generada": "2026-11-17T17:10:40.522Z"
       }
     }
   ]
