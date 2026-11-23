@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-22T22:37:13.728Z",
+  "actualizado": "2026-11-23T00:37:38.984Z",
   "ofertas": [
+    {
+      "id": "573979",
+      "tipo": "FREELANCE",
+      "titulo": "Shopify Grocery Storefront Design And Delivery Setup",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/573979/Shopify-Grocery-Storefront-Design-And-Delivery-Setup",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Justin wilson",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m setting up a small Shopify grocery storefront with ten initial products and need a fast, modern ecommerce site built for direct nationwide delivery orders. The store must support location- or weight-based delivery charges, properly configured nationwide shipping zones and rate tables, Stripe or Shopify Payments, basic SEO, Google Analytics, and full desktop and mobile testing before hand-off. I need a simple visual theme that showcases fresh-food imagery and keeps the cart and checkout journey prominent. Each product needs high-resolution photos, a short description, nutritional information, pricing, and relevant pack-size variants. Please also provide a concise hand-off guide so I can update products and shipping rates independently.\n– Shopify grocery storefront with a modern, mobile-optimized theme\n– Home page with hero banner, featured products, and concise value proposition\n– Ten individual product pages with images, descriptions, nutrition information, pricing, and applicable variants\n– Configured cart, secure checkout, Shopify Payments or Stripe, and nationwide weight-based shipping rules\n– Basic SEO metadata, image alt text, and Google Analytics integration\n– Desktop and mobile quality assurance, including dummy-order testing for shipping, tax, and payment workflows\n– Brief hand-off guide for editing products and shipping rates\nSimple, modern, fresh-food-focused, fast-loading, and mobile-first, with prominent cart and checkout flow.\nThe launch catalog is limited to",
+      "vista": "2026-11-23T00:37:38.984Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Tienda Shopify con diseño web y configuración: encaja con webs y landings, en remoto y con presupuesto razonable.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Justin!\nA fresh-food Shopify store with ten SKUs, weight-based nationwide shipping and a prominent checkout needs to feel simple and load fast.\nWebsites I've designed:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nMy plan: home page with hero, featured products and value proposition; ten product pages with nutrition, variants and alt text; shipping zones and rates, Shopify Payments, SEO and Google Analytics; dummy orders on desktop and mobile; then a short hand-off guide.\nBefore you pay anything, I'll send you a home page mockup with your fresh-food look.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nDo you already have photos of the ten products?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 926,
+          "salida": 1818,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.064399,
+        "generada": "2026-11-23T00:37:37.921Z"
+      }
+    },
     {
       "id": "573957",
       "tipo": "FREELANCE",
@@ -3218,44 +3257,6 @@
         },
         "costeUSD": 0.034225,
         "generada": "2026-11-17T14:05:38.488Z"
-      }
-    },
-    {
-      "id": "372213",
-      "tipo": "FULLTIME",
-      "titulo": "Kıdemli Artdirector/Sanat Yönetmeni",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/372213/Kdemli-ArtdirectorSanat-Yoenetmeni",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "WeStudio",
-      "contacto": "Muhammed emre Köşker",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "WeStudio | Senior Art Director\n Markaları sadece güzel göstermek değil, doğru hikâyeyle büyütmek istiyoruz.\n WeStudio olarak; strateji, yaratıcılık ve tasarımı bir araya getirerek markaların dijital dünyadaki yolculuğunu şekillendiriyoruz. Şimdi ise ekibimize, fikir geliştirme süreçlerine liderlik edecek, tasarım kalitesiyle fark yaratacak bir Senior Art Director arıyoruz.\n Ankara ofisimizde ve online tam zamanlı çalışacak ekip arkadaşımızdan beklentilerimiz:\n Aradığımız Profil\n Üniversitelerin Grafik Tasarım, Görsel İletişim Tasarımı, Güzel Sanatlar, Reklamcılık veya ilgili bölümlerinden mezun,\n Reklam veya dijital ajanslarda en az 5 yıl Art Director / Senior Art Director deneyimine sahip,\n Güçlü bir tasarım bakış açısına ve yaratıcı düşünme becerisine sahip,\n Marka kimliği oluşturma, kampanya geliştirme ve görsel iletişim süreçlerinde aktif rol almış,\n Sosyal medya, dijital platformlar ve reklam mecralarının dinamiklerine hâkim,\n Adobe Creative Cloud (Photoshop, Illustrator, InDesign) programlarını ileri seviyede kullanabilen, tercihen After Effects ve Premiere Pro bilgisine sahip,\n Tasarım trendlerini, yapay zekâ destekli yaratıcı araçları ve dijital dünyadaki yenilikleri yakından takip eden,\n Brief'i doğru analiz edip yaratıcı fikirler geliştirebilen,\n Baskı ve dijital üretim süreçlerine hâkim,\n Aynı anda birden fazla projeyi planlayıp yönetebilen,\n Detaylara önem veren, yüksek tasarım standartlarına sahip,\n Sunum becerileri güçlü, ekip çalışmasına yatkın ve iletişimi kuv",
-      "vista": "2026-11-17T14:06:56.958Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Puesto fijo híbrido con oficina en Ankara, que pide al menos 5 años como director de arte en agencia y un perfil centrado en el mercado turco.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1385,
-          "salida": 354,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0135682,
-        "generada": "2026-11-17T14:05:42.708Z"
       }
     }
   ]
