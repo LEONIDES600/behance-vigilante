@@ -1,31 +1,31 @@
 {
   "version": "v3.5 · 20/11/2026",
-  "actualizado": "2026-11-23T15:24:17.441Z",
-  "ultimaPasadaConDatos": "2026-11-23T15:24:16.967Z",
+  "actualizado": "2026-11-23T15:54:44.516Z",
+  "ultimaPasadaConDatos": "2026-11-23T15:54:44.079Z",
   "ciegoDesde": null,
   "proxyBehance": "jina",
-  "pasadas": 19461,
+  "pasadas": 19487,
   "hoy": {
     "fecha": "2026-11-23",
-    "nuevas": 291,
-    "alto": 12,
-    "medio": 41,
-    "bajo": 19,
-    "no": 70,
-    "enCola": 47,
+    "nuevas": 312,
+    "alto": 17,
+    "medio": 44,
+    "bajo": 20,
+    "no": 76,
+    "enCola": 55,
     "enMundo": 6,
-    "cartas": 23,
+    "cartas": 31,
     "cartasError": 0,
     "cartasSinDescripcion": 28,
-    "costeCartasUSD": 1.0622,
+    "costeCartasUSD": 1.4414,
     "filtroTrampa": 0,
     "filtroUbicacion": 3,
     "filtroSinIA": 1
   },
   "behance": {
     "buzon": "configurado",
-    "ultimoLatidoVigia": "2026-11-23T15:21:48.884Z",
-    "ultimoDato": "2026-11-23T15:24:16.227Z",
+    "ultimoLatidoVigia": "2026-11-23T15:51:50.803Z",
+    "ultimoDato": "2026-11-23T15:54:44.079Z",
     "sondaPausadaHasta": "2026-11-23T16:10:03.645Z",
     "avisoEnviado": false
   },
@@ -53,7 +53,7 @@
     "jobicy": {
       "fallosSeguidos": 0,
       "pausadaHasta": null,
-      "ultimaConsulta": "2026-11-23T14:49:35.171Z"
+      "ultimaConsulta": "2026-11-23T15:53:36.106Z"
     },
     "himalayas": {
       "fallosSeguidos": 0,
