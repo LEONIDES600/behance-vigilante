@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-23T08:34:22.338Z",
+  "actualizado": "2026-11-23T09:24:00.135Z",
   "ofertas": [
+    {
+      "id": "361907",
+      "tipo": "FULLTIME",
+      "titulo": "3D Graphics Designer",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/361907/3D-Graphics-Designer",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-23T09:24:00.135Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "372823",
       "tipo": "FULLTIME",
@@ -3143,45 +3163,6 @@
         },
         "costeUSD": 0.056677,
         "generada": "2026-11-17T17:10:40.522Z"
-      }
-    },
-    {
-      "id": "571253",
-      "tipo": "FREELANCE",
-      "titulo": "Graphic Design Support for a Six-Month AI Training Project",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/571253/Graphic-Design-Support-for-a-Six-Month-AI-Training-Project",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a graphic designer to support our AI training project for a long-term engagement of over six months. The budget is USD 1,000–3,000 per month.",
-      "vista": "2026-11-17T16:39:10.038Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es diseño gráfico continuo para un proyecto de IA, encaja con Leo; va como dudosa porque está en Branding y no hay proyecto de branding, así que se ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nA six-month AI training project needs visuals that stay consistent from the first module to the last, not one-off pieces.\nI'm Leo Gómez, creative director at LeoVisual.nl. I work with AI tools like GPT Image and Nano Banana Pro, plus Adobe and Figma, for graphic design, motion and 3D.\nHow I'd do it: set up a simple visual system (type, colours, icon and diagram style), then deliver slides, course graphics and social assets on a weekly rhythm.\nBefore you pay anything, I'll send you one sample training slide designed in that system.\nPrice: 2,500 USD per month, 50% upfront each month, 2 rounds of changes per piece, ongoing for the six months.\nWhat will the designs be used for first: course slides, platform screens or promotion?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "6 meses (trabajo continuo, entregas semanales)",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 427,
-          "salida": 1670,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0360562,
-        "generada": "2026-11-17T16:39:09.000Z"
       }
     }
   ]
