@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-23T07:35:16.178Z",
+  "actualizado": "2026-11-23T10:40:04.346Z",
   "ofertas": [
+    {
+      "id": "partyhat/jobs/digital-illustrator-7389798820",
+      "tipo": "FULL_TIME",
+      "titulo": "Digital Illustrator",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/partyhat/jobs/digital-illustrator-7389798820?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Argentina, Brazil, Bulgaria, Canada, Colombia, Croatia, Germany, Japan, Latvia, Malta, Mexico, Philippines, Poland, Romania, Serbia, Ukraine",
+      "empresa": "Partyhat",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "The Mission \n Generic stock vectors and uninspired corporate graphics are completely dead to us. We need a precision visual designer to forge the premium aesthetic identity of the Partyhat universe. Your job is to take abstract product concepts and turn them into visceral, high-impact digital illustrations, hero graphics, and custom visual assets that give our digital web ecosystem a sharp, undeniable edge. This is a remote, asset-focused role for a digital artist who knows how to blend clean modern web layout principles with the fast-paced, high-stakes vibe of the internet-native economy.\n We don't care about a formal art degree or a resume filled with corporate agencies, we care about the raw power, execution, and utility of your digital portfolio. If you have the drive to master our cor",
+      "vista": "2026-11-23T10:40:04.346Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Remoto solo para una lista de países sin España ni Países Bajos, pago en cripto (USDC/USDT) y puesto de ilustración vectorial pura con disponibilidad a demanda.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1717,
+          "salida": 524,
+          "cacheLeida": 4867,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0183214,
+        "generada": "2026-11-23T10:40:03.532Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "156552",
       "tipo": "FULL_TIME",
@@ -3944,46 +3984,6 @@
         },
         "costeUSD": 0.0133442,
         "generada": "2026-11-18T04:11:03.539Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "metro-makro/jobs/business-process-automation-integration-specialist",
-      "tipo": "FULL_TIME",
-      "titulo": "Business Process Automation & Integration Specialist",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/metro-makro/jobs/business-process-automation-integration-specialist?utm_source=api",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Spain",
-      "empresa": "METRO/MAKRO",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Desde VTO, buscamos a una persona para optimizar y automatizar procesos mediante soluciones de integración flexibles, de fácil mantenimiento así como modernizar las integraciones actuales e implementar soluciones digitales que respondan a las necesidades del negocio, asegurando el cumplimiento normativo. \n Como Business Process Automation & Integration Specialist, tus principales responsabilidades serán: \n Analizar integralmente los procesos de negocio en colaboración con las áreas usuarias, identificando oportunidades de mejora y automatización y definiendo los requisitos para su implementación.\n Diseñar, desarrollar y mantener flujos de trabajo automatizados e integraciones mediante DocuWare, n8n, API y servicios web, seleccionando la solución tecnológica más adecuada a los requisitos de",
-      "vista": "2026-11-18T04:11:18.253Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es un puesto técnico de integración de sistemas que exige ingeniería informática, más de 5 años, Java, SQL, EDI, DocuWare y facturación electrónica en España, y Leo no cumple esos requisitos.",
-        "categoria": "OTRO",
-        "idioma": "es",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1882,
-          "salida": 489,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0182562,
-        "generada": "2026-11-18T04:11:08.849Z"
       },
       "fuente": "himalayas"
     }
