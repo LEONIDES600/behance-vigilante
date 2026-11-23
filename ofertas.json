@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-23T12:02:24.677Z",
+  "actualizado": "2026-11-23T12:13:22.225Z",
   "ofertas": [
+    {
+      "id": "574231",
+      "tipo": "FREELANCE",
+      "titulo": "Shopify Store Design for Website",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574231/Shopify-Store-Design-for-Website",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Oluwajuwon Israel",
+      "solicitantes": 4,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a Shopify store designer to help design and improve my website. The work should focus on creating an effective, user-friendly online store experience.\n– Designed Shopify storefront pages\n– Responsive website layout optimized for desktop and mobile",
+      "vista": "2026-11-23T12:13:22.225Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es diseño web, que encaja con Leo, pero no tiene ninguna tienda Shopify en el portfolio, así que se ofrece una muestra antes de cobrar.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Oluwajuwon!\nYou want storefront pages that feel easy to shop on, with a layout that works just as well on mobile as on desktop.\nI'm Leo, creative director at LeoVisual.nl. My closest work is a set of websites I designed and built:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nHow I'd do it: review your current store, design the home, collection and product pages in Figma for desktop and mobile, then set them up in your Shopify theme.\nBefore you pay anything, I'll send you your homepage redesigned for desktop and mobile.\n500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich pages matter most to you right now: home, collection or product pages?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 451,
+          "salida": 1524,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.056619,
+        "generada": "2026-11-23T12:13:21.253Z"
+      }
+    },
     {
       "id": "574227",
       "tipo": "FREELANCE",
@@ -3124,45 +3163,6 @@
         "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
         "sinDescripcion": true,
         "corregida": "20/11/2026 (antes: carta a ciegas, decisión «enviar»)"
-      }
-    },
-    {
-      "id": "571417",
-      "tipo": "FREELANCE",
-      "titulo": "Freelance Creative Strategist for US Nutra Supplement Offers",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/571417/Freelance-Creative-Strategist-for-US-Nutra-Supplement-Offers",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m seeking a freelance Creative Strategist for health and wellness supplement offers targeting the US market. This is a two-in-one role focused on generating creative concepts and producing performance-driven creatives for testing and iteration.",
-      "vista": "2026-11-17T19:15:14.962Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Encaja: conceptos y anuncios cortos de rendimiento y diseño para redes; el presupuesto llega a 250 USD, así que no es demasiado bajo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nFor US supplement offers, testing works best with several hooks and angles per offer, cut into short ads you can iterate on fast.\nClosest example of my work, a product campaign:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I'd work: 1) 3–5 concepts per offer (hook, angle, script), 2) produce short video ads and static social designs in 9:16 and 1:1, 3) build new variations from your test results.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nPrice: 250 USD for a first batch, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich offer would you like to start with, and do you already have winning ads we can build on?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 460,
-          "salida": 1358,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0299482,
-        "generada": "2026-11-17T19:15:13.789Z"
       }
     }
   ]
