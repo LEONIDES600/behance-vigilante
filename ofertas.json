@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-23T10:25:10.012Z",
+  "actualizado": "2026-11-23T10:36:51.154Z",
   "ofertas": [
+    {
+      "id": "574165",
+      "tipo": "FREELANCE",
+      "titulo": "Social Media Designer | Gym Instagram Templates & Visual Identity",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574165/Social-Media-Designer-Gym-Instagram-Templates-Visual-Identity",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Jean Thor Renzo Mutuc",
+      "solicitantes": 4,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Social Media Designer | Gym Instagram Templates & Visual Identity\nWe’re building a new gym brand centered on CrossFit, HYROX, and functional training, and we’re looking for a creative designer to develop a cohesive Instagram feed design system using fully editable Canva templates.\nCreative Direction\nWe want to move away from the typical gym aesthetic. Nothing overly aggressive, overly masculine, or excessively gritty.\nWe’re aiming for something bold, contemporary, clean, and design-driven, balancing performance, lifestyle, and community.\nWe’re building a movement, a community, and a habit. But at its core, we’re still a gym. The visual identity should communicate training, strength, movement, discipline, and performance without relying on conventional fitness design clichés.\nThe attached reference reflects the direction we’re aiming for: strong typography, monochromatic photography, thoughtful graphic elements, clean layouts, and a cohesive Instagram grid.\nCurrent Project Stage\nOur gym is still under construction, so our initial Instagram content will focus on building anticipation, introducing the brand, establishing its personality, and attracting an early community.\nSince we don’t have actual facility or training photography yet, the design system needs to be strong enough to carry the content independently, using typography, graphic elements, layouts, and carefully selected imagery.\nWe already have logo and want the Instagram design system to complement and extend it.\nIns",
+      "vista": "2026-11-23T10:36:51.154Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con el diseño para redes, pero en Behance no hay ningún proyecto de plantillas de Instagram ni de identidad deportiva, así que la carta ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Jean!\n\nA CrossFit and HYROX gym that avoids the gritty, overly masculine look needs a feed that can stand on its own with typography and layout, before the space even exists.\nI'm Leo Gómez, creative director at LeoVisual.nl. My plan: define type, monochrome photo treatment and graphic elements that extend your logo, build 12–15 editable Canva masters (single posts and carousels with cover, content and closing slides), then a 9–12 post grid and a simple visual guide.\nBefore you pay anything, I'll send you one coming-soon teaser post and a carousel cover in that direction.\nPrice: 500 USD, 50% upfront, 7–10 days, 2 rounds of revisions.\nWhich pre-launch post do you want to publish first: the teaser or the countdown?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1391,
+          "salida": 1472,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.059339,
+        "generada": "2026-11-23T10:36:50.377Z"
+      }
+    },
     {
       "id": "574159",
       "tipo": "FREELANCE",
@@ -3124,45 +3163,6 @@
         },
         "costeUSD": 0.035965,
         "generada": "2026-11-17T17:44:32.248Z"
-      }
-    },
-    {
-      "id": "571351",
-      "tipo": "FREELANCE",
-      "titulo": "UX/UI Design for Long-Term AI Training Project",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/571351/UXUI-Design-for-Long-Term-AI-Training-Project",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Ich suche einen UX/UI-Designer für ein langfristiges KI-Trainingsprojekt mit einem monatlichen Budget von 2.000 bis 5.000 USD. Der Umfang beträgt 3 bis 5 Arbeitsstunden pro Woche über einen Zeitraum von mehr als sechs Monaten.",
-      "vista": "2026-11-17T17:44:49.065Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Diseño UX/UI de interfaces encaja con su trabajo web y en Figma; encargo continuo y remoto que habla de IA.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA long-term AI training project at 3–5 hours a week needs interfaces that stay clear and consistent for six-plus months, not one-off screens.\nI'm Leo Gómez, creative director at LeoVisual.nl. I design and build web interfaces and use AI in my workflow:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nHow I'd work: map the key user flows, set up a small Figma component system, then design screens in weekly batches for you to review.\n2500 USD per month, 50% upfront each month, 3–5 hours a week for 6+ months, 2 rounds of changes per batch.\nWhat will users do in the interface: label data, review model outputs, or something else?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "3–5 h por semana durante más de 6 meses",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 499,
-          "salida": 1553,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0340042,
-        "generada": "2026-11-17T17:44:48.071Z"
       }
     }
   ]
