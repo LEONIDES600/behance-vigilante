@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-23T23:25:43.348Z",
+  "actualizado": "2026-11-24T01:37:44.106Z",
   "ofertas": [
+    {
+      "id": "574549",
+      "tipo": "FREELANCE",
+      "titulo": "Logo, Packaging, and Design Systems for a CPG Brand",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574549/Logo-Packaging-and-Design-Systems-for-a-CPG-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Sleekshop",
+      "contacto": "Darlene Nguyen",
+      "solicitantes": 2,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "About the opportunity:\nHelp us bring a new kind of wellness ritual to life. We are launching a new brand, a premium CPG confectionary supplement, and we are looking for a packaging designer with a refined eye to build its entire visual identity: the logo, design systems, and packaging. You will not be starting from a blank page. We bring a fully developed vision board, brand story and customer profile, so your craft goes straight into making something beautiful and unmistakably ours.\nThis is a new product development for our company, which was founded 23 years ago. There is a lot of room for growth, and the work will be seen by Fortune 1000 executives, which means real visibility for your portfolio.\nAbout our company:\nFor more than 23 years, we have been in the business of helping people look and feel like their best selves. Beauty means something different to everyone, and we build products that meet each person where they are.\nDeliverables:\n1. Logo\n2. Style guidelines and design systems: logo usage, color palette, typography, motifs and repeating visual elements.\n3. Three packaging pieces: supplements container, outer carton box, and the insert.\nWhat you'll do:\n• Design the brand logo, built around the story and brand name we provide.\n• Build style guidelines: logo usage, color palette, typography, motifs and repeating visual elements.\n• Develop the product packaging design, starting from our vision board, inspiration and palette.\n• Design three packaging pieces: the contai",
+      "vista": "2026-11-24T01:37:44.106Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exigen 5+ años de diseño, 3+ en packaging CPG y formación formal, y piden contar un caso real de llevar un producto a la estantería, cosa que Leo no puede demostrar con honestidad.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1574,
+          "salida": 602,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.042671,
+        "generada": "2026-11-24T01:37:43.320Z"
+      }
+    },
     {
       "id": "574513",
       "tipo": "FREELANCE",
@@ -3176,45 +3215,6 @@
         },
         "costeUSD": 0.038971,
         "generada": "2026-11-20T23:52:10.133Z"
-      }
-    },
-    {
-      "id": "573277",
-      "tipo": "FREELANCE",
-      "titulo": "Freelance Comic & Storyboard Illustrator",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573277/Freelance-Comic-Storyboard-Illustrator",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "500 Designs",
-      "contacto": "Valentina Buitrago",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "⚠️PLEASE READ THE WHOLE INFORMATION TO KNOW HOW TO APPLY⚠️\n500 Designs is looking for experienced freelance illustrators to support an international design project focused on Comic & Storyboard assets.\nWe're especially interested in artists with strong experience in sequential art, comic illustration, storyboarding, character consistency, and visual storytelling.\nHow to Apply\nAll candidates must submit their applications through the following link:\n https://sensa-talent-sync.base44.app/?invite=SL209\nImportant: Applications that do not meet the required qualifications, including English proficiency and relevant portfolio experience, will not be considered. Applications must be submitted through the designated link to be reviewed.\nTypes of Work\nYou may be asked to design assets such as:\n-Comic strips and multi-panel comic pages\n-Storyboards for advertising, animation, or visual concepts\n-Sequential illustrations and visual narratives\n-Character-driven scenes and interactions\n-Expressive poses, actions, and storytelling panels\n-Illustrated sequences with speech bubbles, captions, or dialogue\n-Concept sequences showing camera angles, actions, and transitions\nYou do not need experience with every asset type. We're looking for illustrators with strong transferable skills in narrative clarity, expressive drawing, sequential composition, and consistent visual storytelling.\nWhat We're Looking For\n-Strong sequential storytelling, composition, and panel layout skills\n-Excellent drawing ",
-      "vista": "2026-11-20T23:40:45.684Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Obliga a postular en un enlace externo (base44.app), lo que parece una trampa, y pide ilustración de cómic y storyboard dibujada a mano, que Leo no hace.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "2–4 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1492,
-          "salida": 440,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.039103,
-        "generada": "2026-11-20T23:40:44.262Z"
       }
     }
   ]
