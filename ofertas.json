@@ -1,6 +1,84 @@
 {
-  "actualizado": "2026-11-24T17:25:53.206Z",
+  "actualizado": "2026-11-24T18:25:36.471Z",
   "ofertas": [
+    {
+      "id": "574891",
+      "tipo": "FREELANCE",
+      "titulo": "T-Shirt Graphic Design for Fitness, Bodybuilding, and Streetwear",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574891/T-Shirt-Graphic-Design-for-Fitness-Bodybuilding-and-Streetwear",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "MICHAEL DOUGLAS",
+      "solicitantes": 5,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Project Type\nExperience Level\nIntermediate / Expert\nProject Duration\n2–4 weeks\nProject Description\nWe are looking for a talented T-shirt graphic designer specializing in fitness, bodybuilding and premium streetwear apparel.\nThe project involves creating original, high-quality graphic designs for oversized T-shirts.\nWe are looking for someone who can develop original artwork from scratch based on our ideas, concepts and visual references.\nThe ideal designer should have experience with:\nBodybuilding and fitness apparel graphics.\nStreetwear T-shirt designs.\nCustom illustrations and typography.\nProfessional textile printing preparation.\nScreen printing (Silk Screen / Plastisol).\nRequired Deliverables\nOriginal T-shirt graphic designs.\nFront and back design applications.\nEditable Adobe Illustrator files (.AI).\nVector files (.EPS and .PDF).\nHigh-resolution PNG files with transparent backgrounds.\nPrint-ready artwork.\nColor separations suitable for screen printing.\nProfessional T-shirt mockups.\nAdditional Requirements\nAll designs must be original and created specifically for our brand.\nFull exclusive commercial rights to the final approved artwork must be transferred upon final payment.\nWe are looking for a creative professional interested in building a long-term working relationship, with opportunities for future collections and projects.\n– Artes gráficas originais para estampas de camisetas fitness, bodybuilding e streetwear\n– Arquivos finais prontos para produção e impressão em cam",
+      "vista": "2026-11-24T18:25:36.471Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Estampados de camisetas fitness/streetwear con IA y entrega en vector; no hay proyecto igual en el portfolio, así que se ofrece una muestra gratis.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Michael,\n\nFront and back graphics for oversized fitness and bodybuilding tees have to look strong and still print clean in plastisol.\nI'm Leo Gómez, creative director at LeoVisual.nl. I use AI to explore concepts fast from your references, then rebuild each final as clean vector art with custom type in Illustrator.\nBefore you pay anything, I'll send you one front and back design from one of your ideas, mocked up on an oversized tee.\nDelivery: .AI, .EPS, .PDF, transparent PNGs, color separations for screen printing and mockups, with full rights on final payment.\n500 USD, 50% upfront, 2–4 weeks, 2 rounds of changes.\nHow many designs and how many ink colors per print do you have in mind for this first drop?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 932,
+          "salida": 2076,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.069583,
+        "generada": "2026-11-24T18:25:21.319Z"
+      }
+    },
+    {
+      "id": "574869",
+      "tipo": "FREELANCE",
+      "titulo": "Logo for a new social application",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574869/Logo-for-a-new-social-application",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Jarid Margolin",
+      "solicitantes": 35,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Looking for brand design (focusing on the core logo mark) for, Firsthand, a social app that allows friends to share and find recommendations with each other.\nThe intent is to find something fun and inviting, but there needs to a simplicity to it so that it can be used as a favicon, as an app icon, and in the titlebar in an application. I am open to exploring the concept of a mascot, similar to Reddit, or maybe just a simple illustration like Clubhouse.\nRef: https://www.reddit.com/\nRef: https://www.clubhouse.com/\nCurrent brand typeface: https://ohnotype.co/fonts/degular\nI don't have an exact vision of the logo I want. I need help crafting the idea just as much as executing the concept.\nLooking to move quickly as possible with the right designer.",
+      "vista": "2026-11-24T18:25:36.471Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es un logo y una identidad para una app social: encaja en lo «dudoso» porque no hay un logo de cliente igual en el portfolio, así que se ofrece una muestra antes de pagar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Jarid,\n\nFirsthand needs a mark that feels fun and inviting but still reads clearly as a favicon, an app icon and next to Degular in the titlebar.\nI'm Leo, creative director at LeoVisual.nl. A concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd do it: a short call on how sharing recommendations with friends should feel, then 3 routes (mascot, simple illustration, pure symbol), each tested at 16px, as an app icon and in the titlebar, and I refine the one you choose.\nBefore you pay anything, I'll send you one logo direction mocked up as your app icon and favicon.\n1000 USD, 50% upfront, 2–5 days, 2 rounds of changes.\nAre you leaning more toward a mascot like Reddit's or a simpler illustrated mark like Clubhouse's?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "2–5 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 636,
+          "salida": 1507,
+          "cacheLeida": 4867,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.033657400000000004,
+        "generada": "2026-11-24T18:25:35.476Z"
+      }
+    },
     {
       "id": "574853",
       "tipo": "FREELANCE",
@@ -3209,84 +3287,6 @@
       "carta": {
         "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
         "sinDescripcion": true
-      }
-    },
-    {
-      "id": "573703",
-      "tipo": "FREELANCE",
-      "titulo": "Graphic Design for a Skincare Brand",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573703/Graphic-Design-for-a-Skincare-Brand",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "ayesha samin",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a graphic designer to create design materials for my skincare brand. The work should support a cohesive, professional visual presence for the brand.\n– Cohesive visual design assets for the skincare brand\n– Editable source files for approved designs",
-      "vista": "2026-11-22T01:49:23.652Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Diseño de marca para skincare: encaja con el concepto de branding de Leo, y la carta ofrece una muestra gratis antes de cobrar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Ayesha,\n\nYour skincare brand needs design assets that feel cohesive and professional, plus editable source files you can keep using.\nI'm Leo, creative director at LeoVisual.nl. Here is a concept identity I designed for a consumer brand:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy process: a short moodboard, then palette, type and graphic elements, then the final assets with editable source files.\nBefore you pay anything, I'll send you one design direction applied to a skincare product mockup.\n250 USD, 50% upfront, 7–10 days and 2 rounds of changes.\nWhich pieces do you need first, and do you already have a logo?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 454,
-          "salida": 1546,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.057071,
-        "generada": "2026-11-22T01:49:22.716Z"
-      }
-    },
-    {
-      "id": "573697",
-      "tipo": "FREELANCE",
-      "titulo": "Identidad De Marca Para Empresa De Mascotas Con Logo Y Packaging",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573697/Identidad-De-Marca-Para-Empresa-De-Mascotas-Con-Logo-Y-Packaging",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "M Z",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Buscamos crear una identidad de marca para nuestra empresa de la industria de las mascotas. Necesitamos un logo y diseños de packaging coherentes con la nueva identidad visual.\n– Identidad visual de marca para la empresa de mascotas\n– Diseño de logo en formatos utilizables\n– Diseño de packaging alineado con la identidad de marca",
-      "vista": "2026-11-22T01:13:40.380Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Piden branding y packaging: Leo tiene la identidad conceptual SESTEO como prueba, pero ningún caso real del sector mascotas, así que la carta ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "es",
-        "carga": "media",
-        "texto": "¡Hola!\nUna marca de mascotas necesita que el logo y el packaging se vean como una sola marca desde el primer vistazo en la estantería.\nSoy director creativo de LeoVisual.nl; esta es una identidad conceptual que diseñé, con logo y packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nCómo lo haría: 1) brief sobre tu público y valores, 2) dos o tres direcciones de logo, 3) paleta y tipografía, 4) packaging aplicado y logo en SVG, PNG y PDF.\nAntes de que pagues nada, te envío una dirección de logo aplicada a uno de tus envases.\nPrecio: 1000 USD, 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿Qué productos tenéis (comida, accesorios, higiene) y cuántos envases hay que diseñar?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 531,
-          "salida": 1387,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.054199,
-        "generada": "2026-11-22T01:13:39.131Z"
       }
     }
   ]
