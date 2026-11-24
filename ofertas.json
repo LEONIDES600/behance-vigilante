@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-24T08:25:13.979Z",
+  "actualizado": "2026-11-24T08:37:58.925Z",
   "ofertas": [
+    {
+      "id": "574637",
+      "tipo": "FREELANCE",
+      "titulo": "Création D’une Bannière YouTube Et D’un Logo horrifique/paranormal",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574637/Cration-Dune-Banniere-YouTube-Et-Dun-Logo-horrifiqueparanormal",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Souvenirs 33",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Je recherche un graphiste pour créer une bannière YouTube et un logo cohérents pour ma chaîne. Les visuels doivent être adaptés à une utilisation sur YouTube et refléter une identité de marque unifiée.\n– Logo personnalisé utilisable sur la chaîne YouTube\n– Bannière YouTube adaptée aux dimensions de la plateforme",
+      "vista": "2026-11-24T08:37:58.925Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo y banner de YouTube para un canal de terror: Leo lo puede hacer, pero no tiene un logo igual en el portfolio, así que se ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi!\nYour horror/paranormal channel needs a logo and a banner that feel like one identity, readable at small sizes and inside YouTube's safe area.\nThe closest piece is a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd do it: 2–3 logo directions (dark type, symbol, eerie textures), refine the one you choose, then build the 2560x1440 banner around it and test it on desktop, mobile and TV.\nBefore you pay anything, I'll send you one logo direction mocked up on your channel header.\n250 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhat is the channel name, and do you prefer a vintage occult look or a modern found-footage style?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 533,
+          "salida": 1464,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.055747,
+        "generada": "2026-11-24T08:37:47.469Z"
+      }
+    },
     {
       "id": "574633",
       "tipo": "FREELANCE",
@@ -3184,26 +3223,6 @@
       "presupuesto": "",
       "enlace": "https://www.behance.net/joblist/fulltime/372689/Video-Editor",
       "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-21T09:54:45.249Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
-      }
-    },
-    {
-      "id": "323491",
-      "tipo": "FULLTIME",
-      "titulo": "Social Media Analyst im Home Office (mwd) 100 Remote und bis zu 225 taeglich",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/323491/Social-Media-Analyst-im-Home-Office-(mwd)-100-Remote-und-bis-zu-225-taeglich",
-      "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
       "contacto": "",
