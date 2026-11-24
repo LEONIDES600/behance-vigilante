@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-24T21:26:06.968Z",
+  "actualizado": "2026-11-24T22:18:21.726Z",
   "ofertas": [
+    {
+      "id": "574993",
+      "tipo": "FREELANCE",
+      "titulo": "Logo and Brand Identity Design",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/freelance/574993/Logo-and-Brand-Identity-Design",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-24T22:18:21.726Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "574979",
       "tipo": "FREELANCE",
@@ -3248,45 +3268,6 @@
         },
         "costeUSD": 0.063755,
         "generada": "2026-11-22T16:38:03.425Z"
-      }
-    },
-    {
-      "id": "573853",
-      "tipo": "FREELANCE",
-      "titulo": "Hi, I am a film producer from Bengalore ",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573853/Hi-I-am-a-film-producer-from-Bengalore-",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Improducer 2025",
-      "solicitantes": 1,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Hi, I am a film producer from Bengaluru. I am working on a cinematic opening title sequence inspired by Hampi.\nI have designed a series of images featuring natural stone formations. I want to animate these images with realistic hammer and chisel movements, stone dust, tiny rock fragments, subtle camera movement, and cinematic sound synchronization.\nThe hammer strikes should sync precisely with the stone-carving sound effects. This is for our film's opening technician credits.\nAre you available for this project? If yes, please share your previous motion graphics/VFX work and your estimated budget.\nThank you.",
-      "vista": "2026-11-22T15:13:36.185Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Animación de motion/VFX para los créditos de una película, con efectos de sonido sincronizados; encaja con motion, pero los VFX realistas no tienen una pieza igual en el portfolio, así que se ofrece una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA Hampi-inspired opening for your technician credits, with every hammer strike landing on the carving sound, is a lovely idea.\nI'm Leo, creative director at LeoVisual.nl. Closest motion work:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nMy plan: animate each stone image in After Effects with hammer and chisel movement, stone dust and tiny fragments, add a slow camera push, then edit the sound so each strike hits on the exact frame.\nBefore you pay anything, I'll animate one of your stone images with a few synced strikes.\n250 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nHow many images are in the series, and do you have a target length for the sequence?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 602,
-          "salida": 1359,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.053923,
-        "generada": "2026-11-22T15:13:35.232Z"
       }
     }
   ]
