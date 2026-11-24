@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-24T05:37:39.206Z",
+  "actualizado": "2026-11-24T05:48:02.188Z",
   "ofertas": [
+    {
+      "id": "372931",
+      "tipo": "FULLTIME",
+      "titulo": "Motion Graphic cum Video Editor",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372931/Motion-Graphic-cum-Video-Editor",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-24T05:48:02.188Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "574581",
       "tipo": "FREELANCE",
@@ -3176,45 +3196,6 @@
         },
         "costeUSD": 0.057255,
         "generada": "2026-11-21T09:54:44.338Z"
-      }
-    },
-    {
-      "id": "573417",
-      "tipo": "FREELANCE",
-      "titulo": "Innovative Dietary Supplement Packaging Design",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573417/Innovative-Dietary-Supplement-Packaging-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "adel belkadi",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for innovative packaging design for a dietary supplement product. The packaging should present the supplement clearly and create a distinctive, appealing product presence.\n– Innovative packaging design concept for a dietary supplement product\n– Production-ready packaging artwork files\nInnovative",
-      "vista": "2026-11-21T09:40:18.822Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Packaging de suplemento: encaja con la identidad conceptual SESTEO, pero no hay un cliente real de packaging, así que se ofrece una muestra antes de pagar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Adel,\nA dietary supplement needs packaging that reads clearly at a glance and still stands out next to competitors on the shelf.\nThe closest piece in my profile is a concept identity and packaging I designed for a sun tea brand:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nI'd review your product and format, propose 2 directions, refine the chosen one and deliver production-ready files on your printer's dieline.\nBefore you pay anything, I'll send you one concept direction mocked up on your supplement container.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nWhat format is it (bottle, jar, pouch or box), and do you already have the dieline from your printer?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 469,
-          "salida": 1296,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.052131,
-        "generada": "2026-11-21T09:40:17.844Z"
       }
     }
   ]
