@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-24T19:25:48.534Z",
+  "actualizado": "2026-11-24T20:08:18.948Z",
   "ofertas": [
+    {
+      "id": "574921",
+      "tipo": "FREELANCE",
+      "titulo": "UXUI Design for a B2B Software Campaign Landing Page",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/freelance/574921/UXUI-Design-for-a-B2B-Software-Campaign-Landing-Page",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-24T20:08:18.948Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "574907",
       "tipo": "FREELANCE",
@@ -3267,45 +3287,6 @@
         },
         "costeUSD": 0.056983,
         "generada": "2026-11-22T13:01:33.488Z"
-      }
-    },
-    {
-      "id": "573779",
-      "tipo": "FREELANCE",
-      "titulo": "هوية بصرية",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573779/-",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Nida Elsheikh",
-      "solicitantes": 2,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "احتاج تصميم هوية بصرية مؤسسية تشمل:\nتصميم الشعار بنسخة عربية وإنجليزية (ثنائي اللغة).\nالألوان والخطوط وعناصر الهوية المساندة.\nدليل هوية (Brand Guidelines).\nتطبيقات الهوية على البنود التالية.\nالشخصية المطلوبة\nرسمية وفخمة، وقوية وراسخة. الألوان مفتوحة لاقتراح المصمم، ونرحب باقتراحاتك في الرمز والاتجاه.\nقائمة التطبيقات (19 بنداً)\nالمطبوعات الإدارية\nورقة مراسلات A4 (Letterhead)\nظرف DL (110×220 مم)\nظرف C4 (229×324 مم)\nظرف كبير B4 (250×353 مم)\nبطاقة عمل للموظفين (موحدة التصميم مع تمييز بسيط للقسم)\nدفتر نوته A5\nدفتر نوته A4\nملف عقود (Presentation Folder)\nختم الشركة الدائري (Rubber Stamp)\nفاتورة ضريبية (متوافقة مع اشتراطات هيئة الزكاة والضريبة والجمارك)\nسند قبض وسند صرف\nالبيئة المكتبية\nلوحة الطابق/المبنى (Floor Directory)\nعلم الشركة\nعلم مكتبي (Desk Flag)\nالأصول الرقمية\nقالب PowerPoint للعروض الاستثمارية (15 تخطيطاً فأكثر)\nقالب Word للتقارير الرسمية\nتوقيع بريد إلكتروني للإدارة العليا\nتوقيع بريد إلكتروني للموظفين\nتصميم واجهة الموقع الإلكتروني (الرئيسية، من نحن، الخدم",
-      "vista": "2026-11-22T09:49:02.909Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Exige árabe (logo bilingüe, documentos y factura según la normativa fiscal saudí), y son 19 aplicaciones, manual de marca, plantillas y web por 250 USD como mucho.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "2–4 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1020,
-          "salida": 873,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.045875,
-        "generada": "2026-11-22T09:49:02.164Z"
       }
     }
   ]
