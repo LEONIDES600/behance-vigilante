@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-24T14:25:46.123Z",
+  "actualizado": "2026-11-24T14:37:26.090Z",
   "ofertas": [
+    {
+      "id": "574791",
+      "tipo": "FREELANCE",
+      "titulo": "AI-Video editor-creator",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574791/AI-Video-editor-creator",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Lana Operations manager",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Шукаємо фріланс AI-Video editor-creator, який/яка створює відео під ключ: від ідеї, розкадровки до готового відео.\nСтворювали контент для: KSE University, NAM academy, Marketing 3034, Village Food Market, та інші.\nФормати різні: рекламні креативи, брендові ролики, трендові відео, AI-мультсеріал. Цікаві задачі, різні ніші й можливість бачити результат своєї роботи одразу у медіа бренду.\nЩо потрібно робити:\n▪️Працювати з ТЗ, відеореференсом або сценарієм (image-to-video, video-to-video).\n▪️Робити розкадровку: хук, структура, історія, плани.\n▪️Генерувати картки персонажів і візуальний стиль відео відповідно до брендбуку.\n▪️Генерувати зображення та відео, створювати анімацію за допомогою AI-інструментів.\n▪️Монтувати ролик: ритм, динаміка кадру, переходи.\n▪️Працювати із саунд-дизайном і музикою, щоб відео чіпляло.\n▪️За потреби робити озвучку та ліпсинк, субтитри й титри.\n▪️Адаптувати ролики під формати Reels, TikTok, Shorts і т.д.\nЩо для нас важливо:\n▪️Досвід роботи з різними AI-інструментами для відео, зображень, голосу й тексту (наприклад: Midjourney, Runway, Kling, Veo, Sora, Higgsfield, ElevenLabs, HeyGen, ChatGPT.\n▪️Впевнений монтаж (Premiere Pro, DaVinci Resolve чи аналоги).\n▪️Портфоліо різних форматів відео (рекламні крео, мультфільми, трендові відео)\n▪️Розуміння базового маркетингу та сторітелінгу: хук, ритм, емоція, CTA.\n▪️Власний стиль та вміння працювати з брендбуком.\n▪️Уміння працювати з короткими форматами та скорочувати без втрати змісту.\nВідповідальність, дотримання",
+      "vista": "2026-11-24T14:37:26.090Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Vídeo con IA completo, de la idea al montaje y el sonido, como ORBE y SILENCIO; el ucraniano no se pide como requisito.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Lana!\nYou need turnkey AI videos, from storyboard to final cut, with character cards that follow each brandbook.\nI'm Leo Gómez, creative director at LeoVisual.nl. My ads ORBE and SILENCIO went from idea to generation, edit and sound.\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nMy plan: storyboard (hook, structure, shots), character cards in GPT Image or Nano Banana Pro, animation in Kling or Seedance, edit, sound and subtitles in Premiere and After Effects, plus Reels/TikTok/Shorts cuts.\nPrice: 1000 USD per project, 50% upfront, 7–10 days, 2 rounds of revisions.\nWhich format would you like to start with: an ad creative, a brand video or an episode of the AI cartoon series?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1438,
+          "salida": 1952,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.069127,
+        "generada": "2026-11-24T14:37:24.947Z"
+      }
+    },
     {
       "id": "574789",
       "tipo": "FREELANCE",
@@ -3248,45 +3287,6 @@
         },
         "costeUSD": 0.055191,
         "generada": "2026-11-21T21:16:27.686Z"
-      }
-    },
-    {
-      "id": "573627",
-      "tipo": "FREELANCE",
-      "titulo": "Obróbka Zdjęć i Kreacje Reklamowe",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573627/Obrobka-Zdjec-i-Kreacje-Reklamowe",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Pietrowe.pl",
-      "contacto": "Natalia K",
-      "solicitantes": 1,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Polski producent mebli dziecięcych z litego drewna szuka grafika e-commerce do stałej, długofalowej współpracy.\nZakres obowiązków:\n• Obróbka zdjęć naszych realizacji w stałych, miesięcznych pakietach: porządkowanie przestrzeni w kadrze, kadrowanie i poprawa kolorów. Zdjęcia wykonują nasi monterzy w domach klientów, więc nie szukamy fotografa.\n• Przygotowywanie grafik do akcji promocyjnych: posty, relacje, kreacje reklamowe na Facebooka, Instagrama i TikToka oraz banery na stronę.\nWymagania:\n• samodzielność i inicjatywa. Szukamy specjalisty, który sam proponuje pomysły na kreacje i oprawę akcji, a nie tylko wykonuje gotowe wytyczne,\n• doświadczenie w retuszu zdjęć produktowych lub wnętrz (Photoshop, Lightroom) i umiejętność uzyskania reprezentatywnego efektu bez użycia AI,\n• doświadczenie w projektowaniu grafik i reklam do social mediów,\n• terminowość i sprawna komunikacja.\nMile widziane:\n• znajomość specyfiki branży dziecięcej i komunikacji skierowanej do rodziców.\nOferujemy:\n• stałą, regularną współpracę,\n• rozliczenie za stały pakiet obrobionych zdjęć oraz osobno za materiały do każdej akcji promocyjnej.\nW zgłoszeniu prosimy o:\n• link do portfolio z przykładami retuszu (najlepiej przed i po) oraz grafik reklamowych,\n• proponowaną stawkę za pakiet zdjęć oraz orientacyjną stawkę za materiały do jednej akcji.\nSkontaktujemy się z wybranymi osobami.",
-      "vista": "2026-11-21T19:27:51.757Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden de forma explícita retocar las fotos sin IA («bez użycia AI») y experiencia con Photoshop y Lightroom, algo que no aparece en el perfil de Leo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "2–4 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1066,
-          "salida": 561,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.039819,
-        "generada": "2026-11-21T19:27:50.715Z"
       }
     }
   ]
