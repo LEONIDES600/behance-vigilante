@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-24T05:48:02.188Z",
+  "actualizado": "2026-11-24T07:38:01.653Z",
   "ofertas": [
+    {
+      "id": "574625",
+      "tipo": "FREELANCE",
+      "titulo": "VFX and 3D Art for a Five-Minute VR Video",
+      "presupuesto": "5000–10.000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574625/VFX-and-3D-Art-for-a-Five-Minute-VR-Video",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "vamshi reddy",
+      "solicitantes": 2,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a VFX artist and a 3D artist to create a five-minute VR video. The project requires immersive visual effects and 3D content suitable for a virtual reality viewing experience.\n– A five-minute VR video with integrated VFX and 3D artwork\n– Rendered final video files formatted for virtual reality viewing\nSeeking a VFX artist and a 3D artist with experience creating content for VR video.\nThe project requires both VFX and 3D-art expertise for an immersive VR experience.",
+      "vista": "2026-11-24T07:38:01.653Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Leo hace 3D y motion, pero no tiene ninguna pieza de VR ni de VFX inmersivo, así que la carta ofrece una prueba corta antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Vamshi,\nA five-minute VR video only works if the VFX and 3D hold up in every direction the viewer looks, with no seams or artifacts breaking the immersion.\nI'm Leo, creative director at LeoVisual.nl. Closest work, motion, VFX and cinematic visuals:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nHow I'd do it: storyboard and style frames, build the 3D scenes and VFX in 3D and After Effects, then render and export in your VR format.\nBefore you pay anything, I'll send you a 10-second VR test shot so you can check it in your headset.\nPrice: 10,000 USD, 50% upfront, 3–4 weeks, 2 rounds of changes.\nWhich headset or platform will viewers use, and what resolution and format (180 or 360) do you need?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 10000,
+        "anticipoPct": 50,
+        "plazo": "3–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 560,
+          "salida": 1569,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.057955,
+        "generada": "2026-11-24T07:37:59.989Z"
+      }
+    },
     {
       "id": "372931",
       "tipo": "FULLTIME",
@@ -3157,45 +3196,6 @@
       "carta": {
         "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
         "sinDescripcion": true
-      }
-    },
-    {
-      "id": "573421",
-      "tipo": "FREELANCE",
-      "titulo": "3D Progressive House EDM Cover Art in Martin Garrix Visual Style",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573421/3D-Progressive-House-EDM-Cover-Art-in-Martin-Garrix-Visual-Style",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "simone martorelli",
-      "solicitantes": 1,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Vorrei una cover art 3D per un brano EDM progressive house, ispirata allo stile visivo di Martin Garrix. Il progetto deve includere un concept adatto anche a una cover con movimento 3D.\n– Cover art 3D per il brano EDM/progressive house\n– Versione motion della cover con animazione 3D\nEDM moderno, 3D, dinamico, progressive house, ispirato allo stile visivo di Martin Garrix.\nL'estetica richiesta richiama i visual di Martin Garrix.",
-      "vista": "2026-11-21T09:54:45.249Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con motion y 3D, pero no hay ninguna portada musical en el portfolio, así que se ofrece una muestra antes de cobrar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Simone,\nA progressive house cover that works as a still and as a 3D motion version needs one strong concept from the start, with that bold, dynamic Martin Garrix-inspired energy.\nI'm Leo, creative director at LeoVisual.nl. My closest work:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nMy approach: 2 concept directions, then the final 3D cover, then the animated version built from the same scene, ready for Spotify Canvas and socials.\nBefore you pay anything, I'll send you one concept frame for your cover.\n250 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhat is the track title, and do you have a colour palette or mood in mind?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 580,
-          "salida": 1530,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.057255,
-        "generada": "2026-11-21T09:54:44.338Z"
       }
     }
   ]
