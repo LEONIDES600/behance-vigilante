@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-24T22:25:57.074Z",
+  "actualizado": "2026-11-24T23:36:44.089Z",
   "ofertas": [
+    {
+      "id": "575025",
+      "tipo": "FREELANCE",
+      "titulo": "UI/UX, Game Mechanics, and Motion Design for a Multiplayer Casual Games Platform",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575025/UIUX-Game-Mechanics-and-Motion-Design-for-a-Multiplayer-Casual-Games-Platform",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Rohan Kundu",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a game UI/UX designer for our multiplayer casual games platform, with an hourly budget of up to $15/hr. The designer should create intuitive game interfaces, contribute to casual game mechanics, and produce light video or motion design assets.\n– UI/UX designs for multiplayer casual game screens and interactions\n– Casual game mechanics concepts and supporting light motion or video assets\nDesigner experienced in game UI/UX, casual game mechanics, and light motion or video design.\nCasual, engaging, and multiplayer-focused.\nThis is a starting project. If it goes well, we’d like to continue with ongoing hourly work at up to $15/hr. We’re also open to designers who are strong in just one or two of these areas. When you apply, please share game UI work you’ve done, a game or mechanic you’ve designed, and any video or motion samples.",
+      "vista": "2026-11-24T23:36:44.089Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "La parte de UI y motion encaja y el cliente acepta a quien domine solo una o dos áreas, pero Leo no tiene trabajos de UI ni de mecánicas de juego; se ofrece una muestra.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Rohan,\nYour multiplayer casual games platform needs screens that feel instant and playful, from lobby and matchmaking to the end-of-round moment.\nI'm Leo, creative director at LeoVisual.nl. My strongest areas for you are interface and motion:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nBefore you pay anything, I'll send you one lobby screen mockup with a short win animation.\nPlan: map the player flow, design the key screens in Figma, then animate transitions and rewards.\nStarting project: 250 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich game should we start with, and how many screens does it need?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 697,
+          "salida": 1662,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.060363,
+        "generada": "2026-11-24T23:36:43.329Z"
+      }
+    },
     {
       "id": "575009",
       "tipo": "FREELANCE",
@@ -3221,45 +3260,6 @@
         "tokens": null,
         "costeUSD": 0,
         "generada": "2026-11-22T22:25:28.944Z"
-      }
-    },
-    {
-      "id": "573933",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Identity Design for FORGE Fitness and Performance Startup",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573933/Brand-Identity-Design-for-FORGE-Fitness-and-Performance-Startup",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Liam Hill",
-      "solicitantes": 8,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a brand identity designer to create the foundational visual identity for FORGE, an emerging fitness and performance startup. The work should include a bold, minimalist, conceptually meaningful logo, custom typography, and a cohesive, scalable brand system designed to support long-term growth.\n- Primary FORGE logo, recognizable standalone symbol, and versatile logo variations for digital and physical applications.\n- Custom typography, refined color palette, and cohesive visual identity system adaptable to future sub-brands and services.\n- Concise brand guidelines and editable vector/source files (SVG, AI/EPS, PNG) with full commercial usage rights.\nLooking for a creative designer (to compensate for my lack thereof) with strong conceptual thinking, attention to detail, and the ability to translate a deeper brand philosophy into a distinctive visual identity. Portfolio quality, creative alignment, and economic pricing matter more than professional experience or credentials.\nBold, modern, minimalist, and sophisticated, with a strong emphasis on intentional symbolism and custom typography. \nThe visual direction should communicate strength, resilience, transformation, precision, and continuous improvement. I envision a premium, timeless aesthetic with a dark neutral palette and refined copper/amber accents. \nThe design should be distinctive and meaningful without relying on obvious fitness imagery or overly aggressive styling.\nFORGE will serve as the master brand for a growi",
-      "vista": "2026-11-22T20:25:07.154Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Identidad de marca: Leo solo tiene un proyecto concepto, así que se envía ofreciendo una muestra del símbolo; el presupuesto es razonable.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Liam,\nFORGE as a philosophy of strength and transformation, not a typical fitness brand, with dark neutrals and copper/amber accents, is a strong brief.\nI'm Leo, creative director at LeoVisual.nl. Closest work, a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy process: study your concepts and overview, explore symbol directions with AI, refine the chosen one in vector, then build the wordmark, palette and concise guidelines, delivered as SVG, AI/EPS and PNG with full commercial rights.\nBefore you pay anything, I'll send you one FORGE symbol direction in copper on dark.\n500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich of your preliminary concepts feels closest to the philosophy?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1275,
-          "salida": 1702,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.063475,
-        "generada": "2026-11-22T20:25:06.038Z"
       }
     }
   ]
