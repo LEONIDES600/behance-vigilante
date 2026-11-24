@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-24T18:34:24.876Z",
+  "actualizado": "2026-11-24T19:29:04.734Z",
   "ofertas": [
+    {
+      "id": "havenly/jobs/manager-paid-social-latam",
+      "tipo": "FULL_TIME",
+      "titulo": "Manager, Paid Social - LATAM",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/havenly/jobs/manager-paid-social-latam?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Brazil, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas), Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands, Suriname, Trinidad and Tobago, Turks and Caicos Islands, Uruguay, Venezuela, Virgin Islands, British, Virgin Islands, U.S.",
+      "empresa": "Havenly",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "At Havenly Brands, we’re building this generation’s premier destination for all things home. Alongside our award winning Havenly design services, we proudly own and operate some of the best home furnishings brands in the business including Havenly , Interior Define, The Citizenry, Burrow, Inside, and St.Frank. Our family of brands is growing and we’re looking for amazing people to join us on this journey!\n Havenly Brands is looking for a Manager, Paid Social to own paid social acquisition across our portfolio of seven home brands: Havenly , Interior Define, Burrow, The Citizenry, The Inside, St. Frank, and The Expert. You'll be the hands-on expert running Meta at scale while building out our presence on emerging channels like Pinterest, TikTok, and Reddit.\n WHAT YOU'LL OWN \n Day-to-day str",
+      "vista": "2026-11-24T19:29:04.734Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de gestión de Paid Social para residentes en LATAM que exige más de 6 años, dominio de Meta Ads y haber gestionado más de 10 M USD, nada de lo cual puede acreditar Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1994,
+          "salida": 436,
+          "cacheLeida": 4867,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.017669400000000002,
+        "generada": "2026-11-24T19:29:03.711Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "zoominfo-technologies-llc-senior-director-product-management-agentic-platform",
       "tipo": "DESIGN",
@@ -3944,46 +3984,6 @@
         "generada": "2026-11-18T18:20:24.075Z"
       },
       "fuente": "himalayas"
-    },
-    {
-      "id": "163108",
-      "tipo": "FULL_TIME",
-      "titulo": "Product Lead - AI Investing",
-      "presupuesto": "",
-      "enlace": "https://jobicy.com/jobs/163108-product-lead-ai-investing",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Portugal",
-      "empresa": "BJAK",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "About BJAK \n The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name.\n Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia.\n Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day.\n We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their pas",
-      "vista": "2026-11-18T15:53:22.635Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Exige residir en Portugal y es un puesto senior de Product Lead en fintech, fuera de los servicios de Leo.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1427,
-          "salida": 337,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.036153,
-        "generada": "2026-11-18T15:53:21.505Z"
-      },
-      "fuente": "jobicy"
     }
   ]
 }
