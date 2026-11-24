@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-24T04:47:59.548Z",
+  "actualizado": "2026-11-24T05:37:39.206Z",
   "ofertas": [
+    {
+      "id": "574581",
+      "tipo": "FREELANCE",
+      "titulo": "Thumbnail Design Using Provided Images",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574581/Thumbnail-Design-Using-Provided-Images",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Shamim Chauhan",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic designer to create thumbnails using the images I already have. The thumbnails should be visually engaging and ready to use for my content.\n– Completed thumbnail designs using the provided images\n– Final thumbnail files ready for publishing\nThe hirer has images available for use in the thumbnail designs.",
+      "vista": "2026-11-24T05:37:39.206Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Miniaturas para contenido con imágenes del cliente: diseño gráfico para redes, encaja con sus servicios.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi Shamim,\n\nSince you already have the images, the job is turning them into thumbnails that grab attention and still read clearly at small sizes.\nI'm Leo Gómez, creative director at LeoVisual.nl. Before you pay anything, I'll send you one thumbnail made with one of your images so you can judge the style.\nMy process: pick the strongest crop, cut out the subject, add short bold text with strong contrast, and check legibility at mobile size.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions. Final files ready to publish in the size you need.\nHow many thumbnails do you need, and which platform are they for?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 476,
+          "salida": 1502,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.056279,
+        "generada": "2026-11-24T05:37:37.947Z"
+      }
+    },
     {
       "id": "372927",
       "tipo": "FULLTIME",
@@ -3176,45 +3215,6 @@
         },
         "costeUSD": 0.052131,
         "generada": "2026-11-21T09:40:17.844Z"
-      }
-    },
-    {
-      "id": "573405",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Identity and Packaging Design for a Cake Bakery Brand",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573405/Brand-Identity-and-Packaging-Design-for-a-Cake-Bakery-Brand",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "shaimaa ali",
-      "solicitantes": 9,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m seeking a Brand Identity Designer with strong Adobe Illustrator skills to create a complete visual identity and packaging design for my cake bakery brand. This is a freelance project with a fixed budget of $1,060 USD, and I need a creative designer with a strong branding and packaging portfolio.\n– Complete visual identity for the cake bakery brand\n– Packaging design concepts and production-ready packaging artwork\n– Editable Adobe Illustrator source files\nCreative Brand Identity Designer with strong Adobe Illustrator skills and a strong portfolio in branding and packaging.\nThe designer should demonstrate strong branding and packaging work through their portfolio.",
-      "vista": "2026-11-21T09:16:58.382Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Branding y packaging de pastelería: se puede entregar, pero solo hay un proyecto conceptual, así que se ofrece una muestra antes de cobrar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Shaimaa,\nA cake bakery needs a box that looks as good as the cake inside, so the identity and packaging should grow together from day one.\nI'm Leo, creative director at LeoVisual.nl. Closest work, a concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy steps: logo, colours and type first, then cake box and label concepts, then production-ready artwork with editable Illustrator files.\nBefore you pay anything, I'll send you one logo direction mocked up on your cake box.\n1000 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich formats do you need: slice boxes, whole cake boxes, or both?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 629,
-          "salida": 1579,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.058431,
-        "generada": "2026-11-21T09:16:57.396Z"
       }
     }
   ]
