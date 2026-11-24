@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-24T12:26:36.206Z",
+  "actualizado": "2026-11-24T14:25:46.123Z",
   "ofertas": [
+    {
+      "id": "574789",
+      "tipo": "FREELANCE",
+      "titulo": "Senior Graphic Designer for UI/UX Design",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574789/Senior-Graphic-Designer-for-UIUX-Design",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Staffluent",
+      "contacto": "Jonas Wang",
+      "solicitantes": 3,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "- Company: Staffluent \n- Employment Type: Full-Time \n- Workplace: Remote \nSalary: $3,000–$6,000 USD per month\nAbout Staffluent\nAt Staffluent, we believe great design goes beyond aesthetics. It is about creating meaningful experiences, communicating ideas clearly, and building memorable brand identities.\nWe are looking for a talented and creative Senior Graphic Designer with strong expertise in UI/UX design and branding to join our remote team.\nThe ideal candidate is passionate about visual storytelling, understands modern design principles, and can transform creative concepts into polished, professional designs across digital platforms.\n2. Job Overview\nAs a Senior Graphic Designer, you will be responsible for developing visually compelling designs, creating intuitive user experiences, and maintaining consistent brand identities across various digital and marketing materials.\nYou will work on a variety of creative projects, from brand development and marketing campaigns to website interfaces and digital product experiences.\nWe are looking for someone who combines creativity with strategic thinking and has a strong eye for detail.\n3. Key Responsibilities\nGraphic Design\n- Create high-quality graphics for digital platforms, websites, social media, and marketing campaigns.\n- Develop engaging visual concepts, layouts, illustrations, and creative assets.\n- Design marketing materials, presentations, banners, and promotional content.\n- Maintain visual consistency and high design stand",
+      "vista": "2026-11-24T14:25:46.123Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Parece una trampa: pide contactar por un enlace externo de calendario, mezcla encargo con puesto fijo y busca un perfil senior de UI/UX y branding que no es el núcleo de Leo.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1807,
+          "salida": 588,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.043323,
+        "generada": "2026-11-24T14:25:44.526Z"
+      }
+    },
     {
       "id": "574737",
       "tipo": "FREELANCE",
@@ -3248,45 +3287,6 @@
         },
         "costeUSD": 0.039819,
         "generada": "2026-11-21T19:27:50.715Z"
-      }
-    },
-    {
-      "id": "573621",
-      "tipo": "FREELANCE",
-      "titulo": "Developmental and Line Editing for the Fantasy Novel Deity",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573621/Developmental-and-Line-Editing-for-the-Fantasy-Novel-Deity",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "ell noille",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m seeking an editor for my fantasy novel, Deity, with a first draft of approximately 120,000 words. Pay starts at $30 per chapter, is negotiable, and will be paid per chapter rather than hourly. I need support with punctuation consistency, stronger and expanded monologues—particularly in the early chapters—critical world-building feedback, and overall developmental and line editing. I have already planned the ending and most major plot points. Candidates with art or website design skills are preferred because I plan to adapt the story into a comic and other future projects.\n– Developmental editing feedback covering story structure, pacing, monologues, and world-building\n– Line-edited manuscript with consistent punctuation and revised prose suggestions\nCandidates with strong editing skills and the ability to provide critical developmental feedback are sought. Art or website design skills are a preferred bonus.\nThe story’s ending and most major plot points are already planned. The novel may later be adapted into a comic and other projects.",
-      "vista": "2026-11-21T19:04:46.712Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Se piden edición de desarrollo y corrección de estilo de una novela de 120.000 palabras en inglés: no es un servicio de Leo, su inglés es B1 y pagan 30 USD por capítulo; lo de arte o web es solo un extra.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "2–4 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 698,
-          "salida": 623,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.039587,
-        "generada": "2026-11-21T19:04:45.605Z"
       }
     }
   ]
