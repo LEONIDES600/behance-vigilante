@@ -1,6 +1,84 @@
 {
-  "actualizado": "2026-11-24T01:37:44.106Z",
+  "actualizado": "2026-11-24T04:26:13.110Z",
   "ofertas": [
+    {
+      "id": "574565",
+      "tipo": "FREELANCE",
+      "titulo": "Diseño Gráfico Creativo para Identidad Visual y Piezas Publicitarias",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574565/Diseno-Grafico-Creativo-para-Identidad-Visual-y-Piezas-Publicitarias",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "LUNA GUZMAN",
+      "solicitantes": 2,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Busco un diseñador gráfico creativo con experiencia en identidad visual, ilustración, composición y diseño de piezas publicitarias. Necesito apoyo para desarrollar materiales visuales coherentes y atractivos.\n– Propuestas de identidad visual coherentes con la marca\n– Ilustraciones y piezas publicitarias listas para su uso\nSe busca un diseñador gráfico creativo con experiencia en identidad visual, ilustración, composición y diseño de piezas publicitarias.\nSe requiere experiencia en composición visual y diseño de materiales publicitarios.",
+      "vista": "2026-11-24T04:26:13.110Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con identidad visual y piezas publicitarias, pero aún no hay proyecto de ilustración; se ofrece una muestra antes del pago.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "media",
+        "texto": "¡Hola, Luna!\nPara que tu identidad visual, tus ilustraciones y tus piezas publicitarias sean coherentes, propongo una base clara (logo, paleta, tipografía y estilo de ilustración) aplicada a cada pieza.\nSoy Leo, director creativo de LeoVisual.nl. Esta es una identidad de concepto que diseñé:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nProceso: reviso tu marca, te propongo 2 direcciones visuales y desarrollo la elegida en piezas listas para usar.\nAntes de que pagues nada, te envío una dirección visual aplicada a una de tus piezas publicitarias.\n250 USD, 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿Para qué marca es y qué piezas necesitas primero?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 612,
+          "salida": 1752,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.061823,
+        "generada": "2026-11-24T04:25:58.172Z"
+      }
+    },
+    {
+      "id": "574563",
+      "tipo": "FREELANCE",
+      "titulo": "Diseño Gráfico Creativo para Identidad Visual y Piezas Publicitarias",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574563/Diseno-Grafico-Creativo-para-Identidad-Visual-y-Piezas-Publicitarias",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "LUNA GUZMAN",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Busco un diseñador gráfico creativo con experiencia en identidad visual, ilustración, composición y diseño de piezas publicitarias. Necesito apoyo para desarrollar materiales visuales coherentes y atractivos.\n– Propuestas de identidad visual coherentes con la marca\n– Ilustraciones y piezas publicitarias listas para su uso\nDiseñador gráfico creativo con experiencia demostrable en identidad visual, ilustración, composición y diseño de piezas publicitarias.\nSe requiere experiencia en composición gráfica y diseño de materiales publicitarios.",
+      "vista": "2026-11-24T04:26:13.110Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja en piezas publicitarias; la identidad y la ilustración no tienen una pieza igual en el portfolio, así que ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "media",
+        "texto": "¡Hola, Luna!\nPara que tu identidad visual y tus piezas publicitarias se vean coherentes, primero hay que fijar un sistema (color, tipografía y estilo de ilustración) y luego aplicarlo a cada pieza.\nSoy Leo, director creativo de LeoVisual.nl; esta es una identidad conceptual que diseñé:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nLo haría así: reviso tu marca, te propongo 2 direcciones, desarrollamos la elegida y la aplico a ilustraciones y piezas listas para usar.\nAntes de que pagues nada, te envío una ilustración de prueba aplicada a una de tus piezas publicitarias.\nPrecio: 250 USD, 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿Qué piezas publicitarias necesitas primero y en qué canales se van a usar?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 614,
+          "salida": 1501,
+          "cacheLeida": 4867,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.033449400000000004,
+        "generada": "2026-11-24T04:26:11.895Z"
+      }
+    },
     {
       "id": "574549",
       "tipo": "FREELANCE",
@@ -3156,65 +3234,6 @@
         },
         "costeUSD": 0.049523,
         "generada": "2026-11-21T06:04:37.465Z"
-      }
-    },
-    {
-      "id": "372663",
-      "tipo": "FULLTIME",
-      "titulo": "Web Designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372663/Web-Designer",
-      "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-21T03:37:23.334Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
-      }
-    },
-    {
-      "id": "573281",
-      "tipo": "FREELANCE",
-      "titulo": "Freelance Infographic & Explainer Designer",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573281/Freelance-Infographic-Explainer-Designer",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "500 Designs",
-      "contacto": "Valentina Buitrago",
-      "solicitantes": 2,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "⚠️PLEASE READ THE WHOLE INFORMATION TO KNOW HOW TO APPLY⚠️\n500 Designs is looking for experienced freelance designers to support an international design project focused on Infographic & Explainer assets.\nWe're especially interested in designers with strong experience in information design, data visualization, diagrams, visual explanations, and structured visual communication.\nHow to Apply\nAll candidates must submit their applications through the following link:\nhttps://sensa-talent-sync.base44.app/?invite=SL209\nImportant: Applications that do not meet the required qualifications, including English proficiency and relevant portfolio experience, will not be considered. Applications must be submitted through the designated link to be reviewed.\nTypes of Work\nYou may be asked to design assets such as:\n-Data-driven infographics and visual reports\n-Educational and informational explainers\n-Process diagrams and workflow visualizations\n-Timelines and step-by-step visual guides\n-Charts, statistics graphics, and data visualizations\n-Comparison graphics and structured information layouts\n-Scientific, technical, or business-related visual explanations\n-Concept illustrations that simplify complex topics\nYou do not need experience with every asset type. We're looking for designers with strong transferable skills in simplifying complex concepts, organizing information accurately, and communicating ideas visually.\nWhat We're Looking For\n-Strong information hierarchy, layout, and visual storyt",
-      "vista": "2026-11-20T23:52:11.099Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Obliga a solicitar a través de un enlace externo (base44.app), lo que apunta a una trampa, y además pide portfolio de infografías que Leo no tiene.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1459,
-          "salida": 440,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.038971,
-        "generada": "2026-11-20T23:52:10.133Z"
       }
     }
   ]
