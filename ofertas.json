@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-24T07:38:01.653Z",
+  "actualizado": "2026-11-24T08:25:13.979Z",
   "ofertas": [
+    {
+      "id": "574633",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Refresher for a Telehealth Brand",
+      "presupuesto": "5000–10.000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574633/Brand-Refresher-for-a-Telehealth-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "SYNC Health",
+      "contacto": "Patrick El Khouri",
+      "solicitantes": 4,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are a physician-led telehealth platform in the US. We deliver personalised peptide protocols that licensed clinicians prescribe and licensed pharmacies compound. The platform is live, and we're heading into our next phase of growth.\nWe built our current identity for an earlier version of the business, and it no longer fits who we are or where we're going. We're looking for a creative team to rebuild it: the strategy, the visual identity and the world around it.\nMost telehealth brands look the same. Clinical whites, stock smiles, product shots and price cards. They sell prescriptions. We want to sell a feeling.\nThat feeling is being in sync. It's when your body, energy, focus and life finally move together. People know exactly how it feels to lose it. We want them to see what getting it back looks like, and to want it.\nThe identity shouldn't rely on our name to do the work. It should make that state desirable on its own, so people recognise it, aspire to it and want to belong to it. We're building an environment and a culture people choose to be part of, with its own language, look and point of view. A place where people feel they've found their people.\nWhat we're looking for\nBold thinking. We don't want a safe refresh or a polished version of what the category already does.\nA point of view. Challenge us, and take the brief further than we've written it.\nA complete world. An identity system that works across web, paid social, packaging, content and community. Customers shou",
+      "vista": "2026-11-24T08:25:13.979Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Rebranding completo de identidad: Leo tiene un concepto de identidad, pero ningún rebranding para clientes, así que la carta ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Patrick,\n\nSelling the feeling of being in sync instead of clinical whites and price cards is a strong brief, and it needs a system people recognise even with the name covered.\nA concept identity I designed, from strategy to packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy approach: positioning and brand language first, then palette, typography and a visual motif built on rhythm and alignment, tested across web, paid social, packaging and community.\nBefore you pay anything, I'll send you one \"in sync\" direction mocked up on a landing hero and a protocol box.\nPrice: 10,000 USD, 50% upfront, 3–4 weeks, 2 rounds of changes.\nWhich part of the current identity, if any, do you want to keep?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 10000,
+        "anticipoPct": 50,
+        "plazo": "3–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 932,
+          "salida": 1371,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.055483,
+        "generada": "2026-11-24T08:25:12.558Z"
+      }
+    },
     {
       "id": "574625",
       "tipo": "FREELANCE",
@@ -3164,26 +3203,6 @@
       "titulo": "Social Media Analyst im Home Office (mwd) 100 Remote und bis zu 225 taeglich",
       "presupuesto": "",
       "enlace": "https://www.behance.net/joblist/fulltime/323491/Social-Media-Analyst-im-Home-Office-(mwd)-100-Remote-und-bis-zu-225-taeglich",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-21T09:54:45.249Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
-      }
-    },
-    {
-      "id": "358393",
-      "tipo": "FULLTIME",
-      "titulo": "Creative Digital Allrounder (mwd) Social Media Copywriting Data (100 Remote)",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/358393/Creative-Digital-Allrounder-(mwd)-Social-Media-Copywriting-Data-(100-Remote)",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
