@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-24T08:38:01.086Z",
+  "actualizado": "2026-11-24T11:15:37.886Z",
   "ofertas": [
+    {
+      "id": "clera/jobs/expert-annotation-specialist-2411866602",
+      "tipo": "FULL_TIME",
+      "titulo": "Expert Annotation Specialist",
+      "presupuesto": "40–75 USD/h",
+      "enlace": "https://himalayas.app/companies/clera/jobs/expert-annotation-specialist-2411866602?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Clera",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "About the Role\n Join an expert network supporting complex data-labeling projects for advanced AI research. You will work across multiple data types, applying deep domain expertise and helping teams maintain high-quality, consistent annotations.\n What You'll Do\n Label difficult or ambiguous examples across image, video, LiDAR, point cloud, audio, text, and geospatial data.\n Perform spatial and 3D annotation, multi-object tracking, action labeling, and sensor linking across camera, LiDAR, and radar systems.\n Handle entity tagging, OCR correction, and transcription of challenging audio with accents or specialist vocabulary.\n Review and correct annotation work, resolve disagreements, and maintain consistency across projects.\n Write and refine labeling guidelines with examples for edge cases.\n ",
+      "vista": "2026-11-24T11:15:37.886Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de etiquetado de datos (LiDAR, audio, geoespacial) que pide 5+ años y herramientas como CVAT o Labelbox: no es lo que hace Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 935,
+          "salida": 439,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.036855,
+        "generada": "2026-11-24T11:15:36.804Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "156716",
       "tipo": "FULL_TIME",
@@ -3948,46 +3988,6 @@
         },
         "costeUSD": 0.039740199999999996,
         "generada": "2026-11-18T10:14:38.807Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "flowpouch/jobs/head-of-organic-strategy",
-      "tipo": "FULL_TIME",
-      "titulo": "Head of Organic Strategy",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/flowpouch/jobs/head-of-organic-strategy?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Guernsey, Holy See (Vatican City State), Hungary, Iceland, Ireland, Isle of Man, Italy, Jersey, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Monaco, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Svalbard and Jan Mayen, Sweden, Switzerland, Ukraine, United Kingdom, United States, Åland Islands",
-      "empresa": "Flowpouch",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Who we are\n Flow Pouch makes functional mushroom pouches. People use them as a clean alternative to nicotine pouches and energy products: no nicotine, no caffeine, no crash. We launched in 2024, we have grown quickly, mostly through subscriptions, and we manufacture in the US. We are a remote team of about 30 people globally.\n Why we are hiring\n We have grown on paid social. Organic is where we have not started: our social channels are quiet, and we know it. We are planning a brand refresh in early 2027 and we want organic built before it, by someone who has already done this at scale and wants to do it for a brand they believe in.\n We consider this a founding seat for a new department. You would report to our CMO and co-founder and have the budget to build the team around you.\n What you w",
-      "vista": "2026-11-18T10:15:19.460Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es un puesto de dirección de estrategia orgánica que exige haber liderado crecimiento de cientos de millones de visualizaciones al mes con equipo propio y cifras de antes y después, y Leo no tiene esos datos.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1697,
-          "salida": 779,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.023316200000000002,
-        "generada": "2026-11-18T10:14:47.550Z"
       },
       "fuente": "himalayas"
     }
