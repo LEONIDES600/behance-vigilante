@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-24T14:37:26.090Z",
+  "actualizado": "2026-11-24T16:37:04.405Z",
   "ofertas": [
+    {
+      "id": "574847",
+      "tipo": "FREELANCE",
+      "titulo": "Minimal Aesop-Style Brand Identity for a Premium Car Rental Company in Marbella",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574847/Minimal-Aesop-Style-Brand-Identity-for-a-Premium-Car-Rental-Company-in-Marbella",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Premium car rental company in Marbella",
+      "contacto": "Chris Jacobs",
+      "solicitantes": 2,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a brand identity designer for my premium car rental company in Marbella. The scope includes a minimal, Aesop-style wordmark along with a defined colour palette and typography system; the budget amount was not specified.\n– Minimal wordmark logo for the premium car rental brand\n– Brand colour palette and typography selection\nMinimal, refined, Aesop-inspired.\nThe brand is a premium car rental business based in Marbella.",
+      "vista": "2026-11-24T16:37:04.405Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es identidad de marca (wordmark, paleta y tipografía) en remoto y con buen presupuesto; no hay una pieza igual, así que se ofrece una muestra antes del pago.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Chris!\n\nA premium car rental brand in Marbella fits the quiet confidence of Aesop: a restrained wordmark, a warm muted palette and a calm typography system.\nClosest reference, a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy process: moodboard and 2 wordmark directions, refine the one you choose, then palette and type pairings applied to a key card, website header and car door.\nBefore you pay anything, I'll send you one wordmark direction mocked up on a rental key card.\nPrice: 2500 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nWhat is the brand name, and do you lean toward serif or sans-serif?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 564,
+          "salida": 1222,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.051031,
+        "generada": "2026-11-24T16:37:03.118Z"
+      }
+    },
     {
       "id": "574791",
       "tipo": "FREELANCE",
@@ -3248,45 +3287,6 @@
         },
         "costeUSD": 0.033423,
         "generada": "2026-11-21T23:52:47.090Z"
-      }
-    },
-    {
-      "id": "573659",
-      "tipo": "FREELANCE",
-      "titulo": "Immersive 3D Landing Page for Keyboard-Style Hardware Product Launch",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573659/Immersive-3D-Landing-Page-for-Keyboard-Style-Hardware-Product-Launch",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Space 101",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a web designer to create an immersive 3D landing page for the launch of our keyboard-style device hardware product. My budget for this project is $1,000, and the page should present the product in a compelling, launch-ready digital experience.\n– Immersive 3D landing page design for the keyboard-style hardware product launch\n– Launch-ready page layouts and visual assets for desktop and mobile viewing\nWeb designer with experience creating immersive 3D product landing pages.\nImmersive, three-dimensional, product-focused.\nThe project focuses on a keyboard-style device hardware product launch.\nOur current teaser site being https://www.commanddeck.store/",
-      "vista": "2026-11-21T21:16:28.517Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Landing 3D de producto encaja de lleno con sus webs 3D en código (three.js + GSAP); el cliente fija 1.000 USD.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA keyboard-style device deserves a launch page where people can almost feel the keys, and your CommandDeck teaser is a strong starting point.\nI'm Leo, creative director at LeoVisual.nl. My 3D scroll websites (LUMEN, FORJA, MORVAIN) are built in code with three.js + GSAP:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nMy plan: your device in 3D, rotating as you scroll, keys lighting up section by section, then specs and a clear launch CTA, tuned for desktop and mobile.\nPrice: 1,000 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nDo you already have a 3D model or CAD file of the device, or should I build it from your product photos?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 604,
-          "salida": 1422,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.055191,
-        "generada": "2026-11-21T21:16:27.686Z"
       }
     }
   ]
