@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-24T04:26:13.110Z",
+  "actualizado": "2026-11-24T04:37:44.141Z",
   "ofertas": [
+    {
+      "id": "574571",
+      "tipo": "FREELANCE",
+      "titulo": "Cannabis and Dungeons & Dragons-Themed E-Commerce Brand Design",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574571/Cannabis-and-Dungeons-Dragons-Themed-E-Commerce-Brand-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Dungeons & Dragons",
+      "contacto": "Jimmy Ha",
+      "solicitantes": 3,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a brand designer to build a cannabis and Dungeons & Dragons-themed e-commerce brand. I need a cohesive visual identity that combines fantasy gaming elements with cannabis culture for an online retail audience.\nThink projects like the Mighty Nein, Dimension 20, Baldurs Gate etc. We dont want to be too hammy with the cannabis elements but make it feel like a natural part of the brand\n– Cohesive brand identity for the cannabis and Dungeons & Dragons-themed e-commerce business\n– Core visual assets, including logo, color palette, icons, and typography direction\nBrand designer with experience creating cohesive e-commerce identities and balancing niche cultural themes.\nFantasy gaming-inspired cannabis aesthetic.\nThe brand concept combines cannabis culture with Dungeons & Dragons-inspired fantasy themes and will be used for e-commerce.",
+      "vista": "2026-11-24T04:37:44.141Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding de marca e-commerce: encaja con el concepto SESTEO, pero no hay identidad para cliente real; se ofrece muestra previa.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Jimmy,\nA cannabis brand that feels at home next to the Mighty Nein or Baldur's Gate, with the cannabis woven in naturally rather than hammy, is a fun brief.\nI'm Leo, creative director at LeoVisual.nl. The closest piece is a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nBefore you pay anything, I'll send you one logo direction with a mini palette, mocked up on your store header.\nThen: logo routes, color palette, an icon set (dice, potions, a subtle leaf) and typography direction.\n2500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nDo you have the brand name yet, and is the tone closer to Dimension 20 playful or Baldur's Gate dark?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 718,
+          "salida": 1927,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.065747,
+        "generada": "2026-11-24T04:37:42.839Z"
+      }
+    },
     {
       "id": "574565",
       "tipo": "FREELANCE",
@@ -3195,45 +3234,6 @@
         },
         "costeUSD": 0.058211,
         "generada": "2026-11-21T09:04:11.985Z"
-      }
-    },
-    {
-      "id": "573333",
-      "tipo": "FREELANCE",
-      "titulo": "Magazine Design",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573333/Magazine-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Daisha Roberts",
-      "solicitantes": 2,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a graphic designer to create a magazine. The project involves designing a polished, cohesive publication layout suitable for magazine content.\n– Professionally designed magazine layout\n– Print- and digital-ready final magazine files",
-      "vista": "2026-11-21T06:04:38.426Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Maquetación de revista (editorial) sin pieza igual en el portfolio; se envía ofreciendo una doble página de muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Daisha,\n\nA magazine only feels polished when every spread clearly belongs to the same publication, so I'd start by building one layout system: grid, type scale, colour and image rules.\nBefore you pay anything, I'll send you one sample spread designed for your magazine, so you can judge the direction.\nThen I'd lay out all pages on that system and deliver print-ready PDFs (with bleed) plus a digital version.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nPrice: 2500 USD, 50% upfront, 2–3 weeks, 2 rounds of revisions.\nHow many pages will the magazine have, and are the texts and photos ready?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "2–3 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 442,
-          "salida": 1171,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.049523,
-        "generada": "2026-11-21T06:04:37.465Z"
       }
     }
   ]
