@@ -1,6 +1,42 @@
 {
-  "actualizado": "2026-11-24T13:19:59.677Z",
+  "actualizado": "2026-11-24T15:21:14.629Z",
   "ofertas": [
+    {
+      "id": "telus-international-ai-inc/jobs/online-ad-rater-spanish-speakers-in-el-salvador-8161720639",
+      "tipo": "PART_TIME",
+      "titulo": "Online Ad Rater - Spanish speakers in El Salvador",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/telus-international-ai-inc/jobs/online-ad-rater-spanish-speakers-in-el-salvador-8161720639?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "El Salvador",
+      "empresa": "TELUS International AI Inc",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Digital advertising reaches billions of people every day. But it only works when ads communicate honestly, comply with local policy, and serve their intended audience with integrity. Your commercial awareness and evaluative discipline are what stand between deceptive ad practices and trustworthy digital commerce. When you assess whether an ad is truthful, compliant, and culturally appropriate for the El Salvador market, you are protecting both consumers and legitimate businesses.\n In this role, you will evaluate commercial digital content against strict policy and quality frameworks. Your judgment determines whether ads meet compliance standards, communicate honestly, and serve local market context appropriately.\n Evaluate online ad content, landing pages, and commercial messaging against ",
+      "vista": "2026-11-24T15:21:14.628Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "oferta trampa: enlace externo para aceptar o verificar («Verify your identity»)",
+        "filtro": "trampa",
+        "categoria": "",
+        "idioma": "",
+        "carga": "",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "filtro previo (sin API)",
+        "tokens": null,
+        "costeUSD": 0,
+        "generada": "2026-11-24T15:21:13.989Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "metricool/jobs/graphic-designer-fully-remote",
       "tipo": "FULL_TIME",
@@ -3946,48 +3982,6 @@
         },
         "costeUSD": 0.037865,
         "generada": "2026-11-18T14:17:09.380Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "growe-talents/jobs/smm-specialist",
-      "tipo": "FULL_TIME",
-      "titulo": "SMM Specialist",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/growe-talents/jobs/smm-specialist?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Growe Talents",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Our client is an international online gaming company focused on delivering engaging and innovative gaming experiences, leveraging modern technologies to provide high-quality products and services for a global audience.\n Perfect for those who aim to:\n Manage and grow the product’s social media presence across Instagram, TikTok, X (Twitter), and Telegram, adapting content to target markets and GEOs;\n Create engaging content using AI tools, including the generation of AI models, characters, images, and videos;\n Develop and execute content calendars aligned with iGaming campaigns, promotions, tournaments, seasonal events, and key industry trends;\n Produce and adapt UGC-style and native content formats optimized for TikTok, Reels, and Shorts;\n Monitor social media trends, competitor activities,",
-      "vista": "2026-11-18T14:17:36.736Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Puesto remoto de contenido social con modelos, imágenes y vídeo con IA (Kling, UGC, Reels/TikTok), que encaja con lo que hace Leo; inglés no exigido a nivel C1.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nKeeping an iGaming brand fresh on Instagram, TikTok, X and Telegram with AI models, characters and UGC-style videos adapted to each GEO takes speed and a consistent look in every market.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen), and I've spent 2 years making short performance ads for social.\nAI model and swimwear visuals:\nhttps://www.behance.net/gallery/255880675/MASTER-AVATAR-AI-Swimwear-2026\nCinematic product campaign, from idea to edit and sound:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I'd work: define consistent AI characters per market, generate stills with GPT Image and Nano Banana Pro, animate them in Kling or Seedance, cut native TikTok, Reels and Shorts versions in Premiere and CapCut, and test new formats around your tournaments and promotions. I'm happy to do a test task.\nWhich GEOs and channels would you want to prioritise first?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [
-          "menciona años"
-        ],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1321,
-          "salida": 2158,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0493922,
-        "generada": "2026-11-18T14:17:31.803Z"
       },
       "fuente": "himalayas"
     }
