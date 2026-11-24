@@ -1,6 +1,84 @@
 {
-  "actualizado": "2026-11-24T08:37:58.925Z",
+  "actualizado": "2026-11-24T10:37:43.949Z",
   "ofertas": [
+    {
+      "id": "574685",
+      "tipo": "FREELANCE",
+      "titulo": "Content Lead (Video + Graphics)",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574685/Content-Lead-(Video-Graphics)",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Rhea S",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We build miltech. We film every test. We need a creative on the team\nwith excellent taste to own what we put out: decide what gets shot,\nedit it, and make it look great.\nWhat you'll do\n- Own our content: decide what we post and how it looks\n- Turn raw test footage into short clips, statics and threads\n- Set the visual style and keep everything consistent with it\n- Run our accounts: X and LinkedIn first, then Instagram and YouTube\n- Watch what works and change what we make because of it\n- Bring in freelancers when a piece needs more hands\nWhat we're looking for\n- Taste: hardcore, minimal, sexy\n- Posts of yours that got real reach, and an opinion on why they worked\n- Hands-on skills: short-form video editing and clean static graphics\n- Content made for a defense company, military unit, foundation, or a\n similar brand\n- English at B2 or better\nTerms\n- You work directly with our CEO and our cinematographer\n- Start as soon as possible",
+      "vista": "2026-11-24T10:37:43.949Z",
+      "carta": {
+        "decision": "espera",
+        "motivo": "Encaja con edición de vídeo corto y piezas estáticas, pero piden posts propios con alcance real y no hay ninguno en los datos.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Rhea,\nTurning raw test footage into hardcore, minimal clips for X and LinkedIn needs one consistent style from day one, and that is the part I would own.\nI'm Leo, creative director at LeoVisual.nl. Closest piece of mine, a cinematic product campaign (edit, motion, sound):\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I'd start: review your test archive, set a short style guide (type, colour, cuts), then cut 3 clips and 3 statics and track what performs.\nBefore you pay anything, I'll cut one 15-second clip from a test video you send me.\n2,500 USD, 50% upfront, style guide and first batch in 2–4 weeks, 2 rounds of changes.\nWhich test footage do you want out first?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "¿Tienes algún post tuyo con alcance real (enlace y números) y una frase de por qué funcionó, para añadirlo a la carta?",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 717,
+          "salida": 1935,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.065903,
+        "generada": "2026-11-24T10:37:30.297Z"
+      }
+    },
+    {
+      "id": "574683",
+      "tipo": "FREELANCE",
+      "titulo": "Branding and Brand Guidelines Design",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574683/Branding-and-Brand-Guidelines-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Equiti Group",
+      "contacto": "Al Lotter",
+      "solicitantes": 11,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a designer to create branding and comprehensive brand guidelines for a multi-national fintech brand. The work should establish a cohesive visual identity and document how it should be applied consistently.\n– Core brand identity system\n– Brand guidelines document covering consistent visual identity usage",
+      "vista": "2026-11-24T10:37:43.949Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding y guía de marca para fintech: Leo puede hacerlo, pero solo tiene una identidad conceptual como prueba, así que se ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Al!\n\nA multi-national fintech brand needs an identity that feels consistent in every market, and guidelines clear enough for any team to apply it.\n\nA concept identity I designed, from logo to system and applications:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\n\nMy approach: brand direction, logo and core system (colour, type, grid, iconography), then a guidelines document with usage rules and examples. Before you pay anything, I'll send you one logo direction for Equiti mocked up on an app screen and a business card.\n\n5000 USD, 50% upfront, 7–10 days, 2 rounds of changes.\n\nWhich markets and touchpoints (app, web, print) should the guidelines cover first?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 488,
+          "salida": 1350,
+          "cacheLeida": 4867,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0299254,
+        "generada": "2026-11-24T10:37:42.932Z"
+      }
+    },
     {
       "id": "574637",
       "tipo": "FREELANCE",
@@ -3194,46 +3272,6 @@
         },
         "costeUSD": 0.055011,
         "generada": "2026-11-21T11:16:28.664Z"
-      }
-    },
-    {
-      "id": "368497",
-      "tipo": "FULLTIME",
-      "titulo": "Junior visual designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/368497/Junior-visual-designer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-21T10:53:35.525Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
-      }
-    },
-    {
-      "id": "372689",
-      "tipo": "FULLTIME",
-      "titulo": "Video Editor",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372689/Video-Editor",
-      "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-21T09:54:45.249Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
       }
     }
   ]
