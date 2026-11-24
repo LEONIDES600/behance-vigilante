@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-24T15:21:14.629Z",
+  "actualizado": "2026-11-24T18:34:24.876Z",
   "ofertas": [
+    {
+      "id": "zoominfo-technologies-llc-senior-director-product-management-agentic-platform",
+      "tipo": "DESIGN",
+      "titulo": "ZoomInfo Technologies LLC — Senior Director, Product Management, Agentic Platform",
+      "presupuesto": "",
+      "enlace": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-senior-director-product-management-agentic-platform",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Anywhere in the World",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Headquarters: Remote-US ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do the best work of your life. You’ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins. With tools that amplify your impact and a culture that backs your ambition, you won’t just contribute. You’ll make things happen fast. ZoomInfo has rebuilt itself around AI, and every agentic experience we ship runs on one shared platform — Copilot chat, agent teams, bots, GTM Studio, MarketingOS, and products that don't exist yet. As Senior Director of Product Management for the Agentic Platform, you'll be the right hand to our VP of Agents &amp; Orchestration, owning the core primitives every agent depends on and the forward-looking R&amp;D that keeps our age",
+      "vista": "2026-11-24T18:34:24.876Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de Senior Director de Producto que exige más de 10 años en producto técnico, más de 3 dirigiendo equipos y mucho código, y además la sede es Remote-US: no encaja con Leo.",
+        "categoria": "AGENTES",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 2092,
+          "salida": 484,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.042383,
+        "generada": "2026-11-24T18:34:23.728Z"
+      },
+      "fuente": "wwr"
+    },
     {
       "id": "telus-international-ai-inc/jobs/online-ad-rater-spanish-speakers-in-el-salvador-8161720639",
       "tipo": "PART_TIME",
@@ -3944,46 +3984,6 @@
         "generada": "2026-11-18T15:53:21.505Z"
       },
       "fuente": "jobicy"
-    },
-    {
-      "id": "prometeo-talent/jobs/creative-content-creator-social-video-ads-remote",
-      "tipo": "FULL_TIME",
-      "titulo": "Creative Content Creator | Social, Video & Ads | Remote",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/prometeo-talent/jobs/creative-content-creator-social-video-ads-remote?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Brazil, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominica, Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas), Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands, Suriname, Trinidad and Tobago, Turks and Caicos Islands, Uruguay, Venezuela, Virgin Islands, British, Virgin Islands, U.S.",
-      "empresa": "Prometeo Talent",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "About us\n Prometeo Talent is a recruitment firm with a strong presence across the Americas and Europe. We specialize in connecting companies with highly specialized technology professionals.\n We´re parthering with leading automotive group with a strong presence in the international market, specializing in vehicle sales, aftersales services, financing solutions, and comprehensive customer support.\n About the role\n We’re looking for a curious, creative, hands-on Content Creator who stays ahead of platform trends and likes trying new ideas, formats and tools.\n You’ll create content for both organic channels and paid ads: images, short-form videos, blog articles and longer YouTube videos. You’ll mix creativity with analysis, studying our own content, competitors and the wider industry to spot ",
-      "vista": "2026-11-18T14:17:36.736Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Solo admiten trabajo en remoto desde LATAM («Fully remote work within LATAM») y Leo vive en Ámsterdam; además, la plantilla indica inglés C1+.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1590,
-          "salida": 390,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.037865,
-        "generada": "2026-11-18T14:17:09.380Z"
-      },
-      "fuente": "himalayas"
     }
   ]
 }
