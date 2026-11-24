@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-24T16:37:04.405Z",
+  "actualizado": "2026-11-24T17:25:53.206Z",
   "ofertas": [
+    {
+      "id": "574853",
+      "tipo": "FREELANCE",
+      "titulo": "Diseñador/a 3D Freelance para Proyectos Interactivos y de Realidad Aumentada",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/574853/Disenadora-3D-Freelance-para-Proyectos-Interactivos-y-de-Realidad-Aumentada",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "franart experience",
+      "contacto": "Nicolas Romanov",
+      "solicitantes": 2,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "DISEÑADOR/A 3D FREELANCE – PROYECTOS INTERACTIVOS & AR | FranART\nEn FranART estamos buscando diseñadores/as 3D freelance en Colombia para colaborar por proyecto con nuestra agencia en la creación de experiencias visuales, digitales e interactivas para marcas, restaurantes, hospitality, arte, retail, eventos y otros sectores.\nBuscamos perfiles creativos con experiencia en diseño, modelado y animación 3D, especialmente interesados en proyectos donde se combinan creatividad, tecnología y experiencias interactivas.\n¿Qué buscamos?\nModelado y diseño 3D.\nAnimación 3D.\nManejo de Blender, Cinema 4D, Maya o herramientas similares.\nCreación y optimización de assets 3D para entornos digitales.\nExperiencia o conocimientos en Realidad Aumentada (AR).\nArtivive.\nHostinger y publicación/integración de proyectos web.\nitch.io.\nIntegración de contenido 3D, animación y experiencias interactivas.\nConocimientos de AI aplicada al diseño serán un plus.\nNo es indispensable dominar todas estas herramientas. Valoramos especialmente un buen portfolio, calidad visual, creatividad, capacidad técnica, cumplimiento de tiempos y facilidad para adaptarse a diferentes proyectos y workflows.\nLa modalidad de colaboración será 100% freelance y por proyecto.\nPara aplicar\nEnvíanos:\nNombre + ciudad/país + portfolio + software y herramientas que manejas + experiencia en 3D + experiencia en AR/Artivive o proyectos interactivos (si la tienes) + tarifa aproximada por hora o por proyecto + disponibilidad.\n⚠️ Es indispensa",
+      "vista": "2026-11-24T17:25:53.206Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Buscan diseñadores 3D en Colombia, y Leo vive en Ámsterdam; además piden sobre todo modelado y animación 3D con AR/Artivive.",
+        "categoria": "CREATIVO",
+        "idioma": "es",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1209,
+          "salida": 543,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.040031,
+        "generada": "2026-11-24T17:25:51.580Z"
+      }
+    },
     {
       "id": "574847",
       "tipo": "FREELANCE",
@@ -3248,45 +3287,6 @@
         },
         "costeUSD": 0.054199,
         "generada": "2026-11-22T01:13:39.131Z"
-      }
-    },
-    {
-      "id": "573683",
-      "tipo": "FREELANCE",
-      "titulo": "Projeto photobooth",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573683/Projeto-photobooth",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "nathalia dias",
-      "solicitantes": 1,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Oii! Estou à procura de desenvolver uma cabine fotográfica personalizada.\nO conceito é uma cabine com estética minimalista, com acabamento exterior em aço/metal. Já tenho algumas referências visuais e uma simulação da aparência e das proporções que pretendo.\nProcuro um projeto de design industrial que contemple tanto a estrutura externa como a organização técnica e funcional interna, incluindo câmera, ecrã, iluminação, impressora, componentes internos, cablagem e acessos para manutenção.\nO objetivo é desenvolver um modelo 3D e desenhos técnicos completos, que possam ser utilizados por um fabricante para construir a cabine física.",
-      "vista": "2026-11-21T23:52:47.891Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden diseño industrial con planos técnicos completos para que un fabricante construya la cabina (CAD técnico), y Leo no hace eso.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "2–4 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 607,
-          "salida": 333,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.033423,
-        "generada": "2026-11-21T23:52:47.090Z"
       }
     }
   ]
