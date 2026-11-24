@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-24T04:37:44.141Z",
+  "actualizado": "2026-11-24T04:47:59.548Z",
   "ofertas": [
+    {
+      "id": "372927",
+      "tipo": "FULLTIME",
+      "titulo": "Graphic and Senior Graphic Designer",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/372927/Graphic-and-Senior-Graphic-Designer",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-24T04:47:59.548Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "574571",
       "tipo": "FREELANCE",
@@ -3195,45 +3215,6 @@
         },
         "costeUSD": 0.058431,
         "generada": "2026-11-21T09:16:57.396Z"
-      }
-    },
-    {
-      "id": "573403",
-      "tipo": "FREELANCE",
-      "titulo": "Post-Apocalyptic Mobile Game UI Design With Logo",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573403/Post-Apocalyptic-Mobile-Game-UI-Design-With-Logo",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Tomasz Szlagowski",
-      "solicitantes": 5,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I have a productivity app / game that helps motivate people struggling with procrastination - you get rewarded for completing real life tasks and punished for failing to do things on time. Like Habitica. The app works, but is in a wireframe format - now I need a designer's help to make it pretty.\nThe game has RPG elements (EXP/levels/skills/attributes) and is set in a post-apocalyptic world.\nIt's mobile-first, with 360px min width, the layout will need to be responsive.\nI have a name, but I still need a logo and an app icon / favicon.\n– Responsive mobile-first UI designs for the existing screens. We can rearrange things as well - I have wireframes, but I'm open to ideas.\n– A logo, a square app icon, a favicon\nGame UI design experience.\nPost-apocalyptic game aesthetic. Think Fallout, Wasteland etc.\nI'm open to suggestions, but what I was imagining was:\n- some \"rusty metal\" buttons/frames for most important constant elements like footer menu\n- CRT-like mostly monochrome display with most of the dynamic content inside",
-      "vista": "2026-11-21T09:04:12.676Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con diseño web e interfaces, pero pide experiencia en UI de juegos y un logo que no están en el portfolio, así que la carta ofrece una pantalla de muestra antes de pagar.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Tomasz,\nA Habitica-style app set in a Fallout-like wasteland is a great brief: rusty metal frames for the footer menu and a monochrome CRT screen for the dynamic content.\nI'm Leo, creative director at LeoVisual.nl. My closest work is a set of interactive websites I designed and built:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nMy plan: review your wireframes, build a UI kit in Figma (metal frames, CRT panels, EXP bars, skill and attribute icons), then design every screen mobile-first from 360px up, plus the logo, app icon and favicon.\nBefore you pay anything, I'll send you one of your wireframe screens redesigned in this style.\n2500 USD, 50% upfront, 2–3 weeks, 2 rounds of changes.\nHow many screens are in the current wireframes?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "2–3 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 769,
-          "salida": 1540,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.058211,
-        "generada": "2026-11-21T09:04:11.985Z"
       }
     }
   ]
