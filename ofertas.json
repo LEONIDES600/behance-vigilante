@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-25T10:26:05.039Z",
+  "actualizado": "2026-11-25T11:25:09.111Z",
   "ofertas": [
+    {
+      "id": "575247",
+      "tipo": "FREELANCE",
+      "titulo": "Supplement Brand Identity and Packaging Design",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575247/Supplement-Brand-Identity-and-Packaging-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "kk kk",
+      "solicitantes": 16,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We’re launching a supplement brand and looking for a designer to create a modern, premium visual identity and packaging system.\nScope:\nLogo design, typography, colour palette, brand guidelines, and one supplement bottle label with front and back artwork. Deliverables should include 3D mockups, print-ready files, and editable source files.\nWe’ll provide the product details, approved label copy, and manufacturer’s dieline. Please share relevant supplement packaging examples, your estimated timeline, and quotation.",
+      "vista": "2026-11-25T11:25:09.111Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding y packaging de suplemento con buen presupuesto; no hay pieza igual, así que se ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nA premium supplement launch needs the logo, palette and bottle label to work as one system, and building the label on your manufacturer's dieline keeps it print-ready from day one.\nClosest example, a concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nBefore you pay anything, I'll send you one logo direction mocked up on your supplement bottle.\nPlan: 2–3 logo directions, then typography, palette and guidelines, then front and back label on your dieline, 3D mockups, print-ready and editable files.\n5000 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich feeling should the brand have: clinical and science-led, or natural and wellness?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 558,
+          "salida": 1247,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.051507,
+        "generada": "2026-11-25T11:25:08.050Z"
+      }
+    },
     {
       "id": "575223",
       "tipo": "FREELANCE",
@@ -3284,45 +3323,6 @@
         },
         "costeUSD": 0.059339,
         "generada": "2026-11-23T10:36:50.377Z"
-      }
-    },
-    {
-      "id": "574159",
-      "tipo": "FREELANCE",
-      "titulo": "Team Photoshoot and Founder Brand Introduction Video for Rugas Tech",
-      "presupuesto": "10.000–25.000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574159/Team-Photoshoot-and-Founder-Brand-Introduction-Video-for-Rugas-Tech",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Rugas technologies",
-      "contacto": "spandan choundiyal",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a professional team photoshoot for Rugas Tech’s 15 members in Bangalore, along with filming and editing a two-minute introductory video featuring our founder and brand. Our budget for the complete project is INR 20,000. The visuals should present our team and brand professionally for introductory and promotional use.\n– Professional team photographs featuring 15 Rugas Tech members\n– Filmed and edited two-minute founder and brand introduction video\nThe shoot will take place in Bangalore and must cover both team photography and a founder-led brand introduction.",
-      "vista": "2026-11-23T10:25:10.012Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Hay que estar en persona en Bangalore para la sesión de fotos y el rodaje, y pagan en INR (20.000 INR, unos 240 USD por todo).",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": 25000,
-        "anticipoPct": 50,
-        "plazo": "2–4 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 590,
-          "salida": 462,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.035935,
-        "generada": "2026-11-23T10:25:09.257Z"
       }
     }
   ]
