@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-25T15:18:40.598Z",
+  "actualizado": "2026-11-25T16:01:19.079Z",
   "ofertas": [
+    {
+      "id": "miratech/jobs/copilot-ai-trainee",
+      "tipo": "INTERN",
+      "titulo": "Copilot AI Trainee",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/miratech/jobs/copilot-ai-trainee?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Poland",
+      "empresa": "Miratech",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "We are looking for a talented and technically curious MS Copilot AI Trainee to join an exciting client project. This role offers an opportunity to gain hands-on experience with Microsoft Copilot by contributing to practical use cases and supporting the development, testing, and improvement of Copilot-based solutions.\n Responsibilities:\n Explore and apply Microsoft Copilot capabilities within the project.\n Participate in analyzing and developing different Copilot use cases for the project.\n Contribute to developing, configuring, and testing Microsoft Copilot and Copilot Studio solutions.\n Participate in creating and improving prompts, workflows, and AI-based solutions for specific project needs.\n Test solutions, analyze results, and verify AI outputs against approved sources, rules, and ins",
+      "vista": "2026-11-25T16:01:19.079Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Las prácticas son en remoto solo desde Polonia y piden al menos 6 meses con Microsoft Copilot/Copilot Studio, además de Power Platform/Azure, algo que Leo no tiene confirmado.",
+        "categoria": "AGENTES",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1501,
+          "salida": 498,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.040299,
+        "generada": "2026-11-25T16:01:18.308Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "164241",
       "tipo": "FULL_TIME",
@@ -3940,46 +3980,6 @@
         "generada": "2026-11-19T18:31:57.335Z"
       },
       "fuente": "himalayas"
-    },
-    {
-      "id": "163237",
-      "tipo": "FULL_TIME",
-      "titulo": "UI Designer - AI Neobank App",
-      "presupuesto": "",
-      "enlace": "https://jobicy.com/jobs/163237-ui-designer-ai-neobank-app",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Germany",
-      "empresa": "BJAK",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "About BJAK \n The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name.\n Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia.\n Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day.\n We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their pas",
-      "vista": "2026-11-19T13:04:54.499Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Exige residir en Alemania, además de 2–5 años diseñando apps móviles y Figma avanzado, que Leo no tiene.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1518,
-          "salida": 372,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.037217,
-        "generada": "2026-11-19T13:04:48.653Z"
-      },
-      "fuente": "jobicy"
     }
   ]
 }
