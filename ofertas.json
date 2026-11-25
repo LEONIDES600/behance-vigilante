@@ -1,6 +1,84 @@
 {
-  "actualizado": "2026-11-25T15:25:06.533Z",
+  "actualizado": "2026-11-25T16:26:30.220Z",
   "ofertas": [
+    {
+      "id": "575405",
+      "tipo": "FREELANCE",
+      "titulo": "Logo",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575405/Logo",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Élan Botanicals",
+      "contacto": "Cindy Dubuisson",
+      "solicitantes": 8,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Présentation du projet\nJe suis la fondatrice d’ÉLAN Botanicals, une marque de soins capillaires botaniques haut de gamme spécialisée dans les huiles capillaires et les soins favorisant des cheveux plus forts, plus sains et une meilleure rétention de longueur.\nJe recherche un designer ou une agence créative expérimentée pour finaliser l’identité visuelle de ma marque et préparer son lancement officiel.\nLivrables souhaités\n* Branding : harmonisation de l’identité visuelle et création d’une charte graphique professionnelle.\n* Packaging : conception des bouteilles, emballages et étiquettes pour trois huiles capillaires, un shampooing et un revitalisant.\n* Site web : design et personnalisation d’une boutique Shopify élégante, professionnelle et adaptée aux appareils mobiles.\n* Réseaux sociaux : création de modèles graphiques pour Instagram, publications, stories et contenus promotionnels.\n* Identité premium : univers visuel luxueux, minimaliste et intemporel, principalement noir et or.",
+      "vista": "2026-11-25T16:26:30.220Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja en web y redes, pero en branding y packaging solo hay un proyecto de concepto, así que la carta ofrece una muestra antes del pago.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Cindy,\nA minimal, timeless black-and-gold look for ÉLAN's three hair oils, shampoo and conditioner needs one consistent system, from label to Shopify.\nI'm Leo, creative director at LeoVisual.nl. Closest work, a concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nPlan: 1) refine your identity and build the brand guide, 2) design bottles, boxes and labels for the 5 products, 3) design and customise a mobile-first Shopify store, 4) Instagram post, story and promo templates.\nBefore you pay anything, I'll send you one label direction mocked up on a hair oil bottle.\n1000 USD, 50% upfront, 3–4 weeks, 2 rounds of changes.\nDo you already have a logo and bottle shapes, or do we start from scratch?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "3–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 777,
+          "salida": 1575,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.058943,
+        "generada": "2026-11-25T16:26:16.027Z"
+      }
+    },
+    {
+      "id": "575401",
+      "tipo": "FREELANCE",
+      "titulo": "Promotional Poster Design With Clean Gradients and Modern Typography",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575401/Promotional-Poster-Design-With-Clean-Gradients-and-Modern-Typography",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Highannddd ray",
+      "solicitantes": 6,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic designer to create promotional posters with clean gradients and modern typography. My budget for this project is $150.\n– Promotional poster designs featuring clean gradients and modern typography\n– Final poster files suitable for promotional use\nClean gradients and modern typography.",
+      "vista": "2026-11-25T16:26:30.220Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Diseño gráfico de carteles promocionales, encaja con sus servicios y el cliente indica 150 USD.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nPromotional posters built on clean gradients and modern typography depend on spacing and type hierarchy, so that is where I would start.\nI'm Leo, creative director at LeoVisual.nl. My closest campaign work:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I'd do it: a short brief on your message and colors, two gradient and type directions, then the full set refined and exported for print and screens.\nBefore you pay anything, I'll send you one poster direction with your headline so you can judge the gradient and type.\nPrice: 150 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nHow many posters do you need, and in which sizes?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 150,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 472,
+          "salida": 1388,
+          "cacheLeida": 4867,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0306214,
+        "generada": "2026-11-25T16:26:29.161Z"
+      }
+    },
     {
       "id": "575349",
       "tipo": "FREELANCE",
@@ -3245,84 +3323,6 @@
       "carta": {
         "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
         "sinDescripcion": true
-      }
-    },
-    {
-      "id": "574231",
-      "tipo": "FREELANCE",
-      "titulo": "Shopify Store Design for Website",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574231/Shopify-Store-Design-for-Website",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Oluwajuwon Israel",
-      "solicitantes": 4,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a Shopify store designer to help design and improve my website. The work should focus on creating an effective, user-friendly online store experience.\n– Designed Shopify storefront pages\n– Responsive website layout optimized for desktop and mobile",
-      "vista": "2026-11-23T12:13:22.225Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es diseño web, que encaja con Leo, pero no tiene ninguna tienda Shopify en el portfolio, así que se ofrece una muestra antes de cobrar.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Oluwajuwon!\nYou want storefront pages that feel easy to shop on, with a layout that works just as well on mobile as on desktop.\nI'm Leo, creative director at LeoVisual.nl. My closest work is a set of websites I designed and built:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nHow I'd do it: review your current store, design the home, collection and product pages in Figma for desktop and mobile, then set them up in your Shopify theme.\nBefore you pay anything, I'll send you your homepage redesigned for desktop and mobile.\n500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich pages matter most to you right now: home, collection or product pages?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 451,
-          "salida": 1524,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.056619,
-        "generada": "2026-11-23T12:13:21.253Z"
-      }
-    },
-    {
-      "id": "574227",
-      "tipo": "FREELANCE",
-      "titulo": "Logo- und Verpackungsdesign für das Lucky-Cat-Projekt/Produkt",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574227/Logo-und-Verpackungsdesign-fuer-das-Lucky-Cat-ProjektProdukt",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "LiquidVisions GmbH",
-      "contacto": "Schadi Zügel",
-      "solicitantes": 5,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Ich suche Unterstützung für ein Logo- und Verpackungsdesign für mein Lucky-Cat-Projekt bzw. -Produkt. Das Budget beträgt 600 EUR. Benötigt werden ein prägnantes Logo und ein stimmiges Verpackungskonzept für den Produktauftritt.\n– Individuelles Logo für das Lucky-Cat-Produkt\n– Verpackungsdesign mit druckfertigen Gestaltungsdateien",
-      "vista": "2026-11-23T12:02:24.677Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja el logo y el packaging, pero solo hay un proyecto concepto de identidad, así que se ofrece una muestra antes de cobrar; el cliente dice 600 EUR y se pone esa cifra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Schadi!\nYour Lucky Cat product needs a logo that reads instantly and packaging that carries the same charm on the shelf.\nThe closest work is a concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd do it: 2–3 logo directions, refine the one you choose, then build the packaging around it and deliver print-ready files.\nBefore you pay anything, I'll send you one logo direction mocked up on your Lucky Cat box.\n600 EUR, 50% upfront, 7–10 days, 2 rounds of changes.\nWhat is the product exactly, and do you already have the box dimensions or a dieline?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 600,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 584,
-          "salida": 1344,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.053551,
-        "generada": "2026-11-23T12:02:23.700Z"
       }
     }
   ]
