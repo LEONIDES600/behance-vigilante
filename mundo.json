@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-25T05:43:41.827Z",
+  "actualizado": "2026-11-25T06:54:35.078Z",
   "ofertas": [
+    {
+      "id": "156927",
+      "tipo": "FULL_TIME",
+      "titulo": "Product Marketing Manager, AI Governance (EMEA)",
+      "presupuesto": "",
+      "enlace": "https://jobicy.com/jobs/156927-product-marketing-manager-ai-governance-emea",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "EMEA",
+      "empresa": "Kong Inc.",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Are you ready to unlock intelligence? \n If you don’t think you meet all of the criteria below but are still interested in the job, please apply. Nobody checks every box - we’re looking for candidates that are particularly strong in a few areas, and have some interest and capabilities in others.\n Product Marketing Manager, AI Governance (EMEA)\n Location: EMEA\n About the Role:\n Kong is building the connectivity layer for the AI era — securing, governing, and monetizing every LLM, MCP, agent, and API request in production.\n As the Product Marketing Manager for our AI portfolio, you'll be the commercial engine behind the fastest-moving part of our business. Working alongside a team of deeply technical product marketers who own positioning for AI traffic management, agent identity, and AI obser",
+      "vista": "2026-11-25T06:54:35.078Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de product marketing y ventas B2B (lanzamientos, sales enablement, keynotes) que pide 2+ años en product marketing, no un encargo creativo, web ni de agentes.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1561,
+          "salida": 543,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.041439,
+        "generada": "2026-11-25T06:54:33.662Z"
+      },
+      "fuente": "jobicy"
+    },
     {
       "id": "micro1/jobs/gravador-a-de-videos-em-casa-5786198613",
       "tipo": "FULL_TIME",
@@ -3938,46 +3978,6 @@
         },
         "costeUSD": 0.041845,
         "generada": "2026-11-18T18:20:02.868Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "rma-group-company-limited/jobs/senior-digital-marketing-officer-changan-auto",
-      "tipo": "FULL_TIME",
-      "titulo": "Senior Digital Marketing Officer (Changan Auto)",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/rma-group-company-limited/jobs/senior-digital-marketing-officer-changan-auto?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Cambodia",
-      "empresa": "RMA Group Company Limited",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "RMA Group is a multi-sector organization with more than 9,000 employees and an operational presence in 17 countries. For 40 years, we have developed enduring partnerships to support the needs of our clients, underpinned by the core values of Innovation, Integrity and Endurance. Through its various businesses including RMA Automotive, Global Fleet Sales, Comin Asia and Express Food Group (EFG), RMA Group has established itself as the partner of choice for leading automotive, equipment, engineering services, and food brands in Southeast Asia and beyond. \n Overview and purpose of the role \n We are looking for an Senior Digital Marketing Officer manages and oversees the daily operations of the Digital Marketing Team, ensuring all content is produced and published on time with no delays. This r",
-      "vista": "2026-11-18T18:20:24.734Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es un puesto de gestión de marketing para Camboya (eventos locales, equipo, contenido en jemer) que exige experiencia con Meta Ads y TikTok Ads, algo que Leo no tiene confirmado.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1451,
-          "salida": 486,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0164722,
-        "generada": "2026-11-18T18:20:07.871Z"
       },
       "fuente": "himalayas"
     }
