@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-25T09:24:58.497Z",
+  "actualizado": "2026-11-25T09:37:31.999Z",
   "ofertas": [
+    {
+      "id": "575211",
+      "tipo": "FREELANCE",
+      "titulo": "Packaging Design for a Golf Tee Brand",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575211/Packaging-Design-for-a-Golf-Tee-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "AIRLIT GOLF",
+      "solicitantes": 7,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a packaging designer to create packaging for my golf tee brand. The design should support a clear, market-ready presentation for the product.\n– Product packaging design for golf tees\n– Print-ready packaging artwork files",
+      "vista": "2026-11-25T09:37:31.999Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Packaging remoto para una marca de tees de golf; Leo solo tiene un concepto de packaging, así que la carta ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYour golf tee packaging needs to look clean and market-ready on the shelf, and the brand and product should be clear at a glance.\nThe closest work I can show is a concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd do it: review your logo and tee details, propose 2 packaging directions, refine the one you choose, then deliver print-ready artwork files built on your printer's dieline.\nBefore you pay anything, I'll send you one direction mocked up on your tee box.\n250 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nDo you already have a dieline from your printer, or should I set up the box size with you?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 449,
+          "salida": 1238,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.050891,
+        "generada": "2026-11-25T09:37:30.845Z"
+      }
+    },
     {
       "id": "575197",
       "tipo": "FREELANCE",
@@ -3232,26 +3271,6 @@
       "titulo": "Photo Editor Retoucher",
       "presupuesto": "",
       "enlace": "https://www.behance.net/joblist/fulltime/372819/Photo-Editor-Retoucher",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-23T08:23:34.351Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
-      }
-    },
-    {
-      "id": "330481",
-      "tipo": "FULLTIME",
-      "titulo": "3D Visualizer Renderer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/330481/3D-Visualizer-Renderer",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
