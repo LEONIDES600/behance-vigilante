@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-25T12:38:10.568Z",
+  "actualizado": "2026-11-25T13:25:40.324Z",
   "ofertas": [
+    {
+      "id": "575283",
+      "tipo": "FREELANCE",
+      "titulo": "Freelance Graphic Designer Needed",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575283/Freelance-Graphic-Designer-Needed",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Emotion Event Management",
+      "contacto": "Luna Schlesser",
+      "solicitantes": 4,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "JOB DESCRIPTION\nFreelance Graphic Designer – European Institutions & Events\nCompany: Emotion Event Management Location: Luxembourg / Remote work possible depending on projects Contract Type: Freelance – Project-based assignments or ongoing collaboration\nAbout Emotion Event Management\nEmotion Event Management is an event management agency, specialising in the design, organisation and coordination of professional, corporate and institutional events.As part of our ongoing projects, particularly those involving European institutions, we are looking for an experienced, creative and independent Freelance Graphic Designer to develop event-specific visual identities and adapt them across a wide range of print and digital communication materials.\nYour Role\nYour main responsibility will be to develop distinctive visual identities for events, based on the client’s existing brand guidelines, and adapt approved concepts across digital, print and event materials.You will work closely with our event management team from initial concept through to final artwork.\nKey Responsibilities:\nPropose and develop original creative concepts, key visuals and event-specific visual identities based on client briefs and brand guidelines. \nTranslate approved concepts across PowerPoint, print, digital and event applications. \nCreate professional PowerPoint templates, slide masters and presentation assets. \nDesign materials such as programmes, invitations, signage, stage/screen visuals, website banners and di",
+      "vista": "2026-11-25T13:25:40.324Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Identidad visual de eventos y plantillas de PowerPoint: es diseño gráfico remoto, pero Leo no tiene una pieza igual y piden un inglés excelente; se envía con una muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Luna!\nAn event identity built on an institution's existing guidelines has to stay consistent from the invitation to the stage screen and the PowerPoint master.\nClosest piece, a concept identity I designed and adapted across formats:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd work: read the guidelines, propose one key visual, then adapt it to the programme, signage, banners and slides, with editable source files.\nBefore you pay anything, I'll send you one key visual mocked up on an invitation and a title slide.\nFirst project: 250 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich event comes first, and are its brand guidelines ready to share?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1632,
+          "salida": 1641,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.063683,
+        "generada": "2026-11-25T13:25:39.497Z"
+      }
+    },
     {
       "id": "372985",
       "tipo": "FULLTIME",
@@ -3284,45 +3323,6 @@
         },
         "costeUSD": 0.059787,
         "generada": "2026-11-23T11:13:17.949Z"
-      }
-    },
-    {
-      "id": "574195",
-      "tipo": "FREELANCE",
-      "titulo": "Logo Design for an AI Accounting Company",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574195/Logo-Design-for-an-AI-Accounting-Company",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "AM Marketing Consulting",
-      "contacto": "Andreea Marciuc",
-      "solicitantes": 14,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a freelance brand identity designer to create a logo for my AI accounting company. Experience designing for the accounting, finance, or AI industry would be valuable.\n– Primary logo concept for the AI accounting company\n– Final logo files in editable and web-ready formats\nFreelancer with relevant experience in the AI, accounting, or finance industry.",
-      "vista": "2026-11-23T11:13:33.322Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es un logo, que Leo puede hacer con IA, pero no tiene en el portfolio una pieza de logo para el sector finanzas; se envía ofreciendo una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi Andreea!\nYour AI accounting company needs a logo that reads as trustworthy as finance and as sharp as tech.\nI'm Leo, creative director at LeoVisual.nl. A concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy process: a short brief on your name and values, AI-assisted exploration of directions, then I refine the chosen one into editable and web-ready files (AI, SVG, PDF, PNG).\nBefore you pay anything, I'll send you one logo direction mocked up on an invoice and an app icon.\nPrice: 1000 USD, 50% upfront, delivery in 2–5 days, 2 rounds of changes.\nDo you already have the company name and any colours you want to keep?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "2–5 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 516,
-          "salida": 1515,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0333374,
-        "generada": "2026-11-23T11:13:32.383Z"
       }
     }
   ]
