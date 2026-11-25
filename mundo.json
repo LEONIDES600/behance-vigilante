@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-25T14:00:22.829Z",
+  "actualizado": "2026-11-25T15:18:40.598Z",
   "ofertas": [
+    {
+      "id": "164241",
+      "tipo": "FULL_TIME",
+      "titulo": "(Senior) Java Test Automation Engineer (m/f/d)",
+      "presupuesto": "",
+      "enlace": "https://jobicy.com/jobs/164241-senior-java-test-automation-engineer-m-f-d",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "Austria,  Croatia,  Germany,  Hungary,  Italy,  Portugal,  Spain,  UK",
+      "empresa": "ecosio",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "ecosio is a fast-growing, innovative service company and a leading provider of B2B integration, specialising in electronic data interchange (EDI), Web EDI and e-invoicing. ecosio is part of Vertex, Inc., a leading global provider of indirect tax solutions listed on Nasdaq (VERX).\n Our brand slogan is Connections That Work as we believe strong connections are central to successful business relationships - both external and internal. At ecosio, we hire individuals from all backgrounds and are committed to creating an inclusive work environment. We are technology lovers, set the highest standards for our solutions, and put innovative ideas first.\n Job Description \n You'll connect with the role if you enjoy...\n being responsible for continuously evolving and improving our test infrastructure\n ",
+      "vista": "2026-11-25T15:18:40.598Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es un puesto de programación pura (QA con Java, JUnit 5 y testing de API), fuera de los servicios de Leo.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1255,
+          "salida": 288,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.035115,
+        "generada": "2026-11-25T15:18:39.891Z"
+      },
+      "fuente": "jobicy"
+    },
     {
       "id": "indigo-vc/jobs/roblox-thumbnail-designer",
       "tipo": "FULL_TIME",
@@ -3938,46 +3978,6 @@
         },
         "costeUSD": 0.037217,
         "generada": "2026-11-19T13:04:48.653Z"
-      },
-      "fuente": "jobicy"
-    },
-    {
-      "id": "163235",
-      "tipo": "FULL_TIME",
-      "titulo": "Savvy Commercial and Operations Senior Manager - UK/Poland",
-      "presupuesto": "",
-      "enlace": "https://jobicy.com/jobs/163235-savvy-commercial-and-operations-senior-manager-uk-poland",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Poland,  UK",
-      "empresa": "Laminar Projects",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "This is not a back-office role. As a senior member of our globally distributed team, you’ll own the commercial and operational decisions that shape how Laminar wins work, delivers it and grows. \n We're looking for a Commercial and Operations Senior Manager to strengthen the foundations of the business. That means tightening our commercial contracts, bringing structure to our operating procedures, and building processes that scale as we grow. If you enjoy untangling complex commercial and operational problems and turning them into clear, repeatable ways of working, we'd like to hear from you. This role requires someone with both commercial and operational experience. \n If this sounds like you, Read on! \n (this will be a long write up but we like to give you all the details before you spend ",
-      "vista": "2026-11-19T13:04:54.499Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es un puesto de gestión comercial y de operaciones (contratos, procesos, riesgos), sin relación con sus servicios, y además restringido a residentes de Reino Unido o Polonia.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1423,
-          "salida": 356,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0137602,
-        "generada": "2026-11-19T13:04:53.594Z"
       },
       "fuente": "jobicy"
     }
