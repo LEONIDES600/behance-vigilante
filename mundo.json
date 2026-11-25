@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-25T07:47:59.615Z",
+  "actualizado": "2026-11-25T11:58:10.911Z",
   "ofertas": [
+    {
+      "id": "indigo-vc/jobs/3d-artist-roblox",
+      "tipo": "FULL_TIME",
+      "titulo": "3D Artist, Roblox",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/indigo-vc/jobs/3d-artist-roblox?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Indigo VC",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Remote · Full-time\n Indigo VC creates games on Roblox. You’ll work alongside developers, artists and a producer to build 3D assets that look good and run well in the game.\n What you’ll do\n • Model characters, environments, props and other 3D assets, including animated assets.\n • Work on materials, textures, UV layouts and rendering.\n • Optimize assets to balance visual quality with performance in the game engine.\n • Apply animation and rigging skills where needed and collaborate closely with developers, artists and the producer.\n Nice to have\n • Experience with Blender, Maya, ZBrush, Substance Painter, Unity or Unreal Engine.\n • Experience using generative AI tools to create or refine textures and models.\n • B2 English or higher.\n Apply through BuySide using the application link. The Indig",
+      "vista": "2026-11-25T11:58:10.911Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Puesto a tiempo completo de artista 3D de videojuegos para Roblox que pide modelado de personajes y escenarios, rigging, UVs y optimización en tiempo real, una especialidad que Leo no tiene.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 640,
+          "salida": 789,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.042675,
+        "generada": "2026-11-25T11:58:09.873Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "medvidi/jobs/senior-product-designer-ai-track",
       "tipo": "FULL_TIME",
@@ -3940,46 +3980,6 @@
         "generada": "2026-11-18T22:22:42.867Z"
       },
       "fuente": "himalayas"
-    },
-    {
-      "id": "163171",
-      "tipo": "CONTRACT",
-      "titulo": "Lead Creative (Motion Design)",
-      "presupuesto": "",
-      "enlace": "https://jobicy.com/jobs/163171-lead-creative-motion-design",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "LATAM",
-      "empresa": "Superside",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Superside is looking for a Lead Creative (Motion Design) to push the boundaries of what’s possible in motion and animation. \n In this role, you’ll lead a global team of top-tier creatives, delivering world-class motion graphics, digital ads, explainer videos, promos, animated presentations, and more. You’ll shape creative strategy, inspire your team, and partner with leading global brands to deliver impactful work that blends craft, innovation, and cutting-edge technology.\n What You'll Do\n Lead and inspire a team of motion designers, driving creative excellence and innovation across projects.\n Own the creative strategy, workflow, and delivery of multiple projects, ensuring quality, timeliness, and budget alignment.\n Collaborate with your dedicated account teams to successfully grow and dev",
-      "vista": "2026-11-18T19:56:39.732Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es remoto solo para LATAM y exige más de 6 años como líder creativo en agencias de primer nivel, un título universitario (BA) e inglés excelente, muy por encima del perfil de Leo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1550,
-          "salida": 475,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.039405,
-        "generada": "2026-11-18T19:56:38.896Z"
-      },
-      "fuente": "jobicy"
     }
   ]
 }
