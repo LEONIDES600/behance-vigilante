@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-25T14:25:25.860Z",
+  "actualizado": "2026-11-25T15:25:06.533Z",
   "ofertas": [
+    {
+      "id": "575349",
+      "tipo": "FREELANCE",
+      "titulo": "Psychedelic Music Video Motion Design and Animation",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575349/Psychedelic-Music-Video-Motion-Design-and-Animation",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Alex Koskull",
+      "solicitantes": 5,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Hi, I’m Alex, a London-based producer and guitarist behind Kavé, an audiovisual project set in the future on the fictional planet Perpetua. \nI’m looking for a motion designer and animator to collaborate with me on a video for my next single, We Used To See, planned for spring 2027.\nThe song is a fever dream in which Kavé reconnects with someone he once held dear. I picture distressed digital textures, dancing silhouettes, faces emerging from TV static and waveforms moving with the guitars, with strong sunset colours. I’d love to work with someone who has a feel for animating to music.\nI’ve put together a visual treatment to give you a feel for the track, the film and visual style I have in mind. It includes key elements and shots, references for the visual style, and a rough storyboard showing how the scenes follow the music. I’d love to see what you would create from the treatment and the song, and how you’d bring them to life in your own style. Happy to provide more specific guidance (e.g. on design / style) if needed. \nVisual treatment: https://canva.link/myupey7q5de03cl \nListen to We Used To See: https://www.dropbox.com/scl/fi/i0zs3823l2uotqmw8s0c9/Alex-We-Used-To-See-Mix-4-Guitar-No-Verb.wav?rlkey=aeyvn0cl1p4yzs0y35dhjk0uy&st=f3o3rtvh&dl=0 [05:45] ( file password: Kave.transmission)\nBudget: $1400 - $2800\nTarget delivery: February 2027 \nIf this sounds like your kind of project, please send one or two examples that show how you work with movement and music, along with a qu",
+      "vista": "2026-11-25T15:25:06.533Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Videoclip de motion design y animación al ritmo de la música, remoto y con buen presupuesto: encaja con su trabajo de motion y cine.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Alex,\nFaces emerging from TV static and waveforms moving with the guitars, in sunset colours, is a strong core for We Used To See.\nTwo examples of how I work with movement and music:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nhttps://www.behance.net/gallery/254527569/Where-Imagination-Becomes-Real-AI-Cinematic-Short\nI'm Leo, creative director at LeoVisual.nl. I'd handle motion design, animation and edit: map your storyboard to the track, build the distressed textures and silhouettes, then cut every move to the guitars, final 16:9 render.\n2800 USD, 50% upfront, 2 rounds of changes, delivered by February 2027.\nWhich scene from the treatment would you like to see first as a style test?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2800,
+        "anticipoPct": 50,
+        "plazo": "hasta febrero de 2027",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1138,
+          "salida": 1495,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.058787,
+        "generada": "2026-11-25T15:25:05.439Z"
+      }
+    },
     {
       "id": "575305",
       "tipo": "FREELANCE",
@@ -3284,45 +3323,6 @@
         },
         "costeUSD": 0.053551,
         "generada": "2026-11-23T12:02:23.700Z"
-      }
-    },
-    {
-      "id": "574215",
-      "tipo": "FREELANCE",
-      "titulo": "Senior Graphic Designer for Design Project",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574215/Senior-Graphic-Designer-for-Design-Project",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Sarabeel Holding",
-      "contacto": "International Nannocare",
-      "solicitantes": 1,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We need a senior graphic designer for a design project with a budget of USD 250–750. The work requires professionally designed graphic assets tailored to the project requirements, along with editable source files for every final approved design. Senior-level graphic design experience is required.\n– Professionally designed graphic assets tailored to the project requirements\n– Editable source files for all final approved designs\nSenior-level graphic design experience is required.",
-      "vista": "2026-11-23T11:37:24.115Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encargo de diseño gráfico y marca encajable pero con un brief muy vago y que pide nivel senior; se envía con muestra previa y el concepto SESTEO.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou need professional graphic assets for your project, with editable source files for every approved design. I'm Leo, creative director at LeoVisual.nl. Here is a concept identity I designed, from logo to packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd work: review your brief and brand, send a first direction, refine it with you, then deliver the final files plus layered Illustrator/Photoshop sources, organised and ready to edit.\nBefore you pay anything, I'll send you one first design direction based on your brief.\nPrice: 500 USD, 50% upfront. Delivery in 7–10 days, with 2 rounds of revisions.\nWhich assets do you need first, and do you already have brand guidelines?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 514,
-          "salida": 1490,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.056191,
-        "generada": "2026-11-23T11:37:23.145Z"
       }
     }
   ]
