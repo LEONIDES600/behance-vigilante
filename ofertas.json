@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-25T07:37:34.445Z",
+  "actualizado": "2026-11-25T08:24:41.800Z",
   "ofertas": [
+    {
+      "id": "575163",
+      "tipo": "FREELANCE",
+      "titulo": "I want to recreate my olive oil bottle stickers",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575163/I-want-to-recreate-my-olive-oil-bottle-stickers",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Imen Kabboudi",
+      "solicitantes": 20,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m reaching out because we are looking to recreate and modernise the packaging design for our olive oil bottles.\nWe have already developed the brand identity and mascot, but we feel that the current bottle labels and stickers need to be redesigned to better reflect our brand’s vision and personality. We are looking for a more distinctive, contemporary and premium look.\nWould it be possible to arrange a meeting with your graphic designer so I can explain the brand concept, our vision and the direction we would like to take in more detail?\nI believe a discussion would help us communicate our expectations clearly and explore how we can develop packaging that gives the product a stronger and more recognisable identity.\nLooking forward to hearing from you.",
+      "vista": "2026-11-25T08:24:41.800Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Rediseñar las etiquetas de un aceite de oliva entra en packaging: sin cliente real parecido, se ofrece el concepto SESTEO y una muestra antes de que pague.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Imen,\n\nGiving your olive oil labels a more distinctive, premium look while keeping your mascot and existing identity at the centre is a great brief.\nHere is a concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy approach: a short call where you walk me through your concept, then 2 label directions shown on your bottle, then the final sticker files.\nBefore you pay anything, I'll send you one label direction mocked up on your bottle.\nPrice: 500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nHappy to set up that call. What bottle sizes and label shapes do you need?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 604,
+          "salida": 1317,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.053091,
+        "generada": "2026-11-25T08:24:40.701Z"
+      }
+    },
     {
       "id": "575161",
       "tipo": "FREELANCE",
@@ -3206,45 +3245,6 @@
       "carta": {
         "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
         "sinDescripcion": true
-      }
-    },
-    {
-      "id": "574059",
-      "tipo": "FREELANCE",
-      "titulo": "Ilustración Para Negocio Bistró y Café",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574059/Ilustracion-Para-Negocio-Bistro-y-Caf",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Loth Cabello",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Busco un ilustrador para crear piezas visuales para mi negocio de bistró y café. Necesito ilustraciones que apoyen la identidad y comunicación visual del establecimiento.\n– Ilustraciones originales para la identidad visual del bistró y café\n– Archivos finales de las ilustraciones en formatos digitales utilizables\n-Logotipo, Isotipo, manual de uso",
-      "vista": "2026-11-23T06:02:06.837Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Ilustración, logotipo e identidad para un bistró-café: no hay una pieza igual en el portfolio, así que la carta ofrece una muestra antes de cobrar y enlaza la identidad de concepto SESTEO.",
-        "categoria": "CREATIVO",
-        "idioma": "es",
-        "carga": "media",
-        "texto": "¡Hola, Loth!\nPara tu bistró y café, las ilustraciones tienen que sentirse cálidas y convivir con el logotipo y el isotipo en la carta, la fachada y las tazas.\nSoy Leo Gómez, director creativo de LeoVisual.nl. Esta es una identidad de concepto que diseñé para una marca de té:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nLo haría así: definir contigo el tono del local, diseñar el logotipo y el isotipo, crear la serie de ilustraciones y redactar el manual de uso, con los archivos finales en vector, PNG y PDF.\nAntes de que pagues nada, te envío una ilustración de prueba aplicada a una taza de tu café.\nPropuesta: 500 USD, 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿Cuántas ilustraciones necesitas y dónde las vas a usar primero?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 511,
-          "salida": 1615,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.058679,
-        "generada": "2026-11-23T06:02:06.077Z"
       }
     }
   ]
