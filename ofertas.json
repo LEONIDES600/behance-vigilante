@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-25T08:24:41.800Z",
+  "actualizado": "2026-11-25T09:24:58.497Z",
   "ofertas": [
+    {
+      "id": "575197",
+      "tipo": "FREELANCE",
+      "titulo": "Brand and packaging design ",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575197/Brand-and-packaging-design-",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "BTWN .",
+      "solicitantes": 14,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We’r preparing to launch a boutique bath and body brand, and are looking for a designer to bring our visual identity and packaging to life.\nScope of Work \nWe will be launching with 4 products (3 body washes and 1 hand wash) built around a cohesive design system. We have already finalized our bottle design and can share the specifications/dielines once the project is confirmed. We need support with:\nLogo: Primary logo and a secondary mark\nBottle labels: Front and back designs\nPackaging: Outer carton packaging\nBrand Guide: Refinement of our existing draft brand guide\nBrand World & References \nTo give you a feel for the brand, we can share our draft bran guide and moodboard folder. \nTimeline\nWe’re hoping to wrap up the project before the holidays, with all final deliverables completed by mid-December.\nPlease let us know if you need any additional information to put together a quote. Otherwise, we look forward to hearing your thoughts and receiving your quotation!",
+      "vista": "2026-11-25T09:24:58.497Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja con branding y packaging, pero solo tiene un proyecto conceptual parecido; se ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nLaunching 3 body washes and 1 hand wash means one system that has to hold across every label and carton.\nClosest work, a concept identity and packaging I designed for a sun tea brand:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nPlan: review your draft guide and moodboard, 2 logo directions (primary + secondary mark), then front/back labels on your dielines, outer carton and the refined brand guide.\nBefore you pay anything, I'll send you one logo direction mocked up on your bottle.\n1000 USD, 50% upfront, all finals before mid-December, 2 rounds of changes.\nWhich feeling should the brand lead with: calm spa, playful or clean apothecary?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "antes de mediados de diciembre",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 706,
+          "salida": 1278,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.052719,
+        "generada": "2026-11-25T09:24:56.405Z"
+      }
+    },
     {
       "id": "575163",
       "tipo": "FREELANCE",
@@ -3222,26 +3261,6 @@
       "dondeSolicitar": "",
       "descripcion": "",
       "vista": "2026-11-23T08:23:34.351Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
-      }
-    },
-    {
-      "id": "372791",
-      "tipo": "FULLTIME",
-      "titulo": "Lead Graphic Designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372791/Lead-Graphic-Designer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-23T06:11:33.929Z",
       "carta": {
         "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
         "sinDescripcion": true
