@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-25T06:54:35.078Z",
+  "actualizado": "2026-11-25T07:47:59.615Z",
   "ofertas": [
+    {
+      "id": "medvidi/jobs/senior-product-designer-ai-track",
+      "tipo": "FULL_TIME",
+      "titulo": "Senior Product Designer (AI Track)",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/medvidi/jobs/senior-product-designer-ai-track?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Poland",
+      "empresa": "MEDvidi",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Description\n MEDvidi is an AI-powered mental healthcare platform setting a new standard for safe, effective, and scalable psychiatric care in the United States.\n We combine licensed providers with proprietary AI tools to deliver consistent, outcomes-driven treatment for conditions like ADHD, anxiety, depression, and more. MEDvidi 's technology automates charting, follow-ups, and treatment planning, freeing providers to focus on patient care while improving efficiency and clinical quality.\n As Staff Product Designer , you will own the end-to-end design of MEDvidi 's AI Track, the core line of AI-powered clinical tools where providers interact with model outputs in a regulated healthcare environment. Your design decisions directly shape how clinicians review, accept, and correct AI-generated",
+      "vista": "2026-11-25T07:47:59.615Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden un diseñador de producto UX sénior con más de 6 años en interfaces clínicas complejas, y el puesto remoto está limitado a Polonia. Leo no cumple ninguna de las dos cosas.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1508,
+          "salida": 440,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.039167,
+        "generada": "2026-11-25T07:47:58.567Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "156927",
       "tipo": "FULL_TIME",
@@ -3940,46 +3980,6 @@
         "generada": "2026-11-18T19:56:38.896Z"
       },
       "fuente": "jobicy"
-    },
-    {
-      "id": "nexford-university/jobs/crm-automation-specialist-4694296988",
-      "tipo": "CONTRACTOR",
-      "titulo": "CRM & Automation Specialist",
-      "presupuesto": "1500–2500 USD/mes",
-      "enlace": "https://himalayas.app/companies/nexford-university/jobs/crm-automation-specialist-4694296988?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Romania",
-      "empresa": "Nexford University",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "CRM & Automation Specialist · Remote · Full-time contractor · Reports to the Marketing & Automation Lead\n About Nexford\n Nexford University is an accredited, fully online university headquartered in Washington, DC, with learners in more than 100 countries. We offer career-focused business and technology degrees, built with employers around the skills they actually hire for, at a fraction of the cost of a traditional degree. Following our Series A, we’re growing fast, including expansion into the US and Canada. We’re AI-native: our admissions, sales and marketing teams run on automation and AI agents. The bottleneck is no longer spotting what to improve. It’s shipping the improvements fast enough, and that’s where you come in.\n The role\n You turn briefs into working automations across our r",
-      "vista": "2026-11-18T18:20:24.734Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "El puesto parece limitado a Rumanía y pide como requisito 2–4 años en RevOps/marketing ops con HubSpot, algo que no consta en la experiencia de Leo.",
-        "categoria": "AGENTES",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1185,
-          "salida": 670,
-          "cacheLeida": 0,
-          "cacheEscrita": 4741
-        },
-        "costeUSD": 0.041845,
-        "generada": "2026-11-18T18:20:02.868Z"
-      },
-      "fuente": "himalayas"
     }
   ]
 }
