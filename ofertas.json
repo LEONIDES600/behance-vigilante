@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-24T23:36:44.089Z",
+  "actualizado": "2026-11-25T00:45:47.998Z",
   "ofertas": [
+    {
+      "id": "373029",
+      "tipo": "FULLTIME",
+      "titulo": "Social Media Manager",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/373029/Social-Media-Manager",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-25T00:45:47.998Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "575025",
       "tipo": "FREELANCE",
@@ -3225,41 +3245,6 @@
         },
         "costeUSD": 0.053931,
         "generada": "2026-11-22T22:37:12.657Z"
-      }
-    },
-    {
-      "id": "573953",
-      "tipo": "FREELANCE",
-      "titulo": "Children’s Book Illustration",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573953/Childrens-Book-Illustration",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "courtney barden",
-      "solicitantes": 4,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Hi. I’m working on a children’s book which will be around 24 total pages and need illustrations for it. 6 pages of the 24 would be full spreads. Most of the scenes of the book would include a little girl in her bedroom, in the bathtub, and at school on a playground. The story is related to her getting her nails painted so some of the illustrations would include her showing off her nail colors. So there may be about 3-4 different backgrounds needed and then various poses for the little girl and other characters like her mom and classmates. No AI use please.",
-      "vista": "2026-11-22T22:25:34.028Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "no quieren IA: «No AI»",
-        "filtro": "sin-ia",
-        "categoria": "",
-        "idioma": "",
-        "carga": "",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "filtro previo (sin API)",
-        "tokens": null,
-        "costeUSD": 0,
-        "generada": "2026-11-22T22:25:28.944Z"
       }
     }
   ]
