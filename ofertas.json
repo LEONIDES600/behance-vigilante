@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-25T05:00:15.693Z",
+  "actualizado": "2026-11-25T05:25:12.235Z",
   "ofertas": [
+    {
+      "id": "575119",
+      "tipo": "FREELANCE",
+      "titulo": "Hebrew Letter Logo Design for a Nonprofit",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575119/Hebrew-Letter-Logo-Design-for-a-Nonprofit",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Elan Sachs",
+      "solicitantes": 6,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a Hebrew logo creator to design a logo using Hebrew letters for our nonprofit. The project needs to be completed within a few days. It should be a little fun, and colorful, but sophisticated-not too playful.\nIt is for Baderech- filtering students phones.\nWebsite- baderech.org \nLogo should fit in a shield shape- like seen on the website.\nA secondary logo should be the name as text alone.\n– Custom nonprofit logo featuring Hebrew letters\n– Final logo files suitable for digital and print use\nA designer experienced in creating Hebrew-letter logos is required.\nThe logo must incorporate Hebrew lettering.",
+      "vista": "2026-11-25T05:25:12.235Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo con letras hebreas y escudo: Leo puede hacerlo, pero piden experiencia en logos hebreos y no hay ninguno en el portfolio, así que la carta ofrece una muestra antes de pagar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi Elan,\n\nBaderech needs a Hebrew-letter mark that fits the shield on your website, colorful and a little fun, but still sophisticated.\nHere is a concept identity I designed, with a main mark and text versions:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nBefore you pay anything, I'll send you one direction of the Baderech shield in Hebrew letters.\nThen: 2–3 color options, the secondary text-only logo, and final SVG, PNG and PDF files for digital and print.\nPrice: 250 USD, 50% upfront, delivery in 3–5 days, 2 rounds of changes.\nShould the lettering spell בדרך exactly as on your website, and keep its current colors?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "3–5 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 615,
+          "salida": 1707,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.060935,
+        "generada": "2026-11-25T05:25:10.985Z"
+      }
+    },
     {
       "id": "337075",
       "tipo": "FULLTIME",
@@ -3187,45 +3226,6 @@
         },
         "costeUSD": 0.054047,
         "generada": "2026-11-23T03:50:05.175Z"
-      }
-    },
-    {
-      "id": "573989",
-      "tipo": "FREELANCE",
-      "titulo": "Professional Icon-Only Logo for High-Fidelity Robotics Simulation Startup",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/573989/Professional-Icon-Only-Logo-for-High-Fidelity-Robotics-Simulation-Startup",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Double",
-      "contacto": "Luca Piekarski",
-      "solicitantes": 1,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a high-quality, professional icon-only logo for my startup, with a budget of $500. Our company develops robotics simulations and generates assets and environments with exceptionally high-fidelity visuals and physics.\n– Professional icon-only logo concept for a robotics simulation startup\n– Final logo files suitable for digital use\nHigh-quality, professional, and technology-focused.\nThe logo must not include a wordmark. The startup focuses on robotics simulations, asset generation, environment generation, high-fidelity visuals, and physics.",
-      "vista": "2026-11-23T01:24:49.409Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es un logo de solo icono, remoto y con buen presupuesto, pero en el portfolio no hay logos tecnológicos: la carta ofrece una muestra antes de pagar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi Luca!\nAn icon-only mark for Double has to say robotics simulation and high-fidelity physics with no wordmark to lean on.\nA concept identity I designed, to show how I build a mark and its system:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy process: 3 directions (a robotic joint, a simulation grid, a physics vector), refine one, test it at favicon size, then deliver SVG, PNG and light/dark versions.\nBefore you pay anything, I'll send you one icon direction shown as an app icon and on a dark UI header.\nPrice: 500 USD, 50% upfront, delivery in 2–5 days, 2 rounds of changes.\nShould the icon lean toward the robot itself or toward the simulated world it moves in?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "2–5 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 562,
-          "salida": 1454,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.055663,
-        "generada": "2026-11-23T01:24:48.303Z"
       }
     }
   ]
