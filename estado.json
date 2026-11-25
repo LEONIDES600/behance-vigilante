@@ -1,13 +1,13 @@
 {
   "version": "v3.5 · 20/11/2026",
-  "actualizado": "2026-11-25T10:41:30.690Z",
-  "ultimaPasadaConDatos": "2026-11-25T10:41:30.280Z",
+  "actualizado": "2026-11-25T11:12:16.800Z",
+  "ultimaPasadaConDatos": "2026-11-25T11:12:16.319Z",
   "ciegoDesde": null,
   "proxyBehance": "jina",
-  "pasadas": 21862,
+  "pasadas": 21892,
   "hoy": {
     "fecha": "2026-11-25",
-    "nuevas": 187,
+    "nuevas": 192,
     "alto": 6,
     "medio": 12,
     "bajo": 11,
@@ -25,7 +25,7 @@
   "behance": {
     "buzon": "configurado",
     "ultimoLatidoVigia": "2026-11-25T10:39:32.692Z",
-    "ultimoDato": "2026-11-25T10:41:30.279Z",
+    "ultimoDato": "2026-11-25T10:58:56.721Z",
     "sondaPausadaHasta": "2026-11-25T11:31:13.669Z",
     "avisoEnviado": false
   },
@@ -53,7 +53,7 @@
     "jobicy": {
       "fallosSeguidos": 0,
       "pausadaHasta": null,
-      "ultimaConsulta": "2026-11-25T10:03:14.215Z"
+      "ultimaConsulta": "2026-11-25T11:06:05.521Z"
     },
     "himalayas": {
       "fallosSeguidos": 0,
