@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-25T13:25:40.324Z",
+  "actualizado": "2026-11-25T14:25:25.860Z",
   "ofertas": [
+    {
+      "id": "575305",
+      "tipo": "FREELANCE",
+      "titulo": "Cinematic 3D Christmas Animations, Commercials, and Storytelling Videos",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575305/Cinematic-3D-Christmas-Animations-Commercials-and-Storytelling-Videos",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "CREATIVE VISION 3D STUDIO",
+      "contacto": "prime lead",
+      "solicitantes": 8,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a professional 3D animator and AI video creator to produce high-quality cinematic Christmas animations, romantic Christmas videos, product commercials, promotional advertisements, and engaging 3D animated storytelling videos. I need expertise in realistic character animation, lip-syncing, visual effects, and professional video production.\n– High-quality cinematic 3D Christmas and romantic Christmas videos\n– 3D animated product commercials and promotional advertisements\n– Storytelling videos featuring realistic character animation, lip-syncing, and visual effects\nProfessional 3D animators and AI video creators with expertise in realistic character animation, lip-syncing, visual effects, and professional video production.\nCinematic, high-quality, realistic, romantic, and visually engaging.\nThe work covers both seasonal Christmas content and promotional/commercial video projects, with an emphasis on cinematic production quality.",
+      "vista": "2026-11-25T14:25:25.860Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja en vídeo cinematográfico con IA, pero piden animación 3D de personajes, sincronización labial y efectos visuales que no están en el portfolio: se ofrece una prueba corta.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nRomantic Christmas stories and product commercials need the same thing: cinematic light, believable characters and a clear emotional beat.\nAs creative director at LeoVisual.nl, I directed this cinematic AI short:\nhttps://www.behance.net/gallery/254527569/Where-Imagination-Becomes-Real-AI-Cinematic-Short\nHow I'd do it: script and storyboard, consistent characters in Kling and Seedance, lip-sync and VFX, then edit and sound in Premiere and After Effects.\nBefore you pay anything, I'll send you a 5-second test of a Christmas couple scene.\n500 USD, 50% upfront, delivery in 2–4 weeks, 2 rounds of changes.\nWhich comes first: a romantic Christmas story or a product commercial?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 708,
+          "salida": 2054,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.068247,
+        "generada": "2026-11-25T14:25:25.153Z"
+      }
+    },
     {
       "id": "575283",
       "tipo": "FREELANCE",
@@ -3284,45 +3323,6 @@
         },
         "costeUSD": 0.056191,
         "generada": "2026-11-23T11:37:23.145Z"
-      }
-    },
-    {
-      "id": "574197",
-      "tipo": "FREELANCE",
-      "titulo": "Professional Blender Mentoring",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574197/Professional-Blender-Mentoring",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Yafed Saldivar",
-      "solicitantes": 1,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm an industrial and product designer. I'm mostly self-taught in Blender, and I'm looking for an experienced 3D artist to help me take my product animations to a professional level.\nWhat I'd like help with:\nAnimation: camera movement, timing and smooth product motion\nEnvironment: building scenes, lighting and atmosphere around the product\nStorytelling: structuring a product commercial so it has a clear story and impact\nAn audit of my render settings and workflow\nFormat: A few 1-on-1 online sessions (Zoom or Discord with screen sharing), starting with a review of my current files.\n– Professional one-to-one Blender mentoring sessions\n– Practical guidance and feedback on Blender workflows and techniques\nA professional Blender mentor with strong practical experience using the software.",
-      "vista": "2026-11-23T11:13:33.322Z",
-      "carta": {
-        "decision": "espera",
-        "motivo": "Encaja en animación de producto y storytelling, pero piden un mentor con experiencia sólida en Blender y Blender no aparece entre las herramientas confirmadas de Leo.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Yafed,\n\nTaking self-taught product animations to a commercial level comes down to camera timing, light and a clear story arc, and that is where I'd focus with you.\nI'm Leo Gómez, creative director at LeoVisual.nl. A product campaign I directed:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nPlan: session 1 reviews your files and render settings; sessions 2-3 cover camera moves, easing, environment and lighting; the last one turns one of your products into a short commercial storyboard, with written notes after each.\nPrice: 2500 USD, 50% upfront, over 2–4 weeks, with 2 rounds of feedback on your revised files.\nWhich product would you like to use as the case study?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "2–4 semanas",
-        "pregunta": "¿Manejas Blender con soltura suficiente para revisar archivos y ajustes de render y dar mentorías 1 a 1 en directo? Si no, la descarto.",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 633,
-          "salida": 1646,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.059787,
-        "generada": "2026-11-23T11:13:17.949Z"
       }
     }
   ]
