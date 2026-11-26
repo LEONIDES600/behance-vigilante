@@ -1,6 +1,86 @@
 {
-  "actualizado": "2026-11-26T11:25:58.368Z",
+  "actualizado": "2026-11-26T11:58:29.689Z",
   "ofertas": [
+    {
+      "id": "373281",
+      "tipo": "FULLTIME",
+      "titulo": "Creative Director Filmmaking Intern",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/373281/Creative-Director-Filmmaking-Intern",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-26T11:58:29.689Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "373275",
+      "tipo": "FULLTIME",
+      "titulo": "Motion Graphics VFX Intern",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/373275/Motion-Graphics-VFX-Intern",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-26T11:58:29.689Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "373271",
+      "tipo": "FULLTIME",
+      "titulo": "Video Editor Intern",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/373271/Video-Editor-Intern",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-26T11:58:29.689Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "373265",
+      "tipo": "FULLTIME",
+      "titulo": "Anime Motion Graphics Artist Intern",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/373265/Anime-Motion-Graphics-Artist-Intern",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-26T11:58:29.689Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "511627",
       "tipo": "FREELANCE",
@@ -3288,124 +3368,6 @@
         },
         "costeUSD": 0.055483,
         "generada": "2026-11-24T08:25:12.558Z"
-      }
-    },
-    {
-      "id": "574625",
-      "tipo": "FREELANCE",
-      "titulo": "VFX and 3D Art for a Five-Minute VR Video",
-      "presupuesto": "5000–10.000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574625/VFX-and-3D-Art-for-a-Five-Minute-VR-Video",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "vamshi reddy",
-      "solicitantes": 2,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a VFX artist and a 3D artist to create a five-minute VR video. The project requires immersive visual effects and 3D content suitable for a virtual reality viewing experience.\n– A five-minute VR video with integrated VFX and 3D artwork\n– Rendered final video files formatted for virtual reality viewing\nSeeking a VFX artist and a 3D artist with experience creating content for VR video.\nThe project requires both VFX and 3D-art expertise for an immersive VR experience.",
-      "vista": "2026-11-24T07:38:01.653Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Leo hace 3D y motion, pero no tiene ninguna pieza de VR ni de VFX inmersivo, así que la carta ofrece una prueba corta antes de cobrar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Vamshi,\nA five-minute VR video only works if the VFX and 3D hold up in every direction the viewer looks, with no seams or artifacts breaking the immersion.\nI'm Leo, creative director at LeoVisual.nl. Closest work, motion, VFX and cinematic visuals:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nHow I'd do it: storyboard and style frames, build the 3D scenes and VFX in 3D and After Effects, then render and export in your VR format.\nBefore you pay anything, I'll send you a 10-second VR test shot so you can check it in your headset.\nPrice: 10,000 USD, 50% upfront, 3–4 weeks, 2 rounds of changes.\nWhich headset or platform will viewers use, and what resolution and format (180 or 360) do you need?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 10000,
-        "anticipoPct": 50,
-        "plazo": "3–4 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 560,
-          "salida": 1569,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.057955,
-        "generada": "2026-11-24T07:37:59.989Z"
-      }
-    },
-    {
-      "id": "372931",
-      "tipo": "FULLTIME",
-      "titulo": "Motion Graphic cum Video Editor",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372931/Motion-Graphic-cum-Video-Editor",
-      "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-24T05:48:02.188Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
-      }
-    },
-    {
-      "id": "574581",
-      "tipo": "FREELANCE",
-      "titulo": "Thumbnail Design Using Provided Images",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574581/Thumbnail-Design-Using-Provided-Images",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Shamim Chauhan",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a graphic designer to create thumbnails using the images I already have. The thumbnails should be visually engaging and ready to use for my content.\n– Completed thumbnail designs using the provided images\n– Final thumbnail files ready for publishing\nThe hirer has images available for use in the thumbnail designs.",
-      "vista": "2026-11-24T05:37:39.206Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Miniaturas para contenido con imágenes del cliente: diseño gráfico para redes, encaja con sus servicios.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi Shamim,\n\nSince you already have the images, the job is turning them into thumbnails that grab attention and still read clearly at small sizes.\nI'm Leo Gómez, creative director at LeoVisual.nl. Before you pay anything, I'll send you one thumbnail made with one of your images so you can judge the style.\nMy process: pick the strongest crop, cut out the subject, add short bold text with strong contrast, and check legibility at mobile size.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions. Final files ready to publish in the size you need.\nHow many thumbnails do you need, and which platform are they for?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 476,
-          "salida": 1502,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.056279,
-        "generada": "2026-11-24T05:37:37.947Z"
-      }
-    },
-    {
-      "id": "372927",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic and Senior Graphic Designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372927/Graphic-and-Senior-Graphic-Designer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-24T04:47:59.548Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
       }
     }
   ]
