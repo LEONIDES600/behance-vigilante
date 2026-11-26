@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-26T02:26:01.741Z",
+  "actualizado": "2026-11-26T04:25:37.361Z",
   "ofertas": [
+    {
+      "id": "575579",
+      "tipo": "FREELANCE",
+      "titulo": "UI/UX Designer",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575579/UIUX-Designer",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "EliteBPO",
+      "contacto": "oshini bposphere",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Job Description: UI/UX Designer (iGaming Industry)\nFull-Time\n Remote\nCompany: Elite BPO\nDepartment: Design / Product\nIndustry: iGaming\nPosition: UI/UX Designer\nJob Summary\nWe are looking for a creative and experienced UI/UX Designer with experience in the iGaming industry to design engaging, user-friendly, and visually appealing interfaces for online gaming and betting platforms. The ideal candidate should understand user behavior, modern design trends, and the requirements of iGaming products.\nKey Responsibilities\n- Design user-friendly UI/UX for websites, mobile applications, and iGaming platforms.\n- Create wireframes, prototypes, user flows, and high-fidelity designs.\n- Design interfaces for casino games, sports betting, and gaming dashboards.\n- Improve website usability, navigation, and overall user experience.\n- Collaborate with developers, product managers, and marketing teams.\n- Maintain consistent branding, layouts, and design systems.\n- Conduct user research and analyze feed",
+      "vista": "2026-11-26T04:25:37.361Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja por diseño web e interfaces, pero piden experiencia en iGaming y UI de apps que no están en el portfolio; se ofrece una pantalla de muestra.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Oshini!\n\nCasino lobbies, betting slips and gaming dashboards depend on how fast a player finds the next action, so that is where I'd focus your UI/UX.\nI'm Leo, creative director at LeoVisual.nl. My closest work is a series of scroll-driven 3D websites I designed and built:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nMy process: user flows and wireframes, then high-fidelity screens and a clickable prototype in Figma, plus a small design system your developers can reuse.\nBefore you pay anything, I'll send you one high-fidelity mobile sports betting screen based on your brief.\nPrice: 1000 USD, 50% upfront, 2–3 weeks, 2 rounds of revisions.\nWhich comes first: the casino side, sports betting or the dashboard?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "2–3 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 735,
+          "salida": 1514,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.057555,
+        "generada": "2026-11-26T04:25:36.002Z"
+      }
+    },
     {
       "id": "575559",
       "tipo": "FREELANCE",
@@ -3402,47 +3441,6 @@
         },
         "costeUSD": 0.0439654,
         "generada": "2026-11-23T15:51:42.706Z"
-      }
-    },
-    {
-      "id": "574303",
-      "tipo": "FREELANCE",
-      "titulo": "Design de Social Media para Marcas do Setor Imobiliário",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574303/Design-de-Social-Media-para-Marcas-do-Setor-Imobiliario",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "IncorApp",
-      "contacto": "Gabriel Oliveira",
-      "solicitantes": 2,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Estou procurando um designer de social media para criar posts, carrosséis e stories para marcas do setor imobiliário. O trabalho deve produzir peças visuais adequadas à comunicação dessas marcas nas redes sociais.\n– Posts para redes sociais de marcas imobiliárias\n– Carrosséis para redes sociais\n– Stories para redes sociais\nDesigner com experiência em criação de conteúdo para redes sociais.\nRemuneração: R$ 5.500/mês. Trabalho remoto. Início: 25/11. Pagamos 50% na assinatura do contrato. Interessados, chamem no WhatsApp: (11) 98611-9314.",
-      "vista": "2026-11-23T15:52:34.664Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Diseño de posts, carruseles y stories para redes de inmobiliarias, remoto y dentro de sus servicios; se ofrece una muestra porque aún no tiene proyecto de redes.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Gabriel!\nReal estate brands need posts, carousels and stories that make a property feel desirable in one scroll, with a consistent look in every feed.\nI'm Leo, creative director at LeoVisual.nl.\nBefore you pay anything, I'll send you one sample carousel and one story for one of your brands.\nHow I'd work: a visual system per brand (grid, type, colours), templates for posts, carousels and stories, then weekly batches ready to publish.\nThe R$ 5,500/month you mention works for me, with 50% at contract signing, 2 rounds of changes per batch, starting on 25/11 with the first batch within 7 days.\nHow many brands would I handle, and how many pieces per month for each?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "Inicio el 25/11, primer lote en 7 días y después entregas semanales",
-        "pregunta": "",
-        "avisos": [
-          "la carta no lleva el precio"
-        ],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 619,
-          "salida": 2082,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0450894,
-        "generada": "2026-11-23T15:52:03.213Z"
       }
     }
   ]
