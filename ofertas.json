@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-26T00:25:46.264Z",
+  "actualizado": "2026-11-26T00:37:46.096Z",
   "ofertas": [
+    {
+      "id": "575539",
+      "tipo": "FREELANCE",
+      "titulo": "Logo for travel business ",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575539/Logo-for-travel-business-",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Erick Amick",
+      "solicitantes": 5,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Hi, I'm looking for some basic logo design and brand identity design for a travel advising service. The designs will be used on print materials and a basic website.",
+      "vista": "2026-11-26T00:37:46.096Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo e identidad para una agencia de viajes: Leo solo tiene un proyecto de branding conceptual, así que se envía con una muestra previa y buen presupuesto.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Erick,\n\nYour travel advising service needs a logo that feels trustworthy and works both on print materials and a simple website.\nI'm Leo, creative director at LeoVisual.nl. Closest example, a concept identity I designed (logo, palette, packaging):\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nBefore you pay anything, I'll send you one logo direction mocked up on a business card and your website header.\nPlan: short brief, 3 logo directions, then colours, type and a one-page brand guide.\n500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nDo you already have a business name and a feeling you want to share, like luxury, adventure or family travel?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 432,
+          "salida": 1165,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.049363,
+        "generada": "2026-11-26T00:37:44.800Z"
+      }
+    },
     {
       "id": "575537",
       "tipo": "FREELANCE",
@@ -3406,26 +3445,6 @@
         },
         "costeUSD": 0.0506334,
         "generada": "2026-11-23T15:52:33.652Z"
-      }
-    },
-    {
-      "id": "372755",
-      "tipo": "FULLTIME",
-      "titulo": "Content Creator (On camera) Dubai",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372755/Content-Creator-(On-camera)-Dubai",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-23T15:02:51.876Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
       }
     }
   ]
