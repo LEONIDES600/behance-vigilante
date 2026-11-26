@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-26T08:26:03.974Z",
+  "actualizado": "2026-11-26T08:39:55.003Z",
   "ofertas": [
+    {
+      "id": "373203",
+      "tipo": "FULLTIME",
+      "titulo": "Creative Technologist de IA Generativa",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/373203/Creative-Technologist-de-IA-Generativa",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-26T08:39:55.003Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "373201",
+      "tipo": "FULLTIME",
+      "titulo": "Designer Senior de IA Generativa Video Apresentacoes e Web",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/373201/Designer-Senior-de-IA-Generativa-Video-Apresentacoes-e-Web",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-26T08:39:55.003Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "575655",
       "tipo": "FREELANCE",
@@ -3351,84 +3391,6 @@
       "carta": {
         "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
         "sinDescripcion": true
-      }
-    },
-    {
-      "id": "574445",
-      "tipo": "FREELANCE",
-      "titulo": "TIME100-Style Magazine Print And Digital Production Specifications",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574445/TIME100-Style-Magazine-Print-And-Digital-Production-Specifications",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "La Mehr",
-      "contacto": "Ehsan M",
-      "solicitantes": 1,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a magazine designed to match the TIME100 Special Issue aesthetic for print and digital production. The publication must use an 8 × 10 inch trim size, perfect binding, white 70 lb (104 gsm) coated or matte interior stock, and a gloss or matte laminated cover. The page count must be even, and spine text can only be included when the final publication is at least 48 pages.\n– Print-ready magazine layout at 8 × 10 inches with an even page count\n– Digital version of the completed magazine\n– Perfect-bound cover design with optional spine text for publications of 48 pages or more\nTIME100 Special Issue-inspired editorial design: structured grid layouts, bold serif and sans-serif typographic hierarchy, full-bleed photography, and a framed cover border.\nThe trim size is intended to closely match IngramSpark/Amazon POD requirements while approximating TIME100’s 8 × 10.5 inch offset format.\n2. PRINT EDITION DELIVERABLES (INGRAMSPARK / AMAZON KDP)\nPlease deliver two separate print-ready PDFs exported as PDF/X-1a:2001 or PDF/X-3:2002:\n• File A: Interior Print PDF\n • Page Setup: Export as single pages (1, 2, 3...) — do NOT export as two-page spreads.\n • Bleed: Add 0.125\" (3 mm) bleed to the Top, Bottom, and Outside edges ONLY (0\" bleed on the inside spine/gutter edge).\n • Final Exported Page Size (with bleed): 8.125\" × 10.25\".\n • Safe Margins: Keep all body text, folios/page numbers, and non-bleed graphics at least 0.5\" (13 mm) inside the trim edge (0.625\" on the inside gutter recomme",
-      "vista": "2026-11-23T20:25:32.059Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "El requisito principal es arte final de imprenta muy técnico (PDF/X-1a, tinta máxima 240 %, plantilla de IngramSpark) y además un EPUB 3 de maquetación fija para una revista entera, todo por 100–250 USD.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "2–4 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1751,
-          "salida": 566,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.042659,
-        "generada": "2026-11-23T20:25:30.898Z"
-      }
-    },
-    {
-      "id": "574435",
-      "tipo": "FREELANCE",
-      "titulo": "Graphic Design for a Jiu-Jitsu Rashguard Clothing Company",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574435/Graphic-Design-for-a-Jiu-Jitsu-Rashguard-Clothing-Company",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Kichi Poo",
-      "solicitantes": 1,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a graphic artist to bring my creative vision to life for a Jiu-Jitsu rashguard clothing company. The work will focus on creating apparel graphics suited to rashguard designs.\n– Custom graphic artwork for Jiu-Jitsu rashguards\n– Production-ready apparel design files\nA graphic artist with apparel design experience is sought.\nThe designs are intended for a Jiu-Jitsu clothing brand.",
-      "vista": "2026-11-23T19:26:29.697Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Gráficos para rashguards de una marca de Jiu-Jitsu: Leo puede hacerlos, pero no tiene proyecto de diseño de prendas, así que la carta ofrece una muestra antes de cobrar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Kichi!\n\nRashguard graphics need to read strong from a distance on the mats and still wrap cleanly around sleeves, panels and seams, so I'd design with the full garment template in mind from the start.\nBefore you pay anything, I'll send you one graphic direction mocked up on a rashguard front, back and sleeves.\nHow I'd work: 1) short call on your vision and references, 2) 2–3 concepts, 3) refine the chosen one, 4) deliver production-ready files sized to your manufacturer's template.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nPrice: 500 USD, 50% upfront, delivery in 7–10 days, 2 rounds of revisions.\nDoes your manufacturer print with full sublimation, and do you already have their rashguard template?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 537,
-          "salida": 1411,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.054703,
-        "generada": "2026-11-23T19:26:27.973Z"
       }
     }
   ]
