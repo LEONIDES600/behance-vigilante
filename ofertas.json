@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-26T18:02:47.748Z",
+  "actualizado": "2026-11-26T19:17:28.892Z",
   "ofertas": [
+    {
+      "id": "296395",
+      "tipo": "FULLTIME",
+      "titulo": "Video EditorMotion Design Artist",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/296395/Video-EditorMotion-Design-Artist",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-26T19:17:28.892Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "575873",
       "tipo": "FREELANCE",
@@ -3295,45 +3315,6 @@
         },
         "costeUSD": 0.069127,
         "generada": "2026-11-24T14:37:24.947Z"
-      }
-    },
-    {
-      "id": "574789",
-      "tipo": "FREELANCE",
-      "titulo": "Senior Graphic Designer for UI/UX Design",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574789/Senior-Graphic-Designer-for-UIUX-Design",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Staffluent",
-      "contacto": "Jonas Wang",
-      "solicitantes": 3,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "- Company: Staffluent \n- Employment Type: Full-Time \n- Workplace: Remote \nSalary: $3,000–$6,000 USD per month\nAbout Staffluent\nAt Staffluent, we believe great design goes beyond aesthetics. It is about creating meaningful experiences, communicating ideas clearly, and building memorable brand identities.\nWe are looking for a talented and creative Senior Graphic Designer with strong expertise in UI/UX design and branding to join our remote team.\nThe ideal candidate is passionate about visual storytelling, understands modern design principles, and can transform creative concepts into polished, professional designs across digital platforms.\n2. Job Overview\nAs a Senior Graphic Designer, you will be responsible for developing visually compelling designs, creating intuitive user experiences, and maintaining consistent brand identities across various digital and marketing materials.\nYou will work on a variety of creative projects, from brand development and marketing campaigns to website interfaces and digital product experiences.\nWe are looking for someone who combines creativity with strategic thinking and has a strong eye for detail.\n3. Key Responsibilities\nGraphic Design\n- Create high-quality graphics for digital platforms, websites, social media, and marketing campaigns.\n- Develop engaging visual concepts, layouts, illustrations, and creative assets.\n- Design marketing materials, presentations, banners, and promotional content.\n- Maintain visual consistency and high design stand",
-      "vista": "2026-11-24T14:25:46.123Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Parece una trampa: pide contactar por un enlace externo de calendario, mezcla encargo con puesto fijo y busca un perfil senior de UI/UX y branding que no es el núcleo de Leo.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "2–4 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1807,
-          "salida": 588,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.043323,
-        "generada": "2026-11-24T14:25:44.526Z"
       }
     }
   ]
