@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-26T16:30:43.746Z",
+  "actualizado": "2026-11-26T18:33:55.709Z",
   "ofertas": [
+    {
+      "id": "eduneo/jobs/animateur-2d-mouvement-personnage-et-after-effects-h-f-freelance",
+      "tipo": "CONTRACTOR",
+      "titulo": "Animateur 2D — Mouvement personnage et After Effects H/F (Freelance)",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/eduneo/jobs/animateur-2d-mouvement-personnage-et-after-effects-h-f-freelance?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "France",
+      "empresa": "Eduneo",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "L’école d’art appliqué EDAA, établissement privé d’enseignement à distance, crée une nouvelle formation complète en motion design.\n Notre ambition : permettre aux élèves de comprendre les principes du mouvement et de les appliquer à des productions graphiques et à des personnages animés, grâce à des exemples concrets et à des démonstrations progressives.\n Nous recherchons un animateur ou une animatrice 2D pour créer les animations de référence de la formation et transmettre sa pratique d’After Effects et de l’animation de personnage.\n 🚀 Vos missions\n En collaboration avec le coordinateur pédagogique, vous concevez les exemples et les exercices qui permettront aux élèves de comprendre, de reproduire et d’analyser un mouvement.\n Vous serez chargé de :\n Créer des exemples animés illustrant l",
+      "vista": "2026-11-26T18:33:55.709Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden grabar demostraciones con voz y redactar análisis para una escuela francesa (francés obligatorio de hecho), además de animación de personajes con Duik y docencia, que Leo no tiene confirmadas.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1747,
+          "salida": 534,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.042003,
+        "generada": "2026-11-26T18:33:54.929Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "telus-international-ai-inc/jobs/selfies-japan",
       "tipo": "PART_TIME",
@@ -3942,46 +3982,6 @@
         },
         "costeUSD": 0.0132534,
         "generada": "2026-11-20T18:50:18.346Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "remotejobsone/jobs/ai-trainer-life-sciences-remote-worldwide",
-      "tipo": "CONTRACTOR",
-      "titulo": "AI Trainer (Life Sciences) – Remote (Worldwide)",
-      "presupuesto": "60–120 USD/h",
-      "enlace": "https://himalayas.app/companies/remotejobsone/jobs/ai-trainer-life-sciences-remote-worldwide?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Canada, France, Germany, India, Netherlands, South Africa, United Kingdom, United States",
-      "empresa": "RemoteJobsOne",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "IMPORTANT: after you apply, please check your email. We sendyou a link to complete your application — it is not considered until that laststep is done. If you do not see it, check your spam folder.\n This is a fully remote position , open to candidates based in 55 countries, including South Africa, United States, United Kingdom, Canada, Germany, India, France, Netherlands.\n Pay: $60–$120/hr\n Pay: $60–$120/hour equivalent, paid per accepted task\n Location: Global, fully remote\n Job Type: Contractor\n Time Commitment: 15+ hours per week\n Schedule: Flexible\n the company is looking for Computational Life Scientists with prior professional AI-training or model-evaluation experience to support a project focused on improving advanced AI systems.\n You will use your scientific expertise and programmi",
-      "vista": "2026-11-20T18:50:23.170Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden un científico computacional de ciencias de la vida con Python avanzado, publicaciones y experiencia pagada entrenando IA; no tiene nada que ver con el perfil creativo de Leo.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1506,
-          "salida": 312,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0132374,
-        "generada": "2026-11-20T18:50:22.249Z"
       },
       "fuente": "himalayas"
     }
