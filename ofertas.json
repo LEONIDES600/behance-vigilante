@@ -1,6 +1,84 @@
 {
-  "actualizado": "2026-11-26T06:25:48.158Z",
+  "actualizado": "2026-11-26T07:26:26.604Z",
   "ofertas": [
+    {
+      "id": "575637",
+      "tipo": "FREELANCE",
+      "titulo": "logo and branding for new startup",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575637/logo-and-branding-for-new-startup",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "HEK VENTUREs",
+      "contacto": "hassan el khatib",
+      "solicitantes": 6,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Hello,\nI'm launching NUVO, a premium food spreads brand based in Dubai.\nI'm looking for a freelance graphic designer to develop our complete brand identity, including:\n- Professional logo and brand guidelines\n- Packaging labels for four 250 g spread jars\n- Lid sticker design\n- Branded shopping bag design\n- Print-ready files and editable source files\nOur products include pistachio protein, hazelnut protein, peanut butter and coconut spread.\nWe want a modern, premium and distinctive identity that can also work for future product categories.\nCould you please share your portfolio, quotation, expected timeline and number of revisions included?\nThank you.",
+      "vista": "2026-11-26T07:26:26.603Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding y packaging completos para una marca de cremas: encaja, pero solo hay un proyecto de concepto, así que se ofrece una muestra antes de pagar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Hassan,\nNUVO needs one premium system that works across four very different jars, from pistachio protein to coconut spread, and grows into future categories.\nI'm Leo, creative director at LeoVisual.nl. Closest example, a concept identity I designed with packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy plan: logo directions, then guidelines, then the four 250 g labels, lid sticker and shopping bag, print-ready plus editable source files.\nBefore you pay anything, I'll send one logo direction mocked up on your pistachio protein jar.\nQuote: 1000 USD, 50% upfront, 7–10 days, 2 rounds of revisions.\nDo you already have the exact jar and lid dimensions?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 622,
+          "salida": 1956,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.065943,
+        "generada": "2026-11-26T07:26:07.125Z"
+      }
+    },
+    {
+      "id": "575635",
+      "tipo": "FREELANCE",
+      "titulo": "Graphic and Editorial Design Expert (AI Training)",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575635/Graphic-and-Editorial-Design-Expert-(AI-Training)",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "AI Design Training Project",
+      "contacto": "instinct pura",
+      "solicitantes": 4,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are looking for experienced Graphic and Editorial Design Experts to evaluate graphic designs, editorial layouts, visual communication, and design quality for AI training projects. This is a remote, worldwide independent contractor role paying $50–$105/hour.\nRequired Skills:\n• Graphic Design, Editorial & Layout Design\n• Adobe InDesign, Photoshop, Figma\n• Visual Hierarchy & Typography, Attention to Detail\nResponsibilities:\n• Review graphic designs, posters, covers, page layouts, and brand materials\n• Evaluate visual hierarchy, spacing, typography, color, and composition\n• Compare design options and identify the strongest based on the brief and target audience\n• Assess readability, consistency, and overall visual communication\n• Identify production issues (resolution, margins, formatting, print readiness)\n• Evaluate alignment with brand guidelines and project requirements\n• Provide clear written feedback explaining design strengths, weaknesses, and recommendations\nIdeal Candidate:\n• Professional experience as a graphic designer, editorial designer, publication designer, layout designer, art director, or brand designer\n• Experience with real client projects, publications, or commercial design assignments\n• Proficiency with Adobe InDesign, Photoshop, Illustrator, or Figma\n• Strong understanding of typography, composition, visual storytelling, and design principles\n• Ability to communicate design judgments clearly in written English\nThis is for AI training and evaluation project",
+      "vista": "2026-11-26T07:26:26.604Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Evaluar diseños para entrenar IA puede hacerlo como director creativo, pero no tiene piezas editoriales ni InDesign confirmado, así que se ofrece una revisión de muestra.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nJudging layouts on hierarchy, typography, spacing and print readiness, and explaining why one option beats another for its audience, is how I work as creative director at LeoVisual.nl.\nA concept identity I designed, with packaging and brand rules:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy process: read the brief and audience, check each design against it, flag production issues (resolution, margins, bleed) and write a structured review with strengths, weaknesses and fixes. I use AI tools every day, so I know where generated designs often fail.\nBefore you pay anything, I'll send you one written review of a layout you choose.\n5,000 USD, 50% upfront, first batch in 2–4 weeks, 2 rounds of changes.\nWhich review format and weekly volume do you expect?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1090,
+          "salida": 1757,
+          "cacheLeida": 4867,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0404734,
+        "generada": "2026-11-26T07:26:24.977Z"
+      }
+    },
     {
       "id": "575613",
       "tipo": "FREELANCE",
@@ -3355,88 +3433,6 @@
         },
         "costeUSD": 0.058367,
         "generada": "2026-11-23T16:02:03.486Z"
-      }
-    },
-    {
-      "id": "574323",
-      "tipo": "FREELANCE",
-      "titulo": "Criação de Landing Pages para Lançamentos Imobiliários",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574323/Criacao-de-Landing-Pages-para-Lancamentos-Imobiliarios",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "IncorApp",
-      "contacto": "Gabriel Oliveira",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Preciso de um web designer para criar landing pages de lançamentos imobiliários no Figma e desenvolvê-las em Webflow, Framer ou WordPress. As páginas devem apresentar os empreendimentos de forma clara e atrativa, prontas para publicação.\nRemuneração: R$ 7.000 por projeto. Trabalho remoto. Início: 25/11. Pagamos 50% na assinatura do contrato. Interessados, chamem no WhatsApp: (11) 98611-9314.\n– Design de landing pages para lançamentos imobiliários no Figma\n– Landing pages responsivas desenvolvidas em Webflow, Framer ou WordPress e prontas para publicação\nProfissional com experiência em design de landing pages e implementação em Figma, Webflow, Framer ou WordPress.\nAs landing pages serão destinadas à divulgação de lançamentos imobiliários.",
-      "vista": "2026-11-23T15:52:34.664Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Landing pages inmobiliarias en Figma + WordPress encajan con sus webs; el cliente paga R$ 7.000 por proyecto (unos 1.300 USD), dentro del rango.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Gabriel,\nA real estate launch needs a landing page that presents the development clearly and makes buyers want to know more, ready to publish from day one.\nI'm Leo, creative director at LeoVisual.nl. My closest example, an interactive off-plan website:\nhttps://www.behance.net/gallery/258576079/See-It-Before-Its-Built-Interactive-Off-Plan-Website\nHow I'd do it: desktop and mobile layout in Figma for your approval, then a responsive build in WordPress with renders, floor plans, location and a clear lead form.\nYour R$ 7,000 per project works for me: 50% upfront at contract signing, 7–10 days per landing page and 2 rounds of changes. I can start on 25/11.\nHow many launches do you want to cover first, and do you already have renders and floor plans for them?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1300,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [
-          "la carta no lleva el precio"
-        ],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 712,
-          "salida": 1787,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.062923,
-        "generada": "2026-11-23T15:50:01.851Z"
-      }
-    },
-    {
-      "id": "574321",
-      "tipo": "FREELANCE",
-      "titulo": "Identidade Visual Para Empreendimentos Imobiliários",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574321/Identidade-Visual-Para-Empreendimentos-Imobiliarios",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "IncorApp",
-      "contacto": "Gabriel Oliveira",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Preciso de um designer de identidade visual para desenvolver a marca de empreendimentos imobiliários. O projeto inclui a criação de logo, paleta de cores e manual de marca.\nRemuneração: R$ 7.500 por projeto. Trabalho remoto. Início: 25/11. Pagamos 50% na assinatura do contrato. Interessados, chamem no WhatsApp: (11) 98611-9314.\n– Logo para os empreendimentos imobiliários\n– Paleta de cores da marca\n– Manual de marca com diretrizes de aplicação",
-      "vista": "2026-11-23T15:52:34.664Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Identidad visual inmobiliaria: Leo no tiene esa pieza exacta, así que se envía ofreciendo una muestra antes de pagar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Gabriel!\nYour real estate developments need a logo that works on site banners, brochures and sales pages, plus a palette and brand manual that keep every launch consistent.\nI'm Leo, creative director at LeoVisual.nl. A concept identity I designed (logo, palette, applications):\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy steps: short brief, 2–3 logo directions, colour palette, then a brand manual with clear application rules.\nBefore you pay anything, I'll send you one logo direction mocked up on a construction site banner.\nR$ 7,500 as you proposed, 50% upfront, 7–10 days from 25/11, 2 rounds of changes.\nDo you need one umbrella brand for all developments or a logo per project?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [
-          "la carta no lleva el precio"
-        ],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 593,
-          "salida": 1888,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0411054,
-        "generada": "2026-11-23T15:50:20.251Z"
       }
     }
   ]
