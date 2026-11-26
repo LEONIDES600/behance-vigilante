@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-26T14:48:52.286Z",
+  "actualizado": "2026-11-26T15:12:38.253Z",
   "ofertas": [
+    {
+      "id": "575825",
+      "tipo": "FREELANCE",
+      "titulo": "Amazon-Produktbilder Und A+-Content-Design",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575825/Amazon-Produktbilder-Und-A-Content-Design",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Arthur Eichholz",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Ich benötige Produktbilder für ein Amazon-Listing sowie grafische Inhalte für den A+-Bereich. Die Gestaltung soll die Produkte klar und verkaufsstark für Amazon präsentieren.\n– Produktbilder für das Amazon-Listing\n– Grafische Inhalte für Amazon A+ Content\nDie Designs werden für ein Amazon-Produktlisting und dessen A+-Bereich benötigt.",
+      "vista": "2026-11-26T15:12:38.253Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Imágenes de listing y A+ de Amazon encajan con sus servicios y tiene un proyecto parecido; el presupuesto es bajo pero aceptable.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Arthur,\nYour listing needs product images that sell clearly at a glance, plus A+ graphics that carry the same look further down the page.\nI'm Leo, creative director at LeoVisual.nl. Closest work:\nhttps://www.behance.net/gallery/251447375/Premium-Amazon-Listing-Design-for-Living-Logic\nI've also made listing images and A+ content for a home brand selling on Amazon in several European countries.\nPlan: review your product and competitors, set one visual style, then deliver the listing images and A+ modules in Amazon's sizes.\n250 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich product is it, and do you already have photos or 3D files of it?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 563,
+          "salida": 1223,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.051047,
+        "generada": "2026-11-26T15:12:37.208Z"
+      }
+    },
     {
       "id": "575815",
       "tipo": "FREELANCE",
@@ -3295,41 +3334,6 @@
         },
         "costeUSD": 0.035619,
         "generada": "2026-11-24T12:26:22.242Z"
-      }
-    },
-    {
-      "id": "574735",
-      "tipo": "FREELANCE",
-      "titulo": "Graphic & Web Designer Opportunity",
-      "presupuesto": "5000–10.000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574735/Graphic-Web-Designer-Opportunity",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Deltek, Inc.",
-      "contacto": "Jose Anderson",
-      "solicitantes": 21,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Deltek, Inc. is looking for talented freelance Graphic and Web Designers to support a variety of creative and digital projects. We welcome professionals with experience in website design, UI/UX, graphic design, branding, and digital content creation.\nWe are interested in working with creative individuals who have strong portfolios, excellent design skills, attention to detail, and the ability to deliver high-quality results. This opportunity offers flexible, project-based work with the potential for ongoing collaboration.\n**Work Authorization:** Are you currently authorized to work in the United States as a U.S. citizen, Green Card holder, or valid work visa holder?\n**Interested in learning more?** Schedule a brief introductory call at a time that works for you:\nhttps://calendly.com/deltek-intro-call/30min?month=2026-11\nDepending on the project, expected deliverables may include:\n- Website designs, landing pages, and responsive layouts.\n- UI/UX designs, wireframes, prototypes, and user flows.\n- Logos, branding materials, and visual identity assets.\n- Digital graphics, banners, and marketing materials.\n- Social media visuals and promotional designs.\n- Editable source files using Figma, Adobe Photoshop, Illustrator, or other relevant tools.\n- Final exports in PNG, JPG, SVG, PDF, or other agreed formats.\n- Multiple design concepts, variations, and revisions based on feedback.\n- Well-organized design files and assets ready for handoff or development.\nAll deliverables should meet ",
-      "vista": "2026-11-24T12:26:36.206Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "ubicación: exige vivir fuera de la UE («united states citizen»)",
-        "filtro": "ubicacion",
-        "categoria": "",
-        "idioma": "",
-        "carga": "",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "filtro previo (sin API)",
-        "tokens": null,
-        "costeUSD": 0,
-        "generada": "2026-11-24T12:26:22.683Z"
       }
     }
   ]
