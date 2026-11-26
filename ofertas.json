@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-26T12:42:31.779Z",
+  "actualizado": "2026-11-26T12:56:29.461Z",
   "ofertas": [
+    {
+      "id": "373291",
+      "tipo": "FULLTIME",
+      "titulo": "AI Music Composer Intern",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/373291/AI-Music-Composer-Intern",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-26T12:56:29.461Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "373285",
+      "tipo": "FULLTIME",
+      "titulo": "Anime Content Creator Intern",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/373285/Anime-Content-Creator-Intern",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-26T12:56:29.461Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "575755",
       "tipo": "FREELANCE",
@@ -3290,84 +3330,6 @@
         },
         "costeUSD": 0.065903,
         "generada": "2026-11-24T10:37:30.297Z"
-      }
-    },
-    {
-      "id": "574683",
-      "tipo": "FREELANCE",
-      "titulo": "Branding and Brand Guidelines Design",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574683/Branding-and-Brand-Guidelines-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Equiti Group",
-      "contacto": "Al Lotter",
-      "solicitantes": 11,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a designer to create branding and comprehensive brand guidelines for a multi-national fintech brand. The work should establish a cohesive visual identity and document how it should be applied consistently.\n– Core brand identity system\n– Brand guidelines document covering consistent visual identity usage",
-      "vista": "2026-11-24T10:37:43.949Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Branding y guía de marca para fintech: Leo puede hacerlo, pero solo tiene una identidad conceptual como prueba, así que se ofrece una muestra antes de cobrar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Al!\n\nA multi-national fintech brand needs an identity that feels consistent in every market, and guidelines clear enough for any team to apply it.\n\nA concept identity I designed, from logo to system and applications:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\n\nMy approach: brand direction, logo and core system (colour, type, grid, iconography), then a guidelines document with usage rules and examples. Before you pay anything, I'll send you one logo direction for Equiti mocked up on an app screen and a business card.\n\n5000 USD, 50% upfront, 7–10 days, 2 rounds of changes.\n\nWhich markets and touchpoints (app, web, print) should the guidelines cover first?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 488,
-          "salida": 1350,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0299254,
-        "generada": "2026-11-24T10:37:42.932Z"
-      }
-    },
-    {
-      "id": "574637",
-      "tipo": "FREELANCE",
-      "titulo": "Création D’une Bannière YouTube Et D’un Logo horrifique/paranormal",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574637/Cration-Dune-Banniere-YouTube-Et-Dun-Logo-horrifiqueparanormal",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Souvenirs 33",
-      "solicitantes": 1,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Je recherche un graphiste pour créer une bannière YouTube et un logo cohérents pour ma chaîne. Les visuels doivent être adaptés à une utilisation sur YouTube et refléter une identité de marque unifiée.\n– Logo personnalisé utilisable sur la chaîne YouTube\n– Bannière YouTube adaptée aux dimensions de la plateforme",
-      "vista": "2026-11-24T08:37:58.925Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Logo y banner de YouTube para un canal de terror: Leo lo puede hacer, pero no tiene un logo igual en el portfolio, así que se ofrece una muestra antes de cobrar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi!\nYour horror/paranormal channel needs a logo and a banner that feel like one identity, readable at small sizes and inside YouTube's safe area.\nThe closest piece is a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd do it: 2–3 logo directions (dark type, symbol, eerie textures), refine the one you choose, then build the 2560x1440 banner around it and test it on desktop, mobile and TV.\nBefore you pay anything, I'll send you one logo direction mocked up on your channel header.\n250 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhat is the channel name, and do you prefer a vintage occult look or a modern found-footage style?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 533,
-          "salida": 1464,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.055747,
-        "generada": "2026-11-24T08:37:47.469Z"
       }
     }
   ]
