@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-26T05:26:03.957Z",
+  "actualizado": "2026-11-26T06:25:48.158Z",
   "ofertas": [
+    {
+      "id": "575613",
+      "tipo": "FREELANCE",
+      "titulo": "Quirky Modern Branding and Social Media Design for Fleegood Lifestyle Brand",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575613/Quirky-Modern-Branding-and-Social-Media-Design-for-Fleegood-Lifestyle-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "fleegood",
+      "contacto": "Abe m",
+      "solicitantes": 13,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We’re launching Fleegood, a lifestyle brand focused on helping people spend more time offline. We need a quirky, relaxed, modern visual identity and a strong social media presence for Fleegood.com, with branding that supports our six product categories: Unwind, Read, Create, Reflect, Together, and Play.\n– Brand identity direction for Fleegood, including a logo and visual system\n– Distinct visual treatment for the six categories: Unwind, Read, Create, Reflect, Together, and Play\n– Social media content templates designed to build a strong, consistent presence\n– Editable brand assets suitable for use across Fleegood.com and social platforms\nA designer with experience creating distinctive lifestyle brand identities and engaging social media visuals.\nQuirky, relaxed, and modern.\nThe brand name is a play on “feel good.” Product offerings include candles, books, craft kits, journals, family activities, puzzles, board games, and related offline leisure products.",
+      "vista": "2026-11-26T06:25:48.158Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding e identidad completa más plantillas para redes; encaja, pero no hay proyecto real de branding, así que se ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Abe,\nLove the \"feel good\" play in Fleegood, and six categories from Unwind to Play give a quirky identity a lot to work with.\nI'm Leo, creative director at LeoVisual.nl. Closest piece, a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy plan: logo and core system first, then a colour and icon treatment for each category, then editable social templates for posts and stories, plus brand assets for Fleegood.com.\nBefore you pay anything, I'll send you one logo direction with the Read and Play treatments as a quick preview.\n500 USD, 50% upfront, 7–10 days, 2 rounds of revisions.\nWhich platform matters most at launch, Instagram or TikTok?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 722,
+          "salida": 1222,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.051663,
+        "generada": "2026-11-26T06:25:47.134Z"
+      }
+    },
     {
       "id": "575603",
       "tipo": "FREELANCE",
@@ -3398,47 +3437,6 @@
         },
         "costeUSD": 0.0411054,
         "generada": "2026-11-23T15:50:20.251Z"
-      }
-    },
-    {
-      "id": "574315",
-      "tipo": "FREELANCE",
-      "titulo": "Criação de Criativos para Meta Ads no Setor Imobiliário",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574315/Criacao-de-Criativos-para-Meta-Ads-no-Setor-Imobiliario",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "IncorApp",
-      "contacto": "Gabriel Oliveira",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Preciso de um designer de criativos para desenvolver anúncios estáticos e em vídeo para campanhas de tráfego pago no Meta Ads, voltadas ao setor imobiliário.\n– Criativos estáticos para campanhas de Meta Ads no setor imobiliário\n– Anúncios em vídeo prontos para veiculação em campanhas de tráfego pago\nExperiência na criação de peças publicitárias de performance para Meta Ads e para o mercado imobiliário.\nRemuneração: R$ 6.000/mês. Trabalho remoto. Início: 25/11. Pagamos 50% na assinatura do contrato. Interessados, chamem no WhatsApp: (11) 98611-9314.",
-      "vista": "2026-11-23T15:52:34.664Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Anuncios estáticos y en vídeo de rendimiento para Meta Ads de inmobiliaria: encaja con sus servicios y tiene proyecto inmobiliario y de campaña.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Gabriel,\n\nReal estate ads on Meta have to stop the scroll fast and make the property feel real, in both static and video.\nI'm Leo, creative director at LeoVisual.nl. Closest work, real estate and campaign:\nhttps://www.behance.net/gallery/258576079/See-It-Before-Its-Built-Interactive-Off-Plan-Website\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I'd work: hooks per audience, static sets in feed and story formats, and 15–30s videos with captions, ready to run.\nTerms: R$ 6,000/month as you propose, 50% upfront at signing, first batch 7–10 days after 25/11, 2 rounds of changes.\nWhich developments are you advertising first, and do you have renders or footage?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1100,
-        "anticipoPct": 50,
-        "plazo": "Trabajo continuo desde el 25/11; primer lote en 7–10 días",
-        "pregunta": "",
-        "avisos": [
-          "la carta no lleva el precio"
-        ],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 655,
-          "salida": 2678,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0571534,
-        "generada": "2026-11-23T15:50:47.283Z"
       }
     }
   ]
