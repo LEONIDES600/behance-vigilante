@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-26T08:39:55.003Z",
+  "actualizado": "2026-11-26T09:25:42.701Z",
   "ofertas": [
+    {
+      "id": "575683",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Design for a Korean Fragrance Brand Expanding Into Europe",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575683/Brand-Design-for-a-Korean-Fragrance-Brand-Expanding-Into-Europe",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "신 지은",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for a brand designer to create a distinctive brand identity for a Korean fragrance brand entering overseas European markets. The design should support a cohesive, market-ready presence for the brand.\n– Brand identity concept for the Korean fragrance brand\n- Brand colour guide\n- Text Logo\n- Image Logo\n- Package design \n– Core visual identity assets suitable for European market launch\nThe brand is Korean and intends to sell fragrances in Europe.",
+      "vista": "2026-11-26T09:25:42.701Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding y packaging de perfume: se puede entregar y está el concepto SESTEO como prueba, pero no hay ninguna marca real igual, así que se ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Ji-eun,\nA Korean fragrance brand entering Europe needs an identity that feels distinctive yet instantly readable on European shelves.\nI'm Leo, creative director at LeoVisual.nl. The closest example is a concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy approach: brand concept and moodboard, colour guide, text logo and image logo, then bottle and box packaging and core launch assets.\nBefore you pay anything, I'll send you one logo direction mocked up on a fragrance bottle and box.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, with 2 rounds of revisions.\nWhich scent family or mood should the brand express, and do you already have a brand name?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 548,
+          "salida": 1375,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.054027,
+        "generada": "2026-11-26T09:25:41.425Z"
+      }
+    },
     {
       "id": "373203",
       "tipo": "FULLTIME",
@@ -3371,26 +3410,6 @@
         },
         "costeUSD": 0.0173774,
         "generada": "2026-11-23T23:25:42.205Z"
-      }
-    },
-    {
-      "id": "574463",
-      "tipo": "FREELANCE",
-      "titulo": "Meme Culture Savvy Illustration and Graphic Design",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/freelance/574463/Meme-Culture-Savvy-Illustration-and-Graphic-Design",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-23T21:18:25.052Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
       }
     }
   ]
