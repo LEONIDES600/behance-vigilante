@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-26T13:38:49.239Z",
+  "actualizado": "2026-11-26T14:03:33.742Z",
   "ofertas": [
+    {
+      "id": "575807",
+      "tipo": "FREELANCE",
+      "titulo": "Luxury Minimal Product Catalog Design",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575807/Luxury-Minimal-Product-Catalog-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Adegboyega Ayodele AkinTundealabi",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need an editorial designer to create a professional 32-page product catalog for my brand. The catalog should organize product information clearly and use a polished, minimal layout with a luxury feel. Please include your rate for the 32-page catalog in your proposal.\n– Professionally designed 32-page product catalog\n– Clear product information layouts with a polished, luxury-focused visual presentation\n– Print-ready catalog artwork\nEditorial designer with experience creating professional product catalogs.\nPolished, minimal, and luxury-focused.\nApplicants must state their rate for designing the 32-page product catalog.",
+      "vista": "2026-11-26T14:03:33.742Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Catálogo editorial de 32 páginas: Leo puede hacerlo, pero no tiene pieza editorial en el portfolio, así que la carta ofrece una doble página de muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Adegboyega,\n\nA 32-page catalog with a luxury feel depends on restraint: generous white space, one clear grid and product information that reads at a glance.\nI'm Leo Gómez, creative director at LeoVisual.nl.\nMy approach: set a master grid and type system, design 3-4 page templates (cover, category opener, product spread, specs), then lay out all 32 pages and export a print-ready PDF with bleed.\nBefore you pay anything, I'll send you one sample product spread using two of your products.\nRate: 250 USD for the full 32-page catalog, 50% upfront, delivery in 7-10 days, 2 rounds of revisions.\nHow many products will the catalog feature, and are the photos and copy already ready?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 580,
+          "salida": 1241,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.051475,
+        "generada": "2026-11-26T14:03:32.683Z"
+      }
+    },
     {
       "id": "575785",
       "tipo": "FREELANCE",
@@ -3291,45 +3330,6 @@
         },
         "costeUSD": 0.055355,
         "generada": "2026-11-24T11:25:32.338Z"
-      }
-    },
-    {
-      "id": "574693",
-      "tipo": "FREELANCE",
-      "titulo": "\tFreelance Illustrator for Two Luxury Perfume Bottle Labels",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574693/Freelance-Illustrator-for-Two-Luxury-Perfume-Bottle-Labels",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Ethan Donovan",
-      "solicitantes": 7,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m the founder of CHOISELLE PARFUMS, an independent fragrance house. I’m looking for a freelance illustrator to create two original artworks for the front labels of our first two 50 ml fragrances, Your Favourite Mistake and Sweet Victory.\nI admire how Memo Paris uses the artwork on each bottle to tell the fragrance’s story. I want to bring that idea to Choiselle through our own visual identity, blending Art Deco elegance with Symbolist storytelling. Each illustration should have a distinct mood, feel like it belongs to the same collection, and read clearly at bottle-label size.\nYour Favourite Mistake is about the pull of something you know you should walk away from. It should feel seductive, magnetic and a little dangerous.\nSweet Victory is about the moment years of sacrifice finally pay off. It should capture the quiet pride and relief of realising you’ve made it.\nI’ll share a mood board and fuller fragrance briefs. I’m interested in how you interpret each story through imagery. Traditional and digital illustration are welcome. Generative AI must not be used at any stage, including concept exploration, reference generation and final production.\n- Two original illustrations, one for each fragrance’s front bottle label.\n- Rough concept sketches for both fragrances so we can agree on the direction before final artwork.\n- Final artwork at the agreed label dimensions, supplied as print-ready files and editable source files.\nPlease share two or three relevant portfolio pieces and",
-      "vista": "2026-11-24T11:25:39.072Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "La oferta prohíbe la IA generativa en todas las fases, también en los conceptos y la producción final, y pide ilustración original.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 937,
-          "salida": 423,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0131814,
-        "generada": "2026-11-24T11:25:37.887Z"
       }
     }
   ]
