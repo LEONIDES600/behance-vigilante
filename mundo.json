@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-25T22:07:56.655Z",
+  "actualizado": "2026-11-26T00:11:42.787Z",
   "ofertas": [
+    {
+      "id": "welyk/jobs/growth-performance-marketing-manager-numen-ai",
+      "tipo": "FULL_TIME",
+      "titulo": "Growth & Performance Marketing Manager | Numen AI",
+      "presupuesto": "50.000–70.000 EUR/año",
+      "enlace": "https://himalayas.app/companies/welyk/jobs/growth-performance-marketing-manager-numen-ai?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Italy",
+      "empresa": "Welyk",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "🎯 Meta Ads, Google Ads, workflow AI \n6+anni di esperienza \nRAL 50-70k \n🏠 Full remote (Italia), 1 giorno/mese a Milano\n 🏢 Sull'aziendaSiamo alla ricerca di un/una Marketer AI pernumen, una startup italiana che sta costruendo un assistente fiscale conversazionale rivolto a partite IVA in regime forfettario: freelance, consulenti, liberi professionisti. \nQuesta è la prima figura marketing dell'azienda, ma non lavorerà isolata: fa parte di un gruppo più ampio dove esiste già un piccolo nucleo di persone che si occupano di marketing, con cui potrà confrontarsi e scambiare pratiche. \n Cosa farai \n Progettare e gestire end-to-end le campagne performance su Meta Ads e Google Ads, con focus iniziale su un segmento B2C ad alto intento: struttura degli account, budget, copy, creatività, attribuzio",
+      "vista": "2026-11-26T00:11:42.787Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Se descarta: exige vivir en Italia con un día al mes presencial en Milán, 3-6 años de performance marketing y dominio de Meta Ads y Google Ads (ninguno está confirmado), y el puesto es en italiano.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1776,
+          "salida": 485,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.041139,
+        "generada": "2026-11-26T00:11:41.417Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "benrey/jobs/ansvarlig-for-sociale-medier-i-danmark",
       "tipo": "CONTRACTOR",
@@ -3934,46 +3974,6 @@
         },
         "costeUSD": 0.041773,
         "generada": "2026-11-19T22:33:40.633Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "redcare-pharmacy/jobs/ai-governance-specialist-m-f-d",
-      "tipo": "FULL_TIME",
-      "titulo": "AI Governance Specialist (m/f/d)",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/redcare-pharmacy/jobs/ai-governance-specialist-m-f-d?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Germany",
-      "empresa": "Redcare Pharmacy",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "About the role: \nAs an AI Governance Specialist in our Data & AI Governance team, you will help shape how Redcare Pharmacy governs AI systems across their full lifecycle, from intake and risk assessment to post-deployment controls and continuous improvement. You will contribute to one or more strategic focus areas within AI governance, from the governance of self-service Data & AI services to the governance of agentic AI use cases, always with a strong focus on responsible innovation, risk management and practical adoption across the business. \n About the tech stack: \nYou will work in a modern Data & AI environment where hands-on experience with Databricks and the Azure ecosystem is a plus. Coding skills are also valuable, especially when interacting at scale with our Data & AI Platform. \n",
-      "vista": "2026-11-19T22:33:46.208Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es un puesto de gobernanza y cumplimiento legal de IA (EU AI Act) que pide más de 3 años en ese campo y teletrabajo solo desde Alemania; no encaja con los servicios de Leo.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1392,
-          "salida": 417,
-          "cacheLeida": 4741,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0148562,
-        "generada": "2026-11-19T22:33:45.300Z"
       },
       "fuente": "himalayas"
     }
