@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-26T00:37:46.096Z",
+  "actualizado": "2026-11-26T02:26:01.741Z",
   "ofertas": [
+    {
+      "id": "575559",
+      "tipo": "FREELANCE",
+      "titulo": "Branding e Identidade Visual Completa para a Marca de Cookies Mordê",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575559/Branding-e-Identidade-Visual-Completa-para-a-Marca-de-Cookies-Morde",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Gustavo Paiuta",
+      "solicitantes": 3,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Estou procurando um profissional especializado em branding e identidade visual para desenvolver a identidade completa da Mordê, uma marca de cookies. Preciso receber portfólio, proposta de trabalho, entregáveis, prazo e orçamento. A marca deve ser jovem, criativa, moderna, marcante e autêntica, evitando uma estética genérica de confeitaria. A identidade precisa despertar desejo, comunicar a experiência diferenciada dos produtos e ser comercialmente atrativa. Tenho ideias de produtos, embalagens, estilos e posicionamento, mas quero um profissional que contribua criativamente, aprimore essas ideias e as transforme em uma marca profissional e coerente.\n– Conceito, posicionamento e personalidade da marca Mordê\n– Logotipo principal, versões alternativas e símbolo ou elemento visual característico\n– Paleta de cores, tipografia e sistema visual da marca\n– Manual de identidade visual\n– Aplicações da identidade em embalagens de produtos\n– Identidade visual para Instagram, incluindo foto de perfil, destaques e templates para posts\n– Materiais iniciais de divulgação e lançamento\n– Mockups de produtos e embalagens\nProfissional especializado em branding e identidade visual, com portfólio para avaliação e capacidade de contribuir criativamente para aprimorar ideias de produto, embalagem, estilo e posicionamento.\nJovem, criativa, moderna, estilosa, autêntica, visualmente forte, marcante e comercialmente atrativa; sem aparência genérica de confeitaria.\nA Mordê pretende oferecer cookies difer",
+      "vista": "2026-11-26T02:26:01.741Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding y packaging de una marca de cookies: Leo lo puede hacer, pero solo tiene un proyecto conceptual, así que se ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Gustavo,\nMordê needs to feel bold and desirable, far from the generic bakery look, from the logo to the cookie box and Instagram.\nI'm Leo, creative director at LeoVisual.nl. A concept identity I designed for a consumer drink, with packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd work: refine your ideas into concept and positioning, then logo and symbol, palette, type, brand manual, packaging, Instagram kit, launch pieces and mockups.\nBefore you pay anything, I'll send you one logo direction for Mordê mocked up on a cookie box.\nPrice: 250 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich packaging formats do you have in mind for the first launch?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1023,
+          "salida": 1427,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.056967,
+        "generada": "2026-11-26T02:26:00.517Z"
+      }
+    },
     {
       "id": "575539",
       "tipo": "FREELANCE",
@@ -3404,47 +3443,6 @@
         },
         "costeUSD": 0.0450894,
         "generada": "2026-11-23T15:52:03.213Z"
-      }
-    },
-    {
-      "id": "574301",
-      "tipo": "FREELANCE",
-      "titulo": "Edição de Vídeos para Reels e TikTok de Lançamentos Imobiliários",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574301/Edicao-de-Videos-para-Reels-e-TikTok-de-Lancamentos-Imobiliarios",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "IncorApp",
-      "contacto": "Gabriel Oliveira",
-      "solicitantes": 1,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Estou procurando um editor de vídeo para criar conteúdos de Reels e TikTok voltados a lançamentos imobiliários. Preciso de vídeos curtos, envolventes e adequados às plataformas sociais para divulgar os empreendimentos.\n– Vídeos curtos editados para Reels e TikTok sobre lançamentos imobiliários\n– Arquivos finais otimizados em formato vertical para publicação nas redes sociais\nEditor de vídeo com experiência em conteúdos curtos para redes sociais, especialmente Reels e TikTok.\nRemuneração: R$ 6.000 por pacote de 10 vídeos. Trabalho remoto. Início: 25/11. Pagamos 50% na assinatura do contrato. Interessados, chamem no WhatsApp: (11) 98611-9314.",
-      "vista": "2026-11-23T15:52:34.664Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Edición de Reels/TikTok verticales, encaja de lleno; el cliente paga R$ 6.000 (≈1.100 USD) por 10 vídeos y se respeta su cifra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Gabriel,\nReels and TikToks for real estate launches have to hook in the first second and sell the development before people scroll.\nI'm Leo, creative director at LeoVisual.nl. Closest work:\nhttps://www.behance.net/gallery/258576079/See-It-Before-Its-Built-Interactive-Off-Plan-Website\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nPlan: strong opening shot, fast cuts of the best spaces, motion text with location and key details, music and sound, 9:16 files ready to post.\nR$ 6,000 for the pack of 10 videos, 50% upfront, 2 rounds of changes. First video 2–5 days after 25/11, full pack in 2–3 weeks.\nWhich development comes first, and do you have footage and renders ready?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1100,
-        "anticipoPct": 50,
-        "plazo": "2–3 semanas",
-        "pregunta": "",
-        "avisos": [
-          "la carta no lleva el precio"
-        ],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 700,
-          "salida": 2343,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0506334,
-        "generada": "2026-11-23T15:52:33.652Z"
       }
     }
   ]
