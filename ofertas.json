@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-26T15:12:38.253Z",
+  "actualizado": "2026-11-26T18:02:47.748Z",
   "ofertas": [
+    {
+      "id": "575873",
+      "tipo": "FREELANCE",
+      "titulo": "Bannière Linkedin - Création visuelle site internet ",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575873/Banniere-Linkedin-Cration-visuelle-site-internet-",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Coline Cuveillé",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Je recherche un talent créatif pour réaliser une création visuelle singulière, moderne et cinématographique, destinée à ma bannière LinkedIn et déclinable sur mon portfolio.\nLe concept - THROUGH MY LENS\nL’idée est de créer dans un premier temps, une bannière linkedin portrait de moi en très gros plan, portant des lunettes dont les verres reflètent mon parcours professionnel : la skyline de New York, mes expériences, les artistes avec lesquels j’ai travaillé, mes collaborations, mes campagnes et mes réalisations. \nLes lunettes deviennent une métaphore de ma vision. Les reflets racontent ce qui a façonné mon regard, mon identité professionnelle et mon positionnement en tant que Brand Communication & Influence Strategist.",
+      "vista": "2026-11-26T18:02:47.747Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Retrato cinematográfico con gafas y reflejos, hecho con IA; encaja de lleno con la campaña de gafas de Leo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi Coline!\n\nTHROUGH MY LENS is a strong idea: an extreme close-up of you, with the New York skyline, the artists and the campaigns you've worked on reflected in your glasses.\nMy closest work is a cinematic eyewear campaign:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I'd do it: you send me a few photos of you and your key references, I build the portrait and the reflections with AI (GPT Image, Nano Banana Pro), then finish and compose it in Adobe, in LinkedIn banner format plus a version for your portfolio.\n500 USD, 50% upfront, 2–5 days, 2 rounds of changes.\nWhich 4–5 moments or collaborations matter most to you in the reflections?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "2–5 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 674,
+          "salida": 1311,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.053251,
+        "generada": "2026-11-26T18:02:46.953Z"
+      }
+    },
     {
       "id": "575825",
       "tipo": "FREELANCE",
@@ -3295,45 +3334,6 @@
         },
         "costeUSD": 0.043323,
         "generada": "2026-11-24T14:25:44.526Z"
-      }
-    },
-    {
-      "id": "574737",
-      "tipo": "FREELANCE",
-      "titulo": "Graphic Designers",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574737/Graphic-Designers",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Michael Chang",
-      "solicitantes": 3,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We are looking for talented graphic designers for long-term collaboration on various creative projects.\nRequired Skills:\n-Logo Design\n-Brand Identity & Branding\n-Illustration & Digital Art\n-Graphic Design\n-Social Media Design\n-Marketing & Advertising Design\nWe welcome designers of all experience levels. Please share your portfolio and examples of your previous work.\nAnother collaboration - Anyone with a laptop can earn $1000-$3000 monthly\nJDA is seeking remote collaboration partners across India, Brazil, Australia, Europe, and North America who can provide AI-train accounts such as Dataannotation or Afterquery.\nThe arrangement is a monthly retainer, typically USD 1,000 to 3,000 and sometimes more for high-capacity accounts. \nThe account remains under the legal owner’s control, and the role centers on providing secure platform access rather than performing day-to-day tasks.\n## What you’ll accomplish:\nYou will provide the agreed platform account access so JDA’s engineers can carry out the work, while remaining available for occasional verification if the platform requires it.\n* Maintain secure, continuous access to the agreed platform account.\n* Remain the legal account owner with full visibility and the ability to take the account back when needed.\n* Respond quickly only when verification is required.\n* We never require the credentials, personal information.\n## Important:\nYou should avoid creating the accounts yourself.\nBecause it involves more than just creating an account; i",
-      "vista": "2026-11-24T12:26:36.206Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Es una estafa: el encargo de diseño es el gancho para alquilar cuentas de entrenamiento de IA y mover dinero por la tarjeta de Leo.",
-        "categoria": "OTRO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 936,
-          "salida": 377,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.035619,
-        "generada": "2026-11-24T12:26:22.242Z"
       }
     }
   ]
