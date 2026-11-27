@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-27T14:24:53.168Z",
+  "actualizado": "2026-11-27T16:25:09.493Z",
   "ofertas": [
+    {
+      "id": "576187",
+      "tipo": "FREELANCE",
+      "titulo": "Independent Creative Network for Emerging Fashion and Lifestyle Brands",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576187/Independent-Creative-Network-for-Emerging-Fashion-and-Lifestyle-Brands",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "ANKEL",
+      "contacto": "Akın Aydoğar",
+      "solicitantes": 17,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We're building a network of independent creative professionals.\nAnkel is a swimwear production and brand development partner helping emerging brands turn their ideas into real businesses.\nBeyond manufacturing, we support brands throughout their journey — from the initial concept and brand identity to e-commerce, content creation, marketing and launch.\nWe're looking to connect with talented independent creatives and specialists who want to collaborate with us on projects and become part of our growing creative network.\nWe're looking for professionals in:\nE-commerce & Website Design / Development\nBrand Identity & Branding\nArt Direction & Graphic Design\nFashion & Product Photography\nVideo Production & Motion Design\nSocial Media Management & Content Creation\nDigital Marketing & Performance Marketing\nInfluencer Marketing\nSEO & Copywriting\nPackaging Design\n3D & AI Content Production\nWho we're looking for\nIndependent creatives, freelancers and small studios with a strong portfolio, a distinctive point of view and an interest in working with emerging fashion and lifestyle brands.\nWe value creativity, good communication, reliability and a collaborative mindset.\nHow we work\nWe operate on a project-based collaboration model. Depending on the client's needs, we bring together the right creative professionals to build a tailored team for each brand.\nWe're not looking for full-time employees. We're looking for creative partners we can build long-term working relationships with.\nInterested ",
+      "vista": "2026-11-27T16:25:09.492Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Red de creativos para marcas de bañadores; encaja con su proyecto de swimwear con IA, vídeo y webs 3D.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Akın,\nEmerging swimwear brands need launch content that looks premium before they can afford a big shoot, and that is where I can help your network.\nI'm Leo Gómez, creative director at LeoVisual.nl in Amsterdam. I work with AI for fashion visuals, product video and 3D scroll websites:\nhttps://www.behance.net/gallery/255880675/MASTER-AVATAR-AI-Swimwear-2026\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nFor each brand: model and product imagery from their product photos, short campaign videos, then the e-commerce site.\nA typical launch package: 2500 USD, 50% upfront, 2–4 weeks, 2 rounds of changes.\nWhat does a usual first brief from your brands include?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1132,
+          "salida": 1657,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.062003,
+        "generada": "2026-11-27T16:25:08.393Z"
+      }
+    },
     {
       "id": "576155",
       "tipo": "FREELANCE",
@@ -3261,45 +3300,6 @@
         },
         "costeUSD": 0.053091,
         "generada": "2026-11-25T08:24:40.701Z"
-      }
-    },
-    {
-      "id": "575161",
-      "tipo": "FREELANCE",
-      "titulo": "Brand & Graphic Designer",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575161/Brand-Graphic-Designer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "GrowthStudioz",
-      "contacto": "HR GrowthStudioz",
-      "solicitantes": 1,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Hi! We’re GrowthStudioz, a Kolkata-based marketing agency. We need YOU—a creative designer with experience of crafting brand identities (logos, guidelines, social media assets), website visuals and other communication designs that tell compelling brand stories.\nJob Description:\n• Work on branding projects including brand identities, visual systems, social media presence and communication design\n• Translate briefs and business requirements into strong visual concepts and design solutions\n• Develop design concepts from initial ideation & brainstorming through to final execution\n• Collaborate with UI/UX designers, brand strategists, and other stakeholders to deliver high-quality work\n• Maintain consistency and quality across brand and visual communication projects\n• Take part in the brainstorming sessions and contribute to the team’s creative thinking\n• Stay curious about design trends, tools, and evolving visual communication practices\nPlease let me know if you are interested.",
-      "vista": "2026-11-25T07:37:34.445Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es un encargo remoto de branding y diseño gráfico pagado en USD. Leo no tiene una identidad hecha para un cliente real, así que la carta usa su proyecto conceptual y le ofrece una muestra antes de pagar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nYou need brand identities that stay consistent from logo and guidelines to social media assets and website visuals.\nI'm Leo, creative director at LeoVisual.nl. A concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy process: read the brief, present 2–3 concept directions, refine the chosen one, then deliver the logo, short guidelines (colour, type, usage) and social media templates.\nBefore you pay anything, I'll send you one logo direction mocked up on a social post for your first brief.\nPrice: 500 USD, 50% upfront, 7–10 days, 2 rounds of revisions.\nWhich brand would you like to start with, and what deliverables does it need first?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 684,
-          "salida": 1593,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.058931,
-        "generada": "2026-11-25T07:37:33.137Z"
       }
     }
   ]
