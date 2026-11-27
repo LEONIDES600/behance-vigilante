@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-27T09:44:18.931Z",
+  "actualizado": "2026-11-27T10:25:26.181Z",
   "ofertas": [
+    {
+      "id": "576075",
+      "tipo": "FREELANCE",
+      "titulo": "Creative Visualizer for Branding, Logo Design, and Packaging Projects",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576075/Creative-Visualizer-for-Branding-Logo-Design-and-Packaging-Projects",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Scratchpad",
+      "contacto": "Nehaa Desai",
+      "solicitantes": 6,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm looking for an expert Creative Visualizer to work on branding, logo design, and packaging projects. I need strong visual concepts and polished design assets across these brand-focused deliverables. Also, it would be a great bonus if the candidate comes from a creative agency background.\n– Brand visual concepts and identity assets\n– Logo designs and packaging design files\nExpert Creative Visualizer with demonstrated creative agency experience in branding, logo design, and packaging projects.",
+      "vista": "2026-11-27T10:25:26.181Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Branding, logo y packaging: solo hay un proyecto conceptual, así que la carta ofrece una muestra gratis antes de pagar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Nehaa,\nYou need strong visual concepts carried all the way to polished logo and packaging files, so each brand holds together across every deliverable.\nI'm Leo, creative director at LeoVisual.nl. A concept identity I designed, from logo to packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd work: short brief, 2–3 logo and visual directions, then the chosen one refined and applied to your packaging, with final files. Before you pay anything, I'll send you one logo direction mocked up on a pack for your first project.\n1000 USD, 50% upfront, 7–10 days, 2 rounds of revisions.\nWhich brand and product comes first, and do you already have the packaging dimensions?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 574,
+          "salida": 1198,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.050591,
+        "generada": "2026-11-27T10:25:25.168Z"
+      }
+    },
     {
       "id": "358365",
       "tipo": "FULLTIME",
@@ -3223,45 +3262,6 @@
       "carta": {
         "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
         "sinDescripcion": true
-      }
-    },
-    {
-      "id": "575025",
-      "tipo": "FREELANCE",
-      "titulo": "UI/UX, Game Mechanics, and Motion Design for a Multiplayer Casual Games Platform",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575025/UIUX-Game-Mechanics-and-Motion-Design-for-a-Multiplayer-Casual-Games-Platform",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Rohan Kundu",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a game UI/UX designer for our multiplayer casual games platform, with an hourly budget of up to $15/hr. The designer should create intuitive game interfaces, contribute to casual game mechanics, and produce light video or motion design assets.\n– UI/UX designs for multiplayer casual game screens and interactions\n– Casual game mechanics concepts and supporting light motion or video assets\nDesigner experienced in game UI/UX, casual game mechanics, and light motion or video design.\nCasual, engaging, and multiplayer-focused.\nThis is a starting project. If it goes well, we’d like to continue with ongoing hourly work at up to $15/hr. We’re also open to designers who are strong in just one or two of these areas. When you apply, please share game UI work you’ve done, a game or mechanic you’ve designed, and any video or motion samples.",
-      "vista": "2026-11-24T23:36:44.089Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "La parte de UI y motion encaja y el cliente acepta a quien domine solo una o dos áreas, pero Leo no tiene trabajos de UI ni de mecánicas de juego; se ofrece una muestra.",
-        "categoria": "WEB",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Rohan,\nYour multiplayer casual games platform needs screens that feel instant and playful, from lobby and matchmaking to the end-of-round moment.\nI'm Leo, creative director at LeoVisual.nl. My strongest areas for you are interface and motion:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nBefore you pay anything, I'll send you one lobby screen mockup with a short win animation.\nPlan: map the player flow, design the key screens in Figma, then animate transitions and rewards.\nStarting project: 250 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich game should we start with, and how many screens does it need?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 697,
-          "salida": 1662,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.060363,
-        "generada": "2026-11-24T23:36:43.329Z"
       }
     }
   ]
