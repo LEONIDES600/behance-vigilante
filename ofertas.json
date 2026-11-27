@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-27T21:38:12.257Z",
+  "actualizado": "2026-11-27T22:50:34.016Z",
   "ofertas": [
+    {
+      "id": "373469",
+      "tipo": "FULLTIME",
+      "titulo": "Motion Graphics 3D Generalist",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/373469/Motion-Graphics-3D-Generalist",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-27T22:50:34.016Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "576293",
       "tipo": "FREELANCE",
@@ -3259,45 +3279,6 @@
         },
         "costeUSD": 0.054107,
         "generada": "2026-11-25T10:25:26.385Z"
-      }
-    },
-    {
-      "id": "575219",
-      "tipo": "FREELANCE",
-      "titulo": "Book cover and design",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575219/Book-cover-and-design",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Karin Dobnikar",
-      "solicitantes": 26,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Christmas with Lilly\nAbout the project\n- Children's illustrated storybook, 24 pages / scenes.\n- Part of My Little Lilly World, a larger creative project and storybook series.\n- Book design and publication\n- Complete interior layout, including illustration placement and typography.\n- Front and back cover design.\n- Editing, checking details, and consistency.\n- Preparation of professional, print-ready files.\n- Assistance with publishing on Amazon KDP, including technical requirements.\nI have 2 Christmas books planned, so I have to be very efficient with time.\nIdeally, I would like to establish a long-term collaboration for future books and products.\nPinterest inspiration:\nhttps://pin.it/4bKZcNNhK\nThanks",
-      "vista": "2026-11-25T10:26:05.039Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es maquetación y portada de un libro infantil con archivos para Amazon KDP; Leo no tiene proyecto editorial, así que se ofrece una muestra (si piden ilustrar a mano, se descarta).",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Karin,\nWith two Christmas books planned, Christmas with Lilly needs a reusable layout system that keeps My Little Lilly World consistent and saves you time on every future book.\nI'm Leo, creative director at LeoVisual.nl.\nMy approach: a 24-page template with grid, type styles and illustration placement, then front and back cover, a consistency check across all scenes, and print-ready files to Amazon KDP specs, with help through the upload.\nBefore you pay anything, I'll send you the front cover and one interior spread laid out with your illustrations.\nPrice: 1000 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nAre the 24 illustrations already finished, and do you have a trim size in mind?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 620,
-          "salida": 1624,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.035933400000000004,
-        "generada": "2026-11-25T10:25:43.584Z"
       }
     }
   ]
