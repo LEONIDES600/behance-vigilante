@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-27T13:05:11.182Z",
+  "actualizado": "2026-11-27T15:08:34.040Z",
   "ofertas": [
+    {
+      "id": "innovit-ag/jobs/ki-implementierer-m-w-d",
+      "tipo": "FULL_TIME",
+      "titulo": "KI-Implementierer (m/w/d)",
+      "presupuesto": "60.000–75.000 EUR/año",
+      "enlace": "https://himalayas.app/companies/innovit-ag/jobs/ki-implementierer-m-w-d?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Germany",
+      "empresa": "innovIT AG",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Über innovIT AG \n Die innovIT AG denkt Rechenzentren neu: schneller geplant, modular aufgebaut und technisch präzise umgesetzt. Hinter unseren Lösungen steht ein Team mit mehr als 15 Jahren Erfahrung in Planung, Bau und Betrieb von Rechenzentren – alle Gewerke kommen aus dem eigenen Haus.\n Wir bauen die Infrastruktur für KI – und wollen KI auch selbst so nutzen, dass sie unseren Alltag wirklich leichter macht. Dafür suchen wir keinen reinen Techie, sondern jemanden, der Menschen begeistert und mitnimmt.\n Aufgaben\n Du findest gemeinsam mit den Fachbereichen heraus, wo KI echten Nutzen bringt, und setzt Prioritäten.\n Du führst KI-gestützte Abläufe ein – vom Prozessdesign über den Pilot bis zum Rollout.\n Du befähigst unsere Mitarbeitenden: mit Schulungen, Begleitung im Alltag und einem offene",
+      "vista": "2026-11-27T15:08:34.040Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden alemán de nivel profesional («verhandlungssicheres Deutsch») como requisito y Leo no habla alemán.",
+        "categoria": "AGENTES",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1505,
+          "salida": 394,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.038235,
+        "generada": "2026-11-27T15:08:32.481Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "fusion-consulting/jobs/senior-it-project-manager-commercial-transformation-ecommerce-pharma",
       "tipo": "FULL_TIME",
@@ -3946,46 +3986,6 @@
         },
         "costeUSD": 0.036459,
         "generada": "2026-11-22T05:58:07.867Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "sagan-recruitment/jobs/signage-graphic-designer-hr31111de",
-      "tipo": "CONTRACTOR",
-      "titulo": "Signage Graphic Designer  - (HR31111DE)",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/sagan-recruitment/jobs/signage-graphic-designer-hr31111de?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "El Salvador",
-      "empresa": "Sagan Recruitment",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Job Title: Signage Graphic Designer\nLocation: Remote (Must align with PST time zone)\nWork Schedule: Monday - Friday, 8:00 AM to 4:00 PM (PST)\n NOTE: INDEPENDENT CONTRACTOR POSITION\n Company Overview:Sagan is an exclusive membership community for top executives, founders, and CEOs seeking to hire and maximize the impact of international talent. We bridge the gap between global talent and US-based businesses, connecting candidates from vibrant regions like Latin America, the Philippines, India, Pakistan, Bangladesh, and Africa with leading American companies. Sagan provides a high-performance remote work environment, ensuring access to world-class opportunities for top-tier professionals.\nPosition Overview:We're hiring a Signage Graphic Designer for a fast-paced print and signage company. Th",
-      "vista": "2026-11-22T05:58:14.255Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Pide jornada completa en horario PST, experiencia demostrada en rotulación y preparación técnica de archivos para imprenta como requisito principal, y Leo no tiene nada de eso.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1352,
-          "salida": 496,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0163014,
-        "generada": "2026-11-22T05:58:13.268Z"
       },
       "fuente": "himalayas"
     }
