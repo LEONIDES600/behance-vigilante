@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-27T00:30:12.217Z",
+  "actualizado": "2026-11-27T02:59:41.703Z",
   "ofertas": [
+    {
+      "id": "575973",
+      "tipo": "FREELANCE",
+      "titulo": "AI Generated Product Catalog Images",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/freelance/575973/AI-Generated-Product-Catalog-Images",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-27T02:59:41.703Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "572843",
       "tipo": "FREELANCE",
@@ -3238,45 +3258,6 @@
         },
         "costeUSD": 0.0279934,
         "generada": "2026-11-24T19:25:38.696Z"
-      }
-    },
-    {
-      "id": "373009",
-      "tipo": "CONTRACT",
-      "titulo": "designer gráfico - web design - social media - AI",
-      "presupuesto": "4000–5500 BRL/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/373009/designer-grafico-web-design-social-media-AI",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "En cualquier lugar",
-      "empresa": "Gumma",
-      "contacto": "Marcela de Oliveira",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "A Gumma trabalha exclusivamente em cada projeto de forma única. E buscamos um designer que tope atuar em todos eles.\n Tudo com foco em conteúdo para marcas.\n Social Media, Web Design, Design para PDV e Embalagens.\n Criação de conteúdos estáticos, vídeos, animações (formatos digitais que são consumidos frequentemente hoje)\n IA é essencial para alguns projetos (produção de conteúdos digitais para Reels / TikTok)\n Precisa ter disponibilidade de tempo para participar de reuniões direto com os clientes quando tiver necessidade de alinhamento. Isso ajuda a otimizar todo o processo.",
-      "vista": "2026-11-24T19:25:48.534Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Paga 4.000–5.500 BRL al año (unos 700–1.000 USD) por trabajo continuo, muy por debajo del mínimo, y pide reuniones con clientes brasileños, probablemente en portugués.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 500,
-          "salida": 832,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.019613400000000003,
-        "generada": "2026-11-24T19:25:47.535Z"
       }
     }
   ]
