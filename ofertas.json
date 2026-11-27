@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-27T05:37:50.058Z",
+  "actualizado": "2026-11-27T06:25:30.606Z",
   "ofertas": [
+    {
+      "id": "576017",
+      "tipo": "FREELANCE",
+      "titulo": "Logo designer for Lizard king",
+      "presupuesto": "2500–5000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576017/Logo-designer-for-Lizard-king",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "South Mill Champs Mushrooms",
+      "contacto": "Morgan jeffery",
+      "solicitantes": 2,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Logo Designer Required — Lizard King\nLizard King is a proposed mushroom-based and psychoactive product brand inspired by vintage psychedelic art, reptilian symbolism, and 1960s rock-and-roll culture. Product legality and regulatory compliance are subject to verification.\nDeliverables:\nOriginal logo concepts\nCustom wordmark\nLizard-inspired brand symbol or mascot\nColor and monochrome logo variations\nEditable vector source files (AI, EPS, SVG)\nHigh-resolution PNG and PDF files\nThis is a freelance project. We aim to finalize hiring within 24 hours. Please apply with your relevant portfolio and availability.\n- Initial logo concepts for LIZARD KING\n- Relevant portfolio work\nApplication Requirements:\nOnly designers who already have relevant rough sketches, logo concepts, or creative explorations in their existing portfolios should apply.\nPlease submit your existing concepts within the next 24 hours, as we intend to finalize the hiring process immediately.\nProject-specific design development will be conducted under a paid freelance contract.",
+      "vista": "2026-11-27T06:25:30.606Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es logo e identidad, que encaja con IA y con el concepto SESTEO, pero no hay ningún logo de marca psicodélica en el portfolio; además piden enviar conceptos en 24 h y la legalidad del producto está sin verificar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Morgan!\nA Lizard King mark that blends 1960s psychedelic poster art with a reptilian symbol is a great brief.\nI'm Leo, creative director at LeoVisual.nl. Closest work, a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nBefore you pay anything, I'll send you one rough direction: wordmark plus lizard symbol.\nProcess: explore directions with AI, then redraw the chosen one as clean vectors in Adobe, with color and mono versions, AI/EPS/SVG, PNG and PDF.\nPrice: 5000 USD, 50% upfront, 7–10 days, 2 rounds of changes. I can start now.\nShould the lizard be a full mascot or a simpler emblem next to the wordmark?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 5000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 753,
+          "salida": 1549,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.058327,
+        "generada": "2026-11-27T06:25:29.363Z"
+      }
+    },
     {
       "id": "576011",
       "tipo": "FREELANCE",
@@ -3253,26 +3292,6 @@
         "tokens": null,
         "costeUSD": 0,
         "generada": "2026-11-24T22:25:56.308Z"
-      }
-    },
-    {
-      "id": "574993",
-      "tipo": "FREELANCE",
-      "titulo": "Logo and Brand Identity Design",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/freelance/574993/Logo-and-Brand-Identity-Design",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-24T22:18:21.726Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
       }
     }
   ]
