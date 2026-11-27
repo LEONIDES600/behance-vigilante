@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-27T09:25:32.779Z",
+  "actualizado": "2026-11-27T09:44:18.931Z",
   "ofertas": [
+    {
+      "id": "358365",
+      "tipo": "FULLTIME",
+      "titulo": "Web Artist Web Designer Digital Artist",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/358365/Web-Artist-Web-Designer-Digital-Artist",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-27T09:44:18.931Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "576055",
       "tipo": "FREELANCE",
@@ -3242,41 +3262,6 @@
         },
         "costeUSD": 0.060363,
         "generada": "2026-11-24T23:36:43.329Z"
-      }
-    },
-    {
-      "id": "575009",
-      "tipo": "FREELANCE",
-      "titulo": "Illustrated Animated Music Video for “Manifesting Destiny”",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575009/Illustrated-Animated-Music-Video-for-Manifesting-Destiny",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "ADZii BOii",
-      "contacto": "Adam Smith",
-      "solicitantes": 1,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m seeking a 2D or 3D animator / animation director to create a story-driven animated music video for my alternative hip-hop track “Manifesting Destiny.” The visuals should interpret the song’s title and lyrics through a cohesive narrative where putting on a VR headset transports my character into different worlds / levels. The video will open and close with real-life clips of me putting on a VR headset, transitioning seamlessly into animation - so the main character should resemble me.\n- Character design (based on reference photos) and a rough storyboard / animatic synced to the song for approval before final animation.\n- Custom visual assets and 1-2 high-res stills (suitable for YouTube thumbnail and promo artwork).\n- Completed 16:9 4K animated music video for \"Manifesting Destiny\" synced to the final WAV, including seamless transitions from / to my live-action VR intro and outro clips.\n- 2-3 vertical (9:16) 15-30 second clips cut from the final video for TikTok, Instagram Reels and YouTube shorts.\nA 2D or 3D animator / animation director experienced in creating animated music-video visuals.\n​The animation should follow the theme of \"Manifesting Destiny\"—the idea that life is a game and it's up to you how you play it to achieve your destiny and desires. The track is approx. 3.5 minutes long. I will provide the final WAV file, full lyrics, reference photos of myself, and the short live-action VR clips for the intro/outro, and I'm happy to talk through scene ideas and lyric ",
-      "vista": "2026-11-24T22:25:57.074Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "no quieren IA: «no AI»",
-        "filtro": "sin-ia",
-        "categoria": "",
-        "idioma": "",
-        "carga": "",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "filtro previo (sin API)",
-        "tokens": null,
-        "costeUSD": 0,
-        "generada": "2026-11-24T22:25:34.574Z"
       }
     }
   ]
