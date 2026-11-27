@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-27T04:25:36.202Z",
+  "actualizado": "2026-11-27T05:25:42.433Z",
   "ofertas": [
+    {
+      "id": "576007",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Illustration for Comic Book Food Group",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576007/Brand-Illustration-for-Comic-Book-Food-Group",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Feed the Sidekicks",
+      "contacto": "Jimmy Ha",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for an illustrator to draw brand assets for my agency, Feed the Sidekicks. We need accompanying illustrations & patterns that supports the group’s brand identity and comic-book theme. \nWe want illustrations like a camera with open jaws or icons related to food/marketing & comics. \nAttached is the website https://feedthesidekicks.com/\n– Brand illustrations & patterns for the comic book food group\n– Editable final illustration files suitable for brand use",
+      "vista": "2026-11-27T05:25:42.433Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Ilustración de marca con temática cómic: encaja con lo que Leo puede entregar, pero no tiene proyecto de ilustración, así que se ofrece una muestra antes del pago.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Jimmy,\nA camera with open jaws is a strong anchor for Feed the Sidekicks: food, marketing and comics in one bold icon.\nI'm Leo, creative director at LeoVisual.nl.\nI'd build a small system matching the style of feedthesidekicks.com: a set of comic-style icons (camera with jaws, food, megaphones, speech bubbles), plus 2–3 repeatable patterns made from them.\nBefore you pay anything, I'll send you one direction of the camera with open jaws in your brand colours.\nFinal files delivered editable and layered, ready for brand use.\nPrice: 1000 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nHow many icons and patterns do you have in mind for the first set?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 542,
+          "salida": 1282,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.052143,
+        "generada": "2026-11-27T05:25:41.266Z"
+      }
+    },
     {
       "id": "575997",
       "tipo": "FREELANCE",
@@ -3234,45 +3273,6 @@
         },
         "costeUSD": 0.065867,
         "generada": "2026-11-24T21:25:47.811Z"
-      }
-    },
-    {
-      "id": "354397",
-      "tipo": "FULLTIME",
-      "titulo": "Full Time Graphic Designer",
-      "presupuesto": "1000–1500 USD/mes",
-      "enlace": "https://www.behance.net/joblist/fulltime/354397/Full-Time-Graphic-Designer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "En cualquier lugar",
-      "empresa": "APTIO Marketing",
-      "contacto": "Yoel Orue",
-      "solicitantes": 542,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "We are looking for a strong Graphic Designer to help with branding, fonts, website design, email marketing, social media content, and overall creative direction for multiple brands.\n This person should have a good eye for design, understand modern branding, and be able to create clean, high-quality visuals that work across websites, emails, ads, and social media.\n Responsibilities \n Create graphics for websites, landing pages, email campaigns, social media, ads, and branding projects\n Help choose and apply fonts, colours, layouts, and visual direction for brands\n Design email banners, social posts, website sections, ad creatives, and promotional graphics\n Support website design improvements and mockups\n Edit short-form content when needed for Reels, TikTok, ads, or social media\n Follow brand guidelines and keep designs consistent across platforms\n Work with the team inside ClickUp to manage tasks, feedback, and deadlines\n Must-Have Skills \n Strong experience with Adobe Creative Suite, especially Photoshop, Illustrator, and/or InDesign\n Strong design eye for branding, typography, layout, and visual hierarchy\n Experience designing for websites, email marketing, and social media\n Ability to take feedback and revise designs quickly\n Good communication and ability to meet deadlines\n Nice to Have \n Experience using ClickUp\n Experience with Canva\n Experience with CapCut, Premiere Pro, After Effects, or another video editing tool\n Experience designing for ecommerce, service brands, o",
-      "vista": "2026-11-24T21:26:06.968Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Diseño gráfico, web, redes, anuncios y edición corta en remoto encajan con Leo; el sueldo es bajo, pero el máximo de la horquilla supera los 8 USD/h.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Yoel,\n\nKeeping one clear look across websites, emails, ads and social posts for several brands at once takes a designer who can run with a brand direction, and that's the role I'd like to take at APTIO Marketing.\nI'm Leo Gómez, creative director at LeoVisual.nl, based in Amsterdam (EU citizen, fully remote).\nWebsites and landing pages I designed and built:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nE-commerce work, with listing images and A+ content:\nhttps://www.behance.net/gallery/251447375/Premium-Amazon-Listing-Design-for-Living-Logic\nFor each brand I'd start from its guidelines, set clear rules for type, colour and layout, and then apply them to website sections, email banners, ad creatives and social posts. When short Reels or TikTok edits are needed, I'd cut them in Premiere, After Effects or CapCut.\nI design in Adobe, I make changes quickly after feedback, and I'm happy to do a test task.\nHow many brands would I support at the start, and which one should I begin with?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 854,
-          "salida": 1882,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0420294,
-        "generada": "2026-11-24T21:26:06.179Z"
       }
     }
   ]
