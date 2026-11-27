@@ -1,32 +1,32 @@
 {
   "version": "v3.5 · 20/11/2026",
-  "actualizado": "2026-11-27T20:51:26.355Z",
-  "ultimaPasadaConDatos": "2026-11-27T20:51:25.935Z",
+  "actualizado": "2026-11-27T21:22:06.605Z",
+  "ultimaPasadaConDatos": "2026-11-27T21:22:06.230Z",
   "ciegoDesde": null,
   "proxyBehance": "jina",
-  "pasadas": 25077,
+  "pasadas": 25105,
   "hoy": {
     "fecha": "2026-11-27",
-    "nuevas": 581,
-    "alto": 9,
-    "medio": 42,
-    "bajo": 15,
-    "no": 210,
+    "nuevas": 621,
+    "alto": 10,
+    "medio": 45,
+    "bajo": 17,
+    "no": 229,
     "enCola": 19,
-    "enMundo": 32,
-    "cartas": 46,
+    "enMundo": 36,
+    "cartas": 50,
     "cartasError": 0,
     "cartasSinDescripcion": 4,
-    "costeCartasUSD": 1.4424,
+    "costeCartasUSD": 1.5668,
     "filtroTrampa": 0,
-    "filtroUbicacion": 26,
+    "filtroUbicacion": 27,
     "filtroSinIA": 0
   },
   "behance": {
     "buzon": "configurado",
     "ultimoLatidoVigia": "2026-11-27T20:39:59.184Z",
-    "ultimoDato": "2026-11-27T20:51:25.935Z",
-    "sondaPausadaHasta": "2026-11-27T21:05:43.206Z",
+    "ultimoDato": "2026-11-27T21:17:19.451Z",
+    "sondaPausadaHasta": "2026-11-27T22:06:14.629Z",
     "avisoEnviado": false
   },
   "fuentes": {
@@ -58,7 +58,7 @@
     "himalayas": {
       "fallosSeguidos": 0,
       "pausadaHasta": null,
-      "ultimaConsulta": "2026-11-27T19:14:04.348Z"
+      "ultimaConsulta": "2026-11-27T21:16:53.157Z"
     }
   }
 }
