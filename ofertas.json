@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-27T22:50:34.016Z",
+  "actualizado": "2026-11-27T23:25:21.687Z",
   "ofertas": [
+    {
+      "id": "576307",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Logo Design",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576307/Brand-Logo-Design",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Conventional Nerd",
+      "contacto": "Shaw Covington",
+      "solicitantes": 22,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic designer to create a logo for my brand. The logo should provide a clear and professional visual identity for the business.\n– Primary brand logo design\n– Final logo files suitable for digital and print use",
+      "vista": "2026-11-27T23:25:21.687Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Logo suelto sin IA y con presupuesto aceptable; no hay un logo igual en el portfolio, así que se ofrece una muestra antes de pagar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi Shaw,\n\nA primary logo for Conventional Nerd has to look clear and professional on screen and in print, at any size.\nI'm Leo, creative director at LeoVisual.nl. The closest example is a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nProcess: a short brief on your audience and tone, three logo directions, refine your favourite, then final files (SVG, PDF, PNG; colour and mono).\nBefore you pay anything, I'll send you one direction mocked up on a business card and a website header.\nPrice: 250 USD, 50% upfront, delivery in 2–5 days, 2 rounds of changes.\nWhat should people feel when they see the Conventional Nerd name: playful, techy or more serious?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "2–5 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 437,
+          "salida": 1447,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.055023,
+        "generada": "2026-11-27T23:25:20.698Z"
+      }
+    },
     {
       "id": "373469",
       "tipo": "FULLTIME",
@@ -3240,45 +3279,6 @@
         },
         "costeUSD": 0.051507,
         "generada": "2026-11-25T11:25:08.050Z"
-      }
-    },
-    {
-      "id": "575223",
-      "tipo": "FREELANCE",
-      "titulo": "Branding and identity Graphic Design",
-      "presupuesto": "1000–2500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575223/Branding-and-identity-Graphic-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Julian Estrada",
-      "solicitantes": 12,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Dmente es una app que conecta a pacientes con psicólogos y psicólogas de una forma cercana e intuitiva. Funciona con swipe, como una app de citas: cada persona se presenta a través de un breve formulario y la app le ayuda a encontrar su match perfecto de terapeuta. Nuestra misión es devolver a las personas a una ayuda humana, en un momento en que muchos buscan apoyo en pantallas y respuestas automáticas.\n¿Qué busco?\nUn/a diseñador/a gráfico/a que cree la identidad visual de Dmente. Quiero un branding cálido, muy humano y accesible, que transmita confianza, empatía y cercanía, lejos de la estética clínica o fría de la salud tradicional.",
-      "vista": "2026-11-25T10:26:05.039Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Identidad visual para una app de salud mental: Leo puede hacerla, pero su portfolio solo tiene una identidad conceptual, así que la carta ofrece una muestra antes de cobrar.",
-        "categoria": "CREATIVO",
-        "idioma": "es",
-        "carga": "media",
-        "texto": "¡Hola, Julian!\nDmente necesita una identidad cálida y humana, lejos de lo clínico, que transmita confianza tanto en el logo como en cada swipe de la app.\nSoy Leo, director creativo de LeoVisual.nl. Como referencia, una identidad conceptual que diseñé:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nAntes de que pagues nada, te envío una dirección de logo aplicada a una pantalla de match de Dmente.\nProceso: moodboard y paleta cálida, 2 direcciones de logo, tipografía e iconos, y una guía de marca con aplicaciones en la app.\nPrecio: 2500 USD, 50 % por adelantado, entrega en 7–10 días y 2 rondas de cambios.\n¿Tenéis ya colores o un tono de voz definido, o partimos de cero?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2500,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 663,
-          "salida": 1356,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.054107,
-        "generada": "2026-11-25T10:25:26.385Z"
       }
     }
   ]
