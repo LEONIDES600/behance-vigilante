@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-27T13:26:12.274Z",
+  "actualizado": "2026-11-27T14:24:53.168Z",
   "ofertas": [
+    {
+      "id": "576155",
+      "tipo": "FREELANCE",
+      "titulo": "Website Design for a Sportswear Visualizer Platform",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576155/Website-Design-for-a-Sportswear-Visualizer-Platform",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "g-storm",
+      "contacto": "Junior Gogna",
+      "solicitantes": 26,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We are creating a website for designing sportswear using a visualizer tool and need design support for the project. The scope includes designing the landing page and potentially creating clothing models and design assets. We already have a developer, so this is a design-only requirement. We would like to arrange a call to discuss the project in more detail.\n– Designed landing page for the sportswear design platform\n– UI design assets for the sportswear visualizer tool\n– Clothing models and sportswear design visuals, if included in the final scope\nDevelopment is already covered by an existing developer; only design services are required. The hirer would like to schedule a call to discuss the scope.",
+      "vista": "2026-11-27T14:24:53.168Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Diseño de landing e interfaz sin programar, con developer propio: encaja con sus webs y landings.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Junior,\nA sportswear visualizer lives or dies on its landing page: people need to picture their own kit before they start designing it.\nI'm Leo, creative director at LeoVisual.nl. Closest work, landing pages I designed:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nAnd clothing visuals on a model:\nhttps://www.behance.net/gallery/255880675/MASTER-AVATAR-AI-Swimwear-2026\nPlan: landing page in Figma, UI assets for the visualizer (panels, color pickers, icons) ready for your developer, plus jersey and shorts visuals if they stay in scope.\n1000 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nHappy to jump on a call. Which garments will the visualizer launch with first?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 595,
+          "salida": 1746,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.061635,
+        "generada": "2026-11-27T14:24:52.088Z"
+      }
+    },
     {
       "id": "576141",
       "tipo": "FREELANCE",
@@ -3261,45 +3300,6 @@
         },
         "costeUSD": 0.058931,
         "generada": "2026-11-25T07:37:33.137Z"
-      }
-    },
-    {
-      "id": "575149",
-      "tipo": "FREELANCE",
-      "titulo": "Weekly Post-Production Editing for Golf Videos",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575149/Weekly-Post-Production-Editing-for-Golf-Videos",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Joseph Chen Inc",
-      "contacto": "Joseph Chen",
-      "solicitantes": 1,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Weekly Post-Production Editor Golf Videos\nWe are looking for a reliable, long-term post-production finishing artist with film or high-end commercial experience to handle the final polish for a weekly 1-hour YouTube fitness and wellness series.\nYou will not be responsible for creative story editing. Each week, you will receive a locked, 1-hour rough cut assembled in Final Cut Pro (via FCP XML). Your role is to bring that timeline into DaVinci Resolve and deliver a cohesive, commercial-grade visual and audio finish.\nEdit Polish: Refine rough transitions, tighten pacing around physical workout movements, smooth out jump cuts, and cleanly mask/rotoscope subjects when needed.\nColor Grading: Manually balance flat Log footage shot under mixed lighting (warm indoor spotlights vs. cool window daylight). Maintain natural, consistent skin tones across the entire 1-hour timeline without relying on heavy preset LUTs.\nDialogue Cleanup & Mix: Remove hollow room/hallway echo from vocal tracks (using DaVinci Voice Isolation, iZotope RX, or equivalent), apply clean compression, and balance provided music beds to YouTube loudness standards.\nWeekly Turnaround: Raw XML timelines are delivered every Monday. First polished draft is due Thursday, with final delivery (including minor revisions) due Friday.\nMaster Video File: 4K UHD (3840 × 2160) upscaled master in high-bitrate H.264/MP4 or Apple ProRes 422 (to trigger YouTube’s VP09/AV01 codec).\nAudio Mix: Integrated loudness targeted to -14 LUFS wit",
-      "vista": "2026-11-25T07:25:34.762Z",
-      "carta": {
-        "decision": "espera",
-        "motivo": "Edición de vídeo que encaja, pero exige dominio de DaVinci Resolve y round-trip FCP XML, y DaVinci no está confirmado.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Joseph,\n\nA 1-hour Log timeline mixing warm spotlights and cool window light needs skin tones matched by hand, plus dialogue free of that hallway echo.\nClosest piece to the finish you want, a cinematic short of mine:\nhttps://www.behance.net/gallery/254527569/Where-Imagination-Becomes-Real-AI-Cinematic-Short\nEach week: bring the FCP XML into Resolve on Monday, balance color without preset LUTs, tighten cuts around the movements, clean and mix dialogue to -14 LUFS / -1 dB TP, then the Thursday draft and the Friday 4K master plus .drp.\n$200 per episode, 50% upfront, 2 rounds of changes, on your Mon–Fri schedule.\nBefore you pay anything, I'll finish a 3-minute segment of an episode as a test.\nWill each XML come with the original Log media and separate music stems?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 200,
-        "anticipoPct": 50,
-        "plazo": "Semanal: borrador el jueves y entrega final el viernes",
-        "pregunta": "La oferta exige dominio de DaVinci Resolve (etalonaje por nodos, Voice Isolation, entrega en .drp) e intercambio de timelines con Final Cut por FCP XML. ¿Lo manejas con soltura para enviarla, o la descartamos?",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1271,
-          "salida": 2451,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.078439,
-        "generada": "2026-11-25T07:25:33.671Z"
       }
     }
   ]
