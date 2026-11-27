@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-27T06:25:30.606Z",
+  "actualizado": "2026-11-27T06:33:41.725Z",
   "ofertas": [
+    {
+      "id": "373363",
+      "tipo": "FULLTIME",
+      "titulo": "Junior Graphic Designer",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/373363/Junior-Graphic-Designer",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-27T06:33:41.725Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "576017",
       "tipo": "FREELANCE",
@@ -3257,41 +3277,6 @@
         },
         "costeUSD": 0.071131,
         "generada": "2026-11-24T22:25:55.992Z"
-      }
-    },
-    {
-      "id": "574997",
-      "tipo": "FREELANCE",
-      "titulo": "Actor Headshot Retouching",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574997/Actor-Headshot-Retouching",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Hope Ihaza",
-      "solicitantes": 0,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I’m looking for an experienced photo retoucher to professionally edit approximately 9 actor headshots for theatrical and commercial casting submissions.\nThe goal is to achieve polished, natural-looking, industry-standard headshots while preserving my authentic appearance, facial features, skin texture, and accurate skin tone.\nI am particularly interested in someone experienced with retouching darker skin tones and actor headshots.\n- Professional retouching of approximately 9 actor headshots.\n- Natural skin retouching that preserves some texture, and all facial features.\n- Accurate skin tone, exposure, contrast, and color correction.\n- Removal of temporary blemishes, distracting flyaway hairs, and minor clothing imperfections.\n- Subtle background cleanup and color adjustments where needed.\n- For one selected headshot, realistic shirt recoloring and background color replacement.\n- Consistent professional quality across the entire set.\n- High-resolution JPEG files suitable for casting platforms, websites, and printing.\n- At least one round of revisions.\nNatural, polished, cinematic, and casting-ready.\nI want my headshots to look like professionally retouched photographs, not AI-generated or heavily filtered images.\nPlease preserve my natural facial structure, hair texture, and complexion. Avoid excessive skin smoothing, artificial skin lightening, facial reshaping, or dramatic alterations to my appearance.\nThe theatrical headshots should feel grounded and emotionally authentic, ",
-      "vista": "2026-11-24T22:25:57.074Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "no quieren IA: «not AI-generated»",
-        "filtro": "sin-ia",
-        "categoria": "",
-        "idioma": "",
-        "carga": "",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "filtro previo (sin API)",
-        "tokens": null,
-        "costeUSD": 0,
-        "generada": "2026-11-24T22:25:56.308Z"
       }
     }
   ]
