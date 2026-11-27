@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-27T00:24:31.811Z",
+  "actualizado": "2026-11-27T00:30:12.217Z",
   "ofertas": [
+    {
+      "id": "572843",
+      "tipo": "FREELANCE",
+      "titulo": "Packaging Design for a Baby Formula and Nutrition Brand",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/freelance/572843/Packaging-Design-for-a-Baby-Formula-and-Nutrition-Brand",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-27T00:30:12.217Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "575949",
       "tipo": "FREELANCE",
@@ -3257,45 +3277,6 @@
         },
         "costeUSD": 0.019613400000000003,
         "generada": "2026-11-24T19:25:47.535Z"
-      }
-    },
-    {
-      "id": "574891",
-      "tipo": "FREELANCE",
-      "titulo": "T-Shirt Graphic Design for Fitness, Bodybuilding, and Streetwear",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574891/T-Shirt-Graphic-Design-for-Fitness-Bodybuilding-and-Streetwear",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "MICHAEL DOUGLAS",
-      "solicitantes": 5,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Project Type\nExperience Level\nIntermediate / Expert\nProject Duration\n2–4 weeks\nProject Description\nWe are looking for a talented T-shirt graphic designer specializing in fitness, bodybuilding and premium streetwear apparel.\nThe project involves creating original, high-quality graphic designs for oversized T-shirts.\nWe are looking for someone who can develop original artwork from scratch based on our ideas, concepts and visual references.\nThe ideal designer should have experience with:\nBodybuilding and fitness apparel graphics.\nStreetwear T-shirt designs.\nCustom illustrations and typography.\nProfessional textile printing preparation.\nScreen printing (Silk Screen / Plastisol).\nRequired Deliverables\nOriginal T-shirt graphic designs.\nFront and back design applications.\nEditable Adobe Illustrator files (.AI).\nVector files (.EPS and .PDF).\nHigh-resolution PNG files with transparent backgrounds.\nPrint-ready artwork.\nColor separations suitable for screen printing.\nProfessional T-shirt mockups.\nAdditional Requirements\nAll designs must be original and created specifically for our brand.\nFull exclusive commercial rights to the final approved artwork must be transferred upon final payment.\nWe are looking for a creative professional interested in building a long-term working relationship, with opportunities for future collections and projects.\n– Artes gráficas originais para estampas de camisetas fitness, bodybuilding e streetwear\n– Arquivos finais prontos para produção e impressão em cam",
-      "vista": "2026-11-24T18:25:36.471Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Estampados de camisetas fitness/streetwear con IA y entrega en vector; no hay proyecto igual en el portfolio, así que se ofrece una muestra gratis.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Michael,\n\nFront and back graphics for oversized fitness and bodybuilding tees have to look strong and still print clean in plastisol.\nI'm Leo Gómez, creative director at LeoVisual.nl. I use AI to explore concepts fast from your references, then rebuild each final as clean vector art with custom type in Illustrator.\nBefore you pay anything, I'll send you one front and back design from one of your ideas, mocked up on an oversized tee.\nDelivery: .AI, .EPS, .PDF, transparent PNGs, color separations for screen printing and mockups, with full rights on final payment.\n500 USD, 50% upfront, 2–4 weeks, 2 rounds of changes.\nHow many designs and how many ink colors per print do you have in mind for this first drop?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "2–4 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 932,
-          "salida": 2076,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.069583,
-        "generada": "2026-11-24T18:25:21.319Z"
       }
     }
   ]
