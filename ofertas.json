@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-27T03:25:17.377Z",
+  "actualizado": "2026-11-27T04:25:36.202Z",
   "ofertas": [
+    {
+      "id": "575997",
+      "tipo": "FREELANCE",
+      "titulo": "help with startup",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575997/help-with-startup",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "noah kelly",
+      "solicitantes": 5,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I'm launching SONA, an Australian hydration brand: a high-sodium, barely sweet electrolyte mix for people who train hard in the heat (triathletes, cyclists, runners). The look is raw and sun-struck rather than wellness or neon.\nI'm looking for a designer to help with:\n• Logo and brand identity\n• Social media templates and launch content\n• A landing page\nI already have a creative direction, mood board and type references, so you'd be refining and finishing rather than starting from zero.\nWould you be open to a quick chat or a quote? Happy to send the full brief.\nCheers,\nNoah",
+      "vista": "2026-11-27T04:25:36.202Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Marca de bebida con logo, identidad, redes y landing: encaja con el concepto SESTEO y las webs de Leo.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Noah,\nA raw, sun-struck look for SONA, made for triathletes, cyclists and runners training in the heat, sets it well apart from neon sports drinks.\nI'm Leo, creative director at LeoVisual.nl. Here's a concept identity I designed for a drink brand:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nAnd my landing pages:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nPlan: refine your direction and mood board into the logo and identity, build the social templates and launch content from it, then the landing page.\n1000 USD total, 50% upfront, 2–3 weeks, 2 rounds of changes.\nHappy to read the full brief. Is the landing page for pre-orders or a launch waitlist?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "2–3 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 586,
+          "salida": 1523,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.057139,
+        "generada": "2026-11-27T04:25:34.099Z"
+      }
+    },
     {
       "id": "575979",
       "tipo": "FREELANCE",
@@ -3234,26 +3273,6 @@
         },
         "costeUSD": 0.0420294,
         "generada": "2026-11-24T21:26:06.179Z"
-      }
-    },
-    {
-      "id": "574921",
-      "tipo": "FREELANCE",
-      "titulo": "UXUI Design for a B2B Software Campaign Landing Page",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/freelance/574921/UXUI-Design-for-a-B2B-Software-Campaign-Landing-Page",
-      "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-24T20:08:18.948Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
       }
     }
   ]
