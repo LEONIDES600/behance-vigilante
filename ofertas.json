@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-26T23:25:39.179Z",
+  "actualizado": "2026-11-27T00:24:31.811Z",
   "ofertas": [
+    {
+      "id": "575949",
+      "tipo": "FREELANCE",
+      "titulo": "Luxury Logo Design for a Swiss Watch Brand",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/575949/Luxury-Logo-Design-for-a-Swiss-Watch-Brand",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Emmanuel Palmer",
+      "solicitantes": 18,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a luxury logo created for my Swiss watch brand. The design should convey a premium, refined identity suitable for the high-end watch market.\n– Primary luxury logo for the Swiss watch brand\n– High-resolution logo files suitable for digital and print use\nA logo designer with experience creating premium brand identities, preferably for luxury products or watch brands.\nLuxury, premium, refined.",
+      "vista": "2026-11-27T00:24:31.810Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es un logo de lujo y en el portfolio solo hay una identidad de concepto, así que se envía ofreciendo una muestra antes de que pague.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi Emmanuel,\nA Swiss watch logo has to feel quiet and exact, and hold up on a dial as well as on the box.\nI'm Leo, creative director at LeoVisual.nl. Here is a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy process: 2–3 directions (wordmark and monogram), refine the chosen one, then deliver vector, PNG and PDF files for digital and print.\nBefore you pay anything, I'll send you one logo direction mocked up on a watch dial.\n250 USD, 50% upfront, 2–5 days, 2 rounds of changes.\nIs the brand name final, and do you lean toward a wordmark or a monogram?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "2–5 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 513,
+          "salida": 1534,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.057067,
+        "generada": "2026-11-27T00:24:30.961Z"
+      }
+    },
     {
       "id": "575941",
       "tipo": "FREELANCE",
@@ -3257,45 +3296,6 @@
         },
         "costeUSD": 0.069583,
         "generada": "2026-11-24T18:25:21.319Z"
-      }
-    },
-    {
-      "id": "574869",
-      "tipo": "FREELANCE",
-      "titulo": "Logo for a new social application",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574869/Logo-for-a-new-social-application",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Jarid Margolin",
-      "solicitantes": 35,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Looking for brand design (focusing on the core logo mark) for, Firsthand, a social app that allows friends to share and find recommendations with each other.\nThe intent is to find something fun and inviting, but there needs to a simplicity to it so that it can be used as a favicon, as an app icon, and in the titlebar in an application. I am open to exploring the concept of a mascot, similar to Reddit, or maybe just a simple illustration like Clubhouse.\nRef: https://www.reddit.com/\nRef: https://www.clubhouse.com/\nCurrent brand typeface: https://ohnotype.co/fonts/degular\nI don't have an exact vision of the logo I want. I need help crafting the idea just as much as executing the concept.\nLooking to move quickly as possible with the right designer.",
-      "vista": "2026-11-24T18:25:36.471Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Es un logo y una identidad para una app social: encaja en lo «dudoso» porque no hay un logo de cliente igual en el portfolio, así que se ofrece una muestra antes de pagar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Jarid,\n\nFirsthand needs a mark that feels fun and inviting but still reads clearly as a favicon, an app icon and next to Degular in the titlebar.\nI'm Leo, creative director at LeoVisual.nl. A concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd do it: a short call on how sharing recommendations with friends should feel, then 3 routes (mascot, simple illustration, pure symbol), each tested at 16px, as an app icon and in the titlebar, and I refine the one you choose.\nBefore you pay anything, I'll send you one logo direction mocked up as your app icon and favicon.\n1000 USD, 50% upfront, 2–5 days, 2 rounds of changes.\nAre you leaning more toward a mascot like Reddit's or a simpler illustrated mark like Clubhouse's?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "2–5 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 636,
-          "salida": 1507,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.033657400000000004,
-        "generada": "2026-11-24T18:25:35.476Z"
       }
     }
   ]
