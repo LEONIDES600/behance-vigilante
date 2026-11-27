@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-27T05:25:42.433Z",
+  "actualizado": "2026-11-27T05:37:50.058Z",
   "ofertas": [
+    {
+      "id": "576011",
+      "tipo": "FREELANCE",
+      "titulo": "Product Catalogue And Brochure Design For Neev Orthopaedic Braces And Orthotics",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576011/Product-Catalogue-And-Brochure-Design-For-Neev-Orthopaedic-Braces-And-Orthotics",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Neev, an orthopaedic braces and orthotics brand",
+      "contacto": "shyam makadia",
+      "solicitantes": 3,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a graphic designer to create a product catalogue and brochure for Neev, an orthopaedic braces and orthotics brand. This is a print-focused layout project, with potential for ongoing work if the initial collaboration goes well.\n– Professionally designed print-ready product catalogue for Neev’s orthopaedic braces and orthotics range\n– Professionally designed branded brochure layout\n– Editable source files and print-ready export files\nGraphic designer with experience in print design, catalogue layout, and brochure design.\nThe engagement may lead to ongoing design work based on the success of the initial project.",
+      "vista": "2026-11-27T05:37:50.058Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Diseño editorial e impreso sin proyecto igual en el portfolio; se envía ofreciendo una doble página de muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Shyam,\n\nA print-ready catalogue for Neev's braces and orthotics range needs clear, easy-to-scan product pages, plus a brochure that carries the same brand look.\nI'm Leo Gómez, creative director at LeoVisual.nl. My plan: set a grid and type system, build one product page template (photo, sizes, key features), lay out the full catalogue and the brochure, then deliver editable source files and print-ready PDFs with bleed.\nBefore you pay anything, I'll send you one catalogue spread laid out with two of your braces.\nPrice: 500 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nHow many products will the catalogue include, and do you already have product photos?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 614,
+          "salida": 1275,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.052291,
+        "generada": "2026-11-27T05:37:48.347Z"
+      }
+    },
     {
       "id": "576007",
       "tipo": "FREELANCE",
@@ -3234,45 +3273,6 @@
       "carta": {
         "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
         "sinDescripcion": true
-      }
-    },
-    {
-      "id": "574979",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Identity and Social Media Kit for a Swiss Recruitment Agency",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/574979/Brand-Identity-and-Social-Media-Kit-for-a-Swiss-Recruitment-Agency",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Human Select AG",
-      "contacto": "Alexandar Tasic",
-      "solicitantes": 22,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Human Select AG is a modern recruitment agency in Aarau,\nSwitzerland, placing candidates across all industries in\nGerman-speaking Switzerland. We want to become the most modern,\npremium recruitment brand in the country.\nWe're looking for a brand designer to refine our existing logo\nand build a complete corporate identity system, including a full\nsocial media kit. Brand strategy, slogan and copy will be\nprovided by us – this is a design-only project. All content is\nin German.\nRequirements: editable source files (Figma/Canva/Adobe), full\ntransfer of rights, 2 revision rounds per deliverable. Timeline:\n4–6 weeks.\n- Logo refinement: primary logo, wordmark, icon, light/dark versions\n- Color system, typography, visual language, icon set\n- Visual system for our 6-step method \"SELECT-Prinzip\"\n- Brand guidelines (PDF)\n- Business cards, letterhead, email signature\n- Candidate profile, T&C and contract templates (Word)\n- Presentation template (PowerPoint / Google Slides)\n- Figma UI kit for our website\n- Social media kit (Instagram, LinkedIn, Facebook, TikTok):\n profile pictures, banners, post templates (1:1, 4:5),\n story/reel templates (9:16), highlight covers, carousel,\n job ad and Meta ad templates\n- Apparel designs (polo, hoodie, jacket)\nModern, premium and confident – Swiss precision with a human\ntouch. Clean layouts, generous white space, strong typography\nand a dark green base color (#124D29). Professional and\ntrustworthy for companies, fresh and approachable for\ncandidates. Think",
-      "vista": "2026-11-24T21:26:06.968Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Identidad corporativa completa con kit de redes: se puede entregar, pero el único ejemplo de branding es un concepto, así que la carta ofrece una muestra antes de cobrar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Alexandar,\n\nRefining Human Select's logo into a premium, fintech-feel system around #124D29, with no handshakes or stock clichés, is a brief I'd enjoy.\nClosest work, a concept identity I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nPlan: refine the logo and core system first (colour, type, icons, SELECT-Prinzip visuals), then guidelines, templates, Figma UI kit, social kit and apparel, in editable Figma/Adobe files with full rights.\nBefore you pay anything, I'll send one refined logo direction applied to a LinkedIn banner and a business card.\n1000 USD, 50% upfront, 4–6 weeks, 2 revision rounds per deliverable.\nShould the refined logo keep your current icon, or is a new mark open?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "4–6 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1013,
-          "salida": 1874,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.065867,
-        "generada": "2026-11-24T21:25:47.811Z"
       }
     }
   ]
