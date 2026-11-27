@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-27T11:25:34.941Z",
+  "actualizado": "2026-11-27T13:26:12.274Z",
   "ofertas": [
+    {
+      "id": "576141",
+      "tipo": "FREELANCE",
+      "titulo": "Création de la Première Boutique en Ligne pour Maison IBADA",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576141/Cration-de-la-Premiere-Boutique-en-Ligne-pour-Maison-IBADA",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Deniz Acal",
+      "solicitantes": 3,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Maison IBADA recherche un·e freelance webdesigner pour concevoir sa première boutique en ligne. Le projet doit créer une expérience e-commerce claire et adaptée à l’identité de la marque.\nNous lançons Maison IBADA, une marque suisse de mode pudique contemporaine. Nous imaginons une boutique où l’on découvre les vêtements comme dans une galerie, avec une esthétique épurée et un parcours d’achat simple. Nous cherchons un·e freelance francophone pour donner vie à cet univers. Nous partagerons la direction artistique et les maquettes en privé.\nLe site réunira un accueil, la première collection et ses quatre fiches produits, La Maison et ses projets, le Journal, Les Cœurs d’IBADA (témoignages de la communauté) et Contact & Aide.\nLe forfait comprend le parcours d’achat jusqu’au suivi de commande, un espace client simple, une page après l’achat avec une invocation et des conseils d’entretien, ainsi que l’intégration des textes légaux que nous fournirons ou validerons.\nShopify ou autre solution e-commerce. Un thème existant nous convient s’il s’accorde à l’univers de la marque. Le site doit être soigné sur ordinateur, tablette et téléphone, et facile à mettre à jour.\nBudget maximum de 300 CHF, avec deux séries de révisions incluses. Merci d’indiquer la solution proposée, votre délai, ce que comprend votre forfait et les éventuels frais récurrents. \nSi une partie du périmètre dépasse le budget, indiquez ce que vous proposez de livrer en priorité.\nFreelance webdesigner.\nIl s’agit de la",
+      "vista": "2026-11-27T13:26:12.274Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden expresamente un freelance francófono y Leo no habla francés; además, el presupuesto de 300 CHF es muy ajustado para una tienda completa.",
+        "categoria": "WEB",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 995,
+          "salida": 649,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.041295,
+        "generada": "2026-11-27T13:26:10.691Z"
+      }
+    },
     {
       "id": "576105",
       "tipo": "FREELANCE",
@@ -3261,45 +3300,6 @@
         },
         "costeUSD": 0.078439,
         "generada": "2026-11-25T07:25:33.671Z"
-      }
-    },
-    {
-      "id": "575119",
-      "tipo": "FREELANCE",
-      "titulo": "Hebrew Letter Logo Design for a Nonprofit",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575119/Hebrew-Letter-Logo-Design-for-a-Nonprofit",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Elan Sachs",
-      "solicitantes": 6,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a Hebrew logo creator to design a logo using Hebrew letters for our nonprofit. The project needs to be completed within a few days. It should be a little fun, and colorful, but sophisticated-not too playful.\nIt is for Baderech- filtering students phones.\nWebsite- baderech.org \nLogo should fit in a shield shape- like seen on the website.\nA secondary logo should be the name as text alone.\n– Custom nonprofit logo featuring Hebrew letters\n– Final logo files suitable for digital and print use\nA designer experienced in creating Hebrew-letter logos is required.\nThe logo must incorporate Hebrew lettering.",
-      "vista": "2026-11-25T05:25:12.235Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Logo con letras hebreas y escudo: Leo puede hacerlo, pero piden experiencia en logos hebreos y no hay ninguno en el portfolio, así que la carta ofrece una muestra antes de pagar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi Elan,\n\nBaderech needs a Hebrew-letter mark that fits the shield on your website, colorful and a little fun, but still sophisticated.\nHere is a concept identity I designed, with a main mark and text versions:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nBefore you pay anything, I'll send you one direction of the Baderech shield in Hebrew letters.\nThen: 2–3 color options, the secondary text-only logo, and final SVG, PNG and PDF files for digital and print.\nPrice: 250 USD, 50% upfront, delivery in 3–5 days, 2 rounds of changes.\nShould the lettering spell בדרך exactly as on your website, and keep its current colors?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "3–5 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 615,
-          "salida": 1707,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.060935,
-        "generada": "2026-11-25T05:25:10.985Z"
       }
     }
   ]
