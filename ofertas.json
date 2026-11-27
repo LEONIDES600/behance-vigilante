@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-27T06:33:41.725Z",
+  "actualizado": "2026-11-27T09:25:32.779Z",
   "ofertas": [
+    {
+      "id": "576055",
+      "tipo": "FREELANCE",
+      "titulo": "Modern 2D Vector Dental and Orthodontic Anatomy Illustration Kit",
+      "presupuesto": "500–1000 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576055/Modern-2D-Vector-Dental-and-Orthodontic-Anatomy-Illustration-Kit",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "lies Ep",
+      "solicitantes": 4,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a medical illustrator to create a modern 2D vector kit of dental and orthodontic anatomy for educational presentations. The kit should clearly depict the maxilla, mandible, teeth, and orthodontic appliances in a presentation-ready visual format.\n– Presentation-ready vector illustrations of orthodontic appliances\n– Modern 2D vector illustrations of the maxilla, mandible, and teeth\n– Vector illustrations of orthodontic appliances suitable for educational presentations\n– Editable vector artwork files for presentation use\nModular high-res transparent PNGs + editable vector files: maxilla, mandible, and full dentition (crowns & roots) in frontal, lateral, and occlusal views; optional gingiva/bone layers; separate orthodontic appliances (brackets, tubes, archwires, TADs/mini-screws, power chains, elastics, force arrows).\nMedical illustration expertise is required.\nModern, clear, presentation-ready 2D vector style. Modern, clean 2D vector medical illustration with soft shading and subtle depth (matte editorial style — NOT hyperrealistic or glossy 3D).\nThe illustrations will be used in educational presentations.",
+      "vista": "2026-11-27T09:25:32.779Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Exigen experiencia en ilustración médica (anatomía dental precisa en vectores editables), una especialidad que Leo no tiene.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 792,
+          "salida": 633,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.040163,
+        "generada": "2026-11-27T09:25:31.192Z"
+      }
+    },
     {
       "id": "373363",
       "tipo": "FULLTIME",
@@ -3238,45 +3277,6 @@
         "tokens": null,
         "costeUSD": 0,
         "generada": "2026-11-24T22:25:34.574Z"
-      }
-    },
-    {
-      "id": "575003",
-      "tipo": "FREELANCE",
-      "titulo": "Corporate Logo Recreation and Vector Refinement for BES Group Inc.",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575003/Corporate-Logo-Recreation-and-Vector-Refinement-for-BES-Group-Inc",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "BES Group Inc.",
-      "contacto": "Beatriz Quinones",
-      "solicitantes": 3,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "BES Group Inc. (Beyond Energy Solutions), an established New York City-based energy engineering and sustainability consulting firm, seeks a senior Adobe Illustrator specialist to professionally recreate and refine its existing corporate logo.\nThe objective is to preserve the original corporate identity while enhancing precision, scalability, and visual quality to meet corporate branding standards.\nProposed fixed-price budget: $200–$500. All newly created artwork and applicable intellectual-property rights must be assigned to BES Group Inc. upon final payment.\n- Original, fully editable Adobe Illustrator (.AI) master file with organized layers.\n- Genuine vector artwork with editable paths.\n- SVG, EPS, and print-ready vector PDF files.\n- High-resolution PNG and JPG files.\n- Transparent background versions.\n- Full-color, black, white, and monochrome versions.\n- RGB, CMYK, HEX, and applicable Pantone color specifications.\n- Typography and font specifications, including outlined-text versions.\n- Corporate logo usage and brand identity guidelines.\n- Minimum of three revision rounds.\n- Written intellectual-property assignment to BES Group Inc.\n- No unauthorized third-party graphics, watermarks, or unlicensed assets.\nSenior Adobe Illustrator specialist with demonstrated expertise in corporate branding, logo restoration, precision vector graphics, typography, and professional brand identity systems.\nCandidates must provide relevant portfolio examples, a fixed-price quotation, estimate",
-      "vista": "2026-11-24T22:25:57.074Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Recrear y vectorizar un logo encaja con diseño gráfico, pero piden un especialista sénior en Illustrator y Leo no tiene una pieza igual: se ofrece una muestra antes de cobrar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Beatriz,\nRebuilding the BES Group logo faithfully, with precise geometry and the same colors, needs hand-built vectors, not auto-trace.\nA concept identity I designed, with its full brand system:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nI'd redraw each path by hand in Illustrator, keep the original type and colors, and deliver every file on your list: AI, SVG, EPS, PDF, PNG/JPG, all color versions, color specs, usage guide and IP assignment.\nBefore you pay anything, I'll send the redrawn BES mark next to the original so you can check the precision.\n250 USD fixed, 50% upfront, 7–10 days, 2 revision rounds.\nCould you share the highest-resolution version of the current logo you have?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1129,
-          "salida": 2114,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.071131,
-        "generada": "2026-11-24T22:25:55.992Z"
       }
     }
   ]
