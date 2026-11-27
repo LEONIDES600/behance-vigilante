@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-27T21:26:07.238Z",
+  "actualizado": "2026-11-27T21:38:12.257Z",
   "ofertas": [
+    {
+      "id": "576293",
+      "tipo": "FREELANCE",
+      "titulo": "Illustrator for 10 audiobook covers: a calm night-sky series of classic novels",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576293/Illustrator-for-10-audiobook-covers-a-calm-night-sky-series-of-classic-novels",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Slumber Studios",
+      "contacto": "John Brooks",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "The Sleepy Bookshelf is our line of classic novels read softly for sleep. We're looking for an illustrator to create new square covers for 10 titles in our series style, starting with one paid test cover.\nThe look: our covers share a deep navy night sky with small stars, \"THE SLEEPY BOOKSHELF\" at the top, the title large in the middle, and the author and \"Gently read by Elizabeth Grace\" at the bottom. You'll design the title lettering for each book and the artwork around it. Keep it calm, cozy and restful, with simple shapes that still read as a small phone thumbnail. Reference covers are attached.\nThe 10 titles:\n1. Alice's Adventures in Wonderland (test cover)\n2. Winnie-the-Pooh\n3. The Wind in the Willows\n4. Anne of Green Gables\n5. Little Women\n6. A Journey to the Center of the Earth\n7. The Wonderful Wizard of Oz\n8. The Hound of the Baskervilles\n9. Jane Eyre\n10. The Great Gatsby\nFor each of the 10 titles:\n- A 3000 x 3000 px PNG of the cover\n- The layered source file\nWe'll supply the background, header and footer for each title as a layered template.\nTiming: test cover by December 11, the other nine by January 31.\nRights: once paid, we own the finished covers and source files for any use. You can show them in your portfolio once they're published.\nTo apply, send your portfolio and the date you could start.",
+      "vista": "2026-11-27T21:38:12.257Z",
+      "carta": {
+        "decision": "espera",
+        "motivo": "Ilustración de portadas sin proyecto igual en el portfolio (dudosa), y piden la fecha de inicio, que no consta.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi John,\nTen calm night-sky covers where every title still reads as a tiny phone thumbnail is a lovely brief, and Alice is a great place to start.\nBefore the paid test, I'll send you one quick lettering sketch for Alice on your navy template, free.\nMy plan: custom title lettering for each book, one simple motif around it (a teacup, a rabbit hole), soft shapes that sit inside your header and footer layers, delivered as a 3000 x 3000 PNG plus the layered file.\nPrice: 2,500 USD for all 10 covers, 50% upfront, 2 rounds of changes per cover. Test cover by December 11, the other nine by January 31. I can start as soon as you confirm.\nShould the motifs keep one shared style across the series, or change with each book?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "portada de prueba antes del 11 de diciembre; las otras nueve antes del 31 de enero",
+        "pregunta": "¿Desde qué fecha puedes empezar? (En la carta he puesto «as soon as you confirm».)",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 889,
+          "salida": 2263,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.073151,
+        "generada": "2026-11-27T21:38:11.235Z"
+      }
+    },
     {
       "id": "576281",
       "tipo": "FREELANCE",
@@ -3259,47 +3298,6 @@
         },
         "costeUSD": 0.035933400000000004,
         "generada": "2026-11-25T10:25:43.584Z"
-      }
-    },
-    {
-      "id": "335395",
-      "tipo": "FULLTIME",
-      "titulo": "Creative Graphic Designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/335395/Creative-Graphic-Designer",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "En cualquier lugar",
-      "empresa": "TRENDFORMER",
-      "contacto": "Human Resource",
-      "solicitantes": 300,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "TRENDFORMER  – це компанія з інноваційним продуктом, адже ми не просто виготовляємо іграшки! Наша професійна та творча команда створила та вивела на міжнародний ринок власні унікальні фіджитал продукти під брендами  PIXIO  (https://pixio.site/),  HEY CLAY  (https://hey-clay.com/) та  VOXART  (https://vox.art/), які успішно продаються у понад 30 країнах світу.\n Наша команда потребує підсилення, тому шукаємо  Графічного дизайнера , з великим багажем проектів за плечима.\n За що буде відповідати Графічний дизайнер:\n Брати участь в генеруванні візуальних ідей та концепцій для HEY CLAY, PIXIO та нових продуктів компанії;\n Втілювати візуальні концепції на основі створених креативних ідей;\n Розробляти дизайн пакувань;\n Створювати віжуали та дизайн інтерактивних презентацій;\n Розробляти матеріали для сторінок наших брендів у соцмережах.\n Наш ідеальний кандидат:\n Вміє працювати у Photoshop, Illustrator, Figma та ін.;\n Художня освіта та розробка персонажів буде плюсом;\n Постійно розвивається та слідкує за трендами у дизайні, іграх та іграшковій індустрії;\n Має мінімум 2 роки досвіду роботи в рекламних, дизайн та/або креативних агенціях;\n Сприймає конструктивну критику та спокійно реагує до ітерацій в процесі, щоб досягти ідеального результату.\n Для нас є цінним:\n Уважність до деталей і бажання створювати perfect дизайн;\n Креативність та можливість приносити більше, ніж 1 ідею;\n Відповідальність і самостійність;\n Робота в команді та готовність вносити максимум у командний результат.\n Ми ",
-      "vista": "2026-11-25T10:26:05.039Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja con packaging, presentaciones y redes, pero no hay packaging real de cliente y piden 2 años en agencias; se ofrece una prueba corta.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nHEY CLAY, PIXIO and VOXART need packaging, presentation visuals and social content that feel playful for kids and still read clearly on shelves in more than 30 countries.\nI'm Leo Gómez, creative director at LeoVisual.nl. I've spent 2 years making short performance ads, along with product imagery and brand visuals in Adobe tools and Figma.\nThe closest piece to your packaging work is a concept identity I designed for a sun tea brand:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nAnd product visuals for an e-commerce listing:\nhttps://www.behance.net/gallery/251447375/Premium-Amazon-Listing-Design-for-Living-Logic\nFor you, I'd start from the play idea behind each product, bring two or three concept directions, then build the packaging, interactive decks and social posts from the chosen one, iterating with your team.\nI'm happy to do a short test task, for example one packaging direction for a new HEY CLAY set.\nWhich product line would the new designer focus on first?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [
-          "menciona años"
-        ],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1084,
-          "salida": 2106,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.047429400000000004,
-        "generada": "2026-11-25T10:26:03.775Z"
       }
     }
   ]
