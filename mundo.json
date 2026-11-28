@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-28T17:46:20.952Z",
+  "actualizado": "2026-11-28T19:49:19.380Z",
   "ofertas": [
+    {
+      "id": "gec/jobs/product-management-ia-generative",
+      "tipo": "CONTRACTOR",
+      "titulo": "Product Management IA Generative",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/gec/jobs/product-management-ia-generative?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "France",
+      "empresa": "GEC",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "Description et livrables de la prestation\n Contexte :\n Nous recherchons une prestation de Product Management pour superviser le développement et la \nmise en œuvre de notre plateforme d'IA générative.\n Prestations attendues :\n  Superviser tous les aspects de vie du produit, y compris la planification, l'allocation des \nressources, le suivi du progrès et la communication avec les parties prenantes. \n Travailler en étroite collaboration avec l’équipe technique : ingénieurs, développeur, data \nscientists et les autres membres de l'équipe pour assurer une exécution fluide du projet. \n Définir les objectifs du projet, développer des plans détaillés et veiller à ce que le produit soit \nréalisé dans les délais et le budget prévus. \n Identifier les risques et mettre en place des plans de contin",
+      "vista": "2026-11-28T19:49:19.380Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Piden un product manager senior con 10 años de experiencia, certificación SAFe, dominio de GCP, LangChain y RAG, y francés obligatorio, y Leo no cumple nada de eso.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1266,
+          "salida": 366,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.036719,
+        "generada": "2026-11-28T19:49:18.506Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "quickbase-inc/jobs/lead-product-designer",
       "tipo": "FULL_TIME",
@@ -3958,46 +3998,6 @@
         },
         "costeUSD": 0.0125174,
         "generada": "2026-11-26T10:25:33.913Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "luni/jobs/freelance-ai-microdrama-director-shorts-by-luni",
-      "tipo": "CONTRACTOR",
-      "titulo": "Freelance AI Microdrama Director · Shorts by Luni",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/luni/jobs/freelance-ai-microdrama-director-shorts-by-luni?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "France",
-      "empresa": "Luni",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "🇫🇷 En bref : Luni recherche un·e réalisateur·rice IA freelance, en full remote, pour produire des micro-dramas verticaux pour son app Shorts : 2 séries de 15 épisodes par semaine. Détail de l'annonce en anglais.\n Direct for an app 22,000 people open every day\n Shortsis our vertical drama app: 22k daily active users and 227k downloads a month across app and web. Every week, you'll take two validated scripts and turn them into two complete series. No festival, no waiting: within days, you'll see which cliffhanger kept people watching.\n Why we're hiring\n Luni builds B2C mobile apps used by millions, including 🎬 Shorts, our vertical drama app, alongside ⭐️ Astro Club and 🖨️ Scanner. Most of our revenue comes from in-app subscriptions in the US.\n On Shorts, our freelance writers deliver val",
-      "vista": "2026-11-26T08:22:33.415Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Dirección y montaje de microdramas con IA en remoto: encaja con sus cortos y anuncios cinematográficos con IA.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nTurning two validated scripts into 30 vertical episodes a week, each ending on a cliffhanger, means fast take selection and tight continuity.\nI'm Leo Gómez, creative director at LeoVisual.nl. I make cinematic AI shorts and ads (ORBE, SILENCIO): idea, generation, edit and sound.\nhttps://www.behance.net/gallery/254527569/Where-Imagination-Becomes-Real-AI-Cinematic-Short\nIn Shorts Studio I'd lock characters and sets first, break each script into shots, keep only the takes that hold continuity, and cut every episode to land the hook.\nRate reference: 25 USD/h, open to your per-episode rate; 50% upfront on the first batch, 2 rounds of changes per episode, delivered on your weekly schedule.\nHappy to do the case study. Is the cliffhanger fixed in the script, or is it the director's call?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1323,
-          "salida": 1991,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.069447,
-        "generada": "2026-11-26T08:21:33.384Z"
       },
       "fuente": "himalayas"
     }
