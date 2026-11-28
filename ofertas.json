@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-28T12:26:36.442Z",
+  "actualizado": "2026-11-28T13:24:45.891Z",
   "ofertas": [
+    {
+      "id": "576471",
+      "tipo": "FREELANCE",
+      "titulo": "Digital Artist/Illustrator",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576471/Digital-ArtistIllustrator",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Revalla and Raman",
+      "contacto": "Re Ra",
+      "solicitantes": 2,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "We're Hiring | Illustrator / Digital Artist\nAbout Revalla & Raman\nRevalla & Raman is a multidisciplinary creative studio based in Hyderabad, exploring art, design, and visual expression across diverse creative verticals.\nThe Role\nWe are looking for a passionate Illustrator / Digital Artist with strong freehand drawing skills and proficiency in Procreate. Someone who loves experimenting with styles, colours, textures, and visual storytelling.\nWhat You'll Work On\n- Illustrations for wallpapers, wall coverings, and customised fabrics.\n- Wedding invitations, stationery, and bespoke designs.\n- Children's book illustrations and visual storytelling.\n- Artwork for branding and visual identity projects.\n- Creative explorations across different art and design applications.\nWhat We're Looking For\n- Proficiency in Procreate and freehand digital illustration.\n- Strong drawing skills and an eye for colour and composition.\n- A versatile artistic style and willingness to experiment.\n- Creativity, curiosity, and attention to detail.\nThe Opportunity\nWork across diverse art-based projects, explore different creative mediums, and see your illustrations transform into tangible design experiences.\nLocation: Hyderabad \nWork Mode: Full-time | Work from Office \nExperience: Freshers / Experienced candidates\nTo Apply: Share your CV and illustration portfolio with us.",
+      "vista": "2026-11-28T13:24:45.891Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es presencial y a tiempo completo en Hyderabad, y piden dibujo a mano en Procreate e ilustración infantil.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 868,
+          "salida": 331,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.034427,
+        "generada": "2026-11-28T13:24:44.539Z"
+      }
+    },
     {
       "id": "576459",
       "tipo": "FREELANCE",
@@ -3185,45 +3224,6 @@
         },
         "costeUSD": 0.0342214,
         "generada": "2026-11-25T18:26:14.133Z"
-      }
-    },
-    {
-      "id": "575405",
-      "tipo": "FREELANCE",
-      "titulo": "Logo",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575405/Logo",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Élan Botanicals",
-      "contacto": "Cindy Dubuisson",
-      "solicitantes": 8,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Présentation du projet\nJe suis la fondatrice d’ÉLAN Botanicals, une marque de soins capillaires botaniques haut de gamme spécialisée dans les huiles capillaires et les soins favorisant des cheveux plus forts, plus sains et une meilleure rétention de longueur.\nJe recherche un designer ou une agence créative expérimentée pour finaliser l’identité visuelle de ma marque et préparer son lancement officiel.\nLivrables souhaités\n* Branding : harmonisation de l’identité visuelle et création d’une charte graphique professionnelle.\n* Packaging : conception des bouteilles, emballages et étiquettes pour trois huiles capillaires, un shampooing et un revitalisant.\n* Site web : design et personnalisation d’une boutique Shopify élégante, professionnelle et adaptée aux appareils mobiles.\n* Réseaux sociaux : création de modèles graphiques pour Instagram, publications, stories et contenus promotionnels.\n* Identité premium : univers visuel luxueux, minimaliste et intemporel, principalement noir et or.",
-      "vista": "2026-11-25T16:26:30.220Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja en web y redes, pero en branding y packaging solo hay un proyecto de concepto, así que la carta ofrece una muestra antes del pago.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Cindy,\nA minimal, timeless black-and-gold look for ÉLAN's three hair oils, shampoo and conditioner needs one consistent system, from label to Shopify.\nI'm Leo, creative director at LeoVisual.nl. Closest work, a concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nPlan: 1) refine your identity and build the brand guide, 2) design bottles, boxes and labels for the 5 products, 3) design and customise a mobile-first Shopify store, 4) Instagram post, story and promo templates.\nBefore you pay anything, I'll send you one label direction mocked up on a hair oil bottle.\n1000 USD, 50% upfront, 3–4 weeks, 2 rounds of changes.\nDo you already have a logo and bottle shapes, or do we start from scratch?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "3–4 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 777,
-          "salida": 1575,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.058943,
-        "generada": "2026-11-25T16:26:16.027Z"
       }
     }
   ]
