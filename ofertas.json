@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-28T07:25:52.719Z",
+  "actualizado": "2026-11-28T09:25:36.139Z",
   "ofertas": [
+    {
+      "id": "576417",
+      "tipo": "FREELANCE",
+      "titulo": "Human-Created Anime and Manga Style Illustration",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576417/Human-Created-Anime-and-Manga-Style-Illustration",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Daniel Barbieto",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for a human illustrator to create anime or manga-style artwork. AI-generated art is not acceptable; all illustration work must be created by a human artist.\n– Human-created anime or manga-style illustration\n– Final artwork free from AI-generated content\nMust be a human illustrator and able to produce original, non-AI-generated artwork.\nAnime/manga style.\nAI-generated artwork is explicitly prohibited.",
+      "vista": "2026-11-28T09:25:36.138Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "El cliente prohíbe expresamente la IA y pide ilustración anime/manga hecha a mano, que Leo no hace.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 532,
+          "salida": 288,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.032223,
+        "generada": "2026-11-28T09:25:35.012Z"
+      }
+    },
     {
       "id": "576379",
       "tipo": "FREELANCE",
@@ -3240,45 +3279,6 @@
         },
         "costeUSD": 0.071179,
         "generada": "2026-11-25T12:37:50.107Z"
-      }
-    },
-    {
-      "id": "372977",
-      "tipo": "FULLTIME",
-      "titulo": "Graphic Designer",
-      "presupuesto": "65.000–80.000 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/372977/Graphic-Designer",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "En cualquier lugar",
-      "empresa": "Karuna Digital",
-      "contacto": "Nicholas Jimenez",
-      "solicitantes": 1,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "Senior Graphic Designer, AI-Enabled Creative Production\n Karuna Digital | Remote | Contract-to-hire or Full-time \n Karuna Digital is building an AI-enabled creative team and is looking for a designer who can produce excellent work at scale without sacrificing taste or craft.\n You’ll use AI tools and well-designed prompts to accelerate ideation and creative production across multiple brands and formats. A strong visual eye is essential: you should be able to spot when AI-generated work feels generic, inconsistent, or unfinished, then art-direct, refine, and finish it so the result feels intentional and specific to the brand.\n You’ll also help us improve how creative work moves through our developing agentic workflows. We’re looking for someone who can combine design judgment, practical AI skills, and repeatable production methods.\n What you’ll do\n Design campaign, social, email, presentation, and brand assets.\n Use AI tools to explore creative directions, generate and adapt assets, and produce variations efficiently.\n Write, test, and refine prompts that produce useful, consistent results across recurring tasks.\n Build reusable prompt, reference, and template systems for client work.\n Art-direct and refine AI-assisted work so it feels polished, distinctive, and on-brand.\n Identify and correct common problems in AI-generated work, including generic concepts, awkward composition, inconsistent details, and a synthetic or unfinished look.\n Review every deliverable for visual quali",
-      "vista": "2026-11-25T12:38:10.568Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Diseño gráfico con IA para producir mucho volumen y flujos con agentes, 100 % remoto: encaja con su trabajo de listings, campañas y agentes.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Nicholas,\n\nYour brief asks for someone who can tell when AI output looks generic or synthetic, then art-direct it until it fits the brand, at volume and across several brands.\nI'm Leo Gómez, creative director at LeoVisual.nl in Amsterdam. In paid client work I use GPT Image, Nano Banana Pro, Kling and Seedance, and I finish the work in Adobe and Figma. For a home brand selling on Amazon in several European countries (under NDA), I produced a large set of listing images, videos and A+ content, and built AI agents for their team.\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nhttps://www.behance.net/gallery/251447375/Premium-Amazon-Listing-Design-for-Living-Logic\nMy method: a reference board and a prompt template for each brand and format, batches of variations, a tight selection, then manual fixes to composition, type and details before review. I also build agent workflows with n8n and Make, so I can help shape your agentic production pipeline.\nI'm happy to do a test task and show the prompts, the raw outputs and how I refined each one.\nWhich brands and formats would the first weeks focus on?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1120,
-          "salida": 1858,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0426134,
-        "generada": "2026-11-25T12:38:09.531Z"
       }
     }
   ]
