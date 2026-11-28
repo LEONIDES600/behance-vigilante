@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-28T17:24:00.962Z",
+  "actualizado": "2026-11-28T17:25:30.329Z",
   "ofertas": [
+    {
+      "id": "576537",
+      "tipo": "FREELANCE",
+      "titulo": "Diseño de App para una Aplicación de Naturaleza",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576537/Diseno-de-App-para-una-Aplicacion-de-Naturaleza",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Kraken Nature",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Busco un diseñador de apps para desarrollar el diseño de mi aplicación de naturaleza. El presupuesto es de 1.000 €, negociable según la calidad y experiencia demostrada en el portfolio.\nDESCRIPCIÓN DEL PROYECTO\nBusco a un diseñador o diseñadora con experiencia en apps móviles para crear el concepto visual y las pantallas de una app de fauna, lista para presentar como MVP. Quiero un universo visual propio, con personalidad, que no parezca una plantilla.\nPlataforma: Android y iOS\nTono: Muy personal, confio en el criterio del diseñador, no obstante, explicaré brevemente mi visión a quien pase.\nFunciones principales del MVP:\n- Juego de fichas\n- Interfaz de comunidad\n- Cuaderno de campo\n- Ventana de viajes\nQUÉ SE DEBE ENTREGAR\n1. Concepto visual: moodboard, tono y dirección de estilo para fotos o ilustraciones de animales.\n2. Guía de estilo: paleta de colores (con estados de error, éxito y aviso), tipografías libres de licencia con jerarquía de tamaños, iconografía, botones, esquinas, sombras y espaciados.\n3. Biblioteca de componentes en Figma (botones, tarjetas, navegación, buscador, filtros, formularios) con estados de carga, vacío y error.\n4. Mapa de la app: esquema de pantallas y cómo se conectan.\n5. 12-15 pantallas clave en alta fidelidad (bienvenida, registro/acceso, inicio o descubrir, buscador con filtros, ficha de animal, mapa, juego, colección, perfil, viajes y ajustes).\n6. Prototipo clicable en Figma. (Opcional y se pagará aparte)\n7. Icono de la app y pantalla de carga ",
+      "vista": "2026-11-28T17:25:30.329Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Diseño de interfaz cercano a sus webs, pero sin apps móviles en el portfolio; se ofrece una pantalla de muestra.",
+        "categoria": "WEB",
+        "idioma": "es",
+        "carga": "alta",
+        "texto": "¡Hola!\nUna app de fauna con tintes científicos, cuaderno de campo y juego de fichas pide un universo propio, no una plantilla.\nSoy Leo, director creativo de LeoVisual.nl. Mi trabajo de interfaz más cercano:\nhttps://www.behance.net/gallery/257281965/3D-Scroll-Websites-11-Worlds-You-Scroll-Through\nAntes de que pagues nada, te envío la ficha de animal a 390x844 en Figma con una primera dirección de estilo.\nProceso: moodboard y guía de estilo, componentes con auto layout, mapa de la app y 12-15 pantallas. La IA solo la uso para explorar referencias; el diseño se hace a mano en Figma.\nPrecio cerrado: 1.000 €, 50 % por adelantado, 3–4 semanas y 2 rondas de cambios. Logo: sí me apunto, con precio aparte.\n¿Qué animal o hábitat te gustaría ver en esa primera ficha?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 1000,
+        "anticipoPct": 50,
+        "plazo": "3–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 2044,
+          "salida": 2717,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.086851,
+        "generada": "2026-11-28T17:25:29.154Z"
+      }
+    },
     {
       "id": "576547",
       "tipo": "FREELANCE",
@@ -3211,26 +3250,6 @@
       "titulo": "3D Visualizer",
       "presupuesto": "",
       "enlace": "https://www.behance.net/joblist/fulltime/372827/3D-Visualizer",
-      "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-25T18:58:43.798Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
-      }
-    },
-    {
-      "id": "372821",
-      "tipo": "FULLTIME",
-      "titulo": "Visual Designer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372821/Visual-Designer",
       "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
