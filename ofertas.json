@@ -1,6 +1,84 @@
 {
-  "actualizado": "2026-11-28T13:24:45.891Z",
+  "actualizado": "2026-11-28T15:25:46.443Z",
   "ofertas": [
+    {
+      "id": "576521",
+      "tipo": "FREELANCE",
+      "titulo": "Logo Cleanup by a Graphic Designer",
+      "presupuesto": "250–500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576521/Logo-Cleanup-by-a-Graphic-Designer",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "BNYC LLC",
+      "contacto": "Benjmain Brickner",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I am an art director working on a brand identity refresh for a small business. I have created a wordmark + monogram that the clients are happy with, I just need an expert to go in and refine the vector and apply their technical expertise (correct geometry, spacing, scale, etc.)\n– Cleaned-up and refined logo design\n– Final logo files suitable for digital use",
+      "vista": "2026-11-28T15:25:46.443Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Es una limpieza de logo vectorial, un encargo de branding que Leo puede hacer, pero no tiene una pieza igual en el portfolio, así que la carta ofrece una muestra antes de cobrar.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "baja",
+        "texto": "Hi Benjamin,\nYour wordmark and monogram are already approved, so the job is precision: clean geometry, even spacing and balanced scale without changing the idea.\nA concept identity I designed, where the logo had to hold up at every size:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nBefore you pay anything, I'll send you the monogram refined with a before/after overlay.\nSteps: rebuild curves with clean anchor points, align to a grid, optical kerning on the wordmark, test small and large, then export SVG, PDF and PNG (color, black, white).\n500 USD, 50% upfront, 2–5 days, 2 rounds of changes.\nHave you already flagged specific spacing or scale issues, or should I propose corrections?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 500,
+        "anticipoPct": 50,
+        "plazo": "2–5 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 495,
+          "salida": 1375,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.053815,
+        "generada": "2026-11-28T15:25:30.625Z"
+      }
+    },
+    {
+      "id": "576517",
+      "tipo": "FREELANCE",
+      "titulo": "AI Characters With Lip Sync",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576517/AI-Characters-With-Lip-Sync",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Trade Bazi",
+      "solicitantes": 0,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I’m looking for someone to turn my ideas into short AI-animated videos for my dental clinic. I already have the character designs and scripts. I’d like the characters to speak Lebanese Arabic with accurate lip-sync and natural facial expressions.\n– AI character visuals ready for animation\n– Lip-synced character video matched to the provided audio",
+      "vista": "2026-11-28T15:25:46.443Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Vídeo de personajes con IA y lip-sync sobre un audio que pone el cliente; Leo no necesita hablar árabe y el presupuesto es aceptable.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi!\nYou already have the character designs and scripts for your dental clinic, so the key is making them speak your Lebanese Arabic audio with accurate lip-sync and natural expressions.\nClosest example of my AI character and story work:\nhttps://www.behance.net/gallery/254527569/Where-Imagination-Becomes-Real-AI-Cinematic-Short\nHow I'd do it: prepare your characters as consistent AI visuals ready for animation, animate them in Kling or Seedance, match mouths and expressions to your audio, then edit and finish in Premiere.\nBefore you pay anything, I'll send you a 5-second test of one character speaking a line of your audio.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, 2 rounds of revisions.\nHow many videos do you need, and roughly how long is each one?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 501,
+          "salida": 1523,
+          "cacheLeida": 4867,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.0334374,
+        "generada": "2026-11-28T15:25:45.180Z"
+      }
+    },
     {
       "id": "576471",
       "tipo": "FREELANCE",
@@ -3146,84 +3224,6 @@
       "carta": {
         "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
         "sinDescripcion": true
-      }
-    },
-    {
-      "id": "575459",
-      "tipo": "FREELANCE",
-      "titulo": "Logo Design for Gaia Sustainable Laptop and iPad Cases",
-      "presupuesto": "500–1000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575459/Logo-Design-for-Gaia-Sustainable-Laptop-and-iPad-Cases",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Latifa Aljomaih",
-      "solicitantes": 4,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a logo designer for Gaia, my sustainable and aesthetic laptop and iPad case brand created for teenagers. The logo should communicate an eco-conscious, stylish identity that resonates with a teen audience.\n– Primary logo design for Gaia\n– Logo files suitable for digital use on the brand’s products and channels\nSustainable, aesthetic, and teen-oriented.\nThe brand sells sustainable laptop and iPad cases and is aimed at teens.",
-      "vista": "2026-11-25T18:26:15.770Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Logo para una marca de fundas sostenibles: encaja con IA, pero no hay un logo igual en el portfolio, así que la carta ofrece una muestra antes de pagar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "baja",
-        "texto": "Hi Latifa,\n\nGaia needs a logo that feels eco-conscious but still cool enough for a teen to want it on their laptop case. I'm Leo, creative director at LeoVisual.nl.\nA concept identity I designed, from logo to packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nMy plan: a short moodboard, 3 primary logo directions, then the chosen one refined and delivered as SVG, PNG and PDF for your products and channels.\nBefore you pay anything, I'll send you one Gaia logo direction mocked up on a laptop sleeve.\nPrice: 1000 USD, 50% upfront, 2–5 days, 2 rounds of changes.\nShould the logo lean toward earthy natural tones or bold, playful colours for teens?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 1000,
-        "anticipoPct": 50,
-        "plazo": "2–5 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 550,
-          "salida": 1228,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.051095,
-        "generada": "2026-11-25T18:25:59.838Z"
-      }
-    },
-    {
-      "id": "575449",
-      "tipo": "FREELANCE",
-      "titulo": "Brand Identity for a Smash Burger Restaurant",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575449/Brand-Identity-for-a-Smash-Burger-Restaurant",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Lux Smash Burgers",
-      "contacto": "Alexandar Tasic",
-      "solicitantes": 10,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I'm looking for a freelancer to develop a complete brand identity from scratch for a new smash burger restaurant in Pratteln, near Basel (Switzerland). Nothing exists yet: no concept, no logo, no colours, no photos. The restaurant offers dine-in, take-away and delivery. It should feel premium but approachable, rooted in Swiss quality beef. I'm looking for someone who can handle the whole process, from positioning and naming the visual direction to a finished, consistent brand system.\nDeliverables\n- Brand strategy and positioning: story, tone of voice, taglines\n- Visual direction and moodboard\n- Logo system: primary logo, secondary versions and icon, in colour, one-colour and negative\n- Colour palette and typography\n- Brand illustration or mascot, if it fits the concept\n- Patterns and graphic elements\n- Packaging: burger box, wrapping paper, fries bag, cup, take-away bag\n- Menu card and menu board\n- Crew wear and merch: shirts, apron, cap\n- Signage concept for the façade\n- Social media templates for posts, stories and highlight covers\n- Mockups for presentation\n- Brand guidelines and final logo files (SVG, PNG, PDF)",
-      "vista": "2026-11-25T18:26:15.770Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Identidad completa de marca con packaging: Leo solo tiene un proyecto conceptual parecido, así que la carta ofrece una muestra antes del pago.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Alexandar,\nA smash burger place in Pratteln that feels premium but approachable, built on Swiss quality beef, needs one system that works from the burger box to the façade.\nClosest example, a concept identity I designed with packaging:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd do it: strategy and tone first, then moodboard, logo system, colours and type, then packaging, menu, crew wear, signage, social templates and guidelines (SVG, PNG, PDF).\nBefore you pay anything, I'll send you one logo direction mocked up on your burger box and cap.\nFull project: 500 USD, 50% upfront, 2–3 weeks, 2 rounds of changes.\nIs there already a photo of the façade I can use for the signage concept?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "2–3 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 802,
-          "salida": 1502,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0342214,
-        "generada": "2026-11-25T18:26:14.133Z"
       }
     }
   ]
