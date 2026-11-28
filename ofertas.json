@@ -1,6 +1,86 @@
 {
-  "actualizado": "2026-11-28T12:07:24.041Z",
+  "actualizado": "2026-11-28T12:26:36.442Z",
   "ofertas": [
+    {
+      "id": "576459",
+      "tipo": "FREELANCE",
+      "titulo": "Creative Studio Partner for NAAMA in Marrakech",
+      "presupuesto": "1000–2500 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576459/Creative-Studio-Partner-for-NAAMA-in-Marrakech",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "NAAMA RESTAURANT",
+      "contacto": "72 RIAD LIVING",
+      "solicitantes": 14,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Creative Studio for Long-Term Partnership: Illustrated Drink Menu for NAAMA, Marrakech.\nIllustration, Graphic Design, Editorial Design, Print Design, Branding.\nNAAMA is a fine dining restaurant in Marrakech, Morocco. We're looking for a creative studio to become our long-term creative partner.\nWe'd like to start with one project, a new illustrated drink menu booklet. If it goes well, we want to keep working together on future projects: menus, printed materials, social media content, campaigns and brand visuals.\nTHE FIRST PROJECT\nAn illustrated drink menu booklet of around 9 pages front and back, format A5:\nOriginal illustrations: cover, section openers, signature drinks and decorative details\nLayout and typography for all menu content in English.\nDelivery of print-ready PDFs, editable source files and high-resolution illustrations.\nOUR CREATIVE DIRECTION\nWe already have a clear vision. You'll receive a brief with a mood board, colour palette, typography direction and references. Your studio must follow our aesthetic instructions. We welcome your ideas, but the final direction stays with us.\nSTYLE TEST\nBefore we start, shortlisted studios will create a mockup of one menu element, such as a cocktail and plant, in 2–3 different illustration styles. \nThis shows us how you read our brief and which direction fits us best. \nREQUIREMENTS\nStrong portfolio in illustration and print or editorial design.\nHospitality, luxury or restaurant experience is a plus.\nPlastic-free production: NAA",
+      "vista": "2026-11-28T12:26:36.442Z",
+      "carta": {
+        "decision": "dudosa",
+        "motivo": "Encaja en diseño editorial y de marca, pero no hay proyecto de ilustración en el portfolio; la prueba de estilo que piden sirve de muestra.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi!\nAn A5 illustrated drink menu for NAAMA, starting with a cocktail-and-plant style test, is a lovely way to begin a long-term partnership. I'm Leo, creative director at LeoVisual.nl.\nClosest piece, a concept drinks identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd do it: follow your mood board and palette, send the cocktail and plant in 3 styles, then illustrate the cover, openers and signature drinks, set the English layout, and deliver print-ready PDFs for plastic-free stock, source files and hi-res art with full usage rights.\nBefore you pay anything, the style test is yours to judge.\n2500 USD, 50% upfront, 2–3 weeks, 2 rounds of changes.\nWhich paper finish do you have in mind instead of lamination?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 2500,
+        "anticipoPct": 50,
+        "plazo": "2–3 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1031,
+          "salida": 1707,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.062599,
+        "generada": "2026-11-28T12:26:14.018Z"
+      }
+    },
+    {
+      "id": "576455",
+      "tipo": "FREELANCE",
+      "titulo": "Adobe Premiere Pro Video Editing",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576455/Adobe-Premiere-Pro-Video-Editing",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "Loopsoop",
+      "contacto": "Ritik Verma",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Loopsoop is a video editing studio in Gurugram, India. We're looking for a freelance video editor who works in Adobe Premiere Pro. You'll edit reels and shorts, talking-head YouTube videos and podcasts, and performance ads for D2C brands.\nEdited videos to our brief: reels and shorts (15 to 60 seconds), talking-head and podcast episodes, and ad cuts\nFirst cuts within 24 hours for reels and talking-head videos\nCaptions, sound clean-up, music and colour correction in every edit\nExports in 9:16, 4:5, 1:1 and 16:9, plus .srt caption files\nUp to two revision rounds from timestamped feedback\nOrganised Premiere Pro project files with linked media\n2+ years editing in Adobe Premiere Pro, with a portfolio of reels, YouTube or ad edits\nA strong sense of hooks, pacing and retention in short-form video\nAnimated captions and basic motion graphics (After Effects is a plus)\nAudio clean-up and colour correction skills\nFluent English; Hindi is a plus\nReliable on deadlines and available Mon to Sat during IST working hours",
+      "vista": "2026-11-28T12:26:36.442Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Encaja: edición en Premiere de reels, anuncios y vídeos con presentador. Ojo: piden más de 2 años de edición e inglés fluido, y Leo tiene menos de 2 años y nivel B1.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "Hi Ritik!\nFast first cuts for D2C ad edits, reels and talking-head videos, with captions, clean audio and colour in every edit, is the short-form work I enjoy most.\nI'm Leo, creative director at LeoVisual.nl. I've made short performance ads for 2 years, editing in Premiere Pro and After Effects.\nA recent campaign:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I'd work: a strong hook up front, tight pacing for retention, animated captions plus .srt, audio clean-up, colour, exports in 9:16, 4:5, 1:1 and 16:9, and tidy project files with linked media.\nPrice: 250 USD, 50% upfront, first cuts within 24 hours, 2 revision rounds.\nHappy to do a short test edit first.\nHow many edits per week do you expect, and which format comes first?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "primeros cortes en 24 horas",
+        "pregunta": "",
+        "avisos": [
+          "menciona años"
+        ],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 768,
+          "salida": 2231,
+          "cacheLeida": 4867,
+          "cacheEscrita": 0
+        },
+        "costeUSD": 0.048665400000000004,
+        "generada": "2026-11-28T12:26:35.198Z"
+      }
+    },
     {
       "id": "373511",
       "tipo": "FULLTIME",
@@ -3144,84 +3224,6 @@
         },
         "costeUSD": 0.058943,
         "generada": "2026-11-25T16:26:16.027Z"
-      }
-    },
-    {
-      "id": "575401",
-      "tipo": "FREELANCE",
-      "titulo": "Promotional Poster Design With Clean Gradients and Modern Typography",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575401/Promotional-Poster-Design-With-Clean-Gradients-and-Modern-Typography",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Highannddd ray",
-      "solicitantes": 6,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a graphic designer to create promotional posters with clean gradients and modern typography. My budget for this project is $150.\n– Promotional poster designs featuring clean gradients and modern typography\n– Final poster files suitable for promotional use\nClean gradients and modern typography.",
-      "vista": "2026-11-25T16:26:30.220Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Diseño gráfico de carteles promocionales, encaja con sus servicios y el cliente indica 150 USD.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nPromotional posters built on clean gradients and modern typography depend on spacing and type hierarchy, so that is where I would start.\nI'm Leo, creative director at LeoVisual.nl. My closest campaign work:\nhttps://www.behance.net/gallery/254580183/Cinematic-AI-Eyewear-Campaign-LeoVisualnl\nHow I'd do it: a short brief on your message and colors, two gradient and type directions, then the full set refined and exported for print and screens.\nBefore you pay anything, I'll send you one poster direction with your headline so you can judge the gradient and type.\nPrice: 150 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nHow many posters do you need, and in which sizes?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 150,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 472,
-          "salida": 1388,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0306214,
-        "generada": "2026-11-25T16:26:29.161Z"
-      }
-    },
-    {
-      "id": "575349",
-      "tipo": "FREELANCE",
-      "titulo": "Psychedelic Music Video Motion Design and Animation",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575349/Psychedelic-Music-Video-Motion-Design-and-Animation",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "Alex Koskull",
-      "solicitantes": 5,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "Hi, I’m Alex, a London-based producer and guitarist behind Kavé, an audiovisual project set in the future on the fictional planet Perpetua. \nI’m looking for a motion designer and animator to collaborate with me on a video for my next single, We Used To See, planned for spring 2027.\nThe song is a fever dream in which Kavé reconnects with someone he once held dear. I picture distressed digital textures, dancing silhouettes, faces emerging from TV static and waveforms moving with the guitars, with strong sunset colours. I’d love to work with someone who has a feel for animating to music.\nI’ve put together a visual treatment to give you a feel for the track, the film and visual style I have in mind. It includes key elements and shots, references for the visual style, and a rough storyboard showing how the scenes follow the music. I’d love to see what you would create from the treatment and the song, and how you’d bring them to life in your own style. Happy to provide more specific guidance (e.g. on design / style) if needed. \nVisual treatment: https://canva.link/myupey7q5de03cl \nListen to We Used To See: https://www.dropbox.com/scl/fi/i0zs3823l2uotqmw8s0c9/Alex-We-Used-To-See-Mix-4-Guitar-No-Verb.wav?rlkey=aeyvn0cl1p4yzs0y35dhjk0uy&st=f3o3rtvh&dl=0 [05:45] ( file password: Kave.transmission)\nBudget: $1400 - $2800\nTarget delivery: February 2027 \nIf this sounds like your kind of project, please send one or two examples that show how you work with movement and music, along with a qu",
-      "vista": "2026-11-25T15:25:06.533Z",
-      "carta": {
-        "decision": "enviar",
-        "motivo": "Videoclip de motion design y animación al ritmo de la música, remoto y con buen presupuesto: encaja con su trabajo de motion y cine.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi Alex,\nFaces emerging from TV static and waveforms moving with the guitars, in sunset colours, is a strong core for We Used To See.\nTwo examples of how I work with movement and music:\nhttps://www.behance.net/gallery/254628055/Generative-MotionAI-Visual-Art-Cinematic-Storytelling\nhttps://www.behance.net/gallery/254527569/Where-Imagination-Becomes-Real-AI-Cinematic-Short\nI'm Leo, creative director at LeoVisual.nl. I'd handle motion design, animation and edit: map your storyboard to the track, build the distressed textures and silhouettes, then cut every move to the guitars, final 16:9 render.\n2800 USD, 50% upfront, 2 rounds of changes, delivered by February 2027.\nWhich scene from the treatment would you like to see first as a style test?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 2800,
-        "anticipoPct": 50,
-        "plazo": "hasta febrero de 2027",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1138,
-          "salida": 1495,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.058787,
-        "generada": "2026-11-25T15:25:05.439Z"
       }
     }
   ]
