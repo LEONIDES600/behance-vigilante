@@ -1,6 +1,26 @@
 {
-  "actualizado": "2026-11-28T16:24:46.454Z",
+  "actualizado": "2026-11-28T17:24:00.962Z",
   "ofertas": [
+    {
+      "id": "576547",
+      "tipo": "FREELANCE",
+      "titulo": "Brand Identity Signature Packaging for a Luxury Flower Gifting Brand",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/freelance/576547/Brand-Identity-Signature-Packaging-for-a-Luxury-Flower-Gifting-Brand",
+      "encaje": "medio",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-28T17:24:00.962Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "576533",
       "tipo": "FREELANCE",
@@ -3212,26 +3232,6 @@
       "presupuesto": "",
       "enlace": "https://www.behance.net/joblist/fulltime/372821/Visual-Designer",
       "encaje": "medio",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-25T18:58:43.798Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
-      }
-    },
-    {
-      "id": "372813",
-      "tipo": "FULLTIME",
-      "titulo": "Video Editor Videographer",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372813/Video-Editor-Videographer",
-      "encaje": "alto",
       "ubicacion": "",
       "empresa": "",
       "contacto": "",
