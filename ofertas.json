@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-28T15:25:46.443Z",
+  "actualizado": "2026-11-28T16:24:46.454Z",
   "ofertas": [
+    {
+      "id": "576533",
+      "tipo": "FREELANCE",
+      "titulo": "illustration for book",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576533/illustration-for-book",
+      "encaje": "alto",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Maisa Bom jesus",
+      "solicitantes": 1,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "Project overview\nI am developing an original children's picture book series for children aged 4–7, inspired by bedtime stories that my son and I have been creating together for almost a year.\nThe stories follow Iro, a six-year-old boy, and his dinosaur friends through humorous everyday situations, imaginative adventures and discoveries.\nThe objective is to establish a distinctive visual universe that can be consistently developed across multiple books.\n Illustration style\nI'm looking for a contemporary editorial illustration style with a handcrafted aesthetic, organic textures, vibrant colours and expressive characters. Something playful, artistic and timeless, rather than a conventional commercial cartoon style.\nI already have preliminary character concepts, personality descriptions and visual references.\n Key deliverables\n- Artistic direction and visual exploration.\n- Design and development of the main characters.\n- Character sheets with different poses, expressions",
+      "vista": "2026-11-28T16:24:46.454Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es ilustración infantil para un álbum ilustrado, con estética artesanal y hojas de personajes: es una especialidad de ilustrador que Leo no puede entregar con garantías.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "2–4 semanas",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 661,
+          "salida": 699,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.040959,
+        "generada": "2026-11-28T16:24:44.470Z"
+      }
+    },
     {
       "id": "576521",
       "tipo": "FREELANCE",
@@ -3193,26 +3232,6 @@
       "presupuesto": "",
       "enlace": "https://www.behance.net/joblist/fulltime/372813/Video-Editor-Videographer",
       "encaje": "alto",
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "",
-      "vista": "2026-11-25T18:58:43.798Z",
-      "carta": {
-        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
-        "sinDescripcion": true
-      }
-    },
-    {
-      "id": "372807",
-      "tipo": "FULLTIME",
-      "titulo": "3D Designer for Interior",
-      "presupuesto": "",
-      "enlace": "https://www.behance.net/joblist/fulltime/372807/3D-Designer-for-Interior",
-      "encaje": "medio",
       "ubicacion": "",
       "empresa": "",
       "contacto": "",
