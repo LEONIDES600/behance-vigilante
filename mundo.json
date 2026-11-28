@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-27T23:17:53.514Z",
+  "actualizado": "2026-11-28T01:21:58.684Z",
   "ofertas": [
+    {
+      "id": "buzzmn/jobs/consultor-a-senior-de-gobierno-estrategia-y-regulacion-de-ia-remoto",
+      "tipo": "FULL_TIME",
+      "titulo": "Consultor/a Senior de Gobierno, Estrategia y Regulación de IA | Remoto",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/buzzmn/jobs/consultor-a-senior-de-gobierno-estrategia-y-regulacion-de-ia-remoto?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Spain",
+      "empresa": "knowmad mood",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "We are knowmad mood !\n Somos una compañía líder en transformación digital, en constante evolución y a la vanguardia de la tecnología.\n Formado por más de 3.000 personas creativas, digitales e innovadoras conectadas a un propósito y capaces de generar conexiones con personas de todo el mundo. Un equipo responsable, flexible y con alta capacidad de adaptación a las necesidades de nuestros clientes y del mercado, a la vez que proporciona valor, visión, creatividad, expertise, profesionalidad y pasión por la tecnología en cada proyecto.\n En knowmad mood buscamos incorporar un/a Consultor/a Especialista en Gobierno, Estrategia y Regulación de la IA para colaborar en un proyecto de un cliente del sector público , apoyando la implantación, supervisión y evolución de su modelo de gobierno de la In",
+      "vista": "2026-11-28T01:21:58.684Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Es consultoría senior de gobierno y regulación de IA (EU AI Act). Exige 6 años en TIC, 3 en IA o estrategia digital, un título TIC y reuniones presenciales puntuales: no encaja con el perfil creativo de Leo.",
+        "categoria": "OTRO",
+        "idioma": "es",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1840,
+          "salida": 455,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.040795,
+        "generada": "2026-11-28T01:21:57.668Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "someventure-gmbh/jobs/product-owner-ki-produkte-digital-ai-services",
       "tipo": "FULL_TIME",
@@ -3946,46 +3986,6 @@
         },
         "costeUSD": 0.0612334,
         "generada": "2026-11-24T07:15:04.633Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "sagan-recruitment/jobs/graphic-designer-plggd008",
-      "tipo": "FULL_TIME",
-      "titulo": "Graphic Designer- PLGGD008",
-      "presupuesto": "1800–3200 USD/año",
-      "enlace": "https://himalayas.app/companies/sagan-recruitment/jobs/graphic-designer-plggd008?utm_source=api",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "Romania",
-      "empresa": "Sagan Recruitment",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "Job Title: General Graphic Designer\n Location: Remote (Ability to work within specified time zones as needed)\n Work Schedule: Flexible based on employers needs, typically Monday to Friday.\n Company Overview:\n Sagan is an exclusive membership community for top executives, founders, and CEOs seeking to hire and maximize the impact of international talent. We bridge the gap between global talent and US-based businesses, connecting candidates from vibrant regions like Latin America, the Philippines, India, Pakistan, Bangladesh, and Africa with leading American companies. Discover a world of career possibilities with Sagan.\n Position Overview\n We are seeking a talented General Graphic Designer to join our dynamic design team. In this role, you will work on a variety of design projects, includin",
-      "vista": "2026-11-24T01:04:25.737Z",
-      "carta": {
-        "decision": "descartar",
-        "motivo": "Piden residir en Rumanía y pagan 1.800–3.200 USD al año, muy por debajo de 8 USD/h.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1444,
-          "salida": 378,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.037671,
-        "generada": "2026-11-24T01:04:21.517Z"
       },
       "fuente": "himalayas"
     }
