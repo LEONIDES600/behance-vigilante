@@ -1,6 +1,46 @@
 {
-  "actualizado": "2026-11-28T15:46:11.472Z",
+  "actualizado": "2026-11-28T17:46:20.952Z",
   "ofertas": [
+    {
+      "id": "quickbase-inc/jobs/lead-product-designer",
+      "tipo": "FULL_TIME",
+      "titulo": "Lead Product Designer",
+      "presupuesto": "",
+      "enlace": "https://himalayas.app/companies/quickbase-inc/jobs/lead-product-designer?utm_source=api",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "Bulgaria",
+      "empresa": "QuickBase Inc.",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "At Quickbase, we help organizations build better ways to run their operations. Our products give teams the flexibility to create applications around how their work actually happens, connecting people, information, and processes so they can keep work moving as needs change.\nFor more than 25 years, organizations have turned to Quickbase to solve operational challenges that off-the-shelf software wasn't built for. Today, we’re building on that foundation with new products and new possibilities for how people create, adapt, and improve the systems their work depends on.\nWorking at Quickbase means helping find better ways forward. We’re a team of curious, collaborative people who care about solving problems, learning as we go, and building things that make work better for our customers and each",
+      "vista": "2026-11-28T17:46:20.952Z",
+      "carta": {
+        "decision": "descartar",
+        "motivo": "Puesto senior con base en Sofía (Bulgaria) que exige 5+ años de diseño de producto B2B SaaS y productos de IA ya lanzados; Leo no cumple esos requisitos.",
+        "categoria": "OTRO",
+        "idioma": "en",
+        "carga": "alta",
+        "texto": "",
+        "precioUSD": null,
+        "anticipoPct": null,
+        "plazo": "",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 1494,
+          "salida": 397,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.038251,
+        "generada": "2026-11-28T17:46:20.002Z"
+      },
+      "fuente": "himalayas"
+    },
     {
       "id": "oceans/jobs/ai-systems-business-operations-lead",
       "tipo": "FULL_TIME",
@@ -3958,46 +3998,6 @@
         },
         "costeUSD": 0.069447,
         "generada": "2026-11-26T08:21:33.384Z"
-      },
-      "fuente": "himalayas"
-    },
-    {
-      "id": "institute-for-human-rights-and-business/jobs/video-editor-just-stories-practitioner-film-series-request-for-proposals",
-      "tipo": "CONTRACTOR",
-      "titulo": "Video Editor: JUST Stories practitioner film series (Request for Proposals)",
-      "presupuesto": "",
-      "enlace": "https://himalayas.app/companies/institute-for-human-rights-and-business/jobs/video-editor-just-stories-practitioner-film-series-request-for-proposals?utm_source=api",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Brazil, Canada, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Curaçao, Dominica, Dominican Republic, Ecuador, El Salvador, Falkland Islands (Malvinas), French Guiana, Greenland, Grenada, Guadeloupe, Guatemala, Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Barthélemy, Saint Kitts and Nevis, Saint Lucia, Saint Martin (French part), Saint Pierre and Miquelon, Saint Vincent and the Grenadines, Sint Maarten (Dutch part), Suriname, Trinidad and Tobago, Turks and Caicos Islands, United States, United States Minor Outlying Islands, Uruguay, Venezuela, Virgin Islands, British, Virgin Islands, U.S.",
-      "empresa": "Institute for Human Rights and Business",
-      "contacto": "",
-      "solicitantes": null,
-      "cierraEnDias": null,
-      "dondeSolicitar": "",
-      "descripcion": "At a glance\n Role: Video editor and post-production partner (freelancer, small team or agency)\n Reporting to: Business Engagement Lead, JUST Stories, IHRB\n Location: Remote. We particularly welcome applicants based within ±7 hours of UTC−6 (e.g. the Americas).\n Working hours: Regular overlap with UTC−6 for team calls, plus occasional calls at times that suit contributors in other regions (e.g. Western Australia, UTC+8)\n Scope: Editing and post-production for a paid pilot (Collie) and up to seven films in total, including recording guidance for IHRB's in-house filming. Filming and platform development are not included.\n Duration: Phased, from January 2027 to 30 June 2028\n Budget: IHRB will accept proposals between £20,000-£30,000 in total, including the pilot, all seven films, translation a",
-      "vista": "2026-11-26T08:22:33.415Z",
-      "carta": {
-        "decision": "espera",
-        "motivo": "Encaja como edición de vídeo, pero es una convocatoria formal de 18 meses que pide propuesta con presupuesto total y está orientada a la franja horaria de América.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nSeven films where the teachers stay in focus, in 4–6 minute chapters that stand alone and keep doubt and mistakes in: that depends on editing, not polished footage.\nI'm Leo, creative director at LeoVisual.nl, and I can join your UTC−6 calls.\nA short film I made, from story to edit and sound:\nhttps://www.behance.net/gallery/254527569/Where-Imagination-Becomes-Real-AI-Cinematic-Short\nMy approach: a short iPhone recording guide, test-recording review, timestamped outlines, then chapter cuts checked against each contributor's meaning.\nBefore you commit, I'll cut one sample chapter from your archive footage.\nBudget within your £20,000–30,000 range, 50% upfront per phase, 2 rounds of changes.\nCould you share a test recording or archive clip for that sample?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "Es una convocatoria formal de enero 2027 a junio 2028, abierta solo a países de América en la web: ¿quieres presentarte? Si sí, ¿qué cifra total propones entre 20.000 y 30.000 £ (incluye traducción y subtítulos) y te va bien tener llamadas por la tarde-noche en Ámsterdam?",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1997,
-          "salida": 2878,
-          "cacheLeida": 4867,
-          "cacheEscrita": 0
-        },
-        "costeUSD": 0.0665214,
-        "generada": "2026-11-26T08:22:04.754Z"
       },
       "fuente": "himalayas"
     }
