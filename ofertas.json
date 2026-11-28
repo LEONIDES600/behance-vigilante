@@ -1,6 +1,66 @@
 {
-  "actualizado": "2026-11-28T09:25:36.139Z",
+  "actualizado": "2026-11-28T12:07:24.041Z",
   "ofertas": [
+    {
+      "id": "373511",
+      "tipo": "FULLTIME",
+      "titulo": "Videographer And Video Editor",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/373511/Videographer-And-Video-Editor",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-28T12:07:24.041Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "373507",
+      "tipo": "FULLTIME",
+      "titulo": "Video Editor",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/373507/Video-Editor",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-28T12:07:24.041Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
+    {
+      "id": "357405",
+      "tipo": "FULLTIME",
+      "titulo": "Video Editor India",
+      "presupuesto": "",
+      "enlace": "https://www.behance.net/joblist/fulltime/357405/Video-Editor-India",
+      "encaje": "alto",
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "",
+      "solicitantes": null,
+      "cierraEnDias": null,
+      "dondeSolicitar": "",
+      "descripcion": "",
+      "vista": "2026-11-28T12:07:24.041Z",
+      "carta": {
+        "error": "sin descripción (no se pudo leer la ficha): la carta se escribe con la ficha real",
+        "sinDescripcion": true
+      }
+    },
     {
       "id": "576417",
       "tipo": "FREELANCE",
@@ -3162,123 +3222,6 @@
         },
         "costeUSD": 0.058787,
         "generada": "2026-11-25T15:25:05.439Z"
-      }
-    },
-    {
-      "id": "575305",
-      "tipo": "FREELANCE",
-      "titulo": "Cinematic 3D Christmas Animations, Commercials, and Storytelling Videos",
-      "presupuesto": "250–500 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575305/Cinematic-3D-Christmas-Animations-Commercials-and-Storytelling-Videos",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "CREATIVE VISION 3D STUDIO",
-      "contacto": "prime lead",
-      "solicitantes": 8,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "I need a professional 3D animator and AI video creator to produce high-quality cinematic Christmas animations, romantic Christmas videos, product commercials, promotional advertisements, and engaging 3D animated storytelling videos. I need expertise in realistic character animation, lip-syncing, visual effects, and professional video production.\n– High-quality cinematic 3D Christmas and romantic Christmas videos\n– 3D animated product commercials and promotional advertisements\n– Storytelling videos featuring realistic character animation, lip-syncing, and visual effects\nProfessional 3D animators and AI video creators with expertise in realistic character animation, lip-syncing, visual effects, and professional video production.\nCinematic, high-quality, realistic, romantic, and visually engaging.\nThe work covers both seasonal Christmas content and promotional/commercial video projects, with an emphasis on cinematic production quality.",
-      "vista": "2026-11-25T14:25:25.860Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Encaja en vídeo cinematográfico con IA, pero piden animación 3D de personajes, sincronización labial y efectos visuales que no están en el portfolio: se ofrece una prueba corta.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "alta",
-        "texto": "Hi!\nRomantic Christmas stories and product commercials need the same thing: cinematic light, believable characters and a clear emotional beat.\nAs creative director at LeoVisual.nl, I directed this cinematic AI short:\nhttps://www.behance.net/gallery/254527569/Where-Imagination-Becomes-Real-AI-Cinematic-Short\nHow I'd do it: script and storyboard, consistent characters in Kling and Seedance, lip-sync and VFX, then edit and sound in Premiere and After Effects.\nBefore you pay anything, I'll send you a 5-second test of a Christmas couple scene.\n500 USD, 50% upfront, delivery in 2–4 weeks, 2 rounds of changes.\nWhich comes first: a romantic Christmas story or a product commercial?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 500,
-        "anticipoPct": 50,
-        "plazo": "2–4 semanas",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 708,
-          "salida": 2054,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.068247,
-        "generada": "2026-11-25T14:25:25.153Z"
-      }
-    },
-    {
-      "id": "575283",
-      "tipo": "FREELANCE",
-      "titulo": "Freelance Graphic Designer Needed",
-      "presupuesto": "100–250 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575283/Freelance-Graphic-Designer-Needed",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "Emotion Event Management",
-      "contacto": "Luna Schlesser",
-      "solicitantes": 4,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "JOB DESCRIPTION\nFreelance Graphic Designer – European Institutions & Events\nCompany: Emotion Event Management Location: Luxembourg / Remote work possible depending on projects Contract Type: Freelance – Project-based assignments or ongoing collaboration\nAbout Emotion Event Management\nEmotion Event Management is an event management agency, specialising in the design, organisation and coordination of professional, corporate and institutional events.As part of our ongoing projects, particularly those involving European institutions, we are looking for an experienced, creative and independent Freelance Graphic Designer to develop event-specific visual identities and adapt them across a wide range of print and digital communication materials.\nYour Role\nYour main responsibility will be to develop distinctive visual identities for events, based on the client’s existing brand guidelines, and adapt approved concepts across digital, print and event materials.You will work closely with our event management team from initial concept through to final artwork.\nKey Responsibilities:\nPropose and develop original creative concepts, key visuals and event-specific visual identities based on client briefs and brand guidelines. \nTranslate approved concepts across PowerPoint, print, digital and event applications. \nCreate professional PowerPoint templates, slide masters and presentation assets. \nDesign materials such as programmes, invitations, signage, stage/screen visuals, website banners and di",
-      "vista": "2026-11-25T13:25:40.324Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Identidad visual de eventos y plantillas de PowerPoint: es diseño gráfico remoto, pero Leo no tiene una pieza igual y piden un inglés excelente; se envía con una muestra.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi Luna!\nAn event identity built on an institution's existing guidelines has to stay consistent from the invitation to the stage screen and the PowerPoint master.\nClosest piece, a concept identity I designed and adapted across formats:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nHow I'd work: read the guidelines, propose one key visual, then adapt it to the programme, signage, banners and slides, with editable source files.\nBefore you pay anything, I'll send you one key visual mocked up on an invitation and a title slide.\nFirst project: 250 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich event comes first, and are its brand guidelines ready to share?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 250,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 1632,
-          "salida": 1641,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.063683,
-        "generada": "2026-11-25T13:25:39.497Z"
-      }
-    },
-    {
-      "id": "372985",
-      "tipo": "FULLTIME",
-      "titulo": "Amazon Listing & A+ Designer - Luxury Beauty & Fragrance",
-      "presupuesto": "0 USD/año",
-      "enlace": "https://www.behance.net/joblist/fulltime/372985/Amazon-Listing-A-Designer-Luxury-Beauty-Fragrance",
-      "encaje": "alto",
-      "remoto": true,
-      "ubicacion": "En cualquier lugar",
-      "empresa": "HealthLife NY",
-      "contacto": "E Green",
-      "solicitantes": 0,
-      "cierraEnDias": 30,
-      "dondeSolicitar": "Behance",
-      "descripcion": "We’re looking for an experienced designer to create premium Amazon listing images and A+ Content, with proven experience in beauty and luxury perfumes.\n High-quality creative work is essential. Your designs must meet each brand’s visual standards, with polished retouching, thoughtful layouts, and strong attention to detail. We need someone who can deliver the refined look expected from a luxury brand.\n We’ll provide raw product photography. You’ll research the brand, review its style and guidelines, and handle the creative process from concept to final delivery including retouching, image copy, layouts, and design.\n Each project includes 7 listing images and A+ Content that highlight the product’s benefits, fragrance notes, and unique selling points while maintaining a cohesive, premium brand feel across the catalog.\n You should understand Amazon’s image and A+ Content requirements and be comfortable developing creative concepts independently. There is potential for ongoing work across multiple products and brands.\n Please include in your application:\n Portfolio: Relevant Amazon listing images and A+ Content, preferably for beauty or luxury fragrances.\n Lead time: Your typical turnaround time per product.\n Cost: Your price for a set of 7 listing images, with A+ Content quoted separately. Specify what’s included and how many revisions you offer.",
-      "vista": "2026-11-25T12:38:10.568Z",
-      "carta": {
-        "decision": "espera",
-        "motivo": "Encaja con listings y A+ de Amazon, pero piden un precio cerrado por el set de 7 imágenes y otro aparte por el A+, y Leo no lo tiene definido.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nFor luxury fragrance, the 7 listing images and the A+ have to start from the brand's guidelines: polished retouching, refined layouts, and fragrance notes and USPs that stay cohesive across the whole catalog.\nI'm Leo, creative director at LeoVisual.nl. I've designed listing images, A+ content and video for a home brand selling on Amazon across several European countries.\nhttps://www.behance.net/gallery/251447375/Premium-Amazon-Listing-Design-for-Living-Logic\nMy process: brand research, concept, retouching of your raw photos, image copy and layouts, all to Amazon's image and A+ specs.\nBefore you pay anything, I'll send you one main image retouched and laid out for one of your fragrances.\nLead time: 7–10 days per product, 2 rounds of revisions included, 50% upfront. My rate is 25 USD/h, and I'll send a fixed quote for the 7 images and a separate one for the A+ once I see the first brief.\nWhich brand and fragrance would you like to start with?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": null,
-        "anticipoPct": null,
-        "plazo": "",
-        "pregunta": "¿Qué precio fijo en USD pones por el set de 7 imágenes de listing y cuál por el A+ de cada producto?",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 691,
-          "salida": 2204,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.071179,
-        "generada": "2026-11-25T12:37:50.107Z"
       }
     }
   ]
