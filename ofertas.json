@@ -1,6 +1,45 @@
 {
-  "actualizado": "2026-11-27T23:25:21.687Z",
+  "actualizado": "2026-11-28T05:25:48.264Z",
   "ofertas": [
+    {
+      "id": "576361",
+      "tipo": "FREELANCE",
+      "titulo": "Instagram Graphics for a Somatic Therapy and Harm Reduction Business",
+      "presupuesto": "100–250 USD",
+      "enlace": "https://www.behance.net/joblist/freelance/576361/Instagram-Graphics-for-a-Somatic-Therapy-and-Harm-Reduction-Business",
+      "encaje": "medio",
+      "remoto": true,
+      "ubicacion": "",
+      "empresa": "",
+      "contacto": "Caitlin Grant",
+      "solicitantes": 5,
+      "cierraEnDias": 14,
+      "dondeSolicitar": "",
+      "descripcion": "I need a designer to create Instagram graphics for my somatic therapy and harm reduction business. The visuals should support clear, engaging social-media communication for my services and audience.\n– Instagram-ready branded graphic designs for somatic therapy and harm reduction content\n– Editable source files for the completed social media graphics",
+      "vista": "2026-11-28T05:25:48.264Z",
+      "carta": {
+        "decision": "enviar",
+        "motivo": "Gráficos de Instagram con marca y archivos editables: encaja con el diseño para redes, y el presupuesto llega a 250 USD.",
+        "categoria": "CREATIVO",
+        "idioma": "en",
+        "carga": "media",
+        "texto": "Hi Caitlin,\n\nSomatic therapy and harm reduction content needs visuals that feel calm and safe, while keeping each message clear for your audience.\nI'm Leo, creative director at LeoVisual.nl.\nMy plan: set up a simple branded system (colours, type, layouts for tips, quotes and service posts), design the graphics in Instagram formats, and hand over editable source files so you can reuse them.\nBefore you pay anything, I'll send you one sample post on a harm reduction topic you choose.\nPrice: 250 USD, 50% upfront, delivery in 7–10 days, 2 rounds of changes.\nHow many graphics do you need, and do you already have brand colours and a logo?\n\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
+        "precioUSD": 250,
+        "anticipoPct": 50,
+        "plazo": "7–10 días",
+        "pregunta": "",
+        "avisos": [],
+        "modelo": "claude-opus-5-5",
+        "tokens": {
+          "entrada": 491,
+          "salida": 1214,
+          "cacheLeida": 0,
+          "cacheEscrita": 4867
+        },
+        "costeUSD": 0.050579,
+        "generada": "2026-11-28T05:25:47.079Z"
+      }
+    },
     {
       "id": "576307",
       "tipo": "FREELANCE",
@@ -3240,45 +3279,6 @@
         },
         "costeUSD": 0.0147894,
         "generada": "2026-11-25T12:26:06.920Z"
-      }
-    },
-    {
-      "id": "575247",
-      "tipo": "FREELANCE",
-      "titulo": "Supplement Brand Identity and Packaging Design",
-      "presupuesto": "2500–5000 USD",
-      "enlace": "https://www.behance.net/joblist/freelance/575247/Supplement-Brand-Identity-and-Packaging-Design",
-      "encaje": "medio",
-      "remoto": true,
-      "ubicacion": "",
-      "empresa": "",
-      "contacto": "kk kk",
-      "solicitantes": 16,
-      "cierraEnDias": 14,
-      "dondeSolicitar": "",
-      "descripcion": "We’re launching a supplement brand and looking for a designer to create a modern, premium visual identity and packaging system.\nScope:\nLogo design, typography, colour palette, brand guidelines, and one supplement bottle label with front and back artwork. Deliverables should include 3D mockups, print-ready files, and editable source files.\nWe’ll provide the product details, approved label copy, and manufacturer’s dieline. Please share relevant supplement packaging examples, your estimated timeline, and quotation.",
-      "vista": "2026-11-25T11:25:09.111Z",
-      "carta": {
-        "decision": "dudosa",
-        "motivo": "Branding y packaging de suplemento con buen presupuesto; no hay pieza igual, así que se ofrece una muestra antes de cobrar.",
-        "categoria": "CREATIVO",
-        "idioma": "en",
-        "carga": "media",
-        "texto": "Hi!\nA premium supplement launch needs the logo, palette and bottle label to work as one system, and building the label on your manufacturer's dieline keeps it print-ready from day one.\nClosest example, a concept identity and packaging I designed:\nhttps://www.behance.net/gallery/258755737/Sun-Tea-Brand-Identity-Packaging-SESTEO-(Concept)\nBefore you pay anything, I'll send you one logo direction mocked up on your supplement bottle.\nPlan: 2–3 logo directions, then typography, palette and guidelines, then front and back label on your dieline, 3D mockups, print-ready and editable files.\n5000 USD, 50% upfront, 7–10 days, 2 rounds of changes.\nWhich feeling should the brand have: clinical and science-led, or natural and wellness?\nbehance.net/leostudiocreative · leovisual.nl\nLeo Gómez · LeoVisual.nl",
-        "precioUSD": 5000,
-        "anticipoPct": 50,
-        "plazo": "7–10 días",
-        "pregunta": "",
-        "avisos": [],
-        "modelo": "claude-opus-5-5",
-        "tokens": {
-          "entrada": 558,
-          "salida": 1247,
-          "cacheLeida": 0,
-          "cacheEscrita": 4867
-        },
-        "costeUSD": 0.051507,
-        "generada": "2026-11-25T11:25:08.050Z"
       }
     }
   ]
